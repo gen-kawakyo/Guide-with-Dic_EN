@@ -356,7 +356,7 @@
 
         async function loadDictionary() {
             try {
-                const res = await fetch('/Hwg_A-Z_junior.json');
+                const res = await fetch('Hwg_A-Z_junior.json');
                 if (res.ok) {
                     const data = await res.json();
                     handleDictionaryData(data);
