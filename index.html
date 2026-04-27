@@ -165,7 +165,7 @@
         
         <div id="study-controls" class="hidden flex items-center justify-end px-2 py-1 gap-4">
             <label class="flex items-center gap-2 cursor-pointer transition-all active:scale-95 bg-[#073d88]/5 text-[#073d88] px-2 py-1 rounded-lg">
-                <i data-lucide="book" class="w-3 h-3"></i>
+                <i data-lucide="book" class="w-3.3 h-3.3"></i>
                 <span class="text-[9px] font-bold uppercase tracking-wider">Dict</span>
                 <input type="file" id="dict-file-input" accept=".json" class="hidden">
             </label>
@@ -338,6 +338,7 @@
         function init() {
             loadInternalData();
             loadDictionary();
+            setMode(currentMode);
         }
 
         function handleDictionaryData(data) {
@@ -355,19 +356,63 @@
         }
 
         async function loadDictionary() {
-            try {
-                const res = await fetch('Hwg_A-Z_junior.json');
-                if (res.ok) {
-                    const data = await res.json();
-                    handleDictionaryData(data);
-                }
-            } catch (e) { console.warn("Dictionary auto-load skipped."); }
+            const paths = ['Hwg_A-Z_junior.json', './Hwg_A-Z_junior.json', 'guidedata/Hwg_A-Z_junior.json'];
+            for (const path of paths) {
+                try {
+                    const res = await fetch(path);
+                    if (res.ok) {
+                        const data = await res.json();
+                        handleDictionaryData(data);
+                        console.log("Dictionary auto-loaded from:", path);
+                        return;
+                    }
+                } catch (e) {}
+            }
+            console.warn("Dictionary auto-load failed (local mode or file missing).");
         }
 
         function searchDictionary(word) {
             const cleanWord = word.toLowerCase().trim().replace(/[.,!?;:()]/g, '');
-            const entries = dictionary[cleanWord];
-            displayDictionaryResults(cleanWord, entries);
+            
+            // Try exact match first
+            if (dictionary[cleanWord]) {
+                displayDictionaryResults(cleanWord, dictionary[cleanWord]);
+            } else {
+                // Heuristics for lemmatization
+                const candidates = [];
+                if (cleanWord.endsWith('ies') && cleanWord.length > 3) candidates.push(cleanWord.slice(0, -3) + 'y');
+                if (cleanWord.endsWith('es') && cleanWord.length > 3) candidates.push(cleanWord.slice(0, -2));
+                if (cleanWord.endsWith('s') && cleanWord.length > 2) candidates.push(cleanWord.slice(0, -1));
+                
+                if (cleanWord.endsWith('ed') && cleanWord.length > 3) {
+                    candidates.push(cleanWord.slice(0, -2)); // played -> play
+                    candidates.push(cleanWord.slice(0, -1)); // danced -> dance
+                    if (cleanWord.length > 5 && cleanWord[cleanWord.length-3] === cleanWord[cleanWord.length-4]) {
+                        candidates.push(cleanWord.slice(0, -3)); // stopped -> stop
+                    }
+                }
+                
+                if (cleanWord.endsWith('ing') && cleanWord.length > 4) {
+                    candidates.push(cleanWord.slice(0, -3)); // playing -> play
+                    candidates.push(cleanWord.slice(0, -3) + 'e'); // making -> make
+                    if (cleanWord.length > 6 && cleanWord[cleanWord.length-4] === cleanWord[cleanWord.length-5]) {
+                        candidates.push(cleanWord.slice(0, -4)); // running -> run
+                    }
+                }
+
+                let found = false;
+                for (const cand of candidates) {
+                    if (dictionary[cand]) {
+                        displayDictionaryResults(cand, dictionary[cand], cleanWord);
+                        found = true;
+                        break;
+                    }
+                }
+
+                if (!found) {
+                    displayDictionaryResults(cleanWord, null);
+                }
+            }
             document.getElementById('dictionary-panel').classList.remove('translate-x-full');
         }
 
@@ -375,7 +420,7 @@
             document.getElementById('dictionary-panel').classList.add('translate-x-full');
         }
 
-        function displayDictionaryResults(word, entries) {
+        function displayDictionaryResults(word, entries, original = null) {
             const container = document.getElementById('dictionary-results');
             if (!entries || entries.length === 0) {
                 container.innerHTML = `
@@ -389,9 +434,17 @@
                 return;
             }
 
-            const enrich = (text) => text.replace(/\b([a-zA-Z']+)\b/g, '<span class="cursor-pointer hover:text-blue-600 transition-colors underline decoration-transparent hover:decoration-blue-400/30" onclick="searchDictionary(\'$1\'); event.stopPropagation();">$1</span>');
+            const enrich = (text) => text.replace(/(<[^>]+>)|(\b[a-zA-Z']+\b)/g, (match, tag, word) => {
+                if (tag) return tag;
+                return `<span class="cursor-pointer hover:text-blue-600 transition-colors underline decoration-transparent hover:decoration-blue-400/30" onclick="searchDictionary('${word}'); event.stopPropagation();">${word}</span>`;
+            });
 
             let html = `<div class="space-y-12">`;
+            
+            if (original) {
+                html += `<p class="text-[9px] font-bold opacity-30 uppercase tracking-widest mb-4">Results for "${word}" (derived from "${original}")</p>`;
+            }
+
             entries.forEach(entry => {
                 html += `
                     <div class="space-y-4 animate-fade-in">
@@ -556,7 +609,7 @@
             renderContent();
         }
 
-        // --- Data Fusion (Same as PC) ---
+        // --- Data Fusion ---
         function mergeData(newData) {
             if (!newData) return;
             if (Array.isArray(newData)) {
@@ -627,15 +680,12 @@
         }
 
         async function loadInternalData() {
-            // 初期データの自動読み込みは最小限に。
-            // ユーザーがHome画面から選択した時に読み込むため、ここではNaviの更新のみ。
             updateNaviPage();
             initPortal();
         }
 
         // --- UI Rendering ---
 
-        // --- UI Rendering Helpers ---
         function generateBlockHtml(uId, pId, isNavi = false) {
             const unit = appData.units[uId];
             const part = unit.parts[pId];
@@ -676,8 +726,6 @@
             let html = '';
             unitIds.forEach(uId => {
                 const unit = appData.units[uId];
-                
-                // Find unit level part if it exists to render as main block
                 const unitPartId = Object.keys(unit.parts).find(pId => {
                     const lowP = pId.toLowerCase();
                     const lowU = uId.toLowerCase();
@@ -713,21 +761,6 @@
             });
             list.innerHTML = html;
             lucide.createIcons();
-        }
-
-        function selectUnit(uId) {
-            const unit = appData.units[uId];
-            if (!unit) return;
-            const unitPartId = Object.keys(unit.parts).find(pId => {
-                const lowP = pId.toLowerCase();
-                const lowU = uId.toLowerCase();
-                return lowP === lowU || lowP === `unit${lowU}`;
-            });
-            if (unitPartId) selectPart(uId, unitPartId);
-            else {
-                const firstPart = Object.keys(unit.parts).sort()[0];
-                if (firstPart) selectPart(uId, firstPart);
-            }
         }
 
         function selectPart(uId, pId) { 
@@ -766,7 +799,10 @@
                     
                     let contentHtml = parseMarkdown(text);
                     if (key === 'en' || key === 'headword' || key === 'example_en' || key === 'main') {
-                        contentHtml = contentHtml.replace(/\b([a-zA-Z']+)\b/g, '<span class="cursor-pointer hover:text-blue-600 transition-colors underline decoration-transparent hover:decoration-blue-400/30" onclick="searchDictionary(\'$1\'); event.stopPropagation();">$1</span>');
+                        contentHtml = contentHtml.replace(/(<[^>]+>)|(\b[a-zA-Z']+\b)/g, (match, tag, word) => {
+                            if (tag) return tag;
+                            return `<span class="cursor-pointer hover:text-blue-600 transition-colors underline decoration-transparent hover:decoration-blue-400/30" onclick="searchDictionary('${word}'); event.stopPropagation();">${word}</span>`;
+                        });
                     }
 
                     html += `<p style="${getItemStyleString(key)}" class="transition-all ${hidden}" onclick="if(this.classList.contains('study-hidden')) { event.stopPropagation(); this.classList.toggle('revealed'); }">${key.startsWith('note') ? '※ ' : ''}${contentHtml}</p>`;
@@ -774,10 +810,14 @@
             if (item.main || item.sub) {
                 html += `<div class="${isHorizontal ? 'inline-flex items-baseline ml-2' : 'mt-1'}">`;
                 if (item.main) {
-                    const mainHtml = item.main.replace(/\b([a-zA-Z']+)\b/g, '<span class="cursor-pointer hover:text-blue-600 transition-colors underline decoration-transparent hover:decoration-blue-400/30" onclick="searchDictionary(\'$1\'); event.stopPropagation();">$1</span>');
+                    let mainHtml = parseMarkdown(item.main);
+                    mainHtml = mainHtml.replace(/(<[^>]+>)|(\b[a-zA-Z']+\b)/g, (match, tag, word) => {
+                        if (tag) return tag;
+                        return `<span class="cursor-pointer hover:text-blue-600 transition-colors underline decoration-transparent hover:decoration-blue-400/30" onclick="searchDictionary('${word}'); event.stopPropagation();">${word}</span>`;
+                    });
                     html += `<span style="${getItemStyleString('text')}" class="font-bold">${mainHtml}</span>`;
                 }
-                if (item.sub) html += `<span style="${getItemStyleString('note')}" class="opacity-60 ml-2">${item.sub}</span>`;
+                if (item.sub) html += `<span style="${getItemStyleString('note')}" class="opacity-60 ml-2">${parseMarkdown(item.sub)}</span>`;
                 html += `</div>`;
             }
             html += `</div></div>`;
@@ -808,7 +848,6 @@
             const part = unit.parts[selectedPartId];
             if (!part) return;
 
-            // Generate header visually matching NAVI blocks
             const headerBlock = generateBlockHtml(selectedUnitId, selectedPartId, false);
 
             if (currentView === 'text') {
@@ -850,7 +889,10 @@
                 const vocab = part.vocab || [];
                 document.getElementById('vocab-header').innerHTML = headerBlock;
                 document.getElementById('word-list').innerHTML = vocab.map(w => {
-                    const headwordHtml = w.headword.replace(/\b([a-zA-Z']+)\b/g, '<span class="cursor-pointer hover:text-blue-600 transition-colors underline decoration-transparent hover:decoration-blue-400/30" onclick="searchDictionary(\'$1\'); event.stopPropagation();">$1</span>');
+                    const headwordHtml = w.headword.replace(/(<[^>]+>)|(\b[a-zA-Z']+\b)/g, (match, tag, word) => {
+                        if (tag) return tag;
+                        return `<span class="cursor-pointer hover:text-blue-600 transition-colors underline decoration-transparent hover:decoration-blue-400/30" onclick="searchDictionary('${word}'); event.stopPropagation();">${word}</span>`;
+                    });
                     return `
                     <div class="p-4 bg-white rounded-2xl border border-[#1A1A1A]/5 flex justify-between shadow-sm">
                         <div class="space-y-1">
@@ -859,7 +901,7 @@
                         </div>
                         <div class="text-right flex flex-col justify-center gap-1">
                             <span class="text-[9px] px-2 py-0.5 rounded bg-slate-50 font-sans w-fit ml-auto transition-all ${!showMeanings && currentMode === 'study' ? 'study-hidden' : ''}">${w.pos || ''}</span>
-                            <p class="text-[13px] font-bold jp-serif transition-all ${!showMeanings && currentMode === 'study' ? 'study-hidden' : ''}" onclick="this.classList.toggle('revealed')">${w.meaning}</p>
+                            <p class="text-[13px] font-bold jp-serif transition-all ${!showMeanings && currentMode === 'study' ? 'study-hidden' : ''}" onclick="this.classList.toggle('revealed')">${parseMarkdown(w.meaning)}</p>
                         </div>
                     </div>
                 `;
@@ -889,10 +931,18 @@
 
         // Helpers
         function getExplanation(id) {
-            const part = appData.units[selectedUnitId]?.parts[selectedPartId];
-            if (!part) return null;
-            if (part.explanations?.[id]) return part.explanations[id];
-            return part.content_blocks?.find(b => b.type === 'explanation_list')?.items?.find(i => i.id === id)?.text;
+            if (!selectedUnitId) return null;
+            const unit = appData.units[selectedUnitId];
+            if (!unit || !unit.parts) return null;
+            
+            // Search across all parts in the current unit
+            for (const partId in unit.parts) {
+                const part = unit.parts[partId];
+                if (part.explanations?.[id]) return part.explanations[id];
+                const blockExp = part.content_blocks?.find(b => b.type === 'explanation_list')?.items?.find(i => i.id === id)?.text;
+                if (blockExp) return blockExp;
+            }
+            return null;
         }
         function showExplanation(id) {
             const text = getExplanation(id);
@@ -951,7 +1001,6 @@
         document.getElementById('toggle-meanings').addEventListener('change', (e) => { showMeanings = e.target.checked; renderContent(); });
 
         init();
-        setMode(currentMode);
     </script>
 </body>
 </html>
