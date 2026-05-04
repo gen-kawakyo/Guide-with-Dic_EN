@@ -1,0 +1,3251 @@
+{
+  "type": "FULL_BACKUP",
+  "units": {
+    "G3-U4": {
+      "title": "Unit G3-U4",
+      "parts": {
+        "AP": {
+          "title": "AI Appendix: Unit 4 まとめ",
+          "views": {
+            "PART_APPENDIX": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "info_box",
+                  "header": "P1: 関係代名詞 which（もの・動物を説明）",
+                  "items": [
+                    {
+                      "tag": "Grammar",
+                      "text": "説明したい「もの」の直後に which を置いて、後ろにその説明文をつなげよう。which 自体が後ろの文の「主語」の役割をしているよ。",
+                      "en": "Smartphones ==**which**== respond to voice commands"
+                    }
+                  ]
+                },
+                {
+                  "type": "info_box",
+                  "header": "P2: 関係代名詞 who（人を説明）",
+                  "items": [
+                    {
+                      "tag": "Check",
+                      "text": "説明したい対象が「人」のときは who を使うよ。who の後ろにはすぐ動詞がくるのがポイント！",
+                      "en": "an uncle ==**who**== runs a Japanese restaurant"
+                    }
+                  ]
+                },
+                {
+                  "type": "info_box",
+                  "header": "P3: 万能な that（人にもものにも）",
+                  "items": [
+                    {
+                      "tag": "Point",
+                      "text": "that は who や which の代わりに使えるとても便利な言葉だよ。experience（経験）のような形のない言葉を説明するときもよく使われるよ。",
+                      "en": "a valuable experience ==**that**== will help us"
+                    }
+                  ]
+                }
+              ]
+            },
+            "UNIT_APPENDIX": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "info_box",
+                  "header": "AIサポーターの深掘り：関係代名詞のコツ",
+                  "items": [
+                    {
+                      "label": "先行詞を見つけよう",
+                      "text": "関係代名詞の「直前」にある名詞（先行詞）が人か、ものかを見極めるのが使い分けの第一歩！"
+                    },
+                    {
+                      "label": "後ろから訳そう",
+                      "text": "「〜するところの〇〇」のように、後ろから前に戻って訳すと日本語として自然になるよ。"
+                    }
+                  ]
+                },
+                {
+                  "type": "info_box",
+                  "header": "Unit 4 を終えた君へ",
+                  "items": [
+                    {
+                      "tag": "Bravo!",
+                      "text": "AIやロボットの進化、そして外国語学習の意義について、英語で深く考えることができたね！"
+                    },
+                    {
+                      "tag": "Message",
+                      "text": "関係代名詞をマスターすると、一文で伝えられる情報量が劇的に増えるよ。Let's Read 2 のような長い文章も、この「説明のカタマリ」を見つけられれば、パズルのように解き明かせるはず。自信を持って次のステップへ進もう！"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 0,
+          "hasAppendix": true
+        },
+        "DL3": {
+          "title": "Daily Life 3: レシピ",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G3_U4_DL3_W_01",
+                  "headword": "candy",
+                  "pronunciation": "/kǽndi/",
+                  "pos": "名",
+                  "meaning": "キャンディー、砂糖菓子"
+                },
+                {
+                  "id": "G3_U4_DL3_W_02",
+                  "headword": "recipe",
+                  "pronunciation": "/résəpi/",
+                  "pos": "名",
+                  "meaning": "レシピ、作り方"
+                },
+                {
+                  "id": "G3_U4_DL3_W_03",
+                  "headword": "sugar",
+                  "pronunciation": "/ʃúɡər/",
+                  "pos": "名",
+                  "meaning": "砂糖"
+                },
+                {
+                  "id": "G3_U4_DL3_W_04",
+                  "headword": "syrup",
+                  "pronunciation": "/sírəp/",
+                  "pos": "名",
+                  "meaning": "シロップ"
+                },
+                {
+                  "id": "G3_U4_DL3_W_05",
+                  "headword": "coloring",
+                  "pronunciation": "/kʌ́ləriŋ/",
+                  "pos": "名",
+                  "meaning": "着色料"
+                },
+                {
+                  "id": "G3_U4_DL3_W_06",
+                  "headword": "end",
+                  "pronunciation": "/énd/",
+                  "pos": "名",
+                  "meaning": "（細長い物の）端、先端"
+                },
+                {
+                  "id": "G3_U4_DL3_W_07",
+                  "headword": "stem(s)",
+                  "pronunciation": "/stém(z)/",
+                  "pos": "名",
+                  "meaning": "（果実などの）軸"
+                },
+                {
+                  "id": "G3_U4_DL3_W_08",
+                  "headword": "insert",
+                  "pronunciation": "/insə́ːrt/",
+                  "pos": "動",
+                  "meaning": "～を差し込む、挿入する"
+                },
+                {
+                  "id": "G3_U4_DL3_W_09",
+                  "headword": "stir",
+                  "pronunciation": "/stə́ːr/",
+                  "pos": "動",
+                  "meaning": "～をかき混ぜる"
+                },
+                {
+                  "id": "G3_U4_DL3_W_10",
+                  "headword": "boil",
+                  "pronunciation": "/bɔ́il/",
+                  "pos": "動",
+                  "meaning": "（～を）煮る、沸かす"
+                },
+                {
+                  "id": "G3_U4_DL3_W_11",
+                  "headword": "until",
+                  "pronunciation": "/əntíl, ænt-/",
+                  "pos": "接",
+                  "meaning": "～するまで（ずっと）"
+                },
+                {
+                  "id": "G3_U4_DL3_W_12",
+                  "headword": "thick",
+                  "pronunciation": "/θík/",
+                  "pos": "形",
+                  "meaning": "（液体が）濃い、どろっとした"
+                },
+                {
+                  "id": "G3_U4_DL3_W_13",
+                  "headword": "add(ing)",
+                  "pronunciation": "/ǽd(iŋ)/",
+                  "pos": "動",
+                  "meaning": "～を加える"
+                },
+                {
+                  "id": "G3_U4_DL3_W_14",
+                  "headword": "drop",
+                  "pronunciation": "/drάp/",
+                  "pos": "名",
+                  "meaning": "しずく、1滴"
+                },
+                {
+                  "id": "G3_U4_DL3_W_15",
+                  "headword": "dip",
+                  "pronunciation": "/díp/",
+                  "pos": "動",
+                  "meaning": "（液体に）～を（ちょっと）浸す"
+                },
+                {
+                  "id": "G3_U4_DL3_W_16",
+                  "headword": "roll",
+                  "pronunciation": "/róul/",
+                  "pos": "動",
+                  "meaning": "～を転がす"
+                },
+                {
+                  "id": "G3_U4_DL3_W_17",
+                  "headword": "baking sheet",
+                  "pronunciation": "/béikiŋ ʃìːt/",
+                  "pos": "名",
+                  "meaning": "（クッキーなどを焼くための平らな）鉄板"
+                },
+                {
+                  "id": "G3_U4_DL3_W_18",
+                  "headword": "Could you tell me how to ~?",
+                  "meaning": "～のしかたを教えていただけますか。"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "goal_section",
+                  "header": "Goal",
+                  "items": [
+                    {
+                      "tag": "Read",
+                      "text": "レシピから、必要な情報を読み取ることができる。"
+                    }
+                  ]
+                },
+                {
+                  "type": "context_section",
+                  "header": "目的・場面・状況",
+                  "text": "あなたは、おいしそうなハロウィンの伝統菓子の写真をSNSで見つけ、投稿に対してコメントしました。",
+                  "items": [
+                    {
+                      "id": "G3_U4_DL3_S_01",
+                      "speaker": "You",
+                      "en": "They look delicious! Could you tell me how to make them?",
+                      "ja": "美味しそう！ 作り方を教えていただけますか？"
+                    },
+                    {
+                      "id": "G3_U4_DL3_S_02",
+                      "speaker": "Mr. Green Apple",
+                      "en": "Thank you! Here is my recipe.",
+                      "ja": "ありがとう！ これが私のレシピです。"
+                    }
+                  ]
+                },
+                {
+                  "type": "recipe_section",
+                  "header": "【 Candy Apples 】 (リンゴあめ)",
+                  "label": "You will need ... (必要なものは……)",
+                  "items": [
+                    {
+                      "id": "G3_U4_DL3_I_01",
+                      "en": "12 apples",
+                      "ja": "リンゴ12個"
+                    },
+                    {
+                      "id": "G3_U4_DL3_I_02",
+                      "en": "12 sticks",
+                      "ja": "スティック12本"
+                    },
+                    {
+                      "id": "G3_U4_DL3_I_03",
+                      "en": "3 cups of sugar",
+                      "ja": "砂糖3カップ"
+                    },
+                    {
+                      "id": "G3_U4_DL3_I_04",
+                      "en": "a half cup of corn syrup",
+                      "ja": "コーンシロップ1/2カップ"
+                    },
+                    {
+                      "id": "G3_U4_DL3_I_05",
+                      "en": "1 cup of water",
+                      "ja": "水1カップ"
+                    },
+                    {
+                      "id": "G3_U4_DL3_I_06",
+                      "en": "toppings",
+                      "ja": "トッピング"
+                    },
+                    {
+                      "id": "G3_U4_DL3_I_07",
+                      "en": "red food coloring",
+                      "ja": "食紅"
+                    }
+                  ]
+                },
+                {
+                  "type": "recipe_steps",
+                  "header": "作り方の手順",
+                  "items": [
+                    {
+                      "id": "G3_U4_DL3_S_03",
+                      "ref_num": "1",
+                      "en": "Wash the apples and remove the stems.",
+                      "ja": "リンゴを洗い、軸を取り除く。"
+                    },
+                    {
+                      "id": "G3_U4_DL3_S_04",
+                      "ref_num": "2",
+                      "en": "Insert the sticks into the stem end of the apples.",
+                      "ja": "スティックをりんごの軸の方の端に差し込む。"
+                    },
+                    {
+                      "id": "G3_U4_DL3_S_05",
+                      "ref_num": "3",
+                      "en": "Make the sugar syrup: stir the sugar, corn syrup, and water together in a pot or a deep pan.",
+                      "ja": "シュガーシロップを作る：砂糖、コーンシロップ、水を鍋か深いフライパンにいっしょにして混ぜる。"
+                    },
+                    {
+                      "id": "G3_U4_DL3_S_06",
+                      "ref_num": "4",
+                      "en": "Boil the sugar syrup until it becomes thick.",
+                      "ja": "どろっとするまでシュガーシロップを煮詰める。"
+                    },
+                    {
+                      "id": "G3_U4_DL3_S_07",
+                      "ref_num": "5",
+                      "en": "Color by adding a few drops of food coloring.",
+                      "ja": "食紅を数滴加え色をつける。"
+                    },
+                    {
+                      "id": "G3_U4_DL3_S_08",
+                      "ref_num": "6",
+                      "en": "Dip the apples in the sugar syrup.",
+                      "ja": "シュガーシロップにリンゴを浸す。"
+                    },
+                    {
+                      "id": "G3_U4_DL3_S_09",
+                      "ref_num": "7",
+                      "en": "Roll the apples in the toppings and cool the apples on a baking sheet.",
+                      "ja": "トッピングの中でリンゴを転がして、鉄板の上で冷やす。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 97
+        },
+        "EX": {
+          "title": "Extra Story / 音声内容",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G3_U4_EX_W_01",
+                  "headword": "That's good.",
+                  "meaning": "それはよかった。"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "audio_section",
+                  "header": "Part 1 の音声内容 (p.83-84)",
+                  "label": "AI製品のコマーシャル",
+                  "items": [
+                    {
+                      "id": "G3_U4_EX_S_01",
+                      "speaker": "(1)",
+                      "en": "Dear restaurant managers, do you have enough staff in your restaurant?",
+                      "ja": "レストランの経営者の皆さん、あなたのレストランに十分なスタッフはいますか？"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_02",
+                      "speaker": "(1)",
+                      "en": "No? Good news! I'll introduce a robot which can help you.",
+                      "ja": "いませんって？ 朗報です！ あなたをお手伝いできるロボットをご紹介します。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_03",
+                      "speaker": "(1)",
+                      "en": "This is a delivery robot which is shaped like a cat.",
+                      "ja": "これはネコのような形をした配膳ロボットです。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_04",
+                      "speaker": "(1)",
+                      "en": "It can deliver food and drinks to a customer's table.",
+                      "ja": "料理や飲み物をお客様のテーブルまで運ぶことができます。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_05",
+                      "speaker": "(1)",
+                      "en": "Once the food is put on the tray, it'll be on its way. It goes to the table.",
+                      "ja": "トレイに料理が置かれると、進みます。テーブルへ行きます。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_06",
+                      "speaker": "(1)",
+                      "en": "The customer picks up the food and taps \"Done\" on the screen. It then goes back to the kitchen. It's easy, isn't it?",
+                      "ja": "お客様は料理を取って、画面の「完了」をタップします。すると、それは厨房に戻ります。簡単でしょう。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_07",
+                      "speaker": "(1)",
+                      "en": "With this robot, delivery will be easier than ever.",
+                      "ja": "このロボットを使えば、配膳はこれまでよりも簡単になるでしょう。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_08",
+                      "speaker": "(1)",
+                      "en": "The cat-like robot will attract your customers' attention for sure. Why don't you get one?",
+                      "ja": "ネコのようなロボットは、確実にお客様の注目を集めます。ぜひ1台、導入してみませんか？"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_09",
+                      "speaker": "(2)",
+                      "en": "What do you do when you want to know the meaning of an English word?",
+                      "ja": "英単語の意味を知りたいとき、あなたはどうしていますか？"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_10",
+                      "speaker": "(2)",
+                      "en": "Do you use a paper dictionary? Do you use your smartphone?",
+                      "ja": "紙の辞書を使っていますか？ スマートフォンを使っていますか？"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_11",
+                      "speaker": "(2)",
+                      "en": "Both take time. Did you know there's an easier and faster way?",
+                      "ja": "どちらも時間がかかりますよね。もっと簡単で速い方法があることをご存じでしたか？"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_12",
+                      "speaker": "(2)",
+                      "en": "It's a dictionary which is shaped like a pen.",
+                      "ja": "それは、ペンのような形をした辞書です。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_13",
+                      "speaker": "(2)",
+                      "en": "When you put it on an English word, it translates the word into Japanese and displays the translation on the screen.",
+                      "ja": "この辞書を英単語にかざすと、その単語を日本語に翻訳して、その訳を画面に表示します。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_14",
+                      "speaker": "(2)",
+                      "en": "It takes just a few seconds. You can also learn the pronunciation because it reads the word aloud in English.",
+                      "ja": "ほんの数秒しかかかりません。また、単語を英語で読み上げてくれるので、発音も学ぶことができます。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_15",
+                      "speaker": "(2)",
+                      "en": "I'm sure you'll be able to read English much more easily if you have this.",
+                      "ja": "これがあれば、きっとはるかにもっと楽に英語を読むことができるでしょう。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_16",
+                      "speaker": "(3)",
+                      "en": "What's a robot? Many people think it's a useful machine which helps them.",
+                      "ja": "ロボットとは何でしょうか？ それは自分を助けてくれる便利な機械のことだと、多くの人が思っています。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_17",
+                      "speaker": "(3)",
+                      "en": "But there's another type of robot which is popular these days.",
+                      "ja": "しかし、最近人気になっている、また違ったタイプのロボットがあります。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_18",
+                      "speaker": "(3)",
+                      "en": "This is a robot which has soft, warm skin. It's good for hugging.",
+                      "ja": "これは、柔らかく、温かい肌を持つロボットです。抱きしめるのによいです。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_19",
+                      "speaker": "(3)",
+                      "en": "It has friendly eyes and a friendly voice.",
+                      "ja": "親しみやすい目と人懐っこい声をしています。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_20",
+                      "speaker": "(3)",
+                      "en": "When you call its name, it answers and comes over to you.",
+                      "ja": "名前を呼ぶと、応答して近づいてきます。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_21",
+                      "speaker": "(3)",
+                      "en": "It doesn't help people with work, but it makes them feel better. It makes people feel happy.",
+                      "ja": "人々の仕事を手伝うわけではありませんが、彼らの気分をよくします。人々を幸せな気持ちにしてくれるのです。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_22",
+                      "speaker": "(3)",
+                      "en": "You can try playing with it at some department stores now. Why don't you get one for your family?",
+                      "ja": "現在、一部のデパートでそれと遊んでみることができます。家族のために1台いかがですか？"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_section",
+                  "header": "Part 2 の音声内容 (p.84-85)",
+                  "label": "新製品展示会の説明",
+                  "items": [
+                    {
+                      "id": "G3_U4_EX_S_23",
+                      "speaker": "(1)",
+                      "en": "Hello. Welcome to our booth. Today we're introducing our new product.",
+                      "ja": "こんにちは。私たちのブースへようこそ。今日は、新製品をご紹介します。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_24",
+                      "speaker": "(1)",
+                      "en": "This is a power assist suit for people who do farm work.",
+                      "ja": "これは、農作業をする方のためのパワーアシストスーツです。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_25",
+                      "speaker": "(1)",
+                      "en": "When you do farm work, sometimes you have to pick up and carry heavy things. That can hurt your back. This suit protects your back.",
+                      "ja": "農作業をするとき、重い物を持ち上げたり運んだりしなければならないことがありますよね。それで腰を痛めてしまうかもしれません。このスーツは、あなたの腰を守ってくれます。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_26",
+                      "speaker": "(1)",
+                      "en": "When you put it on, you can pick up heavy things easily.",
+                      "ja": "それを着ると、重いものを簡単に持ち上げることができます。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_27",
+                      "speaker": "(1)",
+                      "en": "For example, when you pick up a 30-kilogram basket, you'll feel like it's just 20 kilograms.",
+                      "ja": "たとえば、30キログラムのかごを持ち上げるとき、まるで20キログラムしかないように感じるでしょう。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_28",
+                      "speaker": "(1)",
+                      "en": "It's going to be very helpful for people who do farm work.",
+                      "ja": "農作業をする方にとって、それはとても役立つでしょう。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_29",
+                      "speaker": "(2)",
+                      "en": "Hello. Welcome to our booth. Today, we're introducing our new product.",
+                      "ja": "こんにちは。私たちのブースへようこそ。今日は、新製品をご紹介します。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_30",
+                      "speaker": "(2)",
+                      "en": "These devices will help people who are visually impaired.",
+                      "ja": "これらは、視覚に障害のある方を支援する装置です。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_31",
+                      "speaker": "(2)",
+                      "en": "Let me tell you how to use them. First, put the devices into your shoes.",
+                      "ja": "それらの使い方を説明させてください。まず、その装置を靴の中に入れてください。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_32",
+                      "speaker": "(2)",
+                      "en": "Second, set the route information on your smartphone.",
+                      "ja": "次に、スマートフォンでルート情報を設定してください。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_33",
+                      "speaker": "(2)",
+                      "en": "After that, the devices inside the shoes will guide you with vibrations.",
+                      "ja": "その後、靴の中の装置が振動であなたを案内します。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_34",
+                      "speaker": "(2)",
+                      "en": "Visually impaired people sometimes become nervous when they go outside.",
+                      "ja": "視覚に障害のある方は、外出するときに不安になることがあります。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_35",
+                      "speaker": "(2)",
+                      "en": "However, by using this product, they don't have to give up on going to any places that they want to visit.",
+                      "ja": "しかし、この製品を使うことで、訪れたいどんな場所に行くことも、あきらめる必要がなくなります。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_36",
+                      "speaker": "(2)",
+                      "en": "They're helpful for visually impaired people who want to walk alone.",
+                      "ja": "一人で歩きたい視覚障害者の方にとって、それらは有用です。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_37",
+                      "speaker": "(3)",
+                      "en": "Hello. Welcome to our booth. Today we're introducing our new robot.",
+                      "ja": "こんにちは。私たちのブースへようこそ。今日は、新しいロボットをご紹介します。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_38",
+                      "speaker": "(3)",
+                      "en": "This is a robot which speaks English. If you talk to it, it'll answer you in English. Let me show you.",
+                      "ja": "これは、英語を話すロボットです。話しかけると、英語で答えてくれます。披露させてくださいね。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_39",
+                      "speaker": "(3)",
+                      "en": "\"Where are you from?\" \"I'm from the future.\" What do you think? You may think it'll always say the same answer.",
+                      "ja": "「どこから来ましたか？」「私は未来から来ました。」どう思いますか？ いつも同じ答えを言うのだろうと思ってらっしゃるかもしれませんね。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_40",
+                      "speaker": "(3)",
+                      "en": "No. It gives different answers to each person who talks to it. Why? Because it has AI.",
+                      "ja": "違うんです。それに話しかける人それぞれに違う応答をするんです。なぜでしょうか。なぜなら、AIが搭載されているからです。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_41",
+                      "speaker": "(3)",
+                      "en": "It's just like talking with a real person.",
+                      "ja": "それは、本当の人間と話しているような感じです。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_42",
+                      "speaker": "(3)",
+                      "en": "This robot is small and looks cute, so children can put it on their desks and enjoy talking to it.",
+                      "ja": "このロボットは小さくて見た目もかわいらしいので、お子さんたちはそれを机の上に置いて、それに話しかけるのを楽しむことができます。"
+                    }
+                  ]
+                },
+                {
+                  "type": "extra_story_section",
+                  "header": "Extra Story (p.85)",
+                  "label": "叔父さんの日本料理屋",
+                  "items": [
+                    {
+                      "id": "G3_U4_EX_S_43",
+                      "speaker": "Kota",
+                      "en": "This is my uncle, Koji.",
+                      "ja": "叔父のコウジです。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_44",
+                      "speaker": "Koji",
+                      "en": "Welcome to my restaurant!",
+                      "ja": "私のレストランへようこそ！"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_45",
+                      "speaker": "Tina, Eri, and Hajin",
+                      "en": "Hello!",
+                      "ja": "こんにちは！"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_46",
+                      "speaker": "Koji",
+                      "en": "Here is an English menu for you.",
+                      "ja": "こちらが英語のメニューですよ。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_47",
+                      "speaker": "Tina",
+                      "en": "Thank you. Oh, this is nice.",
+                      "ja": "ありがとう。ああ、これはいいですね。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_48",
+                      "speaker": "Koji",
+                      "en": "Call me if you need anything, OK?",
+                      "ja": "何か必要だったら、私を呼んでね。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_49",
+                      "speaker": "Kota",
+                      "en": "OK.",
+                      "ja": "わかった。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_50",
+                      "speaker": "Eri",
+                      "en": "I thought he didn't speak English.",
+                      "ja": "英語は話せないと思ってた。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_51",
+                      "speaker": "Kota",
+                      "en": "Well, he started taking lessons.",
+                      "ja": "ええと、レッスンを受け始めたんだ。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_52",
+                      "speaker": "Tina",
+                      "en": "That's good. There are many foreign tourists in this area.",
+                      "ja": "それはいいね。このあたりは外国人観光客が多いから。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_53",
+                      "speaker": "Kota",
+                      "en": "Yes. He enjoys chatting with his customers, so he wants to learn to speak more English.",
+                      "ja": "うん。彼はお客さんとおしゃべりすることを楽しむから、もっと英語を話せるようになりたいと思っているんだ。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_54",
+                      "speaker": "Hajin",
+                      "en": "I'm hungry. Let's order!",
+                      "ja": "おなかがすいた。注文しよう！"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_section",
+                  "header": "Part 3 の音声内容 (p.86)",
+                  "label": "Which would you choose? ゲーム",
+                  "items": [
+                    {
+                      "id": "G3_U4_EX_S_55",
+                      "speaker": "Tina",
+                      "en": "Kota, let's play a game of \"Which would you choose?\"",
+                      "ja": "コウタ、「どっちを選ぶ？」のゲームをしましょうよ。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_56",
+                      "speaker": "Kota",
+                      "en": "What kind of game is it?",
+                      "ja": "それはどんなゲームなの？"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_57",
+                      "speaker": "Tina",
+                      "en": "I ask you, \"Which would you choose, A or B?\" and you answer.",
+                      "ja": "私が「AとBのどっちを選ぶ？」ってきいて、あなたが答えるの。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_58",
+                      "speaker": "Kota",
+                      "en": "OK, but I want to know your answers, too.",
+                      "ja": "わかったけど、ぼくは君の答えも知りたいな。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_59",
+                      "speaker": "Tina",
+                      "en": "OK. This is the first question. Which would you choose, a magic carpet that flies or a magic cape that makes you disappear?",
+                      "ja": "いいわよ。これが最初の質問ね。空飛ぶ魔法のじゅうたんと、あなたの姿を見えなくさせる魔法のケープ、どっちを選ぶ？"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_60",
+                      "speaker": "Kota",
+                      "en": "A magic carpet that flies or a magic cape that makes you disappear?",
+                      "ja": "空飛ぶ魔法のじゅうたんと、姿を見えなくさせる魔法のケープ？"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_61",
+                      "speaker": "Tina",
+                      "en": "Yes.",
+                      "ja": "そう。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_62",
+                      "speaker": "Kota",
+                      "en": "Well, I would choose a magic carpet that flies.",
+                      "ja": "うーん、ぼくは空飛ぶ魔法のじゅうたんを選ぶよ。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_63",
+                      "speaker": "Tina",
+                      "en": "Why?",
+                      "ja": "どうして？"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_64",
+                      "speaker": "Kota",
+                      "en": "Because I think it would be useful in my daily life. For example, I could use it when I'm going to be late for school.",
+                      "ja": "それが日常生活で役に立つと思うからさ。たとえば、学校に遅れそうなときにそれを使える。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_65",
+                      "speaker": "Tina",
+                      "en": "I agree with you. A magic cape that makes you disappear sounds fun, too, but I wouldn't know how to use it.",
+                      "ja": "私もあなたと同じ意見だわ。姿を見えなくさせるケープも楽しそうだけど、それをどう使うべきかわからないもの。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_66",
+                      "speaker": "Tina",
+                      "en": "Can I ask you the next question?",
+                      "ja": "次の質問をしてもいい？"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_67",
+                      "speaker": "Kota",
+                      "en": "Sure.",
+                      "ja": "いいよ。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_68",
+                      "speaker": "Tina",
+                      "en": "Which would you choose, living somewhere that's always very cold, or living somewhere that's always very hot?",
+                      "ja": "常にとても寒いどこかに住むのと、常にとても暑いどこかに住むのと、どっちを選ぶ？"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_69",
+                      "speaker": "Kota",
+                      "en": "Living somewhere that's always very cold, or living somewhere that's always very hot?",
+                      "ja": "常にとても寒いどこかに住むのと、常にとても暑いどこかに住むのと？"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_70",
+                      "speaker": "Tina",
+                      "en": "That's right.",
+                      "ja": "そうよ。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_71",
+                      "speaker": "Kota",
+                      "en": "I'd like to live somewhere that's not very cold or very hot.",
+                      "ja": "あまり寒くもあまり暑くもないどこかに住みたい。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_72",
+                      "speaker": "Tina",
+                      "en": "No kidding.",
+                      "ja": "ふざけないで。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_73",
+                      "speaker": "Kota",
+                      "en": "Sorry. Well, I would choose to live somewhere that's always cold because I can stand the cold in winter but not the heat in summer. How about you?",
+                      "ja": "ごめん。そうだね、ぼくは常に寒いどこかに住むことを選ぶよ、だってぼくは冬の寒さには耐えられるけど、夏の暑さには耐えられないから。君はどう？"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_74",
+                      "speaker": "Tina",
+                      "en": "I would choose to live somewhere that's always hot. I like summer very much.",
+                      "ja": "私は常に暑いどこかに住むことを選ぶわ。私、夏が大好きなの。"
+                    },
+                    {
+                      "id": "G3_U4_EX_S_75",
+                      "speaker": "Kota",
+                      "en": "Oh, I see.",
+                      "ja": "へえ、なるほど。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "83-86"
+        },
+        "GL": {
+          "title": "Goal: 投稿文を読んで、自分の意見を書こう",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G3_U4_GL_W_01",
+                  "headword": "directly",
+                  "pronunciation": "/dəréktli, di-/",
+                  "pos": "副",
+                  "meaning": "直接、じかに"
+                },
+                {
+                  "id": "G3_U4_GL_W_02",
+                  "headword": "hate",
+                  "pronunciation": "/héit/",
+                  "pos": "動",
+                  "meaning": "～をひどく嫌う"
+                },
+                {
+                  "id": "G3_U4_GL_W_03",
+                  "headword": "tool(s)",
+                  "pronunciation": "/túːl(z)/",
+                  "pos": "名",
+                  "meaning": "道具、手段、ツール"
+                },
+                {
+                  "id": "G3_U4_GL_W_04",
+                  "headword": "translate",
+                  "pronunciation": "/trænsléit/",
+                  "pos": "動",
+                  "meaning": "～を翻訳する"
+                },
+                {
+                  "id": "G3_U4_GL_W_05",
+                  "headword": "Goethe",
+                  "meaning": "ゲーテ〔18～19世紀に活躍したドイツの作家〕"
+                },
+                {
+                  "id": "G3_U4_GL_W_06",
+                  "headword": "too ~ to ...",
+                  "meaning": "～すぎて…できない、…するには～すぎる"
+                },
+                {
+                  "id": "G3_U4_GL_W_07",
+                  "headword": "take time",
+                  "meaning": "時間がかかる"
+                },
+                {
+                  "id": "G3_U4_GL_W_08",
+                  "headword": "not all ~",
+                  "meaning": "全てが～とは限らない"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "forum_section",
+                  "header": "外国語を学ぶことへの意見 (p.87)",
+                  "items": [
+                    {
+                      "id": "G3_U4_GL_S_01",
+                      "speaker": "A: Ms. Cat",
+                      "en": "We should still learn foreign languages to speak directly with people from other countries.",
+                      "ja": "私たちは他国の人々と直接話すために、相変わらず外国語を学ぶべきです。"
+                    },
+                    {
+                      "id": "G3_U4_GL_S_02",
+                      "speaker": "A: Ms. Cat",
+                      "en": "I think it helps us understand each other better.",
+                      "ja": "私たちがお互いをよりよく理解する役に立つと思います。"
+                    },
+                    {
+                      "id": "G3_U4_GL_S_03",
+                      "speaker": "A: Ms. Cat",
+                      "en": "I would hate to be someone who always depends on machines.",
+                      "ja": "私は常に機械に頼る人にはなりたくありません。"
+                    },
+                    {
+                      "id": "G3_U4_GL_S_04",
+                      "speaker": "B: Mr. Panda",
+                      "en": "We students don't need to learn foreign languages anymore.",
+                      "ja": "我々学生には、外国語を学ぶ必要はもうありません。"
+                    },
+                    {
+                      "id": "G3_U4_GL_S_05",
+                      "speaker": "B: Mr. Panda",
+                      "en": "First, now we can communicate with AI tools which translate various languages.",
+                      "ja": "第一に、今はさまざまな言語を翻訳する AI ツールでコミュニケーションをとることができます。"
+                    },
+                    {
+                      "id": "G3_U4_GL_S_06",
+                      "speaker": "B: Mr. Panda",
+                      "en": "Second, there are already too many things for us to learn.",
+                      "ja": "第二に、我々にとって学ぶべきことがもうすでに多すぎます。"
+                    },
+                    {
+                      "id": "G3_U4_GL_S_07",
+                      "speaker": "B: Mr. Panda",
+                      "en": "Learning English takes too much time.",
+                      "ja": "英語を学習するのは時間がかかりすぎます。"
+                    },
+                    {
+                      "id": "G3_U4_GL_S_08",
+                      "speaker": "B: Mr. Panda",
+                      "en": "In my country, students need more free time.",
+                      "ja": "私の国では、学生はもっと自由な時間が必要です。"
+                    },
+                    {
+                      "id": "G3_U4_GL_S_09",
+                      "speaker": "C: Mr. Robo",
+                      "en": "I've been learning English for five years.",
+                      "ja": "私は英語を5年間学んでいます。"
+                    },
+                    {
+                      "id": "G3_U4_GL_S_10",
+                      "speaker": "C: Mr. Robo",
+                      "en": "It's a valuable experience for me because it made me more positive toward people who have different cultures.",
+                      "ja": "そのおかげで異なる文化を持つ人々に対して積極的になれたので、私にとっては貴重な経験です。"
+                    },
+                    {
+                      "id": "G3_U4_GL_S_11",
+                      "speaker": "C: Mr. Robo",
+                      "en": "On the other hand, I'm not sure it's necessary for everyone.",
+                      "ja": "一方で、それが誰にとっても必要だという確信はありません。"
+                    },
+                    {
+                      "id": "G3_U4_GL_S_12",
+                      "speaker": "C: Mr. Robo",
+                      "en": "Not all of us are interested in learning languages.",
+                      "ja": "私たち誰もが外国語を学習することに興味があるわけではないです。"
+                    },
+                    {
+                      "id": "G3_U4_GL_S_13",
+                      "speaker": "C: Mr. Robo",
+                      "en": "Sometimes it may be better for us to enjoy speaking with AI tools.",
+                      "ja": "時として、私たちにとって AI ツールを使って話すことを楽しむほうがよいこともあるかもしれません。"
+                    },
+                    {
+                      "id": "G3_U4_GL_S_14",
+                      "speaker": "D: Ms. Ninja",
+                      "en": "Learning foreign languages is not just for communication.",
+                      "ja": "外国語を学習することはコミュニケーションのためだけのものではありません。"
+                    },
+                    {
+                      "id": "G3_U4_GL_S_15",
+                      "speaker": "D: Ms. Ninja",
+                      "en": "It helps us understand our own language and culture better, so we should keep learning them.",
+                      "ja": "私たち自身の言語と文化をよりよく理解するのに役立つので、私たちは外国語を学び続けるべきです。"
+                    },
+                    {
+                      "id": "G3_U4_GL_S_16",
+                      "speaker": "D: Ms. Ninja",
+                      "en": "I remember the famous words of Goethe: \"Those who know nothing of foreign languages know nothing of their own.\"",
+                      "ja": "ゲーテの有名な言葉を私は覚えています。「外国語を何も知らない者は、自分自身の言語について何も知らない。」という言葉です。"
+                    },
+                    {
+                      "id": "G3_U4_GL_S_17",
+                      "en": "[181 words]",
+                      "ja": "[181語]"
+                    }
+                  ]
+                },
+                {
+                  "type": "analysis_section",
+                  "header": "意見の整理と分析 (p.88)",
+                  "items": [
+                    {
+                      "id": "G3_U4_GL_S_18",
+                      "en": "Learning foreign languages is ....",
+                      "ja": "外国語を学ぶことは……。"
+                    },
+                    {
+                      "id": "G3_U4_GL_S_19",
+                      "tag": "Hajin / Ms. Cat (A) / Ms. Ninja (D)",
+                      "en": "still necessary",
+                      "ja": "まだ必要だ"
+                    },
+                    {
+                      "id": "G3_U4_GL_S_20",
+                      "tag": "Mr. Robo (C)",
+                      "en": "important but not necessary",
+                      "ja": "重要だが（全員に）必要ではない"
+                    },
+                    {
+                      "id": "G3_U4_GL_S_21",
+                      "tag": "Kota / Mr. Panda (B)",
+                      "en": "not so necessary anymore",
+                      "ja": "もはやそれほど必要ではない"
+                    }
+                  ]
+                },
+                {
+                  "type": "writing_section",
+                  "header": "文章を書いて、伝える内容をまとめよう (p.88)",
+                  "label": "解答例の構成",
+                  "items": [
+                    {
+                      "id": "G3_U4_GL_S_22",
+                      "tag": "あなたの意見は？",
+                      "en": "Learning foreign languages is still necessary.",
+                      "ja": "外国語を学ぶことはまだ必要だ。"
+                    },
+                    {
+                      "id": "G3_U4_GL_S_23",
+                      "tag": "理由は？ (1)",
+                      "en": "It helps us understand our own language and culture better.",
+                      "ja": "私たち自身の言語と文化をよりよく理解するのに役立つ。"
+                    },
+                    {
+                      "id": "G3_U4_GL_S_24",
+                      "tag": "理由は？ (2)",
+                      "en": "It makes me more positive toward people who have different cultures.",
+                      "ja": "そのおかげで異なる文化を持つ人々に対して積極的になれる。"
+                    }
+                  ]
+                },
+                {
+                  "type": "final_model_section",
+                  "header": "書き直し案・最終モデル (p.88)",
+                  "items": [
+                    {
+                      "id": "G3_U4_GL_S_25",
+                      "en": "I think learning foreign languages is still necessary.",
+                      "ja": "外国語の勉強はまだ必要だと思います。"
+                    },
+                    {
+                      "id": "G3_U4_GL_S_26",
+                      "en": "I agree with Ms. Ninja.",
+                      "ja": "私はニンジャさんの意見に賛成です。"
+                    },
+                    {
+                      "id": "G3_U4_GL_S_27",
+                      "en": "She says learning foreign languages helps us understand our own language and culture.",
+                      "ja": "彼女は、外国語を学ぶことは、私たちの自身の言語と文化を理解するのに役立つと言っています。"
+                    },
+                    {
+                      "id": "G3_U4_GL_S_28",
+                      "en": "Mr. Robo says it makes me more positive toward people who have different cultures.",
+                      "ja": "ロボさんは、そうすることで異なる文化を持つ人々に対してより前向きになれると言っています。"
+                    },
+                    {
+                      "id": "G3_U4_GL_S_29",
+                      "en": "I like his idea, too.",
+                      "ja": "私は彼の考えも好きです。"
+                    },
+                    {
+                      "id": "G3_U4_GL_S_30",
+                      "en": "So I think I need to learn foreign languages.",
+                      "ja": "だから、外国語を学ぶ必要があると思います。"
+                    }
+                  ]
+                },
+                {
+                  "type": "can_do_section",
+                  "header": "ふりかえり (p.88)",
+                  "items": [
+                    {
+                      "id": "G3_U4_GL_S_31",
+                      "tag": "CAN-DO (R-3)",
+                      "text": "投稿文を読み、それぞれの意見の要点を捉えることができる。"
+                    },
+                    {
+                      "id": "G3_U4_GL_S_32",
+                      "tag": "CAN-DO (W-3)",
+                      "text": "読んだ投稿文についての自分の意見を整理して書くことができる。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "87-88"
+        },
+        "LR2": {
+          "title": "Let's Read 2: Living with Robots",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G3_U4_LR2_W_01",
+                  "headword": "imagine",
+                  "pronunciation": "/imǽdʒin/",
+                  "pos": "動",
+                  "meaning": "～を想像する"
+                },
+                {
+                  "id": "G3_U4_LR2_W_02",
+                  "headword": "human-like",
+                  "pronunciation": "/hjúːmən-làik/",
+                  "pos": "形",
+                  "meaning": "人型の"
+                },
+                {
+                  "id": "G3_U4_LR2_W_03",
+                  "headword": "scientist(s)",
+                  "pronunciation": "/sáiəntist(s)/",
+                  "pos": "名",
+                  "meaning": "科学者"
+                },
+                {
+                  "id": "G3_U4_LR2_W_04",
+                  "headword": "relationship",
+                  "pronunciation": "/riléiʃənʃìp/",
+                  "pos": "名",
+                  "meaning": "関係"
+                },
+                {
+                  "id": "G3_U4_LR2_W_05",
+                  "headword": "cyborg-type",
+                  "pos": "名",
+                  "meaning": "サイボーグ型の"
+                },
+                {
+                  "id": "G3_U4_LR2_W_06",
+                  "headword": "anything",
+                  "pronunciation": "/éniθìŋ/",
+                  "pos": "代",
+                  "usage": "〔否定文で〕",
+                  "meaning": "何も"
+                },
+                {
+                  "id": "G3_U4_LR2_W_07",
+                  "headword": "itself",
+                  "pronunciation": "/itsélf/",
+                  "pos": "代",
+                  "meaning": "それ自身"
+                },
+                {
+                  "id": "G3_U4_LR2_W_08",
+                  "headword": "injury",
+                  "pronunciation": "/índʒəri/",
+                  "pos": "名",
+                  "meaning": "負傷、けが"
+                },
+                {
+                  "id": "G3_U4_LR2_W_09",
+                  "headword": "facility",
+                  "pronunciation": "/fəsíləti/",
+                  "pos": "名",
+                  "meaning": "施設"
+                },
+                {
+                  "id": "G3_U4_LR2_W_10",
+                  "headword": "care facility",
+                  "pos": "名",
+                  "meaning": "介護施設"
+                },
+                {
+                  "id": "G3_U4_LR2_W_11",
+                  "headword": "more and more",
+                  "meaning": "ますます多くの"
+                },
+                {
+                  "id": "G3_U4_LR2_W_12",
+                  "headword": "and",
+                  "usage": "〔同一語を結んで〕",
+                  "meaning": "どんどん、～も～も"
+                },
+                {
+                  "id": "G3_U4_LR2_W_13",
+                  "headword": "talk to ~",
+                  "meaning": "～に話しかける"
+                },
+                {
+                  "id": "G3_U4_LR2_W_14",
+                  "headword": "transfer",
+                  "pronunciation": "/trænsfə́ːr/",
+                  "pos": "動",
+                  "meaning": "～を移す、～を運ぶ"
+                },
+                {
+                  "id": "G3_U4_LR2_W_15",
+                  "headword": "elderly",
+                  "pronunciation": "/éldərli/",
+                  "pos": "形",
+                  "meaning": "年配の"
+                },
+                {
+                  "id": "G3_U4_LR2_W_16",
+                  "headword": "move",
+                  "pronunciation": "/múːv/",
+                  "pos": "動",
+                  "meaning": "～を動かす"
+                },
+                {
+                  "id": "G3_U4_LR2_W_17",
+                  "headword": "addition",
+                  "pronunciation": "/ədíʃən/",
+                  "pos": "名",
+                  "meaning": "追加"
+                },
+                {
+                  "id": "G3_U4_LR2_W_18",
+                  "headword": "maintain(s)",
+                  "pronunciation": "/meintéin(z)/",
+                  "pos": "動",
+                  "meaning": "～を保つ"
+                },
+                {
+                  "id": "G3_U4_LR2_W_19",
+                  "headword": "physical",
+                  "pronunciation": "/fízikəl/",
+                  "pos": "形",
+                  "meaning": "身体の"
+                },
+                {
+                  "id": "G3_U4_LR2_W_20",
+                  "headword": "function(s)",
+                  "pronunciation": "/fʌ́ŋkʃən(z)/",
+                  "pos": "名",
+                  "meaning": "機能"
+                },
+                {
+                  "id": "G3_U4_LR2_W_21",
+                  "headword": "widen",
+                  "pronunciation": "/wáidn/",
+                  "pos": "動",
+                  "meaning": "～を広げる"
+                },
+                {
+                  "id": "G3_U4_LR2_W_22",
+                  "headword": "possibility",
+                  "pronunciation": "/pάsəbíləti/",
+                  "pos": "名",
+                  "meaning": "可能性"
+                },
+                {
+                  "id": "G3_U4_LR2_W_23",
+                  "headword": "represent",
+                  "pronunciation": "/rèprizént/",
+                  "pos": "動",
+                  "meaning": "～の代わりをする"
+                },
+                {
+                  "id": "G3_U4_LR2_W_24",
+                  "headword": "avatar",
+                  "pronunciation": "/ǽvətὰːr/",
+                  "pos": "名",
+                  "meaning": "アバター"
+                },
+                {
+                  "id": "G3_U4_LR2_W_25",
+                  "headword": "real",
+                  "pronunciation": "/ríːəl/",
+                  "pos": "形",
+                  "meaning": "現実の"
+                },
+                {
+                  "id": "G3_U4_LR2_W_26",
+                  "headword": "user(s)",
+                  "pronunciation": "/júːzər(z)/",
+                  "pos": "名",
+                  "meaning": "利用者"
+                },
+                {
+                  "id": "G3_U4_LR2_W_27",
+                  "headword": "illness",
+                  "pronunciation": "/ílnis/",
+                  "pos": "名",
+                  "meaning": "病気"
+                },
+                {
+                  "id": "G3_U4_LR2_W_28",
+                  "headword": "control(led)",
+                  "pronunciation": "/kəntróul(d)/",
+                  "pos": "動",
+                  "meaning": "～を操る"
+                },
+                {
+                  "id": "G3_U4_LR2_W_29",
+                  "headword": "movement(s)",
+                  "pronunciation": "/múːvmənt(s)/",
+                  "pos": "名",
+                  "meaning": "動き"
+                },
+                {
+                  "id": "G3_U4_LR2_W_30",
+                  "headword": "finger(s)",
+                  "pronunciation": "/fíŋɡər(z)/",
+                  "pos": "名",
+                  "meaning": "手の指"
+                },
+                {
+                  "id": "G3_U4_LR2_W_31",
+                  "headword": "live",
+                  "pronunciation": "/láiv/",
+                  "pos": "形",
+                  "meaning": "生の、ライブの"
+                },
+                {
+                  "id": "G3_U4_LR2_W_32",
+                  "headword": "send → sent",
+                  "meaning": "send の過去形・過去分詞"
+                },
+                {
+                  "id": "G3_U4_LR2_W_33",
+                  "headword": "through",
+                  "pronunciation": "/θrúː/",
+                  "pos": "前",
+                  "meaning": "～を通じて"
+                },
+                {
+                  "id": "G3_U4_LR2_W_34",
+                  "headword": "microphone",
+                  "pronunciation": "/máikrəfòun/",
+                  "pos": "名",
+                  "meaning": "マイク"
+                },
+                {
+                  "id": "G3_U4_LR2_W_35",
+                  "headword": "serve",
+                  "pronunciation": "/sə́ːrv/",
+                  "pos": "動",
+                  "meaning": "（客に）応対する"
+                },
+                {
+                  "id": "G3_U4_LR2_W_36",
+                  "headword": "in addition",
+                  "meaning": "その上"
+                },
+                {
+                  "id": "G3_U4_LR2_W_37",
+                  "headword": "that way",
+                  "meaning": "そのようにして"
+                },
+                {
+                  "id": "G3_U4_LR2_W_38",
+                  "headword": "sociable",
+                  "pronunciation": "/sóuʃəbl/",
+                  "pos": "形",
+                  "meaning": "社交的な"
+                },
+                {
+                  "id": "G3_U4_LR2_W_39",
+                  "headword": "somebody",
+                  "pronunciation": "/sʌ́mbədi/",
+                  "pos": "代",
+                  "meaning": "誰か"
+                },
+                {
+                  "id": "G3_U4_LR2_W_40",
+                  "headword": "useless",
+                  "pronunciation": "/júːslis/",
+                  "pos": "形",
+                  "meaning": "役に立たない"
+                },
+                {
+                  "id": "G3_U4_LR2_W_41",
+                  "headword": "helpless",
+                  "pronunciation": "/hélpləs/",
+                  "pos": "形",
+                  "meaning": "どうしようもない"
+                },
+                {
+                  "id": "G3_U4_LR2_W_42",
+                  "headword": "notice",
+                  "pronunciation": "/nóutis/",
+                  "pos": "動",
+                  "meaning": "～に気づく"
+                },
+                {
+                  "id": "G3_U4_LR2_W_43",
+                  "headword": "happily",
+                  "pronunciation": "/hǽpili/",
+                  "pos": "副",
+                  "meaning": "楽しそうに"
+                },
+                {
+                  "id": "G3_U4_LR2_W_44",
+                  "headword": "develop(ed)",
+                  "pronunciation": "/divéləp(t)/",
+                  "pos": "動",
+                  "meaning": "～を開発する"
+                },
+                {
+                  "id": "G3_U4_LR2_W_45",
+                  "headword": "recognize",
+                  "pronunciation": "/rékəɡnàiz/",
+                  "pos": "動",
+                  "meaning": "～を認める"
+                },
+                {
+                  "id": "G3_U4_LR2_W_46",
+                  "headword": "value",
+                  "pronunciation": "/vǽljuː/",
+                  "pos": "名",
+                  "meaning": "価値"
+                },
+                {
+                  "id": "G3_U4_LR2_W_47",
+                  "headword": "cooperation",
+                  "pronunciation": "/kouὰpəréiʃən/",
+                  "pos": "名",
+                  "meaning": "協力"
+                },
+                {
+                  "id": "G3_U4_LR2_W_48",
+                  "headword": "expect",
+                  "pronunciation": "/ikspékt/",
+                  "pos": "動",
+                  "meaning": "～を期待する、求める"
+                },
+                {
+                  "id": "G3_U4_LR2_W_49",
+                  "headword": "imperfect",
+                  "pronunciation": "/impə́ːrfikt/",
+                  "pos": "形",
+                  "meaning": "不完全な"
+                },
+                {
+                  "id": "G3_U4_LR2_W_50",
+                  "headword": "importance",
+                  "pronunciation": "/impɔ́ːrtns/",
+                  "pos": "名",
+                  "meaning": "重要性"
+                },
+                {
+                  "id": "G3_U4_LR2_W_51",
+                  "headword": "okay",
+                  "pronunciation": "/òukéi/",
+                  "pos": "形",
+                  "meaning": "よい、大丈夫な〔= OK〕"
+                },
+                {
+                  "id": "G3_U4_LR2_W_52",
+                  "headword": "cooperate",
+                  "pronunciation": "/kouάpərèit/",
+                  "pos": "動",
+                  "meaning": "協力する"
+                },
+                {
+                  "id": "G3_U4_LR2_W_53",
+                  "headword": "article",
+                  "pronunciation": "/άːrtikl/",
+                  "pos": "名",
+                  "meaning": "記事"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "paragraph",
+                  "header": "Introduction & HAL (p.89)",
+                  "items": [
+                    {
+                      "id": "G3_U4_LR2_S_01",
+                      "ref_num": "①",
+                      "en": "When you hear the word \"robot,\" what kind of robot do you imagine?",
+                      "ja": "「ロボット」という言葉を耳にするとき、あなたはどんな種類のロボットを想像しますか。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_02",
+                      "ref_num": "②",
+                      "en": "Some people think of anime characters, some people think of human-like robots that talk to people, and some people think of home cleaning robots.",
+                      "ja": "アニメのキャラクターを思い浮かべる人がいたり、人に話しかける人型のロボットを思い浮かべる人がいたり、ロボット掃除機を思い浮かべる人がいたりするでしょう。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_03",
+                      "ref_num": "③",
+                      "en": "Scientists are continuing to invent more and more robots.",
+                      "ja": "科学者たちはますます多くのロボットを発明し続けています。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_04",
+                      "ref_num": "④",
+                      "en": "What kind of robots have they created?",
+                      "ja": "どんな種類のロボットを作り出してきたのでしょうか。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_05",
+                      "ref_num": "⑤",
+                      "en": "Let's look at some examples and think about the relationship between humans and robots.",
+                      "ja": "いくつかの例を見て、人間とロボットの関係を考えてみましょう。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_06",
+                      "ref_num": "⑥",
+                      "en": "This is \"HAL,\" a robot suit.",
+                      "ja": "これは「HAL」、ロボットスーツです。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_07",
+                      "ref_num": "⑦",
+                      "en": "It's a cyborg-type robot.",
+                      "ja": "サイボーグ型のロボットです。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_08",
+                      "ref_num": "⑧",
+                      "en": "HAL doesn't do anything by itself, but it helps people carry heavy things and protects them from injury.",
+                      "ja": "HALはそれ自身では何も目的にかなった動きをしませんが、人々が重いものを運ぶのを助けたり、人々をけがから守ったりします。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_09",
+                      "ref_num": "⑨",
+                      "en": "HAL is used in care facilities.",
+                      "ja": "HALは介護施設で使われています。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_10",
+                      "ref_num": "⑩",
+                      "en": "It supports people who work there.",
+                      "ja": "介護施設で働く人たちを支援しています。"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "header": "OriHime (p.89-90)",
+                  "items": [
+                    {
+                      "id": "G3_U4_LR2_S_11",
+                      "ref_num": "①",
+                      "en": "It helps them transfer elderly people.",
+                      "ja": "それは年配の人を介助するのに役立っています。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_12",
+                      "ref_num": "②",
+                      "en": "Elderly people can use HAL, too.",
+                      "ja": "年配の人がHALを使うこともできます。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_13",
+                      "ref_num": "③",
+                      "en": "It helps them move their body.",
+                      "ja": "それは彼らが自身の体を動かすのに役立ちます。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_14",
+                      "ref_num": "④",
+                      "en": "In addition, it improves and maintains their physical functions.",
+                      "ja": "その上、人の身体機能を向上させたり維持したりもします。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_15",
+                      "ref_num": "⑤",
+                      "en": "HAL can widen our possibilities.",
+                      "ja": "HALは私たちの可能性を広げることができます。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_16",
+                      "ref_num": "⑥",
+                      "en": "OriHime is an \"avatar\" robot.",
+                      "ja": "OriHimeは「アバター」ロボットです。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_17",
+                      "ref_num": "⑦",
+                      "en": "Avatar means something that represents you in the virtual world.",
+                      "ja": "アバターとは仮想世界で自分の代わりをするものです。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_18",
+                      "ref_num": "⑧",
+                      "en": "This robot can represent you and communicate with people in the real world.",
+                      "ja": "このロボットは現実世界で自分の代わりを務めることができ、人とコミュニケーションをとることができます。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_19",
+                      "ref_num": "⑨",
+                      "en": "One of the first OriHime users was Mr. Nagahiro Masato.",
+                      "ja": "OriHimeの最初の利用者の一人が、永廣征人さんでした。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_20",
+                      "ref_num": "⑩",
+                      "en": "He was a 25-year-old man who had a serious illness.",
+                      "ja": "彼は重い病気を患っている25歳の男性でした。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_21",
+                      "ref_num": "⑪",
+                      "en": "He didn't have a job before because he could not move his body.",
+                      "ja": "彼は身体を動かすことができなかったため、以前は仕事をしていませんでした。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_22",
+                      "ref_num": "⑫",
+                      "en": "Then OriHime let him work at a cafe.",
+                      "ja": "それから、OriHimeが彼をカフェで働けるようにしました。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_23",
+                      "ref_num": "⑬",
+                      "en": "OriHime worked as his avatar.",
+                      "ja": "OriHimeが彼のアバターとして働きました。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_24",
+                      "ref_num": "⑭",
+                      "en": "Mr. Nagahiro controlled the robot with small movements of his fingers at home.",
+                      "ja": "永廣さんは家で、指の小さな動きでそのロボットを操りました。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_25",
+                      "ref_num": "⑮",
+                      "en": "He watched a live video that was sent from the robot's eyes, and he talked through a microphone.",
+                      "ja": "そのロボットの目から送られてくる生中継の映像を見て、そしてマイクを通して話しました。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_26",
+                      "ref_num": "⑯",
+                      "en": "That way, he was able to serve customers who came to the cafe.",
+                      "ja": "そのようにして、彼はカフェに来るお客さんを接接客することができました。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_27",
+                      "ref_num": "⑰",
+                      "en": "Thanks to OriHime, he will be able to try new things in the future.",
+                      "ja": "OriHimeのおかげで、彼は将来新しいことに挑戦できるようになるでしょう。"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "header": "Sociable Trash Box & Conclusion (p.90-91)",
+                  "items": [
+                    {
+                      "id": "G3_U4_LR2_S_28",
+                      "ref_num": "①",
+                      "en": "Now, look at this picture.",
+                      "ja": "では、この写真を見てください。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_29",
+                      "ref_num": "②",
+                      "en": "This robot is called Sociable Trash Box.",
+                      "ja": "このロボットは Sociable Trash Box と呼ばれています。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_30",
+                      "ref_num": "③",
+                      "en": "What does it do?",
+                      "ja": "何をするのでしょうか。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_31",
+                      "ref_num": "④",
+                      "en": "Can you guess?",
+                      "ja": "推測できますか。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_32",
+                      "ref_num": "⑤",
+                      "en": "This robot finds trash on the floor, but it can't pick it up.",
+                      "ja": "このロボットは床のごみを見つけますが、拾うことはできません。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_33",
+                      "ref_num": "⑥",
+                      "en": "This robot needs somebody to help it.",
+                      "ja": "このロボットは助けてくれる誰かを必要とします。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_34",
+                      "ref_num": "⑦",
+                      "en": "You may think it is useless or helpless, but you will notice something interesting.",
+                      "ja": "役に立たないとかどうしようもないと思うかもしれませんが、あなたはおもしろいことに気づくでしょう。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_35",
+                      "ref_num": "⑧",
+                      "en": "When this robot calls for help, people come to it and pick up the trash happily.",
+                      "ja": "このロボットが助けを求めるとき、人々は楽しそうに近づいてきてゴミを拾います。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_36",
+                      "ref_num": "⑨",
+                      "en": "They enjoy helping the robot.",
+                      "ja": "人々はロボットを助けることを楽しんでいるのです。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_37",
+                      "ref_num": "⑩",
+                      "en": "It makes people smile.",
+                      "ja": "このロボットは人々を笑顔にします。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_38",
+                      "ref_num": "⑪",
+                      "en": "The person who developed this robot wanted people to recognize the value of cooperation.",
+                      "ja": "このロボットを開発した人は、協力することの価値を人々に認識してほしかったのです。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_39",
+                      "ref_num": "⑫",
+                      "en": "We may expect robots to be perfect, but Sociable Trash Box is made to be imperfect.",
+                      "ja": "私たちはロボットに完璧であることを求めるかもしれませんが、Sociable Trash Box は不完全であるように作られています。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_40",
+                      "ref_num": "⑬",
+                      "en": "When people help it, they understand the importance of being imperfect and the need to help each other.",
+                      "ja": "このロボットを助けるとき、人々は不完全であることの重要性と、お互いに助け合うことの必要性を理解します。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_41",
+                      "ref_num": "⑭",
+                      "en": "What kind of robot would you like to have?",
+                      "ja": "あなたはどのような種類のロボットがほしいですか。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_42",
+                      "ref_num": "⑮",
+                      "en": "What kind of relationships do you want to have with robots?",
+                      "ja": "どのような関係をロボットと築きたいですか。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_43",
+                      "ref_num": "⑯",
+                      "en": "Do you think it is okay if robots are imperfect?",
+                      "ja": "ロボットが不完全であってもかまわないと思いますか。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_44",
+                      "ref_num": "⑰",
+                      "en": "They might help us learn to cooperate and be kind to others.",
+                      "ja": "ロボットは私たちが協力し合って他者に親切にすることを学ぶのに役立つかもしれません。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_45",
+                      "ref_num": "⑱",
+                      "en": "We are already living with robots, so it is important and fun to think about these questions.",
+                      "ja": "私たちはすでにロボットと暮らしているので、これらの疑問を考えることは重要でおもしろいことです。"
+                    }
+                  ]
+                },
+                {
+                  "type": "check_questions",
+                  "header": "While You Read / After You Read",
+                  "items": [
+                    {
+                      "id": "G3_U4_LR2_S_46",
+                      "tag": "Q1",
+                      "en": "How does HAL help people?",
+                      "ja": "HAL はどのように人々を助けますか。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_47",
+                      "tag": "A1",
+                      "ja": "(例) It helps people carry heavy things and protects them from injury. (人々が重いものを運ぶのを助けたり、けがから守ったりします。)"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_48",
+                      "tag": "Q2",
+                      "en": "What does \"avatar\" mean?",
+                      "ja": "「アバター」は何を意味しますか。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_49",
+                      "tag": "A2",
+                      "ja": "(例) It means something that represents you in the virtual world. (アバターとは仮想世界で自分の代わりをするものです。)"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_50",
+                      "tag": "Q3",
+                      "en": "Do people enjoy helping the Sociable Trash Box?",
+                      "ja": "人々は Sociable Trash Box を助けることを楽しみますか。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_S_51",
+                      "tag": "A3",
+                      "ja": "Yes, they do. (はい、楽しみます。)"
+                    }
+                  ]
+                },
+                {
+                  "type": "comprehension_section",
+                  "header": "1. 内容の確認：Kota と Hajin の会話",
+                  "items": [
+                    {
+                      "id": "G3_U4_LR2_A_01",
+                      "speaker": "Kota",
+                      "en": "What are you reading, Hajin?",
+                      "ja": "何を読んでいるの、ハジン。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_A_02",
+                      "speaker": "Hajin",
+                      "en": "I'm reading an article about the relationship between humans and robots.",
+                      "ja": "人間とロボットの関係に関する記事を読んでいるんだ。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_A_03",
+                      "speaker": "Kota",
+                      "en": "Wow, it sounds interesting!",
+                      "ja": "へえ、おもしろそう！"
+                    },
+                    {
+                      "id": "G3_U4_LR2_A_04",
+                      "tag": "Option A",
+                      "en": "robots for children",
+                      "ja": "子供のためのロボット"
+                    },
+                    {
+                      "id": "G3_U4_LR2_A_05",
+                      "tag": "Option B",
+                      "en": "the relationship between humans and robots",
+                      "ja": "人間とロボットの関係"
+                    },
+                    {
+                      "id": "G3_U4_LR2_A_06",
+                      "tag": "Option C",
+                      "en": "perfect robots",
+                      "ja": "完璧なロボット"
+                    },
+                    {
+                      "id": "G3_U4_LR2_A_07",
+                      "tag": "Option D",
+                      "en": "the history of robots",
+                      "ja": "ロボットの歴史"
+                    }
+                  ]
+                },
+                {
+                  "type": "matching_section",
+                  "header": "2. それぞれのロボットの特徴（線結び）",
+                  "items": [
+                    {
+                      "id": "G3_U4_LR2_A_08",
+                      "tag": "OriHime-D",
+                      "en": "This robot can represent you and communicate with people in the real world.",
+                      "ja": "このロボットは現実の世界で自分の代わりをし、人々とコミュニケーションをとることができます。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_A_09",
+                      "tag": "OriHime-D",
+                      "en": "It helps people who can't go outside.",
+                      "ja": "外に出ることができない人々を助けます。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_A_10",
+                      "tag": "Sociable Trash Box",
+                      "en": "This robot finds garbage but can't pick it up.",
+                      "ja": "このロボットはごみを見つけますが、拾うことができません。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_A_11",
+                      "tag": "Sociable Trash Box",
+                      "en": "This robot teaches us that helping others is important.",
+                      "ja": "このロボットは私たちに他者を助けることは重要だと教えてくれます。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_A_12",
+                      "tag": "HAL",
+                      "en": "It helps people carry heavy things and protects them from injury.",
+                      "ja": "これは人々が重いものを運ぶのを助けたり、けがから守ったりします。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_A_13",
+                      "tag": "HAL",
+                      "en": "It is used by elderly people, too.",
+                      "ja": "年配の人々にも使われます。"
+                    }
+                  ]
+                },
+                {
+                  "type": "writing_section",
+                  "header": "Write: 自分のおすすめのロボットを紹介しよう",
+                  "label": "解答例",
+                  "items": [
+                    {
+                      "id": "G3_U4_LR2_W_01",
+                      "en": "Cleaning robots are great for busy people.",
+                      "ja": "ロボット掃除機は忙しい人に向いています。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_W_02",
+                      "en": "They clean your house automatically, so you have more free time.",
+                      "ja": "彼らはあなたの家を自動的に掃除するので、あなたはより多くの自由時間を持つことができます。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_W_03",
+                      "en": "Many people with pets use them.",
+                      "ja": "ペットを飼っている人が多く利用しています。"
+                    },
+                    {
+                      "id": "G3_U4_LR2_W_04",
+                      "en": "They keep your house clean.",
+                      "ja": "それらはあなたの家をきれいに保ってくれます。"
+                    }
+                  ]
+                }
+              ]
+            },
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "explanation_section",
+                  "header": "本文の解説 (p.94) - 段落1 (Introduction & HAL)",
+                  "items": [
+                    {
+                      "id": "G3_U4_LR2G_E_01",
+                      "ref_num": "①",
+                      "en": "When you hear the word \"robot,\" what kind of robot do you imagine?",
+                      "text": "==**kind**== は「種類」という名詞の意味で使われ、==**kind of robot**== で「ロボットの種類」という意味になります。==**the word**== と ==**\"robot\"**== は同格の関係です。",
+                      "ref_id": "G3_U4_LR2_S_01"
+                    },
+                    {
+                      "id": "G3_U4_LR2G_E_02",
+                      "ref_num": "②",
+                      "en": "Some people think of anime characters, some people think of human-like robots that talk to people, and some people think of home cleaning robots.",
+                      "text": "==**that**== に続く語句が「～する…」という意味で、それぞれその前にある名詞を説明（修飾）しています。==**think of ～**== は「～について考える」という意味で、Some people think of ～, some people think of ～, ... で「～を思い浮かべる人がいたり、～について考える人がいます。」という意味になります。==**human-like**== は「人型の」という意味です。",
+                      "ref_id": "G3_U4_LR2_S_02"
+                    },
+                    {
+                      "id": "G3_U4_LR2G_E_03",
+                      "ref_num": "③",
+                      "en": "Scientists are continuing to invent more and more robots.",
+                      "text": "==**〈be動詞 + 動詞の -ing形〉**== の形なので、「～している」という現在進行形の文です。この文中の ==**〈to + 動詞の原形〉**== は「～すること」という意味を表す名詞的用法の不定詞です。==**more and more**== は、「ますます多くの」という意味です。",
+                      "ref_id": "G3_U4_LR2_S_03"
+                    },
+                    {
+                      "id": "G3_U4_LR2G_E_04",
+                      "ref_num": "⑤",
+                      "en": "Let's look at some examples and think about the relationship between humans and robots.",
+                      "text": "==**〈Let's + 動詞の原形 ～.〉**== は「～しましょう。」と提案する文です。==**between ～ and ...**== で、「～と…の間に」という意味を表すので、==**the relationship between humans and robots**== で、「人間とロボットの関係」という意味になります。",
+                      "ref_id": "G3_U4_LR2_S_05"
+                    },
+                    {
+                      "id": "G3_U4_LR2G_E_05",
+                      "ref_num": "⑥",
+                      "en": "This is \"HAL,\" a robot suit.",
+                      "text": "==**\"HAL,\" a robot suit**== の HAL と a robot suit は同格で、「HAL というロボットスーツ」という意味になります。",
+                      "ref_id": "G3_U4_LR2_S_06"
+                    },
+                    {
+                      "id": "G3_U4_LR2G_E_06",
+                      "ref_num": "⑧",
+                      "en": "HAL doesn't do anything by itself, but it helps people carry heavy things and protects them from injury.",
+                      "text": "==**〈help + 人 + 動詞の原形〉**== の形で、「（人）が～するのを手助けする」という意味です。==**it**== は前半の節の HAL を指しています。",
+                      "ref_id": "G3_U4_LR2_S_08"
+                    },
+                    {
+                      "id": "G3_U4_LR2G_E_07",
+                      "ref_num": "⑨",
+                      "en": "HAL is used in care facilities.",
+                      "text": "==**care facility**== は、「介護施設」という意味です。",
+                      "ref_id": "G3_U4_LR2_S_09"
+                    },
+                    {
+                      "id": "G3_U4_LR2G_E_08",
+                      "ref_num": "⑩",
+                      "en": "It supports people who work there.",
+                      "text": "==**who work there**== は、関係代名詞 ==**who**== に続く語句がその前にある名詞の ==**people**== に説明を加えています。関係代名詞 ==**who**== が、説明する語句が「人」のときに使われ、続く文の主語の働きをしています。==**it**== は前文の HAL を指しています。==**there**== は前文の in care facilities を指しています。",
+                      "ref_id": "G3_U4_LR2_S_10"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_section",
+                  "header": "本文の解説 (p.95) - 段落2 (OriHime)",
+                  "items": [
+                    {
+                      "id": "G3_U4_LR2G_E_09",
+                      "ref_num": "①",
+                      "en": "It helps them transfer elderly people.",
+                      "text": "==**elderly people**== は、「年配の人々」という意味です。==**〈help + 人 + 動詞の原形〉**== の形で、「（人）が～するのを手助けする」という意味です。==**It**== は 2つ前の文の HAL を指しています。",
+                      "ref_id": "G3_U4_LR2_S_11"
+                    },
+                    {
+                      "id": "G3_U4_LR2G_E_10",
+                      "ref_num": "④",
+                      "en": "In addition, it improves and maintains their physical functions.",
+                      "text": "==**in addition**== は「その上」という意味で、前の発言に加えて述べるときに使います。==**it**== はここでもすでに述べられた HAL を指しています。",
+                      "ref_id": "G3_U4_LR2_S_14"
+                    },
+                    {
+                      "id": "G3_U4_LR2G_E_11",
+                      "ref_num": "⑦",
+                      "en": "Avatar means something that represents you in the virtual world.",
+                      "text": "この文の ==**that**== は、「もの」に説明を加える主語の代わりをする関係代名詞です。==**that**== に続く語句が ==**something**== を説明しています。==**virtual world**== は「仮想世界であなたを表す」という意味で、==**something**== を後ろから修飾しています。",
+                      "ref_id": "G3_U4_LR2_S_17"
+                    },
+                    {
+                      "id": "G3_U4_LR2G_E_12",
+                      "ref_num": "⑨",
+                      "en": "One of the first OriHime users was Mr. Nagahiro Masato.",
+                      "text": "==**one of ～**== は、==**〈one of + 名詞の複数形〉**== の形で、「～のうちの 1人、1つ」という意味を表します。",
+                      "ref_id": "G3_U4_LR2_S_19"
+                    },
+                    {
+                      "id": "G3_U4_LR2G_E_13",
+                      "ref_num": "⑩",
+                      "en": "He was a 25-year-old man who had a serious illness.",
+                      "text": "==**who had a serious illness**== は、関係代名詞 ==**who**== に続く語句がその前にある名詞の ==**a 25-year-old man**== に説明を加えています。",
+                      "ref_id": "G3_U4_LR2_S_20"
+                    },
+                    {
+                      "id": "G3_U4_LR2G_E_14",
+                      "ref_num": "⑫",
+                      "en": "Then OriHime let him work at a cafe.",
+                      "text": "==**〈let + 人 + 動詞の原形〉**== で「（人）に～させる」という味になります。",
+                      "ref_id": "G3_U4_LR2_S_22"
+                    },
+                    {
+                      "id": "G3_U4_LR2G_E_15",
+                      "ref_num": "⑭",
+                      "en": "Mr. Nagahiro controlled the robot with small movements of his fingers at home.",
+                      "text": "この文の ==**with**== は、「～を使って、～で」という意味で使われています。",
+                      "ref_id": "G3_U4_LR2_S_24"
+                    },
+                    {
+                      "id": "G3_U4_LR2G_E_16",
+                      "ref_num": "⑮",
+                      "en": "He watched a live video that was sent from the robot's eyes, and he talked through a microphone.",
+                      "text": "==**that**== は関係代名詞で、==**that was sent from the robot's eyes**== がその前の名詞 ==**a live video**== を修飾しています。==**was sent from ～**== は ==**〈be動詞 + 動詞の過去分詞〉**== の形で、受け身の文です。",
+                      "ref_id": "G3_U4_LR2_S_25"
+                    },
+                    {
+                      "id": "G3_U4_LR2G_E_17",
+                      "ref_num": "⑯",
+                      "en": "That way, he was able to serve customers who came to the cafe.",
+                      "text": "==**that way**== は、「そのようにして」という意味です。==**who**== は関係代名詞で、==**who came to the cafe**== は ==**customers**== を後ろから修飾しています。",
+                      "ref_id": "G3_U4_LR2_S_26"
+                    },
+                    {
+                      "id": "G3_U4_LR2G_E_18",
+                      "ref_num": "⑰",
+                      "en": "Thanks to OriHime, he will be able to try new things in the future.",
+                      "text": "==**thanks to ～**== は「～のおかげで」、==**be able to ～**== は「～できる」という意味です。",
+                      "ref_id": "G3_U4_LR2_S_27"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_section",
+                  "header": "本文の解説 (p.96) - 段落3 (Sociable Trash Box & Conclusion)",
+                  "items": [
+                    {
+                      "id": "G3_U4_LR2G_E_19",
+                      "ref_num": "②",
+                      "en": "This robot is called Sociable Trash Box.",
+                      "text": "==**is called ～**== は ==**〈be動詞 + 動詞の過去分詞〉**== の形で、受け身の文です。",
+                      "ref_id": "G3_U4_LR2_S_29"
+                    },
+                    {
+                      "id": "G3_U4_LR2G_E_20",
+                      "ref_num": "⑦",
+                      "en": "You may think it is useless or helpless, but you will notice something interesting.",
+                      "text": "==**may**== は「～かもしれない」という味の助動詞です。==**something interesting**== は ==**interesting**== が後ろから修飾しているので、「何かおもしろいこと」という意味になります。==**it**== は前文の this robot を指しています。",
+                      "ref_id": "G3_U4_LR2_S_34"
+                    },
+                    {
+                      "id": "G3_U4_LR2G_E_21",
+                      "ref_num": "⑨",
+                      "en": "They enjoy helping the robot.",
+                      "text": "==**〈enjoy + 動詞の -ing形〉**== は、「～することを楽しむ」という意味です。==**They**== は前文の people を指しています。",
+                      "ref_id": "G3_U4_LR2_S_36"
+                    },
+                    {
+                      "id": "G3_U4_LR2G_E_22",
+                      "ref_num": "⑩",
+                      "en": "It makes people smile.",
+                      "text": "この文の ==**make**== は、==**〈make + 人・もの + 動詞の原形〉**== の形で「（人・もの）に～させる」という意味で使われており、文全体は「それは人々を笑顔にします。」という意味になります。==**It**== は前文の the robot を指しています。",
+                      "ref_id": "G3_U4_LR2_S_37"
+                    },
+                    {
+                      "id": "G3_U4_LR2G_E_23",
+                      "ref_num": "⑪",
+                      "en": "The person who developed this robot wanted people to recognize the value of cooperation.",
+                      "text": "==**who**== は関係代名詞で、==**who developed this robot**== は ==**The person**== を後ろから修飾しています。==**Wanted people to recognize ～**== は ==**〈want + 人 + to + 動詞の原形〉**== の形で、「（人）に～してほしい」という意味を表します。",
+                      "ref_id": "G3_U4_LR2_S_38"
+                    },
+                    {
+                      "id": "G3_U4_LR2G_E_24",
+                      "ref_num": "⑫",
+                      "en": "We may expect robots to be perfect, but Sociable Trash Box is made to be imperfect.",
+                      "text": "==**may**== は「～かもしれない」という意味の助動詞です。==**expect robots to be ～**== は ==**〈expect + 人・もの + to + 動詞の原形〉**== の形で、「（人・もの）に～を期待する」という味を表します。==**is made ～**== は ==**〈be動詞 + 動詞の過去分詞〉**== の形で、受け身の文です。",
+                      "ref_id": "G3_U4_LR2_S_39"
+                    },
+                    {
+                      "id": "G3_U4_LR2G_E_25",
+                      "ref_num": "⑰",
+                      "en": "They might help us learn to cooperate and be kind to others.",
+                      "text": "==**〈help + 人 + 動詞の原形〉**== の形で、「（人）が～するのを手助けする」という意味です。==**They**== は前文の robots を指しています。",
+                      "ref_id": "G3_U4_LR2_S_44"
+                    },
+                    {
+                      "id": "G3_U4_LR2G_E_26",
+                      "ref_num": "⑱",
+                      "en": "We are already living with robots, so it is important and fun to think about these questions.",
+                      "text": "==**are already living ～**== は ==**〈be動詞 + 動詞の -ing形〉**== の形で、「～している」という現在進行形の文です。==**it is important and fun to ～**== は ==**〈It is ～ (for 人) + to + 動詞の原形〉**== の形で、「（人が）～するのは…です」の意味を表します。",
+                      "ref_id": "G3_U4_LR2_S_45"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "94-96"
+        },
+        "P1": {
+          "title": "Part 1: AI の進化",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G3_U4_P1_W_01",
+                  "headword": "lately",
+                  "pronunciation": "/léitli/",
+                  "pos": "副",
+                  "meaning": "最近、近頃"
+                },
+                {
+                  "id": "G3_U4_P1_W_02",
+                  "headword": "search",
+                  "pronunciation": "/sə́ːrtʃ/",
+                  "pos": "名",
+                  "meaning": "検索"
+                },
+                {
+                  "id": "G3_U4_P1_W_03",
+                  "headword": "engine(s)",
+                  "pronunciation": "/éndʒin(z)/",
+                  "pos": "名",
+                  "meaning": "エンジン"
+                },
+                {
+                  "id": "G3_U4_P1_W_04",
+                  "headword": "which",
+                  "pronunciation": "/hwítʃ/",
+                  "pos": "関代",
+                  "usage": "〔主格〕",
+                  "meaning": "～する［である］（もの）"
+                },
+                {
+                  "id": "G3_U4_P1_W_05",
+                  "headword": "respond",
+                  "pronunciation": "/rispάnd/",
+                  "pos": "動",
+                  "meaning": "反応［応答］する"
+                },
+                {
+                  "id": "G3_U4_P1_W_06",
+                  "headword": "command(s)",
+                  "pronunciation": "/kəmǽnd(z)/",
+                  "pos": "名",
+                  "meaning": "指令、命令"
+                },
+                {
+                  "id": "G3_U4_P1_W_07",
+                  "headword": "common",
+                  "pronunciation": "/kάmən/",
+                  "pos": "形",
+                  "meaning": "普通の、よくある"
+                },
+                {
+                  "id": "G3_U4_P1_W_08",
+                  "headword": "robot(s)",
+                  "pronunciation": "/róubət(s)/",
+                  "pos": "名",
+                  "meaning": "ロボット"
+                },
+                {
+                  "id": "G3_U4_P1_W_09",
+                  "headword": "automatically",
+                  "pronunciation": "/ɔ̀ːtəmǽtikəli/",
+                  "pos": "副",
+                  "meaning": "自動で"
+                },
+                {
+                  "id": "G3_U4_P1_W_10",
+                  "headword": "translation",
+                  "pronunciation": "/trænsléiʃən/",
+                  "pos": "名",
+                  "meaning": "翻訳"
+                },
+                {
+                  "id": "G3_U4_P1_W_11",
+                  "headword": "software",
+                  "pronunciation": "/sɔ́ːftwèər/",
+                  "pos": "名",
+                  "meaning": "ソフトウェア"
+                },
+                {
+                  "id": "G3_U4_P1_W_12",
+                  "headword": "near",
+                  "pronunciation": "/níər/",
+                  "pos": "形",
+                  "meaning": "近い"
+                },
+                {
+                  "id": "G3_U4_P1_W_13",
+                  "headword": "quite",
+                  "pronunciation": "/kwáit/",
+                  "pos": "副",
+                  "meaning": "非常に、とても"
+                },
+                {
+                  "id": "G3_U4_P1_W_14",
+                  "headword": "easily",
+                  "pronunciation": "/íːzili/",
+                  "pos": "副",
+                  "meaning": "簡単に、楽に"
+                },
+                {
+                  "id": "G3_U4_P1_W_15",
+                  "headword": "search engine",
+                  "pos": "名",
+                  "meaning": "検索エンジン"
+                },
+                {
+                  "id": "G3_U4_P1_W_16",
+                  "headword": "a part of ~",
+                  "pos": "熟",
+                  "meaning": "～の一部"
+                },
+                {
+                  "id": "G3_U4_P1_W_17",
+                  "headword": "in the near future",
+                  "pos": "熟",
+                  "meaning": "近い将来"
+                },
+                {
+                  "id": "G3_U4_P1_W_18",
+                  "headword": "shape(d)",
+                  "pronunciation": "/ʃéip(t)/",
+                  "pos": "動",
+                  "meaning": "～を形作る"
+                },
+                {
+                  "id": "G3_U4_P1_W_19",
+                  "headword": "handy",
+                  "pronunciation": "/hǽndi/",
+                  "pos": "形",
+                  "meaning": "使いやすい、便利な"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "article_section",
+                  "header": "AI の進化 (p.74)",
+                  "items": [
+                    {
+                      "id": "G3_U4_P1_S_Q1",
+                      "speaker": "Question",
+                      "ja": "Q. 記事の中で、AI の技術は、近い将来どうなると書かれているでしょうか。"
+                    },
+                    {
+                      "id": "G3_U4_P1_S_A1",
+                      "speaker": "Answer",
+                      "ja": "A. (例) 世界中の人々ととても簡単にコミュニケーションをとるのに役立つ。"
+                    },
+                    {
+                      "id": "G3_U4_P1_S_01",
+                      "ref_num": "①",
+                      "en": "AI technology has made great progress lately.",
+                      "ja": "AI 技術は近頃大きな進歩を遂げている。"
+                    },
+                    {
+                      "id": "G3_U4_P1_S_02",
+                      "ref_num": "②",
+                      "en": "It has become a part of our daily lives.",
+                      "ja": "それは私たちの日常生活の一部になっている。"
+                    },
+                    {
+                      "id": "G3_U4_P1_S_03",
+                      "ref_num": "③",
+                      "en": "For example, internet search engines use AI technology.",
+                      "ja": "たとえば、インターネットの検索エンジンは AI 技術を利用している。"
+                    },
+                    {
+                      "id": "G3_U4_P1_S_04",
+                      "ref_num": "④",
+                      "en": "Smartphones which respond to voice commands are common these days.",
+                      "ja": "音声指示に応じるスマートフォンは、最近では一般的である。"
+                    },
+                    {
+                      "id": "G3_U4_P1_S_05",
+                      "ref_num": "⑤",
+                      "en": "Robots which automatically clean your house have become popular.",
+                      "ja": "家の中を自動で掃除するロボットは人気となっている。"
+                    },
+                    {
+                      "id": "G3_U4_P1_S_06",
+                      "ref_num": "⑥",
+                      "en": "These all use AI technology.",
+                      "ja": "これらはすべて AI 技術を利用している。"
+                    },
+                    {
+                      "id": "G3_U4_P1_S_07",
+                      "ref_num": "⑦",
+                      "en": "Translation software also uses AI technology.",
+                      "ja": "翻訳ソフトウェアもまた、AI 技術を活用している。"
+                    },
+                    {
+                      "id": "G3_U4_P1_S_08",
+                      "ref_num": "⑧",
+                      "en": "It can come up with the best translation by using AI technology.",
+                      "ja": "AI 技術を使って最適な翻訳を提案することができる。"
+                    },
+                    {
+                      "id": "G3_U4_P1_S_09",
+                      "ref_num": "⑨",
+                      "en": "It is becoming common.",
+                      "ja": "それは一般的になりつつある。"
+                    },
+                    {
+                      "id": "G3_U4_P1_S_10",
+                      "ref_num": "⑩",
+                      "en": "In the near future, AI will help us communicate with people all over the world quite easily.",
+                      "ja": "近い将来、AI は私たちが世界中の人々ととても簡単にコミュニケーションをとるのに役立つだろう。"
+                    },
+                    {
+                      "id": "G3_U4_P1_S_11",
+                      "speaker": "You're the Writer!",
+                      "en": "I want to use AI technology when I communicate with people all over the world.",
+                      "ja": "(解答例) AI の技術を世界中の人とコミュニケーションをとるときに使いたいです。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak (p.75)",
+                  "label": "欲しいものや興味のあるものを伝え合おう",
+                  "items": [
+                    {
+                      "id": "G3_U4_P1_S_12",
+                      "speaker": "[例] A",
+                      "en": "I want a dictionary which is shaped like a pen.",
+                      "ja": "私はペンのような形をした辞書がほしいです。"
+                    },
+                    {
+                      "id": "G3_U4_P1_S_13",
+                      "speaker": "[例] A",
+                      "en": "It looks handy. How about you?",
+                      "ja": "それは使いやすそうに見えます。あなたはどうですか。"
+                    },
+                    {
+                      "id": "G3_U4_P1_S_14",
+                      "speaker": "[例] B",
+                      "en": "I'm interested in the robots which wear blue and yellow suits in the picture.",
+                      "ja": "私は写真の中で青や黄色の服を着たロボットに興味があります。"
+                    },
+                    {
+                      "id": "G3_U4_P1_S_15",
+                      "speaker": "[例] B",
+                      "en": "I want to hold them.",
+                      "ja": "私はそれらを抱きたいです。"
+                    },
+                    {
+                      "id": "G3_U4_P1_S_16",
+                      "speaker": "[解答例] A",
+                      "en": "I want a robot which looks like a dog. How about you?",
+                      "ja": "私はイヌのように見えるロボットがほしいです。あなたはどうですか。"
+                    },
+                    {
+                      "id": "G3_U4_P1_S_17",
+                      "speaker": "[解答例] B",
+                      "en": "I'm interested in a delivery robot which is shaped like a cat.",
+                      "ja": "私はネコのような形をした配膳ロボットに興味があります。"
+                    },
+                    {
+                      "id": "G3_U4_P1_S_18",
+                      "speaker": "Write [解答例]",
+                      "en": "I want a robot which looks like a dog. Maki is interested in a delivery robot which is shaped like a cat.",
+                      "ja": "私はイヌのように見えるロボットがほしいです。マキはネコのような形をした配膳ロボットに興味があります。"
+                    }
+                  ]
+                }
+              ]
+            },
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "「～する（もの）」と説明を加える。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "Smartphones ==**which**== respond to voice commands are common these days.",
+                      "ja": "(音声指示に応じるスマートフォンは、最近では一般的です。)",
+                      "ref_id": "G3_U4_P1_S_04"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "関係代名詞 which (主格)",
+                  "text": "==**which**== に続く語句は「～する［である］（もの）」という意味で、その前にある名詞に説明（修飾）を加えます。この ==**which**== は関係代名詞といいます。関係代名詞 ==**which**== は、説明される名詞が「もの」の場合に使われます。ここでは、この関係代名詞 ==**which**== は、名詞に続く文の主語になっています。",
+                  "items": [
+                    {
+                      "tag": "構成",
+                      "en": "Smartphones (スマートフォン) ← [ ==**which**== respond to voice commands (音声指示に応じる) ]",
+                      "note": "which以下が smartphones を詳しく説明している"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G3_U4_P1G_E_01",
+                      "ref_num": "①",
+                      "en": "AI technology has made great progress lately.",
+                      "text": "==**made**== は ==**make**== の過去分詞です。==**〈have [has] + 過去分詞〉**== の形で現在完了形の完了の意味を表します。",
+                      "ref_id": "G3_U4_P1_S_01"
+                    },
+                    {
+                      "id": "G3_U4_P1G_E_02",
+                      "ref_num": "②",
+                      "en": "It has become a part of our daily lives.",
+                      "text": "==**become**== は ==**become**== の過去分詞です（過去形は became）。==**〈have [has] + 過去分詞〉**== の形で、現在完了形の完了の意味を表しています。==**it**== は前文の AI technology を指しています。",
+                      "ref_id": "G3_U4_P1_S_02"
+                    },
+                    {
+                      "id": "G3_U4_P1G_E_03",
+                      "ref_num": "④",
+                      "en": "Smartphones which respond to voice commands are common these days.",
+                      "text": "==**which respond to voice commands**== は、関係代名詞 ==**which**== に続く語句が「～する（もの）」という意味で、その前にある名詞の ==**smartphones**== に説明（修飾）を加えています。関係代名詞が説明される名詞が「もの」のときに使われます。==**respond to ～**== は「～に反応する、応答する」という意味です。",
+                      "ref_id": "G3_U4_P1_S_04"
+                    },
+                    {
+                      "id": "G3_U4_P1G_E_04",
+                      "ref_num": "⑤",
+                      "en": "Robots which automatically clean your house have become popular.",
+                      "text": "==**which automatically clean your house**== は、関係代名詞 ==**which**== に続く語句が「～する（もの）」という意味で、その前にある名詞の ==**robots**== に説明（修飾）を加えています。==**〈have [has] + 過去分詞〉**== の形で現在完了形の完了の意味を表します。",
+                      "ref_id": "G3_U4_P1_S_05"
+                    },
+                    {
+                      "id": "G3_U4_P1G_E_05",
+                      "ref_num": "⑧",
+                      "en": "It can come up with the best translation by using AI technology.",
+                      "text": "==**come up with ～**== は「～を思いつく」という意味です。==**it**== は前文の translation software（翻訳ソフトウェア）を指しています。",
+                      "ref_id": "G3_U4_P1_S_08"
+                    },
+                    {
+                      "id": "G3_U4_P1G_E_06",
+                      "ref_num": "⑨",
+                      "en": "It is becoming common.",
+                      "text": "==**〈be動詞 + 動詞の -ing形〉**== の形で、「～している」という意味を表す現在進行形の文です。==**becoming common**== は、==**〈become + 形容詞〉**== の形で「～の（状態）になる」という意味を表します。==**it**== は⑧と同じように、translation software を指しています。",
+                      "ref_id": "G3_U4_P1_S_09"
+                    },
+                    {
+                      "id": "G3_U4_P1G_E_07",
+                      "ref_num": "⑩",
+                      "en": "In the near future, AI will help us communicate with people all over the world quite easily.",
+                      "text": "==**〈help + 人 + 動詞の原形〉**== の形で「人が～するのを手助けする」という意味です。AI will help us communicate with ～ を直訳すると、「AI は私たちが～とコミュニケーションをとるのを手伝うでしょう。」という意味になります。",
+                      "ref_id": "G3_U4_P1_S_10"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 80
+        },
+        "P2": {
+          "title": "Part 2: グループディスカッション",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G3_U4_P2_W_01",
+                  "headword": "discussion",
+                  "pronunciation": "/diskʌ́ʃən/",
+                  "pos": "名",
+                  "meaning": "議論、討論"
+                },
+                {
+                  "id": "G3_U4_P2_W_02",
+                  "headword": "who",
+                  "pronunciation": "/húː/",
+                  "pos": "関代",
+                  "usage": "〔主格〕",
+                  "meaning": "～する［である］（人）"
+                },
+                {
+                  "id": "G3_U4_P2_W_03",
+                  "headword": "run",
+                  "pronunciation": "/rʌ́n/",
+                  "pos": "動",
+                  "meaning": "～を経営する"
+                },
+                {
+                  "id": "G3_U4_P2_W_04",
+                  "headword": "customer(s)",
+                  "pronunciation": "/kʌ́stəmər(z)/",
+                  "pos": "名",
+                  "meaning": "客、顧客"
+                },
+                {
+                  "id": "G3_U4_P2_W_05",
+                  "headword": "rely",
+                  "pronunciation": "/rilái/",
+                  "pos": "動",
+                  "meaning": "頼りにする、当てにする"
+                },
+                {
+                  "id": "G3_U4_P2_W_06",
+                  "headword": "in my opinion",
+                  "pos": "熟",
+                  "meaning": "私の考えでは"
+                },
+                {
+                  "id": "G3_U4_P2_W_07",
+                  "headword": "rely on ~",
+                  "pos": "熟",
+                  "meaning": "～に頼る、～を当てにする"
+                },
+                {
+                  "id": "G3_U4_P2_W_08",
+                  "headword": "cleaning robot(s)",
+                  "pronunciation": "/klíːniŋ ròubət(s)/",
+                  "pos": "名",
+                  "meaning": "ロボット掃除機"
+                },
+                {
+                  "id": "G3_U4_P2_W_09",
+                  "headword": "weekday(s)",
+                  "pronunciation": "/wíːkdèi(z)/",
+                  "pos": "名",
+                  "meaning": "平日"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "dialogue_section",
+                  "header": "グループディスカッション (p.76)",
+                  "items": [
+                    {
+                      "id": "G3_U4_P2_S_Q1",
+                      "speaker": "Question",
+                      "ja": "Q. コウタとハジンが、それぞれいちばん言いたいことは何でしょうか。"
+                    },
+                    {
+                      "id": "G3_U4_P2_S_A1",
+                      "speaker": "Answer",
+                      "ja": "A. (例) コウタ：翻訳ソフトウェアがあれば外国語の勉強はそれほど重要ではない。ハジン：外国語を学習することは相変わらず重要だ。"
+                    },
+                    {
+                      "id": "G3_U4_P2_S_01",
+                      "ref_num": "①",
+                      "speaker": "Ms. Thusi",
+                      "en": "Today's discussion topic is AI technology for our future.",
+                      "ja": "今日の議論のトピックは私たちの将来に向けた AI 技術です。"
+                    },
+                    {
+                      "id": "G3_U4_P2_S_02",
+                      "ref_num": "②",
+                      "speaker": "Ms. Thusi",
+                      "en": "If you can use translation software, do you still need to learn foreign languages in school?",
+                      "ja": "翻訳ソフトウェアを使えるならば、相変わらず学校で外国語を学ぶ必要はあるのでしょうか。"
+                    },
+                    {
+                      "id": "G3_U4_P2_S_03",
+                      "ref_num": "③",
+                      "speaker": "Ms. Thusi",
+                      "en": "Kota's discussion group:",
+                      "ja": "コウタのディスカッショングループ："
+                    },
+                    {
+                      "id": "G3_U4_P2_S_04",
+                      "ref_num": "④",
+                      "speaker": "Kota",
+                      "en": "I think translation software is very useful.",
+                      "ja": "ぼくは、翻訳ソフトウェアはとても便利だと思います。"
+                    },
+                    {
+                      "id": "G3_U4_P2_S_05",
+                      "ref_num": "⑤",
+                      "speaker": "Kota",
+                      "en": "I have an uncle who runs a Japanese restaurant.",
+                      "ja": "ぼくには日本料理店を経営している叔父がいます。"
+                    },
+                    {
+                      "id": "G3_U4_P2_S_06",
+                      "ref_num": "⑥",
+                      "speaker": "Kota",
+                      "en": "He's not good at speaking English, so he uses a translation device to communicate with foreign customers.",
+                      "ja": "叔父は英語を話すことが得意ではないので、外国のお客さんとコミュニケーションを取るために翻訳デバイスを使っています。"
+                    },
+                    {
+                      "id": "G3_U4_P2_S_07",
+                      "ref_num": "⑦",
+                      "speaker": "Kota",
+                      "en": "In my opinion, AI devices can help with many languages, so learning foreign languages will not be so important anymore.",
+                      "ja": "ぼくの意見では、AI 機器は多くの言語で助けになるので、外国語を学習することはもうそれほど重要ではなくなります。"
+                    },
+                    {
+                      "id": "G3_U4_P2_S_08",
+                      "ref_num": "⑧",
+                      "speaker": "Hajin",
+                      "en": "Kota has a good point, but I think learning foreign languages is still important.",
+                      "ja": "コウタの意見はよい点をついていると思いますが、ぼくは外国語を学習することは相変わらず重要だと思います。"
+                    },
+                    {
+                      "id": "G3_U4_P2_S_09",
+                      "ref_num": "⑨",
+                      "speaker": "Hajin",
+                      "en": "I don't always want to rely on a machine to communicate with people.",
+                      "ja": "人とコミュニケーションを取るのに、常に機械に頼りたいとは思いません。"
+                    },
+                    {
+                      "id": "G3_U4_P2_S_10",
+                      "speaker": "You're the Writer!",
+                      "en": "I can understand your opinion.",
+                      "ja": "(解答例) あなたの意見は理解できます。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak (p.77)",
+                  "label": "AI 技術がどんな人の役に立つか伝え合おう",
+                  "items": [
+                    {
+                      "id": "G3_U4_P2_S_11",
+                      "speaker": "[例] A",
+                      "en": "I think AI technology is useful for people who are busy.",
+                      "ja": "AI 技術は忙しい人々の役に立つと思います。"
+                    },
+                    {
+                      "id": "G3_U4_P2_S_12",
+                      "speaker": "[例] A",
+                      "en": "For example, AI cleaning robots help my parents on weekdays.",
+                      "ja": "例えば、AI ロボット掃除機は平日に私の両親を助けてくれます。"
+                    },
+                    {
+                      "id": "G3_U4_P2_S_13",
+                      "speaker": "[例] B",
+                      "en": "I agree with you. / I think you're right, but ....",
+                      "ja": "あなたに賛成です。 / あなたは正しいと思いますが、……。"
+                    },
+                    {
+                      "id": "G3_U4_P2_S_14",
+                      "speaker": "[解答例] A",
+                      "en": "I think AI technology is useful for people who travel abroad. For example, they can communicate with local people easily when they use AI translation devices.",
+                      "ja": "AI 技術は海外旅行をする人に役立つと思います。たとえば、AI 翻訳デバイスを使用すると、地元の友人と簡単にコミュニケーションをとることができます。"
+                    },
+                    {
+                      "id": "G3_U4_P2_S_15",
+                      "speaker": "[解答例] B",
+                      "en": "I agree with you.",
+                      "ja": "あなたに賛成です。"
+                    }
+                  ]
+                }
+              ]
+            },
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "「～する（人）」と説明を加える。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "I have an uncle ==**who**== runs a Japanese restaurant.",
+                      "ja": "(私には日本料理店を経営する叔父がいます。)",
+                      "ref_id": "G3_U4_P2_S_05"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "関係代名詞 who (主格)",
+                  "text": "==**who**== に続く語句は「～する［である］（人）」という意味で、その前にある名詞にどんな人かという説明（修飾）を加えます。この ==**who**== は関係代名詞とよばれ、関係代名詞 ==**who**== は、説明される名詞が「人」の場合に使われます。ここでは、この関係代名詞 ==**who**== は、名詞に続く文の主語になっています。",
+                  "items": [
+                    {
+                      "tag": "構成",
+                      "en": "I have an uncle (叔父) ← [ ==**who**== runs a Japanese restaurant (日本料理店を経営する) ]",
+                      "note": "who以下が uncle を詳しく説明している"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G3_U4_P2G_E_01",
+                      "ref_num": "⑤",
+                      "en": "I have an uncle who runs a Japanese restaurant.",
+                      "text": "==**who runs a Japanese restaurant**== は、関係代名詞 ==**who**== に続く語句が「～する（人）」という意味で、その前にある名詞の ==**an uncle**== に説明（修飾）を加えています。関係代名詞 ==**who**== は説明される名詞が「人」のときに使われ、==**who**== に続く文の主語の働きをしています。",
+                      "ref_id": "G3_U4_P2_S_05"
+                    },
+                    {
+                      "id": "G3_U4_P2G_E_02",
+                      "ref_num": "⑥",
+                      "en": "He's not good at speaking English, so he uses a translation device to communicate with foreign customers.",
+                      "text": "==**〈be動詞 + good at + 動詞の -ing形〉**== で「～が得意だ」という意味です。この文は ==**He's not good at ～**== と否定形になっているので、「彼は～が得意ではありません」という意味になります。==**so**== は結果を表す接続詞で、「だから」の意味になります。",
+                      "ref_id": "G3_U4_P2_S_06"
+                    },
+                    {
+                      "id": "G3_U4_P2G_E_03",
+                      "ref_num": "⑦",
+                      "en": "In my opinion, AI devices can help with many languages, so learning foreign languages will not be so important anymore.",
+                      "text": "==**will**== は「～でしょう」と推測を表す助動詞です。==**important**== の前の ==**so**== は接続詞ではなく「とても、非常に」という意味の副詞で、形容詞 ==**important**== を強調しています。==**not ～ anymore**== は「もはや～でない」という味です。",
+                      "ref_id": "G3_U4_P2_S_07"
+                    },
+                    {
+                      "id": "G3_U4_P2G_E_04",
+                      "ref_num": "⑧",
+                      "en": "Kota has a good point, but I think learning foreign languages is still important.",
+                      "note": "→教科書p.50 Key Phrase",
+                      "text": "==**～ has a good point, but ...**== は、「～はよい点をついていると思いますが…」という意味で、相手の意見を受け止めつつも自分の考えを伝えることができる表現です。",
+                      "ref_id": "G3_U4_P2_S_08"
+                    },
+                    {
+                      "id": "G3_U4_P2G_E_05",
+                      "ref_num": "⑨",
+                      "en": "I don't always want to rely on a machine to communicate with people.",
+                      "text": "==**rely on ～**== は「～に頼る」という意味です。",
+                      "ref_id": "G3_U4_P2_S_09"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 81
+        },
+        "P3": {
+          "title": "Part 3: あなたの意見は？",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G3_U4_P3_W_01",
+                  "headword": "ahead",
+                  "pronunciation": "/əhéd/",
+                  "pos": "副",
+                  "meaning": "前に、先に"
+                },
+                {
+                  "id": "G3_U4_P3_W_02",
+                  "headword": "like",
+                  "pronunciation": "/láik, lə̀ik/",
+                  "pos": "前",
+                  "meaning": "～と同じように"
+                },
+                {
+                  "id": "G3_U4_P3_W_03",
+                  "headword": "other",
+                  "pronunciation": "/ʌ́ðər/",
+                  "pos": "形",
+                  "meaning": "〔ふつう the ～で〕（2つのうちの）もう一方の、〔the ～s で〕（3つ以上のうちの）その他全ての"
+                },
+                {
+                  "id": "G3_U4_P3_W_04",
+                  "headword": "that",
+                  "pronunciation": "/ðæt, ðət/",
+                  "pos": "関代",
+                  "usage": "〔主格〕",
+                  "meaning": "～する［である］（人・もの）"
+                },
+                {
+                  "id": "G3_U4_P3_W_05",
+                  "headword": "broaden",
+                  "pronunciation": "/brɔ́ːdn/",
+                  "pos": "動",
+                  "meaning": "～を広げる、深める"
+                },
+                {
+                  "id": "G3_U4_P3_W_06",
+                  "headword": "view",
+                  "pronunciation": "/vjúː/",
+                  "pos": "名",
+                  "meaning": "見方、考え方"
+                },
+                {
+                  "id": "G3_U4_P3_W_07",
+                  "headword": "understanding",
+                  "pronunciation": "/ʌ̀ndərstǽndiŋ/",
+                  "pos": "名",
+                  "meaning": "理解（すること）"
+                },
+                {
+                  "id": "G3_U4_P3_W_08",
+                  "headword": "magic",
+                  "pronunciation": "/mǽdʒik/",
+                  "pos": "形",
+                  "meaning": "魔法の"
+                },
+                {
+                  "id": "G3_U4_P3_W_09",
+                  "headword": "carpet",
+                  "pronunciation": "/kάːrpət/",
+                  "pos": "名",
+                  "meaning": "じゅうたん"
+                },
+                {
+                  "id": "G3_U4_P3_W_10",
+                  "headword": "cape",
+                  "pronunciation": "/kéip/",
+                  "pos": "名",
+                  "meaning": "ケープ〔袖のないマント〕"
+                },
+                {
+                  "id": "G3_U4_P3_W_11",
+                  "headword": "make",
+                  "pronunciation": "/méik/",
+                  "pos": "動",
+                  "usage": "〔make + 人・もの + 動詞の原形で〕",
+                  "meaning": "(人・ものに) ～させる"
+                },
+                {
+                  "id": "G3_U4_P3_W_12",
+                  "headword": "disappear",
+                  "pronunciation": "/dìsəpíər/",
+                  "pos": "動",
+                  "meaning": "見えなくなる"
+                },
+                {
+                  "id": "G3_U4_P3_W_13",
+                  "headword": "cold",
+                  "pronunciation": "/kóuld/",
+                  "pos": "形",
+                  "meaning": "冷たい、寒い"
+                },
+                {
+                  "id": "G3_U4_P3_W_14",
+                  "headword": "somewhere",
+                  "pronunciation": "/sʌ́mhwèər/",
+                  "pos": "副",
+                  "meaning": "どこかに"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "dialogue_section",
+                  "header": "あなたの意見は？ (p.78)",
+                  "items": [
+                    {
+                      "id": "G3_U4_P3_S_Q1",
+                      "speaker": "Question",
+                      "ja": "Q. 外国語を学ぶことについて、ティナはどんな意見をもっているでしょうか。"
+                    },
+                    {
+                      "id": "G3_U4_P3_S_A1",
+                      "speaker": "Answer",
+                      "ja": "A. (例) 外国語を学ぶことは自分の世界観を広げる価値のある経験だと考えている。"
+                    },
+                    {
+                      "id": "G3_U4_P3_S_01",
+                      "ref_num": "①",
+                      "speaker": "Eri",
+                      "en": "Can I say something?",
+                      "ja": "ちょっといいですか？"
+                    },
+                    {
+                      "id": "G3_U4_P3_S_02",
+                      "ref_num": "②",
+                      "speaker": "Tina",
+                      "en": "Go ahead, Eri.",
+                      "ja": "どうぞ、エリ。"
+                    },
+                    {
+                      "id": "G3_U4_P3_S_03",
+                      "ref_num": "③",
+                      "speaker": "Eri",
+                      "en": "I think I agree with Hajin.",
+                      "ja": "私はハジンに賛成です。"
+                    },
+                    {
+                      "id": "G3_U4_P3_S_04",
+                      "ref_num": "④",
+                      "speaker": "Eri",
+                      "en": "I also enjoy communicating in English, so I want to study more.",
+                      "ja": "私は英語でコミュニケーションを取るのが楽しくもあるので、もっと勉強したいです。"
+                    },
+                    {
+                      "id": "G3_U4_P3_S_05",
+                      "ref_num": "⑤",
+                      "speaker": "Eri",
+                      "en": "How about you, Tina?",
+                      "ja": "ティナ、あなたはどう思いますか？"
+                    },
+                    {
+                      "id": "G3_U4_P3_S_06",
+                      "ref_num": "⑥",
+                      "speaker": "Tina",
+                      "en": "I think Kota is right.",
+                      "ja": "私はコウタは正しいと思います。"
+                    },
+                    {
+                      "id": "G3_U4_P3_S_07",
+                      "ref_num": "⑦",
+                      "speaker": "Tina",
+                      "en": "Like his uncle, we'll use AI devices more, and that'll be convenient for us.",
+                      "ja": "コウタの叔父さんのように、私たちは AI 機器をもっと使うようになるし、それは私たちにとって便利になります。"
+                    },
+                    {
+                      "id": "G3_U4_P3_S_08",
+                      "ref_num": "⑧",
+                      "speaker": "Tina",
+                      "en": "On the other hand, I also agree with Hajin and Eri's opinion.",
+                      "ja": "一方で、ハジンとエリの意見にも賛成です。"
+                    },
+                    {
+                      "id": "G3_U4_P3_S_09",
+                      "ref_num": "⑨",
+                      "speaker": "Tina",
+                      "en": "Learning a language is a valuable experience that will help us broaden our world view.",
+                      "ja": "言語を学習することは私たちの世界観を広げてくれる、価値のある経験です。"
+                    },
+                    {
+                      "id": "G3_U4_P3_S_10",
+                      "ref_num": "⑩",
+                      "speaker": "Tina",
+                      "en": "Learning each other's language and culture helps us get a better understanding of each other, too.",
+                      "ja": "お互いの言語と文化を学び合うことはお互いへの理解を深めるのにも役立ちます。"
+                    },
+                    {
+                      "id": "G3_U4_P3_S_11",
+                      "ref_num": "⑪",
+                      "speaker": "Ms. Thusi",
+                      "en": "OK, I think everyone had valuable opinions to share.",
+                      "ja": "はい、みんな共有すべき貴重な意見を持っていたと思います。"
+                    },
+                    {
+                      "id": "G3_U4_P3_S_12",
+                      "ref_num": "⑫",
+                      "speaker": "Ms. Thusi",
+                      "en": "Thank you for sharing them.",
+                      "ja": "共有してくれてありがとうございます。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak (p.79)",
+                  "label": "Which would you choose? ゲームをしよう",
+                  "items": [
+                    {
+                      "id": "G3_U4_P3_S_13",
+                      "speaker": "[例] A",
+                      "en": "Which would you choose, a magic carpet that flies or a magic cape that makes you disappear?",
+                      "ja": "空飛ぶ魔法のじゅうたんと、あなたを見えなくさせる魔法のケープ、どっちを選びますか。"
+                    },
+                    {
+                      "id": "G3_U4_P3_S_14",
+                      "speaker": "[例] B",
+                      "en": "A magic carpet that flies. I want to use it when I go to school.",
+                      "ja": "空飛ぶ魔法のじゅうたんです。私はそれを学校に行くときに使いたいです。"
+                    },
+                    {
+                      "id": "G3_U4_P3_S_15",
+                      "speaker": "[例] A",
+                      "en": "That's a good idea. / I like your idea, but ....",
+                      "ja": "いい考えですね。 / あなたの考えが好きですが、……。"
+                    },
+                    {
+                      "id": "G3_U4_P3_S_16",
+                      "speaker": "[解答例] A",
+                      "en": "Which would you choose, living somewhere that's always very cold, or living somewhere that's always very hot?",
+                      "ja": "常にとても寒いどこかに住むのと、常にとても暑いどこかに住むのと、どっちを選びますか。"
+                    },
+                    {
+                      "id": "G3_U4_P3_S_17",
+                      "speaker": "[解答例] B",
+                      "en": "I would choose to live somewhere that's always very hot. I like wearing light clothes.",
+                      "ja": "私は常にとても暑いどこかに住むことを選びます。私は薄着が好きです。"
+                    }
+                  ]
+                }
+              ]
+            },
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "「～する（もの・人）」と説明を加える。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "Learning a language is a valuable experience ==**that**== will help us broaden our world view.",
+                      "ja": "(言語を学ぶことは、私たちの世界観を広げてくれる、価値のある経験です。)",
+                      "ref_id": "G3_U4_P3_S_09"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "関係代名詞 that (主格)",
+                  "text": "==**that**== に続く語句は「～する［である］（もの・人）」という意味で、その前にある名詞にどんなものや人かという説明（修飾）を加えます。この関係代名詞 ==**that**== は、説明される名詞が「もの」の場合でも「人」の場合でも使われます。ここでは、この関係代名詞 ==**that**== は、名詞に続く文の主語になっています。",
+                  "items": [
+                    {
+                      "tag": "構成",
+                      "en": "Learning a language is a valuable experience (価値のある経験) ← [ ==**that**== will help us broaden our world view (私たちの世界観を広げてくれる) ]",
+                      "note": "that以下が experience を詳しく説明している"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G3_U4_P3G_E_01",
+                      "ref_num": "②",
+                      "en": "Go ahead, Eri.",
+                      "note": "→教科書p.52 Key Phrases",
+                      "text": "==**Go ahead.**== は「どうぞ。」と相手の発言を促すときに使う表現です。",
+                      "ref_id": "G3_U4_P3_S_02"
+                    },
+                    {
+                      "id": "G3_U4_P3G_E_02",
+                      "ref_num": "③",
+                      "en": "I think I agree with Hajin.",
+                      "text": "I think の後には接続詞 ==**that**== が省略されていて、==**I think (that) ～.**== で「～と思います。」という意味を表します。==**agree with ～**== は「～に賛成する」という意味です。",
+                      "ref_id": "G3_U4_P3_S_03"
+                    },
+                    {
+                      "id": "G3_U4_P3G_E_03",
+                      "ref_num": "⑧",
+                      "en": "On the other hand, I also agree with Hajin and Eri's opinion.",
+                      "note": "→教科書p.52 Key Phrases",
+                      "text": "==**On the other hand, ～.**== は「一方で～。」という意味で、直前の発言と異なる意見を伝えるときに使います。",
+                      "ref_id": "G3_U4_P3_S_08"
+                    },
+                    {
+                      "id": "G3_U4_P3G_E_04",
+                      "ref_num": "⑨",
+                      "en": "Learning a language is a valuable experience that will help us broaden our world view.",
+                      "text": "==**learning a language**== (言語を学習すること) が動名詞の形で主語になっています。関係代名詞 ==**that**== に続く語句 will help us broaden our world view は「私たちの世界観を広げるのに役立つ」という意味で、その前にある名詞の ==**a valuable experience**== に説明を加えています。==**〈help + 人 + 動詞の原形〉**== の形は、「人が～するのを手伝う」という意味です。",
+                      "ref_id": "G3_U4_P3_S_09"
+                    },
+                    {
+                      "id": "G3_U4_P3G_E_05",
+                      "ref_num": "⑩",
+                      "en": "Learning each other's language and culture helps us get a better understanding of each other, too.",
+                      "text": "==**learning each other's language and culture**== (お互いの言語と文化を学び合うこと) までが主語です。==**learning**== と ==**understanding**== はそれぞれ動名詞として使われています。",
+                      "ref_id": "G3_U4_P3_S_10"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 82
+        },
+        "ST": {
+          "title": "Start: AI Technology and Language",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G3_U4_ST_W_01",
+                  "headword": "AI",
+                  "pronunciation": "/éɪái/",
+                  "pos": "名",
+                  "meaning": "人工知能〔artificial intelligence の略〕"
+                },
+                {
+                  "id": "G3_U4_ST_W_02",
+                  "headword": "device(s)",
+                  "pronunciation": "/diváis(iz)/",
+                  "pos": "名",
+                  "meaning": "装置、道具、デバイス"
+                },
+                {
+                  "id": "G3_U4_ST_W_03",
+                  "headword": "daily",
+                  "pronunciation": "/déili/",
+                  "pos": "形",
+                  "meaning": "日常の、毎日の"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "goal_section",
+                  "header": "Unit 4 の目標 (Goal)",
+                  "items": [
+                    {
+                      "tag": "Read",
+                      "text": "投稿文を読みそれぞれの意見の要点を捉えることができる。"
+                    },
+                    {
+                      "tag": "Write",
+                      "text": "読んだ投稿文についての自分の意見を整理して書くことができる。"
+                    }
+                  ]
+                },
+                {
+                  "type": "intro_section",
+                  "header": "About You",
+                  "items": [
+                    {
+                      "id": "G3_U4_ST_S_01",
+                      "en": "Do you use any AI devices in your daily life?",
+                      "ja": "あなたは日常で何かAI機器を使っていますか。"
+                    },
+                    {
+                      "id": "G3_U4_ST_S_02",
+                      "en": "Yes. I use a smartphone.",
+                      "ja": "(例) はい。スマートフォンを使っています。",
+                      "tag": "例"
+                    }
+                  ]
+                },
+                {
+                  "type": "check_section",
+                  "header": "1. 予想する",
+                  "items": [
+                    {
+                      "id": "G3_U4_ST_S_03",
+                      "en": "What opinion does Kota have about AI?",
+                      "ja": "コウタはAIについてどんな意見をもっていますか。"
+                    },
+                    {
+                      "id": "G3_U4_ST_S_04",
+                      "en": "He thinks AI is useful.",
+                      "ja": "(例) AIは役に立つと考えています。",
+                      "tag": "例"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 73
+        }
+      },
+      "hasAppendix": true
+    }
+  },
+  "allExplanations": {
+    "G3_U4_LR2_S_01": "==**kind**== は「種類」という名詞の意味で使われ、==**kind of robot**== で「ロボットの種類」という意味になります。==**the word**== と ==**\"robot\"**== は同格の関係です。",
+    "G3_U4_LR2_S_02": "==**that**== に続く語句が「～する…」という意味で、それぞれその前にある名詞を説明（修飾）しています。==**think of ～**== は「～について考える」という意味で、Some people think of ～, some people think of ～, ... で「～を思い浮かべる人がいたり、～について考える人がいます。」という意味になります。==**human-like**== は「人型の」という意味です。",
+    "G3_U4_LR2_S_03": "==**〈be動詞 + 動詞の -ing形〉**== の形なので、「～している」という現在進行形の文です。この文中の ==**〈to + 動詞の原形〉**== は「～すること」という意味を表す名詞的用法の不定詞です。==**more and more**== は、「ますます多くの」という意味です。",
+    "G3_U4_LR2_S_05": "==**〈Let's + 動詞の原形 ～.〉**== は「～しましょう。」と提案する文です。==**between ～ and ...**== で、「～と…の間に」という意味を表すので、==**the relationship between humans and robots**== で、「人間とロボットの関係」という意味になります。",
+    "G3_U4_LR2_S_06": "==**\"HAL,\" a robot suit**== の HAL と a robot suit は同格で、「HAL というロボットスーツ」という意味になります。",
+    "G3_U4_LR2_S_08": "==**〈help + 人 + 動詞の原形〉**== の形で、「（人）が～するのを手助けする」という意味です。==**it**== は前半の節の HAL を指しています。",
+    "G3_U4_LR2_S_09": "==**care facility**== は、「介護施設」という意味です。",
+    "G3_U4_LR2_S_10": "==**who work there**== は、関係代名詞 ==**who**== に続く語句がその前にある名詞の ==**people**== に説明を加えています。関係代名詞 ==**who**== が、説明する語句が「人」のときに使われ、続く文の主語の働きをしています。==**it**== は前文の HAL を指しています。==**there**== は前文の in care facilities を指しています。",
+    "G3_U4_LR2_S_11": "==**elderly people**== は、「年配の人々」という意味です。==**〈help + 人 + 動詞の原形〉**== の形で、「（人）が～するのを手助けする」という意味です。==**It**== は 2つ前の文の HAL を指しています。",
+    "G3_U4_LR2_S_14": "==**in addition**== は「その上」という意味で、前の発言に加えて述べるときに使います。==**it**== はここでもすでに述べられた HAL を指しています。",
+    "G3_U4_LR2_S_17": "この文の ==**that**== は、「もの」に説明を加える主語の代わりをする関係代名詞です。==**that**== に続く語句が ==**something**== を説明しています。==**virtual world**== は「仮想世界であなたを表す」という意味で、==**something**== を後ろから修飾しています。",
+    "G3_U4_LR2_S_19": "==**one of ～**== は、==**〈one of + 名詞の複数形〉**== の形で、「～のうちの 1人、1つ」という意味を表します。",
+    "G3_U4_LR2_S_20": "==**who had a serious illness**== は、関係代名詞 ==**who**== に続く語句がその前にある名詞の ==**a 25-year-old man**== に説明を加えています。",
+    "G3_U4_LR2_S_22": "==**〈let + 人 + 動詞の原形〉**== で「（人）に～させる」という味になります。",
+    "G3_U4_LR2_S_24": "この文の ==**with**== は、「～を使って、～で」という意味で使われています。",
+    "G3_U4_LR2_S_25": "==**that**== は関係代名詞で、==**that was sent from the robot's eyes**== がその前の名詞 ==**a live video**== を修飾しています。==**was sent from ～**== は ==**〈be動詞 + 動詞の過去分詞〉**== の形で、受け身の文です。",
+    "G3_U4_LR2_S_26": "==**that way**== は、「そのようにして」という意味です。==**who**== は関係代名詞で、==**who came to the cafe**== は ==**customers**== を後ろから修飾しています。",
+    "G3_U4_LR2_S_27": "==**thanks to ～**== は「～のおかげで」、==**be able to ～**== は「～できる」という意味です。",
+    "G3_U4_LR2_S_29": "==**is called ～**== は ==**〈be動詞 + 動詞の過去分詞〉**== の形で、受け身の文です。",
+    "G3_U4_LR2_S_34": "==**may**== は「～かもしれない」という味の助動詞です。==**something interesting**== は ==**interesting**== が後ろから修飾しているので、「何かおもしろいこと」という意味になります。==**it**== は前文の this robot を指しています。",
+    "G3_U4_LR2_S_36": "==**〈enjoy + 動詞の -ing形〉**== は、「～することを楽しむ」という意味です。==**They**== は前文の people を指しています。",
+    "G3_U4_LR2_S_37": "この文の ==**make**== は、==**〈make + 人・もの + 動詞の原形〉**== の形で「（人・もの）に～させる」という意味で使われており、文全体は「それは人々を笑顔にします。」という意味になります。==**It**== は前文の the robot を指しています。",
+    "G3_U4_LR2_S_38": "==**who**== は関係代名詞で、==**who developed this robot**== は ==**The person**== を後ろから修飾しています。==**Wanted people to recognize ～**== は ==**〈want + 人 + to + 動詞の原形〉**== の形で、「（人）に～してほしい」という意味を表します。",
+    "G3_U4_LR2_S_39": "==**may**== は「～かもしれない」という意味の助動詞です。==**expect robots to be ～**== は ==**〈expect + 人・もの + to + 動詞の原形〉**== の形で、「（人・もの）に～を期待する」という味を表します。==**is made ～**== は ==**〈be動詞 + 動詞の過去分詞〉**== の形で、受け身の文です。",
+    "G3_U4_LR2_S_44": "==**〈help + 人 + 動詞の原形〉**== の形で、「（人）が～するのを手助けする」という意味です。==**They**== は前文の robots を指しています。",
+    "G3_U4_LR2_S_45": "==**are already living ～**== は ==**〈be動詞 + 動詞の -ing形〉**== の形で、「～している」という現在進行形の文です。==**it is important and fun to ～**== は ==**〈It is ～ (for 人) + to + 動詞の原形〉**== の形で、「（人が）～するのは…です」の意味を表します。",
+    "G3_U4_P1_S_01": "==**made**== は ==**make**== の過去分詞です。==**〈have [has] + 過去分詞〉**== の形で現在完了形の完了の意味を表します。",
+    "G3_U4_P1_S_02": "==**become**== は ==**become**== の過去分詞です（過去形は became）。==**〈have [has] + 過去分詞〉**== の形で、現在完了形の完了の意味を表しています。==**it**== は前文の AI technology を指しています。",
+    "G3_U4_P1_S_04": "==**which respond to voice commands**== は、関係代名詞 ==**which**== に続く語句が「～する（もの）」という意味で、その前にある名詞の ==**smartphones**== に説明（修飾）を加えています。関係代名詞が説明される名詞が「もの」のときに使われます。==**respond to ～**== は「～に反応する、応答する」という意味です。",
+    "G3_U4_P1_S_05": "==**which automatically clean your house**== は、関係代名詞 ==**which**== に続く語句が「～する（もの）」という意味で、その前にある名詞の ==**robots**== に説明（修飾）を加えています。==**〈have [has] + 過去分詞〉**== の形で現在完了形の完了の意味を表します。",
+    "G3_U4_P1_S_08": "==**come up with ～**== は「～を思いつく」という意味です。==**it**== は前文の translation software（翻訳ソフトウェア）を指しています。",
+    "G3_U4_P1_S_09": "==**〈be動詞 + 動詞の -ing形〉**== の形で、「～している」という意味を表す現在進行形の文です。==**becoming common**== は、==**〈become + 形容詞〉**== の形で「～の（状態）になる」という意味を表します。==**it**== は⑧と同じように、translation software を指しています。",
+    "G3_U4_P1_S_10": "==**〈help + 人 + 動詞の原形〉**== の形で「人が～するのを手助けする」という意味です。AI will help us communicate with ～ を直訳すると、「AI は私たちが～とコミュニケーションをとるのを手伝うでしょう。」という意味になります。",
+    "G3_U4_P2_S_05": "==**who runs a Japanese restaurant**== は、関係代名詞 ==**who**== に続く語句が「～する（人）」という意味で、その前にある名詞の ==**an uncle**== に説明（修飾）を加えています。関係代名詞 ==**who**== は説明される名詞が「人」のときに使われ、==**who**== に続く文の主語の働きをしています。",
+    "G3_U4_P2_S_06": "==**〈be動詞 + good at + 動詞の -ing形〉**== で「～が得意だ」という意味です。この文は ==**He's not good at ～**== と否定形になっているので、「彼は～が得意ではありません」という意味になります。==**so**== は結果を表す接続詞で、「だから」の意味になります。",
+    "G3_U4_P2_S_07": "==**will**== は「～でしょう」と推測を表す助動詞です。==**important**== の前の ==**so**== は接続詞ではなく「とても、非常に」という意味の副詞で、形容詞 ==**important**== を強調しています。==**not ～ anymore**== は「もはや～でない」という味です。",
+    "G3_U4_P2_S_08": "==**～ has a good point, but ...**== は、「～はよい点をついていると思いますが…」という意味で、相手の意見を受け止めつつも自分の考えを伝えることができる表現です。",
+    "G3_U4_P2_S_09": "==**rely on ～**== は「～に頼る」という意味です。",
+    "G3_U4_P3_S_02": "==**Go ahead.**== は「どうぞ。」と相手の発言を促すときに使う表現です。",
+    "G3_U4_P3_S_03": "I think の後には接続詞 ==**that**== が省略されていて、==**I think (that) ～.**== で「～と思います。」という意味を表します。==**agree with ～**== は「～に賛成する」という意味です。",
+    "G3_U4_P3_S_08": "==**On the other hand, ～.**== は「一方で～。」という意味で、直前の発言と異なる意見を伝えるときに使います。",
+    "G3_U4_P3_S_09": "==**learning a language**== (言語を学習すること) が動名詞の形で主語になっています。関係代名詞 ==**that**== に続く語句 will help us broaden our world view は「私たちの世界観を広げるのに役立つ」という意味で、その前にある名詞の ==**a valuable experience**== に説明を加えています。==**〈help + 人 + 動詞の原形〉**== の形は、「人が～するのを手伝う」という意味です。",
+    "G3_U4_P3_S_10": "==**learning each other's language and culture**== (お互いの言語と文化を学び合うこと) までが主語です。==**learning**== と ==**understanding**== はそれぞれ動名詞として使われています。"
+  }
+}
