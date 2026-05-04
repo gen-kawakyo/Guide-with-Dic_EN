@@ -1,0 +1,2769 @@
+{
+  "type": "FULL_BACKUP",
+  "units": {
+    "G2-U4": {
+      "title": "Unit G2-U4",
+      "parts": {
+        "AG3": {
+          "title": "Active Grammar 3: 目的語",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G2_U4_AG3_W_01",
+                  "headword": "pass",
+                  "pronunciation": "/pǽs/",
+                  "pos": "動",
+                  "meaning": "～を(…に) 渡す"
+                },
+                {
+                  "id": "G2_U4_AG3_W_02",
+                  "headword": "send",
+                  "pronunciation": "/sénd/",
+                  "pos": "動",
+                  "meaning": "～を送る"
+                }
+              ],
+              "content_blocks": []
+            },
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "comparison_section",
+                  "header": "比べてみよう",
+                  "label": "主語と動詞の後ろにくる言葉の関係",
+                  "items": [
+                    {
+                      "tag": "(1)",
+                      "en": "These (主語) + are (動詞) + apples (補語).",
+                      "text": "(1) の ==**apples**== は、主語 ＝ apples の関係になっています。この apples を ==**補語**== といいます。〔例：(1) はイコールの関係〕"
+                    },
+                    {
+                      "tag": "(2)",
+                      "en": "I (主語) + like (動詞) + apples (目的語).",
+                      "text": "(2) の ==**apples**== は、主語 ＝ apples の関係ではありません。主語の体や心の動きが向かう対象です。この apples を ==**目的語**== といいます。〔例：(2) は動詞が表す動作や状態の向かう対象〕"
+                    }
+                  ]
+                },
+                {
+                  "type": "sentence_structure",
+                  "header": "文の形 1：目的語になる語句",
+                  "items": [
+                    {
+                      "en": "I + like + ==**basketball**== .",
+                      "ja": "(私はバスケットボールが好きです。)",
+                      "note": "名詞が目的語"
+                    },
+                    {
+                      "en": "I + play + ==**it**== .",
+                      "ja": "(私はそれをします。)",
+                      "note": "代名詞が目的語"
+                    },
+                    {
+                      "en": "I + enjoy + ==**playing basketball**== .",
+                      "ja": "(私はバスケットボールをするのを楽しんでいます。)",
+                      "note": "動名詞が目的語"
+                    },
+                    {
+                      "en": "I + want + ==**to play basketball**== .",
+                      "ja": "(私はバスケットボールをしたいです。)",
+                      "note": "不定詞が目的語"
+                    },
+                    {
+                      "text": "目的語には、名詞や代名詞の他に、動名詞や不定詞がくることもあります。"
+                    }
+                  ]
+                },
+                {
+                  "type": "svoo_structure",
+                  "header": "文の形 2：目的語が2つくる場合",
+                  "label": "Unit 4-2 の復習",
+                  "items": [
+                    {
+                      "en": "I + ==**showed**== (動詞) + ==**you**== (目的語1:人) + ==**a guidebook**== (目的語2:もの) .",
+                      "ja": "(私はあなたにガイドブックを見せました。)"
+                    },
+                    {
+                      "en": "I + ==**told**== (動詞) + ==**him**== (目的語1:人) + ==**the plan**== (目的語2:もの) .",
+                      "ja": "(私は彼に予定を話しました。)"
+                    },
+                    {
+                      "en": "I + ==**bought**== (動詞) + ==**her**== (目的語1:人) + ==**a mug**== (目的語2:もの) .",
+                      "ja": "(私は彼女にマグカップを買いました。)"
+                    },
+                    {
+                      "en": "I + ==**gave**== (動詞) + ==**them**== (目的語1:人) + ==**green tea**== (目的語2:もの) .",
+                      "ja": "(私は彼らに緑茶をあげました。)"
+                    },
+                    {
+                      "text": "目的語が2つくる場合は、必ず「人」→「もの」の語順になります。"
+                    }
+                  ]
+                },
+                {
+                  "type": "verb_list_box",
+                  "header": "2つの目的語を取ることができる主な動詞",
+                  "items": [
+                    {
+                      "en": "ask",
+                      "ja": "(人)にたずねる"
+                    },
+                    {
+                      "en": "bring",
+                      "ja": "(物)を持ってくる"
+                    },
+                    {
+                      "en": "buy",
+                      "ja": "～を買う"
+                    },
+                    {
+                      "en": "cook",
+                      "ja": "料理をする"
+                    },
+                    {
+                      "en": "get",
+                      "ja": "～を得る"
+                    },
+                    {
+                      "en": "give",
+                      "ja": "～を(…に) 与える"
+                    },
+                    {
+                      "en": "lend",
+                      "ja": "～を貸す"
+                    },
+                    {
+                      "en": "make",
+                      "ja": "(物)を作る"
+                    },
+                    {
+                      "en": "pass",
+                      "ja": "～を(…に) 渡す"
+                    },
+                    {
+                      "en": "send",
+                      "ja": "～を送る"
+                    },
+                    {
+                      "en": "show",
+                      "ja": "(人)に(もの)を見せる"
+                    },
+                    {
+                      "en": "tell",
+                      "ja": "(人)に～を話す"
+                    },
+                    {
+                      "en": "write",
+                      "ja": "～を書く"
+                    },
+                    {
+                      "id": "G2_U4_AG3_G_01",
+                      "en": "I'll send you an email.",
+                      "ja": "(私はあなたにEメールを送ります。)",
+                      "tag": "例"
+                    }
+                  ]
+                }
+              ]
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "message_section",
+                  "header": "David からのメッセージ",
+                  "items": [
+                    {
+                      "id": "G2_U4_WR_S_01",
+                      "en": "Can you make some plans for me?",
+                      "ja": "私のために何か計画を立ててくれませんか。"
+                    },
+                    {
+                      "id": "G2_U4_WR_S_02",
+                      "speaker": "David",
+                      "en": "Hi.",
+                      "ja": "こんにちは。"
+                    },
+                    {
+                      "id": "G2_U4_WR_S_03",
+                      "speaker": "David",
+                      "en": "I'm going to visit Japan again in September.",
+                      "ja": "私は9月にまた日本を訪れる予定です。"
+                    },
+                    {
+                      "id": "G2_U4_WR_S_04",
+                      "speaker": "David",
+                      "en": "I'll play in the tennis tournament in your city.",
+                      "ja": "あなたの町のテニストーナメントでプレイします。"
+                    },
+                    {
+                      "id": "G2_U4_WR_S_05",
+                      "speaker": "David",
+                      "en": "After the match, I have a free day.",
+                      "ja": "試合のあとに、自由な日が1日あります。"
+                    },
+                    {
+                      "id": "G2_U4_WR_S_06",
+                      "speaker": "David",
+                      "en": "Can you show me interesting places?",
+                      "ja": "私におもしろい場所を見せてもらえませんか。"
+                    },
+                    {
+                      "id": "G2_U4_WR_S_07",
+                      "speaker": "David",
+                      "en": "Last year, I ate ramen in Chinatown and visited Minato Mirai in Yokohama.",
+                      "ja": "昨年は、中華街でラーメンを食べ、横浜のみなとみらいを訪れました。"
+                    },
+                    {
+                      "id": "G2_U4_WR_S_08",
+                      "speaker": "David",
+                      "en": "This time, I'd like to see something traditional.",
+                      "ja": "今回、私は伝統的なものを見たいと思っています。"
+                    },
+                    {
+                      "id": "G2_U4_WR_S_09",
+                      "speaker": "David",
+                      "en": "I also want to buy my family some local food.",
+                      "ja": "また、家族に地元の食べ物を買いたいです。"
+                    },
+                    {
+                      "id": "G2_U4_WR_S_10",
+                      "speaker": "David",
+                      "en": "Can you make some plans for me?",
+                      "ja": "私のために何か計画を立ててくれませんか。"
+                    },
+                    {
+                      "id": "G2_U4_WR_S_11",
+                      "speaker": "David",
+                      "en": "Please send me an email.",
+                      "ja": "私にメールをください。"
+                    }
+                  ]
+                },
+                {
+                  "type": "answer_section",
+                  "header": "解答例：David への返信",
+                  "items": [
+                    {
+                      "id": "G2_U4_WR_S_12",
+                      "en": "Hi David,",
+                      "ja": "こんにちは、デイヴィッド。"
+                    },
+                    {
+                      "id": "G2_U4_WR_S_13",
+                      "en": "I'm going to show you around Asakusa when you come to Japan.",
+                      "ja": "あなたが日本に来たら、浅草を案内します。"
+                    },
+                    {
+                      "id": "G2_U4_WR_S_14",
+                      "en": "Asakusa has a long history.",
+                      "ja": "浅草は長い歴史のある街です。"
+                    },
+                    {
+                      "id": "G2_U4_WR_S_15",
+                      "en": "You can enjoy a tour of the traditional streets in a jinrikisha.",
+                      "ja": "人力車で伝統的な街並みを見て回ることができます。"
+                    },
+                    {
+                      "id": "G2_U4_WR_S_16",
+                      "en": "If you like boats, you can also ride on a boat on the Sumida River and enjoy the night view of Tokyo.",
+                      "ja": "もし船が好きなら、隅田川で船に乗り東京の夜景を楽しむこともできます。"
+                    },
+                    {
+                      "id": "G2_U4_WR_S_17",
+                      "en": "You can buy your family delicious and unique sweets and snacks in Asakusa.",
+                      "ja": "浅草で家族においしい独特なお菓子を買えますよ。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 90
+        },
+        "AP": {
+          "title": "AI Appendix: Unit 4 まとめ",
+          "views": {
+            "PART_APPENDIX": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "info_box",
+                  "header": "P1: 存在を伝える There is / are",
+                  "items": [
+                    {
+                      "tag": "Grammar",
+                      "text": "新しく話題に出すものが「ある、いる」と言うときに使うよ。単数なら is、複数なら are を使い分けよう。場所（near hereなど）をセットで言うのがコツ！",
+                      "en": "==**There are**== several Merlions."
+                    }
+                  ]
+                },
+                {
+                  "type": "info_box",
+                  "header": "P2: 「人」→「物」の語順をマスター",
+                  "items": [
+                    {
+                      "tag": "Check",
+                      "text": "give, show, buy などの動詞は、後ろに「人」と「物」の2つの目的語を置けるよ。順番は必ず【だれに】→【なにを】だよ。",
+                      "en": "Show ==**me**== (人) ==**your guidebook**== (物)."
+                    }
+                  ]
+                },
+                {
+                  "type": "info_box",
+                  "header": "P3: 名詞を説明する to + 動詞の原形",
+                  "items": [
+                    {
+                      "tag": "Infinitive",
+                      "text": "「～するための…」「～すべき…」と、名詞を後ろから説明する使い方（形容詞的用法）だよ。something や place と相性バツグン！",
+                      "en": "something ==**to cover**== your shoulders"
+                    }
+                  ]
+                }
+              ]
+            },
+            "UNIT_APPENDIX": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "info_box",
+                  "header": "実用フレーズ：観光・食レポ",
+                  "items": [
+                    {
+                      "en": "I guess",
+                      "ja": "～だと思います（少し自信がないとき）"
+                    },
+                    {
+                      "en": "one of them",
+                      "ja": "それらのうちの1つ"
+                    },
+                    {
+                      "en": "crisp and juicy",
+                      "ja": "カリカリでジューシー（食感の表現）"
+                    },
+                    {
+                      "en": "Thanks, but I'm OK.",
+                      "ja": "ありがとう、でも大丈夫です（丁寧な断り）"
+                    }
+                  ]
+                },
+                {
+                  "type": "info_box",
+                  "header": "Unit 4 を終えた君へ",
+                  "items": [
+                    {
+                      "tag": "Message",
+                      "text": "シンガポールの街歩きを通して、説明を付け加えたり、物のやり取りをしたりする表現がグッと増えたね！"
+                    },
+                    {
+                      "tag": "Goal",
+                      "text": "特に David へのメッセージ（p.90）のように、自分の町のおすすめを「不定詞」や「SVOO」を使って紹介できると、英語でのガイドがぐっと本格的になるよ。Good luck!"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 0,
+          "hasAppendix": true
+        },
+        "EX": {
+          "title": "Extra Story / 音声内容",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G2_U4_EX_W_01",
+                  "headword": "wall art",
+                  "pronunciation": "/wɔ́ːl άːrt/",
+                  "pos": "名",
+                  "meaning": "ウォールアート〔壁や天井などに直接絵を描くなどする芸術の手法〕"
+                },
+                {
+                  "id": "G2_U4_EX_W_02",
+                  "headword": "colorful",
+                  "pronunciation": "/kʌ́lərfəl/",
+                  "pos": "形",
+                  "meaning": "カラフルな"
+                },
+                {
+                  "id": "G2_U4_EX_W_03",
+                  "headword": "vivid",
+                  "pronunciation": "/vívid/",
+                  "pos": "形",
+                  "meaning": "鮮やかな"
+                },
+                {
+                  "id": "G2_U4_EX_W_04",
+                  "headword": "lamp(s)",
+                  "pronunciation": "/lǽmp(s)/",
+                  "pos": "名",
+                  "meaning": "ランプ"
+                },
+                {
+                  "id": "G2_U4_EX_W_05",
+                  "headword": "Turkish",
+                  "pronunciation": "/tə́ːrkiʃ/",
+                  "pos": "形",
+                  "meaning": "トルコ（風）の、トルコ人［語］の"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "audio_section",
+                  "header": "Part 1 の音声内容 (p.83)",
+                  "label": "観光地の紹介",
+                  "items": [
+                    {
+                      "id": "G2_U4_EX_S_01",
+                      "speaker": "Tina",
+                      "en": "Here's the guidebook.",
+                      "ja": "ガイドブックだよ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_02",
+                      "speaker": "Tina",
+                      "en": "There are lots of good places for sightseeing in Singapore.",
+                      "ja": "シンガポールには観光するのにいいところがたくさんあるよ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_03",
+                      "speaker": "Tina",
+                      "en": "Where do you want to go tomorrow, Kota?",
+                      "ja": "明日はどこに行きたいかな、コウタ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_04",
+                      "speaker": "Kota",
+                      "en": "I want to go to Sentosa Island.",
+                      "ja": "ぼくはセントーサ島に行きたい。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_05",
+                      "speaker": "Kota",
+                      "en": "There's a big aquarium on the island.",
+                      "ja": "島には大きな水族館があるんだ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_06",
+                      "speaker": "Kota",
+                      "en": "You can see a coral garden there.",
+                      "ja": "サンゴの庭を見ることができるよ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_07",
+                      "speaker": "Tina",
+                      "en": "Sounds fun.",
+                      "ja": "おもしろそうだね。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_08",
+                      "speaker": "Tina",
+                      "en": "There's a theme park on the island, too.",
+                      "ja": "島にはテーマパークもあるよ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_09",
+                      "speaker": "Tina",
+                      "en": "It has some attractions like roller coasters.",
+                      "ja": "ジェットコースターのようなアトラクションもあるよ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_10",
+                      "speaker": "Kota",
+                      "en": "Mmm .... I don't want to ride them.",
+                      "ja": "うーん……。ぼくはそれらには乗りたくないな。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_11",
+                      "speaker": "Tina",
+                      "en": "Oh, you don't like roller coasters?",
+                      "ja": "えっ、ジェットコースターは好きじゃないの？"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_12",
+                      "speaker": "Kota",
+                      "en": "No, not so much.",
+                      "ja": "うん、あんまり。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_13",
+                      "speaker": "David",
+                      "en": "How about you, Tina? Where do you want to go?",
+                      "ja": "ティナはどうかな。どこに行きたい？"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_14",
+                      "speaker": "Tina",
+                      "en": "I'd like to go to Little India.",
+                      "ja": "私はリトル・インディアに行きたいな。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_15",
+                      "speaker": "Tina",
+                      "en": "I want to experience Hindu culture there.",
+                      "ja": "そこでヒンドゥー教の文化を体験したいの。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_16",
+                      "speaker": "Kota",
+                      "en": "That sounds interesting.",
+                      "ja": "おもしろそうだね。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_17",
+                      "speaker": "Kota",
+                      "en": "Tell me more.",
+                      "ja": "もっと教えて。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_18",
+                      "speaker": "Tina",
+                      "en": "There are several Hindu temples there.",
+                      "ja": "そこにはヒンドゥー教の寺院がいくつかあるよ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_19",
+                      "speaker": "Tina",
+                      "en": "I want to visit some of them.",
+                      "ja": "それらのいくつかに訪れたい。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_20",
+                      "speaker": "David",
+                      "en": "That's nice.",
+                      "ja": "それはいいね。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_21",
+                      "speaker": "David",
+                      "en": "You'll find some flower shops there.",
+                      "ja": "そこには花屋もあるよ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_22",
+                      "speaker": "David",
+                      "en": "They sell flower decorations for visitors to the temples.",
+                      "ja": "寺院に行く観光客のために花飾りを売っているんだ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_23",
+                      "speaker": "David",
+                      "en": "They're beautiful.",
+                      "ja": "それらは美しいよ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_24",
+                      "speaker": "Tina",
+                      "en": "Really? I didn't know that.",
+                      "ja": "本当に？ それは知らなかったわ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_25",
+                      "speaker": "David",
+                      "en": "I'd like to go to Katong.",
+                      "ja": "ぼくはカトンに行きたいな。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_26",
+                      "speaker": "Kota",
+                      "en": "Oh, Katong. The guidebook says there are some nice laksa restaurants there.",
+                      "ja": "へえ、カトン。ガイドブックには、そこにはいくつかのおいしいラクサのレストランがあると書かれているね。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_27",
+                      "speaker": "Tina",
+                      "en": "Laksa? What's that?",
+                      "ja": "ラクサ？ それって何？"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_28",
+                      "speaker": "Kota",
+                      "en": "It's a famous local food in Singapore.",
+                      "ja": "シンガポールの有名な地元の料理だよ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_29",
+                      "speaker": "Kota",
+                      "en": "It's rice noodles in spicy coconut milk soup.",
+                      "ja": "香辛料のきいたココナッツミルクのスープに入った米の麺だよ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_30",
+                      "speaker": "Kota",
+                      "en": "I want to try it.",
+                      "ja": "ぼくはそれを食べてみたいな。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_31",
+                      "speaker": "Tina",
+                      "en": "Sounds nice.",
+                      "ja": "おいしそう。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_32",
+                      "speaker": "Tina",
+                      "en": "Will you go to a laksa restaurant in Katong, David?",
+                      "ja": "カトンにあるラクサのレストランに行くつもりかな、デイヴィッド？"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_33",
+                      "speaker": "David",
+                      "en": "No. I'm interested in the houses.",
+                      "ja": "ううん。ぼくはそこの家に興味があるんだ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_34",
+                      "speaker": "Tina",
+                      "en": "The houses?",
+                      "ja": "家？"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_35",
+                      "speaker": "David",
+                      "en": "There are some colorful houses along the street.",
+                      "ja": "道沿いに色とりどりの家があるんだ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_36",
+                      "speaker": "David",
+                      "en": "They're traditional houses in Katong. Look at this photo.",
+                      "ja": "それらはカトンの伝統的な家なんだ。この写真を見て。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_37",
+                      "speaker": "Tina",
+                      "en": "What a beautiful street! I think we can take some nice pictures there.",
+                      "ja": "なんて美しい通りなの！ 私たちはそこですてきな写真を撮れると思うわ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_38",
+                      "speaker": "David",
+                      "en": "That's true.",
+                      "ja": "そうだね。"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_section",
+                  "header": "Part 2 の音声内容 (p.84)",
+                  "label": "お土産選び",
+                  "items": [
+                    {
+                      "id": "G2_U4_EX_S_39",
+                      "speaker": "Tina",
+                      "en": "Kota, you're wearing nice sunglasses.",
+                      "ja": "コウタ、いいサングラスをかけているね。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_40",
+                      "speaker": "Tina",
+                      "en": "You look so cool.",
+                      "ja": "とてもかっこよく見えるよ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_41",
+                      "speaker": "Kota",
+                      "en": "Thanks. Hajin lent me his sunglasses.",
+                      "ja": "ありがとう。ハジンが彼のサングラスをぼくに貸してくれたんだ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_42",
+                      "speaker": "Kota",
+                      "en": "I'm going to buy him a bag in return.",
+                      "ja": "お返しに彼にバッグを買うつもりだよ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_43",
+                      "speaker": "Tina",
+                      "en": "A bag?",
+                      "ja": "バッグ？"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_44",
+                      "speaker": "Kota",
+                      "en": "Yeah. Here's the one.",
+                      "ja": "そう。これだよ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_45",
+                      "speaker": "Tina",
+                      "en": "Oh, the words \"MADE IN SINGAPORE\" are too big. It may be good as a souvenir, but I think it's not for everyday use.",
+                      "ja": "えっ、その「MADE IN SINGAPORE」って言葉は大きすぎるよ。お土産にはいいかもしれないけど、普段使い向きではないと思うわ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_46",
+                      "speaker": "Kota",
+                      "en": "Hmm .... You're right. OK. I'll look for something else. How about this mug, then?",
+                      "ja": "うーん……。君の言うとおりだ。よし。他の何かをさがそう。じゃあ、このマグカップはどうかな。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_47",
+                      "speaker": "Tina",
+                      "en": "The design is cool. I'm sure he'll use it every day.",
+                      "ja": "デザインがかっこいいね。きっと彼なら毎日使ってくれるよ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_48",
+                      "speaker": "Kota",
+                      "en": "OK. I'll buy him this mug.",
+                      "ja": "わかった。彼にこのマグカップを買おう。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_49",
+                      "speaker": "Tina",
+                      "en": "I'm going to buy something for Eri. Do you have any ideas?",
+                      "ja": "私はエリに何か買う予定だよ。何か考えはある？"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_50",
+                      "speaker": "Kota",
+                      "en": "Sure. Um ... how about these boxes? They're so beautiful with these colored jewels.",
+                      "ja": "もちろん。うーん……これらの箱はどうかな。これらの色とりどりの宝石できれいだよ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_51",
+                      "speaker": "Tina",
+                      "en": "That's a good idea. They're small and not so expensive. I'll buy her three boxes.",
+                      "ja": "いいアイデアだね。小さくて、そんなに高価じゃない。彼女に3つの箱を買おう。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_52",
+                      "speaker": "Kota",
+                      "en": "Great. She'll love them.",
+                      "ja": "いいね。とても気に入るだろうね。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_53",
+                      "speaker": "Kota",
+                      "en": "Are you going to buy anything for Nick? I think he's looking forward to souvenirs from you.",
+                      "ja": "ニックにも何か買う予定？ 君からのお土産を楽しみにしていると思うよ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_54",
+                      "speaker": "Tina",
+                      "en": "Yes, of course.",
+                      "ja": "うん、もちろん。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_55",
+                      "speaker": "Tina",
+                      "en": "What are you going to buy?",
+                      "ja": "何を買う予定？"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_56",
+                      "speaker": "Tina",
+                      "en": "He collects key chains from different countries and prefectures. So I'm going to buy him a Merlion key chain.",
+                      "ja": "彼はいいろいろな国や県のキーホルダーを集めているの。だから彼にはマーライオンのキーホルダーを買う予定だよ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_57",
+                      "speaker": "Kota",
+                      "en": "That's nice. I'm sure he'll be pleased.",
+                      "ja": "それはすてきだね。きっと彼は喜ぶよ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_58",
+                      "speaker": "Tina",
+                      "en": "By the way, the guidebook says there are some souvenir shops on Arab Street. Why don't we look for some souvenirs there as well?",
+                      "ja": "ところで、ガイドブックにはアラブストリートにいくつかのお土産物店があると書いてあるよ。そこでもお土産をさがしてみない？"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_59",
+                      "speaker": "Kota",
+                      "en": "OK.",
+                      "ja": "いいよ。"
+                    }
+                  ]
+                },
+                {
+                  "type": "extra_story_section",
+                  "header": "Extra Story (p.85)",
+                  "label": "アラブストリートの観光",
+                  "items": [
+                    {
+                      "id": "G2_U4_EX_S_60",
+                      "speaker": "David",
+                      "en": "This is Haji Lane. Do you like it?",
+                      "ja": "ここはハジレーンだよ。気に入ったかな？"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_61",
+                      "speaker": "Tina",
+                      "en": "The wall art is so colorful and vivid!",
+                      "ja": "ウォールアートがとてもカラフルで鮮やかだね！"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_62",
+                      "speaker": "Kota",
+                      "en": "It's cool! Let's take a picture in front of that wall.",
+                      "ja": "かっこいい！ あの壁の前で写真を撮ろうよ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_63",
+                      "speaker": "Tina",
+                      "en": "Look at these lamps! They're beautiful.",
+                      "ja": "これらのランプを見て！ きれいだよ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_64",
+                      "speaker": "David",
+                      "en": "These are Turkish lamps.",
+                      "ja": "これらはトルコ風ランプだよ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_65",
+                      "speaker": "Kota",
+                      "en": "Let's get one for Eri as a souvenir.",
+                      "ja": "お土産にエリに1つ買おう。"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_section",
+                  "header": "Part 3 の音声内容 (p.86)",
+                  "label": "フードコートと美術館",
+                  "items": [
+                    {
+                      "id": "G2_U4_EX_S_66",
+                      "speaker": "David",
+                      "en": "Let's take a break here. You can get something to eat. Are you hungry, guys?",
+                      "ja": "ここで休憩しよう。何か食べ物が買えるよ。お腹すいたかな、君たち？"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_67",
+                      "speaker": "Kota",
+                      "en": "No, I'm not. But I'm thirsty.",
+                      "ja": "ううん、すいていないよ。でものどが渇いた。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_68",
+                      "speaker": "Tina",
+                      "en": "Me, too. Let's get something to drink. I want to have something cold.",
+                      "ja": "私も。何か飲み物を買おうよ。何か冷たいものを飲みたいな。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_69",
+                      "speaker": "David",
+                      "en": "OK. You can get cold drinks at that stall. There are many kinds of fruit juice.",
+                      "ja": "わかった。あの屋台で冷たい飲み物が買えるよ。たくさんの種類のフルーツジュースがあるよ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_70",
+                      "speaker": "Tina",
+                      "en": "What do you recommend?",
+                      "ja": "おすすめは何？"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_71",
+                      "speaker": "David",
+                      "en": "Well, I like lime juice. It tastes refreshing.",
+                      "ja": "うーん、ぼくはライムジュースが好きかな。それはさわやかな味がするよ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_72",
+                      "speaker": "Tina",
+                      "en": "Sounds nice. I'll try it.",
+                      "ja": "おいしそう。試してみるわ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_73",
+                      "speaker": "Kota",
+                      "en": "I'll have one, too.",
+                      "ja": "ぼくもそれを飲もう。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_74",
+                      "speaker": "David",
+                      "en": "The modern art in Singapore is cool, isn't it?",
+                      "ja": "シンガポールの現代美術はかっこいいよね。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_75",
+                      "speaker": "Tina",
+                      "en": "Yeah. ... Achoo!",
+                      "ja": "そうだね。……ハクション！"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_76",
+                      "speaker": "David",
+                      "en": "What's wrong, Tina? Are you OK?",
+                      "ja": "どうしたの、ティナ。大丈夫？"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_77",
+                      "speaker": "Tina",
+                      "en": "The air conditioning is too strong here.",
+                      "ja": "ここはエアコンが強すぎるね。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_78",
+                      "speaker": "David",
+                      "en": "Do you have something to put on?",
+                      "ja": "何か着るものはある？"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_79",
+                      "speaker": "Tina",
+                      "en": "No, I don't.",
+                      "ja": "ううん、ないよ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_80",
+                      "speaker": "David",
+                      "en": "Here you are. It's mine, so it may be a little big for you.",
+                      "ja": "どうぞ。ぼくのだから、君には少し大きいかもしれないけど。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_81",
+                      "speaker": "Tina",
+                      "en": "Thank you, David. How kind of you!",
+                      "ja": "ありがとう、デイヴィッド。なんて優しいの！"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_82",
+                      "speaker": "David",
+                      "en": "Kota, what do you think of the streets in Singapore?",
+                      "ja": "コウタ、シンガポールの通りをどう思う？"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_83",
+                      "speaker": "Kota",
+                      "en": "Oh, I like them. They are very clean.",
+                      "ja": "ああ、好きだよ。とてもきれいだね。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_84",
+                      "speaker": "David",
+                      "en": "Yeah. Look at that signboard.",
+                      "ja": "そうだね。あの看板を見て。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_85",
+                      "speaker": "Kota",
+                      "en": "Oh, \"NO LITTERING.\"",
+                      "ja": "へえ、「ポイ捨て禁止」だって。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_86",
+                      "speaker": "David",
+                      "en": "There are some rules to keep when you're in Singapore. That's one of them.",
+                      "ja": "シンガポールにいるときは守るべきルールがあるんだよ。あれはそれらのうちの1つだよ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_87",
+                      "speaker": "Kota",
+                      "en": "Are there any other rules?",
+                      "ja": "ほかにもルールはあるの？"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_88",
+                      "speaker": "David",
+                      "en": "You can't bring chewing gum to Singapore.",
+                      "ja": "シンガポールにチューインガムは持ち込めないんだ。"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_89",
+                      "speaker": "Kota",
+                      "en": "Really?",
+                      "ja": "本当に？"
+                    },
+                    {
+                      "id": "G2_U4_EX_S_90",
+                      "speaker": "David",
+                      "en": "Yes. Because of those rules, the streets are always clean.",
+                      "ja": "うん。それらのルールによって、通りがいつもきれいなんだよ。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "83-86"
+        },
+        "GL": {
+          "title": "Goal: おすすめの一皿を紹介しよう",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G2_U4_GL_W_01",
+                  "headword": "for",
+                  "pronunciation": "/fɔ́ːr, fər/",
+                  "pos": "前",
+                  "usage": "〔適合〕",
+                  "meaning": "～に適した、～にふさわしい"
+                },
+                {
+                  "id": "G2_U4_GL_W_02",
+                  "headword": "quick",
+                  "pronunciation": "/kwík/",
+                  "pos": "形",
+                  "meaning": "短時間の"
+                },
+                {
+                  "id": "G2_U4_GL_W_03",
+                  "headword": "noodle(s)",
+                  "pronunciation": "/núːdl(z)/",
+                  "pos": "名",
+                  "meaning": "〔ふつう～sで〕麺類"
+                },
+                {
+                  "id": "G2_U4_GL_W_04",
+                  "headword": "spicy",
+                  "pronunciation": "/spáisi/",
+                  "pos": "形",
+                  "meaning": "香辛料のきいた"
+                },
+                {
+                  "id": "G2_U4_GL_W_05",
+                  "headword": "soup",
+                  "pronunciation": "/súːp/",
+                  "pos": "名",
+                  "meaning": "スープ"
+                },
+                {
+                  "id": "G2_U4_GL_W_06",
+                  "headword": "mixture",
+                  "pronunciation": "/míkstʃər/",
+                  "pos": "名",
+                  "meaning": "入り混じったもの"
+                },
+                {
+                  "id": "G2_U4_GL_W_07",
+                  "headword": "Chinese",
+                  "pronunciation": "/tʃainíːz/",
+                  "pos": "名/形",
+                  "meaning": "中国人（の）"
+                },
+                {
+                  "id": "G2_U4_GL_W_08",
+                  "headword": "Malay",
+                  "pronunciation": "/méilèi/",
+                  "pos": "形",
+                  "meaning": "マレー半島［人］の"
+                },
+                {
+                  "id": "G2_U4_GL_W_09",
+                  "headword": "best",
+                  "pronunciation": "/bést/",
+                  "pos": "名",
+                  "meaning": "最もよいもの"
+                },
+                {
+                  "id": "G2_U4_GL_W_10",
+                  "headword": "shrimp(s)",
+                  "pronunciation": "/ʃrímp(s)/",
+                  "pos": "名",
+                  "meaning": "小エビ"
+                },
+                {
+                  "id": "G2_U4_GL_W_11",
+                  "headword": "bowl",
+                  "pronunciation": "/bóul/",
+                  "pos": "名",
+                  "meaning": "どんぶり、わん、ボウル"
+                },
+                {
+                  "id": "G2_U4_GL_W_12",
+                  "headword": "while",
+                  "pronunciation": "/hwáil/",
+                  "pos": "接",
+                  "meaning": "～している間に"
+                },
+                {
+                  "id": "G2_U4_GL_W_13",
+                  "headword": "crisp",
+                  "pronunciation": "/krísp/",
+                  "pos": "形",
+                  "meaning": "〔食べ物が〕パリパリした、カリカリした、サクサクした"
+                },
+                {
+                  "id": "G2_U4_GL_W_14",
+                  "headword": "super",
+                  "pronunciation": "/súːpər/",
+                  "pos": "副",
+                  "meaning": "とても、大変"
+                },
+                {
+                  "id": "G2_U4_GL_W_15",
+                  "headword": "juicy",
+                  "pronunciation": "/dʒúːsi/",
+                  "pos": "形",
+                  "meaning": "汁の多い、ジューシーな"
+                },
+                {
+                  "id": "G2_U4_GL_W_16",
+                  "headword": "one of ~",
+                  "meaning": "～のうちの1つ、1人"
+                },
+                {
+                  "id": "G2_U4_GL_W_17",
+                  "headword": "here and there",
+                  "meaning": "あちこちに"
+                },
+                {
+                  "id": "G2_U4_GL_W_18",
+                  "headword": "right",
+                  "pronunciation": "/ráit/",
+                  "pos": "副",
+                  "meaning": "すぐに"
+                },
+                {
+                  "id": "G2_U4_GL_W_19",
+                  "headword": "now",
+                  "pronunciation": "/náu/",
+                  "pos": "副",
+                  "meaning": "今すぐ、今から"
+                },
+                {
+                  "id": "G2_U4_GL_W_20",
+                  "headword": "feel",
+                  "pronunciation": "/fíːl/",
+                  "pos": "動",
+                  "meaning": "～への気がする、～と思う"
+                },
+                {
+                  "id": "G2_U4_GL_W_21",
+                  "headword": "healthy",
+                  "pronunciation": "/hélθi/",
+                  "pos": "形",
+                  "meaning": "健康な、健康によい"
+                },
+                {
+                  "id": "G2_U4_GL_W_22",
+                  "headword": "creamy",
+                  "pronunciation": "/kríːmi/",
+                  "pos": "形",
+                  "meaning": "なめらかで柔らかい"
+                },
+                {
+                  "id": "G2_U4_GL_W_23",
+                  "headword": "tasty",
+                  "pronunciation": "/téisti/",
+                  "pos": "形",
+                  "meaning": "風味のきいた、おいしい"
+                },
+                {
+                  "id": "G2_U4_GL_W_24",
+                  "headword": "topping(s)",
+                  "pronunciation": "/tάpiŋ(z)/",
+                  "pos": "名",
+                  "meaning": "トッピング"
+                },
+                {
+                  "id": "G2_U4_GL_W_25",
+                  "headword": "especially",
+                  "pronunciation": "/ispéʃəli/",
+                  "pos": "副",
+                  "meaning": "特に、とりわけ"
+                },
+                {
+                  "id": "G2_U4_GL_W_26",
+                  "headword": "right now",
+                  "meaning": "今すぐに"
+                },
+                {
+                  "id": "G2_U4_GL_W_27",
+                  "headword": "feel like -ing",
+                  "meaning": "～したい気がする"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "article_section",
+                  "header": "Dishes to Eat in Singapore (シンガポールで食べるべき料理)",
+                  "items": [
+                    {
+                      "id": "G2_U4_GL_S_01",
+                      "tag": "A",
+                      "en": "Chicken Rice at Lion Cafe",
+                      "ja": "ライオンカフェのチキンライス"
+                    },
+                    {
+                      "id": "G2_U4_GL_S_02",
+                      "en": "Chicken rice is the best food to try in Singapore.",
+                      "ja": "チキンライスはシンガポールで食べてみるべき最高の食べ物です。"
+                    },
+                    {
+                      "id": "G2_U4_GL_S_03",
+                      "en": "It's good for a quick lunch.",
+                      "ja": "手軽な昼食に適しています。"
+                    },
+                    {
+                      "id": "G2_U4_GL_S_04",
+                      "en": "There are some nice chicken rice restaurants in the Marina area, and Lion Cafe is one of them.",
+                      "ja": "マリーナ地区にはいくつか良いチキンライス店があり、ライオンカフェはその1つです。"
+                    },
+                    {
+                      "id": "G2_U4_GL_S_05",
+                      "tag": "B",
+                      "en": "Laksa at Katong Laksa House",
+                      "ja": "カトンラクサハウスのラクサ"
+                    },
+                    {
+                      "id": "G2_U4_GL_S_06",
+                      "en": "Rice noodles in spicy coconut milk soup — a mixture of Chinese and Malay foods.",
+                      "ja": "スパイシーなココナッツミルクのスープに入ったライスヌードル――中華料理とマレー料理が混ざったものです。"
+                    },
+                    {
+                      "id": "G2_U4_GL_S_07",
+                      "en": "There are many kinds of laksa in Singapore, but the best is here at Katong Laksa House.",
+                      "ja": "多くの種類のラクサがシンガポールにはありますが、一番のものはここカトンラクサハウスにあります。"
+                    },
+                    {
+                      "id": "G2_U4_GL_S_08",
+                      "tag": "C",
+                      "en": "Prawn Mee at Old Tent",
+                      "ja": "オールドテントのプラウン・ミー"
+                    },
+                    {
+                      "id": "G2_U4_GL_S_09",
+                      "en": "You'll find prawn mee stalls here and there.",
+                      "ja": "プラウン・ミーの屋台は至る所で見かけるでしょう。"
+                    },
+                    {
+                      "id": "G2_U4_GL_S_10",
+                      "en": "Old Tent, on Arab Street, is one of them.",
+                      "ja": "アラブストリートにあるオールドテントはその1つです。"
+                    },
+                    {
+                      "id": "G2_U4_GL_S_11",
+                      "en": "When you order, you can choose yellow noodles or rice noodles.",
+                      "ja": "注文のときには小麦の麺かお米の麺を選ぶことができます。"
+                    },
+                    {
+                      "id": "G2_U4_GL_S_12",
+                      "en": "There are big shrimps in the bowl.",
+                      "ja": "どんぶりに大きなエビが入っています。"
+                    },
+                    {
+                      "id": "G2_U4_GL_S_13",
+                      "tag": "D",
+                      "en": "Murtabak at Zahara Restaurant",
+                      "ja": "ザハラレストランのムルタバ"
+                    },
+                    {
+                      "id": "G2_U4_GL_S_14",
+                      "en": "Zahara is an old restaurant on Arab Street.",
+                      "ja": "ザハラはアラブストリートにある古いレストランです。"
+                    },
+                    {
+                      "id": "G2_U4_GL_S_15",
+                      "en": "They have so many dishes, but murtabak is the best.",
+                      "ja": "とてもいろいろな料理がありますが、ムルタバが最もおすすめです。"
+                    },
+                    {
+                      "id": "G2_U4_GL_S_16",
+                      "en": "It's a spicy omelet pancake with vegetables.",
+                      "ja": "ムルタバは野菜が入ったスパイシーなオムレツパンケーキです。"
+                    },
+                    {
+                      "id": "G2_U4_GL_S_17",
+                      "en": "Eat the dish while it's hot.",
+                      "ja": "熱いうちに食べてください。"
+                    },
+                    {
+                      "id": "G2_U4_GL_S_18",
+                      "en": "It's crisp and super juicy!",
+                      "ja": "カリカリでとってもジューシーです！"
+                    },
+                    {
+                      "id": "G2_U4_GL_S_19",
+                      "en": "[136 words]",
+                      "ja": "[136語]"
+                    }
+                  ]
+                },
+                {
+                  "type": "activity_section",
+                  "header": "おなかがすいた Tina たちの会話 (p.88)",
+                  "items": [
+                    {
+                      "id": "G2_U4_GL_S_20",
+                      "speaker": "Tina",
+                      "en": "I'm so hungry! I want to have lunch right now.",
+                      "ja": "すごくお腹がすいた！ すぐに昼食を食べたいな。"
+                    },
+                    {
+                      "id": "G2_U4_GL_S_21",
+                      "speaker": "Tina",
+                      "en": "Is there a nice restaurant here on Arab Street?",
+                      "ja": "ここアラブストリートにすてきなレストランはあるかな。"
+                    },
+                    {
+                      "id": "G2_U4_GL_S_22",
+                      "speaker": "David",
+                      "en": "I feel like eating rice noodles. They're delicious and healthy.",
+                      "ja": "ライスヌードルが食べたい気分だな。とてもおいしくて健康的なんだ。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak: あなたの町のおすすめを紹介しよう (p.88)",
+                  "label": "ヒラリカフェのスープカレー（紹介モデル）",
+                  "items": [
+                    {
+                      "id": "G2_U4_GL_S_19",
+                      "en": "Soup curry at Hirari Cafe is the best food to try in our town.",
+                      "ja": "ヒラリカフェのスープカレーは私たちの町で食べてみるべき最もおいしい食べ物です。"
+                    },
+                    {
+                      "id": "G2_U4_GL_S_20",
+                      "en": "The soup is creamy and tasty.",
+                      "ja": "スープがクリーミーでおいしいです。"
+                    },
+                    {
+                      "id": "G2_U4_GL_S_21",
+                      "en": "There are so many toppings. I especially like ....",
+                      "ja": "トッピングがたくさんあります。私が特に好きなのは……。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "あなたの町のおすすめを紹介しよう",
+                  "label": "解答例 (p.88)",
+                  "items": [
+                    {
+                      "id": "G2_U4_GL_S_23",
+                      "speaker": "A",
+                      "en": "Vegetable sandwiches at Minami Restaurant are the best food to try in our town.",
+                      "ja": "南レストランの野菜サンドイッチは私たちの町で食べてみるべき最もよい食べ物です。"
+                    },
+                    {
+                      "id": "G2_U4_GL_S_24",
+                      "speaker": "A",
+                      "en": "The vegetables are fresh and colorful. They are very nice.",
+                      "ja": "野菜が新鮮でカラフルです。とてもすてきでした。"
+                    },
+                    {
+                      "id": "G2_U4_GL_S_25",
+                      "speaker": "A",
+                      "en": "There are so many toppings. I especially like tomatoes and cheese. They are so tasty.",
+                      "ja": "トッピングがたくさんあります。私は特にトマトとチーズが好きです。それらはとてもおいしいです。"
+                    },
+                    {
+                      "id": "G2_U4_GL_S_26",
+                      "speaker": "Extra",
+                      "en": "I want to try murtabak in Singapore. I like spicy food and vegetables. How about you?",
+                      "ja": "(解答例) シンガポールでムルタバを試してみたいです。辛いものや野菜が好きだからです。あなたはどうですか。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "87-88"
+        },
+        "P1": {
+          "title": "Part 1: どこに行きたい？",
+          "views": {
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "何かがそこに「ある」と説明する。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "==**There is**== a big garden near there.",
+                      "ja": "(その近くに大きな庭園があります。)",
+                      "ref_id": "G2_U4_P1_K_01"
+                    },
+                    {
+                      "ref_num": "②",
+                      "en": "==**Is there**== a big garden near there?",
+                      "ja": "(その近くに大きな庭園がありますか。)",
+                      "ref_id": "G2_U4_P1_S_12"
+                    },
+                    {
+                      "ref_num": "③",
+                      "en": "— Yes, ==**there is**==. / No, ==**there isn't**==.",
+                      "ja": "(はい、あります。 / いいえ、ありません。)",
+                      "ref_id": "G2_U4_P1_K_02"
+                    },
+                    {
+                      "ref_num": "④",
+                      "en": "==**There are**== several Merlions.",
+                      "ja": "(いくつかのマーライオンがあります。)",
+                      "ref_id": "G2_U4_P1_S_06"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "There is ....",
+                  "text": "①④ 初めて話題に出す不特定の何かが「あります［います］」と説明するときは、==**There is ....**== と言います。複数の場合は、==**There are ....**== と言います。場所を示す語句がよくいっしょに使われます。",
+                  "items": [
+                    {
+                      "tag": "単数",
+                      "en": "There ==**is**== a big garden near there.",
+                      "ja": "(その近くに大きな庭園があります。)",
+                      "note": "a big garden (単数)"
+                    },
+                    {
+                      "tag": "複数",
+                      "en": "There ==**are**== several Merlions.",
+                      "ja": "(いくつかのマーライオンがあります。)",
+                      "note": "several Merlions (複数)"
+                    },
+                    {
+                      "text": "②③ 「～がありますか［いますか］」という意味の There is [are] .... の疑問文は、==**is [are]**== を ==**there**== の前に置いて、==**〈Is [Are] there + 主語 ～?〉**== の語順になります。"
+                    },
+                    {
+                      "text": "Is [Are] there ...? の答えには、there is [are] を使って答えます。 〈Yes, there is [are].〉 〈No, there is [are] not.〉"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G2_U4_P1G_E_01",
+                      "ref_num": "②",
+                      "en": "Let's make a sightseeing plan!",
+                      "text": "**make a plan** で「計画を立てる」という意味を表します。**let's** は **let us** の短縮形で、「～しよう」という意味を表します。",
+                      "ref_id": "G2_U4_P1_S_02"
+                    },
+                    {
+                      "id": "G2_U4_P1G_E_02",
+                      "ref_num": "③",
+                      "en": "OK, what do you want to do first?",
+                      "text": "**〈want to + 動詞の原形〉** で表される名詞的用法の不定詞の文です。**〈want to + 動詞の原形〉** で、「～したい」という味を表します。",
+                      "ref_id": "G2_U4_P1_S_03"
+                    },
+                    {
+                      "id": "G2_U4_P1G_E_03",
+                      "ref_num": "⑥, ⑪",
+                      "en": "There are several Merlions. / There is a big one there.",
+                      "text": "初めて話題に出す不特定の何かが「～があります［います］」と説明するとき、**There is [are] ～.** と言います。主語が単数の場合は **There is ～.** 、主語が複数の場合は **There are ～.** と言います。",
+                      "ref_id": "G2_U4_P1_S_06"
+                    },
+                    {
+                      "id": "G2_U4_P1G_E_04",
+                      "ref_num": "⑧",
+                      "en": "The big one by the bay, I guess.",
+                      "note": "→教科書p.50 Key Phrase",
+                      "text": "**～, I guess.** で、「～だと思います。」という意味を表します。多少、不確かな考えを相手に伝えるときに使う表現です。",
+                      "ref_id": "G2_U4_P1_S_08"
+                    },
+                    {
+                      "id": "G2_U4_P1G_E_05",
+                      "ref_num": "⑫",
+                      "en": "Is there a big garden near there?",
+                      "text": "**There is ～.** の疑問文で、「～がありますか［いますか］」という意味になります。**There is ～.** の疑問文は、**is** を **there** の前に置いて、**〈Is there + 主語 ～?〉** の語順になります。",
+                      "ref_id": "G2_U4_P1_S_12"
+                    }
+                  ]
+                }
+              ]
+            },
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G2_U4_P1_W_01",
+                  "headword": "cafe",
+                  "pronunciation": "/kæféi/",
+                  "pos": "名",
+                  "meaning": "カフェ、喫茶店"
+                },
+                {
+                  "id": "G2_U4_P1_W_02",
+                  "headword": "sightseeing",
+                  "pronunciation": "/sáitsiːiŋ/",
+                  "pos": "名",
+                  "meaning": "観光"
+                },
+                {
+                  "id": "G2_U4_P1_W_03",
+                  "headword": "first",
+                  "pronunciation": "/fə́ːrst/",
+                  "pos": "副",
+                  "meaning": "まず、最初に、第一に"
+                },
+                {
+                  "id": "G2_U4_P1_W_04",
+                  "headword": "there",
+                  "pronunciation": "/ðéər, ðər/",
+                  "pos": "副",
+                  "usage": "〔there is[are] ～で〕",
+                  "meaning": "～がある、～がいる"
+                },
+                {
+                  "id": "G2_U4_P1_W_05",
+                  "headword": "several",
+                  "pronunciation": "/sévərəl/",
+                  "pos": "形",
+                  "meaning": "いくつかの"
+                },
+                {
+                  "id": "G2_U4_P1_W_06",
+                  "headword": "bay",
+                  "pronunciation": "/béi/",
+                  "pos": "名",
+                  "meaning": "入り江、湾"
+                },
+                {
+                  "id": "G2_U4_P1_W_07",
+                  "headword": "guess",
+                  "pronunciation": "/ɡés/",
+                  "pos": "動",
+                  "meaning": "～だと思う"
+                },
+                {
+                  "id": "G2_U4_P1_W_08",
+                  "headword": "start",
+                  "pronunciation": "/stάːrt/",
+                  "pos": "動",
+                  "meaning": "出発する、動き始める"
+                },
+                {
+                  "id": "G2_U4_P1_W_09",
+                  "headword": "Marina area",
+                  "pronunciation": "/məríːnə èəriə/",
+                  "pos": "名",
+                  "meaning": "マリーナ地区"
+                },
+                {
+                  "id": "G2_U4_P1_W_10",
+                  "headword": "check",
+                  "pronunciation": "/tʃék/",
+                  "pos": "動",
+                  "meaning": "(～を) 確かめる"
+                },
+                {
+                  "id": "G2_U4_P1_W_11",
+                  "headword": "Arab",
+                  "pronunciation": "/ærəb/",
+                  "pos": "名/形",
+                  "meaning": "アラブ人（の）"
+                },
+                {
+                  "id": "G2_U4_P1_W_12",
+                  "headword": "make a plan",
+                  "pos": "熟",
+                  "meaning": "計画を立てる"
+                },
+                {
+                  "id": "G2_U4_P1_W_13",
+                  "headword": "near there",
+                  "pos": "熟",
+                  "meaning": "その近くに［で］"
+                },
+                {
+                  "id": "G2_U4_P1_W_14",
+                  "headword": "check out ~",
+                  "pos": "熟",
+                  "meaning": "～を見てみる、～に注目する"
+                },
+                {
+                  "id": "G2_U4_P1_W_15",
+                  "headword": "island",
+                  "pronunciation": "/áilənd/",
+                  "pos": "名",
+                  "meaning": "島"
+                },
+                {
+                  "id": "G2_U4_P1_W_16",
+                  "headword": "theater",
+                  "pronunciation": "/θíːətər/",
+                  "pos": "名",
+                  "meaning": "劇場"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "dialogue_section",
+                  "header": "どこに行きたい？ (p.74)",
+                  "items": [
+                    {
+                      "id": "G2_U4_P1_S_Q1",
+                      "speaker": "Question",
+                      "ja": "Q. ティナは、マーライオンのどんな事実に驚いたでしょうか。"
+                    },
+                    {
+                      "id": "G2_U4_P1_S_A1",
+                      "speaker": "Answer",
+                      "ja": "A. (例) マーライオンがいくつかあるということ。"
+                    },
+                    {
+                      "id": "G2_U4_P1_S_01",
+                      "ref_num": "①",
+                      "speaker": "Setting",
+                      "en": "At a cafe:",
+                      "ja": "カフェで："
+                    },
+                    {
+                      "id": "G2_U4_P1_S_02",
+                      "ref_num": "②",
+                      "speaker": "Tina",
+                      "en": "Let's make a sightseeing plan!",
+                      "ja": "観光プランを立てよう！"
+                    },
+                    {
+                      "id": "G2_U4_P1_S_03",
+                      "ref_num": "③",
+                      "speaker": "David",
+                      "en": "OK, what do you want to do first?",
+                      "ja": "よし、最初に何をしたい？"
+                    },
+                    {
+                      "id": "G2_U4_P1_S_04",
+                      "ref_num": "④",
+                      "speaker": "Kota",
+                      "en": "I want to see the Merlion.",
+                      "ja": "マーライオンを見たいな。"
+                    },
+                    {
+                      "id": "G2_U4_P1_S_05",
+                      "ref_num": "⑤",
+                      "speaker": "David",
+                      "en": "Sure, but which one?",
+                      "ja": "もちろん、でもどのマーライオンかな？"
+                    },
+                    {
+                      "id": "G2_U4_P1_S_06",
+                      "ref_num": "⑥",
+                      "speaker": "David",
+                      "en": "There are several Merlions.",
+                      "ja": "いくつかあるんだ。"
+                    },
+                    {
+                      "id": "G2_U4_P1_S_07",
+                      "ref_num": "⑦",
+                      "speaker": "Tina",
+                      "en": "Really?",
+                      "ja": "本当に？"
+                    },
+                    {
+                      "id": "G2_U4_P1_S_08",
+                      "ref_num": "⑧",
+                      "speaker": "Kota",
+                      "en": "The big one by the bay, I guess.",
+                      "ja": "湾のそばの大きいのだと思う。"
+                    },
+                    {
+                      "id": "G2_U4_P1_S_09",
+                      "ref_num": "⑨",
+                      "speaker": "David",
+                      "en": "Sure.",
+                      "ja": "わかった。"
+                    },
+                    {
+                      "id": "G2_U4_P1_S_10",
+                      "ref_num": "⑩",
+                      "speaker": "David",
+                      "en": "Let's start from the Marina area.",
+                      "ja": "マリーナ地区から始めよう。"
+                    },
+                    {
+                      "id": "G2_U4_P1_S_11",
+                      "ref_num": "⑪",
+                      "speaker": "David",
+                      "en": "There is a big one there.",
+                      "ja": "そこには大きいのがあるんだ。"
+                    },
+                    {
+                      "id": "G2_U4_P1_S_12",
+                      "ref_num": "⑫",
+                      "speaker": "Kota",
+                      "en": "Is there a big garden near there?",
+                      "ja": "その近くに大きな庭園があるの？"
+                    },
+                    {
+                      "id": "G2_U4_P1_S_13",
+                      "ref_num": "⑬",
+                      "speaker": "David",
+                      "en": "Yeah, Gardens by the Bay.",
+                      "ja": "ああ、ガーデンズ・バイ・ザ・ベイだね。"
+                    },
+                    {
+                      "id": "G2_U4_P1_S_14",
+                      "ref_num": "⑭",
+                      "speaker": "Kota",
+                      "en": "I want to go there, too.",
+                      "ja": "そこにも行きたいな。"
+                    },
+                    {
+                      "id": "G2_U4_P1_S_15",
+                      "ref_num": "⑮",
+                      "speaker": "Kota",
+                      "en": "I saw it on TV.",
+                      "ja": "テレビで見たんだ。"
+                    },
+                    {
+                      "id": "G2_U4_P1_S_16",
+                      "ref_num": "⑯",
+                      "speaker": "Kota",
+                      "en": "It's so cool.",
+                      "ja": "とってもすごいんだよ。"
+                    },
+                    {
+                      "id": "G2_U4_P1_S_17",
+                      "ref_num": "⑰",
+                      "speaker": "Tina",
+                      "en": "After that, I'd like to see the traditional part of the city.",
+                      "ja": "その後に、私は街の伝統的な部分を見たいな。"
+                    },
+                    {
+                      "id": "G2_U4_P1_S_18",
+                      "ref_num": "⑱",
+                      "speaker": "David",
+                      "en": "We can check out Arab Street later.",
+                      "ja": "後でアラブストリートを見られるよ。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak (p.75)",
+                  "label": "次の休みにどこに行きたいか伝え合おう",
+                  "items": [
+                    {
+                      "id": "G2_U4_P1_S_19",
+                      "speaker": "[例] A",
+                      "en": "Where do you want to go on your next vacation?",
+                      "ja": "あなたは次の休みにどこに行きたいですか。"
+                    },
+                    {
+                      "id": "G2_U4_P1_S_20",
+                      "speaker": "[例] B",
+                      "en": "I'd like to go to Osaka. There is a famous comedy theater there.",
+                      "ja": "私は大阪に行きたいです。そこには有名な劇場の劇場があります。"
+                    },
+                    {
+                      "id": "G2_U4_P1_S_21",
+                      "speaker": "[例] A",
+                      "en": "That sounds fun.",
+                      "ja": "おもしろそうですね。"
+                    },
+                    {
+                      "id": "G2_U4_P1_S_22",
+                      "speaker": "[解答例] A",
+                      "en": "Where do you want to go on your next vacation?",
+                      "ja": "あなたは次の休みにどこに行きたいですか。"
+                    },
+                    {
+                      "id": "G2_U4_P1_S_23",
+                      "speaker": "[解答例] B",
+                      "en": "I want to go to Spain. There is a famous church there.",
+                      "ja": "私はスペインに行きたいです。そこには有名な教会があります。"
+                    },
+                    {
+                      "id": "G2_U4_P1_S_24",
+                      "speaker": "[解答例] A",
+                      "en": "That sounds fun.",
+                      "ja": "おもしろそうですね。"
+                    },
+                    {
+                      "id": "G2_U4_P1_S_25",
+                      "speaker": "Write [解答例]",
+                      "en": "I'd like to go to France. There are a lot of art museums there. I like arts.",
+                      "ja": "私はフランスへ行きたいです。そこにはたくさんの美術館があります。私は芸術が好きです。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 80
+        },
+        "P2": {
+          "title": "Part 2: 迫力満点！",
+          "views": {
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "「人にものを～する」と言う。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "==**Show me**== your guidebook.",
+                      "ja": "(あなたのガイドブックを見せてください。)",
+                      "ref_id": "G2_U4_P2_K_01"
+                    },
+                    {
+                      "ref_num": "②",
+                      "en": "I'll ==**give you**== a message.",
+                      "ja": "(あなたにメッセージを送ります。)",
+                      "ref_id": "G2_U4_P2_K_02"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "show + 人 + もの",
+                  "text": "show や tell、give、buy、lend などの動詞は、後ろに2つの目的語を取ることができます。**〈動詞 + 目的語1 + 目的語2〉** の形で「（人）に～を…します」という意味を表します。2つの目的語が続くときは、「人」→「もの」の語順になります。",
+                  "items": [
+                    {
+                      "tag": "例1",
+                      "en": "==**Show**== (動詞) ==**me**== (目的語1:人) ==**your guidebook**== (目的語2:もの).",
+                      "ja": "(あなたのガイドブックを見せてください。)"
+                    },
+                    {
+                      "tag": "例2",
+                      "en": "I'll ==**give**== (動詞) ==**you**== (目的語1:人) ==**a message**== (目的語2:もの).",
+                      "ja": "(あなたにメッセージを送ります。)"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G2_U4_P2G_E_01",
+                      "ref_num": "⑤, ⑭",
+                      "en": "Tina, show me your guidebook, please. / I'll show you the way.",
+                      "text": "**show** は、後ろに2つの目的語を取ることができる動詞です。**〈show + 人 + もの〉** で「（人）に（もの）を見せる［教える］」という味を表します。2つの目的語が続くときは、「人」→「もの」の語順になります。",
+                      "ref_id": "G2_U4_P2_S_05"
+                    },
+                    {
+                      "id": "G2_U4_P2G_E_02",
+                      "ref_num": "⑥",
+                      "en": "Here you are.",
+                      "note": "→教科書p.52 Key Phrase",
+                      "text": "**Here you are.** で、「さあどうぞ。」という意味を表します。相手に何かを手渡したりするときに使う表現です。",
+                      "ref_id": "G2_U4_P2_S_06"
+                    },
+                    {
+                      "id": "G2_U4_P2G_E_03",
+                      "ref_num": "⑦",
+                      "en": "It says the gardens produce their own energy.",
+                      "text": "**It says** の後に接続詞 **that** が省略されている文です。**says** 以下が内容を表しています。この **say** は「（本・掲示などに）～と書いてある」という意味です。",
+                      "ref_id": "G2_U4_P2_S_07"
+                    }
+                  ]
+                }
+              ]
+            },
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G2_U4_P2_W_01",
+                  "headword": "amazing",
+                  "pronunciation": "/əméiziŋ/",
+                  "pos": "形",
+                  "meaning": "びっくりするような、驚くほど見事な"
+                },
+                {
+                  "id": "G2_U4_P2_W_02",
+                  "headword": "fiction",
+                  "pronunciation": "/fíkʃən/",
+                  "pos": "名",
+                  "meaning": "小説、フィクション"
+                },
+                {
+                  "id": "G2_U4_P2_W_03",
+                  "headword": "science fiction",
+                  "pronunciation": "/sáiəns fíkʃən/",
+                  "pos": "名",
+                  "meaning": "科学小説、SF"
+                },
+                {
+                  "id": "G2_U4_P2_W_04",
+                  "headword": "guidebook",
+                  "pronunciation": "/ɡáidbùk/",
+                  "pos": "名",
+                  "meaning": "ガイドブック"
+                },
+                {
+                  "id": "G2_U4_P2_W_05",
+                  "headword": "produce",
+                  "pronunciation": "/prədjúːs/",
+                  "pos": "動",
+                  "meaning": "～を生産する"
+                },
+                {
+                  "id": "G2_U4_P2_W_06",
+                  "headword": "say",
+                  "pronunciation": "/séi/",
+                  "pos": "動",
+                  "usage": "〔本・掲示などに〕",
+                  "meaning": "～と書いてある"
+                },
+                {
+                  "id": "G2_U4_P2_W_07",
+                  "headword": "energy",
+                  "pronunciation": "/énərdʒi/",
+                  "pos": "名",
+                  "meaning": "活力、エネルギー"
+                },
+                {
+                  "id": "G2_U4_P2_W_08",
+                  "headword": "Supertree(s)",
+                  "pronunciation": "/súːpərtrìː(z)/",
+                  "pos": "名",
+                  "meaning": "スーパーツリー"
+                },
+                {
+                  "id": "G2_U4_P2_W_09",
+                  "headword": "collect",
+                  "pronunciation": "/kəlékt/",
+                  "pos": "動",
+                  "meaning": "～を集める"
+                },
+                {
+                  "id": "G2_U4_P2_W_10",
+                  "headword": "solar",
+                  "pronunciation": "/sóulər/",
+                  "pos": "形",
+                  "meaning": "太陽の"
+                },
+                {
+                  "id": "G2_U4_P2_W_11",
+                  "headword": "environment",
+                  "pronunciation": "/inváiərənmənt/",
+                  "pos": "名",
+                  "meaning": "環境"
+                },
+                {
+                  "id": "G2_U4_P2_W_12",
+                  "headword": "walkway",
+                  "pronunciation": "/wɔ́ːkwèi/",
+                  "pos": "名",
+                  "meaning": "歩道、連絡用通路"
+                },
+                {
+                  "id": "G2_U4_P2_W_13",
+                  "headword": "access",
+                  "pronunciation": "/ǽkses/",
+                  "pos": "名",
+                  "meaning": "通路、交通手段"
+                },
+                {
+                  "id": "G2_U4_P2_W_14",
+                  "headword": "show",
+                  "pronunciation": "/ʃóu/",
+                  "pos": "動",
+                  "usage": "〔show + 人 + ～で〕",
+                  "meaning": "(人)に～を教える"
+                },
+                {
+                  "id": "G2_U4_P2_W_15",
+                  "headword": "Here you are.",
+                  "meaning": "さあどうぞ。"
+                },
+                {
+                  "id": "G2_U4_P2_W_16",
+                  "headword": "go up",
+                  "meaning": "上がる、登る"
+                },
+                {
+                  "id": "G2_U4_P2_W_17",
+                  "headword": "show ~ the way",
+                  "meaning": "～に道を教える"
+                },
+                {
+                  "id": "G2_U4_P2_W_18",
+                  "headword": "mug",
+                  "pronunciation": "/mʌ́ɡ/",
+                  "pos": "名",
+                  "meaning": "マグカップ"
+                },
+                {
+                  "id": "G2_U4_P2_W_19",
+                  "headword": "key chain",
+                  "pronunciation": "/kíː tʃèin/",
+                  "pos": "名",
+                  "meaning": "キーホルダー（を付けたチェーン型アクセサリー）"
+                },
+                {
+                  "id": "G2_U4_P2_W_20",
+                  "headword": "souvenir(s)",
+                  "pronunciation": "/sùːvəníər(z)/",
+                  "pos": "名",
+                  "meaning": "記念品、土産物"
+                },
+                {
+                  "id": "G2_U4_P2_W_21",
+                  "headword": "magnet(s)",
+                  "pronunciation": "/mǽɡnət(s)/",
+                  "pos": "名",
+                  "meaning": "磁石、マグネット"
+                },
+                {
+                  "id": "G2_U4_P2_W_22",
+                  "headword": "everyday",
+                  "pronunciation": "/évridèi/",
+                  "pos": "形",
+                  "meaning": "毎日の、日々の"
+                },
+                {
+                  "id": "G2_U4_P2_W_23",
+                  "headword": "use",
+                  "pronunciation": "/júːs/",
+                  "pos": "名",
+                  "meaning": "使うこと、使用、使い道"
+                },
+                {
+                  "id": "G2_U4_P2_W_24",
+                  "headword": "expensive",
+                  "pronunciation": "/ikspénsiv/",
+                  "pos": "形",
+                  "meaning": "高価な"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "dialogue_section",
+                  "header": "迫力満点！ (p.76)",
+                  "items": [
+                    {
+                      "id": "G2_U4_P2_S_Q1",
+                      "speaker": "Question",
+                      "ja": "Q. ガイドブックには、どんな情報が書いてあるでしょうか。"
+                    },
+                    {
+                      "id": "G2_U4_P2_S_A1",
+                      "speaker": "Answer",
+                      "ja": "A. (例) ガーデンズ・バイ・ザ・ベイでは、自家発電をしていること。"
+                    },
+                    {
+                      "id": "G2_U4_P2_S_01",
+                      "ref_num": "①",
+                      "speaker": "Setting",
+                      "en": "At the Gardens by the Bay:",
+                      "ja": "ガーデンズ・バイ・ザ・ベイで："
+                    },
+                    {
+                      "id": "G2_U4_P2_S_02",
+                      "ref_num": "②",
+                      "speaker": "Tina",
+                      "en": "This is amazing!",
+                      "ja": "これはすばらしいわね！"
+                    },
+                    {
+                      "id": "G2_U4_P2_S_03",
+                      "ref_num": "③",
+                      "speaker": "Kota",
+                      "en": "Yeah.",
+                      "ja": "ああ。"
+                    },
+                    {
+                      "id": "G2_U4_P2_S_04",
+                      "ref_num": "④",
+                      "speaker": "Kota",
+                      "en": "It's like a science fiction movie!",
+                      "ja": "SF映画みたいだ！"
+                    },
+                    {
+                      "id": "G2_U4_P2_S_05",
+                      "ref_num": "⑤",
+                      "speaker": "Kota",
+                      "en": "Tina, show me your guidebook, please.",
+                      "ja": "ティナ、ガイドブックを見せてよ。"
+                    },
+                    {
+                      "id": "G2_U4_P2_S_06",
+                      "ref_num": "⑥",
+                      "speaker": "Tina",
+                      "en": "Here you are.",
+                      "ja": "どうぞ。"
+                    },
+                    {
+                      "id": "G2_U4_P2_S_07",
+                      "ref_num": "⑦",
+                      "speaker": "Kota",
+                      "en": "It says the gardens produce their own energy.",
+                      "ja": "ガイドブックによると庭園で自家発電しているんだね。"
+                    },
+                    {
+                      "id": "G2_U4_P2_S_08",
+                      "ref_num": "⑧",
+                      "speaker": "David",
+                      "en": "The Supertrees collect solar energy.",
+                      "ja": "スーパーツリーで太陽エネルギーを集めているんだよ。"
+                    },
+                    {
+                      "id": "G2_U4_P2_S_09",
+                      "ref_num": "⑨",
+                      "speaker": "Tina",
+                      "en": "That's good for the environment.",
+                      "ja": "環境にやさしいわね。"
+                    },
+                    {
+                      "id": "G2_U4_P2_S_10",
+                      "ref_num": "⑩",
+                      "speaker": "Kota",
+                      "en": "Look!",
+                      "ja": "見て！"
+                    },
+                    {
+                      "id": "G2_U4_P2_S_11",
+                      "ref_num": "⑪",
+                      "speaker": "Kota",
+                      "en": "There's a walkway.",
+                      "ja": "歩道があるよ。"
+                    },
+                    {
+                      "id": "G2_U4_P2_S_12",
+                      "ref_num": "⑫",
+                      "speaker": "Kota",
+                      "en": "Can we go up there?",
+                      "ja": "あそこまで上れるのかな。"
+                    },
+                    {
+                      "id": "G2_U4_P2_S_13",
+                      "ref_num": "⑬",
+                      "speaker": "David",
+                      "en": "Sure.",
+                      "ja": "もちろん。"
+                    },
+                    {
+                      "id": "G2_U4_P2_S_14",
+                      "ref_num": "⑭",
+                      "speaker": "David",
+                      "en": "I'll show you the way.",
+                      "ja": "案内してあげるよ。"
+                    },
+                    {
+                      "id": "G2_U4_P2_S_15",
+                      "ref_num": "⑮",
+                      "speaker": "David",
+                      "en": "Every part of the city has wheelchair access.",
+                      "ja": "街中に車いすの通路があるんだ。"
+                    },
+                    {
+                      "id": "G2_U4_P2_S_16",
+                      "ref_num": "⑯",
+                      "speaker": "Kota",
+                      "en": "Wow, that's great.",
+                      "ja": "うわあ、それはすごいね。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak (p.77)",
+                  "label": "誰にどんなお土産を買いたいか伝え合おう",
+                  "items": [
+                    {
+                      "id": "G2_U4_P2_S_17",
+                      "speaker": "[例] A",
+                      "en": "I want to buy Shota this mug. It's cool. How about you?",
+                      "ja": "私はショウタにこのマグカップを買いたいです。かっこいいです。あなたはどうですか。"
+                    },
+                    {
+                      "id": "G2_U4_P2_S_18",
+                      "speaker": "[例] B",
+                      "en": "I want to buy my mother a magnet. She collects magnets from different countries.",
+                      "ja": "私はお母さんにマグネットを買いたいです。彼女はいろいろな国のマグネットを集めています。"
+                    },
+                    {
+                      "id": "G2_U4_P2_S_19",
+                      "speaker": "[解答例] A",
+                      "en": "I want to buy Ken a bag. It's cool. How about you?",
+                      "ja": "私はケンにバッグを買いたいです。かっこいいです。あなたはどうですか。"
+                    },
+                    {
+                      "id": "G2_U4_P2_S_20",
+                      "speaker": "[解答例] B",
+                      "en": "I want to buy Mika the small boxes. She likes small things.",
+                      "ja": "私はミカに小さな箱を買いたいです。彼女は小物が好きです。"
+                    },
+                    {
+                      "id": "G2_U4_P2_S_21",
+                      "speaker": "Write [解答例]",
+                      "en": "I want to buy Mika the small boxes. She likes small things.",
+                      "ja": "私はミカに小さな箱を買いたいです。彼女は小物が好きです。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 81
+        },
+        "P3": {
+          "title": "Part 3: ほら見て！",
+          "views": {
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "どのようなものかという説明を加えて言う。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "You need ==**something to cover**== your shoulders.",
+                      "ja": "(あなたは何か肩を覆うものが必要です。)",
+                      "ref_id": "G2_U4_P3_K_01"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "不定詞（形容詞的用法）",
+                  "text": "**〈to + 動詞の原形〉** のような形を不定詞と言います。不定詞がすぐ前の名詞や代名詞に説明を加える形容詞のような働きをすることがあります。この不定詞は、「～すべき…」「～するための…」という意味になります。",
+                  "items": [
+                    {
+                      "en": "You need ==**something**==.",
+                      "ja": "(あなたは何かが必要です。)"
+                    },
+                    {
+                      "en": "You need ==**something**== ==**to cover**== your shoulders.",
+                      "ja": "(あなたは何か肩を覆うものが必要です。)",
+                      "note": "to cover が something を説明している"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G2_U4_P3G_E_01",
+                      "ref_num": "⑨",
+                      "en": "There are some rules for visitors.",
+                      "text": "**There is [are] ～.** の文です。主語は **some rules** で複数なので、**There are ～.** になります。",
+                      "ref_id": "G2_U4_P3_S_09"
+                    },
+                    {
+                      "id": "G2_U4_P3G_E_02",
+                      "ref_num": "⑬",
+                      "en": "You need something to cover your shoulders, right?",
+                      "text": "**〈to + 動詞の原形〉** で表される不定詞の形容詞的用法です。**something** は「何か」という意味で、**something to cover** で「何か覆うもの」という意味になります。",
+                      "ref_id": "G2_U4_P3_S_13"
+                    },
+                    {
+                      "id": "G2_U4_P3G_E_03",
+                      "ref_num": "⑯",
+                      "en": "There's no need for that.",
+                      "text": "**no** は「～のない」という味の形容詞です。主語の **need** は「必要、必要性」という意味で数えられない名詞なので単数扱いとなり、**There is** が使われています。**There's** は **There is** の短縮形です。",
+                      "ref_id": "G2_U4_P3_S_16"
+                    },
+                    {
+                      "id": "G2_U4_P3G_E_04",
+                      "ref_num": "⑰",
+                      "en": "You can borrow clothes to cover yourself over there.",
+                      "text": "**〈to + 動詞の原形〉** で表される不定詞の形容詞的用法です。**to cover** で「覆うための」という意味を表し、すぐ前の **clothes** に説明を加えています。",
+                      "ref_id": "G2_U4_P3_S_17"
+                    },
+                    {
+                      "id": "G2_U4_P3G_E_05",
+                      "ref_num": "⑲",
+                      "en": "Thanks, Kota, but I'm OK.",
+                      "note": "→教科書p.54 Key Phrase",
+                      "text": "**Thanks, but I'm OK.** で、「ありがとう、でも結構です。」という意味を表します。相手の申し出や提案に対し、お礼を伝えながら断るときに使います。",
+                      "ref_id": "G2_U4_P3_S_19"
+                    }
+                  ]
+                }
+              ]
+            },
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G2_U4_P3_W_01",
+                  "headword": "Kampong Gelam",
+                  "pos": "名",
+                  "meaning": "カンポン・グラム〔シンガポールのイスラム教徒地区〕"
+                },
+                {
+                  "id": "G2_U4_P3_W_02",
+                  "headword": "mosque",
+                  "pronunciation": "/mάsk/",
+                  "pos": "名",
+                  "meaning": "モスク、イスラム教寺院"
+                },
+                {
+                  "id": "G2_U4_P3_W_03",
+                  "headword": "Sultan Mosque",
+                  "pronunciation": "/sʌ́ltən mάsk/",
+                  "pos": "名",
+                  "meaning": "サルタン・モスク〔シンガポール最大かつ最古のイスラム教寺院〕"
+                },
+                {
+                  "id": "G2_U4_P3_W_04",
+                  "headword": "rule(s)",
+                  "pronunciation": "/rúːl(z)/",
+                  "pos": "名",
+                  "meaning": "規則、決まり"
+                },
+                {
+                  "id": "G2_U4_P3_W_05",
+                  "headword": "visitor(s)",
+                  "pronunciation": "/vízətər(z)/",
+                  "pos": "名",
+                  "meaning": "観光客"
+                },
+                {
+                  "id": "G2_U4_P3_W_06",
+                  "headword": "need",
+                  "pronunciation": "/níːd/",
+                  "pos": "動",
+                  "usage": "〔need to ～で〕",
+                  "meaning": "～する必要がある",
+                  "note": "名：必要、必要性"
+                },
+                {
+                  "id": "G2_U4_P3_W_07",
+                  "headword": "cover",
+                  "pronunciation": "/kʌ́vər/",
+                  "pos": "動",
+                  "meaning": "(～を) 覆う"
+                },
+                {
+                  "id": "G2_U4_P3_W_08",
+                  "headword": "shoulder(s)",
+                  "pronunciation": "/ʃóuldər(z)/",
+                  "pos": "名",
+                  "meaning": "肩"
+                },
+                {
+                  "id": "G2_U4_P3_W_09",
+                  "headword": "knee(s)",
+                  "pronunciation": "/níː(z)/",
+                  "pos": "名",
+                  "meaning": "ひざ"
+                },
+                {
+                  "id": "G2_U4_P3_W_10",
+                  "headword": "to",
+                  "pronunciation": "/tú, tə/",
+                  "pos": "前",
+                  "usage": "〔to+動詞の原形で〕",
+                  "meaning": "～する(ための)"
+                },
+                {
+                  "id": "G2_U4_P3_W_11",
+                  "headword": "wear",
+                  "pronunciation": "/wéər/",
+                  "pos": "動",
+                  "meaning": "～を着ている、～を身につけている"
+                },
+                {
+                  "id": "G2_U4_P3_W_12",
+                  "headword": "hoodie",
+                  "pronunciation": "/húdi/",
+                  "pos": "名",
+                  "meaning": "フード付きトレーナー"
+                },
+                {
+                  "id": "G2_U4_P3_W_13",
+                  "headword": "borrow",
+                  "pronunciation": "/bάrou/",
+                  "pos": "動",
+                  "meaning": "～を借りる"
+                },
+                {
+                  "id": "G2_U4_P3_W_14",
+                  "headword": "clothes",
+                  "pronunciation": "/klóuz/",
+                  "pos": "名",
+                  "meaning": "衣服"
+                },
+                {
+                  "id": "G2_U4_P3_W_15",
+                  "headword": "OK",
+                  "pronunciation": "/òukéi/",
+                  "pos": "形",
+                  "meaning": "大丈夫な、よろしい"
+                },
+                {
+                  "id": "G2_U4_P3_W_16",
+                  "headword": "need to ~",
+                  "meaning": "～する必要がある"
+                },
+                {
+                  "id": "G2_U4_P3_W_17",
+                  "headword": "go in",
+                  "meaning": "中に入る"
+                },
+                {
+                  "id": "G2_U4_P3_W_18",
+                  "headword": "over there",
+                  "meaning": "あそこに、あちらに"
+                },
+                {
+                  "id": "G2_U4_P3_W_19",
+                  "headword": "food court",
+                  "pronunciation": "/fúːd kɔ̀ːrt/",
+                  "pos": "名",
+                  "meaning": "フードコート"
+                },
+                {
+                  "id": "G2_U4_P3_W_20",
+                  "headword": "litter(ing)",
+                  "pronunciation": "/lítər(iŋ)/",
+                  "pos": "動",
+                  "meaning": "ごみ［くず］を散らかす"
+                },
+                {
+                  "id": "G2_U4_P3_W_21",
+                  "headword": "hot spring",
+                  "pronunciation": "/hάt spríŋ/",
+                  "pos": "名",
+                  "meaning": "温泉"
+                },
+                {
+                  "id": "G2_U4_P3_W_22",
+                  "headword": "spring",
+                  "pronunciation": "/spríŋ/",
+                  "pos": "名",
+                  "meaning": "泉"
+                },
+                {
+                  "id": "G2_U4_P3_W_23",
+                  "headword": "example",
+                  "pronunciation": "/iɡzǽmpl/",
+                  "pos": "名",
+                  "meaning": "例"
+                },
+                {
+                  "id": "G2_U4_P3_W_24",
+                  "headword": "for example",
+                  "meaning": "例えば"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "dialogue_section",
+                  "header": "ほら見て！ (p.78)",
+                  "items": [
+                    {
+                      "id": "G2_U4_P3_S_Q1",
+                      "speaker": "Question",
+                      "ja": "Q. ティナが必要なものは何でしょうか。"
+                    },
+                    {
+                      "id": "G2_U4_P3_S_A1",
+                      "speaker": "Answer",
+                      "ja": "A. (例) 肩を覆うためのもの。"
+                    },
+                    {
+                      "id": "G2_U4_P3_S_01",
+                      "ref_num": "①",
+                      "speaker": "Setting",
+                      "en": "On Arab Street:",
+                      "ja": "アラブストリートで："
+                    },
+                    {
+                      "id": "G2_U4_P3_S_02",
+                      "ref_num": "②",
+                      "speaker": "David",
+                      "en": "This is Arab Street, Kampong Gelam.",
+                      "ja": "ここがアラブストリート、カンポン・グラムだよ。"
+                    },
+                    {
+                      "id": "G2_U4_P3_S_03",
+                      "ref_num": "③",
+                      "speaker": "Tina",
+                      "en": "Is that a mosque?",
+                      "ja": "あれはモスク？"
+                    },
+                    {
+                      "id": "G2_U4_P3_S_04",
+                      "ref_num": "④",
+                      "speaker": "David",
+                      "en": "Yes, Sultan Mosque.",
+                      "ja": "そうだよ、サルタン・モスクだね。"
+                    },
+                    {
+                      "id": "G2_U4_P3_S_05",
+                      "ref_num": "⑤",
+                      "speaker": "David",
+                      "en": "Do you want to look inside?",
+                      "ja": "中を見たい？"
+                    },
+                    {
+                      "id": "G2_U4_P3_S_06",
+                      "ref_num": "⑥",
+                      "speaker": "Tina",
+                      "en": "Yes!",
+                      "ja": "うん！"
+                    },
+                    {
+                      "id": "G2_U4_P3_S_07",
+                      "ref_num": "⑦",
+                      "speaker": "Tina",
+                      "en": "It's beautiful.",
+                      "ja": "きれいだね。"
+                    },
+                    {
+                      "id": "G2_U4_P3_S_08",
+                      "ref_num": "⑧",
+                      "speaker": "Setting",
+                      "en": "At the entrance:",
+                      "ja": "入り口で："
+                    },
+                    {
+                      "id": "G2_U4_P3_S_09",
+                      "ref_num": "⑨",
+                      "speaker": "Kota",
+                      "en": "There are some rules for visitors.",
+                      "ja": "観光客用にいくつかルールがあるんだね。"
+                    },
+                    {
+                      "id": "G2_U4_P3_S_10",
+                      "ref_num": "⑩",
+                      "speaker": "Kota",
+                      "en": "We need to cover our shoulders and knees.",
+                      "ja": "肩とひざを覆わなければならないんだ。"
+                    },
+                    {
+                      "id": "G2_U4_P3_S_11",
+                      "ref_num": "⑪",
+                      "speaker": "Tina",
+                      "en": "Oh, I can't go in with you.",
+                      "ja": "あ、私はいっしょに入れないな。"
+                    },
+                    {
+                      "id": "G2_U4_P3_S_12",
+                      "ref_num": "⑫",
+                      "speaker": "Tina",
+                      "en": "Look at me.",
+                      "ja": "見て。"
+                    },
+                    {
+                      "id": "G2_U4_P3_S_13",
+                      "ref_num": "⑬",
+                      "speaker": "Kota",
+                      "en": "You need something to cover your shoulders, right?",
+                      "ja": "何か肩を覆うものが必要だね。"
+                    },
+                    {
+                      "id": "G2_U4_P3_S_14",
+                      "ref_num": "⑭",
+                      "speaker": "Kota",
+                      "en": "You can wear my hoodie.",
+                      "ja": "ぼくのフード付きトレーナーを着ていいよ。"
+                    },
+                    {
+                      "id": "G2_U4_P3_S_15",
+                      "ref_num": "⑮",
+                      "speaker": "Kota",
+                      "en": "Here!",
+                      "ja": "はい！"
+                    },
+                    {
+                      "id": "G2_U4_P3_S_16",
+                      "ref_num": "⑯",
+                      "speaker": "David",
+                      "en": "There's no need for that.",
+                      "ja": "その必要はないよ。"
+                    },
+                    {
+                      "id": "G2_U4_P3_S_17",
+                      "ref_num": "⑰",
+                      "speaker": "David",
+                      "en": "You can borrow clothes to cover yourself over there.",
+                      "ja": "あそこで体を覆う服を借りられるんだ。"
+                    },
+                    {
+                      "id": "G2_U4_P3_S_18",
+                      "ref_num": "⑱",
+                      "speaker": "Tina",
+                      "en": "Oh, really?",
+                      "ja": "あ、本当に？"
+                    },
+                    {
+                      "id": "G2_U4_P3_S_19",
+                      "ref_num": "⑲",
+                      "speaker": "Tina",
+                      "en": "Thanks, Kota, but I'm OK.",
+                      "ja": "ありがとうコウタ、でも大丈夫だよ。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak (p.79)",
+                  "label": "あなたの町に来た人に、どんな場所や名物を紹介しますか。",
+                  "items": [
+                    {
+                      "id": "G2_U4_P3_S_20",
+                      "speaker": "[例] A",
+                      "en": "The Daibutsu is the best place to visit in Kamakura.",
+                      "ja": "大仏は鎌倉で訪れるべき最もよい場所です。"
+                    },
+                    {
+                      "id": "G2_U4_P3_S_21",
+                      "speaker": "[例] A",
+                      "en": "There is a nice restaurant to eat curry near the Daibutsu, too.",
+                      "ja": "大仏の近くにはカレーを食べるためのすてきなレストランもあります。"
+                    },
+                    {
+                      "id": "G2_U4_P3_S_22",
+                      "speaker": "[例] B",
+                      "en": "There are some good places to relax — Yuigahama Beach and a famous hot spring, for example.",
+                      "ja": "くつろぐためのよい場所があります――例えば、由比ヶ浜海岸や有名な温泉です。"
+                    },
+                    {
+                      "id": "G2_U4_P3_S_23",
+                      "speaker": "[解答例] A",
+                      "en": "Nagoya Castle is the best place to visit in Nagoya.",
+                      "ja": "名古屋城は名古屋で訪れるべき最もよい場所です。"
+                    },
+                    {
+                      "id": "G2_U4_P3_S_24",
+                      "speaker": "[解答例] A",
+                      "en": "There is a famous restaurant to eat hitsumabushi near the castle, too.",
+                      "ja": "城の近くにはひつまぶしを食べるための有名なレストランもあります。"
+                    },
+                    {
+                      "id": "G2_U4_P3_S_25",
+                      "speaker": "[解答例] B",
+                      "en": "There are some good places to see — Higashiyama Zoo and some museums, for example.",
+                      "ja": "見るべきよい場所があります――例えば、東山動物園やいくつかの美術館です。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 82
+        },
+        "ST": {
+          "title": "Start: Tour in Singapore",
+          "views": {
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "goal_section",
+                  "header": "Unit 4 の目標 (Goal)",
+                  "items": [
+                    {
+                      "tag": "Read",
+                      "text": "グルメの紹介記事から、必要な情報を読み取ることができる。"
+                    },
+                    {
+                      "tag": "Speak",
+                      "text": "町の名の魅力が伝わるように、詳しく説明することができる。"
+                    }
+                  ]
+                },
+                {
+                  "type": "intro_section",
+                  "header": "About You",
+                  "items": [
+                    {
+                      "id": "G2_U4_ST_S_01",
+                      "en": "What do you know about Singapore?",
+                      "ja": "シンガポールについて何を知っていますか。"
+                    },
+                    {
+                      "id": "G2_U4_ST_S_02",
+                      "en": "It's famous for Merlion.",
+                      "ja": "(例) マーライオンで有名です。",
+                      "tag": "例"
+                    }
+                  ]
+                },
+                {
+                  "type": "check_section",
+                  "header": "1. 予想する",
+                  "items": [
+                    {
+                      "id": "G2_U4_ST_S_03",
+                      "en": "Where will Kota go in Singapore?",
+                      "ja": "コウタはシンガポールでどこに行くでしょうか。"
+                    },
+                    {
+                      "id": "G2_U4_ST_S_04",
+                      "en": "He will visit some famous places in Singapore.",
+                      "ja": "(例) 彼はいくつかのシンガポールで有名な場所へ行くでしょう。",
+                      "tag": "例"
+                    }
+                  ]
+                },
+                {
+                  "type": "context_section",
+                  "header": "ストーリーのおおまかな内容 (音声・映像の場面順)",
+                  "items": [
+                    {
+                      "id": "G2_U4_ST_C_01",
+                      "ja": "3人がマーライオンの話をしている"
+                    },
+                    {
+                      "id": "G2_U4_ST_C_02",
+                      "ja": "3人がアラブストリートの話をしている"
+                    },
+                    {
+                      "id": "G2_U4_ST_C_03",
+                      "ja": "ティナがコウタにガイドブックを渡している"
+                    },
+                    {
+                      "id": "G2_U4_ST_C_04",
+                      "ja": "デイヴィッドが太陽光発電について話している"
+                    },
+                    {
+                      "id": "G2_U4_ST_C_05",
+                      "ja": "3人がサルタン・モスクに着いた"
+                    },
+                    {
+                      "id": "G2_U4_ST_C_06",
+                      "ja": "デイヴィッドが、服が借りられることを話している"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 73
+        }
+      },
+      "hasAppendix": true
+    }
+  },
+  "allExplanations": {
+    "G2_U4_P1_S_02": "**make a plan** で「計画を立てる」という意味を表します。**let's** は **let us** の短縮形で、「～しよう」という意味を表します。",
+    "G2_U4_P1_S_03": "**〈want to + 動詞の原形〉** で表される名詞的用法の不定詞の文です。**〈want to + 動詞の原形〉** で、「～したい」という味を表します。",
+    "G2_U4_P1_S_06": "初めて話題に出す不特定の何かが「～があります［います］」と説明するとき、**There is [are] ～.** と言います。主語が単数の場合は **There is ～.** 、主語が複数の場合は **There are ～.** と言います。",
+    "G2_U4_P1_S_08": "**～, I guess.** で、「～だと思います。」という意味を表します。多少、不確かな考えを相手に伝えるときに使う表現です。",
+    "G2_U4_P1_S_12": "**There is ～.** の疑問文で、「～がありますか［いますか］」という意味になります。**There is ～.** の疑問文は、**is** を **there** の前に置いて、**〈Is there + 主語 ～?〉** の語順になります。",
+    "G2_U4_P2_S_05": "**show** は、後ろに2つの目的語を取ることができる動詞です。**〈show + 人 + もの〉** で「（人）に（もの）を見せる［教える］」という味を表します。2つの目的語が続くときは、「人」→「もの」の語順になります。",
+    "G2_U4_P2_S_06": "**Here you are.** で、「さあどうぞ。」という意味を表します。相手に何かを手渡したりするときに使う表現です。",
+    "G2_U4_P2_S_07": "**It says** の後に接続詞 **that** が省略されている文です。**says** 以下が内容を表しています。この **say** は「（本・掲示などに）～と書いてある」という意味です。",
+    "G2_U4_P3_S_09": "**There is [are] ～.** の文です。主語は **some rules** で複数なので、**There are ～.** になります。",
+    "G2_U4_P3_S_13": "**〈to + 動詞の原形〉** で表される不定詞の形容詞的用法です。**something** は「何か」という意味で、**something to cover** で「何か覆うもの」という意味になります。",
+    "G2_U4_P3_S_16": "**no** は「～のない」という味の形容詞です。主語の **need** は「必要、必要性」という意味で数えられない名詞なので単数扱いとなり、**There is** が使われています。**There's** は **There is** の短縮形です。",
+    "G2_U4_P3_S_17": "**〈to + 動詞の原形〉** で表される不定詞の形容詞的用法です。**to cover** で「覆うための」という意味を表し、すぐ前の **clothes** に説明を加えています。",
+    "G2_U4_P3_S_19": "**Thanks, but I'm OK.** で、「ありがとう、でも結構です。」という意味を表します。相手の申し出や提案に対し、お礼を伝えながら断るときに使います。"
+  }
+}

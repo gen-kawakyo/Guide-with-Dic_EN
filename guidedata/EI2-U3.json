@@ -1,0 +1,4789 @@
+{
+  "type": "FULL_BACKUP",
+  "units": {
+    "G2-U3": {
+      "title": "Unit G2-U3",
+      "parts": {
+        "AG2": {
+          "title": "Active Grammar 2",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G2_U3_AG2_W_01",
+                  "headword": "cool",
+                  "pronunciation": "kúːl",
+                  "pos": "形",
+                  "meaning": "涼しい、冷たい"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "look_back_section",
+                  "header": "場面と意味：ストーリーをふり返って",
+                  "items": [
+                    {
+                      "id": "G2_U3_AG2_S_01",
+                      "speaker": "(1) Eri",
+                      "en": "How about you, Tina? What are you going to do?",
+                      "ja": "あなたはどう、ティナ？ 何をする予定？",
+                      "ref_id": "G2_U3_P1_S_05"
+                    },
+                    {
+                      "id": "G2_U3_AG2_S_02",
+                      "speaker": "Tina",
+                      "en": "I'm going to visit Singapore this year.",
+                      "ja": "私は今年、シンガポールを訪れる予定だよ。",
+                      "ref_id": "G2_U3_P1_S_07"
+                    },
+                    {
+                      "id": "G2_U3_AG2_S_03",
+                      "speaker": "(2) David",
+                      "en": "By the way, when will your flight arrive? I'll meet you at the airport.",
+                      "ja": "ところで、君たちの飛行機はいつ到着の予定？ ぼくは空港で君たちに会うつもりでいるよ。",
+                      "ref_id": "G2_U3_P2_S_10"
+                    }
+                  ]
+                },
+                {
+                  "type": "grammar_hunt",
+                  "header": "Grammar Hunt (文法探し)",
+                  "items": [
+                    {
+                      "id": "G2_U3_AG2_G_H1",
+                      "text": "Unit 3 のストーリーを読み、be going to や will を使った文に〇を付けましょう。また、それらがどんな意味を表しているか確かめましょう。"
+                    },
+                    {
+                      "id": "G2_U3_AG2_G_H2",
+                      "speaker": "解答例 (Unit 3 Part 1)",
+                      "en": "Hajin: I'm going to stay here.",
+                      "ja": "ハジン：ぼくはここに残る予定だよ。"
+                    },
+                    {
+                      "id": "G2_U3_AG2_G_H3",
+                      "speaker": "解答例 (Unit 3 Part 1)",
+                      "en": "Eri: I'm going to visit my cousins in Okinawa. What are you going to do?",
+                      "ja": "エリ：私は沖縄のいとこを訪ねる予定です。あなたは何をする予定ですか。"
+                    },
+                    {
+                      "id": "G2_U3_AG2_G_H4",
+                      "text": "注釈：するつもりでいる予定を表している。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Write: 週末の予定を立てて、Tina を誘おう (p.62)",
+                  "label": "Hajin のセリフ (Do you have any plans for this Saturday?)",
+                  "items": [
+                    {
+                      "id": "G2_U3_AG2_S_04",
+                      "speaker": "Hajin",
+                      "en": "Do you have any plans for this Saturday?",
+                      "ja": "今度の土曜日の予定は何かあるかな？"
+                    },
+                    {
+                      "id": "G2_U3_AG2_S_05",
+                      "speaker": "Hajin",
+                      "en": "I'm going to see a pro basketball game at Yokohama Budokan. Why don't you come with me?",
+                      "ja": "ぼくは横浜武道館でプロバスケットボールの試合を見に行く予定だよ。君もいっしょに行かない？"
+                    },
+                    {
+                      "id": "G2_U3_AG2_S_06",
+                      "speaker": "Hajin",
+                      "en": "Great! The match will start at three o'clock.",
+                      "ja": "よし！ 試合は3時から始まるんだ。"
+                    },
+                    {
+                      "id": "G2_U3_AG2_S_07",
+                      "speaker": "Hajin",
+                      "en": "Let's see... we'll take a bus from Honcho Station. How about meeting at the station at 2:15?",
+                      "ja": "えーと……本町駅からバスに乗るよ。2時15分に駅で待ち合わせるのはどうかな。"
+                    },
+                    {
+                      "id": "G2_U3_AG2_S_08",
+                      "speaker": "Hajin",
+                      "en": "Tina wants to come, too. Please send her a message. See you then!",
+                      "ja": "ティナも来たいと思っているんだ。彼女にメッセージを送っておいて。じゃあ、そのときに。"
+                    }
+                  ]
+                },
+                {
+                  "type": "model_answer_section",
+                  "header": "解答例：Tina へのメッセージ",
+                  "items": [
+                    {
+                      "id": "G2_U3_AG2_S_09",
+                      "en": "Hi Tina, How are you?",
+                      "ja": "こんにちは、ティナ。元気？"
+                    },
+                    {
+                      "id": "G2_U3_AG2_S_10",
+                      "en": "Hajin and I are going to see a pro basketball game this Saturday.",
+                      "ja": "ハジンと私は今週の土曜日にプロバスケットボールの試合を見に行くよ。"
+                    },
+                    {
+                      "id": "G2_U3_AG2_S_11",
+                      "en": "You are going to come with us, right?",
+                      "ja": "いっしょに行くんだよね。"
+                    },
+                    {
+                      "id": "G2_U3_AG2_S_12",
+                      "en": "We'll take a bus from Honcho Station.",
+                      "ja": "私たちは本町駅からバスに乗るつもりなんだ。"
+                    },
+                    {
+                      "id": "G2_U3_AG2_S_13",
+                      "en": "Can you be there at 2:15? The match will start at three p.m.",
+                      "ja": "2時15分にそこに来られる？ 試合は午後3時に始まるよ。"
+                    }
+                  ]
+                }
+              ]
+            },
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "summary_table",
+                  "header": "1 be going to + 動詞の原形",
+                  "text": "話す前から準備を進めていたことには be going to を使います。",
+                  "groups": [
+                    {
+                      "title": "肯定文",
+                      "items": [
+                        {
+                          "en": "Eri is going to visit her cousins.",
+                          "ja": "(エリは彼女のいとこを訪ねるつもりです。)"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "疑問文と答え",
+                      "items": [
+                        {
+                          "en": "Is she going to visit her cousins?",
+                          "ja": "(彼女は彼女のいとこを訪ねるつもりですか。)"
+                        },
+                        {
+                          "en": "― Yes, she is. / No, she isn't.",
+                          "ja": "(はい、訪ねる予定です。 / いいえ、訪ねるつもりではありません。)"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "否定文",
+                      "items": [
+                        {
+                          "en": "She is not going to visit her cousins.",
+                          "ja": "(彼女は彼女のいとこを訪ねるつもりではありません。)"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "summary_table",
+                  "header": "2 will + 動詞の原形",
+                  "text": "その場で思いついたことや、「そうしよう」という意志を表す場合などには will を使います。",
+                  "groups": [
+                    {
+                      "title": "肯定文",
+                      "items": [
+                        {
+                          "en": "It will be hot in Singapore.",
+                          "ja": "(シンガポールは暑くなるでしょう。)"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "疑問文と答え",
+                      "items": [
+                        {
+                          "en": "Will it be cool in Singapore?",
+                          "ja": "(シンガポールは涼しくなるでしょうか。)"
+                        },
+                        {
+                          "en": "― Yes, it will. / No, it won't.",
+                          "ja": "(はい、なるでしょう。 / いいえ、ならないでしょう。)"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "否定文",
+                      "items": [
+                        {
+                          "en": "It will not be cool in Singapore.",
+                          "ja": "(シンガポールは涼しくならないでしょう。)"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "contractions_table",
+                  "header": "短縮形",
+                  "items": [
+                    {
+                      "en": "I will → I'll",
+                      "ja": "アイル"
+                    },
+                    {
+                      "en": "we will → we'll",
+                      "ja": "ウィール"
+                    },
+                    {
+                      "en": "you will → you'll",
+                      "ja": "ユール"
+                    },
+                    {
+                      "en": "he will → he'll",
+                      "ja": "ヒール"
+                    },
+                    {
+                      "en": "she will → she'll",
+                      "ja": "シール"
+                    },
+                    {
+                      "en": "it will → it'll",
+                      "ja": "イットゥル"
+                    },
+                    {
+                      "en": "they will → they'll",
+                      "ja": "ゼイル"
+                    },
+                    {
+                      "en": "will not → won't",
+                      "ja": "ウォント"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 61
+        },
+        "AP": {
+          "title": "AI Appendix: 未来への計画と条件の伝え方",
+          "views": {
+            "PART_APPENDIX": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "info_box",
+                  "header": "P1 & P2: 未来表現の使い分け",
+                  "items": [
+                    {
+                      "tag": "Point 1",
+                      "text": "前もって決めていた「予定」には **be going to**、その場で決めた「意志」や「推測（〜だろう）」には **will** を使おう！",
+                      "en": "I'm ==**going to visit**== Singapore. (予定) / I ==**will answer**== them. (その場での決意)"
+                    },
+                    {
+                      "tag": "Check",
+                      "text": "will の否定形 ==**won't**== (will not) のスペルと発音は要注意だよ。"
+                    }
+                  ]
+                },
+                {
+                  "type": "info_box",
+                  "header": "P3: 接続詞 if の置き場所",
+                  "items": [
+                    {
+                      "tag": "Grammar",
+                      "text": "if のカタマリが文の最初に来るときは、真ん中に ==**,**== (カンマ) が必要。文の後半に来るときは、カンマはいらないよ。Unit 1 の when と同じルールだね！",
+                      "en": "==**If**== you're tired ==**,**== we can go straight home."
+                    }
+                  ]
+                },
+                {
+                  "type": "info_box",
+                  "header": "DL4: レストランで使える丁寧な表現",
+                  "items": [
+                    {
+                      "tag": "Speaking",
+                      "text": "「〜しましょうか？」と自分から申し出るときは **Shall I ~?** 、相手に「〜はいかがですか？」と勧める時は **Would you like ~?**。セットで覚えよう！"
+                    }
+                  ]
+                }
+              ]
+            },
+            "UNIT_APPENDIX": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "info_box",
+                  "header": "AI解説：物語『The Cookies』の教訓",
+                  "items": [
+                    {
+                      "tag": "Reading",
+                      "text": "この物語には、分詞（sat down, untouched）や接続詞（so that, that）など、複雑な文がたくさん出てきたね。単語数 263語は2年生としては大きな挑戦だけど、これを読み切れたら自信を持っていいよ！"
+                    }
+                  ]
+                },
+                {
+                  "type": "info_box",
+                  "header": "文化の窓：シングリッシュ",
+                  "items": [
+                    {
+                      "tag": "World Tour",
+                      "text": "シンガポールの英語「シングリッシュ」のように、世界には多様な英語があるんだ。Mike が言っていたように「英語を通じて地元の人と簡単にコミュニケーションがとれる」ことこそが、言葉を学ぶ一番の楽しさだね。"
+                    }
+                  ]
+                },
+                {
+                  "type": "info_box",
+                  "header": "Unit 3 を終えた君へ",
+                  "items": [
+                    {
+                      "speaker": "AI Message",
+                      "text": "お疲れ様！ シンガポール旅行をテーマに、未来の予定や条件の出し方を完璧にマスターしたね。自分の「観光プラン」を英語で提案できるようになったのは、本当にすごいことだよ。この調子で次のユニットも進んでいこう！"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 0,
+          "hasAppendix": true
+        },
+        "DL3": {
+          "title": "Daily Life 3: アナウンス",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G2_U3_DL3_W_01",
+                  "headword": "board(ing)",
+                  "pronunciation": "bɔ́ːrd(iŋ)",
+                  "pos": "動",
+                  "meaning": "(～に) 乗り込む、搭乗する"
+                },
+                {
+                  "id": "G2_U3_DL3_W_02",
+                  "headword": "pass",
+                  "pronunciation": "pǽs",
+                  "pos": "名",
+                  "meaning": "通行証、乗車券"
+                },
+                {
+                  "id": "G2_U3_DL3_W_03",
+                  "headword": "boarding pass",
+                  "pronunciation": "bɔ́ːrdiŋ pǽs",
+                  "pos": "名",
+                  "meaning": "搭乗券"
+                },
+                {
+                  "id": "G2_U3_DL3_W_04",
+                  "headword": "°C = degree(s) Celsius",
+                  "pronunciation": "diɡríː(z) sélsiəs",
+                  "pos": "名",
+                  "meaning": "〔温度〕摂氏 (℃)"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "document_section",
+                  "header": "搭乗券の情報 (Boarding Pass) (p.59)",
+                  "label": "Ticket Information",
+                  "items": [
+                    {
+                      "id": "G2_U3_DL3_S_01",
+                      "tag": "Title",
+                      "en": "Boarding Pass",
+                      "ja": "搭乗券"
+                    },
+                    {
+                      "id": "G2_U3_DL3_S_02",
+                      "tag": "Airline",
+                      "en": "H.W.G AIRLINES",
+                      "ja": "H.W.G エアラインズ"
+                    },
+                    {
+                      "id": "G2_U3_DL3_S_03",
+                      "tag": "Class",
+                      "en": "ECONOMY CLASS",
+                      "ja": "エコノミークラス (経済クラス)"
+                    },
+                    {
+                      "id": "G2_U3_DL3_S_04",
+                      "tag": "Passenger",
+                      "en": "SUZUKI Hikaru",
+                      "ja": "スズキ・ヒカル"
+                    },
+                    {
+                      "id": "G2_U3_DL3_S_05",
+                      "tag": "From",
+                      "en": "SIN Singapore",
+                      "ja": "シンガポール"
+                    },
+                    {
+                      "id": "G2_U3_DL3_S_06",
+                      "tag": "To",
+                      "en": "NRT Tokyo",
+                      "ja": "東京"
+                    },
+                    {
+                      "id": "G2_U3_DL3_S_07",
+                      "tag": "Date",
+                      "en": "AUG 11 2025",
+                      "ja": "2025年8月25日"
+                    },
+                    {
+                      "id": "G2_U3_DL3_S_08",
+                      "tag": "Flight",
+                      "en": "HG 038",
+                      "ja": "便名：HG 038"
+                    },
+                    {
+                      "id": "G2_U3_DL3_S_09",
+                      "tag": "Gate",
+                      "en": "16",
+                      "ja": "搭乗口：16"
+                    },
+                    {
+                      "id": "G2_U3_DL3_S_10",
+                      "tag": "Boarding Time",
+                      "en": "10:30 AM",
+                      "ja": "搭乗時刻：午前10時30分"
+                    },
+                    {
+                      "id": "G2_U3_DL3_S_11",
+                      "tag": "Seat",
+                      "en": "62G",
+                      "ja": "座席：62G"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_script",
+                  "header": "空港アナウンス：ゲートと時刻の変更 (p.59)",
+                  "items": [
+                    {
+                      "id": "G2_U3_DL3_S_12",
+                      "speaker": "Announcement",
+                      "en": "Attention passengers on H.W.G. Airlines flight HG 038 to Narita, Tokyo.",
+                      "ja": "H.W.G. エアラインズ HG038便東京成田行きをご利用のお客様へ。"
+                    },
+                    {
+                      "id": "G2_U3_DL3_S_13",
+                      "speaker": "Announcement",
+                      "en": "The boarding gate was changed from 16 to 26.",
+                      "ja": "搭乗口が16番から26番に変更となりました。"
+                    },
+                    {
+                      "id": "G2_U3_DL3_S_14",
+                      "speaker": "Announcement",
+                      "en": "Your new boarding gate is 26.",
+                      "ja": "新しい搭乗口は26番です。"
+                    },
+                    {
+                      "id": "G2_U3_DL3_S_15",
+                      "speaker": "Announcement",
+                      "en": "All passengers on this flight, please proceed to gate 26.",
+                      "ja": "こちらの便をご利用のお客様は皆様、どうぞ26番ゲートへお進みください。"
+                    },
+                    {
+                      "id": "G2_U3_DL3_S_16",
+                      "speaker": "Announcement",
+                      "en": "The boarding time was changed from 10:30 a.m. to 11:30 a.m.",
+                      "ja": "搭乗時刻は午前10時30分から午前11時30分に変更となりました。"
+                    },
+                    {
+                      "id": "G2_U3_DL3_S_17",
+                      "speaker": "Announcement",
+                      "en": "The new boarding time is 11:30 a.m.",
+                      "ja": "新しい搭乗時刻は午前11時30分です。"
+                    },
+                    {
+                      "id": "G2_U3_DL3_S_18",
+                      "speaker": "Announcement",
+                      "en": "We are sorry for the inconvenience.",
+                      "ja": "ご不便をおかけし申し訳ございません。"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_script",
+                  "header": "機内アナウンス：機長からの挨拶 (p.60)",
+                  "items": [
+                    {
+                      "id": "G2_U3_DL3_S_19",
+                      "speaker": "Captain",
+                      "en": "Good morning, passengers.",
+                      "ja": "おはようございます、ご搭乗のお客様。"
+                    },
+                    {
+                      "id": "G2_U3_DL3_S_20",
+                      "speaker": "Captain",
+                      "en": "This is your Captain, Hannah Jones, speaking.",
+                      "ja": "機長のハンナ・ジョーンズです。"
+                    },
+                    {
+                      "id": "G2_U3_DL3_S_21",
+                      "speaker": "Captain",
+                      "en": "Thank you for choosing H.W.G. Airline flight HG 038 to Narita International Airport.",
+                      "ja": "H.W.G. エアラインズ成田国際空港行き HG038便をご利用いただきありがとうございます。"
+                    },
+                    {
+                      "id": "G2_U3_DL3_S_22",
+                      "speaker": "Captain",
+                      "en": "Today's flight time to Narita will take about 6 hours and 30 minutes.",
+                      "ja": "本日の成田までのフライト時間はおよそ6時間30分の予定です。"
+                    },
+                    {
+                      "id": "G2_U3_DL3_S_23",
+                      "speaker": "Captain",
+                      "en": "We will arrive at Narita around 7 p.m., local time.",
+                      "ja": "現地時刻の午後7時頃に成田に到着する予定です。"
+                    },
+                    {
+                      "id": "G2_U3_DL3_S_24",
+                      "speaker": "Captain",
+                      "en": "We hope you enjoy your flight with us.",
+                      "ja": "フライトをお楽しみください。"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_script",
+                  "header": "機内アナウンス：着陸準備 (p.60)",
+                  "items": [
+                    {
+                      "id": "G2_U3_DL3_S_25",
+                      "speaker": "Captain",
+                      "en": "This is your Captain, Hannah Jones, speaking.",
+                      "ja": "機長のハンナ・ジョーンズです。"
+                    },
+                    {
+                      "id": "G2_U3_DL3_S_26",
+                      "speaker": "Captain",
+                      "en": "The local time is 6:30 p.m., and we will be landing at Narita Airport in about 20 minutes.",
+                      "ja": "只今の現地時刻は午後6時30分で、およそ20分で成田空港に着陸する予定です。"
+                    },
+                    {
+                      "id": "G2_U3_DL3_S_27",
+                      "speaker": "Captain",
+                      "en": "It is cloudy in Tokyo, and the temperature is 25 degrees Celsius.",
+                      "ja": "東京は曇りで、気温は摂氏25度です。"
+                    },
+                    {
+                      "id": "G2_U3_DL3_S_28",
+                      "speaker": "Captain",
+                      "en": "In preparation for landing, please put all your baggage in the overhead compartments.",
+                      "ja": "着陸に備え、お荷物は頭上のコンパートメントにお入れください。"
+                    },
+                    {
+                      "id": "G2_U3_DL3_S_29",
+                      "speaker": "Captain",
+                      "en": "Thank you.",
+                      "ja": "ありがとうございます。"
+                    }
+                  ]
+                },
+                {
+                  "type": "summary_section",
+                  "header": "情報のまとめ (p.59-60)",
+                  "items": [
+                    {
+                      "id": "G2_U3_DL3_S_30",
+                      "tag": "変更点",
+                      "ja": "搭乗口：16 → 26"
+                    },
+                    {
+                      "id": "G2_U3_DL3_S_31",
+                      "tag": "変更点",
+                      "ja": "搭乗時刻：10:30 AM → 11:30 AM"
+                    },
+                    {
+                      "id": "G2_U3_DL3_S_32",
+                      "tag": "フライト情報",
+                      "ja": "飛行時間：約6時間30分"
+                    },
+                    {
+                      "id": "G2_U3_DL3_S_33",
+                      "tag": "到着予定",
+                      "ja": "到着時刻：午後7時頃"
+                    },
+                    {
+                      "id": "G2_U3_DL3_S_34",
+                      "tag": "現地状況",
+                      "ja": "天候：曇り、気温：25℃"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "59-60"
+        },
+        "EX": {
+          "title": "Extra Story / 音声内容",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G2_U3_EX_W_01",
+                  "headword": "I will",
+                  "pos": "短",
+                  "meaning": "I'll",
+                  "pronunciation": "áil"
+                },
+                {
+                  "id": "G2_U3_EX_W_02",
+                  "headword": "pair",
+                  "pronunciation": "pέər",
+                  "pos": "名",
+                  "meaning": "組",
+                  "note": "ここでは a pair of sunglasses の略"
+                },
+                {
+                  "id": "G2_U3_EX_W_03",
+                  "headword": "Best regards.",
+                  "pos": "熟",
+                  "meaning": "〔手紙やメールで〕よろしく。"
+                },
+                {
+                  "id": "G2_U3_EX_W_04",
+                  "headword": "plane",
+                  "pronunciation": "pléin",
+                  "pos": "名",
+                  "meaning": "飛行機"
+                },
+                {
+                  "id": "G2_U3_EX_W_05",
+                  "headword": "announcement",
+                  "pronunciation": "ənάunsmənt",
+                  "pos": "名",
+                  "meaning": "アナウンス"
+                },
+                {
+                  "id": "G2_U3_EX_W_06",
+                  "headword": "fasten",
+                  "pronunciation": "fǽsn, fάːsn",
+                  "pos": "動",
+                  "meaning": "留める"
+                },
+                {
+                  "id": "G2_U3_EX_W_07",
+                  "headword": "seatbelt",
+                  "pronunciation": "síːtbèlt",
+                  "pos": "名",
+                  "meaning": "シートベルト"
+                },
+                {
+                  "id": "G2_U3_EX_W_08",
+                  "headword": "pleasant",
+                  "pronunciation": "pléznt",
+                  "pos": "形",
+                  "meaning": "心地よい、楽しい"
+                },
+                {
+                  "id": "G2_U3_EX_W_09",
+                  "headword": "shake",
+                  "pronunciation": "ʃéik",
+                  "pos": "動",
+                  "meaning": "揺れる",
+                  "note": "shaking"
+                },
+                {
+                  "id": "G2_U3_EX_W_10",
+                  "headword": "air",
+                  "pronunciation": "έər",
+                  "pos": "名",
+                  "meaning": "空中"
+                },
+                {
+                  "id": "G2_U3_EX_W_11",
+                  "headword": "ear",
+                  "pronunciation": "íər",
+                  "pos": "名",
+                  "meaning": "耳"
+                },
+                {
+                  "id": "G2_U3_EX_W_12",
+                  "headword": "pop",
+                  "pronunciation": "pάp, pɔ́p",
+                  "pos": "動",
+                  "meaning": "〔耳が気圧の変化で〕きーんとなる",
+                  "note": "popping"
+                },
+                {
+                  "id": "G2_U3_EX_W_13",
+                  "headword": "normal",
+                  "pronunciation": "nɔ́ːrml",
+                  "pos": "形",
+                  "meaning": "ふつうの"
+                },
+                {
+                  "id": "G2_U3_EX_W_14",
+                  "headword": "dizzy",
+                  "pronunciation": "dízi",
+                  "pos": "形",
+                  "meaning": "目まいがする"
+                },
+                {
+                  "id": "G2_U3_EX_W_15",
+                  "headword": "take off",
+                  "pos": "熟",
+                  "meaning": "離陸する"
+                },
+                {
+                  "id": "G2_U3_EX_W_16",
+                  "headword": "Have a piece of candy.",
+                  "pos": "熟",
+                  "meaning": "キャンディーを1つどうぞ。"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "audio_script",
+                  "header": "Part 1 音声内容：Tina と Kota の電話 (p.54)",
+                  "items": [
+                    {
+                      "id": "G2_U3_EX_S_01",
+                      "speaker": "Tina",
+                      "en": "Hello, Kota. This is Tina.",
+                      "ja": "もしもし、コウタ。ティナだよ。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_02",
+                      "speaker": "Kota",
+                      "en": "Oh, hi, Tina.",
+                      "ja": "ああ、やあ、ティナ。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_03",
+                      "speaker": "Tina",
+                      "en": "Do you have any plans for tomorrow?",
+                      "ja": "明日は何か予定がある？"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_04",
+                      "speaker": "Kota",
+                      "en": "Tomorrow?",
+                      "ja": "明日？"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_05",
+                      "speaker": "Tina",
+                      "en": "Yeah. I'm going to go shopping. I want to buy something for David.",
+                      "ja": "そうだよ。買い物に行く予定なんだ。デイヴィッドに何か買いたいの。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_06",
+                      "speaker": "Tina",
+                      "en": "Can you come with me?",
+                      "ja": "いっしょに来ない？"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_07",
+                      "speaker": "Kota",
+                      "en": "Sorry, but I'm going to go to juku tomorrow. How about the day after tomorrow?",
+                      "ja": "ごめん、明日は塾に行く予定なんだ。明後日はどうかな。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_08",
+                      "speaker": "Tina",
+                      "en": "The day after tomorrow?",
+                      "ja": "明後日？"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_09",
+                      "speaker": "Kota",
+                      "en": "Yes.",
+                      "ja": "うん。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_10",
+                      "speaker": "Tina",
+                      "en": "Oh, no. We're going to practice soccer with Nick, aren't we?",
+                      "ja": "ああ、だめだよ。私たちはニックとサッカーの練習をする予定だよね。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_11",
+                      "speaker": "Tina",
+                      "en": "He's really looking forward to playing soccer with you!",
+                      "ja": "彼はあなたとサッカーをするのを本当に楽しみにしているの！"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_12",
+                      "speaker": "Kota",
+                      "en": "Oh, that's right! Sorry, I forgot.",
+                      "ja": "ああ、その通りだね！ごめんね、忘れてた。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_13",
+                      "speaker": "Kota",
+                      "en": "How about next Sunday then? Do you have any plans?",
+                      "ja": "それなら次の日曜日はどうかな。何か予定はある？"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_14",
+                      "speaker": "Tina",
+                      "en": "No, nothing much.",
+                      "ja": "ううん、あまりないよ。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_15",
+                      "speaker": "Kota",
+                      "en": "OK. Let's go shopping next Sunday and look for a nice present for David.",
+                      "ja": "わかった。次の日曜日に買い物に行って、デイヴィッドへのすてきなプレゼントを探そうよ。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_16",
+                      "speaker": "Tina",
+                      "en": "Great. Thanks.",
+                      "ja": "いいね。ありがとう。"
+                    }
+                  ]
+                },
+                {
+                  "type": "reading_section",
+                  "header": "Extra Story: Kota が David に書いたメール (p.54)",
+                  "items": [
+                    {
+                      "id": "G2_U3_EX_S_17",
+                      "en": "Hi David,",
+                      "ja": "やあ、デイヴィッド。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_18",
+                      "en": "Thanks for your email.",
+                      "ja": "Eメールをありがとう。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_19",
+                      "en": "I'm still packing. I'll finish packing tonight.",
+                      "ja": "ぼくはまだ荷造りしているんだ。今夜には終えるつもりだよ。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_20",
+                      "en": "I'll take sunscreen, but I don't have sunglasses.",
+                      "ja": "日焼け止めは持って行くけど、サングラスは持っていないんだ。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_21",
+                      "en": "Maybe I can buy a pair in Singapore.",
+                      "ja": "シンガポールで買えるかもしれないね。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_22",
+                      "en": "By the way, our flight will arrive at 8:30 a.m.",
+                      "ja": "ところで、ぼくらの便は午前8時30分に到着するよ。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_23",
+                      "en": "Looking forward to seeing you at the airport!",
+                      "ja": "空港で君に会うのを楽しみにしているね！"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_24",
+                      "en": "Best regards,",
+                      "ja": "よろしく。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_25",
+                      "en": "Kota",
+                      "ja": "コウタ"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_script",
+                  "header": "Part 2 音声内容：世界のお天気予報 (p.55)",
+                  "items": [
+                    {
+                      "id": "G2_U3_EX_S_26",
+                      "speaker": "Kate",
+                      "en": "Good morning. This is Kate Brown. It's time for the world weather report.",
+                      "ja": "おはようございます。ケイト・ブラウンです。世界の天気予報の時間です。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_27",
+                      "en": "Let's look at the weather map for the first Sunday in July.",
+                      "ja": "7月の最初の日曜日の天気図を見てみましょう。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_28",
+                      "en": "In New York, it's cloudy now, but it'll be sunny in the afternoon.",
+                      "ja": "ニューヨークは今は曇っていますが、午後には晴れるでしょう。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_29",
+                      "en": "Tomorrow it will be cloudy all day. It'll be cool, too.",
+                      "ja": "明日は一日中曇りになるでしょう。涼しくもなりそうです。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_30",
+                      "en": "In Tokyo, it's rainy now, but the rain will stop soon.",
+                      "ja": "東京は今は雨が降っていますが、すぐに止むでしょう。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_31",
+                      "en": "It'll be cloudy in the afternoon. Tomorrow it will be rainy again. It'll be hot and humid.",
+                      "ja": "午後は曇りになるでしょう。明日は再び雨になるでしょう。暑く、湿度が高くなるでしょう。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_32",
+                      "en": "In Singapore, it's sunny now. It'll also be cloudy in the afternoon.",
+                      "ja": "シンガポールは今は晴れています。午後も曇るでしょう。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_33",
+                      "en": "Tomorrow the sun will come out. It'll be sunny, but not so hot.",
+                      "ja": "明日は陽が出てくるでしょう。晴れますが、あまり暑くはなりません。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_34",
+                      "en": "It will be a nice day for going out tomorrow in Singapore.",
+                      "ja": "シンガポールは、明日はお出かけ日和になりそうです。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_35",
+                      "en": "Now let's check out some other cities ....",
+                      "ja": "では、他の都市も確認してみましょう……。"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_script",
+                  "header": "Extra Story: 離陸直前の機内の様子 (p.55-56)",
+                  "items": [
+                    {
+                      "id": "G2_U3_EX_S_36",
+                      "speaker": "Announcement",
+                      "en": "Please fasten your seatbelts. We will be taking off soon. We hope you have a pleasant flight.",
+                      "ja": "シートベルトをお締めください。まもなく離陸いたします。快適な空の旅になりますように。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_37",
+                      "speaker": "Tina",
+                      "en": "This is so exciting. I love flying!",
+                      "ja": "これはすごくわくわくする。飛行機に乗るの大好き！"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_38",
+                      "speaker": "Kota",
+                      "en": "It's my first time. I feel a bit nervous.",
+                      "ja": "ぼくは初めてだよ。ちょっと緊張するな。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_39",
+                      "speaker": "Tina",
+                      "en": "I know, but you'll be fine. Look, the plane is moving down the runway.",
+                      "ja": "わかるよ、でも大丈夫だよ。見て、飛行機が滑走路を進んでいるよ。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_40",
+                      "speaker": "Kota",
+                      "en": "Hey, the plane is shaking! Is this OK?",
+                      "ja": "ねえ、飛行機が揺れてる！これって大丈夫なの？"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_41",
+                      "speaker": "Tina",
+                      "en": "It's fine. Don't worry. Oh, we're in the air. Do you feel that?",
+                      "ja": "大丈夫だよ。心配しないで。わあ、空中にいるよ。わかる？"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_42",
+                      "speaker": "Kota",
+                      "en": "Oh, my ears are popping!",
+                      "ja": "うわあ、耳がきーんとしてきた！"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_43",
+                      "speaker": "Tina",
+                      "en": "That's normal. Have a piece of candy.",
+                      "ja": "それはふつうだよ。キャンディー1つあげる。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_44",
+                      "speaker": "Kota",
+                      "en": "Help! I feel dizzy ....",
+                      "ja": "助けて！めまいがするよ……。"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_script",
+                  "header": "Part 3 音声内容：チャンギ空港の観光案内所 (p.56)",
+                  "items": [
+                    {
+                      "id": "G2_U3_EX_S_45",
+                      "speaker": "Guide",
+                      "en": "Hello. May I help you?",
+                      "ja": "こんにちは。何かお手伝いしましょうか。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_46",
+                      "speaker": "Visitor",
+                      "en": "Yes, please. I'm going to go sightseeing tomorrow. Can you tell me some good places for sightseeing?",
+                      "ja": "はい、お願いします。明日、観光に行く予定なんです。観光によい場所をいくつか教えてくれませんか。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_47",
+                      "speaker": "Guide",
+                      "en": "Sure. If it's sunny tomorrow, how about going to Merlion Park?",
+                      "ja": "もちろん。明日晴れたら、マーライオン公園に行くのはいかがでしょうか。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_48",
+                      "en": "The Merlion is one of the must-visit places in Singapore.",
+                      "ja": "マーライオンはシンガポールで必見の場所の1つですから。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_49",
+                      "speaker": "Visitor",
+                      "en": "I see. I want to see that. But if it's rainy tomorrow, where can I go?",
+                      "ja": "なるほど。それは見たいですね。でも、明日雨なら、どこに行けるでしょうか。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_50",
+                      "speaker": "Guide",
+                      "en": "Well, if it's rainy, you can go to an aquarium. There is an aquarium on Sentosa Island.",
+                      "ja": "うーん、雨なら、水族館に行けますよ。セントーサ島に水族館があります。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_51",
+                      "en": "You can see a beautiful and colorful underwater world there.",
+                      "ja": "そこで美しい、色とりどりの海中の世界を見られますよ。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_52",
+                      "speaker": "Visitor",
+                      "en": "OK. Visiting an aquarium. That sounds good, too. By the way, I'm a bit tired now.",
+                      "ja": "わかりました。水族館を訪れる、と。それもよさそうですね。ところで、今、少し疲れているんです。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_53",
+                      "speaker": "Guide",
+                      "en": "If you're tired, how about relaxing here?",
+                      "ja": "疲れていらっしゃるなら、ここでくつろがれてはいかがですか。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_54",
+                      "speaker": "Visitor",
+                      "en": "Can I relax here in the airport?",
+                      "ja": "ここ空港でくつろげるのですか？"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_55",
+                      "speaker": "Guide",
+                      "en": "Sure. We have free-to-use rest areas. In addition, we have some gardens. You can relax and have a drink there.",
+                      "ja": "もちろんです。無料の休憩所があります。それに、いくつかの庭もあります。そこでくつろいだり飲み物を飲んだりできますよ。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_56",
+                      "speaker": "Visitor",
+                      "en": "That's great. Thank you very much.",
+                      "ja": "それはすごい。本当にありがとうございます。"
+                    },
+                    {
+                      "id": "G2_U3_EX_S_57",
+                      "speaker": "Guide",
+                      "en": "You're welcome. Have a nice day. Enjoy your stay in Singapore!",
+                      "ja": "どういたしまして。よい一日を。シンガポールの旅をお楽しみください！"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "54-56"
+        },
+        "GL": {
+          "title": "Goal: メールの返事を書こう",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G2_U3_GL_W_01",
+                  "headword": "reply",
+                  "pronunciation": "riplái",
+                  "pos": "名",
+                  "meaning": "返事、返信"
+                },
+                {
+                  "id": "G2_U3_GL_W_02",
+                  "headword": "be",
+                  "pronunciation": "bíː, bi",
+                  "pos": "動",
+                  "usage": "〔～に〕ある、〔～に〕いる",
+                  "meaning": "―"
+                },
+                {
+                  "id": "G2_U3_GL_W_03",
+                  "headword": "arrival",
+                  "pronunciation": "əráivl",
+                  "pos": "名",
+                  "meaning": "到着"
+                },
+                {
+                  "id": "G2_U3_GL_W_04",
+                  "headword": "exit",
+                  "pronunciation": "éɡzət",
+                  "pos": "名",
+                  "meaning": "出口"
+                },
+                {
+                  "id": "G2_U3_GL_W_05",
+                  "headword": "by",
+                  "pronunciation": "bái",
+                  "pos": "前",
+                  "usage": "〔時〕",
+                  "meaning": "～までに"
+                },
+                {
+                  "id": "G2_U3_GL_W_06",
+                  "headword": "few",
+                  "pronunciation": "fjúː",
+                  "pos": "形",
+                  "usage": "〔a ～で〕",
+                  "meaning": "少数の、いくつかの"
+                },
+                {
+                  "id": "G2_U3_GL_W_07",
+                  "headword": "stay",
+                  "pronunciation": "stéi",
+                  "pos": "動",
+                  "usage": "〔stay at [in] ～で〕",
+                  "meaning": "～に滞在する"
+                },
+                {
+                  "id": "G2_U3_GL_W_08",
+                  "headword": "for",
+                  "pronunciation": "fɔ́ːr, fər",
+                  "pos": "前",
+                  "usage": "〔対象〕",
+                  "meaning": "～に対して"
+                },
+                {
+                  "id": "G2_U3_GL_W_09",
+                  "headword": "say",
+                  "pronunciation": "séi",
+                  "pos": "動",
+                  "meaning": "(～を) 言う、(…と) 述べる",
+                  "related": [
+                    {
+                      "id": "G2_U3_GL_W_09_R",
+                      "headword": "said",
+                      "pronunciation": "séd",
+                      "pos": "動",
+                      "meaning": "say の過去形・過去分詞"
+                    }
+                  ]
+                },
+                {
+                  "id": "G2_U3_GL_W_10",
+                  "headword": "abroad",
+                  "pronunciation": "əbrɔ́ːd",
+                  "pos": "副",
+                  "meaning": "外国に [へ・で]"
+                },
+                {
+                  "id": "G2_U3_GL_W_11",
+                  "headword": "worried",
+                  "pronunciation": "wə́ːrid",
+                  "pos": "形",
+                  "meaning": "心配して"
+                },
+                {
+                  "id": "G2_U3_GL_W_12",
+                  "headword": "anything",
+                  "pronunciation": "éniθìŋ",
+                  "pos": "代",
+                  "meaning": "何か"
+                },
+                {
+                  "id": "G2_U3_GL_W_13",
+                  "headword": "free",
+                  "pronunciation": "fríː",
+                  "pos": "形",
+                  "meaning": "自由な"
+                },
+                {
+                  "id": "G2_U3_GL_W_14",
+                  "headword": "Thanks for ~ .",
+                  "pos": "熟",
+                  "meaning": "～をありがとう。"
+                },
+                {
+                  "id": "G2_U3_GL_W_15",
+                  "headword": "a few",
+                  "pos": "熟",
+                  "meaning": "少数の、いくつかの～"
+                },
+                {
+                  "id": "G2_U3_GL_W_16",
+                  "headword": "feel free to ~",
+                  "pos": "熟",
+                  "meaning": "遠慮なく～する"
+                },
+                {
+                  "id": "G2_U3_GL_W_17",
+                  "headword": "See you soon.",
+                  "pos": "熟",
+                  "meaning": "ではまた。"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "reading_section",
+                  "header": "David から Kota への 2通目のメール (p.57)",
+                  "items": [
+                    {
+                      "id": "G2_U3_GL_S_01",
+                      "speaker": "From",
+                      "en": "David Lew",
+                      "ja": "デイヴィッド・ルー"
+                    },
+                    {
+                      "id": "G2_U3_GL_S_02",
+                      "speaker": "To",
+                      "en": "Imura Kotaro",
+                      "ja": "イムラ・コウタロウ"
+                    },
+                    {
+                      "id": "G2_U3_GL_S_03",
+                      "speaker": "Subject",
+                      "en": "Re: Your Flight",
+                      "ja": "返信：君たちのフライト"
+                    },
+                    {
+                      "id": "G2_U3_GL_S_04",
+                      "en": "Hi Kota,",
+                      "ja": "こんにちは、コウタ。"
+                    },
+                    {
+                      "id": "G2_U3_GL_S_05",
+                      "en": "Thanks for your reply. I'll be at the arrival exit by 3 p.m.",
+                      "ja": "返信ありがとう。ぼくは午後3時までに到着出口にいるよ。"
+                    },
+                    {
+                      "id": "G2_U3_GL_S_06",
+                      "en": "By the way, you're going to stay at my uncle's house. He's really looking forward to seeing you.",
+                      "ja": "ところで、君はぼくのおじの家に泊まる予定だよね。彼は君に会うことをとても楽しみにしているよ。"
+                    },
+                    {
+                      "id": "G2_U3_GL_S_07",
+                      "en": "He wants to know a few things for your stay.",
+                      "ja": "君が滞在するにあたって、おじはいくつか知りたがっているんだ。"
+                    },
+                    {
+                      "id": "G2_U3_GL_S_08",
+                      "tag": "Question 1",
+                      "en": "1) What food do you like or what food don't you like?",
+                      "ja": "(1) どんな食べ物が好きかな、またはどんな食べ物が好きじゃないかな？"
+                    },
+                    {
+                      "id": "G2_U3_GL_S_09",
+                      "tag": "Question 2",
+                      "en": "2) What do you want to do in Singapore?",
+                      "ja": "(2) シンガポールで何をしたいかな？"
+                    },
+                    {
+                      "id": "G2_U3_GL_S_10",
+                      "en": "Tina said that this is your first trip abroad.",
+                      "ja": "ティナが、今回が君の初めての海外旅行だと言っていたよ。"
+                    },
+                    {
+                      "id": "G2_U3_GL_S_11",
+                      "en": "If you're worried about anything, please feel free to ask me.",
+                      "ja": "何か心配なことがあれば、遠慮なく聞いてね。"
+                    },
+                    {
+                      "id": "G2_U3_GL_S_12",
+                      "en": "See you soon!",
+                      "ja": "ではまた！"
+                    },
+                    {
+                      "id": "G2_U3_GL_S_13",
+                      "en": "David",
+                      "ja": "デイヴィッド"
+                    },
+                    {
+                      "id": "G2_U3_GL_S_14",
+                      "en": "[97 words]",
+                      "ja": "[97語]"
+                    }
+                  ]
+                },
+                {
+                  "type": "check_section",
+                  "header": "メール内容の確認と準備 (p.57)",
+                  "items": [
+                    {
+                      "id": "G2_U3_GL_S_15",
+                      "tag": "用件の確認",
+                      "ja": "Davidの用件として当てはまるもの：滞在先の家の人からの質問"
+                    },
+                    {
+                      "id": "G2_U3_GL_S_16",
+                      "speaker": "解答例 1",
+                      "en": "I like vegetables, but I don't like fish.",
+                      "ja": "ぼくは野菜は好きだけど、魚は好きじゃないんだ。"
+                    },
+                    {
+                      "id": "G2_U3_GL_S_17",
+                      "speaker": "解答例 2",
+                      "en": "I want to go to the Merlion park.",
+                      "ja": "マーライオン公園に行きたいな。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "メールの返事を書こう：Kota の返信モデル (p.58)",
+                  "items": [
+                    {
+                      "id": "G2_U3_GL_S_18",
+                      "speaker": "From",
+                      "en": "Imura Kotaro",
+                      "ja": "イムラ・コウタロウ"
+                    },
+                    {
+                      "id": "G2_U3_GL_S_19",
+                      "speaker": "To",
+                      "en": "David Lew",
+                      "ja": "デイヴィッド・ルー"
+                    },
+                    {
+                      "id": "G2_U3_GL_S_20",
+                      "speaker": "Subject",
+                      "en": "Re: Your Flight",
+                      "ja": "返信：君たちのフライト"
+                    },
+                    {
+                      "id": "G2_U3_GL_S_21",
+                      "en": "Hi David,",
+                      "ja": "こんにちは、デイヴィッド。"
+                    },
+                    {
+                      "id": "G2_U3_GL_S_22",
+                      "en": "Thanks for the kind questions from your uncle. I will answer them.",
+                      "ja": "君のおじさんからの親切な質問をありがとう。それらに答えようと思うよ。"
+                    },
+                    {
+                      "id": "G2_U3_GL_S_23",
+                      "en": "About 1), I like vegetables, but I don't like fish.",
+                      "ja": "(1) については、ぼくは野菜は好きだけど、魚は好きじゃないんだ。"
+                    },
+                    {
+                      "id": "G2_U3_GL_S_24",
+                      "en": "About 2), I want to go to the Merlion Park with you.",
+                      "ja": "(2) については、君といっしょにマーライオン公園に行きたいな。"
+                    },
+                    {
+                      "id": "G2_U3_GL_S_25",
+                      "en": "Merlion is very famous, so I want to see it.",
+                      "ja": "マーライオンはとても有名だから見たいんだ。"
+                    },
+                    {
+                      "id": "G2_U3_GL_S_26",
+                      "en": "I'm really looking forward to seeing you in Singapore.",
+                      "ja": "シンガポールで君に会えるのを本当に楽しみにしているよ。"
+                    },
+                    {
+                      "id": "G2_U3_GL_S_27",
+                      "en": "Take care,",
+                      "ja": "じゃあ、またね。"
+                    },
+                    {
+                      "id": "G2_U3_GL_S_28",
+                      "en": "Kota",
+                      "ja": "コウタ"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "57-58"
+        },
+        "DL4": {
+          "title": "Daily Life 4: レストラン",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G2_U3_DL4_W_01",
+                  "headword": "menu",
+                  "pronunciation": "ménjuː",
+                  "pos": "名",
+                  "meaning": "メニュー、献立"
+                },
+                {
+                  "id": "G2_U3_DL4_W_02",
+                  "headword": "set",
+                  "pronunciation": "sét",
+                  "pos": "名",
+                  "meaning": "セット、ひとまとまり"
+                },
+                {
+                  "id": "G2_U3_DL4_W_03",
+                  "headword": "yogurt",
+                  "pronunciation": "jòuɡərt",
+                  "pos": "名",
+                  "meaning": "ヨーグルト"
+                },
+                {
+                  "id": "G2_U3_DL4_W_04",
+                  "headword": "garden",
+                  "pronunciation": "ɡάːrdn",
+                  "pos": "名",
+                  "meaning": "庭、菜園、花壇"
+                },
+                {
+                  "id": "G2_U3_DL4_W_05",
+                  "headword": "salad",
+                  "pronunciation": "sǽləd",
+                  "pos": "名",
+                  "meaning": "サラダ"
+                },
+                {
+                  "id": "G2_U3_DL4_W_06",
+                  "headword": "classic",
+                  "pronunciation": "klǽsik",
+                  "pos": "形",
+                  "meaning": "定番の、典型的な"
+                },
+                {
+                  "id": "G2_U3_DL4_W_07",
+                  "headword": "pancake(s)",
+                  "pronunciation": "pǽnkèik(s)",
+                  "pos": "名",
+                  "meaning": "パンケーキ"
+                },
+                {
+                  "id": "G2_U3_DL4_W_08",
+                  "headword": "fresh",
+                  "pronunciation": "fréʃ",
+                  "pos": "形",
+                  "meaning": "新しい、新鮮な"
+                },
+                {
+                  "id": "G2_U3_DL4_W_09",
+                  "headword": "French toast",
+                  "pronunciation": "fréntʃ tòust",
+                  "pos": "名",
+                  "meaning": "フレンチトースト"
+                },
+                {
+                  "id": "G2_U3_DL4_W_10",
+                  "headword": "grilled",
+                  "pronunciation": "ɡríld",
+                  "pos": "形",
+                  "meaning": "焼かれた、あぶった"
+                },
+                {
+                  "id": "G2_U3_DL4_W_11",
+                  "headword": "bacon",
+                  "pronunciation": "béikən",
+                  "pos": "名",
+                  "meaning": "ベーコン"
+                },
+                {
+                  "id": "G2_U3_DL4_W_12",
+                  "headword": "melon",
+                  "pronunciation": "mélən",
+                  "pos": "名",
+                  "meaning": "メロン"
+                },
+                {
+                  "id": "G2_U3_DL4_W_13",
+                  "headword": "juice",
+                  "pronunciation": "dʒúːs",
+                  "pos": "名",
+                  "meaning": "ジュース"
+                },
+                {
+                  "id": "G2_U3_DL4_W_14",
+                  "headword": "lime",
+                  "pronunciation": "láim",
+                  "pos": "名",
+                  "meaning": "ライム"
+                },
+                {
+                  "id": "G2_U3_DL4_W_15",
+                  "headword": "jasmine",
+                  "pronunciation": "dʒǽzmin",
+                  "pos": "名",
+                  "meaning": "ジャスミン"
+                },
+                {
+                  "id": "G2_U3_DL4_W_16",
+                  "headword": "strawberry",
+                  "pronunciation": "strɔ́ːbèri",
+                  "pos": "名",
+                  "meaning": "イチゴ"
+                },
+                {
+                  "id": "G2_U3_DL4_W_17",
+                  "headword": "smoothie",
+                  "pronunciation": "smúːði",
+                  "pos": "名",
+                  "meaning": "スムージー"
+                },
+                {
+                  "id": "G2_U3_DL4_W_18",
+                  "headword": "black tea",
+                  "pronunciation": "blǽk tíː",
+                  "pos": "名",
+                  "meaning": "紅茶"
+                },
+                {
+                  "id": "G2_U3_DL4_W_19",
+                  "headword": "server",
+                  "pronunciation": "sə́ːrvər",
+                  "pos": "名",
+                  "meaning": "給仕をする人"
+                },
+                {
+                  "id": "G2_U3_DL4_W_20",
+                  "headword": "shall",
+                  "pronunciation": "ʃǽl",
+                  "pos": "助",
+                  "meaning": "〔Shall I [we] ～? で〕～しましょうか。"
+                },
+                {
+                  "id": "G2_U3_DL4_W_21",
+                  "headword": "order",
+                  "pronunciation": "ɔ́ːrdər",
+                  "pos": "名",
+                  "meaning": "注文"
+                },
+                {
+                  "id": "G2_U3_DL4_W_22",
+                  "headword": "yes",
+                  "pronunciation": "jés",
+                  "pos": "副",
+                  "meaning": "〔申し出・誘いを受けて〕ええ、ぜひ"
+                },
+                {
+                  "id": "G2_U3_DL4_W_23",
+                  "headword": "certainly",
+                  "pronunciation": "sə́ːrtnli",
+                  "pos": "副",
+                  "meaning": "はい、かしこまりました。もちろんです。"
+                },
+                {
+                  "id": "G2_U3_DL4_W_24",
+                  "headword": "now",
+                  "pronunciation": "náu",
+                  "pos": "名",
+                  "meaning": "今、目下"
+                },
+                {
+                  "id": "G2_U3_DL4_W_25",
+                  "headword": "Shall I ~ ?",
+                  "pos": "熟",
+                  "meaning": "～しましょうか。"
+                },
+                {
+                  "id": "G2_U3_DL4_W_26",
+                  "headword": "Yes, please.",
+                  "pos": "熟",
+                  "meaning": "はい、お願いします。"
+                },
+                {
+                  "id": "G2_U3_DL4_W_27",
+                  "headword": "Would you like ~ ?",
+                  "pos": "熟",
+                  "meaning": "～はいかがですか。"
+                },
+                {
+                  "id": "G2_U3_DL4_W_28",
+                  "headword": "Anything else?",
+                  "pos": "熟",
+                  "meaning": "他に何かありますか。"
+                },
+                {
+                  "id": "G2_U3_DL4_W_29",
+                  "headword": "That's all.",
+                  "pos": "熟",
+                  "meaning": "それだけです。"
+                },
+                {
+                  "id": "G2_U3_DL4_W_30",
+                  "headword": "for now",
+                  "pos": "熟",
+                  "meaning": "今のところ"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "intro_section",
+                  "header": "Goal: 飲食店で注文をすることができる",
+                  "label": "目的・場面・状況",
+                  "text": "シンガポールのレストランに、朝食を食べにやって来ました。注文をするとき、どう言うとよいでしょうか。",
+                  "items": [
+                    {
+                      "id": "G2_U3_DL4_S_00",
+                      "ja": "1. ペアになり、下のやり取りを演じましょう。"
+                    }
+                  ]
+                },
+                {
+                  "type": "document_section",
+                  "header": "BREAKFAST MENU (特別朝食メニュー)",
+                  "items": [
+                    {
+                      "id": "G2_U3_DL4_M_01",
+                      "tag": "SET A",
+                      "en": "Omelet, yogurt, garden salad",
+                      "ja": "オムレツ、ヨーグルト、生野菜サラダ"
+                    },
+                    {
+                      "id": "G2_U3_DL4_M_02",
+                      "tag": "SET B",
+                      "en": "Classic pancakes, fresh fruit",
+                      "ja": "クラシックパンケーキ、新鮮なフルーツ"
+                    },
+                    {
+                      "id": "G2_U3_DL4_M_03",
+                      "tag": "SET C",
+                      "en": "French toast, grilled bacon, garden salad",
+                      "ja": "フレンチトースト、焼きベーコン、生野菜サラダ"
+                    },
+                    {
+                      "id": "G2_U3_DL4_M_04",
+                      "tag": "Drinks",
+                      "en": "Melon juice",
+                      "ja": "メロンジュース"
+                    },
+                    {
+                      "id": "G2_U3_DL4_M_05",
+                      "tag": "Drinks",
+                      "en": "Watermelon juice",
+                      "ja": "スイカジュース"
+                    },
+                    {
+                      "id": "G2_U3_DL4_M_06",
+                      "tag": "Drinks",
+                      "en": "Lime juice",
+                      "ja": "ライムジュース"
+                    },
+                    {
+                      "id": "G2_U3_DL4_M_07",
+                      "tag": "Drinks",
+                      "en": "Jasmine tea",
+                      "ja": "ジャスミンティー"
+                    },
+                    {
+                      "id": "G2_U3_DL4_M_08",
+                      "tag": "Drinks",
+                      "en": "Strawberry smoothie",
+                      "ja": "イチゴスムージー"
+                    },
+                    {
+                      "id": "G2_U3_DL4_M_09",
+                      "tag": "Drinks",
+                      "en": "Black tea",
+                      "ja": "紅茶"
+                    }
+                  ]
+                },
+                {
+                  "type": "dialogue_section",
+                  "header": "レストランでの会話 (1)",
+                  "items": [
+                    {
+                      "id": "G2_U3_DL4_S_01",
+                      "speaker": "Server",
+                      "en": "Shall I take your order?",
+                      "ja": "ご注文を承りましょうか。"
+                    },
+                    {
+                      "id": "G2_U3_DL4_S_02",
+                      "speaker": "Sana",
+                      "en": "Yes, please. Can I have a Set A breakfast?",
+                      "ja": "はい、お願いします。Aセットの朝食をいただけますか。"
+                    },
+                    {
+                      "id": "G2_U3_DL4_S_03",
+                      "speaker": "Server",
+                      "en": "Sure. Would you like a drink?",
+                      "ja": "かしこまりました。お飲み物はいかがですか。"
+                    },
+                    {
+                      "id": "G2_U3_DL4_S_04",
+                      "speaker": "Sana",
+                      "en": "Oh, yes. Watermelon juice, please.",
+                      "ja": "あ、はい。スイカジュースをお願いします。"
+                    },
+                    {
+                      "id": "G2_U3_DL4_S_05",
+                      "speaker": "Server",
+                      "en": "Certainly. Anything else?",
+                      "ja": "はい、かしこまりました。他に注文はございますか。"
+                    },
+                    {
+                      "id": "G2_U3_DL4_S_06",
+                      "speaker": "Sana",
+                      "en": "That's all for now.",
+                      "ja": "今のところそれだけです。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "レストランでの会話 (2)：自分たちで考えたやり取り (解答例)",
+                  "items": [
+                    {
+                      "id": "G2_U3_DL4_S_07",
+                      "speaker": "A",
+                      "en": "Shall I take your order?",
+                      "ja": "ご注文を承りましょうか。"
+                    },
+                    {
+                      "id": "G2_U3_DL4_S_08",
+                      "speaker": "B",
+                      "en": "Yes, please. Can I have a Set C breakfast?",
+                      "ja": "はい、お願いします。Cセットの朝食をいただけますか。"
+                    },
+                    {
+                      "id": "G2_U3_DL4_S_09",
+                      "speaker": "A",
+                      "en": "Sure. Would you like a drink?",
+                      "ja": "かしこまりました。お飲み物はいかがでしょうか。"
+                    },
+                    {
+                      "id": "G2_U3_DL4_S_10",
+                      "speaker": "B",
+                      "en": "Yes. Black tea, please.",
+                      "ja": "はい。紅茶をお願いします。"
+                    },
+                    {
+                      "id": "G2_U3_DL4_S_11",
+                      "speaker": "A",
+                      "en": "Certainly. Anything else?",
+                      "ja": "はい、かしこまりました。他に注文はございますか。"
+                    },
+                    {
+                      "id": "G2_U3_DL4_S_12",
+                      "speaker": "B",
+                      "en": "That's all for now.",
+                      "ja": "今のところそれだけです。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 67
+        },
+        "LR1": {
+          "title": "Let's Read 1: The Cookies",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G2_U3_LR1_W_01",
+                  "headword": "young",
+                  "pronunciation": "jʌ́ŋ",
+                  "pos": "形",
+                  "meaning": "若い"
+                },
+                {
+                  "id": "G2_U3_LR1_W_02",
+                  "headword": "woman",
+                  "pronunciation": "wúmən",
+                  "pos": "名",
+                  "meaning": "女性"
+                },
+                {
+                  "id": "G2_U3_LR1_W_03",
+                  "headword": "until",
+                  "pronunciation": "əntíl",
+                  "pos": "前",
+                  "meaning": "～まで（ずっと）"
+                },
+                {
+                  "id": "G2_U3_LR1_W_04",
+                  "headword": "bag",
+                  "pronunciation": "bǽɡ",
+                  "pos": "名",
+                  "meaning": "袋",
+                  "note": "a bag of ～ で「1袋の～」"
+                },
+                {
+                  "id": "G2_U3_LR1_W_05",
+                  "headword": "decide(d)",
+                  "pronunciation": "disáid(id)",
+                  "pos": "動",
+                  "meaning": "～を決める"
+                },
+                {
+                  "id": "G2_U3_LR1_W_06",
+                  "headword": "sit",
+                  "pronunciation": "sít",
+                  "pos": "動",
+                  "meaning": "座る",
+                  "related": [
+                    {
+                      "id": "G2_U3_LR1_W_06_R",
+                      "headword": "sat",
+                      "pronunciation": "sǽt",
+                      "pos": "動",
+                      "meaning": "sit の過去形・過去分詞"
+                    }
+                  ]
+                },
+                {
+                  "id": "G2_U3_LR1_W_07",
+                  "headword": "down",
+                  "pronunciation": "dáun",
+                  "pos": "副",
+                  "meaning": "姿勢を低くして、座って"
+                },
+                {
+                  "id": "G2_U3_LR1_W_08",
+                  "headword": "comfortable",
+                  "pronunciation": "kʌ́mfərtəbl",
+                  "pos": "形",
+                  "meaning": "ゆったりとした、快適な、心地よい"
+                },
+                {
+                  "id": "G2_U3_LR1_W_09",
+                  "headword": "seat",
+                  "pronunciation": "síːt",
+                  "pos": "名",
+                  "meaning": "席"
+                },
+                {
+                  "id": "G2_U3_LR1_W_10",
+                  "headword": "while",
+                  "pronunciation": "hwáil",
+                  "pos": "名",
+                  "meaning": "しばらくの間"
+                },
+                {
+                  "id": "G2_U3_LR1_W_11",
+                  "headword": "man",
+                  "pronunciation": "mǽn",
+                  "pos": "名",
+                  "meaning": "男性"
+                },
+                {
+                  "id": "G2_U3_LR1_W_12",
+                  "headword": "open",
+                  "pronunciation": "óupən",
+                  "pos": "動",
+                  "meaning": "～を開く"
+                },
+                {
+                  "id": "G2_U3_LR1_W_13",
+                  "headword": "know",
+                  "pronunciation": "nóu",
+                  "pos": "動",
+                  "meaning": "～と知り合いである"
+                },
+                {
+                  "id": "G2_U3_LR1_W_14",
+                  "headword": "decide to ~",
+                  "pos": "熟",
+                  "meaning": "～することに決める"
+                },
+                {
+                  "id": "G2_U3_LR1_W_15",
+                  "headword": "a bag of ~",
+                  "pos": "熟",
+                  "meaning": "1袋の～"
+                },
+                {
+                  "id": "G2_U3_LR1_W_16",
+                  "headword": "sit down",
+                  "pos": "熟",
+                  "meaning": "座る"
+                },
+                {
+                  "id": "G2_U3_LR1_W_17",
+                  "headword": "after a while",
+                  "pos": "熟",
+                  "meaning": "しばらくすると"
+                },
+                {
+                  "id": "G2_U3_LR1_W_18",
+                  "headword": "~, so that ...",
+                  "pos": "熟",
+                  "meaning": "～、それで…"
+                },
+                {
+                  "id": "G2_U3_LR1_W_19",
+                  "headword": "take",
+                  "pronunciation": "téik",
+                  "pos": "動",
+                  "meaning": "～を取る",
+                  "related": [
+                    {
+                      "id": "G2_U3_LR1_W_19_R",
+                      "headword": "took",
+                      "pronunciation": "túk",
+                      "pos": "動",
+                      "meaning": "take の過去形"
+                    }
+                  ]
+                },
+                {
+                  "id": "G2_U3_LR1_W_20",
+                  "headword": "nothing",
+                  "pronunciation": "nʌ́θiŋ",
+                  "pos": "代",
+                  "meaning": "何も～ない"
+                },
+                {
+                  "id": "G2_U3_LR1_W_21",
+                  "headword": "nerve",
+                  "pronunciation": "nə́ːrv",
+                  "pos": "名",
+                  "meaning": "ずうずうしさ"
+                },
+                {
+                  "id": "G2_U3_LR1_W_22",
+                  "headword": "think",
+                  "pronunciation": "θíŋk",
+                  "pos": "動",
+                  "meaning": "～と思う、考える",
+                  "related": [
+                    {
+                      "id": "G2_U3_LR1_W_22_R",
+                      "headword": "thought",
+                      "pronunciation": "θɔ́ːt",
+                      "pos": "動",
+                      "meaning": "think の過去形・過去分詞"
+                    }
+                  ]
+                },
+                {
+                  "id": "G2_U3_LR1_W_23",
+                  "headword": "each",
+                  "pronunciation": "íːtʃ",
+                  "pos": "形",
+                  "meaning": "それぞれの、おのおのの"
+                },
+                {
+                  "id": "G2_U3_LR1_W_24",
+                  "headword": "cause",
+                  "pronunciation": "kɔ́ːz",
+                  "pos": "動",
+                  "meaning": "～を引き起こす"
+                },
+                {
+                  "id": "G2_U3_LR1_W_25",
+                  "headword": "scene",
+                  "pronunciation": "síːn",
+                  "pos": "名",
+                  "meaning": "大騒ぎ"
+                },
+                {
+                  "id": "G2_U3_LR1_W_26",
+                  "headword": "rude",
+                  "pronunciation": "rúːd",
+                  "pos": "形",
+                  "meaning": "失礼な"
+                },
+                {
+                  "id": "G2_U3_LR1_W_27",
+                  "headword": "now",
+                  "pronunciation": "náu",
+                  "pos": "副",
+                  "meaning": "今度は"
+                },
+                {
+                  "id": "G2_U3_LR1_W_28",
+                  "headword": "last",
+                  "pronunciation": "lǽst",
+                  "pos": "形",
+                  "meaning": "最後の"
+                },
+                {
+                  "id": "G2_U3_LR1_W_29",
+                  "headword": "divide(d)",
+                  "pronunciation": "diváid(id)",
+                  "pos": "動",
+                  "meaning": "～を分ける"
+                },
+                {
+                  "id": "G2_U3_LR1_W_30",
+                  "headword": "in",
+                  "pronunciation": "ín, in, ən",
+                  "pos": "前",
+                  "usage": "〔形状・配置〕",
+                  "meaning": "～になって"
+                },
+                {
+                  "id": "G2_U3_LR1_W_31",
+                  "headword": "half",
+                  "pronunciation": "hǽf",
+                  "pos": "名",
+                  "meaning": "半分"
+                },
+                {
+                  "id": "G2_U3_LR1_W_32",
+                  "headword": "give",
+                  "pronunciation": "ɡív",
+                  "pos": "動",
+                  "meaning": "～を与える、～をあげる、～を贈る",
+                  "related": [
+                    {
+                      "id": "G2_U3_LR1_W_32_R",
+                      "headword": "gave",
+                      "pronunciation": "ɡéiv",
+                      "pos": "動",
+                      "meaning": "give の過去形"
+                    }
+                  ]
+                },
+                {
+                  "id": "G2_U3_LR1_W_33",
+                  "headword": "with",
+                  "pronunciation": "wíð, wið",
+                  "pos": "前",
+                  "usage": "〔様態〕",
+                  "meaning": "～で、～をもって"
+                },
+                {
+                  "id": "G2_U3_LR1_W_34",
+                  "headword": "deal",
+                  "pronunciation": "díːl",
+                  "pos": "動",
+                  "usage": "〔deal with ～で〕",
+                  "meaning": "～と関わりをもつ"
+                },
+                {
+                  "id": "G2_U3_LR1_W_35",
+                  "headword": "anymore",
+                  "pronunciation": "ènimɔ́ːr",
+                  "pos": "副",
+                  "meaning": "これ以上"
+                },
+                {
+                  "id": "G2_U3_LR1_W_36",
+                  "headword": "quickly",
+                  "pronunciation": "kwíkli",
+                  "pos": "副",
+                  "meaning": "急いで"
+                },
+                {
+                  "id": "G2_U3_LR1_W_37",
+                  "headword": "put / put",
+                  "pronunciation": "pút / put",
+                  "pos": "動",
+                  "meaning": "～を置く、～を取り付ける",
+                  "related": [
+                    {
+                      "id": "G2_U3_LR1_W_37_R",
+                      "headword": "put",
+                      "pos": "動",
+                      "meaning": "put の過去形・過去分詞"
+                    }
+                  ]
+                },
+                {
+                  "id": "G2_U3_LR1_W_38",
+                  "headword": "area",
+                  "pronunciation": "έəriə",
+                  "pos": "名",
+                  "meaning": "エリア"
+                },
+                {
+                  "id": "G2_U3_LR1_W_39",
+                  "headword": "finally",
+                  "pronunciation": "fáinəli",
+                  "pos": "副",
+                  "meaning": "やっと"
+                },
+                {
+                  "id": "G2_U3_LR1_W_40",
+                  "headword": "plane",
+                  "pronunciation": "pléin",
+                  "pos": "名",
+                  "meaning": "飛行機"
+                },
+                {
+                  "id": "G2_U3_LR1_W_41",
+                  "headword": "into",
+                  "pronunciation": "íntuː",
+                  "pos": "前",
+                  "meaning": "～の中へ"
+                },
+                {
+                  "id": "G2_U3_LR1_W_42",
+                  "headword": "to",
+                  "pronunciation": "túː, tə",
+                  "pos": "前",
+                  "usage": "〔to one's ～で〕",
+                  "meaning": "～したことには"
+                },
+                {
+                  "id": "G2_U3_LR1_W_43",
+                  "headword": "horror",
+                  "pronunciation": "hɔ́ːrər",
+                  "pos": "名",
+                  "meaning": "恐ろしさ"
+                },
+                {
+                  "id": "G2_U3_LR1_W_44",
+                  "headword": "untouched",
+                  "pronunciation": "ʌntʌ́tʃt",
+                  "pos": "形",
+                  "meaning": "手をつけていない"
+                },
+                {
+                  "id": "G2_U3_LR1_W_45",
+                  "headword": "mean(s)",
+                  "pronunciation": "míːn(z)",
+                  "pos": "動",
+                  "meaning": "～（ということを）意味する"
+                },
+                {
+                  "id": "G2_U3_LR1_W_46",
+                  "headword": "each time",
+                  "pos": "熟",
+                  "meaning": "～するごとに"
+                },
+                {
+                  "id": "G2_U3_LR1_W_47",
+                  "headword": "cause a scene",
+                  "pos": "熟",
+                  "meaning": "騒ぎを起こす"
+                },
+                {
+                  "id": "G2_U3_LR1_W_48",
+                  "headword": "in half",
+                  "pos": "熟",
+                  "meaning": "半分に"
+                },
+                {
+                  "id": "G2_U3_LR1_W_49",
+                  "headword": "put away",
+                  "pos": "熟",
+                  "meaning": "～をしまう"
+                },
+                {
+                  "id": "G2_U3_LR1_W_50",
+                  "headword": "to one's horror",
+                  "pos": "熟",
+                  "meaning": "ぞっとしたことには"
+                },
+                {
+                  "id": "G2_U3_LR1_W_51",
+                  "headword": "feel",
+                  "pronunciation": "fíːl",
+                  "pos": "動",
+                  "meaning": "（～と）感じる、～を感じる",
+                  "related": [
+                    {
+                      "id": "G2_U3_LR1_W_51_R",
+                      "headword": "felt",
+                      "pronunciation": "félt",
+                      "pos": "動",
+                      "meaning": "feel の過去形・過去分詞"
+                    }
+                  ]
+                },
+                {
+                  "id": "G2_U3_LR1_W_52",
+                  "headword": "ashamed",
+                  "pronunciation": "əʃéimd",
+                  "pos": "形",
+                  "meaning": "恥ずかしく思う"
+                },
+                {
+                  "id": "G2_U3_LR1_W_53",
+                  "headword": "completely",
+                  "pronunciation": "kəmplíːtli",
+                  "pos": "副",
+                  "meaning": "完全に"
+                },
+                {
+                  "id": "G2_U3_LR1_W_54",
+                  "headword": "wrong",
+                  "pronunciation": "rɔ́ːŋ",
+                  "pos": "形",
+                  "meaning": "間違った"
+                },
+                {
+                  "id": "G2_U3_LR1_W_55",
+                  "headword": "forget",
+                  "pronunciation": "fərɡét",
+                  "pos": "動",
+                  "meaning": "（～を）忘れる",
+                  "related": [
+                    {
+                      "id": "G2_U3_LR1_W_55_R",
+                      "headword": "forgot",
+                      "pronunciation": "fərɡάt",
+                      "pos": "動",
+                      "meaning": "forget の過去形・過去分詞"
+                    }
+                  ]
+                },
+                {
+                  "id": "G2_U3_LR1_W_56",
+                  "headword": "share(d)",
+                  "pronunciation": "ʃέər(d)",
+                  "pos": "動",
+                  "meaning": "～を分ける"
+                },
+                {
+                  "id": "G2_U3_LR1_W_57",
+                  "headword": "without",
+                  "pronunciation": "wiðáut",
+                  "pos": "前",
+                  "meaning": "～なしに"
+                },
+                {
+                  "id": "G2_U3_LR1_W_58",
+                  "headword": "apologize",
+                  "pronunciation": "əpάlədʒàiz",
+                  "pos": "動",
+                  "meaning": "謝る"
+                },
+                {
+                  "id": "G2_U3_LR1_W_59",
+                  "headword": "be wrong about ~",
+                  "pos": "熟",
+                  "meaning": "～を考え違いしている"
+                },
+                {
+                  "id": "G2_U3_LR1_W_60",
+                  "headword": "share ~ with ...",
+                  "pos": "熟",
+                  "meaning": "～を…と分け合う"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "story_section",
+                  "header": "The Cookies (p.63)",
+                  "items": [
+                    {
+                      "id": "G2_U3_LR1_S_01",
+                      "ref_num": "①",
+                      "en": "One day, a young woman was at an airport.",
+                      "ja": "ある日、若い女性が空港にいました。"
+                    },
+                    {
+                      "id": "G2_U3_LR1_S_02",
+                      "ref_num": "②",
+                      "en": "She had a lot of time until her flight, so she decided to buy a book and read it.",
+                      "ja": "フライトまでかなりの時間があったので、彼女は本を買って読むことにしました。"
+                    },
+                    {
+                      "id": "G2_U3_LR1_S_03",
+                      "ref_num": "③",
+                      "en": "She also bought a bag of cookies.",
+                      "ja": "1袋のクッキーも買いました。"
+                    },
+                    {
+                      "id": "G2_U3_LR1_S_04",
+                      "ref_num": "④",
+                      "en": "She sat down on a comfortable seat at the airport and started to read the book.",
+                      "ja": "彼女は空港のゆったりとした椅子に座って、本を読み始めました。"
+                    },
+                    {
+                      "id": "G2_U3_LR1_S_05",
+                      "ref_num": "⑤",
+                      "en": "After a while, a man sat down next to the woman, so that the cookies were between them.",
+                      "ja": "しばらくすると、男性が女性の隣に座り、それでクッキーは2人の間にありました。"
+                    },
+                    {
+                      "id": "G2_U3_LR1_S_06",
+                      "ref_num": "⑥",
+                      "en": "He opened his magazine and started reading.",
+                      "ja": "彼は雑誌を開き、読み始めました。"
+                    }
+                  ]
+                },
+                {
+                  "type": "check_section",
+                  "header": "While Read (p.63)",
+                  "items": [
+                    {
+                      "id": "G2_U3_LR1_S_07",
+                      "speaker": "Q1",
+                      "en": "What did the woman buy?",
+                      "ja": "女性は何を買いましたか。"
+                    },
+                    {
+                      "id": "G2_U3_LR1_S_08",
+                      "speaker": "A1",
+                      "en": "She bought a book and a bag of cookies.",
+                      "ja": "(例) 彼女は1冊の本と1袋のクッキーを買いました。"
+                    },
+                    {
+                      "id": "G2_U3_LR1_S_09",
+                      "speaker": "Q2",
+                      "en": "Did they know each other?",
+                      "ja": "彼らはお互いを知っていましたか。"
+                    },
+                    {
+                      "id": "G2_U3_LR1_S_10",
+                      "speaker": "A2",
+                      "en": "No, they didn't.",
+                      "ja": "(例) いいえ、知りませんでした。"
+                    }
+                  ]
+                },
+                {
+                  "type": "story_section",
+                  "header": "The Cookies (p.63-64)",
+                  "items": [
+                    {
+                      "id": "G2_U3_LR1_S_11",
+                      "ref_num": "①",
+                      "en": "When the woman took the first cookie from the bag, the man also took one.",
+                      "ja": "女性が袋から最初のクッキーを取ると、男性も1つ取りました。"
+                    },
+                    {
+                      "id": "G2_U3_LR1_S_12",
+                      "ref_num": "②",
+                      "en": "She was surprised but said nothing.",
+                      "ja": "彼女は驚きましたが、何も言いませんでした。"
+                    },
+                    {
+                      "id": "G2_U3_LR1_S_13",
+                      "ref_num": "③",
+                      "en": "\"What a nerve!\" she thought.",
+                      "ja": "「なんというずうずうしさ！」と彼女は思いました。"
+                    },
+                    {
+                      "id": "G2_U3_LR1_S_14",
+                      "ref_num": "④",
+                      "en": "And then each time she took a cookie, the man took one, too.",
+                      "ja": "そしてそれから彼女がクッキーを1枚取るたびに、男性も1枚取りました。"
+                    },
+                    {
+                      "id": "G2_U3_LR1_S_15",
+                      "ref_num": "⑤",
+                      "en": "She was angry, but she didn't want to cause a scene.",
+                      "ja": "彼女は怒っていましたが、大騒ぎを起こしたくありませんでした。"
+                    },
+                    {
+                      "id": "G2_U3_LR1_S_16",
+                      "ref_num": "⑥",
+                      "en": "When they got to the last cookie, she thought:",
+                      "ja": "クッキーが最後の1枚になったとき、彼女は思いました："
+                    },
+                    {
+                      "id": "G2_U3_LR1_S_17",
+                      "ref_num": "⑦",
+                      "en": "\"What will this rude man do now?\"",
+                      "ja": "「この失礼な男は今度はどうするのだろう？」"
+                    },
+                    {
+                      "id": "G2_U3_LR1_S_18",
+                      "ref_num": "⑧",
+                      "en": "Then, the man took the last cookie, divided it in half, and gave one half to the woman with a smile on his face.",
+                      "ja": "それから、男性は最後の1枚を取り出すと、半分に分け、顔に笑みを浮かべながら片方を女性に差し出しました。"
+                    },
+                    {
+                      "id": "G2_U3_LR1_S_19",
+                      "ref_num": "⑨",
+                      "en": "This was too much.",
+                      "ja": "これはあんまりなことでした。"
+                    },
+                    {
+                      "id": "G2_U3_LR1_S_20",
+                      "ref_num": "⑩",
+                      "en": "She didn't want to deal with him anymore.",
+                      "ja": "彼女はこれ以上彼と関わりたくありませんでした。"
+                    },
+                    {
+                      "id": "G2_U3_LR1_S_21",
+                      "ref_num": "⑪",
+                      "en": "She quickly put away her book and went to the boarding area.",
+                      "ja": "彼女はすばやく本をしまうと搭乗エリアに行きました。"
+                    },
+                    {
+                      "id": "G2_U3_LR1_S_22",
+                      "ref_num": "⑫",
+                      "en": "When she finally sat down in her seat on the plane, she looked into her bag.",
+                      "ja": "やっと飛行機の席に座ると、彼女はカバンの中を見ました。"
+                    },
+                    {
+                      "id": "G2_U3_LR1_S_23",
+                      "ref_num": "⑬",
+                      "en": "To her horror, she saw her untouched bag of cookies!",
+                      "ja": "ぞっとしたことには、彼女は手をつけていないクッキーの袋を見つけました！"
+                    },
+                    {
+                      "id": "G2_U3_LR1_S_24",
+                      "ref_num": "⑭",
+                      "en": "\"If mine are here, that means ....\"",
+                      "ja": "「私のがここにあるということは、つまり……。」"
+                    }
+                  ]
+                },
+                {
+                  "type": "conclusion_section",
+                  "header": "物語の結末 (p.64)",
+                  "items": [
+                    {
+                      "id": "G2_U3_LR1_S_25",
+                      "ref_num": "①",
+                      "en": "She felt so ashamed.",
+                      "ja": "彼女はとても恥ずかしく思いました。"
+                    },
+                    {
+                      "id": "G2_U3_LR1_S_26",
+                      "ref_num": "②",
+                      "en": "She was completely wrong about the man.",
+                      "ja": "彼女は完全に男性のことを考え違いしていたのです。"
+                    },
+                    {
+                      "id": "G2_U3_LR1_S_27",
+                      "ref_num": "③",
+                      "en": "She forgot that her cookies were in her bag.",
+                      "ja": "彼女はクッキーがかばんの中にあることを忘れていたのです。"
+                    },
+                    {
+                      "id": "G2_U3_LR1_S_28",
+                      "ref_num": "④",
+                      "en": "The man shared his cookies with her without being angry.",
+                      "ja": "男性は怒ることなく彼のクッキーを彼女と分け合ったのです。"
+                    },
+                    {
+                      "id": "G2_U3_LR1_S_29",
+                      "ref_num": "⑤",
+                      "en": "She wanted to apologize to him, but it was too late.",
+                      "ja": "彼女は彼に謝りたいと思いましたが、遅すぎました。"
+                    },
+                    {
+                      "id": "G2_U3_LR1_S_30",
+                      "en": "[263 words]",
+                      "ja": "[263語]"
+                    }
+                  ]
+                },
+                {
+                  "type": "check_section",
+                  "header": "After You Read (p.64)",
+                  "items": [
+                    {
+                      "id": "G2_U3_LR1_S_31",
+                      "tag": "話の展開",
+                      "ja": "C → B → D → A"
+                    },
+                    {
+                      "id": "G2_U3_LR1_S_32",
+                      "tag": "謝りたい理由",
+                      "ja": "男性のことを考え違いし、彼のクッキーを勝手に食べていたから。"
+                    }
+                  ]
+                }
+              ]
+            },
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説 (p.42対応分)",
+                  "items": [
+                    {
+                      "id": "G2_U3_LR1G_E_01",
+                      "ref_num": "②",
+                      "en": "She had a lot of time until her flight, so she decided to buy a book and read it.",
+                      "text": "**until** は 「～まで（ずっと）」 という意味の前置詞です。 **decide to ～** で 「～することに決める」 という意味を表します。 **to buy** は **to不定詞の名詞的用法 〈to + 動詞の原形〉** の形で、 「買うこと」 という意味になります。",
+                      "ref_id": "G2_U3_LR1_S_02"
+                    },
+                    {
+                      "id": "G2_U3_LR1G_E_02",
+                      "ref_num": "③",
+                      "en": "She also bought a bag of cookies.",
+                      "text": "**bag** は 「袋」 という意味で、 **a bag of ～** で 「1袋の～」 という意味を表します。",
+                      "ref_id": "G2_U3_LR1_S_03"
+                    },
+                    {
+                      "id": "G2_U3_LR1G_E_03",
+                      "ref_num": "④",
+                      "en": "She sat down on a comfortable seat at the airport and started to read the book.",
+                      "text": "**sat** は **sit** の過去形です。 **sit down** で 「座る」 という意味を表します。 **start 「～を始める」** の後の **to read** は、 **to不定詞の名詞的用法 〈to + 動詞の原形〉** の形になっています。",
+                      "ref_id": "G2_U3_LR1_S_04"
+                    },
+                    {
+                      "id": "G2_U3_LR1G_E_04",
+                      "ref_num": "⑤",
+                      "en": "After a while, a man sat down next to the woman, so that the cookies were between them.",
+                      "text": "**after a while** は 「しばらくすると」 という意味を表し、時間の経過を表すときに使います。 **～, so that ...** で 「～、それで…」 という意味を表します。コンマより前の文に原因を表す内容、 **so that** より後ろの文に結果を表す内容がきます。",
+                      "ref_id": "G2_U3_LR1_S_05"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説 (p.43対応分)",
+                  "items": [
+                    {
+                      "id": "G2_U3_LR1G_E_05",
+                      "ref_num": "④",
+                      "en": "And then each time she took a cookie, the man took one, too.",
+                      "text": "**each time** は 「～するごとに」 という意味を表します。この文での **one** は代名詞で、前に出てきた **a cookie** を言い換えています。",
+                      "ref_id": "G2_U3_LR1_S_14"
+                    },
+                    {
+                      "id": "G2_U3_LR1G_E_06",
+                      "ref_num": "⑤",
+                      "en": "She was angry, but she didn't want to cause a scene.",
+                      "text": "**cause a scene** で 「騒ぎを起こす」 という意味を表します。 **cause** は 「～を引き起こす」 という意味の動詞です。",
+                      "ref_id": "G2_U3_LR1_S_15"
+                    },
+                    {
+                      "id": "G2_U3_LR1G_E_07",
+                      "ref_num": "⑦",
+                      "en": "What will this rude man do now?",
+                      "text": "未来を表す助動詞 **will** の文です。ここでは **what** で始まる疑問文の中で 「～でしょう」 と推測を表しています。",
+                      "ref_id": "G2_U3_LR1_S_17"
+                    },
+                    {
+                      "id": "G2_U3_LR1G_E_08",
+                      "ref_num": "⑧",
+                      "en": "Then, the man took the last cookie, divided it in half, and gave one half to the woman with a smile on his face.",
+                      "text": "**divide** は 「～を分ける」 という意味の動詞です。 **in half** で 「半分に」 という意味を表します。 **with** は 「〔様態〕～で、～をもって」 という意味の前置詞で、笑みを浮かべている状態を表しています。",
+                      "ref_id": "G2_U3_LR1_S_18"
+                    },
+                    {
+                      "id": "G2_U3_LR1G_E_09",
+                      "ref_num": "⑪",
+                      "en": "She quickly put away her book and went to the boarding area.",
+                      "text": "**put away** で 「～をしまう」 という意味を表します。 **put** は不規則動詞で、過去形も現在形と同じ形の **put** です。",
+                      "ref_id": "G2_U3_LR1_S_21"
+                    },
+                    {
+                      "id": "G2_U3_LR1G_E_10",
+                      "ref_num": "⑬",
+                      "en": "To her horror, she saw her untouched bag of cookies!",
+                      "text": "**to one's horror** で 「ぞっとしたことには」 という意味を表します。 **horror** は 「恐ろしさ」 という意味の名詞です。",
+                      "ref_id": "G2_U3_LR1_S_23"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説 (p.44対応分)",
+                  "items": [
+                    {
+                      "id": "G2_U3_LR1G_E_11",
+                      "ref_num": "②",
+                      "en": "She was completely wrong about the man.",
+                      "text": "**be wrong about ～** で 「～を考え違いしている」 という意味を表します。副詞の **completely** 「完全に」 によって修飾されています。 **wrong** は 「間違った」 という意味の形容詞です。",
+                      "ref_id": "G2_U3_LR1_S_26"
+                    },
+                    {
+                      "id": "G2_U3_LR1G_E_12",
+                      "ref_num": "③",
+                      "en": "She forgot that her cookies were in her bag.",
+                      "text": "**forgot** は **forget** 「(～を) 忘れる」 の過去形です。 **that** は 「～ということ」 という意味を表す接続詞です。 **that** 以下に忘れた内容の内容がきます。",
+                      "ref_id": "G2_U3_LR1_S_27"
+                    },
+                    {
+                      "id": "G2_U3_LR1G_E_13",
+                      "ref_num": "④",
+                      "en": "The man shared his cookies with her without being angry.",
+                      "text": "**share ～ with ...** で、 「～を…と分け合う」 という意味を表します。 **without** は 「～なしに」 という意味の前置詞です。 **be angry** で 「怒っている」 という意味を表し、前置詞の後なので、 **being** と動名詞になっています。",
+                      "ref_id": "G2_U3_LR1_S_28"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 66
+        },
+        "P1": {
+          "title": "Part 1: もうすぐ夏休み",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G2_U3_P1_W_01",
+                  "headword": "go",
+                  "pronunciation": "ɡóu",
+                  "pos": "動",
+                  "usage": "〔be going to ～で〕",
+                  "meaning": "(近い将来) ～するつもりでいる"
+                },
+                {
+                  "id": "G2_U3_P1_W_02",
+                  "headword": "Singapore",
+                  "pronunciation": "sìŋɡəpɔ́ːr",
+                  "pos": "名",
+                  "meaning": "シンガポール"
+                },
+                {
+                  "id": "G2_U3_P1_W_03",
+                  "headword": "relative(s)",
+                  "pronunciation": "rélətiv(z)",
+                  "pos": "名",
+                  "meaning": "親戚"
+                },
+                {
+                  "id": "G2_U3_P1_W_04",
+                  "headword": "invite(d)",
+                  "pronunciation": "inváit(id)",
+                  "pos": "動",
+                  "meaning": "～を招く、招待する"
+                },
+                {
+                  "id": "G2_U3_P1_W_05",
+                  "headword": "jealous",
+                  "pronunciation": "dʒéləs",
+                  "pos": "形",
+                  "meaning": "うらやましく思って"
+                },
+                {
+                  "id": "G2_U3_P1_W_06",
+                  "headword": "kid(ding)",
+                  "pronunciation": "kíd(iŋ)",
+                  "pos": "動",
+                  "meaning": "冗談を言う、からかう"
+                },
+                {
+                  "id": "G2_U3_P1_W_07",
+                  "headword": "serious",
+                  "pronunciation": "síəriəs",
+                  "pos": "形",
+                  "meaning": "本気の、真剣な"
+                },
+                {
+                  "id": "G2_U3_P1_W_08",
+                  "headword": "tomorrow",
+                  "pronunciation": "təmάːrou",
+                  "pos": "名・副",
+                  "meaning": "明日(は)"
+                },
+                {
+                  "id": "G2_U3_P1_W_09",
+                  "headword": "forward",
+                  "pronunciation": "fɔ́ːrwərd",
+                  "pos": "副",
+                  "meaning": "先へ"
+                },
+                {
+                  "id": "G2_U3_P1_W_10",
+                  "headword": "the day after tomorrow",
+                  "pos": "熟",
+                  "meaning": "明後日"
+                },
+                {
+                  "id": "G2_U3_P1_W_11",
+                  "headword": "look forward to -ing",
+                  "pos": "熟",
+                  "meaning": "～(すること)を楽しみに待つ"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "dialogue_section",
+                  "header": "もうすぐ夏休み (p.45)",
+                  "items": [
+                    {
+                      "id": "G2_U3_P1_S_Q1",
+                      "speaker": "Question",
+                      "ja": "Q. ティナがコウタに提案したことは何でしょうか。"
+                    },
+                    {
+                      "id": "G2_U3_P1_S_A1",
+                      "speaker": "Answer",
+                      "ja": "A. (例) いっしょにシンガポールに行くこと。"
+                    },
+                    {
+                      "id": "G2_U3_P1_S_01",
+                      "ref_num": "①",
+                      "speaker": "Tina",
+                      "en": "Do you have any plans for the summer, guys?",
+                      "ja": "みんな、夏の予定はある？"
+                    },
+                    {
+                      "id": "G2_U3_P1_S_02",
+                      "ref_num": "②",
+                      "speaker": "Hajin",
+                      "en": "I'm going to stay here.",
+                      "ja": "ぼくはここに残る予定だよ。"
+                    },
+                    {
+                      "id": "G2_U3_P1_S_03",
+                      "ref_num": "③",
+                      "speaker": "Hajin",
+                      "en": "I have a basketball tournament.",
+                      "ja": "バスケットボールの大会があるんだ。"
+                    },
+                    {
+                      "id": "G2_U3_P1_S_04",
+                      "ref_num": "④",
+                      "speaker": "Eri",
+                      "en": "I'm going to visit my cousins in Okinawa.",
+                      "ja": "私は沖縄のいとこを訪ねる予定。"
+                    },
+                    {
+                      "id": "G2_U3_P1_S_05",
+                      "ref_num": "⑤",
+                      "speaker": "Eri",
+                      "en": "How about you, Tina?",
+                      "ja": "あなたは？ティナ。"
+                    },
+                    {
+                      "id": "G2_U3_P1_S_06",
+                      "ref_num": "⑥",
+                      "speaker": "Eri",
+                      "en": "What are you going to do?",
+                      "ja": "何をする予定なの？"
+                    },
+                    {
+                      "id": "G2_U3_P1_S_07",
+                      "ref_num": "⑦",
+                      "speaker": "Tina",
+                      "en": "I'm going to visit Singapore this year.",
+                      "ja": "今年はシンガポールを訪ねる予定だよ。"
+                    },
+                    {
+                      "id": "G2_U3_P1_S_08",
+                      "ref_num": "⑧",
+                      "speaker": "Eri",
+                      "en": "Really?",
+                      "ja": "本当に？"
+                    },
+                    {
+                      "id": "G2_U3_P1_S_09",
+                      "ref_num": "⑨",
+                      "speaker": "Tina",
+                      "en": "My friend David is going to visit his relatives in Singapore.",
+                      "ja": "私の友達のデイヴィッドがシンガポールにいる親戚を訪ねる予定なの。"
+                    },
+                    {
+                      "id": "G2_U3_P1_S_10",
+                      "ref_num": "⑩",
+                      "speaker": "Tina",
+                      "en": "He invited me.",
+                      "ja": "彼が誘ってくれたんだ。"
+                    },
+                    {
+                      "id": "G2_U3_P1_S_11",
+                      "ref_num": "⑪",
+                      "speaker": "Kota",
+                      "en": "I'm jealous.",
+                      "ja": "うらやましいな。"
+                    },
+                    {
+                      "id": "G2_U3_P1_S_12",
+                      "ref_num": "⑫",
+                      "speaker": "Kota",
+                      "en": "I'd like to visit Singapore someday.",
+                      "ja": "ぼくはいつかシンガポールに行ってみたいんだ。"
+                    },
+                    {
+                      "id": "G2_U3_P1_S_13",
+                      "ref_num": "⑬",
+                      "speaker": "Tina",
+                      "en": "Why don't you come to Singapore with me?",
+                      "ja": "私といっしょにシンガポールに来たら？"
+                    },
+                    {
+                      "id": "G2_U3_P1_S_14",
+                      "ref_num": "⑭",
+                      "speaker": "Kota",
+                      "en": "Are you kidding?",
+                      "ja": "冗談だよね？"
+                    },
+                    {
+                      "id": "G2_U3_P1_S_15",
+                      "ref_num": "⑮",
+                      "speaker": "Tina",
+                      "en": "No, I'm serious.",
+                      "ja": "ううん、本気だよ。"
+                    },
+                    {
+                      "id": "G2_U3_P1_S_16",
+                      "ref_num": "⑯",
+                      "speaker": "Tina",
+                      "en": "Let's ask David!",
+                      "ja": "デイヴィッドに聞いてみようよ！"
+                    },
+                    {
+                      "id": "G2_U3_P1_S_17",
+                      "speaker": "You're the Writer!",
+                      "en": "Wow, I'm very excited!",
+                      "ja": "(解答例) わあ、わくわくするよ！"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak (p.46)",
+                  "label": "夏休みの予定を友達と伝え合おう",
+                  "items": [
+                    {
+                      "id": "G2_U3_P1_S_18",
+                      "speaker": "[例] A",
+                      "en": "I'm going to visit my grandparents. They live in Fukuoka.",
+                      "ja": "私は祖父母を訪ねる予定です。彼らは福岡に住んでいます。"
+                    },
+                    {
+                      "id": "G2_U3_P1_S_19",
+                      "speaker": "[例] A",
+                      "en": "I'm looking forward to seeing them and their dog.",
+                      "ja": "私は彼らと彼らのイヌに会うのを楽しみにしています。"
+                    },
+                    {
+                      "id": "G2_U3_P1_S_20",
+                      "speaker": "[例] B",
+                      "en": "Sounds fun.",
+                      "ja": "楽しそうですね。"
+                    },
+                    {
+                      "id": "G2_U3_P1_S_21",
+                      "speaker": "[解答例] A",
+                      "en": "I'm going to go to the aquarium. It has a lot of sea animals.",
+                      "ja": "私は水族館に行く予定です。たくさんの海の生き物がいます。"
+                    },
+                    {
+                      "id": "G2_U3_P1_S_22",
+                      "speaker": "[解答例] A",
+                      "en": "I'm looking forward to watching the dolphins.",
+                      "ja": "私はイルカを見るのを楽しみにしています。"
+                    },
+                    {
+                      "id": "G2_U3_P1_S_23",
+                      "speaker": "[解答例] B",
+                      "en": "That sounds interesting.",
+                      "ja": "おもしろそうですね。"
+                    }
+                  ]
+                }
+              ]
+            },
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "するつもりでいることを言う。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "I visit my cousins in Okinawa.",
+                      "ja": "(私は沖縄にいるいとこを訪ねます。)"
+                    },
+                    {
+                      "ref_num": "②",
+                      "en": "I'm ==**going to visit**== my cousins in Okinawa.",
+                      "ja": "(私は沖縄にいるいとこを訪ねるつもりです。)",
+                      "ref_id": "G2_U3_P1_S_04"
+                    },
+                    {
+                      "ref_num": "③",
+                      "en": "==**Are you going to visit**== your cousins?",
+                      "ja": "(あなたは、いとこを訪ねるつもりですか。)"
+                    },
+                    {
+                      "ref_num": "④",
+                      "en": "― Yes, I am. / No, I'm not.",
+                      "ja": "(はい、そうです。 / いいえ、訪ねません。)"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "be going to + 動詞の原形",
+                  "text": "② あらかじめするつもりで準備を進めていることなどを言うときは、**〈be going to + 動詞の原形〉** で表します。be動詞は主語によって使い分けます。",
+                  "items": [
+                    {
+                      "tag": "be動詞の使い分け",
+                      "text": "・主語が **I** のとき → **am**\n・主語が **you** や複数のとき → **are**\n・主語が **3人称単数** のとき → **is**"
+                    },
+                    {
+                      "tag": "疑問文の作り方",
+                      "text": "③ **be going to** の疑問文は、be動詞 (am, are, is) を使った文と同じと考えて、**〈be動詞 + 主語 + going to + 動詞の原形 ～?〉** の形で疑問文をつくります。"
+                    },
+                    {
+                      "tag": "肯定文",
+                      "en": "You ==**are**== going to visit your cousins.",
+                      "ja": "(あなたは、いとこを訪ねるつもりです。)"
+                    },
+                    {
+                      "tag": "疑問文",
+                      "en": "==**Are**== you going to visit your cousins?",
+                      "ja": "(あなたは、いとこを訪ねるつもりですか。)",
+                      "note": "※be動詞を主語の前に出す。"
+                    },
+                    {
+                      "tag": "答え方",
+                      "text": "④ **be going to** の疑問文に答えるときは、be動詞を使って答えます。",
+                      "en": "〈Yes, 主語 + be動詞.〉 / 〈No, 主語 + be動詞 + not.〉"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G2_U3_P1G_E_01",
+                      "ref_num": "②, ④, ⑦",
+                      "en": "I'm going to stay here. / I'm going to visit my cousins in Okinawa. / I'm going to visit Singapore this year.",
+                      "text": "「～するつもりです」と未来のことについて予定していることを言う、**〈be going to + 動詞の原形〉** の文です。主語が **I** なので、be動詞は **am** になっています。",
+                      "ref_id": "G2_U3_P1_S_02"
+                    },
+                    {
+                      "id": "G2_U3_P1G_E_02",
+                      "ref_num": "⑥",
+                      "en": "What are you going to do?",
+                      "text": "「～するつもりですか」という意味の **be going to** の文です。主語が **you** なので、be動詞は **are** になっています。〈疑問詞 + be動詞 + 主語 + going to + 動詞の原形 ～?〉 の形で疑問文をつくります。",
+                      "ref_id": "G2_U3_P1_S_06"
+                    },
+                    {
+                      "id": "G2_U3_P1G_E_03",
+                      "ref_num": "⑨",
+                      "en": "My friend David is going to visit his relatives in Singapore.",
+                      "text": "「～するつもりです」という未来の予定を表す文です。主語が **My friend David** なので、be動詞は **is** になっています。この **in** は「～に、～で、～の中に」の意味で場所を表す前置詞です。",
+                      "ref_id": "G2_U3_P1_S_09"
+                    },
+                    {
+                      "id": "G2_U3_P1G_E_04",
+                      "ref_num": "⑫",
+                      "en": "I'd like to visit Singapore someday.",
+                      "note": "→教科書p.32 Key Phrases",
+                      "text": "**I'd like to ～.** は「～したいです。」という意味を表します。**to** の後は動詞の原形になります。",
+                      "ref_id": "G2_U3_P1_S_12"
+                    },
+                    {
+                      "id": "G2_U3_P1G_E_05",
+                      "ref_num": "⑬",
+                      "en": "Why don't you come to Singapore with me?",
+                      "text": "**Why don't you ～?** は、「～してはどうですか。」と相手に提案する言い方です。",
+                      "ref_id": "G2_U3_P1_S_13"
+                    },
+                    {
+                      "id": "G2_U3_P1G_E_06",
+                      "ref_num": "⑭",
+                      "en": "Are you kidding?",
+                      "note": "→教科書p.32 Key Phrases",
+                      "text": "**Are you kidding?** 「まさか。冗談でしょう。」は、会話でよく使われる表現です。そのままの形で覚えましょう。",
+                      "ref_id": "G2_U3_P1_S_14"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 51
+        },
+        "P2": {
+          "title": "Part 2: 旅行に向けて",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G2_U3_P2_W_01",
+                  "headword": "email",
+                  "pronunciation": "íːmeil",
+                  "pos": "名",
+                  "meaning": "Eメール、電子メール"
+                },
+                {
+                  "id": "G2_U3_P2_W_02",
+                  "headword": "subject",
+                  "pronunciation": "sʌ́bdʒikt",
+                  "pos": "名",
+                  "meaning": "(Eメールの) 件名"
+                },
+                {
+                  "id": "G2_U3_P2_W_03",
+                  "headword": "flight",
+                  "pronunciation": "fláit",
+                  "pos": "名",
+                  "meaning": "飛行機の旅、飛行機の便"
+                },
+                {
+                  "id": "G2_U3_P2_W_04",
+                  "headword": "pack(ing)",
+                  "pronunciation": "pǽk(iŋ)",
+                  "pos": "動",
+                  "meaning": "(～を) 詰める、荷造りする"
+                },
+                {
+                  "id": "G2_U3_P2_W_05",
+                  "headword": "week",
+                  "pronunciation": "wíːk",
+                  "pos": "名",
+                  "meaning": "週"
+                },
+                {
+                  "id": "G2_U3_P2_W_06",
+                  "headword": "forget",
+                  "pronunciation": "fərɡét",
+                  "pos": "動",
+                  "meaning": "(～を) 忘れる"
+                },
+                {
+                  "id": "G2_U3_P2_W_07",
+                  "headword": "sunscreen",
+                  "pronunciation": "sʌ́nskrìːn",
+                  "pos": "名",
+                  "meaning": "日焼け止め"
+                },
+                {
+                  "id": "G2_U3_P2_W_08",
+                  "headword": "sunglasses",
+                  "pronunciation": "sʌ́nɡlæ̀siz",
+                  "pos": "名",
+                  "meaning": "サングラス"
+                },
+                {
+                  "id": "G2_U3_P2_W_09",
+                  "headword": "will",
+                  "pronunciation": "wíl",
+                  "pos": "助",
+                  "meaning": "〔未来を表して〕～だろう、～しよう (と思う)、～するつもりだ"
+                },
+                {
+                  "id": "G2_U3_P2_W_10",
+                  "headword": "arrive",
+                  "pronunciation": "əráiv",
+                  "pos": "動",
+                  "meaning": "着く、到着する"
+                },
+                {
+                  "id": "G2_U3_P2_W_11",
+                  "headword": "airport",
+                  "pronunciation": "έərpɔ̀ːrt",
+                  "pos": "名",
+                  "meaning": "空港"
+                },
+                {
+                  "id": "G2_U3_P2_W_12",
+                  "headword": "care",
+                  "pronunciation": "kέər",
+                  "pos": "名",
+                  "meaning": "世話、注意"
+                },
+                {
+                  "id": "G2_U3_P2_W_13",
+                  "headword": "be ready for ~",
+                  "pos": "熟",
+                  "meaning": "～の準備ができている"
+                },
+                {
+                  "id": "G2_U3_P2_W_14",
+                  "headword": "cloud",
+                  "pronunciation": "kláud",
+                  "pos": "名",
+                  "meaning": "雲"
+                },
+                {
+                  "id": "G2_U3_P2_W_15",
+                  "headword": "rainy",
+                  "pronunciation": "réini",
+                  "pos": "形",
+                  "meaning": "雨の、雨降りの"
+                },
+                {
+                  "id": "G2_U3_P2_W_16",
+                  "headword": "snow",
+                  "pronunciation": "snóu",
+                  "pos": "名",
+                  "meaning": "雪"
+                },
+                {
+                  "id": "G2_U3_P2_W_17",
+                  "headword": "snowy",
+                  "pronunciation": "snóui",
+                  "pos": "形",
+                  "meaning": "雪の、雪の降る"
+                },
+                {
+                  "id": "G2_U3_P2_W_18",
+                  "headword": "wind",
+                  "pronunciation": "wínd",
+                  "pos": "名",
+                  "meaning": "風"
+                },
+                {
+                  "id": "G2_U3_P2_W_19",
+                  "headword": "windy",
+                  "pronunciation": "wíndi",
+                  "pos": "形",
+                  "meaning": "風の強い、風のある"
+                },
+                {
+                  "id": "G2_U3_P2_W_20",
+                  "headword": "weather",
+                  "pronunciation": "wéðər",
+                  "pos": "名",
+                  "meaning": "天気、天候"
+                },
+                {
+                  "id": "G2_U3_P2_W_21",
+                  "headword": "all",
+                  "pronunciation": "ɔ́ːl",
+                  "pos": "形",
+                  "meaning": "全ての、全体の"
+                },
+                {
+                  "id": "G2_U3_P2_W_22",
+                  "headword": "mind",
+                  "pronunciation": "máind",
+                  "pos": "動",
+                  "meaning": "～を気にする"
+                },
+                {
+                  "id": "G2_U3_P2_W_23",
+                  "headword": "rain",
+                  "pronunciation": "réin",
+                  "pos": "名",
+                  "meaning": "雨"
+                },
+                {
+                  "id": "G2_U3_P2_W_24",
+                  "headword": "all day",
+                  "pos": "熟",
+                  "meaning": "一日中"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "reading_section",
+                  "header": "David のメール (p.47)",
+                  "items": [
+                    {
+                      "id": "G2_U3_P2_S_Q1",
+                      "speaker": "Question",
+                      "ja": "Q. デイヴィッドのメールの中で、返事が必要なことは何でしょうか。"
+                    },
+                    {
+                      "id": "G2_U3_P2_S_A1",
+                      "speaker": "Answer",
+                      "ja": "A. (例) 飛行機の到着時刻。"
+                    },
+                    {
+                      "id": "G2_U3_P2_S_01",
+                      "ref_num": "①",
+                      "speaker": "Setting",
+                      "en": "Kota is reading an email:",
+                      "ja": "コウタはEメールを読んでいます："
+                    },
+                    {
+                      "id": "G2_U3_P2_S_02",
+                      "ref_num": "②",
+                      "speaker": "From",
+                      "en": "David Lew",
+                      "ja": "デイヴィッド・ルー"
+                    },
+                    {
+                      "id": "G2_U3_P2_S_03",
+                      "ref_num": "③",
+                      "speaker": "To",
+                      "en": "Christina Rios, Imura Kotaro",
+                      "ja": "クリスティーナ・リオス、イムラ・コウタロウ"
+                    },
+                    {
+                      "id": "G2_U3_P2_S_04",
+                      "ref_num": "④",
+                      "speaker": "Subject",
+                      "en": "Your Flight",
+                      "ja": "君たちのフライト"
+                    },
+                    {
+                      "id": "G2_U3_P2_S_05",
+                      "ref_num": "⑤",
+                      "en": "Hi Tina and Kota,",
+                      "ja": "こんにちは、ティナ、コウタ、"
+                    },
+                    {
+                      "id": "G2_U3_P2_S_06",
+                      "ref_num": "⑥",
+                      "en": "How are you?",
+                      "ja": "元気にしてるかな？"
+                    },
+                    {
+                      "id": "G2_U3_P2_S_07",
+                      "ref_num": "⑦",
+                      "en": "Are you ready for your trip?",
+                      "ja": "旅行の準備はできてる？"
+                    },
+                    {
+                      "id": "G2_U3_P2_S_08",
+                      "ref_num": "⑧",
+                      "en": "Did you finish packing?",
+                      "ja": "荷造りは終わった？"
+                    },
+                    {
+                      "id": "G2_U3_P2_S_09",
+                      "ref_num": "⑨",
+                      "en": "It'll be hot next week, so don't forget your sunscreen and sunglasses!",
+                      "ja": "来週は暑くなるから、日焼け止めとサングラスを忘れずにね！"
+                    },
+                    {
+                      "id": "G2_U3_P2_S_10",
+                      "ref_num": "⑩",
+                      "en": "By the way, when will your flight arrive?",
+                      "ja": "ところで、君たちの飛行機はいつ到着するのかな？"
+                    },
+                    {
+                      "id": "G2_U3_P2_S_11",
+                      "ref_num": "⑪",
+                      "en": "I'll meet you at the airport.",
+                      "ja": "ぼくは空港で君たちを出迎えるよ。"
+                    },
+                    {
+                      "id": "G2_U3_P2_S_12",
+                      "ref_num": "⑫",
+                      "en": "I'm looking forward to seeing you guys. :)",
+                      "ja": "君たちに会うことを楽しみにしているよ。:)"
+                    },
+                    {
+                      "id": "G2_U3_P2_S_13",
+                      "ref_num": "⑬",
+                      "en": "Take care,",
+                      "ja": "じゃあ、またね。"
+                    },
+                    {
+                      "id": "G2_U3_P2_S_14",
+                      "ref_num": "⑭",
+                      "en": "David",
+                      "ja": "デイヴィッド"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak (p.48)",
+                  "label": "週末の天気と、しようと思うことを伝え合おう",
+                  "items": [
+                    {
+                      "id": "G2_U3_P2_S_15",
+                      "speaker": "[例] A",
+                      "en": "How will the weather be on Saturday?",
+                      "ja": "土曜日の天気はどうなるでしょうか。"
+                    },
+                    {
+                      "id": "G2_U3_P2_S_16",
+                      "speaker": "[例] B",
+                      "en": "It'll be rainy all day. What will you do?",
+                      "ja": "一日中雨が降るでしょう。あなたは何をしようと思っていますか。"
+                    },
+                    {
+                      "id": "G2_U3_P2_S_17",
+                      "speaker": "[例] A",
+                      "en": "I'll stay home and relax. / I'll go shopping. I don't mind the rain.",
+                      "ja": "(私は家でくつろごうと思っています。 / 買い物に行こうと思っています。雨は気にしません。)"
+                    },
+                    {
+                      "id": "G2_U3_P2_S_18",
+                      "speaker": "[解答例] A",
+                      "en": "How will the weather be on Sunday?",
+                      "ja": "日曜日の天気はどうなるでしょうか。"
+                    },
+                    {
+                      "id": "G2_U3_P2_S_19",
+                      "speaker": "[解答例] B",
+                      "en": "It'll be sunny all day. What will you do?",
+                      "ja": "一日中晴れるでしょう。あなたは何をしようと思いますか。"
+                    },
+                    {
+                      "id": "G2_U3_P2_S_20",
+                      "speaker": "[解答例] A",
+                      "en": "I'll play soccer with my friends.",
+                      "ja": "友達とサッカーをしようと思います。"
+                    },
+                    {
+                      "id": "G2_U3_P2_S_21",
+                      "speaker": "Write [解答例]",
+                      "en": "It'll be sunny on Sunday. I'll play soccer with my friends.",
+                      "ja": "日曜日は晴れるでしょう。私は友達とサッカーをしようと思います。"
+                    }
+                  ]
+                }
+              ]
+            },
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "未来のことを言う。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "It is hot today.",
+                      "ja": "(今日は暑いです。)"
+                    },
+                    {
+                      "ref_num": "②",
+                      "en": "It ==**will be**== hot next week.",
+                      "ja": "(来週は暑くなるでしょう。)",
+                      "ref_id": "G2_U3_P2_S_09"
+                    },
+                    {
+                      "ref_num": "③",
+                      "en": "==**Will it**== be hot next week?",
+                      "ja": "(来週は暑くなりますか。)"
+                    },
+                    {
+                      "ref_num": "④",
+                      "en": "― Yes, it will. / No, it won't.",
+                      "ja": "(はい、なるでしょう。 / いいえ、ならないでしょう。)"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "助動詞 will",
+                  "text": "② **will** は助動詞の仲間で、「～しよう」という意志や、「～でしょう」という推測など、未来のことを表します。助動詞といっしょに使う動詞はいつも原形になります。",
+                  "items": [
+                    {
+                      "tag": "疑問文の作り方",
+                      "text": "③ will の疑問文は、**will** を主語の前に出して、**〈Will + 主語 + 動詞の原形 ～?〉** の語順になります。"
+                    },
+                    {
+                      "tag": "肯定文",
+                      "en": "It ==**will**== be hot next week.",
+                      "ja": "(来週は暑くなるでしょう。)"
+                    },
+                    {
+                      "tag": "疑問文",
+                      "en": "==**Will it**== be hot next week?",
+                      "ja": "(来週は暑くなりますか。)",
+                      "note": "※主語の前に出す。"
+                    },
+                    {
+                      "tag": "答え方",
+                      "text": "④ will の疑問文に答えるときは、**will** を使って答えます。",
+                      "en": "〈Yes, it will.〉 / 〈No, it won't. [won't ← will not]〉"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G2_U3_P2G_E_01",
+                      "ref_num": "⑤",
+                      "en": "Hi Tina and Kota,",
+                      "text": "相手が友達など、親しい場合に、メールで自然な書き出しをするときに使います。相手が年上や目上の場合は **Dear Mr. Rios (親愛なるリオス様)** のように書きます。",
+                      "ref_id": "G2_U3_P2_S_05"
+                    },
+                    {
+                      "id": "G2_U3_P2G_E_02",
+                      "ref_num": "⑨",
+                      "en": "It'll be hot next week, so don't forget your sunscreen and sunglasses!",
+                      "text": "未来を表す助動詞 **will** の文です。**it'll** は **it will** の短縮形で、「～でしょう」という推測を表しています。",
+                      "ref_id": "G2_U3_P2_S_09"
+                    },
+                    {
+                      "id": "G2_U3_P2G_E_03",
+                      "ref_num": "⑩",
+                      "en": "By the way, when will your flight arrive?",
+                      "text": "未来を表す助動詞 **will** があるため、動詞 **arrive** は原形になっています。**by the way** 「ところで」 は、話題を変えるときなどに使います。",
+                      "ref_id": "G2_U3_P2_S_10"
+                    },
+                    {
+                      "id": "G2_U3_P2G_E_04",
+                      "ref_num": "⑪",
+                      "en": "I'll meet you at the airport.",
+                      "text": "未来を表す助動詞 **will** の文です。**I'll** は **I will** の短縮形で、「～します」という未来の意志を表しています。",
+                      "ref_id": "G2_U3_P2_S_11"
+                    },
+                    {
+                      "id": "G2_U3_P2G_E_05",
+                      "ref_num": "⑬",
+                      "en": "Take care,",
+                      "note": "→教科書p.34 Key Phrase",
+                      "text": "「じゃあ、またね。」と、メールなどの結びの挨拶で使われます。",
+                      "ref_id": "G2_U3_P2_S_13"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 52
+        },
+        "P3": {
+          "title": "Part 3: シンガポールにやって来た！",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G2_U3_P3_W_01",
+                  "headword": "Changi Airport",
+                  "pos": "名",
+                  "meaning": "チャンギ空港"
+                },
+                {
+                  "id": "G2_U3_P3_W_02",
+                  "headword": "both",
+                  "pronunciation": "bóuθ",
+                  "pos": "代",
+                  "meaning": "両方、2人 [つ] とも"
+                },
+                {
+                  "id": "G2_U3_P3_W_03",
+                  "headword": "of",
+                  "pronunciation": "ʌ́v, əv",
+                  "pos": "前",
+                  "usage": "〔部分〕",
+                  "meaning": "～の中の"
+                },
+                {
+                  "id": "G2_U3_P3_W_04",
+                  "headword": "if",
+                  "pronunciation": "íf",
+                  "pos": "接",
+                  "meaning": "もし～ならば"
+                },
+                {
+                  "id": "G2_U3_P3_W_05",
+                  "headword": "stall(s)",
+                  "pronunciation": "stɔ́ːl(z)",
+                  "pos": "名",
+                  "meaning": "屋台"
+                },
+                {
+                  "id": "G2_U3_P3_W_06",
+                  "headword": "show",
+                  "pronunciation": "ʃóu",
+                  "pos": "動",
+                  "meaning": "(人) を案内する"
+                },
+                {
+                  "id": "G2_U3_P3_W_07",
+                  "headword": "around",
+                  "pronunciation": "əráund",
+                  "pos": "副",
+                  "meaning": "あちこちを"
+                },
+                {
+                  "id": "G2_U3_P3_W_08",
+                  "headword": "excellent",
+                  "pronunciation": "éksələnt",
+                  "pos": "形",
+                  "meaning": "すばらしい、非常に優れた"
+                },
+                {
+                  "id": "G2_U3_P3_W_09",
+                  "headword": "go straight home",
+                  "pos": "熟",
+                  "meaning": "まっすぐ家に帰る"
+                },
+                {
+                  "id": "G2_U3_P3_W_10",
+                  "headword": "show ~ around",
+                  "pos": "熟",
+                  "meaning": "～を案内して回る"
+                },
+                {
+                  "id": "G2_U3_P3_W_11",
+                  "headword": "Merlion Park",
+                  "pos": "名",
+                  "meaning": "マーライオン公園"
+                },
+                {
+                  "id": "G2_U3_P3_W_12",
+                  "headword": "aquarium",
+                  "pronunciation": "əkwέəriəm",
+                  "pos": "名",
+                  "meaning": "水族館"
+                },
+                {
+                  "id": "G2_U3_P3_W_13",
+                  "headword": "swimming pool",
+                  "pos": "名",
+                  "meaning": "プール"
+                },
+                {
+                  "id": "G2_U3_P3_W_14",
+                  "headword": "picnic",
+                  "pronunciation": "píknik",
+                  "pos": "名",
+                  "meaning": "ピクニック"
+                },
+                {
+                  "id": "G2_U3_P3_W_15",
+                  "headword": "a bit",
+                  "pos": "熟",
+                  "meaning": "少し、ちょっと"
+                },
+                {
+                  "id": "G2_U3_P3_W_16",
+                  "headword": "have a picnic",
+                  "pos": "熟",
+                  "meaning": "ピクニックをする"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "dialogue_section",
+                  "header": "シンガポールにやって来た！ (p.49)",
+                  "items": [
+                    {
+                      "id": "G2_U3_P3_S_Q1",
+                      "speaker": "Question",
+                      "ja": "Q. コウタたちは、この後どこへ行くでしょうか。"
+                    },
+                    {
+                      "id": "G2_U3_P3_S_A1",
+                      "speaker": "Answer",
+                      "ja": "A. (例) 中華街。"
+                    },
+                    {
+                      "id": "G2_U3_P3_S_01",
+                      "ref_num": "①",
+                      "speaker": "Setting",
+                      "en": "At Singapore Changi Airport:",
+                      "ja": "シンガポール・チャンギ空港で："
+                    },
+                    {
+                      "id": "G2_U3_P3_S_02",
+                      "ref_num": "②",
+                      "speaker": "David",
+                      "en": "Welcome to Singapore, both of you!",
+                      "ja": "ふたりとも、シンガポールへようこそ！"
+                    },
+                    {
+                      "id": "G2_U3_P3_S_03",
+                      "ref_num": "③",
+                      "speaker": "Tina",
+                      "en": "David!",
+                      "ja": "デイヴィッド！"
+                    },
+                    {
+                      "id": "G2_U3_P3_S_04",
+                      "ref_num": "④",
+                      "speaker": "Tina",
+                      "en": "Good to see you.",
+                      "ja": "会えてうれしいよ。"
+                    },
+                    {
+                      "id": "G2_U3_P3_S_05",
+                      "ref_num": "⑤",
+                      "speaker": "David",
+                      "en": "Same here.",
+                      "ja": "ぼくもだよ。"
+                    },
+                    {
+                      "id": "G2_U3_P3_S_06",
+                      "ref_num": "⑥",
+                      "speaker": "Kota",
+                      "en": "Hi, David.",
+                      "ja": "こんにちは、デイヴィッド。"
+                    },
+                    {
+                      "id": "G2_U3_P3_S_07",
+                      "ref_num": "⑦",
+                      "speaker": "David",
+                      "en": "Welcome, Kota!",
+                      "ja": "ようこそ、コウタ！"
+                    },
+                    {
+                      "id": "G2_U3_P3_S_08",
+                      "ref_num": "⑧",
+                      "speaker": "David",
+                      "en": "How was the flight?",
+                      "ja": "フライトはどうだった？"
+                    },
+                    {
+                      "id": "G2_U3_P3_S_09",
+                      "ref_num": "⑨",
+                      "speaker": "Kota",
+                      "en": "It was a little scary, but exciting!",
+                      "ja": "少し怖かったけど、わくわくしたよ！"
+                    },
+                    {
+                      "id": "G2_U3_P3_S_10",
+                      "ref_num": "⑩",
+                      "speaker": "David",
+                      "en": "If you're tired, we can go straight home.",
+                      "ja": "もし疲れているなら、まっすぐ家に帰れるよ。"
+                    },
+                    {
+                      "id": "G2_U3_P3_S_11",
+                      "ref_num": "⑪",
+                      "speaker": "Tina",
+                      "en": "No, I'm fine.",
+                      "ja": "いや、大丈夫だよ。"
+                    },
+                    {
+                      "id": "G2_U3_P3_S_12",
+                      "ref_num": "⑫",
+                      "speaker": "David",
+                      "en": "If you're hungry, we can go to the food stalls in Chinatown.",
+                      "ja": "もしお腹が空いていたら、中華街の食べ物の屋台に行くこともできるよ。"
+                    },
+                    {
+                      "id": "G2_U3_P3_S_13",
+                      "ref_num": "⑬",
+                      "speaker": "Kota",
+                      "en": "Excellent.",
+                      "ja": "すばらしいね。"
+                    },
+                    {
+                      "id": "G2_U3_P3_S_14",
+                      "ref_num": "⑭",
+                      "speaker": "Kota",
+                      "en": "I want to see the city.",
+                      "ja": "街を見てみたい。 "
+                    },
+                    {
+                      "id": "G2_U3_P3_S_15",
+                      "ref_num": "⑮",
+                      "speaker": "David",
+                      "en": "Sure.",
+                      "ja": "いいよ。"
+                    },
+                    {
+                      "id": "G2_U3_P3_S_16",
+                      "ref_num": "⑯",
+                      "speaker": "David",
+                      "en": "I'll show you around.",
+                      "ja": "案内するよ。"
+                    },
+                    {
+                      "id": "G2_U3_P3_S_17",
+                      "ref_num": "⑰",
+                      "speaker": "Kota",
+                      "en": "Awesome.",
+                      "ja": "最高だね。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak (p.50)",
+                  "label": "条件に合わせてしようと思うことを伝え合おう",
+                  "items": [
+                    {
+                      "id": "G2_U3_P3_S_18",
+                      "speaker": "[例] A",
+                      "en": "If it's sunny next Sunday, what will you do?",
+                      "ja": "もし来週の日曜日が晴れたら、何をしますか。"
+                    },
+                    {
+                      "id": "G2_U3_P3_S_19",
+                      "speaker": "[例] B",
+                      "en": "If it's sunny, I'll have a picnic in the park.",
+                      "ja": "もし晴れたら、公園でピクニックをしようと思います。"
+                    },
+                    {
+                      "id": "G2_U3_P3_S_20",
+                      "speaker": "[解答例] A",
+                      "en": "If it's rainy next Sunday, what will you do?",
+                      "ja": "もし来週の日曜日が雨だったら、何をしますか。"
+                    },
+                    {
+                      "id": "G2_U3_P3_S_21",
+                      "speaker": "[解答例] B",
+                      "en": "If it's rainy, I'll watch TV at home.",
+                      "ja": "もし雨が降ったら、家でテレビを見ようと思います。"
+                    },
+                    {
+                      "id": "G2_U3_P3_S_22",
+                      "speaker": "Write [解答例]",
+                      "en": "If it's rainy next Sunday, I'll clean my room. If it's rainy, Taichi will read a book at home.",
+                      "ja": "もし来週の日曜日が雨だったら、私は部屋を掃除しようと思います。もし雨が降ったら、タイチは家で本を読むでしょう。"
+                    }
+                  ]
+                }
+              ]
+            },
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "どんな場合かを示して言う。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "==**If**== you're tired, we can go straight home.",
+                      "ja": "(あなたが疲れているのなら、そのまま家に帰ってもいいですよ。)",
+                      "ref_id": "G2_U3_P3_S_10"
+                    },
+                    {
+                      "ref_num": "②",
+                      "en": "We can go straight home ==**if**== you're tired.",
+                      "ja": "(あなたが疲れているのなら、そのまま家に帰ってもいいですよ。)",
+                      "ref_id": "G2_U3_P3_S_10"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "接続詞 if",
+                  "text": "**if** は接続詞の仲間で、2つの文をつないで「もし～なら…」という条件を表します。**if** に続く文は、文の頭にも途中にも置くことができます。",
+                  "items": [
+                    {
+                      "en": "==**If**== you're tired ==**,**== we can go straight home.",
+                      "ja": "(あなたが疲れているのなら、そのまま家に帰ってもいいですよ。)",
+                      "note": "※if が前にくるときは、カンマが必要。"
+                    },
+                    {
+                      "en": "We can go straight home ==**if**== you're tired.",
+                      "ja": "(あなたが疲れているのなら、そのまま家に帰ってもいいですよ。)",
+                      "note": "※後にくるときは、カンマは付けない。"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G2_U3_P3G_E_01",
+                      "ref_num": "②",
+                      "en": "Welcome to Singapore, both of you!",
+                      "note": "→教科書p.36 Key Phrases",
+                      "text": "**Welcome to ～** で 「～へようこそ」 という意味になります。 **both** は 「両方、2人［つ］とも」 という意味を表す代名詞です。",
+                      "ref_id": "G2_U3_P3_S_02"
+                    },
+                    {
+                      "id": "G2_U3_P3G_E_02",
+                      "ref_num": "⑤",
+                      "en": "Same here.",
+                      "note": "→教科書p.36 Key Phrases",
+                      "text": "相手が言ったことなどに対し、 「私も同じです」 と同意を示す表現です。",
+                      "ref_id": "G2_U3_P3_S_05"
+                    },
+                    {
+                      "id": "G2_U3_P3G_E_03",
+                      "ref_num": "⑩, ⑫",
+                      "en": "If you're tired, we can go straight home. / If you're hungry, we can go to the food stalls in Chinatown.",
+                      "text": "「もし～なら…」 という条件を表す接続詞 **if** の文です。 **if** に続く文は、文の頭にも途中にも置くことができます。",
+                      "ref_id": "G2_U3_P3_S_10"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 53
+        },
+        "ST": {
+          "title": "Start: Plans for the Summer",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G2_U3_ST_W_01",
+                  "headword": "plan",
+                  "pronunciation": "plǽn",
+                  "pos": "名",
+                  "meaning": "計画、予定"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "goal_section",
+                  "header": "Unit 3 の目標 (Goal)",
+                  "items": [
+                    {
+                      "tag": "Read",
+                      "text": "メールの用件や、返事が必要なことを読み取ることができる。"
+                    },
+                    {
+                      "tag": "Write",
+                      "text": "用件や気持ちが伝わるように、メールの返事を書くことができる。"
+                    }
+                  ]
+                },
+                {
+                  "type": "intro_section",
+                  "header": "About You",
+                  "items": [
+                    {
+                      "id": "G2_U3_ST_S_01",
+                      "en": "What did you do last summer?",
+                      "ja": "昨年の夏、あなたは何をしましたか。"
+                    },
+                    {
+                      "id": "G2_U3_ST_S_02",
+                      "en": "What do you want to do this summer?",
+                      "ja": "今年の夏、あなたは何をしたいですか。"
+                    },
+                    {
+                      "id": "G2_U3_ST_S_03",
+                      "speaker": "例",
+                      "en": "I visited my grandparents last summer.",
+                      "ja": "昨年の夏、私は祖父母を訪ねました。"
+                    },
+                    {
+                      "id": "G2_U3_ST_S_04",
+                      "speaker": "例",
+                      "en": "I want to go on a trip this summer.",
+                      "ja": "今年の夏私は旅行に出かけたいです。"
+                    }
+                  ]
+                },
+                {
+                  "type": "check_section",
+                  "header": "ストーリーのおおまかな内容をつかむ",
+                  "label": "1. 予想する",
+                  "items": [
+                    {
+                      "id": "G2_U3_ST_S_05",
+                      "en": "What's Kota's plan for the vacation?",
+                      "ja": "コウタの休暇の予定は何ですか。"
+                    },
+                    {
+                      "id": "G2_U3_ST_S_06",
+                      "speaker": "解答例",
+                      "en": "His plan is to practice the trumpet.",
+                      "ja": "(例) 彼の予定はトランペットを練習することです。"
+                    }
+                  ]
+                },
+                {
+                  "type": "context_section",
+                  "header": "2. 音声を聞く",
+                  "label": "ピクチャーカードの場面順 (ストーリーの流れ)",
+                  "items": [
+                    {
+                      "id": "G2_U3_ST_S_07",
+                      "ja": "エリとハジンが夏休みの予定を話している"
+                    },
+                    {
+                      "id": "G2_U3_ST_S_08",
+                      "ja": "4人が話しているときコウタが驚いている"
+                    },
+                    {
+                      "id": "G2_U3_ST_S_09",
+                      "ja": "コウタが読んでいるメールには荷物のことが書いてある"
+                    },
+                    {
+                      "id": "G2_U3_ST_S_10",
+                      "ja": "コウタが読んでいるメールにはサングラスと日焼け止めのことが書いてある"
+                    },
+                    {
+                      "id": "G2_U3_ST_S_11",
+                      "ja": "ティナとコウタが空港でデイヴィッドたちと会う"
+                    },
+                    {
+                      "id": "G2_U3_ST_S_12",
+                      "ja": "デイヴィッドがこれからの予定を提案している"
+                    }
+                  ]
+                },
+                {
+                  "type": "watch_section",
+                  "header": "3. 映像を見る",
+                  "items": [
+                    {
+                      "id": "G2_U3_ST_S_13",
+                      "text": "ストーリーの内容を確かめましょう。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 44
+        },
+        "WT1": {
+          "title": "World Tour 1",
+          "views": {
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "intro_section",
+                  "header": "世界のあちこちの英語を知ろう",
+                  "items": [
+                    {
+                      "id": "G2_U3_WT1_S_01",
+                      "ja": "シンガポールのテレビ番組で、さまざまな人が街頭インタビューに答えていました。映像を見て、それぞれの人の出身国とシンガポールの好きなところを確かめましょう。"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_script",
+                  "header": "音声の内容 (1) Sai from India (p.71)",
+                  "items": [
+                    {
+                      "id": "G2_U3_WT1_S_02",
+                      "speaker": "Interviewer",
+                      "en": "Excuse me. May I ask you a few questions?",
+                      "ja": "すみません。いくつか質問させていただいてよろしいですか。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_03",
+                      "speaker": "Sai",
+                      "en": "Sure. Go ahead.",
+                      "ja": "もちろんですよ。どうぞ。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_04",
+                      "speaker": "Interviewer",
+                      "en": "Thank you. I'm Rin. May I have your name?",
+                      "ja": "ありがとうございます。私はリンです。お名前を教えていただけますか。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_05",
+                      "speaker": "Sai",
+                      "en": "I am Sai.",
+                      "ja": "サイです。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_06",
+                      "speaker": "Interviewer",
+                      "en": "Nice to meet you, Sai. Where are you from?",
+                      "ja": "はじめまして、サイさん。どちらのご出身ですか。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_07",
+                      "speaker": "Sai",
+                      "en": "I am from India.",
+                      "ja": "インド出身です。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_08",
+                      "speaker": "Interviewer",
+                      "en": "That's cool. How long are you staying in Singapore?",
+                      "ja": "いいですね。どのくらいの間シンガポールに滞在されていますか。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_09",
+                      "speaker": "Sai",
+                      "en": "I'm staying for about a week.",
+                      "ja": "1週間ほど滞在しています。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_10",
+                      "speaker": "Interviewer",
+                      "en": "Awesome! What did you do here in Singapore?",
+                      "ja": "すてきですね！ ここシンガポールであなたは何をしましたか。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_11",
+                      "speaker": "Sai",
+                      "en": "I went to Chinatown and ate some local dishes.",
+                      "ja": "中華街に行って郷土料理を食べました。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_12",
+                      "speaker": "Interviewer",
+                      "en": "Great. What do you like about Singapore?",
+                      "ja": "いいですね。シンガポールのどこが好きですか。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_13",
+                      "speaker": "Sai",
+                      "en": "The food is amazing. Chicken rice is my favorite.",
+                      "ja": "食べ物がすばらしいです。チキンライスが私の好物です。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_14",
+                      "speaker": "Interviewer",
+                      "en": "I see. Thank you so much.",
+                      "ja": "なるほど。ありがとうございました。"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_script",
+                  "header": "音声の内容 (2) Mike from the U.S. (p.71-72)",
+                  "items": [
+                    {
+                      "id": "G2_U3_WT1_S_15",
+                      "speaker": "Interviewer",
+                      "en": "Hello there. May I ask you a few questions?",
+                      "ja": "こんにちは。いくつか質問させていただいていいですか。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_16",
+                      "speaker": "Mike",
+                      "en": "Of course.",
+                      "ja": "もちろんです。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_17",
+                      "speaker": "Interviewer",
+                      "en": "Thank you. I'm Rin. May I have your name?",
+                      "ja": "ありがとうございます。私はリンです。お名前を教えていただけますか。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_18",
+                      "speaker": "Mike",
+                      "en": "I'm Mike.",
+                      "ja": "マイクです。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_19",
+                      "speaker": "Interviewer",
+                      "en": "Nice to meet you, Mike! Where are you from?",
+                      "ja": "はじめまして、マイクさん！ どちらのご出身ですか。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_20",
+                      "speaker": "Mike",
+                      "en": "I'm from the United States.",
+                      "ja": "アメリカ合衆国出身です。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_21",
+                      "speaker": "Interviewer",
+                      "en": "I see. How long are you staying in Singapore?",
+                      "ja": "なるほど。どのくらいの間シンガポールに滞在されていますか。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_22",
+                      "speaker": "Mike",
+                      "en": "I'm staying for about two weeks.",
+                      "ja": "2週間ほど滞在しています。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_23",
+                      "speaker": "Interviewer",
+                      "en": "Wow, that's a long stay. What did you do yesterday, and what are you going to do in Singapore?",
+                      "ja": "わあ、長いご滞在ですね。昨日は何をしましたか、また、何ををする予定ですか。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_24",
+                      "speaker": "Mike",
+                      "en": "Well, I visited the Night Safari yesterday. It was amazing.",
+                      "ja": "うーん、昨日はナイトサファリに行きました。すばらしかったです。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_25",
+                      "speaker": "Mike",
+                      "en": "I'm going to visit Merlion Park and Gardens by the Bay today.",
+                      "ja": "今日はマーライオン公園とガーデンズ・バイ・ザ・ベイを訪れる予定です。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_26",
+                      "speaker": "Interviewer",
+                      "en": "Sounds fun! What do you like about Singapore?",
+                      "ja": "楽しそうですね！ シンガポールのどこが好きですか。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_27",
+                      "speaker": "Mike",
+                      "en": "Well, many people speak English, so we can communicate easily with local people.",
+                      "ja": "うーん、多くの人が英語を話すので、地元の人と簡単にコミュニケーションをとることができますね。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_28",
+                      "speaker": "Interviewer",
+                      "en": "I see. Have a good time in Singapore!",
+                      "ja": "なるほど。シンガポールでよいときをお過ごしください！"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_script",
+                  "header": "音声の内容 (3) Cindy from the U.K. (p.72)",
+                  "items": [
+                    {
+                      "id": "G2_U3_WT1_S_29",
+                      "speaker": "Interviewer",
+                      "en": "Hello there. May I ask you a few questions?",
+                      "ja": "こんにちは。いくつか質問させていただいていいですか。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_30",
+                      "speaker": "Cindy",
+                      "en": "Yes.",
+                      "ja": "はい。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_31",
+                      "speaker": "Interviewer",
+                      "en": "Thank you. I'm Rin. May I have your name?",
+                      "ja": "ありがとうございます。私はリンです。お名前を教えていただけますか。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_32",
+                      "speaker": "Cindy",
+                      "en": "I'm Cindy.",
+                      "ja": "シンディーです。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_33",
+                      "speaker": "Interviewer",
+                      "en": "Nice to meet you, Cindy. Where are you from?",
+                      "ja": "はじめまして、シンディーさん。どちらのご出身ですか。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_34",
+                      "speaker": "Cindy",
+                      "en": "I'm from the U.K.",
+                      "ja": "イギリス出身です。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_35",
+                      "speaker": "Interviewer",
+                      "en": "Oh, really? How long are you staying in Singapore?",
+                      "ja": "まあ、本当に？ どのくらいの間シンガポールに滞在されていますか。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_36",
+                      "speaker": "Cindy",
+                      "en": "I'm staying here for five days.",
+                      "ja": "ここには5日間滞在しています。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_37",
+                      "speaker": "Interviewer",
+                      "en": "Great. What did you do, and what are you going to do in Singapore?",
+                      "ja": "いいですね。あなたは何をしましたか、また、何をする予定ですか。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_38",
+                      "speaker": "Cindy",
+                      "en": "I visited Chinatown yesterday, so today I'm going to visit Arab Street. I want to visit the Mosque.",
+                      "ja": "昨日は中華街を訪れたので、今日はアラブ・ストリートを訪れる予定です。モスクに行きたいです。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_39",
+                      "speaker": "Interviewer",
+                      "en": "Awesome. What do you like about Singapore?",
+                      "ja": "すばらしいですね。シンガポールのどこが好きですか。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_40",
+                      "speaker": "Cindy",
+                      "en": "The city is very clean. I didn't see any trash on the streets.",
+                      "ja": "街がとてもきれいです。道にゴミを1つも見かけませんでした。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_41",
+                      "speaker": "Interviewer",
+                      "en": "I see. Have a good time in Singapore!",
+                      "ja": "なるほど。シンガポールでよいときをお過ごしください！"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_script",
+                  "header": "音声の内容 (4) Yun from Singapore (p.72)",
+                  "items": [
+                    {
+                      "id": "G2_U3_WT1_S_42",
+                      "speaker": "Interviewer",
+                      "en": "Excuse me. May I ask you a few questions?",
+                      "ja": "すみません。いくつか質問させていただいてよろしいですか。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_43",
+                      "speaker": "Yun",
+                      "en": "OK. Go ahead.",
+                      "ja": "いいですよ。どうぞ。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_44",
+                      "speaker": "Interviewer",
+                      "en": "Thank you. I'm Rin. May I have your name?",
+                      "ja": "ありがとうございます。私はリンです。お名前を教えていただけますか。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_45",
+                      "speaker": "Yun",
+                      "en": "I'm Yun.",
+                      "ja": "私はユンです。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_46",
+                      "speaker": "Interviewer",
+                      "en": "Nice to meet you, Yun! Where are you from?",
+                      "ja": "はじめまして、ユンさん！ どちらのご出身ですか。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_47",
+                      "speaker": "Yun",
+                      "en": "I'm originally from Singapore, but now I'm living in Canada. I'm traveling around Asia now.",
+                      "ja": "私は元々はシンガポール出身ですが、今はカナダに住んでいます。現在、アジアのあちこちを旅行しているところです。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_48",
+                      "speaker": "Interviewer",
+                      "en": "Oh, you're from Singapore. How long are you staying in Singapore this time?",
+                      "ja": "まあ、シンガポールのご出身なのですね。今回はシンガポールにどのくらい滞在されていますか。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_49",
+                      "speaker": "Yun",
+                      "en": "I'm staying here for three days, and then I'll travel to Korea.",
+                      "ja": "3日間滞在しています、そしてそれから韓国へ旅行します。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_50",
+                      "speaker": "Interviewer",
+                      "en": "Only for three days! What did you do, and what are you going to do in Singapore?",
+                      "ja": "たった3日間！ シンガポールで何をしましたか、また、何をする予定ですか。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_51",
+                      "speaker": "Yun",
+                      "en": "I saw my friends yesterday, and I'm going to see my parents tonight.",
+                      "ja": "昨日は友達に会いました、それから今夜は両親に会う予定です。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_52",
+                      "speaker": "Interviewer",
+                      "en": "Sounds good. What do you like about Singapore?",
+                      "ja": "楽しそうですね。シンガポールのどこが好きですか。"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_53",
+                      "speaker": "Yun",
+                      "en": "I love the hot weather in Singapore. We can swim and enjoy outdoor activities all year round here. The winter in Canada is too cold for me!",
+                      "ja": "シンガポールの暑い気候がとても好きです。このあたりでは年中、泳いだり野外活動を楽しんだりすることができます。カナダの冬は私には寒すぎます！"
+                    },
+                    {
+                      "id": "G2_U3_WT1_S_54",
+                      "speaker": "Interviewer",
+                      "en": "I see. Thank you so much.",
+                      "ja": "なるほど。ありがとうございました。"
+                    }
+                  ]
+                },
+                {
+                  "type": "extra_section",
+                  "header": "Extra：シンガポール英語「シングリッシュ」について",
+                  "items": [
+                    {
+                      "id": "G2_U3_WT1_S_55",
+                      "ja": "シンガポール英語は「シングリッシュ」とも呼ばれます。シングリッシュは、中国語やマレー語などさまざまな言語からの影響を受けています。標準的な英語ではなく、独特の発音や語い、文法が見られます。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "71-72"
+        },
+        "YCDI1": {
+          "title": "You Can Do It! 1",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G2_U3_YCDI_W_01",
+                  "headword": "Finland",
+                  "pos": "名",
+                  "meaning": "フィンランド"
+                },
+                {
+                  "id": "G2_U3_YCDI_W_02",
+                  "headword": "Tampere",
+                  "pos": "名",
+                  "meaning": "タンペレ 〔フィンランドの都市〕"
+                },
+                {
+                  "id": "G2_U3_YCDI_W_03",
+                  "headword": "popular",
+                  "pronunciation": "pάpjulər",
+                  "pos": "形",
+                  "meaning": "一般的な、広く普及した"
+                },
+                {
+                  "id": "G2_U3_YCDI_W_04",
+                  "headword": "for",
+                  "pronunciation": "fɔ́ːr, fər",
+                  "pos": "前",
+                  "usage": "〔相当〕",
+                  "meaning": "～を表して"
+                },
+                {
+                  "id": "G2_U3_YCDI_W_05",
+                  "headword": "girl(s)",
+                  "pronunciation": "ɡə́ːrl(z)",
+                  "pos": "名",
+                  "meaning": "女の子、少女"
+                },
+                {
+                  "id": "G2_U3_YCDI_W_06",
+                  "headword": "country",
+                  "pronunciation": "kʌ́ntri",
+                  "pos": "名",
+                  "meaning": "国"
+                },
+                {
+                  "id": "G2_U3_YCDI_W_07",
+                  "headword": "boy(s)",
+                  "pronunciation": "bɔ́i(z)",
+                  "pos": "名",
+                  "meaning": "男の子、少年"
+                },
+                {
+                  "id": "G2_U3_YCDI_W_08",
+                  "headword": "share",
+                  "pronunciation": "ʃέər",
+                  "pos": "動",
+                  "meaning": "(～を) 分かち合う、共有する"
+                },
+                {
+                  "id": "G2_U3_YCDI_W_09",
+                  "headword": "ice hockey",
+                  "pos": "名",
+                  "meaning": "アイスホッケー"
+                },
+                {
+                  "id": "G2_U3_YCDI_W_10",
+                  "headword": "São Paulo",
+                  "pos": "名",
+                  "meaning": "サンパウロ 〔ブラジルの都市〕"
+                },
+                {
+                  "id": "G2_U3_YCDI_W_11",
+                  "headword": "great",
+                  "pronunciation": "ɡréit",
+                  "pos": "形",
+                  "usage": "〔複合語で〕",
+                  "meaning": "1親等を隔てた"
+                },
+                {
+                  "id": "G2_U3_YCDI_W_12",
+                  "headword": "great-grandparent(s)",
+                  "pos": "名",
+                  "meaning": "曾祖父、曾祖母、〔-sで〕曾祖父母"
+                },
+                {
+                  "id": "G2_U3_YCDI_W_13",
+                  "headword": "Brazilian(s)",
+                  "pronunciation": "brəzíljən(z)",
+                  "pos": "名",
+                  "meaning": "ブラジル人"
+                },
+                {
+                  "id": "G2_U3_YCDI_W_14",
+                  "headword": "Japanese-Brazilian(s)",
+                  "pos": "名",
+                  "meaning": "日系ブラジル人"
+                },
+                {
+                  "id": "G2_U3_YCDI_W_15",
+                  "headword": "ago",
+                  "pronunciation": "əɡóu",
+                  "pos": "副",
+                  "meaning": "～前に"
+                },
+                {
+                  "id": "G2_U3_YCDI_W_16",
+                  "headword": "among",
+                  "pronunciation": "əmʌ́ŋ",
+                  "pos": "前",
+                  "meaning": "～に含まれて、～の中に"
+                },
+                {
+                  "id": "G2_U3_YCDI_W_17",
+                  "headword": "share ~ with ...",
+                  "pos": "熟",
+                  "meaning": "～を…と共有する"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "intro_section",
+                  "header": "目標・場面・状況 (p.68)",
+                  "items": [
+                    {
+                      "id": "G2_U3_YCDI_S_01",
+                      "ja": "あなたの学校に来週から、外国からの交換留学生がやって来ます。フィンランドからの Mika Laine と、ブラジルからの Laura Matsumoto の2人です。あなたの町の魅力を知ってもらうために、2人にぴったりの観光プランを考えましょう。"
+                    }
+                  ]
+                },
+                {
+                  "type": "reading_section",
+                  "header": "Mika Laine from Finland (p.68)",
+                  "items": [
+                    {
+                      "id": "G2_U3_YCDI_S_02",
+                      "speaker": "Mika",
+                      "en": "Hi, everyone. I'm Mika Laine. I'm from Tampere, in Finland.",
+                      "ja": "やあ、みんな。ぼくはミカ・ライネです。フィンランドのタンペレ出身です。"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_03",
+                      "speaker": "Mika",
+                      "en": "In Japan, \"Mika\" is a popular name for girls, but in our country, it's popular for boys.",
+                      "ja": "日本では、「ミカ」は女の子向けの一般的な名前ですが、ぼくたちの国では、男の子向けに一般的です。"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_04",
+                      "speaker": "Mika",
+                      "en": "You can call me Mika-chan, if you want.",
+                      "ja": "よければ、ぼくのことをミカちゃんと呼んでもいいですよ。"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_05",
+                      "speaker": "Mika",
+                      "en": "My hobby is taking photos and sharing them with my friends.",
+                      "ja": "ぼくの趣味は写真を撮ることと、その写真を友達とシェアすることです。"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_06",
+                      "speaker": "Mika",
+                      "en": "I take a lot of photos every day.",
+                      "ja": "ぼくは毎日たくさんの写真を撮ります。"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_07",
+                      "speaker": "Mika",
+                      "en": "And I like sports very much. I like playing volleyball and ice hockey.",
+                      "ja": "また、ぼくはスポーツがとても好きです。バレーボールとアイスホッケーをするのが好きです。"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_08",
+                      "speaker": "Mika",
+                      "en": "I also like swimming and skiing. I want to go to the beach or swimming pool this summer.",
+                      "ja": "水泳とスキーも好きです。この夏はビーチやプールに行きたいです。"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_09",
+                      "en": "[85 words]",
+                      "ja": "[85語]"
+                    }
+                  ]
+                },
+                {
+                  "type": "reading_section",
+                  "header": "Laura Matsumoto from Brazil (p.68)",
+                  "items": [
+                    {
+                      "id": "G2_U3_YCDI_S_10",
+                      "speaker": "Laura",
+                      "en": "Hi! Konnichiwa. I'm Laura Matsumoto. I'm from São Paulo, in Brazil.",
+                      "ja": "こんにちは！ コンニチワ。ローラ・マツモトです。ブラジルのサンパウロ出身です。"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_11",
+                      "speaker": "Laura",
+                      "en": "My great-grandparents were Japanese. Many Japanese-Brazilians live in Brazil.",
+                      "ja": "私の曾祖父母は日本人でした。たくさんの日系ブラジル人がブラジルに住んでいます。"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_12",
+                      "speaker": "Laura",
+                      "en": "About 100 years ago, a lot of Japanese people came to Brazil for jobs.",
+                      "ja": "約100年前、多くの日本人が仕事を求めてブラジルに来ました。"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_13",
+                      "speaker": "Laura",
+                      "en": "My great-grandparents were among them.",
+                      "ja": "私の曾祖父母もその中にいました。"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_14",
+                      "speaker": "Laura",
+                      "en": "I live with my parents and my brother.",
+                      "ja": "私は両親と弟といっしょに住んでいます。"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_15",
+                      "speaker": "Laura",
+                      "en": "He is nine years old and very good at soccer. I also play soccer.",
+                      "ja": "弟は9歳でサッカーがとても得意です。私もサッカーをします。"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_16",
+                      "speaker": "Laura",
+                      "en": "I like cycling and swimming. I like eating Japanese food, too.",
+                      "ja": "私はサイクリングと水泳が好きです。日本食を食べるのも好きです。"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_17",
+                      "speaker": "Laura",
+                      "en": "I want to go to summer festivals this summer.",
+                      "ja": "私はこの夏は夏祭りに行きたいです。"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_18",
+                      "en": "[81 words]",
+                      "ja": "[81語]"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "観光プランの検討 (p.69)",
+                  "label": "おすすめプランのリスト (解答例)",
+                  "items": [
+                    {
+                      "id": "G2_U3_YCDI_S_19",
+                      "tag": "例：見どころ",
+                      "en": "Honcho Swimming Pool",
+                      "ja": "本町プール"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_20",
+                      "tag": "おすすめポイント",
+                      "en": "It's so big.",
+                      "ja": "とても大きいです。"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_21",
+                      "tag": "予算",
+                      "en": "500 yen",
+                      "ja": "500円"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_22",
+                      "tag": "1：見どころ",
+                      "en": "Higashi Park",
+                      "ja": "東公園"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_23",
+                      "tag": "おすすめポイント",
+                      "en": "You can enjoy cycling.",
+                      "ja": "サイクリングを楽しめます。"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_24",
+                      "tag": "2：見どころ",
+                      "en": "Higashi Restaurant",
+                      "ja": "東レストラン"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_25",
+                      "tag": "おすすめポイント",
+                      "en": "It's famous for its delicious sushi.",
+                      "ja": "おいしいお寿司で有名です。"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_26",
+                      "tag": "3：見どころ",
+                      "en": "Higashi Shrine",
+                      "ja": "東神社"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_27",
+                      "tag": "おすすめポイント",
+                      "en": "You can see the beautiful fireworks.",
+                      "ja": "美しい花火を見られます。"
+                    }
+                  ]
+                },
+                {
+                  "type": "model_section",
+                  "header": "観光プランを作ろう：私たちのプラン (p.69)",
+                  "items": [
+                    {
+                      "id": "G2_U3_YCDI_S_28",
+                      "en": "This is our sightseeing plan.",
+                      "ja": "これが私たちの観光プランです。"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_29",
+                      "en": "First, we'll go to Higashi Park. You can enjoy cycling.",
+                      "ja": "初めに、東公園へ行きます。サイクリングを楽しむことができます。"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_30",
+                      "en": "Second, we'll eat lunch at Higashi Restaurant. It is famous for its delicious sushi.",
+                      "ja": "次に、東レストランで昼食をとります。ここはおいしいお寿司で有名です。"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_31",
+                      "en": "You can choose your favorite fish. It's so fresh.",
+                      "ja": "好きなお魚を選ぶことができます。とても新鮮ですよ。"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_32",
+                      "en": "Finally, we'll go to Higashi Shrine. In August, we have Higashi Summer Festival.",
+                      "ja": "最後に、東神社に行きます。8月には、東夏祭りがあります。"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_33",
+                      "en": "During the festival, you can see a lot of fireworks. You can take some photos of them. They are really beautiful.",
+                      "ja": "祭りの間、たくさんの花火を見ることができます。それらの写真を撮ることができます。本当に美しいですよ。"
+                    }
+                  ]
+                },
+                {
+                  "type": "writing_model_section",
+                  "header": "Writing モデル：鎌倉市へようこそ！ (p.70)",
+                  "items": [
+                    {
+                      "id": "G2_U3_YCDI_S_34",
+                      "en": "Welcome to Kamakura City! It has a lot of shrines and temples.",
+                      "ja": "鎌倉市へようこそ！ たくさんの神社や寺があります。"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_35",
+                      "en": "It also has beautiful nature. You can see the mountains and the sea.",
+                      "ja": "美しい自然もあります。山と海を見ることができます。"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_36",
+                      "tag": "見どころ1：歴史",
+                      "en": "Kotoku-in. You can see a big Buddha statue.",
+                      "ja": "高徳院。大きな仏像を見ることができます。"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_37",
+                      "en": "If you pay 50 yen, you can go inside.",
+                      "ja": "50円払えば、中に入れます。"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_38",
+                      "tag": "見どころ2：食べ物",
+                      "en": "Shirasu rice bowl. Shirasu is a lot of very small, white fish.",
+                      "ja": "しらすおにぎり（丼）。しらすはたくさんのとても小さな白い魚です。"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_39",
+                      "en": "It's so fresh and delicious!",
+                      "ja": "とても新鮮でおいしいです！"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_40",
+                      "tag": "見どころ3：スポーツ",
+                      "en": "Yuigahama Beach. You can enjoy swimming.",
+                      "ja": "由比ヶ浜海岸。水泳を楽しめます。"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_41",
+                      "en": "You will see the beautiful sunset in the evening.",
+                      "ja": "夕方には美しい夕焼けを見ることができるでしょう。"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_42",
+                      "en": "I hope you enjoy my plan in Kamakura City. I'm looking forward to seeing you!",
+                      "ja": "鎌倉市での私のプランを楽しんでもらいたいです。お会いできるのを楽しみにしています！"
+                    }
+                  ]
+                },
+                {
+                  "type": "extra_section",
+                  "header": "Extra：ベストプランの選定 (p.70)",
+                  "items": [
+                    {
+                      "id": "G2_U3_YCDI_S_43",
+                      "tag": "Best Plan",
+                      "en": "Group A",
+                      "ja": "グループA"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_44",
+                      "tag": "理由",
+                      "en": "I think Mika and Laura will enjoy the plan of Group A. Mika can take some photos and Laura can eat Japanese food.",
+                      "ja": "ミカとローラはグループAのプランを楽しむと思います。ミカは写真を撮ることができるし、ローラは日本食を食べることができます。"
+                    }
+                  ]
+                },
+                {
+                  "type": "test_section",
+                  "header": "テストにトライ！：Emmaとの対話 (p.70)",
+                  "items": [
+                    {
+                      "id": "G2_U3_YCDI_S_45",
+                      "speaker": "Emma",
+                      "en": "This city has many beautiful places. I want to visit one of them next Sunday. What do you want to do together?",
+                      "ja": "エマ：この街には美しい場所がたくさんあります。私は次の日曜日にそれらの1つを訪問したいです。いっしょに何をしたいですか。"
+                    },
+                    {
+                      "id": "G2_U3_YCDI_S_46",
+                      "speaker": "解答例",
+                      "en": "I want to go cycling together. Let's go to Green Park.",
+                      "ja": "いっしょにサイクリングに行きたいです。グリーン公園へ行きましょう。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "68-70"
+        }
+      },
+      "hasAppendix": true
+    }
+  },
+  "allExplanations": {
+    "G2_U3_LR1_S_02": "**until** は 「～まで（ずっと）」 という意味の前置詞です。 **decide to ～** で 「～することに決める」 という意味を表します。 **to buy** は **to不定詞の名詞的用法 〈to + 動詞の原形〉** の形で、 「買うこと」 という意味になります。",
+    "G2_U3_LR1_S_03": "**bag** は 「袋」 という意味で、 **a bag of ～** で 「1袋の～」 という意味を表します。",
+    "G2_U3_LR1_S_04": "**sat** は **sit** の過去形です。 **sit down** で 「座る」 という意味を表します。 **start 「～を始める」** の後の **to read** は、 **to不定詞の名詞的用法 〈to + 動詞の原形〉** の形になっています。",
+    "G2_U3_LR1_S_05": "**after a while** は 「しばらくすると」 という意味を表し、時間の経過を表すときに使います。 **～, so that ...** で 「～、それで…」 という意味を表します。コンマより前の文に原因を表す内容、 **so that** より後ろの文に結果を表す内容がきます。",
+    "G2_U3_LR1_S_14": "**each time** は 「～するごとに」 という意味を表します。この文での **one** は代名詞で、前に出てきた **a cookie** を言い換えています。",
+    "G2_U3_LR1_S_15": "**cause a scene** で 「騒ぎを起こす」 という意味を表します。 **cause** は 「～を引き起こす」 という意味の動詞です。",
+    "G2_U3_LR1_S_17": "未来を表す助動詞 **will** の文です。ここでは **what** で始まる疑問文の中で 「～でしょう」 と推測を表しています。",
+    "G2_U3_LR1_S_18": "**divide** は 「～を分ける」 という意味の動詞です。 **in half** で 「半分に」 という意味を表します。 **with** は 「〔様態〕～で、～をもって」 という意味の前置詞で、笑みを浮かべている状態を表しています。",
+    "G2_U3_LR1_S_21": "**put away** で 「～をしまう」 という意味を表します。 **put** は不規則動詞で、過去形も現在形と同じ形の **put** です。",
+    "G2_U3_LR1_S_23": "**to one's horror** で 「ぞっとしたことには」 という意味を表します。 **horror** は 「恐ろしさ」 という意味の名詞です。",
+    "G2_U3_LR1_S_26": "**be wrong about ～** で 「～を考え違いしている」 という意味を表します。副詞の **completely** 「完全に」 によって修飾されています。 **wrong** は 「間違った」 という意味の形容詞です。",
+    "G2_U3_LR1_S_27": "**forgot** は **forget** 「(～を) 忘れる」 の過去形です。 **that** は 「～ということ」 という意味を表す接続詞です。 **that** 以下に忘れた内容の内容がきます。",
+    "G2_U3_LR1_S_28": "**share ～ with ...** で、 「～を…と分け合う」 という意味を表します。 **without** は 「～なしに」 という意味の前置詞です。 **be angry** で 「怒っている」 という意味を表し、前置詞の後なので、 **being** と動名詞になっています。",
+    "G2_U3_P1_S_02": "「～するつもりです」と未来のことについて予定していることを言う、**〈be going to + 動詞の原形〉** の文です。主語が **I** なので、be動詞は **am** になっています。",
+    "G2_U3_P1_S_06": "「～するつもりですか」という意味の **be going to** の文です。主語が **you** なので、be動詞は **are** になっています。〈疑問詞 + be動詞 + 主語 + going to + 動詞の原形 ～?〉 の形で疑問文をつくります。",
+    "G2_U3_P1_S_09": "「～するつもりです」という未来の予定を表す文です。主語が **My friend David** なので、be動詞は **is** になっています。この **in** は「～に、～で、～の中に」の意味で場所を表す前置詞です。",
+    "G2_U3_P1_S_12": "**I'd like to ～.** は「～したいです。」という意味を表します。**to** の後は動詞の原形になります。",
+    "G2_U3_P1_S_13": "**Why don't you ～?** は、「～してはどうですか。」と相手に提案する言い方です。",
+    "G2_U3_P1_S_14": "**Are you kidding?** 「まさか。冗談でしょう。」は、会話でよく使われる表現です。そのままの形で覚えましょう。",
+    "G2_U3_P2_S_05": "相手が友達など、親しい場合に、メールで自然な書き出しをするときに使います。相手が年上や目上の場合は **Dear Mr. Rios (親愛なるリオス様)** のように書きます。",
+    "G2_U3_P2_S_09": "未来を表す助動詞 **will** の文です。**it'll** は **it will** の短縮形で、「～でしょう」という推測を表しています。",
+    "G2_U3_P2_S_10": "未来を表す助動詞 **will** があるため、動詞 **arrive** は原形になっています。**by the way** 「ところで」 は、話題を変えるときなどに使います。",
+    "G2_U3_P2_S_11": "未来を表す助動詞 **will** の文です。**I'll** は **I will** の短縮形で、「～します」という未来の意志を表しています。",
+    "G2_U3_P2_S_13": "「じゃあ、またね。」と、メールなどの結びの挨拶で使われます。",
+    "G2_U3_P3_S_02": "**Welcome to ～** で 「～へようこそ」 という意味になります。 **both** は 「両方、2人［つ］とも」 という意味を表す代名詞です。",
+    "G2_U3_P3_S_05": "相手が言ったことなどに対し、 「私も同じです」 と同意を示す表現です。",
+    "G2_U3_P3_S_10": "「もし～なら…」 という条件を表す接続詞 **if** の文です。 **if** に続く文は、文の頭にも途中にも置くことができます。"
+  }
+}
