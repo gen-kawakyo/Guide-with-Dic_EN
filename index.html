@@ -1,0 +1,1289 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Learning Hub V2</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Serif+JP:wght@400;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+            --font-serif: "Libre Baskerville", serif;
+            --font-jp: "Noto Serif JP", serif;
+            --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+        }
+        body {
+            font-family: var(--font-sans);
+            background-color: #F8F7F2;
+            color: #1A1A1A;
+            -webkit-font-smoothing: antialiased;
+        }
+        .serif { font-family: var(--font-serif); }
+        .jp-serif { font-family: var(--font-jp); }
+        .textbook-en { 
+            font-family: var(--font-serif);
+            font-size: 1.15rem;
+            line-height: 1.3;
+            letter-spacing: 0.01em;
+            color: #000000;
+        }
+        .textbook-en strong { font-weight: 700; }
+        .textbook-en em { font-style: italic; }
+        .text-red { color: #E11D48; font-weight: 700; }
+        .text-blue { color: #2563EB; font-weight: 700; }
+        .text-green { color: #059669; font-weight: 700; }
+        .underline-custom { text-decoration: underline; text-underline-offset: 4px; }
+        .emphasis-dots { 
+            text-emphasis: filled dot; 
+            -webkit-text-emphasis: filled dot;
+            text-emphasis-position: over right;
+            -webkit-text-emphasis-position: over right;
+        }
+        
+        .section-header {
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: #073d88;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .textbook-ja {
+            font-family: var(--font-jp);
+            font-size: 0.85rem;
+            color: #000000;
+            margin-top: 0.05rem;
+            line-height: 1.3;
+        }
+        .edit-textarea {
+            resize: none;
+            overflow: hidden;
+            min-height: 2.5rem;
+        }
+        .study-hidden { 
+            opacity: 0 !important;
+            user-select: none; 
+            cursor: pointer;
+        }
+        .revealed { opacity: 1 !important; }
+        .transition-all { transition: all 0.3s ease; }
+        
+        .u-wavy { text-decoration: underline wavy #F27D26; }
+        .u-normal { text-decoration: underline; }
+        .bg-marker { background-color: #fde047; padding: 0 2px; border-radius: 2px; }
+        
+        /* Dictionary Styles */
+        #dictionary-panel {
+            box-shadow: -10px 0 30px rgba(0,0,0,0.1);
+        }
+        .dictionary-entry h3 { border-bottom: 2px solid #1A1A1A; padding-bottom: 0.5rem; margin-bottom: 1rem; }
+        .dict-pos { background: #1A1A1A; color: white; padding: 2px 6px; border-radius: 4px; font-size: 10px; font-weight: bold; }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); scale: 0.98; }
+            to { opacity: 1; transform: translateY(0); scale: 1; }
+        }
+        .animate-fade-in {
+            animation: fadeIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+        
+        .tab-active {
+            border-bottom: 2px solid #1A1A1A;
+            color: #1A1A1A;
+            opacity: 1 !important;
+        }
+        
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: rgba(26, 26, 26, 0.1); border-radius: 10px; }
+        ::-webkit-scrollbar-thumb:hover { background: rgba(26, 26, 26, 0.2); }
+    </style>
+</head>
+<body class="min-h-screen">
+
+    <!-- Header -->
+    <header class="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-[#1A1A1A]/10 px-4 lg:px-6 py-3 flex items-center justify-between">
+        <div class="flex items-center gap-3">
+            <button onclick="toggleMobileNav()" class="lg:hidden p-2 -ml-2 bg-[#1A1A1A]/5 rounded-xl hover:bg-[#1A1A1A]/10 transition-colors">
+                <i data-lucide="menu" class="w-5 h-5"></i>
+            </button>
+            <div class="bg-[#1A1A1A] text-white p-2 rounded-lg hidden sm:block">
+                <i data-lucide="book-open" class="w-4 h-4 sm:w-5 h-5"></i>
+            </div>
+            <div>
+                <h1 class="text-sm sm:text-lg font-bold tracking-tight italic serif truncate max-w-[120px] sm:max-w-none">English Learning Hub V2</h1>
+            </div>
+        </div>
+
+        <div class="flex items-center gap-2 sm:gap-4">
+            <div id="study-controls" class="hidden flex items-center gap-2 sm:gap-4 mr-1 sm:mr-2 border-r border-[#1A1A1A]/10 pr-2 sm:pr-4">
+                <label class="flex items-center gap-1.5 cursor-pointer group">
+                    <input type="checkbox" id="toggle-japanese" class="w-3.5 h-3.5 rounded border-[#1A1A1A]/20 accent-[#1A1A1A]">
+                    <span class="text-[10px] font-bold uppercase tracking-wider opacity-60">Show JP</span>
+                </label>
+                <label class="flex items-center gap-2 cursor-pointer group">
+                    <input type="checkbox" id="toggle-meanings" class="w-3.5 h-3.5 rounded border-[#1A1A1A]/20 accent-[#1A1A1A]">
+                    <span class="text-[10px] font-bold uppercase tracking-wider opacity-60">Show Vocab</span>
+                </label>
+            </div>
+
+            <!-- Grade/Unit Selector -->
+            <div class="flex items-center gap-2 bg-[#F8F7F2] border border-[#1A1A1A]/10 p-1 rounded-full overflow-hidden">
+                <select id="grade-selector" class="bg-transparent text-[10px] font-bold uppercase tracking-widest px-2 py-1 outline-none cursor-pointer">
+                    <option value="1">G1</option>
+                    <option value="2">G2</option>
+                    <option value="3">G3</option>
+                </select>
+                <div class="w-px h-3 bg-[#1A1A1A]/10"></div>
+                <select id="unit-selector" class="bg-transparent text-[10px] font-bold uppercase tracking-widest px-2 py-1 outline-none cursor-pointer">
+                    <option value="1">U1</option>
+                    <option value="2">U2</option>
+                    <option value="3">U3</option>
+                    <option value="4">U4</option>
+                    <option value="5">U5</option>
+                    <option value="6">U6</option>
+                    <option value="7">U7</option>
+                    <option value="8">U8</option>
+                </select>
+                <button onclick="loadCurrentSelection()" class="bg-[#1A1A1A] text-white p-1.5 rounded-full hover:bg-opacity-80 transition-all">
+                    <i data-lucide="refresh-cw" class="w-3 h-3"></i>
+                </button>
+            </div>
+
+            <nav class="flex bg-[#E4E3E0]/50 p-1 rounded-full hidden md:flex">
+                <button onclick="setMode('display')" id="btn-display" class="mode-btn px-4 py-1.5 rounded-full text-xs font-bold transition-all bg-white shadow-sm">Display</button>
+                <button onclick="setMode('study')" id="btn-study" class="mode-btn px-4 py-1.5 rounded-full text-xs font-bold transition-all opacity-60 hover:opacity-100">Study</button>
+            </nav>
+
+            <label class="flex items-center gap-2 bg-[#073d88] text-white px-4 py-2 rounded-full text-xs font-bold cursor-pointer hover:bg-opacity-90 transition-all">
+                <i data-lucide="book" class="w-3.5 h-3.5"></i>
+                <span>Dict</span>
+                <input type="file" id="dict-file-input" accept=".json" class="hidden">
+            </label>
+
+            <label class="flex items-center gap-2 bg-[#1A1A1A] text-white px-4 py-2 rounded-full text-xs font-bold cursor-pointer hover:bg-opacity-90 transition-all">
+                <i data-lucide="upload" class="w-3.5 h-3.5"></i>
+                <span>Load</span>
+                <input type="file" id="file-input" multiple accept=".json" class="hidden">
+            </label>
+        </div>
+    </header>
+
+    <main class="max-w-[1600px] mx-auto p-4 lg:p-6 grid grid-cols-1 lg:grid-cols-[240px_1fr_320px] gap-8">
+        <!-- Sidebar -->
+        <aside class="hidden lg:block space-y-6">
+            <div class="bg-white p-4 rounded-2xl border border-[#1A1A1A]/5 shadow-sm sticky top-20">
+                <h2 class="section-header mb-4">
+                    <i data-lucide="compass" class="w-3.5 h-3.5"></i>
+                    Navigation
+                </h2>
+                <div id="parts-list" class="space-y-1 max-h-[70vh] overflow-y-auto pr-2"></div>
+            </div>
+        </aside>
+
+        <!-- Content Area -->
+        <section id="content-area" class="space-y-8">
+            <div id="welcome-screen" class="h-[40vh] flex flex-col items-center justify-center text-center space-y-4">
+                <div class="p-6 rounded-full bg-[#1A1A1A]/5 mb-2">
+                    <i data-lucide="layout-grid" class="w-10 h-10 opacity-20"></i>
+                </div>
+                <h2 class="text-lg font-bold jp-serif">英語学習ハブへようこそ</h2>
+                <p class="opacity-40 text-sm max-w-xs mx-auto">上のセレクターから学年とユニットを選択して「更新」ボタンを押すか、ローカルのJSONファイルをロードしてください。</p>
+            </div>
+
+            <div id="main-content" class="hidden space-y-8">
+                <!-- View Tabs -->
+                <div class="flex items-center gap-8 border-b border-[#1A1A1A]/5 sticky top-16 bg-[#FDFCF7] z-30 pt-4">
+                    <button onclick="setView('text')" id="tab-text" class="view-tab pb-3 section-header opacity-60 tab-active">
+                        <i data-lucide="file-text" class="w-3.5 h-3.5"></i>
+                        Text
+                    </button>
+                    <button onclick="setView('grammar')" id="tab-grammar" class="view-tab pb-3 section-header opacity-60">
+                        <i data-lucide="graduation-cap" class="w-3.5 h-3.5"></i>
+                        Grammar
+                    </button>
+                    <button onclick="setView('vocab')" id="tab-vocab" class="view-tab pb-3 section-header opacity-60">
+                        <i data-lucide="languages" class="w-3.5 h-3.5"></i>
+                        Vocabulary
+                    </button>
+                    <button onclick="setView('appendix')" id="tab-appendix" class="view-tab pb-3 section-header opacity-60">
+                        <i data-lucide="book-open" class="w-3.5 h-3.5"></i>
+                        Appendix
+                    </button>
+                </div>
+
+                <div id="view-text" class="space-y-10">
+                    <div id="honbun-list" class="space-y-2"></div>
+                </div>
+
+                <div id="view-grammar" class="hidden space-y-10">
+                    <div id="grammar-container" class="space-y-8"></div>
+                </div>
+
+                <div id="view-vocab" class="hidden space-y-6">
+                    <div id="word-list" class="grid grid-cols-1 gap-4 items-start"></div>
+                </div>
+
+                <div id="view-appendix" class="hidden space-y-10">
+                    <div id="appendix-container" class="space-y-8"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dictionary Sidebar -->
+        <aside id="dictionary-sidebar" class="hidden lg:block">
+            <div id="dictionary-container" class="bg-white rounded-2xl border border-[#1A1A1A]/5 shadow-sm sticky top-20 flex flex-col h-[calc(100vh-120px)] overflow-hidden">
+                <div class="px-5 py-4 border-b border-[#1A1A1A]/5 flex items-center justify-between bg-slate-50/50 cursor-pointer hover:bg-slate-100/80 transition-colors group" onclick="clearDictionary()">
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="book" class="w-3.5 h-3.5 text-[#073d88]"></i>
+                        <h2 class="text-[10px] font-bold uppercase tracking-wider text-[#1A1A1A]/60 group-hover:text-[#1A1A1A]">Dictionary</h2>
+                    </div>
+                    <i data-lucide="trash-2" class="w-3 h-3 opacity-0 group-hover:opacity-20 transition-opacity"></i>
+                </div>
+                <div id="dictionary-results" class="flex-1 overflow-y-auto p-5 space-y-6">
+                    <div class="flex flex-col items-center justify-center h-full text-center space-y-4 opacity-20">
+                        <i data-lucide="search" class="w-8 h-8"></i>
+                        <p class="text-[11px] jp-serif">英単語をクリックして検索</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <!-- Modal -->
+    <div id="modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4">
+        <div class="absolute inset-0 bg-[#1A1A1A]/20 backdrop-blur-sm" onclick="closeModal()"></div>
+        <div id="modal-content" class="relative w-full max-w-md bg-white rounded-2xl shadow-xl p-6 border border-[#1A1A1A]/10">
+            <div class="flex items-start gap-3">
+                <div class="text-[#F27D26] mt-1"><i data-lucide="info" class="w-5 h-5"></i></div>
+                <div class="flex-1 space-y-3">
+                    <div id="modal-context" class="mb-4 p-3 bg-[#F27D26]/5 rounded-xl border-l-4 border-[#F27D26] hidden">
+                        <span class="text-[9px] font-bold uppercase tracking-wider text-[#F27D26]/60 mb-2 flex items-center gap-1.5">
+                            <i data-lucide="quote" class="w-2.5 h-2.5"></i>
+                            元の英文
+                        </span>
+                        <p id="modal-context-en" class="textbook-en text-sm mb-1"></p>
+                        <p id="modal-context-ja" class="textbook-ja text-xs opacity-60"></p>
+                    </div>
+                    <div class="space-y-2">
+                        <span class="text-[9px] font-bold uppercase tracking-wider text-[#1A1A1A]/40 block">解説</span>
+                        <p id="modal-text" class="text-sm leading-relaxed jp-serif"></p>
+                    </div>
+                    <div class="pt-3 border-t border-[#1A1A1A]/5 flex justify-between text-[9px] opacity-30 font-bold uppercase">
+                        <span id="modal-page"></span>
+                        <span id="modal-id"></span>
+                    </div>
+                </div>
+                <button onclick="closeModal()" class="opacity-20 hover:opacity-100"><i data-lucide="x" class="w-4 h-4"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile Navigation Overlay -->
+    <div id="mobile-nav-overlay" class="fixed inset-0 z-50 bg-[#F8F7F2] hidden flex-col overflow-hidden">
+        <div class="bg-white/90 backdrop-blur-md border-b border-[#1A1A1A]/10 px-6 py-4 flex items-center justify-between flex-shrink-0">
+             <h2 class="section-header">
+                <i data-lucide="compass" class="w-3.5 h-3.5"></i>
+                Navigation
+            </h2>
+            <button onclick="toggleMobileNav()" class="p-2 -mr-2 bg-[#1A1A1A]/5 rounded-full hover:bg-[#1A1A1A]/10 transition-colors">
+                <i data-lucide="x" class="w-5 h-5"></i>
+            </button>
+        </div>
+        
+        <div class="flex-1 overflow-y-auto pt-6 px-4 pb-20">
+            <div id="mobile-matrix-container" class="space-y-10 max-w-lg mx-auto">
+                <!-- Units and Parts Matrix here -->
+            </div>
+        </div>
+
+        <!-- Footer indicator -->
+        <div class="p-4 bg-white border-t border-[#1A1A1A]/5 text-center flex-shrink-0">
+            <p class="text-[10px] uppercase tracking-widest font-bold opacity-30">English Learning Hub V2 Matrix Navigation</p>
+        </div>
+    </div>
+
+    <!-- Dictionary Mobile Panel (Overlay) -->
+    <div id="dictionary-panel" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 lg:hidden">
+        <div class="absolute inset-0 bg-[#1A1A1A]/30 backdrop-blur-sm" onclick="closeDictionary()"></div>
+        <aside class="relative flex flex-col w-full max-w-[440px] h-[80vh] bg-white rounded-3xl shadow-2xl overflow-hidden border border-[#1A1A1A]/10 animate-fade-in">
+            <div class="px-8 py-5 border-b border-[#1A1A1A]/5 flex items-center justify-between bg-slate-50">
+                <div class="flex items-center gap-3">
+                    <div class="p-1.5 bg-[#073d88]/10 rounded-lg text-[#073d88]">
+                        <i data-lucide="book" class="w-4 h-4"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-xs font-bold uppercase tracking-widest text-[#1A1A1A]/80">Dictionary</h2>
+                    </div>
+                </div>
+                <button onclick="closeDictionary()" class="p-2 -mr-2 opacity-30 hover:opacity-100 transition-opacity"><i data-lucide="x" class="w-4 h-4"></i></button>
+            </div>
+            <div id="dictionary-results-mobile" class="flex-1 overflow-y-auto p-8 space-y-8">
+                <!-- Mobile results injected via JS -->
+            </div>
+        </aside>
+    </div>
+
+    <script>
+        let appData = { units: {} };
+        let currentMode = 'display';
+        let currentView = 'text';
+        let isMobileNavOpen = false;
+        let selectedUnitId = null;
+        let selectedPartId = null;
+        let showJapanese = false;
+        let showMeanings = false;
+        let dictionary = {};
+
+        let appConfig = {
+            icons: {
+                examples: 'key',
+                point: 'graduation-cap',
+                explanation_list: 'info',
+                comparison: 'arrow-left-right',
+                sentence_patterns: 'layout',
+                usage: 'list-checks',
+                usage_rules: 'list-checks',
+                supplementary: 'plus-circle',
+                info_box: 'info',
+                generic_list: 'list'
+            },
+            colors: {
+                appendix: '#F27D26',
+                border: '#1A1A1A',
+                header: '#073d88'
+            },
+            markdown: [
+                { marker: '==', class: 'text-red' },
+                { marker: '!!', class: 'text-blue' },
+                { marker: '$$', class: 'text-green' },
+                { marker: '__', class: 'underline-custom' },
+                { marker: '@@', class: 'emphasis-dots' }
+            ]
+        };
+
+        const defaultStyles = {
+            header: { font: 'sans', size: 0.7, weight: 700, italic: false, opacity: 1, color: '#073d88' },
+            en: { font: 'serif', size: 1.15, weight: 400, italic: true, opacity: 1, color: '#000000' },
+            ja: { font: 'jp', size: 0.85, weight: 400, italic: false, opacity: 1, color: '#000000' },
+            text: { font: 'jp', size: 0.85, weight: 400, italic: false, opacity: 0.8, color: '#000000' },
+            note: { font: 'sans', size: 0.65, weight: 700, italic: false, opacity: 0.4, color: '#000000' },
+            ref_num: { font: 'mono', size: 0.6, weight: 400, italic: false, opacity: 0.3, color: '#000000' },
+            title: { font: 'jp', size: 0.9, weight: 700, italic: false, opacity: 1, color: '#000000' },
+            label: { font: 'sans', size: 0.65, weight: 700, italic: false, opacity: 0.4, color: '#000000' },
+            tag: { font: 'sans', size: 0.6, weight: 700, italic: false, opacity: 1, color: '#FFFFFF', bgColor: '#1A1A1A' },
+            speaker: { font: 'sans', size: 0.65, weight: 700, italic: false, opacity: 1, color: '#F27D26' },
+            main: { font: 'sans', size: 0.85, weight: 700, italic: false, opacity: 1, color: '#1A1A1A' }
+        };
+        
+        let itemStyles = JSON.parse(localStorage.getItem('english_learning_hub_styles')) || { ...defaultStyles };
+
+        lucide.createIcons();
+
+        function saveStylesToLocal() {
+            localStorage.setItem('english_learning_hub_styles', JSON.stringify(itemStyles));
+        }
+
+        function getItemStyleString(type) {
+            const s = itemStyles[type] || itemStyles.text || defaultStyles.text;
+            const fontMap = { serif: 'var(--font-serif)', sans: 'var(--font-sans)', jp: 'var(--font-jp)', mono: 'var(--font-mono)' };
+            return `
+                font-family: ${fontMap[s.font] || fontMap.sans};
+                font-size: ${s.size}rem;
+                font-weight: ${s.weight};
+                font-style: ${s.italic ? 'italic' : 'normal'};
+                opacity: ${s.opacity};
+                color: ${s.color || '#000000'};
+                line-height: 1.4;
+            `;
+        }
+
+        // Dictionary Helpers
+        function handleDictionaryData(data) {
+            if (!Array.isArray(data)) return;
+            dictionary = {};
+            data.forEach(entry => {
+                if (!entry.word) return;
+                const words = entry.word.split('/').map(w => w.trim().toLowerCase());
+                words.forEach(w => {
+                    if (!dictionary[w]) dictionary[w] = [];
+                    dictionary[w].push(entry);
+                });
+            });
+            console.log("Dictionary loaded:", Object.keys(dictionary).length, "words");
+        }
+
+        async function loadDictionary() {
+            const paths = ['Hwg_A-Z_junior.json', './Hwg_A-Z_junior.json', 'guidedata/Hwg_A-Z_junior.json'];
+            for (const path of paths) {
+                try {
+                    const res = await fetch(path);
+                    if (res.ok) {
+                        const data = await res.json();
+                        handleDictionaryData(data);
+                        return;
+                    }
+                } catch (e) {}
+            }
+        }
+
+        async function loadServerContent(grade, unit) {
+            const filename = `EI${grade}-U${unit}.json`;
+            const path = `guidedata/${filename}`;
+            
+            // Show loading indicator
+            const welcome = document.getElementById('welcome-screen');
+            const originalContent = welcome.innerHTML;
+            welcome.innerHTML = `
+                <div class="animate-spin mb-4"><i data-lucide="refresh-cw" class="w-8 h-8 opacity-20"></i></div>
+                <p class="opacity-30 text-sm">Loading ${filename}...</p>
+            `;
+            lucide.createIcons();
+
+            try {
+                const res = await fetch(path);
+                if (!res.ok) throw new Error("File not found");
+                const json = await res.json();
+                mergeData(json);
+                updateSidebar();
+                selectFirstAvailablePart();
+                
+                // Switch focus to content
+                document.getElementById('welcome-screen').classList.add('hidden');
+                document.getElementById('main-content').classList.remove('hidden');
+            } catch (err) {
+                welcome.innerHTML = originalContent;
+                lucide.createIcons();
+                alert(`${filename} の読み込みに失敗しました。ファイルパス（${path}）を確認してください。`);
+            }
+        }
+
+        function loadCurrentSelection() {
+            const grade = document.getElementById('grade-selector').value;
+            const unit = document.getElementById('unit-selector').value;
+            loadServerContent(grade, unit);
+        }
+
+        function searchDictionary(word) {
+            const cleanWord = word.toLowerCase().trim().replace(/[.,!?;:()]/g, '');
+            if (dictionary[cleanWord]) {
+                displayDictionaryResults(cleanWord, dictionary[cleanWord]);
+            } else {
+                const candidates = [];
+                if (cleanWord.endsWith('ies') && cleanWord.length > 3) candidates.push(cleanWord.slice(0, -3) + 'y');
+                if (cleanWord.endsWith('es') && cleanWord.length > 3) candidates.push(cleanWord.slice(0, -2));
+                if (cleanWord.endsWith('s') && cleanWord.length > 2) candidates.push(cleanWord.slice(0, -1));
+                if (cleanWord.endsWith('ed') && cleanWord.length > 3) {
+                    candidates.push(cleanWord.slice(0, -2));
+                    candidates.push(cleanWord.slice(0, -1));
+                    if (cleanWord.length > 5 && cleanWord[cleanWord.length-3] === cleanWord[cleanWord.length-4]) candidates.push(cleanWord.slice(0, -3));
+                }
+                if (cleanWord.endsWith('ing') && cleanWord.length > 4) {
+                    candidates.push(cleanWord.slice(0, -3));
+                    candidates.push(cleanWord.slice(0, -3) + 'e');
+                    if (cleanWord.length > 6 && cleanWord[cleanWord.length-4] === cleanWord[cleanWord.length-5]) candidates.push(cleanWord.slice(0, -4));
+                }
+                let found = false;
+                for (const cand of candidates) {
+                    if (dictionary[cand]) {
+                        displayDictionaryResults(cand, dictionary[cand], cleanWord);
+                        found = true; break;
+                    }
+                }
+                if (!found) displayDictionaryResults(cleanWord, null);
+            }
+            
+            // Show panel on mobile, it's always visible on desktop
+            if (window.innerWidth < 1024) {
+                document.getElementById('dictionary-panel').classList.remove('hidden');
+            }
+        }
+
+        function closeDictionary() { document.getElementById('dictionary-panel').classList.add('hidden'); }
+
+        function clearDictionary() {
+            const container = document.getElementById('dictionary-results');
+            const mobileContainer = document.getElementById('dictionary-results-mobile');
+            
+            if (container) {
+                container.innerHTML = `
+                    <div class="flex flex-col items-center justify-center h-full text-center space-y-4 opacity-20">
+                        <i data-lucide="search" class="w-8 h-8"></i>
+                        <p class="text-[11px] jp-serif">英単語をクリックして検索</p>
+                    </div>
+                `;
+            }
+            if (mobileContainer) {
+                mobileContainer.innerHTML = `
+                    <div class="flex flex-col items-center justify-center h-full text-center space-y-6 opacity-20">
+                        <div class="p-6 rounded-full border-2 border-dashed border-current">
+                            <i data-lucide="search" class="w-12 h-12"></i>
+                        </div>
+                        <p class="text-sm font-medium jp-serif">英単語をクリックして辞書で検索します。</p>
+                    </div>
+                `;
+            }
+            lucide.createIcons();
+        }
+
+        function displayDictionaryResults(word, entries, original = null) {
+            const container = document.getElementById('dictionary-results');
+            const mobileContainer = document.getElementById('dictionary-results-mobile');
+            
+            const renderResults = (target) => {
+                if (!entries || entries.length === 0) {
+                    target.innerHTML = `<div class="pb-1 border-b"><h3 class="text-xl font-bold serif">${word}</h3><p class="text-[11px] opacity-40 mt-1 italic">Not found.</p></div>`;
+                    return;
+                }
+                const enrich = (t) => t.replace(/(<[^>]+>)|(\b[a-zA-Z']+\b)/g, (match, tag, word) => tag || `<span class="cursor-pointer hover:text-blue-600 transition-colors underline decoration-transparent" onclick="searchDictionary('${word}'); event.stopPropagation();">${word}</span>`);
+                let html = `<div class="space-y-6">`;
+                if (original) html += `<p class="text-[8px] font-bold opacity-30 uppercase tracking-widest">Derived from "${original}"</p>`;
+                entries.forEach(entry => {
+                    html += `<div class="dictionary-entry"><h3 class="text-xl font-bold serif border-b border-[#1A1A1A]/10 pb-2 mb-3">${entry.word}</h3>
+                        <div class="flex items-center gap-3 mb-4"><span class="text-[10px] font-mono text-[#F27D26]">${entry.pronunciation || ''}</span></div>
+                        ${entry.senses.map(sense => `
+                            <div class="mb-5"><span class="dict-pos text-[9px] bg-[#1A1A1A] text-white px-1.5 py-0.5 rounded font-bold">${sense.pos}</span>
+                                <div class="pl-2 border-l-2 border-[#1A1A1A]/10 mt-2 space-y-2">
+                                    ${sense.definitions.map(def => `<p class="text-xs font-bold jp-serif">${def.meaning}</p>`).join('')}
+                                    ${sense.phrases ? sense.phrases.map(ph => `<div class="mt-2 p-2 bg-slate-50 rounded"><p class="text-[11px] font-bold serif text-[#073d88] leading-tight">${enrich(ph.phrase)}</p>${ph.definitions ? ph.definitions.map(pd => `<p class="text-[10px] jp-serif mt-1 opacity-70 leading-tight">${pd.meaning}</p>`).join('') : ''}</div>`).join('') : ''}
+                                </div>
+                            </div>`).join('')}
+                        ${entry.examples ? `<div class="space-y-2 mt-4"><p class="text-[8px] font-bold opacity-30 uppercase tracking-widest">Examples</p>${entry.examples.map(ex => `<div class="text-[10px] space-y-0.5"><p class="serif italic text-[#073d88]/70">${enrich(ex.en)}</p><p class="jp-serif opacity-50">${ex.ja}</p></div>`).join('')}</div>` : ''}
+                    </div>`;
+                });
+                target.innerHTML = html + `</div>`;
+            };
+
+            if (container) renderResults(container);
+            if (mobileContainer) renderResults(mobileContainer);
+            
+            lucide.createIcons();
+        }
+
+        function enrichText(text) {
+            if (!text) return '';
+            return text.replace(/(<[^>]+>)|(\b[a-zA-Z']+\b)/g, (match, tag, word) => {
+                if (tag) return tag;
+                return `<span class="cursor-pointer hover:text-blue-600 transition-colors underline decoration-transparent hover:decoration-blue-400/30" onclick="searchDictionary('${word}'); event.stopPropagation();">${word}</span>`;
+            });
+        }
+
+        // データの取込処理 (V2 Format & Full Backup Support)
+        function mergeData(newData) {
+            if (!newData) return;
+
+            // 1. スタイル設定ファイルの処理
+            if (newData.type === "STYLES") {
+                if (newData.config && newData.config.styles) {
+                    console.log("Applying style settings...");
+                    itemStyles = { ...newData.config.styles }; // 完全上書き
+                    localStorage.setItem('english_learning_hub_styles', JSON.stringify(itemStyles));
+                }
+                renderContent(); // 即時反映
+                return; 
+            }
+
+            // 2. 一括バックアップ（Full Backup）の処理
+            if (newData.type === "FULL_BACKUP" || (newData.units && !newData.part_id)) {
+                console.log("Loading Full Backup...");
+                if (newData.allExplanations) {
+                    if (!appData.allExplanations) appData.allExplanations = {};
+                    appData.allExplanations = { ...appData.allExplanations, ...newData.allExplanations };
+                }
+                if (newData.units) {
+                    for (const uId in newData.units) {
+                        const unit = newData.units[uId];
+                        if (!appData.units[uId]) {
+                            appData.units[uId] = { title: unit.title || `Unit ${uId}`, parts: {} };
+                        } else if (unit.title) {
+                            appData.units[uId].title = unit.title;
+                        }
+                        
+                        // パートのマージ
+                        for (const pId in unit.parts) {
+                            appData.units[uId].parts[pId] = unit.parts[pId];
+                        }
+                        if (unit.hasAppendix) appData.units[uId].hasAppendix = true;
+                    }
+                }
+                updateSidebar();
+                renderContent();
+                return;
+            }
+
+            // 3. 学習データの処理 (パート単位 V2)
+            const uIdRaw = newData.unit || newData.unit_id;
+            const pIdRaw = newData.part || newData.part_id;
+            if (!uIdRaw || !pIdRaw) return;
+
+            const uId = String(uIdRaw);
+            const pId = String(pIdRaw);
+            const contents = newData.contents || {};
+
+            if (!appData.units[uId]) {
+                appData.units[uId] = { title: `Unit ${uId}`, parts: {} };
+            }
+
+            if (!appData.units[uId].parts[pId]) {
+                appData.units[uId].parts[pId] = { 
+                    title: newData.part_title || pId, 
+                    views: {}, 
+                    explanations: {},
+                    page: 0
+                };
+            }
+
+            const targetPart = appData.units[uId].parts[pId];
+            if (newData.part_title) targetPart.title = newData.part_title;
+            if (newData.page) targetPart.page = newData.page;
+
+            const collectExplanationsRecursively = (data) => {
+                if (!data) return;
+                if (!appData.allExplanations) appData.allExplanations = {};
+                if (data.items) {
+                    data.items.forEach(item => {
+                        const id = item.ref_id || item.id;
+                        if (id && item.text) {
+                            appData.allExplanations[id] = item.text;
+                        }
+                    });
+                }
+                if (data.content_blocks) data.content_blocks.forEach(b => collectExplanationsRecursively(b));
+                if (data.groups) data.groups.forEach(g => collectExplanationsRecursively(g));
+            };
+
+            for (const key in contents) {
+                const subData = contents[key];
+                if (!subData) continue;
+                
+                const upperKey = key.toUpperCase();
+                if (subData.page) targetPart.page = subData.page;
+
+                targetPart.views[upperKey] = {
+                    items: Array.isArray(subData.items) ? subData.items : [],
+                    content_blocks: Array.isArray(subData.content_blocks) ? subData.content_blocks : []
+                };
+                
+                collectExplanationsRecursively(subData);
+
+                if (['APPENDIX', 'PART_APPENDIX', 'UNIT_APPENDIX'].includes(upperKey)) {
+                    targetPart.hasAppendix = true;
+                    appData.units[uId].hasAppendix = true;
+                }
+            }
+            updateSidebar();
+        }
+
+        function selectFirstAvailablePart() {
+            const unitIds = Object.keys(appData.units).sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }));
+            if (unitIds.length > 0) {
+                const firstUnitId = unitIds[0];
+                const parts = appData.units[firstUnitId].parts;
+                const partIds = Object.keys(parts).sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }));
+                if (partIds.length > 0) selectPart(firstUnitId, partIds[0]);
+            }
+        }
+
+        document.getElementById('dict-file-input').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = (event) => {
+                try {
+                    handleDictionaryData(JSON.parse(event.target.result));
+                    alert("Dictionary loaded!");
+                } catch (err) { alert("Failed to load dictionary."); }
+            };
+            reader.readAsText(file);
+        });
+
+        document.getElementById('file-input').addEventListener('change', function(e) {
+            const files = e.target.files;
+            if (!files.length) return;
+            Array.from(files).forEach(file => {
+                const reader = new FileReader();
+                reader.onload = function(event) {
+                    try {
+                        const json = JSON.parse(event.target.result);
+                        mergeData(json);
+                        updateSidebar();
+                        if (selectedUnitId && selectedPartId) renderContent();
+                        else selectFirstAvailablePart();
+                    } catch (err) { console.error("JSON Error:", err); }
+                };
+                reader.readAsText(file);
+            });
+        });
+
+        document.getElementById('toggle-japanese').addEventListener('change', (e) => { showJapanese = e.target.checked; renderContent(); });
+        document.getElementById('toggle-meanings').addEventListener('change', (e) => { showMeanings = e.target.checked; renderContent(); });
+
+        function setMode(mode) {
+            currentMode = mode;
+            document.querySelectorAll('.mode-btn').forEach(btn => {
+                btn.classList.remove('bg-white', 'shadow-sm', 'opacity-60');
+                if (btn.id === `btn-${mode}`) btn.classList.add('bg-white', 'shadow-sm');
+                else btn.classList.add('opacity-60');
+            });
+            document.getElementById('study-controls').classList.toggle('hidden', mode !== 'study');
+            renderContent();
+        }
+
+        function setView(view) {
+            currentView = view;
+            document.querySelectorAll('.view-tab').forEach(tab => {
+                tab.classList.remove('tab-active');
+                if (tab.id === `tab-${view}`) tab.classList.add('tab-active');
+            });
+            document.getElementById('view-text').classList.toggle('hidden', view !== 'text');
+            document.getElementById('view-grammar').classList.toggle('hidden', view !== 'grammar');
+            document.getElementById('view-vocab').classList.toggle('hidden', view !== 'vocab');
+            document.getElementById('view-appendix').classList.toggle('hidden', view !== 'appendix');
+            renderContent();
+        }
+
+        // Initialize on load
+        window.addEventListener('DOMContentLoaded', () => {
+            loadDictionary();
+            lucide.createIcons();
+            
+            // Optional: Initial load of G1-U1 or just wait for selection
+            // loadServerContent(1, 1);
+        });
+
+        function toggleMobileNav() {
+            isMobileNavOpen = !isMobileNavOpen;
+            const overlay = document.getElementById('mobile-nav-overlay');
+            if (isMobileNavOpen) {
+                overlay.classList.remove('hidden');
+                overlay.classList.add('flex');
+                updateMobileNavigation();
+                document.body.style.overflow = 'hidden';
+            } else {
+                overlay.classList.add('hidden');
+                overlay.classList.remove('flex');
+                document.body.style.overflow = 'auto';
+            }
+        }
+
+        function updateMobileNavigation() {
+            const container = document.getElementById('mobile-matrix-container');
+            const unitIds = Object.keys(appData.units).sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }));
+            if (!unitIds.length) return;
+
+            let html = '';
+            unitIds.forEach(uId => {
+                const unit = appData.units[uId];
+                html += `
+                    <div class="space-y-4">
+                        <div class="border-l-4 border-[#1A1A1A] pl-3 py-1">
+                            <span class="text-[9px] font-bold uppercase tracking-widest opacity-40">Unit ${uId}</span>
+                            <h3 class="text-lg font-bold jp-serif leading-tight">${unit.title || ''}</h3>
+                        </div>
+                        
+                        <div class="overflow-x-auto -mx-2 px-2 pb-2">
+                            <table class="w-full border-collapse">
+                                <thead class="text-[9px] font-bold uppercase tracking-wider text-[#1A1A1A]/30 text-center border-b border-[#1A1A1A]/5">
+                                    <tr>
+                                        <th class="py-2 text-left pr-4 font-bold opacity-100 text-[#1A1A1A]">Part</th>
+                                        <th class="py-2 px-1">Text</th>
+                                        <th class="py-2 px-1">Grmr</th>
+                                        <th class="py-2 px-1">Vocb</th>
+                                        <th class="py-2 px-1">Apdix</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                `;
+
+                const sortedPartIds = Object.keys(unit.parts).sort((a, b) => {
+                    const pa = unit.parts[a];
+                    const pb = unit.parts[b];
+                    return (parseInt(pa.page) || 0) - (parseInt(pb.page) || 0) || a.localeCompare(b);
+                });
+
+                sortedPartIds.forEach(pId => {
+                    const part = unit.parts[pId];
+                    const views = part.views || {};
+                    const isSelected = selectedUnitId === uId && selectedPartId === pId;
+
+                    const viewChecks = {
+                        text: views.TEXT || views.YCDI || views.WT || views.LR || views.ST,
+                        grammar: views.GRAMMAR || views.AG,
+                        vocab: views.VOCABULARY || views.GL,
+                        appendix: views.APPENDIX || views.PART_APPENDIX || views.UNIT_APPENDIX || part.hasAppendix
+                    };
+
+                    html += `
+                        <tr class="border-b border-[#1A1A1A]/5 hover:bg-[#1A1A1A]/5 transition-colors group">
+                            <td class="py-3 pr-4" onclick="selectPartAndClose('${uId}', '${pId}', 'text')">
+                                <div class="flex flex-col">
+                                    <div class="flex items-center gap-1.5 mb-0.5">
+                                        <span class="text-[10px] font-bold uppercase ${isSelected ? 'text-[#073d88]' : 'opacity-40'}">${pId}</span>
+                                        <span class="text-[8px] font-mono opacity-20">p.${part.page || '--'}</span>
+                                    </div>
+                                    <span class="text-xs font-bold jp-serif truncate max-w-[120px] ${isSelected ? 'text-[#073d88]' : 'opacity-80'}">${part.title || pId}</span>
+                                </div>
+                            </td>
+                            <td class="p-1 px-0.5">${renderNavCell(uId, pId, 'text', viewChecks.text, isSelected && currentView === 'text')}</td>
+                            <td class="p-1 px-0.5">${renderNavCell(uId, pId, 'grammar', viewChecks.grammar, isSelected && currentView === 'grammar')}</td>
+                            <td class="p-1 px-0.5">${renderNavCell(uId, pId, 'vocab', viewChecks.vocab, isSelected && currentView === 'vocab')}</td>
+                            <td class="p-1 px-0.5">${renderNavCell(uId, pId, 'appendix', viewChecks.appendix, isSelected && currentView === 'appendix')}</td>
+                        </tr>
+                    `;
+                });
+
+                html += `</tbody></table></div></div>`;
+            });
+
+            container.innerHTML = html;
+            lucide.createIcons();
+        }
+
+        function renderNavCell(uId, pId, view, exists, active) {
+            const icons = { text: 'file-text', grammar: 'graduation-cap', vocab: 'languages', appendix: 'book-open' };
+            if (!exists) return `<div class="w-8 h-8 mx-auto flex items-center justify-center opacity-5"><i data-lucide="${icons[view]}" class="w-3.5 h-3.5"></i></div>`;
+            
+            const btnClass = active 
+                ? 'bg-[#1A1A1A] text-white shadow-md' 
+                : 'bg-white border border-[#1A1A1A]/10 text-[#1A1A1A]/60 hover:bg-[#1A1A1A]/5 hover:text-[#1A1A1A]';
+            
+            return `
+                <button onclick="selectPartAndClose('${uId}', '${pId}', '${view}')" class="w-10 h-10 mx-auto flex items-center justify-center rounded-xl transition-all ${btnClass}">
+                    <i data-lucide="${icons[view]}" class="w-4 h-4"></i>
+                </button>
+            `;
+        }
+
+        function selectPartAndClose(uId, pId, view) {
+            currentView = view;
+            selectPart(uId, pId);
+            if (isMobileNavOpen) toggleMobileNav();
+        }
+
+        function updateSidebar() {
+          // Keep existing sidebar Update logic but also update mobile nav if it's open
+          if (isMobileNavOpen) updateMobileNavigation();
+          const list = document.getElementById('parts-list');
+          if (!list) return; // For mobile-first or if element missing
+            
+          const unitIds = Object.keys(appData.units).sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }));
+          if (!unitIds.length) return;
+            
+          let html = '';
+            unitIds.forEach(uId => {
+                const unit = appData.units[uId];
+                html += `
+                    <div class="mt-6 mb-2 px-3 flex flex-col gap-0.5 border-l-4 border-[#1A1A1A]/10 pl-2">
+                        <div class="flex items-center justify-between">
+                            <span class="text-[10px] font-bold uppercase tracking-wider text-[#475569] opacity-50">Unit ${uId}</span>
+                            ${unit.hasAppendix ? `<i data-lucide="book-open" class="w-3 h-3 text-[#F27D26] opacity-40"></i>` : ''}
+                        </div>
+                        <span class="text-[11px] font-bold jp-serif text-[#1A1A1A] opacity-90">${unit.title || ''}</span>
+                    </div>
+                `;
+
+                const sortedPartIds = Object.keys(unit.parts).sort((a, b) => {
+                    const pa = unit.parts[a];
+                    const pb = unit.parts[b];
+                    return (parseInt(pa.page) || 0) - (parseInt(pb.page) || 0) || a.localeCompare(b);
+                });
+
+                sortedPartIds.forEach(pId => {
+                    const part = unit.parts[pId];
+                    const isSelected = selectedUnitId === uId && selectedPartId === pId;
+                    
+                    html += `
+                    <div class="w-full text-left px-3 py-2.5 rounded-xl transition-all flex items-center justify-between group ${isSelected ? 'bg-[#1A1A1A] text-white shadow-lg' : 'hover:bg-[#F2F1EC]' } cursor-pointer" onclick="selectPart('${uId}', '${pId}')">
+                        <div class="flex flex-col gap-0.5 overflow-hidden flex-1">
+                            <div class="flex items-center gap-2">
+                                <span class="text-[10px] font-bold uppercase tracking-tight ${isSelected ? 'opacity-70' : 'opacity-40'}">${pId}</span>
+                                <span class="text-[9px] font-mono opacity-30">p.${part.page || '--'}</span>
+                                ${part.hasAppendix ? `<i data-lucide="book-open" class="w-2.5 h-2.5 text-[#F27D26] opacity-60"></i>` : ''}
+                            </div>
+                            <span class="text-[10px] font-bold jp-serif truncate w-full ${isSelected ? 'opacity-100' : 'opacity-90'}">${part.title || pId}</span>
+                        </div>
+                        <i data-lucide="chevron-right" class="w-4 h-4 opacity-10 group-hover:opacity-100 transition-all ${isSelected ? 'opacity-100' : ''}"></i>
+                    </div>
+                    `;
+                });
+            });
+            list.innerHTML = html;
+            lucide.createIcons();
+        }
+
+        function selectPart(uId, pId) { 
+            selectedUnitId = uId; 
+            selectedPartId = pId; 
+            
+            const part = appData.units[uId].parts[pId];
+            const views = part.views || {};
+            
+            const hasText = views.TEXT || views.YCDI || views.WT || views.LR || views.ST;
+            const hasGrammar = views.GRAMMAR || views.AG;
+            const hasVocab = views.VOCABULARY || views.GL;
+            const hasAppendix = views.APPENDIX || views.PART_APPENDIX || views.UNIT_APPENDIX || part.hasAppendix;
+
+            // Simple auto-switch if preferred view is empty but another has content
+            if (currentView === 'text' && !hasText) {
+                if (hasGrammar) currentView = 'grammar';
+                else if (hasVocab) currentView = 'vocab';
+                else if (hasAppendix) currentView = 'appendix';
+            }
+
+            setView(currentView);
+            updateSidebar(); 
+            renderContent(); 
+        }
+
+        function renderItem(item, iIdx, bIdx, vKey, itemLayout = 'vertical') {
+            const spacing = itemLayout === 'horizontal' ? 'flex flex-wrap gap-x-4 gap-y-2' : 'space-y-1.5';
+            let itemHtml = '';
+            
+            // Detect defined keys to respect JSON order
+            const keys = Object.keys(item).filter(k => k !== 'id');
+            const prefixKeys = [];
+            const mainKeys = [];
+            
+            keys.forEach((key, index) => {
+                // ref_num or tag at the beginning of the object are treated as prefix
+                if ((key === 'ref_num' || key === 'tag') && index < 2) {
+                    prefixKeys.push(key);
+                } else if (!['ref_id', 'speaker', 'role'].includes(key)) {
+                    mainKeys.push(key);
+                }
+            });
+
+            itemHtml += `<div class="flex items-start gap-2 group">`;
+            if (prefixKeys.length > 0) {
+                itemHtml += `<div class="flex flex-col items-start gap-1 flex-shrink-0 pt-1">`;
+                prefixKeys.forEach(pk => {
+                    if (pk === 'ref_num') {
+                        itemHtml += `<span style="${getItemStyleString('ref_num')}">${item[pk]}</span>`;
+                    } else if (pk === 'tag') {
+                        const s = itemStyles.tag || defaultStyles.tag;
+                        itemHtml += `<div class="px-1.5 py-0.5 rounded leading-none" style="background-color: ${s.bgColor || '#1A1A1A'};"><span style="${getItemStyleString('tag')}">${parseMarkdown(item[pk])}</span></div>`;
+                    }
+                });
+                itemHtml += `</div>`;
+            }
+
+            itemHtml += `<div class="flex-1 ${spacing}">`;
+            
+            // Special handling for role if it exists
+            if (item.role) {
+                itemHtml += `<div><span class="text-[9px] font-bold px-1.5 py-0.5 rounded bg-[#1A1A1A]/5 text-[#1A1A1A]/40 uppercase font-sans mb-1 inline-block">${item.role}</span></div>`;
+            }
+
+            mainKeys.forEach(key => {
+                const style = getItemStyleString(key);
+                const content = parseMarkdown(item[key]);
+                
+                const isJp = key === 'ja' || (itemStyles[key] && itemStyles[key].font === 'jp');
+                const hideClass = (currentMode === 'study' && (key === 'ja' || key === 'meaning') && ((key === 'ja' && !showJapanese) || (key === 'meaning' && !showMeanings))) ? 'study-hidden' : '';
+
+                itemHtml += `
+                    <div class="transition-all ${hideClass}" onclick="if(this.classList.contains('study-hidden')) { event.stopPropagation(); this.classList.toggle('revealed'); }">
+                        <p style="${style}" class="${isJp ? 'textbook-ja' : 'textbook-en'}">${enrichText(content)}</p>
+                    </div>
+                `;
+            });
+            itemHtml += `</div></div>`;
+            return itemHtml;
+        }
+
+        function renderItemWithWrap(item, idx, bIdx, vKey, state, itemLayout = 'vertical') {
+            const isTextView = ['TEXT', 'YCDI', 'WT', 'LR', 'ST'].includes(vKey);
+            let speakerHtml = '';
+            if (isTextView && item.speaker && item.speaker !== state.lastSpeaker) {
+                speakerHtml = `<span style="${getItemStyleString('speaker')}" class="mt-4 mb-2 block uppercase tracking-[0.2em] font-bold">${item.speaker}</span>`;
+                state.lastSpeaker = item.speaker;
+            } else if (isTextView && !item.speaker) {
+                state.lastSpeaker = null;
+            }
+
+            const hasExplanation = !!getExplanation(item.ref_id || item.id);
+            const itemContent = renderItem(item, idx, bIdx, vKey, itemLayout);
+
+            if (isTextView) {
+                return `
+                    <div class="px-2 py-1.5 transition-all">
+                        ${speakerHtml}
+                        <div class="flex items-start gap-4">
+                            <div class="flex-1">${itemContent}</div>
+                            ${hasExplanation ? `
+                                <button onclick="showExplanation('${item.ref_id || item.id}')" class="text-[#F27D26] opacity-80 hover:opacity-100 transition-opacity mt-1 bg-[#F27D26]/5 p-1.5 rounded-full flex-shrink-0">
+                                    <i data-lucide="info" class="w-4 h-4"></i>
+                                </button>` : ''}
+                        </div>
+                    </div>`;
+            }
+            return itemContent;
+        }
+
+        function renderGroups(groups, bIdx, vKey, state, depth = 0) {
+            if (!Array.isArray(groups)) return '';
+            return groups.map((group, gIdx) => {
+                const indent = depth > 0 ? 'ml-6 border-l-2 border-[#1A1A1A]/5 pl-6' : '';
+                const isHorizontal = group.layout === 'horizontal';
+                const itemsClass = isHorizontal ? 'flex flex-wrap gap-3' : 'space-y-3';
+                
+                return `
+                    <div class="space-y-4 ${indent}">
+                        ${group.title ? `<h4 class="font-bold jp-serif border-b border-[#1A1A1A]/10 pb-1" style="${getItemStyleString('title')}">${group.title}</h4>` : ''}
+                        ${group.text ? `<p class="text-[12px] jp-serif opacity-80" style="${getItemStyleString('text')}">${parseMarkdown(group.text)}</p>` : ''}
+                        ${group.items ? `<div class="${itemsClass}">${group.items.map((item, iIdx) => renderItemWithWrap(item, iIdx, bIdx, vKey, state, group.item_layout)).join('')}</div>` : ''}
+                        ${group.groups ? renderGroups(group.groups, bIdx, vKey, state, depth + 1) : ''}
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function renderBlock(block, bIdx, vKey, color = null) {
+            const isTextView = ['TEXT', 'YCDI', 'WT', 'LR', 'ST'].includes(vKey);
+            const blockColor = color || block.color;
+            const state = { lastSpeaker: null };
+            const keys = Object.keys(block);
+            
+            if (isTextView) {
+                let blockHtml = `<div class="space-y-4 animate-fade-in ${bIdx > 0 ? 'border-t border-[#1A1A1A]/5 pt-8' : ''}">`;
+                
+                keys.forEach(key => {
+                    if (['items', 'groups', 'type', 'item_layout', 'color'].includes(key)) return;
+                    
+                    if (key === 'header') {
+                        blockHtml += `<h3 class="section-header opacity-30 mt-6" style="${getItemStyleString('header')}; ${blockColor ? `color: ${blockColor};` : ''}">
+                            <i data-lucide="${getBlockIcon(block)}" class="w-3 h-3"></i>
+                            ${block.header}
+                        </h3>`;
+                    } else {
+                        const style = getItemStyleString(key);
+                        const isJp = itemStyles[key]?.font === 'jp' || key === 'text' || key === 'label';
+                        blockHtml += `<p class="px-4 ${isJp ? 'jp-serif' : ''}" style="${style}">${parseMarkdown(block[key])}</p>`;
+                    }
+                });
+
+                if (block.items) {
+                    blockHtml += `<div class="space-y-1">${block.items.map((item, iIdx) => renderItemWithWrap(item, iIdx, bIdx, vKey, state)).join('')}</div>`;
+                }
+                if (block.groups) {
+                    blockHtml += renderGroups(block.groups, bIdx, vKey, state);
+                }
+                blockHtml += `</div>`;
+                return blockHtml;
+            }
+
+            // Normal Card Style
+            let blockHtml = `<div class="bg-white border border-[#1A1A1A]/10 p-8 rounded-3xl space-y-6 shadow-sm animate-fade-in" style="${blockColor ? `border-left: 3px solid ${blockColor};` : ''}">`;
+            
+            keys.forEach(key => {
+                if (['items', 'groups', 'type', 'item_layout', 'color'].includes(key)) return;
+                
+                if (key === 'header') {
+                    blockHtml += `<h3 class="section-header" style="${getItemStyleString('header')}; ${blockColor ? `color: ${blockColor};` : ''}">
+                        <i data-lucide="${getBlockIcon(block)}" class="w-3.5 h-3.5"></i>
+                        ${block.header}
+                    </h3>`;
+                } else {
+                    const style = getItemStyleString(key);
+                    const isJp = itemStyles[key]?.font === 'jp' || key === 'text' || key === 'label';
+                    blockHtml += `<p class="${isJp ? 'jp-serif' : ''}" style="${style}">${parseMarkdown(block[key])}</p>`;
+                }
+            });
+
+            if (block.items) {
+                blockHtml += `<div class="space-y-4">${block.items.map((item, iIdx) => renderItemWithWrap(item, iIdx, bIdx, vKey, state, block.item_layout)).join('')}</div>`;
+            }
+            if (block.groups) {
+                blockHtml += renderGroups(block.groups, bIdx, vKey, state);
+            }
+            blockHtml += `</div>`;
+            return blockHtml;
+        }
+
+        function renderViewContent(container, viewData, vKey, defaultColor = null) {
+            if (!viewData) return false;
+            let hasAny = false;
+            
+            // Render Items (Flat sentences)
+            if (viewData.items && viewData.items.length > 0) {
+                const state = { lastSpeaker: null };
+                const itemsHtml = viewData.items.map((item, idx) => {
+                    return renderItemWithWrap(item, idx, null, vKey, state);
+                }).join('');
+                container.insertAdjacentHTML('beforeend', itemsHtml);
+                hasAny = true;
+            }
+
+            // Render Content Blocks (BOXes)
+            if (viewData.content_blocks && viewData.content_blocks.length > 0) {
+                const blocksHtml = `<div class="space-y-8 ${hasAny ? 'mt-10' : ''}">` + 
+                    viewData.content_blocks.map((block, bIdx) => renderBlock(block, bIdx, vKey, defaultColor)).join('') + 
+                `</div>`;
+                container.insertAdjacentHTML('beforeend', blocksHtml);
+                hasAny = true;
+            }
+            
+            return hasAny;
+        }
+
+        function renderContent() {
+            if (!selectedUnitId) return;
+            document.getElementById('welcome-screen').classList.add('hidden');
+            document.getElementById('main-content').classList.remove('hidden');
+
+            const unit = appData.units[selectedUnitId];
+            const part = unit.parts[selectedPartId];
+            if (!part) return;
+            
+            const views = part.views || {};
+            const hasLocalAppendix = views.APPENDIX || views.PART_APPENDIX || views.UNIT_APPENDIX || part.hasAppendix;
+            const isAppendixPart = selectedPartId === 'AP' || selectedPartId.startsWith('AP_');
+            
+            // Show Appendix tab ONLY if it is the intended 'AP' part or the part itself has specific appendix data
+            document.getElementById('tab-appendix').classList.toggle('hidden', !isAppendixPart && !hasLocalAppendix);
+
+            // Text View
+            if (currentView === 'text') {
+                const container = document.getElementById('honbun-list');
+                container.innerHTML = '';
+                // Map TEXT, YCDI, WT, LR, ST to this view
+                const textViews = ['TEXT', 'YCDI', 'WT', 'LR', 'ST'];
+                let hasContent = false;
+                textViews.forEach(vKey => {
+                    if (renderViewContent(container, views[vKey], vKey)) hasContent = true;
+                });
+                if (!hasContent) container.innerHTML = '<p class="text-center py-20 opacity-30 italic">No text content available.</p>';
+            }
+
+            // Grammar View
+            if (currentView === 'grammar') {
+                const container = document.getElementById('grammar-container');
+                container.innerHTML = '';
+                // Map GRAMMAR, AG to this view
+                const grammarViews = ['GRAMMAR', 'AG'];
+                let hasContent = false;
+                grammarViews.forEach(vKey => {
+                    if (renderViewContent(container, views[vKey], vKey)) hasContent = true;
+                });
+                if (!hasContent) container.innerHTML = '<p class="text-center py-20 opacity-30 italic">No grammar content available.</p>';
+            }
+
+            // Vocab View
+            if (currentView === 'vocab') {
+                const wordList = document.getElementById('word-list');
+                wordList.innerHTML = '';
+                const vocabData = views.VOCABULARY || views.GL || { items: [] };
+                const vocab = vocabData.items || [];
+                const hiddenClassVocab = (!showMeanings && currentMode === 'study') ? 'study-hidden' : '';
+                
+                if (vocab.length > 0) {
+                    wordList.innerHTML = vocab.map(w => `
+                        <div class="py-3 px-5 bg-white rounded-2xl border border-[#1A1A1A]/5 flex flex-col items-start hover:shadow-md transition-all">
+                            <div class="w-full flex justify-between items-start gap-4">
+                                <div class="flex-1 space-y-0.5">
+                                    <p class="font-bold text-lg serif text-[#000000]">${enrichText(w.headword)}</p>
+                                    <p class="text-[11px] font-bold font-mono text-[#1A1A1A]/80">${w.pronunciation || '---'}</p>
+                                </div>
+                                <div class="text-right pt-1">
+                                    <p class="text-[14px] font-bold jp-serif text-[#000000] transition-all ${hiddenClassVocab}" onclick="if(this.classList.contains('study-hidden')) { this.classList.toggle('revealed'); }">
+                                        <span class="text-[11px] font-bold px-2 py-0.5 rounded border bg-slate-50 mr-2 inline-block font-sans">${w.pos || ''}</span>
+                                        ${w.meaning}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    `).join('');
+                } else wordList.innerHTML = '<p class="col-span-full text-center py-20 opacity-30 italic">No vocabulary available.</p>';
+            }
+
+            // Appendix View
+            if (currentView === 'appendix') {
+                const aContainer = document.getElementById('appendix-container');
+                aContainer.innerHTML = '';
+                
+                const appendixKeys = ['APPENDIX', 'PART_APPENDIX', 'UNIT_APPENDIX'];
+                let hasContent = false;
+                
+                appendixKeys.forEach(k => {
+                    if (renderViewContent(aContainer, views[k], k, appConfig.colors.appendix)) hasContent = true;
+                });
+                
+                // Fallback to unit-wide appendix ONLY if we are specifically on the 'AP' part
+                if (isAppendixPart && unit.hasAppendix) {
+                    Object.values(unit.parts).forEach(p => {
+                        if (p !== part && p.views) {
+                            appendixKeys.forEach(k => {
+                                renderViewContent(aContainer, p.views[k], k, appConfig.colors.appendix);
+                            });
+                        }
+                    });
+                }
+                
+                if (aContainer.innerHTML === '') aContainer.innerHTML = '<p class="text-center py-20 opacity-30 italic">No appendix data available.</p>';
+            }
+
+            lucide.createIcons();
+        }
+
+        function getExplanation(id) {
+            if (!appData.allExplanations) return null;
+            return appData.allExplanations[id] || null;
+        }
+
+        function showExplanation(id) {
+            const exp = getExplanation(id);
+            if (!exp) return;
+            
+            if (exp.en || exp.ja) {
+                document.getElementById('modal-context-en').innerHTML = parseMarkdown(exp.en || '');
+                document.getElementById('modal-context-ja').innerHTML = parseMarkdown(exp.ja || '');
+                document.getElementById('modal-context').classList.remove('hidden');
+            } else {
+                document.getElementById('modal-context').classList.add('hidden');
+            }
+
+            document.getElementById('modal-text').innerHTML = parseMarkdown(exp.text);
+            document.getElementById('modal-page').innerText = `Page: ${exp.page || '--'}`;
+            document.getElementById('modal-id').innerText = `ID: ${id}`;
+            document.getElementById('modal').classList.remove('hidden');
+            lucide.createIcons();
+        }
+
+        function closeModal() { document.getElementById('modal').classList.add('hidden'); }
+        function getBlockIcon(block) { return block.icon || appConfig.icons[block.type] || 'help-circle'; }
+
+        function parseMarkdown(text) {
+            if (!text) return '';
+            let html = text.replace(/\\n/g, '<br>').replace(/\n/g, '<br>').replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\*(.*?)\*/g, '<em>$1</em>');
+            
+            // Standard colors and markers
+            html = html.replace(/\[red\](.*?)\[\/red\]/g, '<span class="text-red">$1</span>');
+            html = html.replace(/\[blue\](.*?)\[\/blue\]/g, '<span class="text-blue">$1</span>');
+            html = html.replace(/\[green\](.*?)\[\/green\]/g, '<span class="text-green">$1</span>');
+            html = html.replace(/\[mark\](.*?)\[\/mark\]/g, '<span class="bg-marker">$1</span>');
+            html = html.replace(/\[u\](.*?)\[\/u\]/g, '<span class="u-normal">$1</span>');
+            html = html.replace(/\[uw\](.*?)\[\/uw\]/g, '<span class="u-wavy">$1</span>');
+
+            appConfig.markdown.forEach(rule => {
+                const escapedMarker = rule.marker.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                const regex = new RegExp(`${escapedMarker}(.*?)${escapedMarker}`, 'g');
+                html = html.replace(regex, `<span class="${rule.class}">$1</span>`);
+            });
+            return html;
+        }
+
+        window.onload = () => {
+            lucide.createIcons();
+            loadDictionary();
+        };
+    </script>
+</body>
+</html>
