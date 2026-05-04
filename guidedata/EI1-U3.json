@@ -1,0 +1,3447 @@
+{
+  "type": "FULL_BACKUP",
+  "units": {
+    "G1-U3": {
+      "title": "Unit G1-U3",
+      "parts": {
+        "AG1": {
+          "title": "Active Grammar 1",
+          "views": {
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "look_back_section",
+                  "header": "場面と意味：ストーリーをふり返って",
+                  "items": [
+                    {
+                      "id": "G1_U3_AG1_S_01",
+                      "en": "Tina: Hello. I'm Tina.",
+                      "ja": "ティナ：こんにちは。私はティナです。"
+                    },
+                    {
+                      "id": "G1_U3_AG1_S_02",
+                      "en": "I'm from New York.",
+                      "ja": "ニューヨーク出身です。"
+                    },
+                    {
+                      "id": "G1_U3_AG1_S_03",
+                      "en": "I like music and sports.",
+                      "ja": "音楽とスポーツが好きです。"
+                    },
+                    {
+                      "id": "G1_U3_AG1_S_04",
+                      "en": "I can swim and play the drums.",
+                      "ja": "水泳とドラムの演奏ができます。"
+                    }
+                  ]
+                },
+                {
+                  "type": "speak_section",
+                  "header": "Speak: 日本に来たばかりの Tina に自己紹介をしよう",
+                  "label": "Tina の話 (Do you like music?)",
+                  "items": [
+                    {
+                      "id": "G1_U3_AG1_S_05",
+                      "en": "Tina: Hello. I'm Christina Rios.",
+                      "ja": "こんにちは。私はクリスティーナ・リオスです。"
+                    },
+                    {
+                      "id": "G1_U3_AG1_S_06",
+                      "en": "Please call me Tina.",
+                      "ja": "私をティナと呼んでください。"
+                    },
+                    {
+                      "id": "G1_U3_AG1_S_07",
+                      "en": "I'm from New York.",
+                      "ja": "私はニューヨーク出身です。"
+                    },
+                    {
+                      "id": "G1_U3_AG1_S_08",
+                      "en": "I can't speak Japanese well, but I speak English and Spanish.",
+                      "ja": "日本語は上手く話せませんが、英語とスペイン語を話します。"
+                    },
+                    {
+                      "id": "G1_U3_AG1_S_09",
+                      "en": "I like music and sports.",
+                      "ja": "私は音楽とスポーツが好きです。"
+                    },
+                    {
+                      "id": "G1_U3_AG1_S_10",
+                      "en": "I like dancing, too.",
+                      "ja": "ダンスも好きです。"
+                    },
+                    {
+                      "id": "G1_U3_AG1_S_11",
+                      "en": "I can play the drums.",
+                      "ja": "私はドラムを演奏することができます。"
+                    },
+                    {
+                      "id": "G1_U3_AG1_S_12",
+                      "en": "I sometimes play the drums at home.",
+                      "ja": "家でときどきドラムを演奏します。"
+                    },
+                    {
+                      "id": "G1_U3_AG1_S_13",
+                      "en": "How about you?",
+                      "ja": "あなたはどうですか。"
+                    },
+                    {
+                      "id": "G1_U3_AG1_S_14",
+                      "en": "Do you like music?",
+                      "ja": "音楽は好きですか。"
+                    },
+                    {
+                      "id": "G1_U3_AG1_S_15",
+                      "en": "Can you play the drums?",
+                      "ja": "ドラムは演奏できますか。"
+                    },
+                    {
+                      "id": "G1_U3_AG1_S_16",
+                      "en": "Please tell me about you!",
+                      "ja": "あなたのことを教えてください！"
+                    }
+                  ]
+                },
+                {
+                  "type": "model_answer_section",
+                  "header": "Speak 解答例 (Miho)",
+                  "items": [
+                    {
+                      "id": "G1_U3_AG1_S_17",
+                      "en": "Hello, Tina. I'm Suzuki Miho.",
+                      "ja": "こんにちは、ティナ。私は鈴木美帆です。"
+                    },
+                    {
+                      "id": "G1_U3_AG1_S_18",
+                      "en": "I'm from Yokohama.",
+                      "ja": "横浜出身です。"
+                    },
+                    {
+                      "id": "G1_U3_AG1_S_19",
+                      "en": "I like music, too.",
+                      "ja": "私も音楽が好きです。"
+                    },
+                    {
+                      "id": "G1_U3_AG1_S_20",
+                      "en": "I can't play the drums, but I can play the flute.",
+                      "ja": "ドラムは演奏できませんが、フルートは演奏できます。"
+                    },
+                    {
+                      "id": "G1_U3_AG1_S_21",
+                      "en": "I'm in the brass band at school.",
+                      "ja": "私は学校で吹奏楽部に入っています。"
+                    }
+                  ]
+                }
+              ]
+            },
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "grammar_hunt",
+                  "header": "Grammar Hunt (文法探し)",
+                  "items": [
+                    {
+                      "id": "G1_U3_AG1_G_H1",
+                      "text": "Unit 1, 2 のストーリーを読み、am, are とその短縮形を〇で囲みましょう。また、それぞれの文の主語を確かめましょう。",
+                      "note": "解答例：Tina: I'm lost. / Eri: I'm a student there. (主語はすべて I)"
+                    },
+                    {
+                      "id": "G1_U3_AG1_G_H2",
+                      "text": "Unit 2, 3 のストーリーを読み、一般動詞を〇で囲みましょう。また、それぞれの文がどんな内容を伝えているか確かめましょう。",
+                      "note": "解答例：Do you play an instrument? / I play the trumpet. / We practice on Mondays..."
+                    },
+                    {
+                      "id": "G1_U3_AG1_G_H3",
+                      "text": "Unit 1, 2 のストーリーを読み、can, can't を〇で囲みましょう。",
+                      "note": "解答例：I can swim and play the drums. / I can't play the drums, but I can play the piano."
+                    }
+                  ]
+                },
+                {
+                  "type": "summary_table",
+                  "header": "1. am, are (be動詞)",
+                  "groups": [
+                    {
+                      "title": "肯定文",
+                      "items": [
+                        {
+                          "en": "I am a new student.",
+                          "ja": "私は新入生です。"
+                        },
+                        {
+                          "en": "You are a new student.",
+                          "ja": "あなたは新入生です。"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "疑問文と答え",
+                      "items": [
+                        {
+                          "en": "Are you a new student?",
+                          "ja": "あなたは新入生ですか。"
+                        },
+                        {
+                          "en": "― Yes, I am. / No, I am not.",
+                          "ja": "― はい、そうです。 / いいえ、違います。"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "否定文",
+                      "items": [
+                        {
+                          "en": "I am not a new student.",
+                          "ja": "私は新入生ではありません。"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "短縮形",
+                      "items": [
+                        {
+                          "en": "I am -> I'm",
+                          "ja": "アイム"
+                        },
+                        {
+                          "en": "you are -> you're",
+                          "ja": "ユア"
+                        },
+                        {
+                          "en": "I am not -> I'm not",
+                          "ja": "アイムノット"
+                        },
+                        {
+                          "en": "you are not -> you're not / you aren't",
+                          "ja": "ユアノット / ユアァント"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "summary_table",
+                  "header": "2. be動詞以外の動詞 (一般動詞)",
+                  "groups": [
+                    {
+                      "title": "肯定文",
+                      "items": [
+                        {
+                          "en": "I play the trumpet.",
+                          "ja": "私はトランペットを演奏します。"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "疑問文と答え",
+                      "items": [
+                        {
+                          "en": "Do you play the piano?",
+                          "ja": "あなたはピアノを弾きますか。"
+                        },
+                        {
+                          "en": "― Yes, I do. / No, I do not.",
+                          "ja": "― はい、弾きます。 / いいえ、弾きません。"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "否定文",
+                      "items": [
+                        {
+                          "en": "I do not play the piano.",
+                          "ja": "私はピアノを弾きません。"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "短縮形",
+                      "items": [
+                        {
+                          "en": "do not -> don't",
+                          "ja": "ドント"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "summary_table",
+                  "header": "3. can (助動詞)",
+                  "groups": [
+                    {
+                      "title": "肯定文",
+                      "items": [
+                        {
+                          "en": "I can play the trumpet.",
+                          "ja": "私はトランペットを演奏できます。"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "疑問文と答え",
+                      "items": [
+                        {
+                          "en": "Can you play the drums?",
+                          "ja": "あなたはドラムを演奏できますか。"
+                        },
+                        {
+                          "en": "― Yes, I can. / No, I cannot.",
+                          "ja": "― はい、できます。 / いいえ、できません。"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "否定文",
+                      "items": [
+                        {
+                          "en": "I cannot play the drums.",
+                          "ja": "私はドラムを演奏できません。"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "短縮形",
+                      "items": [
+                        {
+                          "en": "cannot -> can't",
+                          "ja": "キャント"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "69-70"
+        },
+        "AP": {
+          "title": "AI Appendix: ユニット3のまとめ",
+          "views": {
+            "PART_APPENDIX": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "info_box",
+                  "header": "P1: 質問して答えるリズム",
+                  "items": [
+                    {
+                      "tag": "Grammar",
+                      "text": "Do you ～? で聞かれたら Yes/No で答える。でも What で聞かれたら、具体的な内容（I visit ～ など）を答える。この区別が一番のポイントだよ！"
+                    },
+                    {
+                      "speaker": "Check",
+                      "en": "Do you ~? -> Yes / No.",
+                      "ja": "はい、いいえで答える。"
+                    },
+                    {
+                      "speaker": "Check",
+                      "en": "What do you do? -> I usually visit my grandparents.",
+                      "ja": "具体的な活動を答える。"
+                    }
+                  ]
+                },
+                {
+                  "type": "info_box",
+                  "header": "P2: 動作を名詞に変える -ing",
+                  "items": [
+                    {
+                      "tag": "Point",
+                      "text": "dance（踊る）を dancing（踊ること）にするだけで、「好きなこと」として伝えられるようになるよ。eを取ったり、最後を重ねたりするスペルの変化にも注意してね。"
+                    },
+                    {
+                      "speaker": "Spelling",
+                      "en": "dance -> ==**dancing**== / swim -> ==**swimming**=="
+                    }
+                  ]
+                },
+                {
+                  "type": "info_box",
+                  "header": "P3: 未来の希望を伝える want to",
+                  "items": [
+                    {
+                      "tag": "Usage",
+                      "text": "「～がほしい」なら want + 物。「～したい」なら want to + 動詞。この to を忘れないようにリズムで覚えよう！"
+                    },
+                    {
+                      "speaker": "Practice",
+                      "en": "I ==**want to**== try goldfish scooping.",
+                      "ja": "金魚すくいをやってみたいです。"
+                    }
+                  ]
+                }
+              ]
+            },
+            "UNIT_APPENDIX": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "info_box",
+                  "header": "文化の窓：夏休みの過ごし方",
+                  "items": [
+                    {
+                      "tag": "Culture",
+                      "text": "南アフリカでは夏にクリスマスがあるんだね！ 日本の「盆踊り」や「風鈴」を英語で説明する（It's a summer festival dance. など）練習も、これからの国際交流でとっても役に立つよ。"
+                    }
+                  ]
+                },
+                {
+                  "type": "info_box",
+                  "header": "Unit 3 を終えた君へ",
+                  "items": [
+                    {
+                      "speaker": "AI Message",
+                      "text": "お疲れ様！ このユニットを終えて、自分の日常や「やりたいこと」を英語で言えるようになったね。AGパートでの be動詞・一般動詞・can の整理は、これからの英語学習の「一生モノの土台」になるから、自信がつくまで何度も見返してみてね！"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 0,
+          "hasAppendix": true
+        },
+        "EX": {
+          "title": "Extra Story / 音声内容",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U3_EX_W_01",
+                  "headword": "room",
+                  "pronunciation": "rúːm",
+                  "pos": "名",
+                  "meaning": "部屋"
+                },
+                {
+                  "id": "G1_U3_EX_W_02",
+                  "headword": "flyer",
+                  "pronunciation": "fláiər",
+                  "pos": "名",
+                  "meaning": "ちらし"
+                },
+                {
+                  "id": "G1_U3_EX_W_03",
+                  "headword": "have fun",
+                  "pos": "熟",
+                  "meaning": "楽しむ"
+                },
+                {
+                  "id": "G1_U3_EX_W_04",
+                  "headword": "get ready",
+                  "pos": "熟",
+                  "meaning": "準備をする"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "audio_section",
+                  "header": "Extra Story: Tina と Nick の会話 (p.61)",
+                  "label": "In Tina's room (ティナの部屋で)",
+                  "items": [
+                    {
+                      "id": "G1_U3_EX_S_01",
+                      "speaker": "Nick",
+                      "en": "What's this?",
+                      "ja": "これは何かな。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_02",
+                      "speaker": "Tina",
+                      "en": "This is the flyer for the Honcho Summer Festival.",
+                      "ja": "これは本町夏祭りのちらしだよ。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_03",
+                      "speaker": "Nick",
+                      "en": "Cool.",
+                      "ja": "かっこいいね。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_04",
+                      "speaker": "Tina",
+                      "en": "Do you want to come?",
+                      "ja": "あなたも来たい？"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_05",
+                      "speaker": "Nick",
+                      "en": "Yes!",
+                      "ja": "うん！"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_06",
+                      "speaker": "Tina",
+                      "en": "You can meet my friends. We all can have fun together.",
+                      "ja": "私の友達に会えるよ。私たちみんなでいっしょに楽しめると思うわ。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_07",
+                      "speaker": "Nick",
+                      "en": "Great. Let's get ready!",
+                      "ja": "すごい。準備しよう！"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_section",
+                  "header": "Part 1 の音声内容 (p.61-62)",
+                  "label": "(1) Tina と Eri の週末",
+                  "items": [
+                    {
+                      "id": "G1_U3_EX_S_08",
+                      "speaker": "Tina",
+                      "en": "What do you do on weekends, Eri?",
+                      "ja": "週末は何をするの、エリ？"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_09",
+                      "speaker": "Eri",
+                      "en": "I usually walk my dog.",
+                      "ja": "普段は犬の散歩をするわ。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_10",
+                      "speaker": "Tina",
+                      "en": "Oh, you have a dog!",
+                      "ja": "えっ、犬を飼っているの！"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_11",
+                      "speaker": "Eri",
+                      "en": "Yes. His name is Randy. He's gentle and really cute!",
+                      "ja": "うん。彼の名前はランディー。彼は優しくて、本当に可愛いんだよ！"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_12",
+                      "speaker": "Tina",
+                      "en": "That's nice. I want to meet him! Where do you walk him?",
+                      "ja": "それはすてきね。彼に会ってみたい！ どこで彼の散歩をするの？"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_13",
+                      "speaker": "Eri",
+                      "en": "We usually walk to a big park. We sometimes play with a ball in the park.",
+                      "ja": "普段は大きな公園まで歩くの。ときどき公園ではボールで遊ぶわ。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_14",
+                      "speaker": "Eri",
+                      "en": "He's good at catching it.",
+                      "ja": "彼はキャッチするのが得意なの。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_15",
+                      "speaker": "Tina",
+                      "en": "Sounds nice!",
+                      "ja": "いいね！"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_section",
+                  "header": "Part 1 の音声内容 (p.62)",
+                  "label": "(2) Kota の週末",
+                  "items": [
+                    {
+                      "id": "G1_U3_EX_S_16",
+                      "speaker": "Tina",
+                      "en": "Kota, what do you do on weekends?",
+                      "ja": "コウタ、週末は何をするの。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_17",
+                      "speaker": "Kota",
+                      "en": "Not much.",
+                      "ja": "とくに何も。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_18",
+                      "speaker": "Eri",
+                      "en": "Oh, Kota, you always say that. That's so boring.",
+                      "ja": "ああ、コウタ、あなたっていつもそう言う。とてもつまらないわよね。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_19",
+                      "speaker": "Kota",
+                      "en": "Well .... I sometimes go fishing with my father.",
+                      "ja": "えーっと……。ときどきお父さんと釣りに行くこともあるよ。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_20",
+                      "speaker": "Tina",
+                      "en": "Really? Where do you go?",
+                      "ja": "そうなの。どこに行くの？"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_21",
+                      "speaker": "Kota",
+                      "en": "To the river. We go by car.",
+                      "ja": "川に行くんだ。車で行くんだよ。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_22",
+                      "speaker": "Tina",
+                      "en": "That sounds fun.",
+                      "ja": "それは楽しそうね。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_23",
+                      "speaker": "Kota",
+                      "en": "Are you interested in fishing, Tina?",
+                      "ja": "釣りに興味あるの、ティナ？"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_24",
+                      "speaker": "Tina",
+                      "en": "Well ... not really.",
+                      "ja": "うーん……、あんまり。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_25",
+                      "speaker": "Kota",
+                      "en": "How about you, Eri?",
+                      "ja": "君はどう、エリ？"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_26",
+                      "speaker": "Eri",
+                      "en": "No. I'm not interested in fishing.",
+                      "ja": "だめ。釣りに興味ないよ。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_27",
+                      "speaker": "Kota",
+                      "en": "I see.",
+                      "ja": "そうなんだ。"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_section",
+                  "header": "Part 1 の音声内容 (p.62)",
+                  "label": "(3) Tina の週末",
+                  "items": [
+                    {
+                      "id": "G1_U3_EX_S_28",
+                      "speaker": "Kota",
+                      "en": "How about you? What do you do, Tina?",
+                      "ja": "君はどうなの。何をするの、ティナ。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_29",
+                      "speaker": "Tina",
+                      "en": "I often go to the library on weekends.",
+                      "ja": "私はよく週末に図書館に行くよ。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_30",
+                      "speaker": "Kota",
+                      "en": "You go to the library? What do you do there? Do you watch videos?",
+                      "ja": "図書館に行くの？ そこで何をするの？ 動画を見るのかな。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_31",
+                      "speaker": "Tina",
+                      "en": "No, I don't. I read Japanese comic books.",
+                      "ja": "ううん、見ないよ。日本の漫画を読むの。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_32",
+                      "speaker": "Kota",
+                      "en": "Japanese comic books? Why?",
+                      "ja": "日本の漫画？ どうして？"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_33",
+                      "speaker": "Tina",
+                      "en": "Well, I can learn kanji from them.",
+                      "ja": "うーん、漫画から漢字を覚えられるからね。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_34",
+                      "speaker": "Kota",
+                      "en": "Cool!",
+                      "ja": "かっこいい！"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_35",
+                      "speaker": "Tina",
+                      "en": "Do you want to come with me sometime?",
+                      "ja": "今度いっしょに行かないかな。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_36",
+                      "speaker": "Kota",
+                      "en": "Yes!",
+                      "ja": "いいよ！"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_37",
+                      "speaker": "Eri",
+                      "en": "I want to go with you, too.",
+                      "ja": "私もいっしょに行きたいな。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_38",
+                      "speaker": "Tina",
+                      "en": "OK. Let's all go together next time.",
+                      "ja": "いいよ。次はみんなで行こう。"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_section",
+                  "header": "Part 2 の音声内容 (p.63)",
+                  "label": "Nick と Eri の会話",
+                  "items": [
+                    {
+                      "id": "G1_U3_EX_S_39",
+                      "speaker": "Eri",
+                      "en": "Hey, Nick. You're good at dancing.",
+                      "ja": "ねえ、ニック。あなたは踊るのが得意なのね。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_40",
+                      "speaker": "Nick",
+                      "en": "Thanks, Eri. I like doing exercise.",
+                      "ja": "ありがとう、エリ。運動するのが好きなんだ。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_41",
+                      "speaker": "Eri",
+                      "en": "Great. You like sports then. What sports do you like?",
+                      "ja": "すごいね。それならスポーツも好きだね。どんなスポーツが好きなの？"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_42",
+                      "speaker": "Nick",
+                      "en": "I like playing soccer. I'm on the local soccer team.",
+                      "ja": "サッカーをするのが好きだよ。地元のサッカーチームに入っているんだ。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_43",
+                      "en": "How about you, Eri? Do you like sports?",
+                      "ja": "君はどうなの、エリ。スポーツは好き？"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_44",
+                      "speaker": "Eri",
+                      "en": "Yes. I like swimming in the summer. Do you like swimming?",
+                      "ja": "好きだよ。夏に泳ぐのが好きなんだ。水泳は好きなの？"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_45",
+                      "speaker": "Nick",
+                      "en": "Well, no. I don't like swimming.",
+                      "ja": "うーん、だめだね。水泳は好きじゃないよ。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_46",
+                      "speaker": "Eri",
+                      "en": "Tina is good at swimming, right?",
+                      "ja": "ティナは水泳が得意だよね。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_47",
+                      "speaker": "Nick",
+                      "en": "Yeah. She can swim fast, but I can't. We're different.",
+                      "ja": "そうだね。彼女は速く泳げるけど、ぼくはできない。ぼくたちは同じじゃないんだよね。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_48",
+                      "speaker": "Eri",
+                      "en": "Take it easy, Nick. Everyone is different.",
+                      "ja": "気にしないで、ニック。みんな同じじゃないわ。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_49",
+                      "en": "By the way, do you like listening to music?",
+                      "ja": "ところで、音楽を聞くのは好きかな。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_50",
+                      "speaker": "Nick",
+                      "en": "Not really. I don't listen to music very much.",
+                      "ja": "あんまり。音楽はあまり聞かないんだ。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_51",
+                      "en": "But I like singing. I often go to karaoke.",
+                      "ja": "だけど歌うのは好きだよ。よくカラオケに行くんだ。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_52",
+                      "speaker": "Eri",
+                      "en": "Oh, you like singing at karaoke. Me, too.",
+                      "ja": "へえ、カラオケで歌うのが好きなんだね。私もよ。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_53",
+                      "speaker": "Nick",
+                      "en": "Really?",
+                      "ja": "本当？"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_54",
+                      "speaker": "Eri",
+                      "en": "Yes. Let's go to karaoke together sometime.",
+                      "ja": "うん。今度いっしょにカラオケに行こうよ。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_55",
+                      "speaker": "Nick",
+                      "en": "Sure.",
+                      "ja": "もちろん。"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_section",
+                  "header": "Part 3 の音声内容 (p.64)",
+                  "label": "(1) ヨーヨー釣りと金魚すくい",
+                  "items": [
+                    {
+                      "id": "G1_U3_EX_S_56",
+                      "speaker": "Kota",
+                      "en": "Here's your yo-yo, Nick.",
+                      "ja": "どうぞ、君のヨーヨーだよ、ニック。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_57",
+                      "speaker": "Nick",
+                      "en": "Thank you, Kota.",
+                      "ja": "ありがとう、コウタ。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_58",
+                      "speaker": "Kota",
+                      "en": "It's no big deal. You're welcome. What do you want to do next, Nick?",
+                      "ja": "大したことじゃないよ。どういたしまして。次は何をしたいかな、ニック？"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_59",
+                      "speaker": "Nick",
+                      "en": "I want to play more games. How about you, Eri?",
+                      "ja": "もっとゲームをしたいな。君はどう、エリ？"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_60",
+                      "speaker": "Eri",
+                      "en": "Me, too. How about goldfish scooping? I want to try it.",
+                      "ja": "私も。金魚すくいはどうかな。やってみたいの。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_61",
+                      "speaker": "Nick",
+                      "en": "Oh, goldfish scooping. Sounds fun. Are you good at goldfish scooping, Eri?",
+                      "ja": "わあ、金魚すくいだって。楽しそうだね。君は金魚すくいが得意なの、エリ？"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_62",
+                      "speaker": "Eri",
+                      "en": "Yes. I'm a pro.",
+                      "ja": "うん。プロだよ。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_63",
+                      "speaker": "Nick",
+                      "en": "Wow.",
+                      "ja": "わあ。"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_section",
+                  "header": "Part 3 の音声内容 (p.64)",
+                  "label": "(2) かき氷",
+                  "items": [
+                    {
+                      "id": "G1_U3_EX_S_64",
+                      "speaker": "Tina",
+                      "en": "How about you, Kota? What do you want to do?",
+                      "ja": "あなたはどうなの、コウタ。何をしたいの。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_65",
+                      "speaker": "Kota",
+                      "en": "Well, I'm hot and thirsty. I want something cold.",
+                      "ja": "うーん、暑くてのどがかわいたな。何か冷たいものがほしい。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_66",
+                      "speaker": "Tina",
+                      "en": "Something cold?",
+                      "ja": "冷たいもの？"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_67",
+                      "speaker": "Kota",
+                      "en": "I want to eat shaved ice.",
+                      "ja": "かき氷が食べたいな。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_68",
+                      "speaker": "Nick",
+                      "en": "Great! I want to eat it, too.",
+                      "ja": "いいね！ ぼくも食べたいな。"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_section",
+                  "header": "Part 3 の音声内容 (p.64)",
+                  "label": "(3) 花火",
+                  "items": [
+                    {
+                      "id": "G1_U3_EX_S_69",
+                      "speaker": "Eri",
+                      "en": "How about you, Tina? Do you want to eat shaved ice?",
+                      "ja": "あなたはどうなの、ティナ。かき氷を食べたいの？"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_70",
+                      "speaker": "Tina",
+                      "en": "Hmm ... but what time is it?",
+                      "ja": "うーん……、でも何時かな？"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_71",
+                      "speaker": "Kota",
+                      "en": "It's seven o'clock. Why do you ask?",
+                      "ja": "7時だよ。どうして聞くの。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_72",
+                      "speaker": "Tina",
+                      "en": "I want to see the fireworks.",
+                      "ja": "私は花火を見たいんだ。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_73",
+                      "speaker": "Eri",
+                      "en": "Fireworks?",
+                      "ja": "花火？"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_74",
+                      "speaker": "Kota",
+                      "en": "Oh! The fireworks start at seven. Let's go and see them.",
+                      "ja": "ああ！ 花火は7時に始まるんだ。見に行こうよ。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_75",
+                      "speaker": "Eri",
+                      "en": "You really love fireworks, Kota. OK. Let's go and see them.",
+                      "ja": "あなたって本当に花火が大好きなのね、コウタ。いいよ。花火を見に行こう。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_76",
+                      "speaker": "Nick",
+                      "en": "But I want to eat shaved ice.",
+                      "ja": "でもかき氷を食べたいよ。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_77",
+                      "speaker": "Tina",
+                      "en": "Oh, Nick. You can eat it later.",
+                      "ja": "もう、ニック。あとで食べられるよ。"
+                    },
+                    {
+                      "id": "G1_U3_EX_S_78",
+                      "speaker": "Nick",
+                      "en": "Mm .... OK.",
+                      "ja": "うーん……。わかったよ。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "61-64"
+        },
+        "GL": {
+          "title": "Goal: 夏休みの過ごし方を紹介しよう",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U3_GL_W_01",
+                  "headword": "braai",
+                  "pos": "名",
+                  "meaning": "ブラーイ (南アフリカのバーベキュー)"
+                },
+                {
+                  "id": "G1_U3_GL_W_02",
+                  "headword": "barbeque",
+                  "pronunciation": "bάːrbikjùː",
+                  "pos": "名",
+                  "meaning": "バーベキュー"
+                },
+                {
+                  "id": "G1_U3_GL_W_03",
+                  "headword": "relax",
+                  "pronunciation": "rilǽks",
+                  "pos": "動",
+                  "meaning": "くつろぐ、リラックスする"
+                },
+                {
+                  "id": "G1_U3_GL_W_04",
+                  "headword": "wind bell",
+                  "pos": "名",
+                  "meaning": "ウィンド・ベル (風鈴)"
+                },
+                {
+                  "id": "G1_U3_GL_W_05",
+                  "headword": "yukata",
+                  "pos": "名",
+                  "meaning": "浴衣"
+                },
+                {
+                  "id": "G1_U3_GL_W_06",
+                  "headword": "bon-odori",
+                  "pos": "名",
+                  "meaning": "盆踊り"
+                },
+                {
+                  "id": "G1_U3_GL_W_07",
+                  "headword": "furin",
+                  "pos": "名",
+                  "meaning": "風鈴"
+                },
+                {
+                  "id": "G1_U3_GL_W_08",
+                  "headword": "culture",
+                  "pronunciation": "kʌ́ltʃər",
+                  "pos": "名",
+                  "meaning": "文化"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "intro_section",
+                  "header": "Goal: 夏休みの過ごし方を紹介しよう (p.54)",
+                  "text": "コウタは、学級新聞の記事を書くために、ALTの Ms. Thusi と話をしています。",
+                  "items": [
+                    {
+                      "id": "G1_U3_GL_S_00",
+                      "en": "Kota is talking with Ms. Thusi about summer vacations.",
+                      "ja": "コウタは、Ms. Thusi と夏休みの過ごし方について話しています。"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_script",
+                  "header": "音声の内容 (1) 南アフリカの夏休み (p.65)",
+                  "items": [
+                    {
+                      "id": "G1_U3_GL_S_01",
+                      "speaker": "Kota",
+                      "en": "Excuse me, Ms. Thusi. Do you have a minute?",
+                      "ja": "失礼します、ツシ先生。少しお時間はありますか。"
+                    },
+                    {
+                      "id": "G1_U3_GL_S_02",
+                      "en": "I want to ask about the summer vacation in South Africa.",
+                      "ja": "南アフリカの夏休みについてお聞きしたいことがあるんです。"
+                    },
+                    {
+                      "id": "G1_U3_GL_S_03",
+                      "speaker": "Ms. Thusi",
+                      "en": "Sure. Go ahead.",
+                      "ja": "いいわよ。どうぞ。"
+                    },
+                    {
+                      "id": "G1_U3_GL_S_04",
+                      "speaker": "Kota",
+                      "en": "What do you do during the summer vacation?",
+                      "ja": "あなた方は夏休みに何をしますか。"
+                    },
+                    {
+                      "id": "G1_U3_GL_S_05",
+                      "speaker": "Ms. Thusi",
+                      "en": "We do a lot of things. For example, I enjoy Christmas.",
+                      "ja": "私たちはたくさんのことをするわ。たとえば、クリスマスを楽しむの。"
+                    },
+                    {
+                      "id": "G1_U3_GL_S_06",
+                      "speaker": "Kota",
+                      "en": "Oh, you have Christmas in summer. What do you do on Christmas?",
+                      "ja": "へえ、夏にクリスマスがあるんですね。クリスマスには何をするんですか。"
+                    },
+                    {
+                      "id": "G1_U3_GL_S_07",
+                      "speaker": "Ms. Thusi",
+                      "en": "I have a braai.",
+                      "ja": "ブラーイがあるわ。"
+                    },
+                    {
+                      "id": "G1_U3_GL_S_08",
+                      "speaker": "Kota",
+                      "en": "A braai? What's that?",
+                      "ja": "ブラーイ？ それは何でしょうか。"
+                    },
+                    {
+                      "id": "G1_U3_GL_S_09",
+                      "speaker": "Ms. Thusi",
+                      "en": "It's a barbeque in South Africa. People in South Africa like it very much.",
+                      "ja": "南アフリカのバーベキューよ。南アフリカの人はそれがとても好きなの。"
+                    },
+                    {
+                      "id": "G1_U3_GL_S_10",
+                      "en": "My family and friends come together and enjoy a braai on Christmas.",
+                      "ja": "私の家族や友達が集まって、クリスマスにブラーイを楽しむのよ。"
+                    },
+                    {
+                      "id": "G1_U3_GL_S_11",
+                      "speaker": "Kota",
+                      "en": "Sounds nice! What else do you do during the summer vacation?",
+                      "ja": "楽しそうですね！ 夏休みの間には他には何をしますか。"
+                    },
+                    {
+                      "id": "G1_U3_GL_S_12",
+                      "speaker": "Ms. Thusi",
+                      "en": "Sometimes I go to the beach and relax.",
+                      "ja": "ときどきビーチに行ってくつろぐわ。"
+                    },
+                    {
+                      "id": "G1_U3_GL_S_13",
+                      "en": "We have a lot of nice beaches. We can see penguins on the beach.",
+                      "ja": "たくさんすてきなビーチがあるの。ビーチでペンギンを見ることもできるのよ。"
+                    },
+                    {
+                      "id": "G1_U3_GL_S_14",
+                      "speaker": "Kota",
+                      "en": "That's great.",
+                      "ja": "それはすばらしいですね。"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_script",
+                  "header": "音声の内容 (2) 日本でやりたいこと (p.66)",
+                  "items": [
+                    {
+                      "id": "G1_U3_GL_S_15",
+                      "speaker": "Kota",
+                      "en": "By the way, what do you want to do this summer in Japan?",
+                      "ja": "ところで、日本でこの夏に何をしたいですか。"
+                    },
+                    {
+                      "id": "G1_U3_GL_S_16",
+                      "speaker": "Ms. Thusi",
+                      "en": "I want to go to a summer festival.",
+                      "ja": "夏祭りに行きたいわ。"
+                    },
+                    {
+                      "id": "G1_U3_GL_S_17",
+                      "en": "I want to wear a yukata and enjoy bon-odori.",
+                      "ja": "浴衣を着て、盆踊りを楽しみたいの。"
+                    },
+                    {
+                      "id": "G1_U3_GL_S_18",
+                      "speaker": "Kota",
+                      "en": "Really? We have the Honcho Summer Festival. You can enjoy bon-odori there.",
+                      "ja": "本当に？ 本町夏祭りがありますよ。そこで盆踊りを楽しめます。"
+                    },
+                    {
+                      "id": "G1_U3_GL_S_19",
+                      "speaker": "Ms. Thusi",
+                      "en": "That sounds nice. I want to buy a Japanese wind bell, too.",
+                      "ja": "楽しそうね。日本のウィンド・ベルも買いたいわ。"
+                    },
+                    {
+                      "id": "G1_U3_GL_S_20",
+                      "speaker": "Kota",
+                      "en": "Do you mean a furin?",
+                      "ja": "「風鈴」のことですか。"
+                    },
+                    {
+                      "id": "G1_U3_GL_S_21",
+                      "speaker": "Ms. Thusi",
+                      "en": "Yes. I want to buy a furin. I like the sound. I want to have one.",
+                      "ja": "そうよ。風鈴を買いたいの。音が好きなの。1つほしいな。"
+                    },
+                    {
+                      "id": "G1_U3_GL_S_22",
+                      "speaker": "Kota",
+                      "en": "Great. You like Japanese culture. Please enjoy your summer.",
+                      "ja": "いいですね。日本の文化が好きなぶんですね。夏を楽しんでくださいね。"
+                    },
+                    {
+                      "id": "G1_U3_GL_S_23",
+                      "speaker": "Ms. Thusi",
+                      "en": "Thanks!",
+                      "ja": "ありがとう！"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak (p.66)",
+                  "label": "伝えたいことをまとめよう",
+                  "items": [
+                    {
+                      "id": "G1_U3_GL_S_24",
+                      "en": "I usually ....",
+                      "ja": "私は普段は～。"
+                    },
+                    {
+                      "id": "G1_U3_GL_S_25",
+                      "en": "In Japan, we enjoy ....",
+                      "ja": "日本では、私たちは～を楽しみます。"
+                    },
+                    {
+                      "id": "G1_U3_GL_S_26",
+                      "en": "I want to try ....",
+                      "ja": "私は～をやってみたいです。"
+                    }
+                  ]
+                },
+                {
+                  "type": "model_section",
+                  "header": "スピーチの解答例 (p.66)",
+                  "items": [
+                    {
+                      "id": "G1_U3_GL_S_27",
+                      "en": "I go to a summer festival during the summer vacation.",
+                      "ja": "私は夏休みに夏祭りに行きます。"
+                    },
+                    {
+                      "id": "G1_U3_GL_S_28",
+                      "en": "In Japan, we enjoy fireworks at a summer festival.",
+                      "ja": "日本では、夏祭りで花火を楽しみます。"
+                    },
+                    {
+                      "id": "G1_U3_GL_S_29",
+                      "en": "I want to try goldfish scooping this summer.",
+                      "ja": "私はこの夏に金魚すくいをやってみたいです。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "65-66"
+        },
+        "LR1": {
+          "title": "Let's Read 1: What Am I?",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U3_LR1_W_01",
+                  "headword": "fly",
+                  "pronunciation": "flái",
+                  "pos": "動",
+                  "meaning": "飛ぶ"
+                },
+                {
+                  "id": "G1_U3_LR1_W_02",
+                  "headword": "underwater",
+                  "pronunciation": "ʌ̀ndərwɔ́ːtər",
+                  "pos": "副",
+                  "meaning": "水面下で、水中に"
+                },
+                {
+                  "id": "G1_U3_LR1_W_03",
+                  "headword": "for",
+                  "pronunciation": "fɔ́ːr, fər",
+                  "pos": "前",
+                  "usage": "〔期間〕",
+                  "meaning": "～の間"
+                },
+                {
+                  "id": "G1_U3_LR1_W_04",
+                  "headword": "or",
+                  "pronunciation": "ɔ́ːr",
+                  "pos": "接",
+                  "meaning": "～か、～または"
+                },
+                {
+                  "id": "G1_U3_LR1_W_05",
+                  "headword": "minute(s)",
+                  "pronunciation": "mínət(s)",
+                  "pos": "名",
+                  "meaning": "(時間の) 分"
+                },
+                {
+                  "id": "G1_U3_LR1_W_06",
+                  "headword": "carrot(s)",
+                  "pronunciation": "kǽrət(s)",
+                  "pos": "名",
+                  "meaning": "ニンジン"
+                },
+                {
+                  "id": "G1_U3_LR1_W_07",
+                  "headword": "grass",
+                  "pronunciation": "ɡrǽs",
+                  "pos": "名",
+                  "meaning": "草"
+                },
+                {
+                  "id": "G1_U3_LR1_W_08",
+                  "headword": "turn",
+                  "pronunciation": "tə́ːrn",
+                  "pos": "動",
+                  "meaning": "～を回す"
+                },
+                {
+                  "id": "G1_U3_LR1_W_09",
+                  "headword": "book",
+                  "pronunciation": "búk",
+                  "pos": "名",
+                  "meaning": "本"
+                },
+                {
+                  "id": "G1_U3_LR1_W_10",
+                  "headword": "around",
+                  "pronunciation": "əráund",
+                  "pos": "副",
+                  "meaning": "ぐるりと回って"
+                },
+                {
+                  "id": "G1_U3_LR1_W_11",
+                  "headword": "look at ~",
+                  "pos": "熟",
+                  "meaning": "～を見る"
+                },
+                {
+                  "id": "G1_U3_LR1_W_12",
+                  "headword": "every day",
+                  "pos": "熟",
+                  "meaning": "毎日"
+                },
+                {
+                  "id": "G1_U3_LR1_W_13",
+                  "headword": "turn ~ around",
+                  "pos": "熟",
+                  "meaning": "～の向きを変える、回転させる"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "reading_section",
+                  "header": "What Am I? (私は何でしょう)",
+                  "label": "Before You Read",
+                  "items": [
+                    {
+                      "id": "G1_U3_LR1_S_Q1",
+                      "en": "What am I?",
+                      "ja": "私は何でしょう。"
+                    },
+                    {
+                      "id": "G1_U3_LR1_S_A1",
+                      "ja": "(例) ペンギン。",
+                      "tag": "答え"
+                    },
+                    {
+                      "id": "G1_U3_LR1_S_01",
+                      "ref_num": "①",
+                      "en": "Look at this picture.",
+                      "ja": "この絵を見てください。"
+                    },
+                    {
+                      "id": "G1_U3_LR1_S_02",
+                      "ref_num": "②",
+                      "en": "I can walk.",
+                      "ja": "私は歩くことができます。"
+                    },
+                    {
+                      "id": "G1_U3_LR1_S_03",
+                      "ref_num": "③",
+                      "en": "I can jump.",
+                      "ja": "飛び跳ねることができます。"
+                    },
+                    {
+                      "id": "G1_U3_LR1_S_04",
+                      "ref_num": "④",
+                      "en": "I can swim well.",
+                      "ja": "上手に泳ぐことができます。"
+                    },
+                    {
+                      "id": "G1_U3_LR1_S_05",
+                      "ref_num": "⑤",
+                      "en": "I cannot fly, but I can stay underwater for four or five minutes.",
+                      "ja": "飛ぶことはできませんが、4～5分間水面下にいられます。"
+                    },
+                    {
+                      "id": "G1_U3_LR1_S_06",
+                      "ref_num": "⑥",
+                      "en": "I don't like carrots.",
+                      "ja": "私はニンジンが好きではありません。"
+                    },
+                    {
+                      "id": "G1_U3_LR1_S_07",
+                      "ref_num": "⑦",
+                      "en": "I don't eat grass.",
+                      "ja": "草は食べません。"
+                    },
+                    {
+                      "id": "G1_U3_LR1_S_08",
+                      "ref_num": "⑧",
+                      "en": "I like fish.",
+                      "ja": "魚が好きです。"
+                    },
+                    {
+                      "id": "G1_U3_LR1_S_09",
+                      "ref_num": "⑨",
+                      "en": "I eat fish every day.",
+                      "ja": "魚を毎日食べます。"
+                    },
+                    {
+                      "id": "G1_U3_LR1_S_10",
+                      "ref_num": "⑩",
+                      "en": "What am I?",
+                      "ja": "私は何でしょう。"
+                    },
+                    {
+                      "id": "G1_U3_LR1_S_11",
+                      "ref_num": "⑪",
+                      "en": "Turn this book around.",
+                      "ja": "この本をさかさまにしてみてください。"
+                    },
+                    {
+                      "id": "G1_U3_LR1_S_W",
+                      "en": "[50 words]",
+                      "ja": "[50語]"
+                    }
+                  ]
+                }
+              ]
+            },
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G1_U3_LR1G_E_01",
+                      "ref_num": "①",
+                      "en": "Look at this picture.",
+                      "text": "**Look at ...** と、主語を省略して動詞から始まっているので、「～しなさい」と相手に指示する命令文です。**look at ～** で、「～を見る」という意味を表します。",
+                      "ref_id": "G1_U3_LR1_S_01"
+                    },
+                    {
+                      "id": "G1_U3_LR1G_E_02",
+                      "ref_num": "②, ③, ④",
+                      "en": "I can walk. / I can jump. / I can swim well.",
+                      "text": "3文とも、**〈主語 + can + 動詞の原形～.〉** の形で「～することができます。」と可能を表す文です。**can** の後の動詞は原形を使います。",
+                      "ref_id": "G1_U3_LR1_S_02"
+                    },
+                    {
+                      "id": "G1_U3_LR1G_E_03",
+                      "ref_num": "⑤",
+                      "en": "I cannot fly, but I can stay underwater for four or five minutes.",
+                      "text": "**cannot** は **can** の否定形で、動詞の前に **cannot** が置かれているので、「～することができません」と可能を否定する文です。**cannot** の後には、動詞の原形が続きます。**〈主語 + can + 動詞の原形～.〉** の形で「～することができます。」と可能を表します。この文の **for** は「～の間」という意味を表す前置詞です。",
+                      "ref_id": "G1_U3_LR1_S_05"
+                    },
+                    {
+                      "id": "G1_U3_LR1G_E_04",
+                      "ref_num": "⑥, ⑦",
+                      "en": "I don't like carrots. / I don't eat grass.",
+                      "text": "動詞の前に **don't [do not]** が置かれているので、どちらも一般動詞の否定文です。好き・嫌いを表すときは、**carrots** のように名詞の複数形を使います。",
+                      "ref_id": "G1_U3_LR1_S_06"
+                    },
+                    {
+                      "id": "G1_U3_LR1G_E_05",
+                      "ref_num": "⑧, ⑨",
+                      "en": "I like fish. / I eat fish every day.",
+                      "text": "どちらも一般動詞の肯定文です。好き・嫌いまたは食べるときは名詞の複数形を使いますが、**fish** (魚) は複数形も **fish** なので、そのままの形を使います。",
+                      "ref_id": "G1_U3_LR1_S_08"
+                    },
+                    {
+                      "id": "G1_U3_LR1G_E_06",
+                      "ref_num": "⑩",
+                      "en": "What am I?",
+                      "text": "**〈What + be動詞 + 主語?〉** の疑問文で、疑問詞 **what** で始まる疑問文です。**What am I?** (私は何でしょう。) は、クイズなどでよく使われる文です。",
+                      "ref_id": "G1_U3_LR1_S_10"
+                    },
+                    {
+                      "id": "G1_U3_LR1G_E_07",
+                      "ref_num": "⑪",
+                      "en": "Turn this book around.",
+                      "text": "**Turn** という動詞で始まっているので「～しなさい」という命令文です。**turn ～ around** で「～の向きを変える、回転させる」という意味を表します。",
+                      "ref_id": "G1_U3_LR1_S_11"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 68
+        },
+        "P1": {
+          "title": "Part 1: いよいよ夏休み",
+          "views": {
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "「どんなこと」なのかをたずねる。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "Do you visit your grandparents? ― Yes, I do. / No, I don't.",
+                      "ja": "(あなたは祖父母を訪ねますか。 ― はい、訪ねます。 / いいえ、訪ねません。)",
+                      "ref_id": "G1_U3_P1_K_01"
+                    },
+                    {
+                      "ref_num": "②",
+                      "en": "==**What**== do you do during the summer vacation?",
+                      "ja": "(あなたは夏休みの間は何をしますか。)",
+                      "ref_id": "G1_U3_P1_K_02"
+                    },
+                    {
+                      "ref_num": "③",
+                      "en": "― I usually visit my grandparents.",
+                      "ja": "(たいてい、祖父母を訪ねます。)",
+                      "ref_id": "G1_U3_P1_K_02_A"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "疑問詞 what",
+                  "text": "わからないものや事柄について「何」とたずねるときは **what** を使い、疑問文の先頭に置きます。このような語を**疑問詞**といいます。",
+                  "items": [
+                    {
+                      "text": "「何を～しますか。」とたずねるときは、疑問詞 **what** を文のはじめに置き、その後に疑問文を続けます。疑問文は主語 (you) の前に **do** を置き、**〈what + 主語 + 動詞の原形～?〉** の形です。"
+                    },
+                    {
+                      "text": "**what** のような疑問詞で始まる疑問文には、**Yes や No では答えません**。具体的な内容を答えましょう。"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G1_U3_P1G_E_01",
+                      "ref_num": "①",
+                      "en": "What do you do during the summer vacation?",
+                      "text": "「何を～しますか。」とたずねるときは、疑問詞 **what** を文のはじめに置き、その後に、疑問文を続けます。この文の動詞は **do** で「～する」という意味を表します。疑問文で使う **do** とは役割が異なります。**during** は、「～の間ずっと」という意味の前置詞です。",
+                      "ref_id": "G1_U3_P1_S_01"
+                    },
+                    {
+                      "id": "G1_U3_P1G_E_02",
+                      "ref_num": "②",
+                      "en": "I usually visit my grandparents.",
+                      "text": "**what** で始まる疑問文への答えなので、**Yes** や **No** で答えず、具体的に答えます。**usually** は「普通は、いつもは」という意味の頻度を表す副詞です。",
+                      "ref_id": "G1_U3_P1_S_02"
+                    },
+                    {
+                      "id": "G1_U3_P1G_E_03",
+                      "ref_num": "④",
+                      "en": "I go to the beach with my family.",
+                      "text": "**go** は、一般動詞で、「行く」という意味を表し、**go to the beach** の形で「ビーチに行く」という意味で使われています。**with** は「～といっしょに」という意味の前置詞です。",
+                      "ref_id": "G1_U3_P1_S_04"
+                    },
+                    {
+                      "id": "G1_U3_P1G_E_04",
+                      "ref_num": "⑦",
+                      "en": "I just practice the trumpet.",
+                      "text": "**just** は、「ただ～だけ」という意味の副詞で、ここでは「ただトランペットを練習するだけ」という意味です。",
+                      "ref_id": "G1_U3_P1_S_07"
+                    },
+                    {
+                      "id": "G1_U3_P1G_E_05",
+                      "ref_num": "⑧",
+                      "en": "That's boring, Kota.",
+                      "note": "That's は That is の短縮形",
+                      "text": "この文の **That** (それ) は、内容からコウタの発言を指しています。",
+                      "ref_id": "G1_U3_P1_S_08"
+                    },
+                    {
+                      "id": "G1_U3_P1G_E_06",
+                      "ref_num": "⑩",
+                      "en": "But I also go to the Honcho Summer Festival every year.",
+                      "text": "**but** は「しかし」という意味で、前の文と反対または逆の内容を表すときに使われる接続詞です。**also** は「～も (また)」という意味の副詞です。**every** は「毎～」という意味を表し、後に続く名詞は単数形にします。**every year** で、「毎年」という意味です。",
+                      "ref_id": "G1_U3_P1_S_10"
+                    },
+                    {
+                      "id": "G1_U3_P1G_E_07",
+                      "ref_num": "⑪",
+                      "en": "Sounds fun.",
+                      "note": "→教科書p.48 Key Phrase",
+                      "text": "**Sounds fun.** は、「楽しそうだね。」という意味の表現です。",
+                      "ref_id": "G1_U3_P1_S_11"
+                    }
+                  ]
+                }
+              ]
+            },
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U3_P1_W_01",
+                  "headword": "during",
+                  "pronunciation": "djúəriŋ",
+                  "pos": "前",
+                  "meaning": "～の間ずっと、～の間に"
+                },
+                {
+                  "id": "G1_U3_P1_W_02",
+                  "headword": "family",
+                  "pronunciation": "fǽməli",
+                  "pos": "名",
+                  "meaning": "家族"
+                },
+                {
+                  "id": "G1_U3_P1_W_03",
+                  "headword": "usually",
+                  "pronunciation": "júːʒuəli",
+                  "pos": "副",
+                  "meaning": "たいてい、普通は"
+                },
+                {
+                  "id": "G1_U3_P1_W_04",
+                  "headword": "just",
+                  "pronunciation": "dʒʌ́st",
+                  "pos": "副",
+                  "meaning": "ただ～だけ、～にすぎない"
+                },
+                {
+                  "id": "G1_U3_P1_W_05",
+                  "headword": "boring",
+                  "pronunciation": "bɔ́ːriŋ",
+                  "pos": "形",
+                  "meaning": "退屈な、つまらない"
+                },
+                {
+                  "id": "G1_U3_P1_W_06",
+                  "headword": "also",
+                  "pronunciation": "ɔ́ːlsou",
+                  "pos": "副",
+                  "meaning": "～もまた、さらに"
+                },
+                {
+                  "id": "G1_U3_P1_W_07",
+                  "headword": "every",
+                  "pronunciation": "évri",
+                  "pos": "形",
+                  "meaning": "毎～"
+                },
+                {
+                  "id": "G1_U3_P1_W_08",
+                  "headword": "year",
+                  "pronunciation": "jíər",
+                  "pos": "名",
+                  "meaning": "1年、年間、年度"
+                },
+                {
+                  "id": "G1_U3_P1_W_09",
+                  "headword": "sound(s)",
+                  "pronunciation": "sáund(z)",
+                  "pos": "動",
+                  "meaning": "(聞いたり読んだりして) ～に思われる、～に聞こえる"
+                },
+                {
+                  "id": "G1_U3_P1_W_10",
+                  "headword": "every year",
+                  "pos": "熟",
+                  "meaning": "毎年"
+                },
+                {
+                  "id": "G1_U3_P1_W_11",
+                  "headword": "get",
+                  "pronunciation": "ɡét",
+                  "pos": "動",
+                  "meaning": "～の(状態) になる"
+                },
+                {
+                  "id": "G1_U3_P1_W_12",
+                  "headword": "late",
+                  "pronunciation": "léit",
+                  "pos": "副",
+                  "meaning": "(平常・定刻より) 遅く"
+                },
+                {
+                  "id": "G1_U3_P1_W_13",
+                  "headword": "have",
+                  "pronunciation": "hǽv",
+                  "pos": "動",
+                  "meaning": "～を受ける、～を行う、～をする"
+                },
+                {
+                  "id": "G1_U3_P1_W_14",
+                  "headword": "lesson(s)",
+                  "pronunciation": "lésn(z)",
+                  "pos": "名",
+                  "meaning": "授業"
+                },
+                {
+                  "id": "G1_U3_P1_W_15",
+                  "headword": "walk",
+                  "pronunciation": "wɔ́ːk",
+                  "pos": "動",
+                  "meaning": "(動物) を散歩させる"
+                },
+                {
+                  "id": "G1_U3_P1_W_16",
+                  "headword": "video(s)",
+                  "pronunciation": "vídiòu(z)",
+                  "pos": "名",
+                  "meaning": "動画、ビデオ"
+                },
+                {
+                  "id": "G1_U3_P1_W_17",
+                  "headword": "weekend(s)",
+                  "pronunciation": "wíːkènd(z)",
+                  "pos": "名",
+                  "meaning": "週末"
+                },
+                {
+                  "id": "G1_U3_P1_W_18",
+                  "headword": "practice",
+                  "pronunciation": "prǽktis",
+                  "pos": "名",
+                  "meaning": "練習"
+                },
+                {
+                  "id": "G1_U3_P1_W_19",
+                  "headword": "stay",
+                  "pronunciation": "stéi",
+                  "pos": "動",
+                  "meaning": "(場所に) とどまる、いる"
+                },
+                {
+                  "id": "G1_U3_P1_W_20",
+                  "headword": "home",
+                  "pronunciation": "hóum",
+                  "pos": "副",
+                  "meaning": "家に [へ]"
+                },
+                {
+                  "id": "G1_U3_P1_W_21",
+                  "headword": "grandfather",
+                  "pronunciation": "ɡrǽnfάːðər",
+                  "pos": "名",
+                  "meaning": "祖父"
+                },
+                {
+                  "id": "G1_U3_P1_W_22",
+                  "headword": "get up",
+                  "pos": "熟",
+                  "meaning": "起きる、起床する"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "dialogue_section",
+                  "header": "いよいよ夏休み (p.48)",
+                  "items": [
+                    {
+                      "id": "G1_U3_P1_S_Q1",
+                      "speaker": "Question",
+                      "ja": "Q. コウタが夏休みにすることは何でしょうか。"
+                    },
+                    {
+                      "id": "G1_U3_P1_S_A1",
+                      "speaker": "Answer",
+                      "ja": "A. (例) トランペットの練習。本町夏祭りに行く。"
+                    },
+                    {
+                      "id": "G1_U3_P1_S_01",
+                      "ref_num": "①",
+                      "speaker": "Eri",
+                      "en": "What do you do during the summer vacation?",
+                      "ja": "夏休みの間は何をするの？"
+                    },
+                    {
+                      "id": "G1_U3_P1_S_02",
+                      "ref_num": "②",
+                      "speaker": "Tina",
+                      "en": "I usually visit my grandparents.",
+                      "ja": "いつもは祖父母のところへ行くよ。"
+                    },
+                    {
+                      "id": "G1_U3_P1_S_03",
+                      "ref_num": "③",
+                      "speaker": "Tina",
+                      "en": "How about you?",
+                      "ja": "エリは？"
+                    },
+                    {
+                      "id": "G1_U3_P1_S_04",
+                      "ref_num": "④",
+                      "speaker": "Eri",
+                      "en": "I go to the beach with my family.",
+                      "ja": "私は家族とビーチに行くよ。"
+                    },
+                    {
+                      "id": "G1_U3_P1_S_05",
+                      "ref_num": "⑤",
+                      "speaker": "Tina",
+                      "en": "Kota, and you?",
+                      "ja": "コウタ、あなたは？"
+                    },
+                    {
+                      "id": "G1_U3_P1_S_06",
+                      "ref_num": "⑥",
+                      "speaker": "Kota",
+                      "en": "Not much.",
+                      "ja": "たいしたことはしないよ。"
+                    },
+                    {
+                      "id": "G1_U3_P1_S_07",
+                      "ref_num": "⑦",
+                      "speaker": "Kota",
+                      "en": "I just practice the trumpet.",
+                      "ja": "ぼくはただトランペットを練習するだけだな。"
+                    },
+                    {
+                      "id": "G1_U3_P1_S_08",
+                      "ref_num": "⑧",
+                      "speaker": "Eri",
+                      "en": "That's boring, Kota.",
+                      "ja": "それはつまらないよ、コウタ。"
+                    },
+                    {
+                      "id": "G1_U3_P1_S_09",
+                      "ref_num": "⑨",
+                      "speaker": "Kota",
+                      "en": "Thanks.",
+                      "ja": "どうも。"
+                    },
+                    {
+                      "id": "G1_U3_P1_S_10",
+                      "ref_num": "⑩",
+                      "speaker": "Kota",
+                      "en": "But I also go to the Honcho Summer Festival every year.",
+                      "ja": "だけど、毎年本町夏祭りにも行くよ。"
+                    },
+                    {
+                      "id": "G1_U3_P1_S_11",
+                      "ref_num": "⑪",
+                      "speaker": "Tina",
+                      "en": "Sounds fun.",
+                      "ja": "楽しそう。"
+                    },
+                    {
+                      "id": "G1_U3_P1_S_12",
+                      "ref_num": "⑫",
+                      "speaker": "Tina",
+                      "en": "Let's go together.",
+                      "ja": "いっしょに行こうよ。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak (p.49)",
+                  "label": "週末の過ごし方を伝え合おう",
+                  "items": [
+                    {
+                      "id": "G1_U3_P1_S_13",
+                      "tag": "A",
+                      "en": "get up late",
+                      "ja": "遅く起きる"
+                    },
+                    {
+                      "id": "G1_U3_P1_S_14",
+                      "tag": "B",
+                      "en": "go fishing",
+                      "ja": "魚釣りに行く"
+                    },
+                    {
+                      "id": "G1_U3_P1_S_15",
+                      "tag": "C",
+                      "en": "go to the library",
+                      "ja": "図書館に行く"
+                    },
+                    {
+                      "id": "G1_U3_P1_S_16",
+                      "tag": "D",
+                      "en": "have piano lessons",
+                      "ja": "ピアノのレッスンを受ける"
+                    },
+                    {
+                      "id": "G1_U3_P1_S_17",
+                      "tag": "E",
+                      "en": "walk my dog",
+                      "ja": "犬の散歩をする"
+                    },
+                    {
+                      "id": "G1_U3_P1_S_18",
+                      "tag": "F",
+                      "en": "watch videos",
+                      "ja": "動画を見る"
+                    },
+                    {
+                      "id": "G1_U3_P1_S_19",
+                      "speaker": "[例] A",
+                      "en": "What do you do on weekends?",
+                      "ja": "あなたは週末に何をしますか。"
+                    },
+                    {
+                      "id": "G1_U3_P1_S_20",
+                      "speaker": "[例] B",
+                      "en": "I usually have basketball practice. How about you?",
+                      "ja": "(普段はバスケットボールの練習をします。あなたはどうですか？)"
+                    },
+                    {
+                      "id": "G1_U3_P1_S_21",
+                      "speaker": "[例] A",
+                      "en": "I usually stay home. Sometimes I walk my dog with my grandfather.",
+                      "ja": "(普段は家にいます。ときどき、祖父と犬の散歩をします。)"
+                    },
+                    {
+                      "id": "G1_U3_P1_S_22",
+                      "speaker": "[解答例] A",
+                      "en": "What do you do on weekends?",
+                      "ja": "あなたは週末に何をしますか。"
+                    },
+                    {
+                      "id": "G1_U3_P1_S_23",
+                      "speaker": "[解答例] B",
+                      "en": "I usually have piano lessons. Sometimes I go to my friend's house.",
+                      "ja": "(普段はピアノのレッスンを受けます。ときどき友達の家に行きます。)"
+                    },
+                    {
+                      "id": "G1_U3_P1_S_24",
+                      "speaker": "Write [解答例]",
+                      "en": "I usually play the guitar.",
+                      "ja": "普段はギターを弾きます。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 58
+        },
+        "P2": {
+          "title": "Part 2: 日本の夏祭り",
+          "views": {
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "好きな活動を言ったり、たずねたりする。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "I like music.",
+                      "ja": "(私は音楽が好きです。)",
+                      "ref_id": "G1_U3_P2_K_01"
+                    },
+                    {
+                      "ref_num": "②",
+                      "en": "I like ==**dancing**==.",
+                      "ja": "(私は踊るのが好きです。)",
+                      "ref_id": "G1_U3_P2_S_14"
+                    },
+                    {
+                      "ref_num": "③",
+                      "en": "Do you like ==**dancing**==?",
+                      "ja": "(あなたは踊るのが好きですか。)",
+                      "ref_id": "G1_U3_P2_S_15"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！ (1)",
+                  "label": "look + 形容詞",
+                  "text": "**〈look + 形容詞〉** の形で「～に見える」の意味を表します。本文の **look nice** は「すてきに見える」という意味になります。",
+                  "items": [
+                    {
+                      "en": "Wow, you ==**look nice**== in yukata!",
+                      "ja": "(わあ、君たち浴衣が似合うね！)",
+                      "ref_id": "G1_U3_P2_S_04"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！ (2)",
+                  "label": "動詞の -ing形",
+                  "text": "「dance (踊る)」や「run (走る)」のような動作を、「好きなこと、活動」として表すときは、それぞれの動詞の語尾を **-ing** の形にします。動詞の **-ing形** にすると、「～すること」という意味になり、名詞と同じような働きで使うことができます。",
+                  "items": [
+                    {
+                      "tag": "原形",
+                      "en": "sing",
+                      "ja": "歌う"
+                    },
+                    {
+                      "tag": "-ing形",
+                      "en": "singing",
+                      "ja": "歌うこと"
+                    },
+                    {
+                      "tag": "原形",
+                      "en": "dance",
+                      "ja": "踊る"
+                    },
+                    {
+                      "tag": "-ing形",
+                      "en": "dancing",
+                      "ja": "踊ること (※eを取ってing)"
+                    },
+                    {
+                      "tag": "原形",
+                      "en": "swim",
+                      "ja": "泳ぐ"
+                    },
+                    {
+                      "tag": "-ing形",
+                      "en": "swimming",
+                      "ja": "泳ぐこと (※mを重ねてing)"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G1_U3_P2G_E_01",
+                      "ref_num": "⑩",
+                      "en": "What's that?",
+                      "text": "**What's [What is] ～?** で、「～は何ですか。」とたずねるときに使います。また、このような疑問詞で始まる疑問文は、文の終わりを下げ調子で言います。普通の疑問文との違いに注意しましょう。",
+                      "ref_id": "G1_U3_P2_S_10"
+                    },
+                    {
+                      "id": "G1_U3_P2G_E_02",
+                      "ref_num": "⑫",
+                      "en": "It's a summer festival dance.",
+                      "text": "この文の **it** は **bon-odori** (盆踊り) を指しています。ニックやティナは **bon-odori** がどんなものかわからないようなので、エリが説明を加えています。",
+                      "ref_id": "G1_U3_P2_S_12"
+                    },
+                    {
+                      "id": "G1_U3_P2G_E_03",
+                      "ref_num": "⑬",
+                      "en": "Really?",
+                      "note": "→教科書p.50 Key Phrase",
+                      "text": "**Really?** は、「本当？」とたずねる言い方で、驚きなどを表すときに使います。最後を上げ調子で言います。",
+                      "ref_id": "G1_U3_P2_S_13"
+                    },
+                    {
+                      "id": "G1_U3_P2G_E_04",
+                      "ref_num": "⑮",
+                      "en": "Do you like dancing, Nick?",
+                      "text": "**like** は一般動詞なので、主語 (you) の前に **Do** を置いて疑問文をつくります。この文では、**dancing** が目的語になっています。**dancing** は、動詞の **-ing形** で、「踊ること」という意味になります。",
+                      "ref_id": "G1_U3_P2_S_15"
+                    },
+                    {
+                      "id": "G1_U3_P2G_E_05",
+                      "ref_num": "⑯",
+                      "en": "Of course.",
+                      "text": "**Of course.** は「もちろん。」と相手に同意したり、承諾したりするときに使います。",
+                      "ref_id": "G1_U3_P2_S_16"
+                    }
+                  ]
+                }
+              ]
+            },
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U3_P2_W_01",
+                  "headword": "at",
+                  "pronunciation": "ǽt, ət",
+                  "pos": "前",
+                  "meaning": "〔地点・場所〕～に [で]"
+                },
+                {
+                  "id": "G1_U3_P2_W_02",
+                  "headword": "that",
+                  "pronunciation": "ðǽt, ðət",
+                  "pos": "代",
+                  "meaning": "それ、あれ 〔空間的に話し手から遠いもの[人]を指して〕"
+                },
+                {
+                  "id": "G1_U3_P2_W_03",
+                  "headword": "ta-da",
+                  "pronunciation": "tədάː",
+                  "pos": "間",
+                  "meaning": "タダーン、ジャーン"
+                },
+                {
+                  "id": "G1_U3_P2_W_04",
+                  "headword": "dance",
+                  "pronunciation": "dǽns",
+                  "pos": "名",
+                  "meaning": "ダンス、踊り"
+                },
+                {
+                  "id": "G1_U3_P2_W_05",
+                  "headword": "really",
+                  "pronunciation": "ríːəli",
+                  "pos": "副",
+                  "meaning": "本当に、本当は"
+                },
+                {
+                  "id": "G1_U3_P2_W_06",
+                  "headword": "course",
+                  "pronunciation": "kɔ́ːrs",
+                  "pos": "名",
+                  "meaning": "針路、進路、方向"
+                },
+                {
+                  "id": "G1_U3_P2_W_07",
+                  "headword": "of course",
+                  "pos": "熟",
+                  "meaning": "もちろん"
+                },
+                {
+                  "id": "G1_U3_P2_W_08",
+                  "headword": "use",
+                  "pronunciation": "júːz",
+                  "pos": "動",
+                  "meaning": "～を使う",
+                  "note": "using"
+                },
+                {
+                  "id": "G1_U3_P2_W_09",
+                  "headword": "computer",
+                  "pronunciation": "kəmpjúːtər",
+                  "pos": "名",
+                  "meaning": "コンピュータ"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "dialogue_section",
+                  "header": "日本の夏祭り (p.50)",
+                  "items": [
+                    {
+                      "id": "G1_U3_P2_S_Q1",
+                      "speaker": "Question",
+                      "ja": "Q. ティナとニックが好きなことは何でしょうか。"
+                    },
+                    {
+                      "id": "G1_U3_P2_S_A1",
+                      "speaker": "Answer",
+                      "ja": "A. (例) 踊ること。"
+                    },
+                    {
+                      "id": "G1_U3_P2_S_00",
+                      "speaker": "Setting",
+                      "en": "At the Honcho Summer Festival:",
+                      "ja": "本町夏祭りで："
+                    },
+                    {
+                      "id": "G1_U3_P2_S_01",
+                      "ref_num": "①",
+                      "speaker": "Eri",
+                      "en": "Hi, Kota.",
+                      "ja": "ねえ、コウタ。"
+                    },
+                    {
+                      "id": "G1_U3_P2_S_02",
+                      "ref_num": "②",
+                      "speaker": "Eri",
+                      "en": "Ta-da!",
+                      "ja": "ジャーン！"
+                    },
+                    {
+                      "id": "G1_U3_P2_S_03",
+                      "ref_num": "③",
+                      "speaker": "Eri",
+                      "en": "Do you like it?",
+                      "ja": "いいでしょ。"
+                    },
+                    {
+                      "id": "G1_U3_P2_S_04",
+                      "ref_num": "④",
+                      "speaker": "Kota",
+                      "en": "Wow, you look nice in yukata!",
+                      "ja": "わあ、君たち浴衣が似合うね！"
+                    },
+                    {
+                      "id": "G1_U3_P2_S_05",
+                      "ref_num": "⑤",
+                      "speaker": "Tina",
+                      "en": "Thanks.",
+                      "ja": "ありがとう。"
+                    },
+                    {
+                      "id": "G1_U3_P2_S_06",
+                      "ref_num": "⑥",
+                      "speaker": "Tina",
+                      "en": "Nick, over here!",
+                      "ja": "ニック、こっちだよ！"
+                    },
+                    {
+                      "id": "G1_U3_P2_S_07",
+                      "ref_num": "⑦",
+                      "speaker": "Nick",
+                      "en": "Hi, I'm Nick!",
+                      "ja": "やあ、ぼくはニック！"
+                    },
+                    {
+                      "id": "G1_U3_P2_S_08",
+                      "ref_num": "⑧",
+                      "speaker": "Kota",
+                      "en": "Nice to meet you, Nick.",
+                      "ja": "はじめまして、ニック。"
+                    },
+                    {
+                      "id": "G1_U3_P2_S_09",
+                      "ref_num": "⑨",
+                      "speaker": "Nick",
+                      "en": "Listen.",
+                      "ja": "聞いて。"
+                    },
+                    {
+                      "id": "G1_U3_P2_S_10",
+                      "ref_num": "⑩",
+                      "speaker": "Nick",
+                      "en": "What's that?",
+                      "ja": "あれは何？"
+                    },
+                    {
+                      "id": "G1_U3_P2_S_11",
+                      "ref_num": "⑪",
+                      "speaker": "Eri",
+                      "en": "Bon-odori.",
+                      "ja": "盆踊りだよ。"
+                    },
+                    {
+                      "id": "G1_U3_P2_S_12",
+                      "ref_num": "⑫",
+                      "speaker": "Eri",
+                      "en": "It's a summer festival dance.",
+                      "ja": "夏祭りの踊りだよ。"
+                    },
+                    {
+                      "id": "G1_U3_P2_S_13",
+                      "ref_num": "⑬",
+                      "speaker": "Tina",
+                      "en": "Really?",
+                      "ja": "本当？"
+                    },
+                    {
+                      "id": "G1_U3_P2_S_14",
+                      "ref_num": "⑭",
+                      "speaker": "Tina",
+                      "en": "I like dancing.",
+                      "ja": "踊るのは好きだよ。"
+                    },
+                    {
+                      "id": "G1_U3_P2_S_15",
+                      "ref_num": "⑮",
+                      "speaker": "Kota",
+                      "en": "Do you like dancing, Nick?",
+                      "ja": "ニック、踊るのは好き？"
+                    },
+                    {
+                      "id": "G1_U3_P2_S_16",
+                      "ref_num": "⑯",
+                      "speaker": "Nick",
+                      "en": "Of course.",
+                      "ja": "もちろん。"
+                    },
+                    {
+                      "id": "G1_U3_P2_S_17",
+                      "ref_num": "⑰",
+                      "speaker": "Eri",
+                      "en": "Let's join in!",
+                      "ja": "参加しよう！"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak (p.51)",
+                  "label": "好きな活動をたずね合おう",
+                  "items": [
+                    {
+                      "id": "G1_U3_P2_S_18",
+                      "en": "swimming",
+                      "ja": "水泳"
+                    },
+                    {
+                      "id": "G1_U3_P2_S_19",
+                      "en": "singing",
+                      "ja": "歌うこと"
+                    },
+                    {
+                      "id": "G1_U3_P2_S_20",
+                      "en": "drawing",
+                      "ja": "絵を描くこと"
+                    },
+                    {
+                      "id": "G1_U3_P2_S_21",
+                      "en": "using a computer",
+                      "ja": "コンピュータを使うこと"
+                    },
+                    {
+                      "id": "G1_U3_P2_S_22",
+                      "en": "playing video games",
+                      "ja": "テレビゲームをすること"
+                    },
+                    {
+                      "id": "G1_U3_P2_S_23",
+                      "speaker": "[例]",
+                      "en": "Do you like ~?",
+                      "ja": "あなたは～が好きですか？"
+                    },
+                    {
+                      "id": "G1_U3_P2_S_24",
+                      "speaker": "[解答例]",
+                      "en": "Do you like playing video games?",
+                      "ja": "あなたはテレビゲームをすることが好きですか。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 59
+        },
+        "P3": {
+          "title": "Part 3: Kota の意外な特技",
+          "views": {
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "したいことを言ったり、たずねたりする。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "I want that blue balloon.",
+                      "ja": "(私はあの青い風船がほしいです。)",
+                      "ref_id": "G1_U3_P3_K_01"
+                    },
+                    {
+                      "ref_num": "②",
+                      "en": "I ==**want to get**== that blue one.",
+                      "ja": "(私はあの青いのを取りたいです。)",
+                      "ref_id": "G1_U3_P3_S_08"
+                    },
+                    {
+                      "ref_num": "③",
+                      "en": "Do you ==**want to try**== it? ― Yes, I do. / No, I don't.",
+                      "ja": "(やってみたいですか。 ― はい、やってみたいです。 / いいえ、やりたくないです。)",
+                      "ref_id": "G1_U3_P3_S_06"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "want to + 動詞の原形",
+                  "text": "「～したい」というときは、**want to** を使って **〈want to + 動詞の原形〉** で表します。**〈to + 動詞の原形〉** で、「～すること」という意味になり、名詞と同じような働きで使うことができます。",
+                  "items": [
+                    {
+                      "text": "**You want to try it.** (あなたはそれをやってみたい。) のような文を疑問文にするときは、主語 (you) の前に **Do** を置いて疑問文をつくります。疑問文なので文の終わりには **?** を付け、最後は上げ調子で言いましょう。"
+                    },
+                    {
+                      "en": "==**Do**== you ==**want to try**== it?",
+                      "ja": "(あなたはそれをやってみたいですか。)"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G1_U3_P3G_E_01",
+                      "ref_num": "④",
+                      "en": "They're like yo-yos.",
+                      "text": "**They're** は **They are** の短縮形です。この文での **like** は、「～のような」という意味の前置詞です。",
+                      "ref_id": "G1_U3_P3_S_04"
+                    },
+                    {
+                      "id": "G1_U3_P3G_E_02",
+                      "ref_num": "⑥",
+                      "en": "Do you want to try it?",
+                      "text": "**want to + 動詞の原形** で、「～したい」という意味を表します。**try** は「やってみる」という意味の動詞なので、**want to try** で「やってみたい」という意味になります。",
+                      "ref_id": "G1_U3_P3_S_06"
+                    },
+                    {
+                      "id": "G1_U3_P3G_E_03",
+                      "ref_num": "⑦",
+                      "en": "Yes.",
+                      "text": "この文の **Yes.** は **Yes, I do.** を短縮した言い方です。**Do you ～?** の疑問文に答えるときは **do** を使い、「はい」なら **Yes, I do.** 、「いいえ」なら **No, I don't.** と言います。あなたがたずねているので、答えるときの主語は「私は (I) 」になることに注意しましょう。",
+                      "ref_id": "G1_U3_P3_S_07"
+                    },
+                    {
+                      "id": "G1_U3_P3G_E_04",
+                      "ref_num": "⑧",
+                      "en": "I want to get that blue one.",
+                      "text": "**〈want to + 動詞の原形〉** で、「～したい」という意味を表します。比較的遠くの人や物を指して「あれ、あちらの (の)」と言うときには、**that** を使います。",
+                      "ref_id": "G1_U3_P3_S_08"
+                    },
+                    {
+                      "id": "G1_U3_P3G_E_05",
+                      "ref_num": "⑩",
+                      "en": "Oh, no.",
+                      "note": "→教科書p.52 Key Phrase",
+                      "text": "**Oh, no.** は残念な気持ちを表す表現です。",
+                      "ref_id": "G1_U3_P3_S_11"
+                    },
+                    {
+                      "id": "G1_U3_P3G_E_06",
+                      "ref_num": "⑭",
+                      "en": "Watch me.",
+                      "text": "**Watch me.** は、「（私を）見ていて。」と相手を促す表現です。",
+                      "ref_id": "G1_U3_P3_S_14"
+                    }
+                  ]
+                }
+              ]
+            },
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U3_P3_W_01",
+                  "headword": "those",
+                  "pronunciation": "ðóuz",
+                  "pos": "代",
+                  "meaning": "それら、あれら",
+                  "note": "thatの複数形"
+                },
+                {
+                  "id": "G1_U3_P3_W_02",
+                  "headword": "balloon(s)",
+                  "pronunciation": "bəlúːn(z)",
+                  "pos": "名",
+                  "meaning": "ゴム風船"
+                },
+                {
+                  "id": "G1_U3_P3_W_03",
+                  "headword": "yeah",
+                  "pronunciation": "jéə",
+                  "pos": "副",
+                  "meaning": "うん、ああ、はい"
+                },
+                {
+                  "id": "G1_U3_P3_W_04",
+                  "headword": "like",
+                  "pronunciation": "láik",
+                  "pos": "前",
+                  "meaning": "～に似た、～のような"
+                },
+                {
+                  "id": "G1_U3_P3_W_05",
+                  "headword": "they",
+                  "pronunciation": "ðéi",
+                  "pos": "代",
+                  "meaning": "それらは、彼らは、彼女らは"
+                },
+                {
+                  "id": "G1_U3_P3_W_06",
+                  "headword": "get",
+                  "pronunciation": "ɡét",
+                  "pos": "動",
+                  "meaning": "～を得る、～を手に入れる"
+                },
+                {
+                  "id": "G1_U3_P3_W_07",
+                  "headword": "that",
+                  "pronunciation": "ðǽt",
+                  "pos": "代",
+                  "meaning": "あの、その"
+                },
+                {
+                  "id": "G1_U3_P3_W_08",
+                  "headword": "one",
+                  "pronunciation": "wʌ́n",
+                  "pos": "代",
+                  "meaning": "(～な) もの、(～な) 1つ [1人]"
+                },
+                {
+                  "id": "G1_U3_P3_W_09",
+                  "headword": "no",
+                  "pronunciation": "nóu",
+                  "pos": "副",
+                  "meaning": "まさか 〔驚きを表して〕"
+                },
+                {
+                  "id": "G1_U3_P3_W_10",
+                  "headword": "too",
+                  "pronunciation": "túː",
+                  "pos": "副",
+                  "meaning": "あまりに～、～すぎる"
+                },
+                {
+                  "id": "G1_U3_P3_W_11",
+                  "headword": "heavy",
+                  "pronunciation": "hévi",
+                  "pos": "形",
+                  "meaning": "重い"
+                },
+                {
+                  "id": "G1_U3_P3_W_12",
+                  "headword": "OK",
+                  "pronunciation": "óukéi",
+                  "pos": "副",
+                  "meaning": "それでは、じゃあ 〔会話の切り出し・話題転換〕"
+                },
+                {
+                  "id": "G1_U3_P3_W_13",
+                  "headword": "pro",
+                  "pronunciation": "próu",
+                  "pos": "名",
+                  "meaning": "プロ、熟練者"
+                },
+                {
+                  "id": "G1_U3_P3_W_14",
+                  "headword": "shaved ice",
+                  "pronunciation": "ʃéivd áis",
+                  "pos": "名",
+                  "meaning": "かき氷"
+                },
+                {
+                  "id": "G1_U3_P3_W_15",
+                  "headword": "want",
+                  "pronunciation": "wάnt",
+                  "pos": "動",
+                  "meaning": "～がほしい、～を欲しがる"
+                },
+                {
+                  "id": "G1_U3_P3_W_16",
+                  "headword": "take",
+                  "pronunciation": "téik",
+                  "pos": "動",
+                  "meaning": "(写真) を撮る"
+                },
+                {
+                  "id": "G1_U3_P3_W_17",
+                  "headword": "picture",
+                  "pronunciation": "píktʃər",
+                  "pos": "名",
+                  "meaning": "写真"
+                },
+                {
+                  "id": "G1_U3_P3_W_18",
+                  "headword": "goldfish scooping",
+                  "pronunciation": "ɡóuldfìʃ skúːpiŋ",
+                  "pos": "名",
+                  "meaning": "金魚すくい"
+                },
+                {
+                  "id": "G1_U3_P3_W_19",
+                  "headword": "love",
+                  "pronunciation": "lʌ́v",
+                  "pos": "動",
+                  "meaning": "～が大好きである"
+                },
+                {
+                  "id": "G1_U3_P3_W_20",
+                  "headword": "take a picture [pictures]",
+                  "pos": "熟",
+                  "meaning": "写真を撮る"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "dialogue_section",
+                  "header": "Kota の意外な特技 (p.52)",
+                  "items": [
+                    {
+                      "id": "G1_U3_P3_S_Q1",
+                      "speaker": "Question",
+                      "ja": "Q. ニックがしたいことは何でしょうか。"
+                    },
+                    {
+                      "id": "G1_U3_P3_S_A1",
+                      "speaker": "Answer",
+                      "ja": "A. (例) ヨーヨー釣りで、青いのを取りたい。"
+                    },
+                    {
+                      "id": "G1_U3_P3_S_01",
+                      "ref_num": "①",
+                      "speaker": "Nick",
+                      "en": "What are those?",
+                      "ja": "あれは何？"
+                    },
+                    {
+                      "id": "G1_U3_P3_S_02",
+                      "ref_num": "②",
+                      "speaker": "Nick",
+                      "en": "Balloons?",
+                      "ja": "風船？"
+                    },
+                    {
+                      "id": "G1_U3_P3_S_03",
+                      "ref_num": "③",
+                      "speaker": "Kota",
+                      "en": "Yeah.",
+                      "ja": "うん。"
+                    },
+                    {
+                      "id": "G1_U3_P3_S_04",
+                      "ref_num": "④",
+                      "speaker": "Kota",
+                      "en": "They're like yo-yos.",
+                      "ja": "ヨーヨーみたいなものだよ。"
+                    },
+                    {
+                      "id": "G1_U3_P3_S_05",
+                      "ref_num": "⑤",
+                      "speaker": "Eri",
+                      "en": "It's a fishing game.",
+                      "ja": "釣りのゲームだよ。"
+                    },
+                    {
+                      "id": "G1_U3_P3_S_06",
+                      "ref_num": "⑥",
+                      "speaker": "Tina",
+                      "en": "Do you want to try it?",
+                      "ja": "やってみたい？"
+                    },
+                    {
+                      "id": "G1_U3_P3_S_07",
+                      "ref_num": "⑦",
+                      "speaker": "Nick",
+                      "en": "Yes.",
+                      "ja": "うん。"
+                    },
+                    {
+                      "id": "G1_U3_P3_S_08",
+                      "ref_num": "⑧",
+                      "speaker": "Nick",
+                      "en": "I want to get that blue one.",
+                      "ja": "あの青いのを取りたい。"
+                    },
+                    {
+                      "id": "G1_U3_P3_S_09",
+                      "ref_num": "⑨",
+                      "speaker": "Setting",
+                      "en": "Eri, Kota, and Tina:",
+                      "ja": "エリ、コウタ、ティナ："
+                    },
+                    {
+                      "id": "G1_U3_P3_S_10",
+                      "ref_num": "⑩",
+                      "speaker": "Tina",
+                      "en": "Go, Nick!",
+                      "ja": "行け、ニック！"
+                    },
+                    {
+                      "id": "G1_U3_P3_S_11",
+                      "ref_num": "⑪",
+                      "speaker": "Nick",
+                      "en": "Oh, no. It's too heavy.",
+                      "ja": "だめだ。重すぎる。"
+                    },
+                    {
+                      "id": "G1_U3_P3_S_12",
+                      "ref_num": "⑫",
+                      "speaker": "Eri",
+                      "en": "Too bad, Nick.",
+                      "ja": "ニック、残念だね。"
+                    },
+                    {
+                      "id": "G1_U3_P3_S_13",
+                      "ref_num": "⑬",
+                      "speaker": "Kota",
+                      "en": "OK.",
+                      "ja": "よし。"
+                    },
+                    {
+                      "id": "G1_U3_P3_S_14",
+                      "ref_num": "⑭",
+                      "speaker": "Kota",
+                      "en": "Watch me.",
+                      "ja": "見ていて。"
+                    },
+                    {
+                      "id": "G1_U3_P3_S_15",
+                      "ref_num": "⑮",
+                      "speaker": "Kota",
+                      "en": "I'm a pro.",
+                      "ja": "ぼくはプロなんだよ。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak (p.53)",
+                  "label": "夏祭りでしたいことをたずね合おう",
+                  "items": [
+                    {
+                      "id": "G1_U3_P3_S_16",
+                      "tag": "A",
+                      "en": "eat shaved ice",
+                      "ja": "かき氷を食べる"
+                    },
+                    {
+                      "id": "G1_U3_P3_S_17",
+                      "tag": "B",
+                      "en": "see the fireworks",
+                      "ja": "花火を見る"
+                    },
+                    {
+                      "id": "G1_U3_P3_S_18",
+                      "tag": "C",
+                      "en": "take pictures",
+                      "ja": "写真を撮る"
+                    },
+                    {
+                      "id": "G1_U3_P3_S_19",
+                      "tag": "D",
+                      "en": "try goldfish scooping",
+                      "ja": "金魚すくいをやってみる"
+                    },
+                    {
+                      "id": "G1_U3_P3_S_20",
+                      "speaker": "[例] A",
+                      "en": "Do you want to eat shaved ice at a summer festival?",
+                      "ja": "あなたは夏祭りにかき氷を食べたいですか。"
+                    },
+                    {
+                      "id": "G1_U3_P3_S_21",
+                      "speaker": "[例] B",
+                      "en": "Yes, I do. I love it. How about you? Do you want to eat shaved ice?",
+                      "ja": "(はい、食べたいです。私はそれが大好きです。あなたはどうですか？ かき氷を食べたいですか？)"
+                    },
+                    {
+                      "id": "G1_U3_P3_S_22",
+                      "speaker": "[例] A",
+                      "en": "No, I don't. I don't like it very much.",
+                      "ja": "(いいえ、食べたくないです。あまりそれが好きではありません。)"
+                    },
+                    {
+                      "id": "G1_U3_P3_S_23",
+                      "speaker": "[解答例] A",
+                      "en": "Do you want to try goldfish scooping at a summer festival?",
+                      "ja": "あなたは夏祭りに金魚すくいをやってみたいですか。"
+                    },
+                    {
+                      "id": "G1_U3_P3_S_24",
+                      "speaker": "[解答例] B",
+                      "en": "Yes, I do. I'm interested in it. How about you? Do you want to try goldfish scooping?",
+                      "ja": "(はい、やってみたいです。私はそれに興味があります。あなたはどうですか？ 金魚すくいをやってみたいですか？)"
+                    },
+                    {
+                      "id": "G1_U3_P3_S_25",
+                      "speaker": "[解答例] A",
+                      "en": "No, I don't. I don't like it.",
+                      "ja": "(いいえ、やりたくないです。私はそれが好きではありません。)"
+                    },
+                    {
+                      "id": "G1_U3_P3_S_26",
+                      "speaker": "Write [解答例]",
+                      "en": "I want to see fireworks.",
+                      "ja": "私は花火を見たいです。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 60
+        },
+        "ST": {
+          "title": "Start: Enjoy the Summer",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U3_ST_W_01",
+                  "headword": "see",
+                  "pronunciation": "síː",
+                  "pos": "動",
+                  "meaning": "～を見る、～を見物する"
+                },
+                {
+                  "id": "G1_U3_ST_W_02",
+                  "headword": "climb",
+                  "pronunciation": "kláim",
+                  "pos": "動",
+                  "meaning": "(～に) 登る"
+                },
+                {
+                  "id": "G1_U3_ST_W_03",
+                  "headword": "go",
+                  "pronunciation": "ɡóu",
+                  "pos": "動",
+                  "meaning": "～しに行く",
+                  "note": "go -ing で"
+                },
+                {
+                  "id": "G1_U3_ST_W_04",
+                  "headword": "camping",
+                  "pronunciation": "kǽmpiŋ",
+                  "pos": "名",
+                  "meaning": "キャンプ (すること)"
+                },
+                {
+                  "id": "G1_U3_ST_W_05",
+                  "headword": "homework",
+                  "pronunciation": "hóumwə̀ːrk",
+                  "pos": "名",
+                  "meaning": "宿題"
+                },
+                {
+                  "id": "G1_U3_ST_W_06",
+                  "headword": "visit",
+                  "pronunciation": "vízət",
+                  "pos": "動",
+                  "meaning": "～を訪ねる"
+                },
+                {
+                  "id": "G1_U3_ST_W_07",
+                  "headword": "grandparent(s)",
+                  "pronunciation": "ɡrǽnpèərənt(s)",
+                  "pos": "名",
+                  "meaning": "祖父、祖母",
+                  "note": "[-s で] 祖父母"
+                },
+                {
+                  "id": "G1_U3_ST_W_08",
+                  "headword": "library",
+                  "pronunciation": "láibrèri",
+                  "pos": "名",
+                  "meaning": "図書館"
+                },
+                {
+                  "id": "G1_U3_ST_W_09",
+                  "headword": "beach",
+                  "pronunciation": "bíːtʃ",
+                  "pos": "名",
+                  "meaning": "浜辺、ビーチ"
+                },
+                {
+                  "id": "G1_U3_ST_W_10",
+                  "headword": "try",
+                  "pronunciation": "trái",
+                  "pos": "動",
+                  "meaning": "(～を) 試みる、(～を試しに) やってみる"
+                },
+                {
+                  "id": "G1_U3_ST_W_11",
+                  "headword": "yo-yo",
+                  "pronunciation": "jóujòu",
+                  "pos": "名",
+                  "meaning": "ヨーヨー"
+                },
+                {
+                  "id": "G1_U3_ST_W_12",
+                  "headword": "festival",
+                  "pronunciation": "féstəvəl",
+                  "pos": "名",
+                  "meaning": "祭り、催し"
+                },
+                {
+                  "id": "G1_U3_ST_W_13",
+                  "headword": "eat",
+                  "pronunciation": "íːt",
+                  "pos": "動",
+                  "meaning": "(～を) 食べる、食事をする"
+                },
+                {
+                  "id": "G1_U3_ST_W_14",
+                  "headword": "watermelon",
+                  "pronunciation": "wɔ́ːtərmèlən",
+                  "pos": "名",
+                  "meaning": "スイカ"
+                },
+                {
+                  "id": "G1_U3_ST_W_15",
+                  "headword": "do one's homework",
+                  "pos": "熟",
+                  "meaning": "宿題をする"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "goal_section",
+                  "header": "Unit 3 の目標 (Goal)",
+                  "items": [
+                    {
+                      "tag": "Goal: Listen",
+                      "text": "会話から、話し手が夏休みにすることなどを聞き取ることができる。"
+                    },
+                    {
+                      "tag": "Goal: Speak",
+                      "text": "夏休みにすることなどについて、その場で話すことができる。"
+                    }
+                  ]
+                },
+                {
+                  "type": "intro_section",
+                  "header": "About You",
+                  "label": "あなたの夏休みの予定",
+                  "items": [
+                    {
+                      "id": "G1_U3_ST_S_01",
+                      "en": "What do you usually do in the summer vacation? What do you want to do this year?",
+                      "ja": "あなたは毎年、夏休みに何をしますか。今年は何をしたいですか。"
+                    },
+                    {
+                      "id": "G1_U3_ST_S_02",
+                      "ja": "(例) 普段はキャンプをする。今年は山でキャンプをしたい。",
+                      "tag": "例"
+                    }
+                  ]
+                },
+                {
+                  "type": "phrase_list",
+                  "header": "Summer Vacation (夏休みの活動フレーズ)",
+                  "items": [
+                    {
+                      "id": "G1_U3_ST_S_03",
+                      "en": "see the fireworks",
+                      "ja": "花火を見る"
+                    },
+                    {
+                      "id": "G1_U3_ST_S_04",
+                      "en": "climb mountains",
+                      "ja": "登山をする"
+                    },
+                    {
+                      "id": "G1_U3_ST_S_05",
+                      "en": "go camping",
+                      "ja": "キャンプに行く"
+                    },
+                    {
+                      "id": "G1_U3_ST_S_06",
+                      "en": "do my homework",
+                      "ja": "宿題をする"
+                    },
+                    {
+                      "id": "G1_U3_ST_S_07",
+                      "en": "visit my grandparents",
+                      "ja": "祖父母のところに行く"
+                    },
+                    {
+                      "id": "G1_U3_ST_S_08",
+                      "en": "go to the library",
+                      "ja": "図書館へ行く"
+                    },
+                    {
+                      "id": "G1_U3_ST_S_09",
+                      "en": "go to the beach",
+                      "ja": "ビーチへ行く"
+                    },
+                    {
+                      "id": "G1_U3_ST_S_10",
+                      "en": "try yo-yo fishing",
+                      "ja": "ヨーヨー釣りをやってみる"
+                    },
+                    {
+                      "id": "G1_U3_ST_S_11",
+                      "en": "go to a summer festival",
+                      "ja": "夏祭りへ行く"
+                    },
+                    {
+                      "id": "G1_U3_ST_S_12",
+                      "en": "eat watermelon",
+                      "ja": "スイカを食べる"
+                    }
+                  ]
+                },
+                {
+                  "type": "check_section",
+                  "header": "ストーリーのおおまかな内容をつかむ",
+                  "label": "1. 予想する",
+                  "items": [
+                    {
+                      "id": "G1_U3_ST_S_13",
+                      "text": "Kotaたちは、夏休みに何をするのでしょうか。教科書pp.46-47の写真を参考に、予想してみましょう。"
+                    },
+                    {
+                      "id": "G1_U3_ST_S_14",
+                      "ja": "(例) 夏祭りに行く。",
+                      "tag": "例"
+                    }
+                  ]
+                },
+                {
+                  "type": "context_section",
+                  "header": "2. 音声を聞く",
+                  "label": "ピクチャーカードの場面順 (ストーリーの流れ)",
+                  "items": [
+                    {
+                      "id": "G1_U3_ST_S_15",
+                      "ja": "ティナ、エリがそれぞれの夏休みの予定について話している"
+                    },
+                    {
+                      "id": "G1_U3_ST_S_16",
+                      "ja": "コウタの夏休みの予定を2人に話している"
+                    },
+                    {
+                      "id": "G1_U3_ST_S_17",
+                      "ja": "ティナとエリが浴衣姿をコウタに見せている"
+                    },
+                    {
+                      "id": "G1_U3_ST_S_18",
+                      "ja": "3人にニックが合流し、盆踊りに参加しようとしている"
+                    },
+                    {
+                      "id": "G1_U3_ST_S_19",
+                      "ja": "ニックたちがヨーヨー釣りに向かっている"
+                    },
+                    {
+                      "id": "G1_U3_ST_S_20",
+                      "ja": "コウタとニックがヨーヨー釣りのところで話している"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "46-47"
+        },
+        "YCDI1": {
+          "title": "You Can Do It! 1",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U3_YCDI_W_01",
+                  "headword": "right",
+                  "pronunciation": "ráit",
+                  "pos": "形",
+                  "meaning": "正しい、間違いのない"
+                },
+                {
+                  "id": "G1_U3_YCDI_W_02",
+                  "headword": "kind",
+                  "pronunciation": "káind",
+                  "pos": "名",
+                  "meaning": "種類"
+                },
+                {
+                  "id": "G1_U3_YCDI_W_03",
+                  "headword": "classical",
+                  "pronunciation": "klǽsikl",
+                  "pos": "形",
+                  "meaning": "クラシックの"
+                },
+                {
+                  "id": "G1_U3_YCDI_W_04",
+                  "headword": "be",
+                  "pronunciation": "bíː, bi",
+                  "pos": "動",
+                  "meaning": "～である"
+                },
+                {
+                  "id": "G1_U3_YCDI_W_05",
+                  "headword": "pianist",
+                  "pronunciation": "piǽnist",
+                  "pos": "名",
+                  "meaning": "ピアニスト"
+                },
+                {
+                  "id": "G1_U3_YCDI_W_06",
+                  "headword": "~, right?",
+                  "pos": "熟",
+                  "meaning": "～ですよね。"
+                },
+                {
+                  "id": "G1_U3_YCDI_W_07",
+                  "headword": "What kind of ~?",
+                  "pos": "熟",
+                  "meaning": "どんな種類の～ですか。どのような～ですか。"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "intro_section",
+                  "header": "友達の新しい一面を見つけよう (p.58)",
+                  "items": [
+                    {
+                      "id": "G1_U3_YCDI_S_01",
+                      "text": "友達のことをもっと深く知るために、教科書p.58の3人とTinaのやり取りを参考にしながら話しをして、友達の新しい一面を見つけましょう。"
+                    }
+                  ]
+                },
+                {
+                  "type": "listening_script",
+                  "header": "音声の内容 (1) Tatsuki と Tina (p.71)",
+                  "items": [
+                    {
+                      "id": "G1_U3_YCDI_S_02",
+                      "speaker": "Tina",
+                      "en": "Tatsuki, you like listening to music, right?",
+                      "ja": "タツキ、あなたは音楽を聞くのが好きだよね。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_03",
+                      "speaker": "Tatsuki",
+                      "en": "Yes, I like listening to music on the internet.",
+                      "ja": "うん、インターネットで音楽を聞くのが好きだよ。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_04",
+                      "speaker": "Tina",
+                      "en": "What kind of music do you like?",
+                      "ja": "どんな種類の音楽が好きなの。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_05",
+                      "speaker": "Tatsuki",
+                      "en": "I like classical music.",
+                      "ja": "ぼくはクラシック音楽が好きなんだ。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_06",
+                      "speaker": "Tina",
+                      "en": "Great. Do you play an instrument?",
+                      "ja": "すばらしいわ。楽器を演奏するのかな。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_07",
+                      "speaker": "Tatsuki",
+                      "en": "No, I don't. But I want to play something.",
+                      "ja": "ううん、演奏しないよ。でも何かを演奏したいな。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_08",
+                      "speaker": "Tina",
+                      "en": "What do you want to play?",
+                      "ja": "何を演奏したいと思う？"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_09",
+                      "speaker": "Tatsuki",
+                      "en": "Well, I want to play the flute.",
+                      "ja": "うーん、フルートを演奏したい。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_10",
+                      "speaker": "Tina",
+                      "en": "Oh, cool. Thank you, Tatsuki.",
+                      "ja": "わあ、かっこいいね。ありがとう、タツキ。"
+                    }
+                  ]
+                },
+                {
+                  "type": "listening_script",
+                  "header": "音声の内容 (2) Haruka と Tina (p.71)",
+                  "items": [
+                    {
+                      "id": "G1_U3_YCDI_S_11",
+                      "speaker": "Tina",
+                      "en": "Haruka, you like sports, right?",
+                      "ja": "ハルカ、あなたはスポーツが好きよね。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_12",
+                      "speaker": "Haruka",
+                      "en": "Yes. I'm not good at playing, but I like watching.",
+                      "ja": "ええ。するのは好きじゃないけど、見るのが好きなの。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_13",
+                      "speaker": "Tina",
+                      "en": "You like watching sports. I see.",
+                      "ja": "スポーツを見るのが好きなんだね。そうなんだ。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_14",
+                      "speaker": "Tina",
+                      "en": "What kind of sports do you watch?",
+                      "ja": "どんなスポーツを見るのかな。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_15",
+                      "speaker": "Haruka",
+                      "en": "I often watch soccer games.",
+                      "ja": "私はよくサッカーの試合を見るわ。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_16",
+                      "speaker": "Tina",
+                      "en": "Soccer games? Me, too. I want to watch a World Cup game at a local stadium someday.",
+                      "ja": "サッカーの試合？ 私もよ。いつか地元のスタジアムでワールドカップの試合を見たいの。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_17",
+                      "speaker": "Tina",
+                      "en": "Who's your favorite player?",
+                      "ja": "あなたの好きな選手は誰？"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_18",
+                      "speaker": "Haruka",
+                      "en": "Well, my sister is on the local soccer team. She's my hero.",
+                      "ja": "うーん、姉[妹]は地元のサッカーチームに入っているの。彼女は私のヒーローね。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_19",
+                      "speaker": "Tina",
+                      "en": "Cool!",
+                      "ja": "かっこいいね！"
+                    }
+                  ]
+                },
+                {
+                  "type": "listening_script",
+                  "header": "音声の内容 (3) Kakeru と Tina (p.72)",
+                  "items": [
+                    {
+                      "id": "G1_U3_YCDI_S_20",
+                      "speaker": "Tina",
+                      "en": "Hi, Kakeru, you like reading books, right?",
+                      "ja": "こんにちは、カケル、あなたは読書が好きよね。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_21",
+                      "speaker": "Kakeru",
+                      "en": "Yes. I usually go to the library after school.",
+                      "ja": "うん。普段は放課後に図書館に行くよ。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_22",
+                      "speaker": "Tina",
+                      "en": "Great. I like reading books, too.",
+                      "ja": "いいね。私も読書が好きだよ。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_23",
+                      "speaker": "Tina",
+                      "en": "What kind of books do you like?",
+                      "ja": "どんな本が好きなのかな。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_24",
+                      "speaker": "Kakeru",
+                      "en": "I like stories about great people.",
+                      "ja": "偉人についての話が好きなんだ。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_25",
+                      "speaker": "Tina",
+                      "en": "Great people? Who is your hero?",
+                      "ja": "偉人？ 誰があなたのヒーローなの。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_26",
+                      "speaker": "Kakeru",
+                      "en": "Well, my hero is Nelson Mandela.",
+                      "ja": "うーん、ぼくのヒーローはネルソン・マンデラだよ。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_27",
+                      "speaker": "Kakeru",
+                      "en": "He was the President of South Africa.",
+                      "ja": "彼は南アフリカの大統領だったんだ。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_28",
+                      "speaker": "Tina",
+                      "en": "Oh, I know the name. Why is he your hero?",
+                      "ja": "へえ、その名前知ってるわ。どうして彼があなたのヒーローなの。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_29",
+                      "speaker": "Kakeru",
+                      "en": "He was brave. He was great.",
+                      "ja": "彼は勇敢だったんだ。すばらしかったよ。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_30",
+                      "speaker": "Tina",
+                      "en": "I see. I want to know more about him.",
+                      "ja": "そうなんだね。彼についてもっと知りたいわ。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak: やり取りをしよう (p.72)",
+                  "items": [
+                    {
+                      "id": "G1_U3_YCDI_S_31",
+                      "tag": "例 A",
+                      "en": "You like listening to music, right? What kind of music do you like?",
+                      "ja": "あなたは音楽を聞くことが好きですよね。どんな種類の音楽が好きですか。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_32",
+                      "tag": "例 B",
+                      "en": "I like classical music. I want to be a pianist.",
+                      "ja": "私はクラシック音楽が好きです。私はピアニストになりたいです。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_33",
+                      "tag": "解答例 A",
+                      "en": "You like sports, right? What kind of sports do you like?",
+                      "ja": "あなたはスポーツが好きですよね。どんなスポーツが好きですか。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_34",
+                      "tag": "解答例 B",
+                      "en": "I like baseball. I want to be a baseball player.",
+                      "ja": "私は野球が好きです。私は野球選手になりたいです。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_35",
+                      "tag": "もう一度 A",
+                      "en": "Who is your favorite baseball player?",
+                      "ja": "あなたの好きな野球選手は誰ですか。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_36",
+                      "tag": "もう一度 B",
+                      "en": "My hero is Ohtani Shohei.",
+                      "ja": "私のヒーローは大谷翔平選手です。"
+                    }
+                  ]
+                },
+                {
+                  "type": "speaking_model_section",
+                  "header": "Speaking モデル (p.73)",
+                  "items": [
+                    {
+                      "id": "G1_U3_YCDI_S_37",
+                      "speaker": "Mahina",
+                      "en": "Hi, David. You like dancing, right?",
+                      "ja": "こんにちは、デイヴィッド。ダンスは好きだよね。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_38",
+                      "speaker": "David",
+                      "en": "Yes. I usually enjoy dancing on weekends.",
+                      "ja": "はい。週末はいつもダンスを楽しんでいます。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_39",
+                      "speaker": "Mahina",
+                      "en": "Sounds fun. What dances do you like?",
+                      "ja": "楽しそうですね。どんなダンスが好きですか。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_40",
+                      "speaker": "David",
+                      "en": "Well, I like breakdancing. And now, I'm interested in hula dance, too.",
+                      "ja": "そうですね、ブレイクダンスが好きです。そして今、私はフラダンスにも興味があります。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_41",
+                      "speaker": "Mahina",
+                      "en": "Hula dance? Why?",
+                      "ja": "フラダンス？ なぜですか。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_42",
+                      "speaker": "David",
+                      "en": "I went to Hawaii last summer. I saw a hula show there. It was great.",
+                      "ja": "この前の夏にハワイに行きました。私はそこでフラショーを見ました。最高でした。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_43",
+                      "speaker": "Mahina",
+                      "en": "I see. I like dancing, too.",
+                      "ja": "そうなんですね。私もダンスが好きです。"
+                    }
+                  ]
+                },
+                {
+                  "type": "extra_section",
+                  "header": "Extra / テストにトライ！ (p.73)",
+                  "items": [
+                    {
+                      "id": "G1_U3_YCDI_S_44",
+                      "tag": "Extra解答例",
+                      "en": "Kento / like sports / like baseball",
+                      "ja": "ケント / スポーツが好き / 野球が好き"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_45",
+                      "tag": "Test Paul",
+                      "en": "Hi. I like sports. I can play volleyball. I'm in the volleyball club. How about you? Do you like sports?",
+                      "ja": "ポール：こんにちは。私はスポーツが好きです。バレーボールができます。バレーボール部に入っています。あなたはどうですか。スポーツは好きですか。"
+                    },
+                    {
+                      "id": "G1_U3_YCDI_S_46",
+                      "tag": "Test解答例",
+                      "en": "Yes, I do. I like basketball. I can play it well. I can play volleyball, too.",
+                      "ja": "(解答例) はい、好きです。私はバスケットボールが好きです。上手にできます。バレーボールもできます。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "71-73"
+        }
+      },
+      "hasAppendix": true
+    }
+  },
+  "allExplanations": {
+    "G1_U3_LR1_S_01": "**Look at ...** と、主語を省略して動詞から始まっているので、「～しなさい」と相手に指示する命令文です。**look at ～** で、「～を見る」という意味を表します。",
+    "G1_U3_LR1_S_02": "3文とも、**〈主語 + can + 動詞の原形～.〉** の形で「～することができます。」と可能を表す文です。**can** の後の動詞は原形を使います。",
+    "G1_U3_LR1_S_05": "**cannot** は **can** の否定形で、動詞の前に **cannot** が置かれているので、「～することができません」と可能を否定する文です。**cannot** の後には、動詞の原形が続きます。**〈主語 + can + 動詞の原形～.〉** の形で「～することができます。」と可能を表します。この文の **for** は「～の間」という意味を表す前置詞です。",
+    "G1_U3_LR1_S_06": "動詞の前に **don't [do not]** が置かれているので、どちらも一般動詞の否定文です。好き・嫌いを表すときは、**carrots** のように名詞の複数形を使います。",
+    "G1_U3_LR1_S_08": "どちらも一般動詞の肯定文です。好き・嫌いまたは食べるときは名詞の複数形を使いますが、**fish** (魚) は複数形も **fish** なので、そのままの形を使います。",
+    "G1_U3_LR1_S_10": "**〈What + be動詞 + 主語?〉** の疑問文で、疑問詞 **what** で始まる疑問文です。**What am I?** (私は何でしょう。) は、クイズなどでよく使われる文です。",
+    "G1_U3_LR1_S_11": "**Turn** という動詞で始まっているので「～しなさい」という命令文です。**turn ～ around** で「～の向きを変える、回転させる」という意味を表します。",
+    "G1_U3_P1_S_01": "「何を～しますか。」とたずねるときは、疑問詞 **what** を文のはじめに置き、その後に、疑問文を続けます。この文の動詞は **do** で「～する」という意味を表します。疑問文で使う **do** とは役割が異なります。**during** は、「～の間ずっと」という意味の前置詞です。",
+    "G1_U3_P1_S_02": "**what** で始まる疑問文への答えなので、**Yes** や **No** で答えず、具体的に答えます。**usually** は「普通は、いつもは」という意味の頻度を表す副詞です。",
+    "G1_U3_P1_S_04": "**go** は、一般動詞で、「行く」という意味を表し、**go to the beach** の形で「ビーチに行く」という意味で使われています。**with** は「～といっしょに」という意味の前置詞です。",
+    "G1_U3_P1_S_07": "**just** は、「ただ～だけ」という意味の副詞で、ここでは「ただトランペットを練習するだけ」という意味です。",
+    "G1_U3_P1_S_08": "この文の **That** (それ) は、内容からコウタの発言を指しています。",
+    "G1_U3_P1_S_10": "**but** は「しかし」という意味で、前の文と反対または逆の内容を表すときに使われる接続詞です。**also** は「～も (また)」という意味の副詞です。**every** は「毎～」という意味を表し、後に続く名詞は単数形にします。**every year** で、「毎年」という意味です。",
+    "G1_U3_P1_S_11": "**Sounds fun.** は、「楽しそうだね。」という意味の表現です。",
+    "G1_U3_P2_S_10": "**What's [What is] ～?** で、「～は何ですか。」とたずねるときに使います。また、このような疑問詞で始まる疑問文は、文の終わりを下げ調子で言います。普通の疑問文との違いに注意しましょう。",
+    "G1_U3_P2_S_12": "この文の **it** は **bon-odori** (盆踊り) を指しています。ニックやティナは **bon-odori** がどんなものかわからないようなので、エリが説明を加えています。",
+    "G1_U3_P2_S_13": "**Really?** は、「本当？」とたずねる言い方で、驚きなどを表すときに使います。最後を上げ調子で言います。",
+    "G1_U3_P2_S_15": "**like** は一般動詞なので、主語 (you) の前に **Do** を置いて疑問文をつくります。この文では、**dancing** が目的語になっています。**dancing** は、動詞の **-ing形** で、「踊ること」という意味になります。",
+    "G1_U3_P2_S_16": "**Of course.** は「もちろん。」と相手に同意したり、承諾したりするときに使います。",
+    "G1_U3_P3_S_04": "**They're** は **They are** の短縮形です。この文での **like** は、「～のような」という意味の前置詞です。",
+    "G1_U3_P3_S_06": "**want to + 動詞の原形** で、「～したい」という意味を表します。**try** は「やってみる」という意味の動詞なので、**want to try** で「やってみたい」という意味になります。",
+    "G1_U3_P3_S_07": "この文の **Yes.** は **Yes, I do.** を短縮した言い方です。**Do you ～?** の疑問文に答えるときは **do** を使い、「はい」なら **Yes, I do.** 、「いいえ」なら **No, I don't.** と言います。あなたがたずねているので、答えるときの主語は「私は (I) 」になることに注意しましょう。",
+    "G1_U3_P3_S_08": "**〈want to + 動詞の原形〉** で、「～したい」という意味を表します。比較的遠くの人や物を指して「あれ、あちらの (の)」と言うときには、**that** を使います。",
+    "G1_U3_P3_S_11": "**Oh, no.** は残念な気持ちを表す表現です。",
+    "G1_U3_P3_S_14": "**Watch me.** は、「（私を）見ていて。」と相手を促す表現です。"
+  }
+}

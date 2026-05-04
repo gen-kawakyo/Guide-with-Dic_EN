@@ -1,0 +1,2559 @@
+{
+  "type": "FULL_BACKUP",
+  "units": {
+    "G1-U4": {
+      "title": "Unit G1-U4",
+      "parts": {
+        "AG2": {
+          "title": "Active Grammar 2: 代名詞",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U4_AG2_W_01",
+                  "headword": "us",
+                  "pronunciation": "/ʌ́s, əs/",
+                  "pos": "代",
+                  "meaning": "私たちを［に］"
+                },
+                {
+                  "id": "G1_U4_AG2_W_02",
+                  "headword": "ours",
+                  "pronunciation": "/áuərz/",
+                  "pos": "代",
+                  "meaning": "私たちのもの"
+                },
+                {
+                  "id": "G1_U4_AG2_W_03",
+                  "headword": "his",
+                  "pronunciation": "/híz, iz/",
+                  "pos": "代",
+                  "meaning": "彼のもの"
+                },
+                {
+                  "id": "G1_U4_AG2_W_04",
+                  "headword": "hers",
+                  "pronunciation": "/hə́ːrz/",
+                  "pos": "代",
+                  "meaning": "彼女のもの"
+                },
+                {
+                  "id": "G1_U4_AG2_W_05",
+                  "headword": "its",
+                  "pronunciation": "/its/",
+                  "pos": "代",
+                  "meaning": "その、それの"
+                },
+                {
+                  "id": "G1_U4_AG2_W_06",
+                  "headword": "their",
+                  "pronunciation": "/ðéər/",
+                  "pos": "代",
+                  "meaning": "彼ら［彼女ら、それら］の"
+                },
+                {
+                  "id": "G1_U4_AG2_W_07",
+                  "headword": "them",
+                  "pronunciation": "/ðém, ðəm, m/",
+                  "pos": "代",
+                  "meaning": "彼ら［彼女ら、それら］を［に］"
+                },
+                {
+                  "id": "G1_U4_AG2_W_08",
+                  "headword": "theirs",
+                  "pronunciation": "/ðéərz/",
+                  "pos": "代",
+                  "meaning": "彼ら［彼女ら、それら］のもの"
+                },
+                {
+                  "id": "G1_U4_AG2_W_09",
+                  "headword": "these",
+                  "pronunciation": "/ðíːz/",
+                  "pos": "代",
+                  "meaning": "これら（の）"
+                },
+                {
+                  "id": "G1_U4_AG2_W_10",
+                  "headword": "those",
+                  "pronunciation": "/ðóuz/",
+                  "pos": "代",
+                  "meaning": "あれら（の）"
+                }
+              ],
+              "content_blocks": []
+            },
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "info_box",
+                  "header": "代名詞の形と主語の種類",
+                  "items": [
+                    {
+                      "tag": "1人称の定義",
+                      "label": "I 〈1人称〉",
+                      "text": "日本語で自分のことを言うときは、「私は」「ぼくは」などいろいろな語を使いますが、英語では I だけです。性別・年齢・身分などと関係なく、I を使います。"
+                    },
+                    {
+                      "tag": "2人称の定義",
+                      "label": "you 〈2人称〉",
+                      "text": "日本語で相手のことを言うときは、「あなたは」「君は」などいろいろな語を使いますが、英語では you だけです。性別・年齢・身分などと関係なく、you を使います。"
+                    },
+                    {
+                      "tag": "3人称の定義",
+                      "label": "he, she, it 〈3人称〉",
+                      "text": "自分と相手以外の（第三者）について言うときは、he, she, it を主語にします。"
+                    }
+                  ]
+                },
+                {
+                  "type": "info_box",
+                  "header": "人称代名詞の変化一覧表",
+                  "label": "主語 - 持ち主 - 目的語 - ～のもの",
+                  "items": [
+                    {
+                      "id": "G1_U4_AG2_G_H",
+                      "tag": "Header",
+                      "text": "主語 (～が、～は) - 持ち主を表す (～の) - 目的語 (～を、～に) - その人のもの (～のもの)"
+                    },
+                    {
+                      "id": "G1_U4_AG2_G_01",
+                      "label": "自分 (1人称) 単数",
+                      "text": "I - my - me - mine"
+                    },
+                    {
+                      "id": "G1_U4_AG2_G_02",
+                      "label": "自分 (1人称) 複数",
+                      "text": "we - our - us - ours"
+                    },
+                    {
+                      "id": "G1_U4_AG2_G_03",
+                      "label": "相手 (2人称) 単数・複数",
+                      "text": "you - your - you - yours"
+                    },
+                    {
+                      "id": "G1_U4_AG2_G_04",
+                      "label": "3人称 1人の男性 (he)",
+                      "text": "he - his - him - his"
+                    },
+                    {
+                      "id": "G1_U4_AG2_G_05",
+                      "label": "3人称 1人の女性 (she)",
+                      "text": "she - her - her - hers"
+                    },
+                    {
+                      "id": "G1_U4_AG2_G_06",
+                      "label": "3人称 1つの物事 (it)",
+                      "text": "it - its - it - (なし)"
+                    },
+                    {
+                      "id": "G1_U4_AG2_G_07",
+                      "label": "3人称 複数の人や物事 (they)",
+                      "text": "they - their - them - theirs"
+                    }
+                  ]
+                },
+                {
+                  "type": "info_box",
+                  "header": "指示代名詞（指し示す言葉）",
+                  "label": "位置： 単数形 - 複数形",
+                  "items": [
+                    {
+                      "label": "近くにある",
+                      "text": "this (こちら、これ) - these (これら)"
+                    },
+                    {
+                      "label": "遠くにある",
+                      "text": "that (あちら、あれ) - those (あれら)"
+                    }
+                  ]
+                }
+              ]
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "hunt_section",
+                  "header": "Grammar Hunt",
+                  "items": [
+                    {
+                      "id": "G1_U4_AG2_H_01",
+                      "en": "Unit 3, 4 のストーリーを読み、代名詞、指示代名詞を〇で囲みましょう。また、それぞれの代名詞が何を表しているかについても確かめましょう。",
+                      "ja": "Unit 3, 4 のストーリーを読み、代名詞、指示代名詞を〇で囲みましょう。"
+                    },
+                    {
+                      "id": "G1_U4_AG2_H_02",
+                      "tag": "解答例",
+                      "en": "Unit 4 Part 2 Tina: Eri, who's ==**that**==? Eri: Maybe ==**he's**== a new student in Kota's class.",
+                      "ja": "that：遠くにいる人 / he：1人の男性（a new student in Kota's classを指す）"
+                    }
+                  ]
+                },
+                {
+                  "type": "speak_section",
+                  "header": "Speak (p.91)",
+                  "label": "Who's your hero?",
+                  "items": [
+                    {
+                      "id": "G1_U4_AG2_S_01",
+                      "speaker": "Question",
+                      "en": "Who's your hero?",
+                      "ja": "あなたのあこがれの人は誰ですか。"
+                    },
+                    {
+                      "id": "G1_U4_AG2_S_02",
+                      "speaker": "Hajin",
+                      "en": "This is my hero. Lee Ung. He's a Korean basketball player.",
+                      "ja": "これはぼくのあこがれの人です。イ・ウンです。彼は韓国のバスケットボール選手です。"
+                    },
+                    {
+                      "id": "G1_U4_AG2_S_03",
+                      "speaker": "Hajin",
+                      "en": "Do you know about him? He's not very tall, but he can jump high.",
+                      "ja": "彼について知っていますか？ 彼はあまり背が高くありませんが、高くジャンプすることができます。"
+                    },
+                    {
+                      "id": "G1_U4_AG2_S_04",
+                      "speaker": "Hajin",
+                      "en": "His shooting is great. I want to play like him.",
+                      "ja": "彼のシュートはすばらしいです。ぼくは彼のようにプレーしたいです。"
+                    },
+                    {
+                      "id": "G1_U4_AG2_S_05",
+                      "speaker": "Hajin",
+                      "en": "How about you? Who's your hero? And why?",
+                      "ja": "あなたはどうですか？ あなたのあこがれの人は誰ですか。そしてなぜですか。"
+                    },
+                    {
+                      "id": "G1_U4_AG2_S_06",
+                      "speaker": "解答例",
+                      "en": "My hero is Abe Hifumi. He is a Japanese judo athlete. He is very strong and kind.",
+                      "ja": "私のあこがれの人は阿部一二三です。彼は日本の柔道選手です。彼はとても強くて優しいです。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "90-91"
+        },
+        "AP": {
+          "title": "AI Appendix: Unit 4 まとめ",
+          "views": {
+            "UNIT_APPENDIX": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "info_box",
+                  "header": "代名詞（he, she, it, they）を使いこなすコツ",
+                  "items": [
+                    {
+                      "tag": "Tip 1",
+                      "text": "英語は同じ言葉を何度も繰り返すのを嫌う言語です。2回目からは必ず代名詞に置き換える習慣をつけましょう。"
+                    },
+                    {
+                      "tag": "Tip 2",
+                      "text": "「彼ら（人間）」も「それら（物）」も、複数になれば全部 ==**they**== でOK。実は I や he よりも、they は守備範囲が広い便利な言葉なんです。"
+                    },
+                    {
+                      "tag": "Tip 3",
+                      "text": "誰の物か聞くときは ==**Whose**== 。答えるときは ==**mine**== (私のもの) や ==**yours**== (あなたのもの) 。s をつけるだけで「～のもの」に変わるルール（ours, hers, theirs）に注目してね。"
+                    }
+                  ]
+                },
+                {
+                  "type": "info_box",
+                  "header": "職人の一言",
+                  "items": [
+                    {
+                      "text": "Unit 4 で、ついに「自分とあなた」以外のすべての人や物を紹介できるようになりました。これで英語の世界が無限に広がりましたね！ Congratulations!"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 0,
+          "hasAppendix": true
+        },
+        "DL": {
+          "title": "Daily Life: 落とし物",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U4_DL_W_01",
+                  "headword": "stapler",
+                  "pronunciation": "/stéiplər/",
+                  "pos": "名",
+                  "meaning": "ホチキス"
+                },
+                {
+                  "id": "G1_U4_DL_W_02",
+                  "headword": "on",
+                  "pronunciation": "/άn, ɔːn/",
+                  "pos": "前",
+                  "meaning": "〔表面に接して〕～の上に［の］"
+                },
+                {
+                  "id": "G1_U4_DL_W_03",
+                  "headword": "desk",
+                  "pronunciation": "/désk/",
+                  "pos": "名",
+                  "meaning": "机"
+                },
+                {
+                  "id": "G1_U4_DL_W_04",
+                  "headword": "by",
+                  "pronunciation": "/bái, bi/",
+                  "pos": "前",
+                  "meaning": "～のそばに"
+                },
+                {
+                  "id": "G1_U4_DL_W_05",
+                  "headword": "bag",
+                  "pronunciation": "/bǽɡ/",
+                  "pos": "名",
+                  "meaning": "かばん、バッグ"
+                },
+                {
+                  "id": "G1_U4_DL_W_06",
+                  "headword": "under",
+                  "pronunciation": "/ʌ́ndər/",
+                  "pos": "前",
+                  "meaning": "～の下に［の・で］"
+                },
+                {
+                  "id": "G1_U4_DL_W_07",
+                  "headword": "chair",
+                  "pronunciation": "/tʃéər/",
+                  "pos": "名",
+                  "meaning": "椅子"
+                },
+                {
+                  "id": "G1_U4_DL_W_08",
+                  "headword": "Ms. Walker",
+                  "meaning": "ウォーカー先生"
+                },
+                {
+                  "id": "G1_U4_DL_W_09",
+                  "headword": "whose",
+                  "pronunciation": "/húːz/",
+                  "pos": "代",
+                  "meaning": "誰の、誰のもの"
+                },
+                {
+                  "id": "G1_U4_DL_W_10",
+                  "headword": "have",
+                  "pronunciation": "/hǽv, həv/",
+                  "pos": "動",
+                  "meaning": "～を持っている、～がある"
+                },
+                {
+                  "id": "G1_U4_DL_W_11",
+                  "headword": "well",
+                  "pronunciation": "/wél/",
+                  "pos": "感",
+                  "meaning": "ええと、そうですね"
+                },
+                {
+                  "id": "G1_U4_DL_W_12",
+                  "headword": "case",
+                  "pronunciation": "/kéis/",
+                  "pos": "名",
+                  "meaning": "入れ物、箱、～入れ"
+                },
+                {
+                  "id": "G1_U4_DL_W_13",
+                  "headword": "yours",
+                  "pronunciation": "/júərz/",
+                  "pos": "代",
+                  "meaning": "あなた（たち）のもの"
+                },
+                {
+                  "id": "G1_U4_DL_W_14",
+                  "headword": "mine",
+                  "pronunciation": "/máin/",
+                  "pos": "代",
+                  "meaning": "私のもの"
+                },
+                {
+                  "id": "G1_U4_DL_W_15",
+                  "headword": "any",
+                  "pronunciation": "/éni, əni/",
+                  "pos": "形",
+                  "meaning": "〔疑問文で〕いくつかの、いくらかの"
+                },
+                {
+                  "id": "G1_U4_DL_W_16",
+                  "headword": "idea",
+                  "pronunciation": "/aidíːə/",
+                  "pos": "名",
+                  "meaning": "考え、思いつき"
+                },
+                {
+                  "id": "G1_U4_DL_W_17",
+                  "headword": "Whose ~? — It's mine.",
+                  "meaning": "誰の～ですか。―私のものです。"
+                },
+                {
+                  "id": "G1_U4_DL_W_18",
+                  "headword": "eraser",
+                  "pronunciation": "/iréisər/",
+                  "pos": "名",
+                  "meaning": "消しゴム"
+                },
+                {
+                  "id": "G1_U4_DL_W_19",
+                  "headword": "ruler",
+                  "pronunciation": "/rúːlər/",
+                  "pos": "名",
+                  "meaning": "定規"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "goal_section",
+                  "header": "Daily Life Scene 2 落とし物",
+                  "label": "目標 (Goal)",
+                  "items": [
+                    {
+                      "tag": "Goal: Speak",
+                      "text": "落とし物の持ち主を探すやり取りをすることができる。"
+                    }
+                  ]
+                },
+                {
+                  "type": "context_section",
+                  "header": "目的・場面・状況",
+                  "text": "教室で落とし物を見つけました。落とし物の持ち主を探したり、誰かのものだと伝えたりするときには、何と言うでしょうか。"
+                },
+                {
+                  "type": "dialogue_section",
+                  "header": "1. ペアになり、下のやり取りを演じましょう。",
+                  "items": [
+                    {
+                      "id": "G1_U4_DL_S_01",
+                      "speaker": "Ms. Walker",
+                      "en": "Whose pencil case is that?",
+                      "ja": "あれは誰の筆箱ですか。"
+                    },
+                    {
+                      "id": "G1_U4_DL_S_02",
+                      "speaker": "Makoto",
+                      "en": "It's under your desk. Is it yours?",
+                      "ja": "あなたの机の下にあります。あなたのですか。"
+                    },
+                    {
+                      "id": "G1_U4_DL_S_03",
+                      "speaker": "Ms. Walker",
+                      "en": "No, it's not mine.",
+                      "ja": "いいえ、私のではありません。"
+                    },
+                    {
+                      "id": "G1_U4_DL_S_04",
+                      "speaker": "Ms. Walker",
+                      "en": "Whose is it? Do you have any idea?",
+                      "ja": "それは誰のものですか。何か思い当たりますか。"
+                    },
+                    {
+                      "id": "G1_U4_DL_S_05",
+                      "speaker": "Makoto",
+                      "en": "Well, maybe it's Hiro's. Let's ask him.",
+                      "ja": "ええと、もしかしたらヒロのものかもしれません。彼にきいてみましょう。"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_section",
+                  "header": "2. 教科書p.70の写真（※正しくはp.89）を参考に、落とし物の種類や見つけた場所を変えて、自分たちで考えたやり取りをしましょう。",
+                  "items": [
+                    {
+                      "id": "G1_U4_DL_S_06",
+                      "en": "a stapler / on the desk",
+                      "ja": "ホチキス / 机の上"
+                    },
+                    {
+                      "id": "G1_U4_DL_S_07",
+                      "en": "an eraser / in the box",
+                      "ja": "消しゴム / 箱の中"
+                    },
+                    {
+                      "id": "G1_U4_DL_S_08",
+                      "en": "a bag / by the desk",
+                      "ja": "かばん / 机のそば"
+                    },
+                    {
+                      "id": "G1_U4_DL_S_09",
+                      "en": "a ruler / under the chair",
+                      "ja": "定規 / 椅子のか下"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "解答例",
+                  "items": [
+                    {
+                      "id": "G1_U4_DL_S_10",
+                      "speaker": "A",
+                      "en": "Whose eraser is that?",
+                      "ja": "あれは誰の消しゴムですか。"
+                    },
+                    {
+                      "id": "G1_U4_DL_S_11",
+                      "speaker": "B",
+                      "en": "Eraser?",
+                      "ja": "消しゴム？"
+                    },
+                    {
+                      "id": "G1_U4_DL_S_12",
+                      "speaker": "A",
+                      "en": "It's in the box. Is it yours?",
+                      "ja": "箱の中にあります。あなたのですか。"
+                    },
+                    {
+                      "id": "G1_U4_DL_S_13",
+                      "speaker": "B",
+                      "en": "No, it's not mine.",
+                      "ja": "いいえ、私のではありません。"
+                    },
+                    {
+                      "id": "G1_U4_DL_S_14",
+                      "speaker": "A",
+                      "en": "Maybe it's Mei's. Let's ask her.",
+                      "ja": "もしかしたらメイのものかもしれません。彼女にきいてみましょう。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 89
+        },
+        "EX": {
+          "title": "Extra Story / 音声内容",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U4_EX_W_1",
+                  "headword": "Seoul",
+                  "pronunciation": "/sóul/",
+                  "pos": "名",
+                  "meaning": "ソウル（韓国の首都）"
+                },
+                {
+                  "id": "G1_U4_EX_W_2",
+                  "headword": "wow",
+                  "pronunciation": "/wáu/",
+                  "pos": "感",
+                  "meaning": "〔感動・喜びなどを表して〕わあ"
+                },
+                {
+                  "id": "G1_U4_EX_W_3",
+                  "headword": "learn",
+                  "pronunciation": "/lə́ːrn/",
+                  "pos": "動",
+                  "meaning": "～を習う、学ぶ"
+                },
+                {
+                  "id": "G1_U4_EX_W_4",
+                  "headword": "some",
+                  "pronunciation": "/sʌ́m/",
+                  "pos": "形",
+                  "meaning": "いくらかの、多少の"
+                },
+                {
+                  "id": "G1_U4_EX_W_5",
+                  "headword": "Korean",
+                  "pronunciation": "/kəríːən/",
+                  "pos": "名",
+                  "meaning": "韓国語"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "audio_section",
+                  "header": "Part 1 の音声内容 (p.84)",
+                  "label": "先生の紹介",
+                  "items": [
+                    {
+                      "id": "G1_U4_EX_S_01",
+                      "speaker": "Tina",
+                      "en": "Dad, these are our teachers.",
+                      "ja": "お父さん、私たちの先生たちだよ。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_02",
+                      "speaker": "Mr. Rios",
+                      "en": "Your teachers? OK.",
+                      "ja": "君の先生たちかい？ わかったよ。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_03",
+                      "speaker": "Tina",
+                      "en": "This is Mr. Hara.",
+                      "ja": "この人がハラ先生。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_04",
+                      "speaker": "Mr. Rios",
+                      "en": "I know him. He's your homeroom teacher, right?",
+                      "ja": "知っているよ。担任の先生だよね。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_05",
+                      "speaker": "Tina",
+                      "en": "Yes. And he's my science teacher, too.",
+                      "ja": "そうだよ。理科の先生でもあるんだ。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_06",
+                      "speaker": "Mr. Rios",
+                      "en": "Oh, your science teacher. I didn't know that.",
+                      "ja": "ああ、理科の先生なのか。知らなかったよ。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_07",
+                      "speaker": "Tina",
+                      "en": "He's very kind.",
+                      "ja": "とても親切だよ。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_08",
+                      "speaker": "Mr. Rios",
+                      "en": "That's great.",
+                      "ja": "すばらしいね。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_09",
+                      "speaker": "Tina",
+                      "en": "This is Ms. Ogawa. She's my math teacher.",
+                      "ja": "オガワ先生だよ。数学の先生なの。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_10",
+                      "speaker": "Mr. Rios",
+                      "en": "Ms. Ogawa ... your math teacher? OK. I like math. Is her class interesting?",
+                      "ja": "オガワ先生……数学の先生か。わかった。私は数学が好きなんだ。彼女の授業は楽しいかい？"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_11",
+                      "speaker": "Tina",
+                      "en": "Yes. It's a lot of fun. She's very funny. She's good at telling jokes. I like her math class.",
+                      "ja": "うん。とても楽しいよ。彼女はとてもおもしろいんだ。冗談を言うのが得意なの。彼女の数学の授業が好きだよ。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_12",
+                      "speaker": "Mr. Rios",
+                      "en": "Really? That's great.",
+                      "ja": "本当かい？ それはよかった。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_13",
+                      "speaker": "Tina",
+                      "en": "This is Mr. Sasaki. He's my social studies teacher.",
+                      "ja": "ササキ先生だよ。社会科の先生だよ。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_14",
+                      "speaker": "Mr. Rios",
+                      "en": "Mr. Sasaki ... your social studies teacher? OK.",
+                      "ja": "ササキ先生……社会科の先生だね。わかったよ。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_15",
+                      "speaker": "Tina",
+                      "en": "He's famous. Do you know why?",
+                      "ja": "有名なんだよ。どうしてかわかる？"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_16",
+                      "speaker": "Mr. Rios",
+                      "en": "No. Why?",
+                      "ja": "いや、わからないな。どうしてだい？"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_17",
+                      "speaker": "Tina",
+                      "en": "He is good at kendo. He's very strong.",
+                      "ja": "剣道の達人なんだ。すごく強いのよ。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_18",
+                      "speaker": "Mr. Rios",
+                      "en": "Oh, he is a fighter!",
+                      "ja": "へえ。剣士なんだね！"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_19",
+                      "speaker": "Tina",
+                      "en": "That's right.",
+                      "ja": "そうなの。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_20",
+                      "speaker": "Mr. Rios",
+                      "en": "Your social studies teacher is a fighter. That's cool!",
+                      "ja": "社会科の先生が剣士か。かっこいいわね！"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_section",
+                  "header": "Part 2 の音声内容 (p.85)",
+                  "label": "お気に入りの有名人",
+                  "items": [
+                    {
+                      "id": "G1_U4_EX_S_21",
+                      "speaker": "Tina",
+                      "en": "Look, Eri. This is my photo album. These are my favorite people.",
+                      "ja": "見て、エリ。私のアルバムだよ。私の大好きな人たちの写真なんだ。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_22",
+                      "speaker": "Eri",
+                      "en": "Your favorite people?",
+                      "ja": "あなたの大好きな人たちなの？"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_23",
+                      "speaker": "Tina",
+                      "en": "Yes. I like them all.",
+                      "ja": "そう。みんな好きなの。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_24",
+                      "speaker": "Eri",
+                      "en": "Who's this man?",
+                      "ja": "この男性は誰かな？"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_25",
+                      "speaker": "Tina",
+                      "en": "He's Chris Jackson. He's my favorite basketball player. He plays in the NBA. He can run really fast. He's great.",
+                      "ja": "クリス・ジャクソン。私の大好きなバスケットボール選手だよ。NBAでプレーしているの。本当に速く走れるんだ。最高だよ。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_26",
+                      "speaker": "Eri",
+                      "en": "Cool.",
+                      "ja": "かっこいいね。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_27",
+                      "speaker": "Tina",
+                      "en": "Do you know this woman?",
+                      "ja": "この女性を知っているかな。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_28",
+                      "speaker": "Eri",
+                      "en": "No, I don't. Who is she?",
+                      "ja": "ううん、知らないわ。誰なの？"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_29",
+                      "speaker": "Tina",
+                      "en": "She is my favorite actor. She's from Japan.",
+                      "ja": "私の大好きな俳優なの。彼女は日本出身だよ。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_30",
+                      "speaker": "Eri",
+                      "en": "Really? What's her name?",
+                      "ja": "本当？ 名前は何ていうの？"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_31",
+                      "speaker": "Tina",
+                      "en": "Judy Kashima. She's in the United States now. She can do karate. Her performances are always exciting. She's cool.",
+                      "ja": "ジュディ・カシマだよ。今はアメリカにいるんだ。空手ができて、彼女の演技はいつも刺激的なの。かっこいいのよ。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_32",
+                      "speaker": "Eri",
+                      "en": "Oh, I want to see her performance.",
+                      "ja": "へえ、彼女の演技を見てみたいな。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_33",
+                      "speaker": "Tina",
+                      "en": "Do you know this woman?",
+                      "ja": "この女性を知っているかな。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_34",
+                      "speaker": "Eri",
+                      "en": "No, I don't. Who is she?",
+                      "ja": "ううん、知らないわ。誰なの？"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_35",
+                      "speaker": "Tina",
+                      "en": "She's Ana Flowers. She's my favorite artist.",
+                      "ja": "アナ・フラワーズ。私の大好きな芸術家だよ。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_36",
+                      "speaker": "Eri",
+                      "en": "Oh, do you like art?",
+                      "ja": "へえ、あなたは芸術が好きなの？"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_37",
+                      "speaker": "Tina",
+                      "en": "Yes, I do. I like her paintings. In her paintings, you can see a lot of birds. They are really cute. I like them.",
+                      "ja": "うん、好きだよ。彼女の絵が好きなんだ。彼女の絵には、たくさんの鳥が描かれているの。本当にかわいいんだ。それらが好きなんだよね。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_38",
+                      "speaker": "Eri",
+                      "en": "Where is she from?",
+                      "ja": "彼女はどこの出身なの？"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_39",
+                      "speaker": "Tina",
+                      "en": "She's from the U.K.",
+                      "ja": "イギリスだよ。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_40",
+                      "speaker": "Eri",
+                      "en": "I see.",
+                      "ja": "そうなんだね。"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_section",
+                  "header": "Part 3 の音声内容 (p.85-86)",
+                  "label": "建物あてクイズ",
+                  "items": [
+                    {
+                      "id": "G1_U4_EX_S_41",
+                      "speaker": "Kota",
+                      "en": "Hajin, let's go home together.",
+                      "ja": "ハジン、いっしょに帰ろう。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_42",
+                      "speaker": "Hajin",
+                      "en": "Sure. What's this building, Kota? It's very big. Is it a hospital?",
+                      "ja": "もちろん。この建物は何かな、コウタ。とても大きいね。病院かな？"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_43",
+                      "speaker": "Kota",
+                      "en": "No, it isn't. It's a library. It's my favorite place in this town.",
+                      "ja": "ううん、違うよ。それは図書館だよ。この町でぼくが一番好きな場所なんだ。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_44",
+                      "speaker": "Hajin",
+                      "en": "Really? I want to visit it sometime.",
+                      "ja": "本当？ そのうち行ってみたいな。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_45",
+                      "speaker": "Kota",
+                      "en": "OK. Let's go together soon.",
+                      "ja": "いいよ。そのうちいっしょに行こう。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_46",
+                      "speaker": "Hajin",
+                      "en": "Look over there! What's that?",
+                      "ja": "あそこを見て！ あれは何かな？"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_47",
+                      "speaker": "Kota",
+                      "en": "It's Honcho Green Park.",
+                      "ja": "本町グリーン公園だよ。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_48",
+                      "speaker": "Hajin",
+                      "en": "Is it a big park?",
+                      "ja": "大きな公園なの？"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_49",
+                      "speaker": "Kota",
+                      "en": "Yes, it is. Many people go there on weekends. Oh, that's Nick.",
+                      "ja": "うん、そうだよ。多くの人が週末に行くんだ。あっ、あれはニックだ。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_50",
+                      "speaker": "Hajin",
+                      "en": "Who's Nick?",
+                      "ja": "ニックって誰？"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_51",
+                      "speaker": "Kota",
+                      "en": "He's Tina's brother. He's an elementary school student.",
+                      "ja": "彼はティナの弟だよ。小学生なんだ。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_52",
+                      "speaker": "Hajin",
+                      "en": "Uh-huh.",
+                      "ja": "そうなんだね。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_53",
+                      "speaker": "Hajin",
+                      "en": "Is that a restaurant?",
+                      "ja": "あれはレストランかな？"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_54",
+                      "speaker": "Kota",
+                      "en": "Yes, it is. It's a sushi restaurant. I sometimes go there with my parents.",
+                      "ja": "うん、そうだよ。すし屋だよ。ときどき両親といっしょに行くんだ。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_55",
+                      "en": "The sushi in that restaurant is good. Do you like sushi?",
+                      "ja": "あのお店のすしはおいしいよ。すしは好き？"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_56",
+                      "speaker": "Hajin",
+                      "en": "Yes! Sushi is very popular in Korea.",
+                      "ja": "うん！ すしは韓国でもとても人気があるんだよ。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_57",
+                      "speaker": "Kota",
+                      "en": "Really? I didn't know that.",
+                      "ja": "そうなの。知らなかったよ。"
+                    }
+                  ]
+                },
+                {
+                  "type": "extra_story_section",
+                  "header": "Extra Story (p.86)",
+                  "label": "韓国文化について話そう",
+                  "items": [
+                    {
+                      "id": "G1_U4_EX_S_58",
+                      "speaker": "Tina",
+                      "en": "So, Hajin, are you from Seoul?",
+                      "ja": "それで、ハジン、あなたはソウル出身なの？"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_59",
+                      "speaker": "Hajin",
+                      "en": "Yes, I am.",
+                      "ja": "うん、そうだよ。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_60",
+                      "speaker": "Eri",
+                      "en": "Wow! That's so cool. I want to visit Seoul so much. I love K-pop.",
+                      "ja": "わあ！ それはいいな。私もすごくソウルに行ってみたいな。K-popが大好きなの。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_61",
+                      "speaker": "Tina",
+                      "en": "I want to learn some Korean.",
+                      "ja": "私は少し韓国語を学びたいな。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_62",
+                      "speaker": "Eri",
+                      "en": "Me, too!",
+                      "ja": "私も！"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_63",
+                      "speaker": "Kota",
+                      "en": "Say \"Hello\" in Korean, Hajin.",
+                      "ja": "「こんにちは」って韓国語で言ってみて、ハジン。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_64",
+                      "speaker": "Hajin",
+                      "en": "\"Anyong-Haseyo.\"",
+                      "ja": "「アンニョンハセヨ」。"
+                    },
+                    {
+                      "id": "G1_U4_EX_S_65",
+                      "speaker": "Eri",
+                      "en": "Anyong-Haseyo, Hajin!",
+                      "ja": "アンニョンハセヨ、ハジン！"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "84-87"
+        },
+        "GL": {
+          "title": "Goal: ALTに他教科の先生を紹介しよう",
+          "views": {
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "audio_section",
+                  "header": "Goal の音声内容 (p.87)",
+                  "label": "Hajin が説明する人物について",
+                  "items": [
+                    {
+                      "id": "G1_U4_GL_S_01",
+                      "speaker": "Hajin",
+                      "en": "Hey Kota, do you have a minute?",
+                      "ja": "ねえ、コウタ、ちょっと時間ある？"
+                    },
+                    {
+                      "id": "G1_U4_GL_S_02",
+                      "speaker": "Kota",
+                      "en": "Sure!",
+                      "ja": "もちろん！"
+                    },
+                    {
+                      "id": "G1_U4_GL_S_03",
+                      "speaker": "Hajin",
+                      "en": "I talked to a woman yesterday, but I don't know her name. Can you help?",
+                      "ja": "昨日ある女性に話しかけたんだけど、彼女の名前がわからないんだ。手伝ってくれる？"
+                    },
+                    {
+                      "id": "G1_U4_GL_S_04",
+                      "speaker": "Kota",
+                      "en": "OK, tell me about her.",
+                      "ja": "いいよ、彼女のことを教えて。"
+                    },
+                    {
+                      "id": "G1_U4_GL_S_05",
+                      "speaker": "Hajin",
+                      "en": "Well, she's friendly and kind. Her hair is short. Her hair color is brown.",
+                      "ja": "うーん、彼女は話しやすくて親切だよ。髪は短い。髪の色は茶色だよ。"
+                    },
+                    {
+                      "id": "G1_U4_GL_S_06",
+                      "speaker": "Kota",
+                      "en": "Her hair is short, and its color is brown. Wait. Is she a student?",
+                      "ja": "髪は短くて、色は茶色なんだね。待って。彼女は生徒なの？"
+                    },
+                    {
+                      "id": "G1_U4_GL_S_07",
+                      "speaker": "Hajin",
+                      "en": "No, she isn't. She's a teacher, I think.",
+                      "ja": "ううん、違うよ。彼女は先生だと思う。"
+                    },
+                    {
+                      "id": "G1_U4_GL_S_08",
+                      "speaker": "Kota",
+                      "en": "OK. Anything else?",
+                      "ja": "わかった。他には？"
+                    },
+                    {
+                      "id": "G1_U4_GL_S_09",
+                      "speaker": "Hajin",
+                      "en": "She can speak Korean well.",
+                      "ja": "彼女は韓国語を上手に話せるよ。"
+                    },
+                    {
+                      "id": "G1_U4_GL_S_10",
+                      "speaker": "Kota",
+                      "en": "She speaks Korean? Sorry, I have no idea.",
+                      "ja": "韓国語を話すの？ ごめん、わからないな。"
+                    },
+                    {
+                      "id": "G1_U4_GL_S_11",
+                      "speaker": "Hajin",
+                      "en": "Hey, Kota, look! She's over there.",
+                      "ja": "ねえ、コウタ、見て！ 彼女があそこにいるよ。"
+                    },
+                    {
+                      "id": "G1_U4_GL_S_12",
+                      "speaker": "Kota",
+                      "en": "Let's see .... Oh, that's Ms. Noda! She's a school nurse.",
+                      "ja": "見てみよう……。ああ、あれは野田先生だよ。彼女は保健室の先生なんだ。"
+                    },
+                    {
+                      "id": "G1_U4_GL_S_13",
+                      "speaker": "Hajin",
+                      "en": "Ms. Noda. Thanks.",
+                      "ja": "野田先生か。ありがとう。"
+                    },
+                    {
+                      "id": "G1_U4_GL_S_14",
+                      "speaker": "Kota",
+                      "en": "She can speak Korean? Wow, that's surprising.",
+                      "ja": "彼女は韓国語を話せるの？ うわあ、それは驚いた。"
+                    },
+                    {
+                      "id": "G1_U4_GL_S_15",
+                      "speaker": "Hajin",
+                      "en": "Well, she can speak English and Chinese, too.",
+                      "ja": "うーん、彼女は英語と中国語も話せるんだよ。"
+                    },
+                    {
+                      "id": "G1_U4_GL_S_16",
+                      "speaker": "Kota",
+                      "en": "Wow. Korean, English, and Chinese! She can speak three foreign languages. That's great.",
+                      "ja": "うわあ。韓国語、英語に中国語！ 三か国語も話せるんだ。すごいな。"
+                    }
+                  ]
+                },
+                {
+                  "type": "ideation_section",
+                  "header": "① アイデアを広げよう (p.88)",
+                  "label": "紹介したい先生のメモ",
+                  "items": [
+                    {
+                      "id": "G1_U4_GL_M_01",
+                      "tag": "先生の名前は？",
+                      "en": "Mr. Tanaka",
+                      "ja": "タナカ先生"
+                    },
+                    {
+                      "id": "G1_U4_GL_M_02",
+                      "tag": "出身は？",
+                      "en": "Hokkaido",
+                      "ja": "北海道"
+                    },
+                    {
+                      "id": "G1_U4_GL_M_03",
+                      "tag": "教科は？",
+                      "en": "P.E.",
+                      "ja": "体育"
+                    },
+                    {
+                      "id": "G1_U4_GL_M_04",
+                      "tag": "趣味は？",
+                      "en": "swimming",
+                      "ja": "水泳"
+                    },
+                    {
+                      "id": "G1_U4_GL_M_05",
+                      "tag": "できることは？",
+                      "en": "can swim very fast",
+                      "ja": "とても速く泳ぐことができる"
+                    },
+                    {
+                      "id": "G1_U4_GL_M_06",
+                      "tag": "誕生日は？",
+                      "en": "October 27",
+                      "ja": "10月27日"
+                    },
+                    {
+                      "id": "G1_U4_GL_M_07",
+                      "tag": "好きな食べ物は？",
+                      "en": "sushi",
+                      "ja": "寿司"
+                    },
+                    {
+                      "id": "G1_U4_GL_M_08",
+                      "tag": "苦手なものは？",
+                      "en": "dog",
+                      "ja": "犬"
+                    }
+                  ]
+                },
+                {
+                  "type": "presentation_section",
+                  "header": "③ 発表しよう (p.88)",
+                  "items": [
+                    {
+                      "id": "G1_U4_GL_S_17",
+                      "speaker": "[例]",
+                      "en": "We want to introduce Mr. Nakamura.",
+                      "ja": "私たちはナカムラ先生を紹介したいです。"
+                    },
+                    {
+                      "id": "G1_U4_GL_S_18",
+                      "speaker": "[例]",
+                      "en": "He's our math teacher.",
+                      "ja": "彼は私たちの数学の先生です。"
+                    },
+                    {
+                      "id": "G1_U4_GL_S_19",
+                      "speaker": "[例]",
+                      "en": "He's from Okinawa.",
+                      "ja": "彼は沖縄出身です。"
+                    },
+                    {
+                      "id": "G1_U4_GL_S_20",
+                      "speaker": "[例]",
+                      "en": "He's good at ....",
+                      "ja": "彼は……が得意です。"
+                    },
+                    {
+                      "id": "G1_U4_GL_S_21",
+                      "speaker": "[解答例]",
+                      "en": "We want to introduce Mr. Tanaka.",
+                      "ja": "私たちはタナカ先生を紹介したいです。"
+                    },
+                    {
+                      "id": "G1_U4_GL_S_22",
+                      "speaker": "[解答例]",
+                      "en": "He's our P.E. teacher.",
+                      "ja": "彼は私たちの体育の先生です。"
+                    },
+                    {
+                      "id": "G1_U4_GL_S_23",
+                      "speaker": "[解答例]",
+                      "en": "He's from Hokkaido.",
+                      "ja": "彼は北海道出身です。"
+                    },
+                    {
+                      "id": "G1_U4_GL_S_24",
+                      "speaker": "[解答例]",
+                      "en": "His hobby is swimming.",
+                      "ja": "彼の趣味は水泳です。"
+                    },
+                    {
+                      "id": "G1_U4_GL_S_25",
+                      "speaker": "[解答例]",
+                      "en": "He can swim very fast.",
+                      "ja": "彼はとても速く泳ぐことができます。"
+                    },
+                    {
+                      "id": "G1_U4_GL_S_26",
+                      "speaker": "[解答例]",
+                      "en": "His birthday is October 27.",
+                      "ja": "彼の誕生日は10月27日です。"
+                    },
+                    {
+                      "id": "G1_U4_GL_S_27",
+                      "speaker": "[解答例]",
+                      "en": "He likes sushi.",
+                      "ja": "彼は寿司が好きです。"
+                    },
+                    {
+                      "id": "G1_U4_GL_S_28",
+                      "speaker": "[解答例]",
+                      "en": "He doesn't like dog.",
+                      "ja": "彼は犬が苦手です。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "87-88"
+        },
+        "P1": {
+          "title": "Part 1: どんな先生がいるかな",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U4_P1_W_01",
+                  "headword": "she",
+                  "pronunciation": "/ʃíː/",
+                  "pos": "代",
+                  "meaning": "彼女は、彼女が"
+                },
+                {
+                  "id": "G1_U4_P1_W_02",
+                  "headword": "he",
+                  "pronunciation": "/híː/",
+                  "pos": "代",
+                  "meaning": "彼は、彼が"
+                },
+                {
+                  "id": "G1_U4_P1_W_03",
+                  "headword": "strict",
+                  "pronunciation": "/stríkt/",
+                  "pos": "形",
+                  "meaning": "厳しい、厳格な"
+                },
+                {
+                  "id": "G1_U4_P1_W_04",
+                  "headword": "popular",
+                  "pronunciation": "/pάpjulər/",
+                  "pos": "形",
+                  "meaning": "人気のある"
+                },
+                {
+                  "id": "G1_U4_P1_W_05",
+                  "headword": "his",
+                  "pronunciation": "/híz, iz/",
+                  "pos": "代",
+                  "meaning": "彼の"
+                },
+                {
+                  "id": "G1_U4_P1_W_06",
+                  "headword": "funny",
+                  "pronunciation": "/fʌ́ni/",
+                  "pos": "形",
+                  "meaning": "おかしい、おもしろい"
+                },
+                {
+                  "id": "G1_U4_P1_W_07",
+                  "headword": "famous",
+                  "pronunciation": "/féiməs/",
+                  "pos": "形",
+                  "meaning": "有名な"
+                },
+                {
+                  "id": "G1_U4_P1_W_08",
+                  "headword": "main",
+                  "pronunciation": "/méin/",
+                  "pos": "形",
+                  "meaning": "主な、主要な"
+                },
+                {
+                  "id": "G1_U4_P1_W_09",
+                  "headword": "character",
+                  "pronunciation": "/kǽrəktər/",
+                  "pos": "名",
+                  "meaning": "登場人物、キャラクター"
+                },
+                {
+                  "id": "G1_U4_P1_W_10",
+                  "headword": "strong",
+                  "pronunciation": "/strɔ́ːŋ/",
+                  "pos": "形",
+                  "meaning": "強い、たくましい"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "dialogue_section",
+                  "header": "どんな先生がいるかな (p.62)",
+                  "items": [
+                    {
+                      "id": "G1_U4_P1_S_Q1",
+                      "speaker": "Question",
+                      "ja": "Q. コウタによると、星野先生はどんな先生でしょうか。"
+                    },
+                    {
+                      "id": "G1_U4_P1_S_A1",
+                      "speaker": "Answer",
+                      "ja": "A. (例) 厳しいが、人気があり、授業は楽しい。"
+                    },
+                    {
+                      "id": "G1_U4_P1_S_01",
+                      "ref_num": "①",
+                      "speaker": "Hajin",
+                      "en": "Hello, I'm Hajin.",
+                      "ja": "こんにちは、ぼくはハジン。"
+                    },
+                    {
+                      "id": "G1_U4_P1_S_02",
+                      "ref_num": "②",
+                      "speaker": "Hajin",
+                      "en": "I'm from Korea.",
+                      "ja": "韓国出身だよ。"
+                    },
+                    {
+                      "id": "G1_U4_P1_S_03",
+                      "ref_num": "③",
+                      "speaker": "Kota",
+                      "en": "Hi, nice to meet you.",
+                      "ja": "こんにちは、はじめまして。"
+                    },
+                    {
+                      "id": "G1_U4_P1_S_04",
+                      "ref_num": "④",
+                      "speaker": "Kota",
+                      "en": "Call me Kota.",
+                      "ja": "コウタって呼んで。"
+                    },
+                    {
+                      "id": "G1_U4_P1_S_05",
+                      "ref_num": "⑤",
+                      "speaker": "Kota",
+                      "en": "This is Ms. Thusi.",
+                      "ja": "こちらはツシ先生。"
+                    },
+                    {
+                      "id": "G1_U4_P1_S_06",
+                      "ref_num": "⑥",
+                      "speaker": "Kota",
+                      "en": "She's our English teacher.",
+                      "ja": "ぼくらの英語の先生だよ。"
+                    },
+                    {
+                      "id": "G1_U4_P1_S_07",
+                      "ref_num": "⑦",
+                      "speaker": "Ms. Thusi",
+                      "en": "Nice to meet you, Hajin.",
+                      "ja": "はじめまして、ハジン。"
+                    },
+                    {
+                      "id": "G1_U4_P1_S_08",
+                      "ref_num": "⑧",
+                      "speaker": "Hajin",
+                      "en": "Nice to meet you, too, Ms. Thusi.",
+                      "ja": "はじめまして、ツシ先生。"
+                    },
+                    {
+                      "id": "G1_U4_P1_S_09",
+                      "ref_num": "⑨",
+                      "speaker": "Kota",
+                      "en": "That's Mr. Hoshino.",
+                      "ja": "あの人は星野先生。"
+                    },
+                    {
+                      "id": "G1_U4_P1_S_10",
+                      "ref_num": "⑩",
+                      "speaker": "Kota",
+                      "en": "He's our P.E. teacher.",
+                      "ja": "ぼくらの体育の先生だよ。"
+                    },
+                    {
+                      "id": "G1_U4_P1_S_11",
+                      "ref_num": "⑪",
+                      "speaker": "Kota",
+                      "en": "He's strict.",
+                      "ja": "厳しいんだ。"
+                    },
+                    {
+                      "id": "G1_U4_P1_S_12",
+                      "ref_num": "⑫",
+                      "speaker": "Kota",
+                      "en": "But he's popular.",
+                      "ja": "でも人気もあるよ。"
+                    },
+                    {
+                      "id": "G1_U4_P1_S_13",
+                      "ref_num": "⑬",
+                      "speaker": "Kota",
+                      "en": "His class is fun.",
+                      "ja": "先生の授業は楽しいよ。"
+                    },
+                    {
+                      "id": "G1_U4_P1_S_14",
+                      "ref_num": "⑭",
+                      "speaker": "Hajin",
+                      "en": "I see.",
+                      "ja": "そうなんだね。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak (p.63)",
+                  "label": "好きなキャラクターや有名人を紹介しよう",
+                  "items": [
+                    {
+                      "id": "G1_U4_P1_S_15",
+                      "speaker": "[例]",
+                      "en": "This is Kamado Tanjiro.",
+                      "ja": "これは竈門炭治郎です。"
+                    },
+                    {
+                      "id": "G1_U4_P1_S_16",
+                      "speaker": "[例]",
+                      "en": "He's the main character of Kimetsu no Yaiba.",
+                      "ja": "彼は『鬼滅の刃』の主人公です。"
+                    },
+                    {
+                      "id": "G1_U4_P1_S_17",
+                      "speaker": "[例]",
+                      "en": "He's kind and strong.",
+                      "ja": "彼は親切で強いです。"
+                    },
+                    {
+                      "id": "G1_U4_P1_S_18",
+                      "speaker": "[解答例]",
+                      "en": "This is Doraemon.",
+                      "ja": "これはドラえもんです。"
+                    },
+                    {
+                      "id": "G1_U4_P1_S_19",
+                      "speaker": "[解答例]",
+                      "en": "He's a robot.",
+                      "ja": "彼はロボットです。"
+                    },
+                    {
+                      "id": "G1_U4_P1_S_20",
+                      "speaker": "[解答例]",
+                      "en": "He's very famous and popular.",
+                      "ja": "彼はとても有名で人気があります。"
+                    }
+                  ]
+                }
+              ]
+            },
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "自分と相手以外の人について言う。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "This is Ms. Thusi. ==**She's**== our English teacher.",
+                      "ja": "(こちらはツシ先生です。彼女は私たちの英語の先生です。)",
+                      "ref_id": "G1_U4_P1_S_06"
+                    },
+                    {
+                      "ref_num": "②",
+                      "en": "That's Mr. Hoshino. ==**He's**== our P.E. teacher.",
+                      "ja": "(あちらは星野先生です。彼は私たちの体育の先生です。)",
+                      "ref_id": "G1_U4_P1_S_10"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "he / she と is",
+                  "items": [
+                    {
+                      "id": "G1_U4_P1G_P_01",
+                      "text": "① 既に話題に出ている人について言うときには、代名詞を使います。女性の場合は ==**she**==（彼女は）を主語に使います。「彼女は～です」と紹介するときは、動詞は ==**is**== を使い、==**She's**== [She is] ～. と表します。"
+                    },
+                    {
+                      "id": "G1_U4_P1G_P_02",
+                      "text": "② 既に話題に出ている男性について言うときには、==**he**==（彼は）を使います。「彼は～です」と紹介するときは、sheのときと同様、動詞は ==**is**== を使い、==**He's**== [He is] ～. と表します。 「～です」を表す am, are, is を ==**be動詞**== といいます。"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G1_U4_P1G_E_01",
+                      "ref_num": "⑤",
+                      "en": "This is Ms. Thusi.",
+                      "text": "近くの人や物を指して「これ、こちら（の人）」と言うときには、==**this**== を使います。 this が主語のときの「～です」を表す動詞は is を使います。 〈This is ＋ 人の名前.〉の形で、「こちらは～です。」とそばにいる人を紹介する表現になります。 「～先生」と言うときには、Mr. / Ms. などを使い、名（ファーストネーム）は言わず、姓（ラストネーム）を言います。",
+                      "ref_id": "G1_U4_P1_S_05"
+                    },
+                    {
+                      "id": "G1_U4_P1G_E_02",
+                      "ref_num": "⑥",
+                      "en": "She's our English teacher.",
+                      "text": "She's は ==**She is**== の短縮形で、She's ～. で「彼女は～です」と紹介する言い方です。 主語が she のときの「～です」という意味の動詞は ==**is**== を使います。",
+                      "ref_id": "G1_U4_P1_S_06"
+                    },
+                    {
+                      "id": "G1_U4_P1G_E_03",
+                      "ref_num": "⑨",
+                      "en": "That's Mr. Hoshino.",
+                      "text": "比較的遠くの人や物を指して「あれ、あちら（の人）」と言うときには、==**that**== を使います。 That's は ==**That is**== の短縮形で、that が主語のときの「～です」という動詞は is を使います。 〈That's [That is] ＋ 人の名前.〉の形で、「あちらは～です。」と遠くにいる人を紹介する表現になります。",
+                      "ref_id": "G1_U4_P1_S_09"
+                    },
+                    {
+                      "id": "G1_U4_P1G_E_04",
+                      "ref_num": "⑩",
+                      "en": "He's our P.E. teacher.",
+                      "text": "He's は ==**He is**== の短縮形で、He's ～. で「彼は～です」と紹介する言い方です。 主語が he のときの「～です」という意味の動詞は ==**is**== を使います。",
+                      "ref_id": "G1_U4_P1_S_10"
+                    },
+                    {
+                      "id": "G1_U4_P1G_E_05",
+                      "ref_num": "⑪, ⑫",
+                      "en": "He's strict. But he's popular.",
+                      "text": "He's [He is] の後には、P.E. teacher（体育の先生）のような名詞だけでなく、strict（厳しい）のような状態を表す語がくることもあります。 このような語を形容詞といいます。 but は「しかし」という意味で、前の文と反対または逆の内容を表すときに使われる接続詞です。",
+                      "ref_id": "G1_U4_P1_S_11"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 81
+        },
+        "P2": {
+          "title": "Part 2: うわさの転校生",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U4_P2_W_01",
+                  "headword": "who",
+                  "pronunciation": "/húː/",
+                  "pos": "代",
+                  "meaning": "誰、誰が"
+                },
+                {
+                  "id": "G1_U4_P2_W_02",
+                  "headword": "maybe",
+                  "pronunciation": "/méibi/",
+                  "pos": "副",
+                  "meaning": "もしかしたら、～かな"
+                },
+                {
+                  "id": "G1_U4_P2_W_03",
+                  "headword": "player",
+                  "pronunciation": "/pléiər/",
+                  "pos": "名",
+                  "meaning": "選手、競技者"
+                },
+                {
+                  "id": "G1_U4_P2_W_04",
+                  "headword": "him",
+                  "pronunciation": "/hím, im/",
+                  "pos": "代",
+                  "meaning": "彼を、彼に"
+                },
+                {
+                  "id": "G1_U4_P2_W_05",
+                  "headword": "ask",
+                  "pronunciation": "/ǽsk/",
+                  "pos": "動",
+                  "meaning": "（人）にたずねる、～に質問する"
+                },
+                {
+                  "id": "G1_U4_P2_W_06",
+                  "headword": "actor",
+                  "pronunciation": "/ǽktər/",
+                  "pos": "名",
+                  "meaning": "（女性も含め一般的に）俳優"
+                },
+                {
+                  "id": "G1_U4_P2_W_07",
+                  "headword": "singer",
+                  "pronunciation": "/síŋər/",
+                  "pos": "名",
+                  "meaning": "歌手"
+                },
+                {
+                  "id": "G1_U4_P2_W_08",
+                  "headword": "artist",
+                  "pronunciation": "/άːrtist/",
+                  "pos": "名",
+                  "meaning": "芸術家"
+                },
+                {
+                  "id": "G1_U4_P2_W_09",
+                  "headword": "astronaut",
+                  "pronunciation": "/ǽstrənɔ̀ːt/",
+                  "pos": "名",
+                  "meaning": "宇宙飛行士"
+                },
+                {
+                  "id": "G1_U4_P2_W_10",
+                  "headword": "dancer",
+                  "pronunciation": "/dǽnsər/",
+                  "pos": "名",
+                  "meaning": "ダンサー、踊る人"
+                },
+                {
+                  "id": "G1_U4_P2_W_11",
+                  "headword": "athlete",
+                  "pronunciation": "/ǽθliːt/",
+                  "pos": "名",
+                  "meaning": "運動選手、運動好きな人"
+                },
+                {
+                  "id": "G1_U4_P2_W_12",
+                  "headword": "musician",
+                  "pronunciation": "/mjuːzíʃən/",
+                  "pos": "名",
+                  "meaning": "ミュージシャン"
+                },
+                {
+                  "id": "G1_U4_P2_W_13",
+                  "headword": "tough",
+                  "pronunciation": "/tʌ́f/",
+                  "pos": "形",
+                  "meaning": "たくましい、丈夫な"
+                },
+                {
+                  "id": "G1_U4_P2_W_14",
+                  "headword": "her",
+                  "pronunciation": "/hə́ːr, ər/",
+                  "pos": "代",
+                  "meaning": "彼女の / 彼女を、彼女に"
+                },
+                {
+                  "id": "G1_U4_P2_W_15",
+                  "headword": "game",
+                  "pronunciation": "/ɡéim/",
+                  "pos": "名",
+                  "meaning": "試合"
+                },
+                {
+                  "id": "G1_U4_P2_W_16",
+                  "headword": "powerful",
+                  "pronunciation": "/páuwərfəl/",
+                  "pos": "形",
+                  "meaning": "力強い"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "dialogue_section",
+                  "header": "うわさの転校生 (p.64)",
+                  "items": [
+                    {
+                      "id": "G1_U4_P2_S_Q1",
+                      "speaker": "Question",
+                      "ja": "Q. ティナとエリは、窓の外にいる生徒についてどう思っているでしょうか。"
+                    },
+                    {
+                      "id": "G1_U4_P2_S_A1",
+                      "speaker": "Answer",
+                      "ja": "A. (例) コウタのクラスに新しく来た生徒で、バスケットボールがうまい。"
+                    },
+                    {
+                      "id": "G1_U4_P2_S_01",
+                      "ref_num": "①",
+                      "speaker": "Tina",
+                      "en": "Eri, who's that?",
+                      "ja": "エリ、あれは誰かな。"
+                    },
+                    {
+                      "id": "G1_U4_P2_S_02",
+                      "ref_num": "②",
+                      "speaker": "Eri",
+                      "en": "Maybe he's a new student in Kota's class.",
+                      "ja": "もしかしたらコウタのクラスの新しい生徒かな。"
+                    },
+                    {
+                      "id": "G1_U4_P2_S_03",
+                      "ref_num": "③",
+                      "speaker": "Tina",
+                      "en": "Cool.",
+                      "ja": "いいね。"
+                    },
+                    {
+                      "id": "G1_U4_P2_S_04",
+                      "ref_num": "④",
+                      "speaker": "Tina",
+                      "en": "He's a good basketball player, isn't he?",
+                      "ja": "バスケットボールがうまいね。"
+                    },
+                    {
+                      "id": "G1_U4_P2_S_05",
+                      "ref_num": "⑤",
+                      "speaker": "Eri",
+                      "en": "Yes, he is.",
+                      "ja": "うん、そうだね。"
+                    },
+                    {
+                      "id": "G1_U4_P2_S_06",
+                      "ref_num": "⑥",
+                      "speaker": "Tina",
+                      "en": "Do you want to meet him?",
+                      "ja": "彼に会ってみたい？"
+                    },
+                    {
+                      "id": "G1_U4_P2_S_07",
+                      "ref_num": "⑦",
+                      "speaker": "Eri",
+                      "en": "Yes.",
+                      "ja": "うん。"
+                    },
+                    {
+                      "id": "G1_U4_P2_S_08",
+                      "ref_num": "⑧",
+                      "speaker": "Eri",
+                      "en": "Let's ask Kota.",
+                      "ja": "コウタにきいてみよう。"
+                    },
+                    {
+                      "id": "G1_U4_P2_S_09",
+                      "speaker": "You're the Writer!",
+                      "en": "Nice! Fun!",
+                      "ja": "(解答例) いいね！ 楽しみ！"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak (p.65)",
+                  "label": "好きなスポーツ選手やミュージシャンをたずね合おう",
+                  "items": [
+                    {
+                      "id": "G1_U4_P2_S_10",
+                      "speaker": "[例] A",
+                      "en": "Who's your favorite athlete?",
+                      "ja": "あなたの好きなスポーツ選手は誰ですか。"
+                    },
+                    {
+                      "id": "G1_U4_P2_S_11",
+                      "speaker": "[例] B",
+                      "en": "Hachimura Rui. He's tough. I like him very much. How about you? Who is your favorite athlete?",
+                      "ja": "八村塁です。彼はたくましいです。私は彼がとても好きです。あなたはどうですか。あなたの好きなスポーツ選手は誰ですか。"
+                    },
+                    {
+                      "id": "G1_U4_P2_S_12",
+                      "speaker": "[例] A",
+                      "en": "Osaka Naomi. Her game is powerful.",
+                      "ja": "大坂なおみです。彼女の試合は力強いです。"
+                    },
+                    {
+                      "id": "G1_U4_P2_S_13",
+                      "speaker": "[解答例] A",
+                      "en": "Who's your favorite musician?",
+                      "ja": "あなたの好きなミュージシャンは誰ですか。"
+                    },
+                    {
+                      "id": "G1_U4_P2_S_14",
+                      "speaker": "[解答例] B",
+                      "en": "Yonezu Kenshi. His songs are cool. How about you? Who is your favorite musician?",
+                      "ja": "米津玄師です。彼の歌はかっこいいです。あなたはどうですか。あなたの好きなミュージシャンは誰ですか。"
+                    },
+                    {
+                      "id": "G1_U4_P2_S_15",
+                      "speaker": "[解答例] A",
+                      "en": "Ado. Her songs are great.",
+                      "ja": "Adoです。彼女の歌はすばらしいです。"
+                    }
+                  ]
+                }
+              ]
+            },
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "「誰」なのかをたずねる。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "That's Kota.",
+                      "ja": "(あれはコウタです。)"
+                    },
+                    {
+                      "ref_num": "②",
+                      "en": "==**Who's**== that?",
+                      "ja": "(あれは誰ですか。)",
+                      "ref_id": "G1_U4_P2_S_01"
+                    },
+                    {
+                      "ref_num": "③",
+                      "en": "==**He's**== a new student.",
+                      "ja": "(彼は新入生です。)",
+                      "ref_id": "G1_U4_P2_S_02"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "who",
+                  "items": [
+                    {
+                      "id": "G1_U4_P2G_P_01",
+                      "text": "② Who's ～? は ==**Who is ～?**== の短縮形で、「誰ですか」と人についてたずねるときに用いる疑問詞 ==**who**== を使った文です。 文の頭に who を置き、次に be動詞の is を、その後にたずねたい相手を置きます。"
+                    },
+                    {
+                      "id": "G1_U4_P2G_P_02",
+                      "text": "また、疑問文の終わりにはクエスチョンマーク（？）を付け、文の終わりは上げずに下げて言います。 ③ Who is ～? の疑問文には、名前、自分との関係など、その人に関する情報を答えます。 普通はその人が男性なら ==**he**==、女性なら ==**she**== を主語にして、He [She] is ～. の形で答えます。"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G1_U4_P2G_E_01",
+                      "ref_num": "①",
+                      "en": "Eri, who's that?",
+                      "text": "Who's ～? は「～は誰ですか」と人についてたずねるときに使います。 この疑問文を指す who はいつも文の頭に置き、疑問文なので文の終わりはしっかり下げて言います。 Who's ～? の疑問文には、名前や職業、自分との関係など、その人に関する情報を答えます。",
+                      "ref_id": "G1_U4_P2_S_01"
+                    },
+                    {
+                      "id": "G1_U4_P2G_E_02",
+                      "ref_num": "②",
+                      "en": "Maybe he's a new student in Kota's class.",
+                      "text": "==**Maybe**== は「もしかしたら、～かな」という意味で、不確かなことを言うときに使います。",
+                      "ref_id": "G1_U4_P2_S_02"
+                    },
+                    {
+                      "id": "G1_U4_P2G_E_03",
+                      "ref_num": "④",
+                      "en": "He's a good basketball player, isn't he?",
+                      "text": "==**isn't he?**== は is not he の短縮形です。 また、文末の ～, isn't he? は付加疑問文といい、「彼は～ですね。」と同意を求めたり、確認したりするときに用いる表現です。 文の主語が He のときの He's a good basketball player. に対する同意を求めています。",
+                      "ref_id": "G1_U4_P2_S_04"
+                    },
+                    {
+                      "id": "G1_U4_P2G_E_04",
+                      "ref_num": "⑤",
+                      "en": "Yes, he is.",
+                      "text": "～, isn't he? 「彼は～ですね。」に対する答えなので、「はい」で答えるときは、==**Yes, he is.**== 、「いいえ」で答えるときは、No, he isn't. と言います。",
+                      "ref_id": "G1_U4_P2_S_05"
+                    },
+                    {
+                      "id": "G1_U4_P2G_E_05",
+                      "ref_num": "⑧",
+                      "en": "Let's ask Kota.",
+                      "text": "「～しましょう。」と相手に提案したり誘ったりするときとは、==**〈Let's ＋ 動詞の原形 ～.〉**== の文を使います。",
+                      "ref_id": "G1_U4_P2_S_08"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 82
+        },
+        "P3": {
+          "title": "Part 3: よろしくね！",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U4_P3_W_01",
+                  "headword": "front",
+                  "pronunciation": "/frʌ́nt/",
+                  "pos": "名",
+                  "meaning": "前方、前部、正面"
+                },
+                {
+                  "id": "G1_U4_P3_W_02",
+                  "headword": "floor",
+                  "pronunciation": "/flɔ́ːr/",
+                  "pos": "名",
+                  "meaning": "（建物の個々の）階"
+                },
+                {
+                  "id": "G1_U4_P3_W_03",
+                  "headword": "plan",
+                  "pronunciation": "/plǽn/",
+                  "pos": "名",
+                  "meaning": "見取り図、フロアガイド"
+                },
+                {
+                  "id": "G1_U4_P3_W_04",
+                  "headword": "floor plan",
+                  "pos": "名",
+                  "meaning": "見取り図"
+                },
+                {
+                  "id": "G1_U4_P3_W_05",
+                  "headword": "building",
+                  "pronunciation": "/bíldiŋ/",
+                  "pos": "名",
+                  "meaning": "建物"
+                },
+                {
+                  "id": "G1_U4_P3_W_06",
+                  "headword": "classroom",
+                  "pronunciation": "/klǽsrùːm/",
+                  "pos": "名",
+                  "meaning": "教室"
+                },
+                {
+                  "id": "G1_U4_P3_W_07",
+                  "headword": "over",
+                  "pronunciation": "/óuvər/",
+                  "pos": "副",
+                  "meaning": "越えて、向こう側へ"
+                },
+                {
+                  "id": "G1_U4_P3_W_08",
+                  "headword": "classmate",
+                  "pronunciation": "/klǽsmèit/",
+                  "pos": "名",
+                  "meaning": "同級生"
+                },
+                {
+                  "id": "G1_U4_P3_W_09",
+                  "headword": "neighbor",
+                  "pronunciation": "/néibər/",
+                  "pos": "名",
+                  "meaning": "近所の人、隣人"
+                },
+                {
+                  "id": "G1_U4_P3_W_10",
+                  "headword": "in front of ~",
+                  "pos": "熟",
+                  "meaning": "～の前に［で・の］"
+                },
+                {
+                  "id": "G1_U4_P3_W_11",
+                  "headword": "over here",
+                  "pos": "熟",
+                  "meaning": "こちらに"
+                },
+                {
+                  "id": "G1_U4_P3_W_12",
+                  "headword": "hospital",
+                  "pronunciation": "/hάspitəl/",
+                  "pos": "名",
+                  "meaning": "病院"
+                },
+                {
+                  "id": "G1_U4_P3_W_13",
+                  "headword": "gym",
+                  "pronunciation": "/dʒím/",
+                  "pos": "名",
+                  "meaning": "体育館、ジム"
+                },
+                {
+                  "id": "G1_U4_P3_W_14",
+                  "headword": "high school",
+                  "pronunciation": "/hái skùːl/",
+                  "pos": "名",
+                  "meaning": "高校"
+                },
+                {
+                  "id": "G1_U4_P3_W_15",
+                  "headword": "restaurant",
+                  "pronunciation": "/réstərənt/",
+                  "pos": "名",
+                  "meaning": "レストラン"
+                },
+                {
+                  "id": "G1_U4_P3_W_16",
+                  "headword": "guess",
+                  "pronunciation": "/ɡés/",
+                  "pos": "動",
+                  "meaning": "推測する、（答えなどを）言い当てる"
+                },
+                {
+                  "id": "G1_U4_P3_W_17",
+                  "headword": "small",
+                  "pronunciation": "/smɔ́ːl/",
+                  "pos": "形",
+                  "meaning": "小さい"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "dialogue_section",
+                  "header": "よろしくね！ (p.66)",
+                  "label": "学校の見取り図の前で",
+                  "items": [
+                    {
+                      "id": "G1_U4_P3_S_Q1",
+                      "speaker": "Question",
+                      "ja": "Q. エリはハジンに自己紹介で何を伝えたでしょうか。"
+                    },
+                    {
+                      "id": "G1_U4_P3_S_A1",
+                      "speaker": "Answer",
+                      "ja": "A. (例) 自分の名前、コウタの家の近所に住んでいること。"
+                    },
+                    {
+                      "id": "G1_U4_P3_S_00",
+                      "speaker": "Setting",
+                      "en": "Kota and Hajin are in front of the floor plan of the school building.",
+                      "ja": "コウタとハジンは校舎の見取り図の前にいます。"
+                    },
+                    {
+                      "id": "G1_U4_P3_S_01",
+                      "ref_num": "①",
+                      "speaker": "Hajin",
+                      "en": "Is this our classroom?",
+                      "ja": "これがぼくたちの教室かな？"
+                    },
+                    {
+                      "id": "G1_U4_P3_S_02",
+                      "ref_num": "②",
+                      "speaker": "Kota",
+                      "en": "No, it isn't.",
+                      "ja": "いいや、違うよ。"
+                    },
+                    {
+                      "id": "G1_U4_P3_S_03",
+                      "ref_num": "③",
+                      "speaker": "Kota",
+                      "en": "It's over here.",
+                      "ja": "こっちだよ。"
+                    },
+                    {
+                      "id": "G1_U4_P3_S_04",
+                      "ref_num": "④",
+                      "speaker": "Hajin",
+                      "en": "I see.",
+                      "ja": "なるほど。"
+                    },
+                    {
+                      "id": "G1_U4_P3_S_05",
+                      "ref_num": "⑤",
+                      "speaker": "Eri",
+                      "en": "Hi, Kota.",
+                      "ja": "ねえ、コウタ。"
+                    },
+                    {
+                      "id": "G1_U4_P3_S_06",
+                      "ref_num": "⑥",
+                      "speaker": "Eri",
+                      "en": "Is he your classmate?",
+                      "ja": "彼はコウタのクラスメイト？"
+                    },
+                    {
+                      "id": "G1_U4_P3_S_07",
+                      "ref_num": "⑦",
+                      "speaker": "Kota",
+                      "en": "Yes.",
+                      "ja": "うん。"
+                    },
+                    {
+                      "id": "G1_U4_P3_S_08",
+                      "ref_num": "⑧",
+                      "speaker": "Kota",
+                      "en": "This is Hajin.",
+                      "ja": "ハジンだよ。"
+                    },
+                    {
+                      "id": "G1_U4_P3_S_09",
+                      "ref_num": "⑨",
+                      "speaker": "Kota",
+                      "en": "He's from Korea.",
+                      "ja": "韓国から来たんだ。"
+                    },
+                    {
+                      "id": "G1_U4_P3_S_10",
+                      "ref_num": "⑩",
+                      "speaker": "Eri",
+                      "en": "Hi, I'm Eri.",
+                      "ja": "こんにちは、私はエリ。"
+                    },
+                    {
+                      "id": "G1_U4_P3_S_11",
+                      "ref_num": "⑪",
+                      "speaker": "Eri",
+                      "en": "Kota's neighbor.",
+                      "ja": "コウタの家の近所に住んでいるの。"
+                    },
+                    {
+                      "id": "G1_U4_P3_S_12",
+                      "ref_num": "⑫",
+                      "speaker": "Hajin",
+                      "en": "Hi.",
+                      "ja": "こんにちは。"
+                    },
+                    {
+                      "id": "G1_U4_P3_S_13",
+                      "ref_num": "⑬",
+                      "speaker": "Hajin",
+                      "en": "Nice to meet you.",
+                      "ja": "はじめまして。"
+                    },
+                    {
+                      "id": "G1_U4_P3_S_14",
+                      "ref_num": "⑭",
+                      "speaker": "Tina",
+                      "en": "Hi, I'm Tina.",
+                      "ja": "こんにちは、私はティナ。"
+                    },
+                    {
+                      "id": "G1_U4_P3_S_15",
+                      "ref_num": "⑮",
+                      "speaker": "Tina",
+                      "en": "I'm from New York.",
+                      "ja": "ニューヨーク出身だよ。"
+                    },
+                    {
+                      "id": "G1_U4_P3_S_16",
+                      "ref_num": "⑯",
+                      "speaker": "Tina",
+                      "en": "Nice to meet you.",
+                      "ja": "はじめまして。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak (p.67)",
+                  "label": "身近にあるものや名物のシルエットを当てよう",
+                  "items": [
+                    {
+                      "id": "G1_U4_P3_S_17",
+                      "speaker": "[例] A",
+                      "en": "What's this? Can you guess?",
+                      "ja": "これは何でしょう？ わかりますか。"
+                    },
+                    {
+                      "id": "G1_U4_P3_S_18",
+                      "speaker": "[例] B",
+                      "en": "Is it food?",
+                      "ja": "それは食べ物ですか。"
+                    },
+                    {
+                      "id": "G1_U4_P3_S_19",
+                      "speaker": "[例] A",
+                      "en": "No, it isn't.",
+                      "ja": "いいえ、違います。"
+                    },
+                    {
+                      "id": "G1_U4_P3_S_20",
+                      "speaker": "[例] B",
+                      "en": "Is it small?",
+                      "ja": "それは小さいですか。"
+                    },
+                    {
+                      "id": "G1_U4_P3_S_21",
+                      "speaker": "[例] A",
+                      "en": "No, it's very big.",
+                      "ja": "いいえ、とても大きいです。"
+                    },
+                    {
+                      "id": "G1_U4_P3_S_22",
+                      "speaker": "[例] B",
+                      "en": "Is it the Daisen Kofun?",
+                      "ja": "それは大仙古墳ですか。"
+                    },
+                    {
+                      "id": "G1_U4_P3_S_23",
+                      "speaker": "[例] A",
+                      "en": "Yes, it is.",
+                      "ja": "はい、そうです。"
+                    },
+                    {
+                      "id": "G1_U4_P3_S_24",
+                      "speaker": "[解答例] A",
+                      "en": "What's this? Can you guess?",
+                      "ja": "これは何でしょう？ わかりますか。"
+                    },
+                    {
+                      "id": "G1_U4_P3_S_25",
+                      "speaker": "[解答例] B",
+                      "en": "Is it food?",
+                      "ja": "それは食べ物ですか。"
+                    },
+                    {
+                      "id": "G1_U4_P3_S_26",
+                      "speaker": "[解答例] A",
+                      "en": "Yes, it is.",
+                      "ja": "はい、そうです。"
+                    },
+                    {
+                      "id": "G1_U4_P3_S_27",
+                      "speaker": "[解答例] B",
+                      "en": "Is it sour?",
+                      "ja": "それはすっぱいですか。"
+                    },
+                    {
+                      "id": "G1_U4_P3_S_28",
+                      "speaker": "[解答例] A",
+                      "en": "No, it isn't. It's sweet.",
+                      "ja": "いいえ、違います。あまいです。"
+                    },
+                    {
+                      "id": "G1_U4_P3_S_29",
+                      "speaker": "[解答例] B",
+                      "en": "Is it Yatsu-hashi?",
+                      "ja": "それは八ツ橋ですか。"
+                    },
+                    {
+                      "id": "G1_U4_P3_S_30",
+                      "speaker": "[解答例] A",
+                      "en": "Yes, it is.",
+                      "ja": "はい、そうです。"
+                    }
+                  ]
+                }
+              ]
+            },
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "自分と相手以外のものについてたずねる。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "This is our classroom.",
+                      "ja": "(これは私たちの教室です。)"
+                    },
+                    {
+                      "ref_num": "②",
+                      "en": "==**Is this**== our classroom? ==**Yes, it is.**== / ==**No, it isn't.**==",
+                      "ja": "(これは私たちの教室ですか。 はい、そうです。 / いいえ、違います。)",
+                      "ref_id": "G1_U4_P3_S_01"
+                    },
+                    {
+                      "ref_num": "③",
+                      "en": "Is ==**not**== our classroom.",
+                      "ja": "(これは私たちの教室ではありません。)",
+                      "ref_id": "G1_U4_P3_K_04"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "Is this / he [she] ...?",
+                  "items": [
+                    {
+                      "id": "G1_U4_P3G_P_01",
+                      "text": "① 「これ［彼／彼女］は～ですか」とたずねるときには、is を主語の前に出して疑問文をつくります。"
+                    },
+                    {
+                      "id": "G1_U4_P3G_P_02",
+                      "text": "肯定文： This is a park. (これは公園です。) → 疑問文： Is this a park? (これは公園ですか。)"
+                    },
+                    {
+                      "id": "G1_U4_P3G_P_03",
+                      "text": "また、疑問文の終わりにはクエスチョンマーク（？）を付け、文の終わりは上げ調子で言います。"
+                    },
+                    {
+                      "id": "G1_U4_P3G_P_04",
+                      "text": "② Is this ～? の疑問文には、is を使って答えます。 肯定なら Yes, it is. 、否定なら No, it isn't. と言います。 isn't は is not の短縮形です。 Is he / she ～? の疑問文には、is を使って答えます。 肯定なら Yes, he [she] is. 、否定なら No, he [she] isn't. と言います。"
+                    },
+                    {
+                      "id": "G1_U4_P3G_P_05",
+                      "text": "③ 「これ［彼／彼女］は～ではありません」と打ち消すときは、This / He [She] isn't ... の文を使います。 isn't は is not の短縮形です。 打ち消す文を否定文といいます。"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G1_U4_P3G_E_01",
+                      "ref_num": "①",
+                      "en": "Is this our classroom?",
+                      "text": "Is this ...? で「これは～ですか」とたずねる言い方になります。 is を主語（this）の前に出して疑問文をつくります。",
+                      "ref_id": "G1_U4_P3_S_01"
+                    },
+                    {
+                      "id": "G1_U4_P3G_E_02",
+                      "ref_num": "②",
+                      "en": "No, it isn't.",
+                      "text": "Is this ...? の疑問文には、is を使って答えます。 肯定なら Yes, it is. 、否定なら No, it isn't. と言います。 isn't は is not の短縮形です。",
+                      "ref_id": "G1_U4_P3_S_02"
+                    },
+                    {
+                      "id": "G1_U4_P3G_E_03",
+                      "ref_num": "⑥",
+                      "en": "Is he your classmate?",
+                      "text": "Is he ...? で、「彼は～ですか」とたずねる言い方です。 is を主語（he）の前に出して疑問文をつくります。",
+                      "ref_id": "G1_U4_P3_S_06"
+                    },
+                    {
+                      "id": "G1_U4_P3G_E_04",
+                      "ref_num": "⑧",
+                      "en": "This is Hajin.",
+                      "text": "〈This is ＋ 人の名前.〉の形で、「こちらは～です」とそばにいる人を紹介します。 this が主語のときの「～です」を表す動詞は is を使います。",
+                      "ref_id": "G1_U4_P3_S_08"
+                    },
+                    {
+                      "id": "G1_U4_P3G_E_05",
+                      "ref_num": "⑪",
+                      "en": "Kota's neighbor.",
+                      "text": "neighbor は「近所の人、隣人」という意味の名詞です。 直前に Kota's があるので、「コウタの近所の人」という意味を表しています。",
+                      "ref_id": "G1_U4_P3_S_11"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 83
+        },
+        "ST": {
+          "title": "Start: Our New Friend",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U4_ST_W_01",
+                  "headword": "J.H.S.",
+                  "meaning": "中学校〔Junior High School の略〕"
+                },
+                {
+                  "id": "G1_U4_ST_W_02",
+                  "headword": "newsletter",
+                  "pronunciation": "/njúːzlètər/",
+                  "pos": "名",
+                  "meaning": "ニュースレター"
+                },
+                {
+                  "id": "G1_U4_ST_W_03",
+                  "headword": "teacher(s)",
+                  "pronunciation": "/tíːtʃər(z)/",
+                  "pos": "名",
+                  "meaning": "先生、教師"
+                },
+                {
+                  "id": "G1_U4_ST_W_04",
+                  "headword": "science",
+                  "pronunciation": "/sáiəns/",
+                  "pos": "名",
+                  "meaning": "科学、理科"
+                },
+                {
+                  "id": "G1_U4_ST_W_05",
+                  "headword": "Japanese",
+                  "pronunciation": "/dʒæ̀pəníːz/",
+                  "pos": "名/形",
+                  "meaning": "国語(の)、日本語(の)"
+                },
+                {
+                  "id": "G1_U4_ST_W_06",
+                  "headword": "social studies",
+                  "pronunciation": "/sóuʃəl stʌ̀diz/",
+                  "pos": "名",
+                  "meaning": "社会科"
+                },
+                {
+                  "id": "G1_U4_ST_W_07",
+                  "headword": "P.E.",
+                  "pronunciation": "/píːíː/",
+                  "pos": "名",
+                  "meaning": "〔教科としての〕体育〔physical education の略〕"
+                },
+                {
+                  "id": "G1_U4_ST_W_08",
+                  "headword": "art",
+                  "pronunciation": "/άːrt/",
+                  "pos": "名",
+                  "meaning": "〔教科としての〕美術、芸術"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "goal_section",
+                  "header": "Unit 4 の目標 (Goal)",
+                  "items": [
+                    {
+                      "tag": "Goal: Listen",
+                      "text": "人物の特徴の説明から、必要な情報を聞き取ることができる。"
+                    },
+                    {
+                      "tag": "Goal: Speak",
+                      "text": "伝えたい情報を整理して、人物を紹介することができる。"
+                    }
+                  ]
+                },
+                {
+                  "type": "intro_section",
+                  "header": "About You",
+                  "items": [
+                    {
+                      "id": "G1_U4_ST_S_01",
+                      "en": "Do you have someone you want to introduce to your friends or teachers? Who is it?",
+                      "ja": "あなたには、友達や先生に紹介したい人はいますか。それは誰ですか。",
+                      "note": "(例) 姉"
+                    }
+                  ]
+                },
+                {
+                  "type": "check_section",
+                  "header": "Check: 予想する",
+                  "items": [
+                    {
+                      "id": "G1_U4_ST_S_02",
+                      "en": "Who is Kota introducing to the new student?",
+                      "ja": "コウタは転校生にどの先生を紹介するでしょうか。",
+                      "note": "(例) Ms. Thusi"
+                    }
+                  ]
+                },
+                {
+                  "type": "subjects_table",
+                  "header": "Honjo J.H.S. Newsletter (本町中学校ニュースレター)",
+                  "label": "Our Teachers (私たちの先生)",
+                  "items": [
+                    {
+                      "id": "G1_U4_ST_T_01",
+                      "en": "music",
+                      "ja": "音楽",
+                      "note": "Mr. Utada (ウタダ先生)"
+                    },
+                    {
+                      "id": "G1_U4_ST_T_02",
+                      "en": "math",
+                      "ja": "数学",
+                      "note": "Ms. Ogawa (オガワ先生)"
+                    },
+                    {
+                      "id": "G1_U4_ST_T_03",
+                      "en": "science",
+                      "ja": "理科",
+                      "note": "Mr. Hara (ハラ先生)"
+                    },
+                    {
+                      "id": "G1_U4_ST_T_04",
+                      "en": "Japanese",
+                      "ja": "国語",
+                      "note": "Mr. Kaneko (カネコ先生)"
+                    },
+                    {
+                      "id": "G1_U4_ST_T_05",
+                      "en": "English",
+                      "ja": "英語",
+                      "note": "Ms. Thusi (ツシ先生)"
+                    },
+                    {
+                      "id": "G1_U4_ST_T_06",
+                      "en": "social studies",
+                      "ja": "社会科",
+                      "note": "Mr. Sasaki (ササキ先生)"
+                    },
+                    {
+                      "id": "G1_U4_ST_T_07",
+                      "en": "P.E.",
+                      "ja": "体育",
+                      "note": "Mr. Hoshino (ホシノ先生)"
+                    },
+                    {
+                      "id": "G1_U4_ST_T_08",
+                      "en": "art",
+                      "ja": "美術",
+                      "note": "Ms. Aoki (アオキ先生)"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "60-61"
+        }
+      },
+      "hasAppendix": true
+    }
+  },
+  "allExplanations": {
+    "G1_U4_P1_S_05": "近くの人や物を指して「これ、こちら（の人）」と言うときには、==**this**== を使います。 this が主語のときの「～です」を表す動詞は is を使います。 〈This is ＋ 人の名前.〉の形で、「こちらは～です。」とそばにいる人を紹介する表現になります。 「～先生」と言うときには、Mr. / Ms. などを使い、名（ファーストネーム）は言わず、姓（ラストネーム）を言います。",
+    "G1_U4_P1_S_06": "She's は ==**She is**== の短縮形で、She's ～. で「彼女は～です」と紹介する言い方です。 主語が she のときの「～です」という意味の動詞は ==**is**== を使います。",
+    "G1_U4_P1_S_09": "比較的遠くの人や物を指して「あれ、あちら（の人）」と言うときには、==**that**== を使います。 That's は ==**That is**== の短縮形で、that が主語のときの「～です」という動詞は is を使います。 〈That's [That is] ＋ 人の名前.〉の形で、「あちらは～です。」と遠くにいる人を紹介する表現になります。",
+    "G1_U4_P1_S_10": "He's は ==**He is**== の短縮形で、He's ～. で「彼は～です」と紹介する言い方です。 主語が he のときの「～です」という意味の動詞は ==**is**== を使います。",
+    "G1_U4_P1_S_11": "He's [He is] の後には、P.E. teacher（体育の先生）のような名詞だけでなく、strict（厳しい）のような状態を表す語がくることもあります。 このような語を形容詞といいます。 but は「しかし」という意味で、前の文と反対または逆の内容を表すときに使われる接続詞です。",
+    "G1_U4_P2_S_01": "Who's ～? は「～は誰ですか」と人についてたずねるときに使います。 この疑問文を指す who はいつも文の頭に置き、疑問文なので文の終わりはしっかり下げて言います。 Who's ～? の疑問文には、名前や職業、自分との関係など、その人に関する情報を答えます。",
+    "G1_U4_P2_S_02": "==**Maybe**== は「もしかしたら、～かな」という意味で、不確かなことを言うときに使います。",
+    "G1_U4_P2_S_04": "==**isn't he?**== は is not he の短縮形です。 また、文末の ～, isn't he? は付加疑問文といい、「彼は～ですね。」と同意を求めたり、確認したりするときに用いる表現です。 文の主語が He のときの He's a good basketball player. に対する同意を求めています。",
+    "G1_U4_P2_S_05": "～, isn't he? 「彼は～ですね。」に対する答えなので、「はい」で答えるときは、==**Yes, he is.**== 、「いいえ」で答えるときは、No, he isn't. と言います。",
+    "G1_U4_P2_S_08": "「～しましょう。」と相手に提案したり誘ったりするときとは、==**〈Let's ＋ 動詞の原形 ～.〉**== の文を使います。",
+    "G1_U4_P3_S_01": "Is this ...? で「これは～ですか」とたずねる言い方になります。 is を主語（this）の前に出して疑問文をつくります。",
+    "G1_U4_P3_S_02": "Is this ...? の疑問文には、is を使って答えます。 肯定なら Yes, it is. 、否定なら No, it isn't. と言います。 isn't は is not の短縮形です。",
+    "G1_U4_P3_S_06": "Is he ...? で、「彼は～ですか」とたずねる言い方です。 is を主語（he）の前に出して疑問文をつくります。",
+    "G1_U4_P3_S_08": "〈This is ＋ 人の名前.〉の形で、「こちらは～です」とそばにいる人を紹介します。 this が主語のときの「～です」を表す動詞は is を使います。",
+    "G1_U4_P3_S_11": "neighbor は「近所の人、隣人」という意味の名詞です。 直前に Kota's があるので、「コウタの近所の人」という意味を表しています。"
+  }
+}

@@ -1,0 +1,1912 @@
+{
+  "type": "FULL_BACKUP",
+  "units": {
+    "G1-U1": {
+      "title": "Unit G1-U1",
+      "parts": {
+        "P2": {
+          "title": "Part 2: 春は好き？",
+          "views": {
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "自分の好きなもの・することなどを言う。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "I like spring.",
+                      "ja": "私は春が好きです。"
+                    },
+                    {
+                      "ref_num": "②",
+                      "en": "I don't like spring.",
+                      "ja": "私は春が好きではありません。"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "like と don't like",
+                  "text": "① 自分が好きなものを伝えるとき、**I like ～.** と言います。**like** は「～が好きです」という意味で、後に好きなものを入れて使います。**like** や **meet**、**call** などは、心の動きや体の動きなどを表す動詞の仲間で、「**一般動詞**」とよばれます。\n② 「～ない」と否定するときは、動詞の前に **don't** を置きます。**don't** は **do not** の短縮形です。"
+                },
+                {
+                  "type": "sentence_patterns",
+                  "header": "一般動詞の肯定文と否定文",
+                  "groups": [
+                    {
+                      "items": [
+                        {
+                          "en": "肯定文：I **like** music.",
+                          "ja": "(私は音楽が好きです。)"
+                        },
+                        {
+                          "en": "否定文：I **don't like** music.",
+                          "ja": "(私は音楽が好きではありません。)",
+                          "note": "※動詞の前に don't [do not] を置く。"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "generic_list",
+                  "header": "Unit 1 ででてきた記号",
+                  "items": [
+                    {
+                      "label": "( . ) ピリオド (終止符)",
+                      "text": "文の終わりを表し、文の終わりに置かれます。"
+                    },
+                    {
+                      "label": "( ? ) クエスチョンマーク (疑問符)",
+                      "text": "疑問文の終わりに置かれ、疑問を表します。"
+                    },
+                    {
+                      "label": "( ' ) アポストロフィ",
+                      "text": "文字や数字の省略をするときに使います。"
+                    },
+                    {
+                      "label": "( ! ) エクスクラメーションマーク (感嘆符)",
+                      "text": "驚きや怒りや喜びを表し、文の終わりに置かれます。"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G1_U1_P2G_E_01",
+                      "ref_num": "①",
+                      "en": "Look!",
+                      "text": "**Look.** は、「見て。」と相手の注意を引く言い方です。",
+                      "ref_id": "G1_U1_P2_S_01"
+                    },
+                    {
+                      "id": "G1_U1_P2G_E_02",
+                      "ref_num": "⑥",
+                      "en": "How about you, Kota?",
+                      "text": "**How about you?** は、「あなたはどうですか。」と、相手に同意や意見を求めるときに使います。文の終わりに付いているよびかけは、最後を上げ調子で言いましょう。",
+                      "ref_id": "G1_U1_P2_S_06"
+                    },
+                    {
+                      "id": "G1_U1_P2G_E_03",
+                      "ref_num": "⑧",
+                      "en": "I don't like spring.",
+                      "text": "**I like spring.** (私は春が好きです。)のような一般動詞の文を否定文にするときは、動詞の前に **don't [do not]** を置いて表します。",
+                      "ref_id": "G1_U1_P2_S_08"
+                    },
+                    {
+                      "id": "G1_U1_P2G_E_04",
+                      "ref_num": "⑨",
+                      "en": "Why not?",
+                      "note": "→教科書p.30 Key Phrase",
+                      "text": "**Why? [Why not?]** で、「どうして (ですか)。」という意味を表します。ここでは、「なぜコウタは春が好きではないのか」の意味になります。",
+                      "ref_id": "G1_U1_P2_S_09"
+                    },
+                    {
+                      "id": "G1_U1_P2G_E_05",
+                      "ref_num": "⑩",
+                      "en": "I .... Achoo!!",
+                      "text": "**Achoo!!** は、くしゃみの「ハクション!!」という音を表します。",
+                      "ref_id": "G1_U1_P2_S_10"
+                    },
+                    {
+                      "id": "G1_U1_P2G_E_06",
+                      "ref_num": "⑪",
+                      "en": "I see.",
+                      "text": "**I see.** は、「わかりました ［なるほど］。」と、相づちを打つときに使う表現です。会話で役立つ表現ですから覚えておきましょう。",
+                      "ref_id": "G1_U1_P2_S_11"
+                    },
+                    {
+                      "id": "G1_U1_P2G_E_07",
+                      "ref_num": "⑫",
+                      "en": "Bless you.",
+                      "text": "**Bless you.** は、くしゃみをした人に言う表現で、「お大事に。」という意味です。",
+                      "ref_id": "G1_U1_P2_S_12"
+                    }
+                  ]
+                }
+              ]
+            },
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U1_P2_W_01",
+                  "headword": "look",
+                  "pronunciation": "lúk",
+                  "pos": "動",
+                  "meaning": "見る"
+                },
+                {
+                  "id": "G1_U1_P2_W_02",
+                  "headword": "beautiful",
+                  "pronunciation": "bjúːtəfl",
+                  "pos": "形",
+                  "meaning": "美しい"
+                },
+                {
+                  "id": "G1_U1_P2_W_03",
+                  "headword": "why",
+                  "pronunciation": "hwái",
+                  "pos": "副",
+                  "meaning": "なぜ、どうして"
+                },
+                {
+                  "id": "G1_U1_P2_W_04",
+                  "headword": "do",
+                  "pronunciation": "dúː",
+                  "pos": "助",
+                  "usage": "〔否定文をつくる〕",
+                  "meaning": "～しない"
+                },
+                {
+                  "id": "G1_U1_P2_W_05",
+                  "headword": "not",
+                  "pronunciation": "nɑ́t",
+                  "pos": "副",
+                  "meaning": "（～で）ない、～（し）ない"
+                },
+                {
+                  "id": "G1_U1_P2_W_06",
+                  "headword": "achoo",
+                  "pronunciation": "ətʃúː",
+                  "pos": "名",
+                  "meaning": "ハクション〔くしゃみの音〕"
+                },
+                {
+                  "id": "G1_U1_P2_W_07",
+                  "headword": "very",
+                  "pronunciation": "véri",
+                  "pos": "副",
+                  "meaning": "とても、〔否定文で〕あまり"
+                },
+                {
+                  "id": "G1_U1_P2_W_08",
+                  "headword": "much",
+                  "pronunciation": "mʌ́tʃ",
+                  "pos": "副",
+                  "meaning": "非常に、とても"
+                },
+                {
+                  "id": "G1_U1_P2_W_09",
+                  "headword": "winter",
+                  "pronunciation": "wíntər",
+                  "pos": "名",
+                  "meaning": "冬"
+                },
+                {
+                  "id": "G1_U1_P2_W_10",
+                  "headword": "How about ~?",
+                  "pos": "熟",
+                  "meaning": "～はどうですか。"
+                },
+                {
+                  "id": "G1_U1_P2_W_11",
+                  "headword": "not ~ very much",
+                  "pos": "熟",
+                  "meaning": "そんなに～ない"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [
+                {
+                  "id": "G1_U1_P2_S_Q1",
+                  "speaker": "Question",
+                  "ja": "Q. エリとコウタは二人とも春が好きですか。"
+                },
+                {
+                  "id": "G1_U1_P2_S_A1",
+                  "speaker": "Answer (例)",
+                  "ja": "A. エリは春が好きだが、コウタは好きではない。"
+                },
+                {
+                  "id": "G1_U1_P2_S_01",
+                  "ref_num": "①",
+                  "speaker": "Tina",
+                  "en": "Look!",
+                  "ja": "見て！"
+                },
+                {
+                  "id": "G1_U1_P2_S_02",
+                  "ref_num": "②",
+                  "speaker": "Tina",
+                  "en": "Cherry blossoms.",
+                  "ja": "桜の花。"
+                },
+                {
+                  "id": "G1_U1_P2_S_03",
+                  "ref_num": "③",
+                  "speaker": "Tina",
+                  "en": "Beautiful.",
+                  "ja": "きれい。"
+                },
+                {
+                  "id": "G1_U1_P2_S_04",
+                  "ref_num": "④",
+                  "speaker": "Eri",
+                  "en": "Yes.",
+                  "ja": "うん。"
+                },
+                {
+                  "id": "G1_U1_P2_S_05",
+                  "ref_num": "⑤",
+                  "speaker": "Eri",
+                  "en": "I like spring.",
+                  "ja": "私は春が好きだな。"
+                },
+                {
+                  "id": "G1_U1_P2_S_06",
+                  "ref_num": "⑥",
+                  "speaker": "Tina",
+                  "en": "How about you, Kota?",
+                  "ja": "コウタはどう？"
+                },
+                {
+                  "id": "G1_U1_P2_S_07",
+                  "ref_num": "⑦",
+                  "speaker": "Kota",
+                  "en": "I like fall.",
+                  "ja": "秋が好きだな。"
+                },
+                {
+                  "id": "G1_U1_P2_S_08",
+                  "ref_num": "⑧",
+                  "speaker": "Kota",
+                  "en": "I don't like spring.",
+                  "ja": "春は好きじゃないな。"
+                },
+                {
+                  "id": "G1_U1_P2_S_09",
+                  "ref_num": "⑨",
+                  "speaker": "Tina",
+                  "en": "Why not?",
+                  "ja": "どうして好きじゃないの？"
+                },
+                {
+                  "id": "G1_U1_P2_S_10",
+                  "ref_num": "⑩",
+                  "speaker": "Kota",
+                  "en": "I .... Achoo!!",
+                  "ja": "ぼくは……。ハクション！！"
+                },
+                {
+                  "id": "G1_U1_P2_S_11",
+                  "ref_num": "⑪",
+                  "speaker": "Tina",
+                  "en": "I see.",
+                  "ja": "なるほどね。"
+                },
+                {
+                  "id": "G1_U1_P2_S_12",
+                  "ref_num": "⑫",
+                  "speaker": "Tina",
+                  "en": "Bless you.",
+                  "ja": "お大事に。"
+                },
+                {
+                  "id": "G1_U1_P2_S_13",
+                  "speaker": "Speak [例] A",
+                  "en": "I like summer. How about you?",
+                  "ja": "私は夏が好きです。あなたはどうですか。"
+                },
+                {
+                  "id": "G1_U1_P2_S_14",
+                  "speaker": "Speak [例] B (同じとき)",
+                  "en": "I like summer, too.",
+                  "ja": "私も夏が好きです。"
+                },
+                {
+                  "id": "G1_U1_P2_S_15",
+                  "speaker": "Speak [例] B (違うとき)",
+                  "en": "I don't like summer very much. I like winter.",
+                  "ja": "私は夏があまり好きではありません。私は冬が好きです。"
+                },
+                {
+                  "id": "G1_U1_P2_S_16",
+                  "speaker": "Speak [解答例] A",
+                  "en": "I like pumpkins. How about you?",
+                  "ja": "私はカボチャが好きです。あなたはどうですか。"
+                },
+                {
+                  "id": "G1_U1_P2_S_17",
+                  "speaker": "Speak [解答例] B",
+                  "en": "I don't like pumpkins. I like potatoes.",
+                  "ja": "私はカボチャが好きではありません。私はジャガイモが好きです。"
+                },
+                {
+                  "id": "G1_U1_P2_S_18",
+                  "speaker": "Write [解答例]",
+                  "en": "I like potatoes.",
+                  "ja": "私はジャガイモが好きです。"
+                }
+              ],
+              "content_blocks": []
+            }
+          },
+          "explanations": {},
+          "page": 25
+        },
+        "AP": {
+          "title": "AI からのメッセージ & まとめ付録",
+          "views": {
+            "PART_APPENDIX": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "info_box",
+                  "header": "Part 1: 自分を伝える第一歩",
+                  "items": [
+                    {
+                      "tag": "Point!",
+                      "text": "英語で一番大切な言葉は「自分」を表す ==**I**== です。文のどこにきても必ず大文字で書くのがルールだよ！",
+                      "en": "I am Tina."
+                    },
+                    {
+                      "tag": "Check!",
+                      "text": "相手の名前を呼ぶときは、名前の前に ==**Ms.**== (女性) や ==**Mr.**== (男性) をつけると丁寧だね。"
+                    }
+                  ]
+                },
+                {
+                  "type": "info_box",
+                  "header": "Part 2: 好きを共有しよう",
+                  "items": [
+                    {
+                      "tag": "Try!",
+                      "text": "自分のことを話したあとは、相手にも聞いてみよう。会話がもっと楽しくなる魔法のフレーズだよ。",
+                      "en": "I like spring. ==**How about you?**=="
+                    },
+                    {
+                      "tag": "Culture",
+                      "text": "誰かがくしゃみをしたとき、英語では「神の加護がありますように」という意味を込めてこう声をかけるんだ。",
+                      "en": "Bless you."
+                    }
+                  ]
+                },
+                {
+                  "type": "info_box",
+                  "header": "Part 3: 楽器を演奏するときのルール",
+                  "items": [
+                    {
+                      "tag": "Rule",
+                      "text": "ピアノやドラムなどの楽器を「演奏する」というときは、楽器の名前の前に必ず ==**the**== をつけよう。",
+                      "en": "play ==**the**== piano / play ==**the**== drums"
+                    }
+                  ]
+                }
+              ]
+            },
+            "UNIT_APPENDIX": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "info_box",
+                  "header": "AI からのメッセージ",
+                  "items": [
+                    {
+                      "tag": "Bravo!",
+                      "text": "Unit 1 修了おめでとう！ 君はもう、英語で「自分は何者か」「何が好きか」「何ができるか」を世界中の人に伝えることができるようになったんだ。これって、ものすごい進歩だよ！"
+                    },
+                    {
+                      "tag": "Step Up",
+                      "text": "次は「相手のこと」をもっと詳しくたずねる勉強が始まるよ。今の「自分を伝える力」に自信を持って、Unit 2 に進もう！"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 0,
+          "hasAppendix": true
+        },
+        "P1": {
+          "title": "Part 1: 道に迷って",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U1_P1_W_01",
+                  "headword": "lost",
+                  "pronunciation": "lɔ́ːst",
+                  "pos": "形",
+                  "meaning": "道に迷った"
+                },
+                {
+                  "id": "G1_U1_P1_W_02",
+                  "headword": "a",
+                  "pronunciation": "ə, éi",
+                  "pos": "冠",
+                  "meaning": "ある、１つの［人・匹など］の"
+                },
+                {
+                  "id": "G1_U1_P1_W_03",
+                  "headword": "student",
+                  "pronunciation": "st(j)úːdnt",
+                  "pos": "名",
+                  "meaning": "生徒、学生"
+                },
+                {
+                  "id": "G1_U1_P1_W_04",
+                  "headword": "there",
+                  "pronunciation": "ðéər, ðər",
+                  "pos": "副",
+                  "meaning": "そこに、そこで〔話し手から離れた場所を指して〕"
+                },
+                {
+                  "id": "G1_U1_P1_W_05",
+                  "headword": "thank",
+                  "pronunciation": "θǽŋk",
+                  "pos": "名",
+                  "meaning": "［間投詞的に］ ありがとう"
+                },
+                {
+                  "id": "G1_U1_P1_W_06",
+                  "headword": "to",
+                  "pronunciation": "túː, tə",
+                  "pos": "前",
+                  "usage": "〔to＋動詞の原形で〕",
+                  "meaning": "～して"
+                },
+                {
+                  "id": "G1_U1_P1_W_07",
+                  "headword": "meet",
+                  "pronunciation": "míːt",
+                  "pos": "動",
+                  "meaning": "（～に）会う、（～と）知り合う"
+                },
+                {
+                  "id": "G1_U1_P1_W_08",
+                  "headword": "call",
+                  "pronunciation": "kɔ́ːl",
+                  "pos": "動",
+                  "meaning": "～を（…と）呼ぶ"
+                },
+                {
+                  "id": "G1_U1_P1_W_09",
+                  "headword": "am",
+                  "pronunciation": "ǽm, əm",
+                  "pos": "動",
+                  "meaning": "～である、～だ"
+                },
+                {
+                  "id": "G1_U1_P1_W_10",
+                  "headword": "Thanks.",
+                  "pos": "熟",
+                  "meaning": "ありがとう。"
+                },
+                {
+                  "id": "G1_U1_P1_W_11",
+                  "headword": "Call me ~.",
+                  "pos": "熟",
+                  "meaning": "私を～と呼んでください。"
+                },
+                {
+                  "id": "G1_U1_P1_W_12",
+                  "headword": "Ms.",
+                  "pronunciation": "míz",
+                  "pos": "名",
+                  "meaning": "〔女性の姓・姓名の前で〕～さん、～先生"
+                },
+                {
+                  "id": "G1_U1_P1_W_13",
+                  "headword": "Japan",
+                  "pronunciation": "dʒəpǽn",
+                  "pos": "名",
+                  "meaning": "日本"
+                },
+                {
+                  "id": "G1_U1_P1_W_14",
+                  "headword": "South Africa",
+                  "pronunciation": "sáuθ ǽfrikə",
+                  "pos": "名",
+                  "meaning": "南アフリカ"
+                },
+                {
+                  "id": "G1_U1_P1_W_15",
+                  "headword": "from",
+                  "pronunciation": "frʌ́m, frəm",
+                  "pos": "前",
+                  "usage": "〔出どころ〕",
+                  "meaning": "～出身（の）、～から（の）"
+                },
+                {
+                  "id": "G1_U1_P1_W_16",
+                  "headword": "I'm from ~.",
+                  "pos": "熟",
+                  "meaning": "私は～出身です。"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [
+                {
+                  "id": "G1_U1_P1_S_Q1",
+                  "speaker": "Question",
+                  "en": "Q. What are the names of each character?",
+                  "ja": "Q. それぞれの登場人物の名前は何でしょうか。"
+                },
+                {
+                  "id": "G1_U1_P1_S_A1",
+                  "speaker": "Answer",
+                  "en": "A. Tina, Eri, Kotaro (Kota)",
+                  "ja": "A. ティナ、エリ、コウタロウ（コウタ）"
+                },
+                {
+                  "id": "G1_U1_P1_S_01",
+                  "ref_num": "①",
+                  "speaker": "Eri",
+                  "en": "Hello.",
+                  "ja": "こんにちは。"
+                },
+                {
+                  "id": "G1_U1_P1_S_02",
+                  "ref_num": "②",
+                  "speaker": "Eri",
+                  "en": "Are you OK?",
+                  "ja": "大丈夫ですか。"
+                },
+                {
+                  "id": "G1_U1_P1_S_03",
+                  "ref_num": "③",
+                  "speaker": "Tina",
+                  "en": "I'm lost.",
+                  "ja": "迷ってしまいました。"
+                },
+                {
+                  "id": "G1_U1_P1_S_04",
+                  "ref_num": "④",
+                  "speaker": "Tina",
+                  "en": "I want to go to Honcho Junior High School.",
+                  "ja": "本町中学校へ行きたいのですが。"
+                },
+                {
+                  "id": "G1_U1_P1_S_05",
+                  "ref_num": "⑤",
+                  "speaker": "Eri",
+                  "en": "I'm a student there.",
+                  "ja": "私はそこの生徒です。"
+                },
+                {
+                  "id": "G1_U1_P1_S_06",
+                  "ref_num": "⑥",
+                  "speaker": "Eri",
+                  "en": "Let's go together.",
+                  "ja": "いっしょに行きましょう。"
+                },
+                {
+                  "id": "G1_U1_P1_S_07",
+                  "ref_num": "⑦",
+                  "speaker": "Tina",
+                  "en": "Thanks.",
+                  "ja": "ありがとう。"
+                },
+                {
+                  "id": "G1_U1_P1_S_08",
+                  "ref_num": "⑧",
+                  "speaker": "Tina",
+                  "en": "I'm Tina.",
+                  "ja": "私はティナです。"
+                },
+                {
+                  "id": "G1_U1_P1_S_09",
+                  "ref_num": "⑨",
+                  "speaker": "Eri",
+                  "en": "I'm Eri.",
+                  "ja": "私はエリ。"
+                },
+                {
+                  "id": "G1_U1_P1_S_10",
+                  "ref_num": "⑩",
+                  "speaker": "Eri",
+                  "en": "Nice to meet you.",
+                  "ja": "はじめまして。"
+                },
+                {
+                  "id": "G1_U1_P1_S_11",
+                  "ref_num": "⑪",
+                  "speaker": "Kota",
+                  "en": "I'm Kotaro.",
+                  "ja": "ぼくはコウタロウです。"
+                },
+                {
+                  "id": "G1_U1_P1_S_12",
+                  "ref_num": "⑫",
+                  "speaker": "Kota",
+                  "en": "Call me Kota.",
+                  "ja": "コウタってよんでください。"
+                },
+                {
+                  "id": "G1_U1_P1_S_13",
+                  "speaker": "Speak [例]",
+                  "en": "I'm Christina Rios. Call me Tina. I'm from the U.S. I'm 12 years old.",
+                  "ja": "私はクリスティーナ・リオスです。ティナってよんでください。私はアメリカ合衆国出身です。私は12歳です。"
+                },
+                {
+                  "id": "G1_U1_P1_S_14",
+                  "speaker": "Speak [解答例]",
+                  "en": "I'm Sakai Shota. Call me Sho. I'm from Japan. I'm 13 years old.",
+                  "ja": "私は酒井将太です。ショウってよんでください。私は日本出身です。私は13歳です。"
+                },
+                {
+                  "id": "G1_U1_P1_S_15",
+                  "speaker": "Write [解答例]",
+                  "en": "I'm Sakai Shota.",
+                  "ja": "私は酒井将太です。"
+                }
+              ],
+              "content_blocks": []
+            },
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "自分の名前や出身地などを言う。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "I'm Eri.",
+                      "ja": "私はエリです。"
+                    },
+                    {
+                      "ref_num": "②",
+                      "en": "I'm a student there.",
+                      "ja": "私はそこの生徒です。"
+                    },
+                    {
+                      "ref_num": "③",
+                      "en": "I'm from Japan.",
+                      "ja": "私は日本出身です。"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "I と am",
+                  "text": "「私は～です。」と自己紹介をするときは、**I'm ～.** を使います。**I'm** は **I am** を短縮した言い方（短縮形）です。**I** は「私は［が］」という意味の代名詞です。**I** は文の途中でも大文字で書くので注意しましょう。**am** は動詞の仲間で、「**be動詞**」ともよばれます。「～です」という意味で、主語が **I** のときだけ使います。"
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G1_U1_P1G_E_01",
+                      "ref_num": "②",
+                      "en": "Are you OK?",
+                      "text": "「あなたは～ですか。」と相手の名前や状態などをたずねるときは、**Are you ～?** を使います。**are** は動詞の仲間で、「be動詞」ともよばれます。「～です」という意味で、主語が **you** などのときに使います。たずねる文の終わりには必ず **(?)** クエスチョンマーク（疑問符）を付けましょう。",
+                      "ref_id": "G1_U1_P1_S_02"
+                    },
+                    {
+                      "id": "G1_U1_P1G_E_02",
+                      "ref_num": "③,⑤,⑧,⑨,⑪",
+                      "en": "I'm lost. / I'm a student there. / I'm Tina. / I'm Eri. / I'm Kotaro.",
+                      "text": "**I'm ～.** (私は～です。)の～の部分には、名前だけでなく、**lost** (道に迷った) のように、状態を表す形容詞が入ることもあります。また、**a student** (生徒) のように身分や職業が入ることもあります。⑤の文の **a** は「１つの」という意味ですが、特に訳す必要はありません。ただし英語では、ものの名前に **a** のような数を表す語を付けて、１つ［１人］とそれ以上（単数か複数）の区別をはっきりさせます。覚えておきましょう。",
+                      "ref_id": "G1_U1_P1_S_03"
+                    },
+                    {
+                      "id": "G1_U1_P1G_E_03",
+                      "ref_num": "⑦",
+                      "en": "Thanks.",
+                      "text": "**Thanks.** は相手にお礼を言うときに使う表現です。**Thank you.** よりもくだけた言い方で、友達どうしのような親しい関係の場合に用います。",
+                      "ref_id": "G1_U1_P1_S_07"
+                    },
+                    {
+                      "id": "G1_U1_P1G_E_04",
+                      "ref_num": "⑩",
+                      "en": "Nice to meet you.",
+                      "note": "→教科書p.28 Key Phrase",
+                      "text": "**Nice to meet you.** は、初めて会う人への挨拶で、「はじめまして。」「よろしく。」という意味です。この文の **you** は、「あなたを［に］」という意味の代名詞です。",
+                      "ref_id": "G1_U1_P1_S_10"
+                    },
+                    {
+                      "id": "G1_U1_P1G_E_05",
+                      "ref_num": "⑫",
+                      "en": "Call me Kota.",
+                      "text": "「私のことを～と呼んでください。」と伝えるときは、**Call me ～.** と言います。**me** は「私を［に］」という意味の代名詞です。**I** (私は) との違いに注意して、いっしょに覚えましょう。",
+                      "ref_id": "G1_U1_P1_S_12"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "18"
+        },
+        "P3": {
+          "title": "Part 3: 知りたいな、Tina のこと",
+          "views": {
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "自分のできること・できないことを言う。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "I play the drums.",
+                      "ja": "(私はドラムを演奏します。)"
+                    },
+                    {
+                      "ref_num": "②",
+                      "en": "I ==**can**== play the drums.",
+                      "ja": "(私はドラムを演奏することができます。)"
+                    },
+                    {
+                      "ref_num": "③",
+                      "en": "I ==**can't**== play the drums.",
+                      "ja": "(私はドラムを演奏できません。)"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "can と can't",
+                  "text": "② 「～することができます」と可能を表すときは、助動詞の **can** を動詞の前に置いて表します。語順は **〈主語 + can + 動詞の原形 ～.〉** になります。\n③ 「～することができません」という否定文にするときは、動詞の前に **can't [cannot]** を置き、**〈主語 + can't + 動詞の原形 ～.〉** の語順になります。否定文でも、動詞は原形を使います。"
+                },
+                {
+                  "type": "sentence_patterns",
+                  "header": "肯定文と否定文の比較",
+                  "groups": [
+                    {
+                      "items": [
+                        {
+                          "en": "肯定文：I **can** play the drums.",
+                          "ja": "(私はドラムを演奏することができます。)",
+                          "note": "※動詞の前に can を置く。"
+                        },
+                        {
+                          "en": "否定文：I **can't** play the drums.",
+                          "ja": "(私はドラムを演奏できません。)",
+                          "note": "※動詞の前に can't を置く。"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G1_U1_P3G_E_01",
+                      "ref_num": "③",
+                      "en": "I'm from New York.",
+                      "text": "自分の出身地を伝えるとき、**I'm from ～.** と言います。**from** は「～から（の）、～出身（の）」という意味の前置詞で、自分の出身地を伝えるときに使います。**I'm from ～.** で「私は～出身です。」という意味を表します。",
+                      "ref_id": "G1_U1_P3_S_03"
+                    },
+                    {
+                      "id": "G1_U1_P3G_E_02",
+                      "ref_num": "④",
+                      "en": "I like music and sports.",
+                      "text": "**like** は「～が好きです」という意味で、後に好きなものを入れて使います。**and** は「～と…」という意味の語と語をつなぐ接続詞で、よく似た事柄どうしを結びつけます。",
+                      "ref_id": "G1_U1_P3_S_04"
+                    },
+                    {
+                      "id": "G1_U1_P3G_E_03",
+                      "ref_num": "⑤",
+                      "en": "I can swim and play the drums.",
+                      "text": "**can** は「～することができます」と可能を表す助動詞です。**can** の文は〈主語 + can + 動詞の原形 ～.〉の形で表します。このとき、**can** の後の動詞は原形を使い、**can** の付く文では、主語が何であっても動詞の形は変わりません。この文の **play** は、「（楽器）を演奏する」という意味で使われています。**play** がこの意味で使われるときは、楽器の前に必ず **the** を付けるので注意しましょう。〈**play + the + 楽器**〉の形で表します。",
+                      "ref_id": "G1_U1_P3_S_05"
+                    },
+                    {
+                      "id": "G1_U1_P3G_E_04",
+                      "ref_num": "⑧",
+                      "en": "It's fun.",
+                      "text": "**It's** は **It is** ～「それは～です」の短縮形です。**It** は（ドラムを演奏すること）を指しています。",
+                      "ref_id": "G1_U1_P3_S_07"
+                    },
+                    {
+                      "id": "G1_U1_P3G_E_05",
+                      "ref_num": "⑨",
+                      "en": "I can't play the drums, but I can play the piano.",
+                      "text": "**can't** は **cannot** の短縮形です。動詞の前に **can't** を置くことで、「～することができません」という否定の意味を表しています。**can't [cannot]** の後には、動詞の原形が続きます。",
+                      "ref_id": "G1_U1_P3_S_08"
+                    },
+                    {
+                      "id": "G1_U1_P3G_E_06",
+                      "ref_num": "⑩",
+                      "en": "Cool!",
+                      "note": "→教科書p.32 Key Phrase",
+                      "text": "**cool** は「かっこいい」「すごい」という意味で、ほめたり相づちを打ったりするときに使います。",
+                      "ref_id": "G1_U1_P3_S_09"
+                    }
+                  ]
+                }
+              ]
+            },
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U1_P3_W_01",
+                  "headword": "class",
+                  "pronunciation": "klǽs",
+                  "pos": "名",
+                  "meaning": "授業、授業時間"
+                },
+                {
+                  "id": "G1_U1_P3_W_02",
+                  "headword": "New York",
+                  "pronunciation": "n(j)úː jɔ́ːrk",
+                  "pos": "名",
+                  "meaning": "ニューヨーク（市［州］）"
+                },
+                {
+                  "id": "G1_U1_P3_W_03",
+                  "headword": "swim",
+                  "pronunciation": "swím",
+                  "pos": "動",
+                  "meaning": "泳ぐ、水泳をする"
+                },
+                {
+                  "id": "G1_U1_P3_W_04",
+                  "headword": "drum(s)",
+                  "pronunciation": "drʌ́m(z)",
+                  "pos": "名",
+                  "meaning": "ドラム、太鼓"
+                },
+                {
+                  "id": "G1_U1_P3_W_05",
+                  "headword": "but",
+                  "pronunciation": "bʌ́t, bət",
+                  "pos": "接",
+                  "meaning": "しかし、けれども"
+                },
+                {
+                  "id": "G1_U1_P3_W_06",
+                  "headword": "cool",
+                  "pronunciation": "kúːl",
+                  "pos": "形",
+                  "meaning": "かっこいい、すごい"
+                },
+                {
+                  "id": "G1_U1_P3_W_07",
+                  "headword": "cannot",
+                  "pronunciation": "kǽnɑt",
+                  "pos": "助",
+                  "meaning": "canの否定形"
+                },
+                {
+                  "id": "G1_U1_P3_W_08",
+                  "headword": "flute",
+                  "pronunciation": "flúːt",
+                  "pos": "名",
+                  "meaning": "フルート"
+                },
+                {
+                  "id": "G1_U1_P3_W_09",
+                  "headword": "rugby",
+                  "pronunciation": "rʌ́ɡbi",
+                  "pos": "名",
+                  "meaning": "ラグビー"
+                },
+                {
+                  "id": "G1_U1_P3_W_10",
+                  "headword": "sax",
+                  "pronunciation": "sǽks",
+                  "pos": "名",
+                  "meaning": "サックス、サクソフォン"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [
+                {
+                  "id": "G1_U1_P3_S_Q1",
+                  "speaker": "Question",
+                  "ja": "Q. ティナとエリは、それぞれ何が得意でしょうか。"
+                },
+                {
+                  "id": "G1_U1_P3_S_A1",
+                  "speaker": "Answer (例)",
+                  "ja": "A. ティナは水泳とドラム。エリはピアノ。"
+                },
+                {
+                  "id": "G1_U1_P3_S_01",
+                  "ref_num": "①",
+                  "speaker": "Tina",
+                  "en": "Hello.",
+                  "ja": "こんにちは。"
+                },
+                {
+                  "id": "G1_U1_P3_S_02",
+                  "ref_num": "②",
+                  "speaker": "Tina",
+                  "en": "I'm Tina.",
+                  "ja": "私はティナです。"
+                },
+                {
+                  "id": "G1_U1_P3_S_03",
+                  "ref_num": "③",
+                  "speaker": "Tina",
+                  "en": "I'm from New York.",
+                  "ja": "ニューヨーク出身です。"
+                },
+                {
+                  "id": "G1_U1_P3_S_04",
+                  "ref_num": "④",
+                  "speaker": "Tina",
+                  "en": "I like music and sports.",
+                  "ja": "音楽とスポーツが好きです。"
+                },
+                {
+                  "id": "G1_U1_P3_S_05",
+                  "ref_num": "⑤",
+                  "speaker": "Tina",
+                  "en": "I can swim and play the drums.",
+                  "ja": "泳ぐこととドラムを演奏することができます。"
+                },
+                {
+                  "id": "G1_U1_P3_S_06",
+                  "ref_num": "⑥",
+                  "speaker": "Eri",
+                  "en": "You can play the drums!",
+                  "ja": "ドラムを演奏できるんだね！"
+                },
+                {
+                  "id": "G1_U1_P3_S_07",
+                  "ref_num": "⑦",
+                  "speaker": "Tina",
+                  "en": "Yes. It's fun.",
+                  "ja": "うん。楽しいよ。"
+                },
+                {
+                  "id": "G1_U1_P3_S_08",
+                  "ref_num": "⑧",
+                  "speaker": "Eri",
+                  "en": "I can't play the drums, but I can play the piano.",
+                  "ja": "ドラムは演奏できないけど、ピアノを弾けるよ。"
+                },
+                {
+                  "id": "G1_U1_P3_S_09",
+                  "ref_num": "⑨",
+                  "speaker": "Tina",
+                  "en": "Cool!",
+                  "ja": "かっこいい！"
+                },
+                {
+                  "id": "G1_U1_P3_S_10",
+                  "speaker": "Speak [例]",
+                  "en": "I can't play the flute, but I can play the sax.",
+                  "ja": "私はフルートは吹けませんが、サックスは吹けます。"
+                },
+                {
+                  "id": "G1_U1_P3_S_11",
+                  "speaker": "Speak [解答例]",
+                  "en": "I can't play volleyball, but I can play soccer.",
+                  "ja": "私はバレーボールはできませんが、サッカーはできます。"
+                },
+                {
+                  "id": "G1_U1_P3_S_12",
+                  "speaker": "Write [解答例]",
+                  "en": "I can play soccer.",
+                  "ja": "私はサッカーができます。"
+                }
+              ],
+              "content_blocks": []
+            }
+          },
+          "explanations": {},
+          "page": 26
+        },
+        "GL": {
+          "title": "Goal: 自己紹介カードを作ろう",
+          "views": {
+            "TEXT": {
+              "items": [
+                {
+                  "header": "Tina と Kota の対話 (p.31-32)"
+                },
+                {
+                  "id": "G1_U1_GL_S_01",
+                  "speaker": "Tina",
+                  "en": "Look, Kota. This is my \"All About Me\" card.",
+                  "ja": "見て、コウタ。これは私の「自己紹介」カードです。"
+                },
+                {
+                  "id": "G1_U1_GL_S_02",
+                  "speaker": "Tina",
+                  "en": "I'll introduce myself. OK?",
+                  "ja": "自己紹介をするわね。いい？"
+                },
+                {
+                  "id": "G1_U1_GL_S_03",
+                  "speaker": "Kota",
+                  "en": "OK.",
+                  "ja": "いいよ。"
+                },
+                {
+                  "id": "G1_U1_GL_S_04",
+                  "speaker": "Tina",
+                  "en": "My name is Christina Rios. Call me Tina.",
+                  "ja": "私の名前はクリスティーナ・リオスです。ティナと呼んでください。"
+                },
+                {
+                  "id": "G1_U1_GL_S_05",
+                  "speaker": "Tina",
+                  "en": "My birthday is in February. I'm twelve years old. I like green.",
+                  "ja": "私の誕生日は2月です。12歳です。緑が好きです。"
+                },
+                {
+                  "id": "G1_U1_GL_S_06",
+                  "speaker": "Tina",
+                  "en": "Vegetables are my favorite foods. I like tomatoes, onions, and green peppers.",
+                  "ja": "野菜が私の好きな食べ物です。トマト、タマネギ、それにピーマンが好きです。"
+                },
+                {
+                  "id": "G1_U1_GL_S_07",
+                  "speaker": "Tina",
+                  "en": "I like summer. I enjoy swimming in the summer.",
+                  "ja": "私は夏が好きです。夏には水泳を楽しみます。"
+                },
+                {
+                  "id": "G1_U1_GL_S_08",
+                  "speaker": "Tina",
+                  "en": "I like music. I can't play the guitar, but I can play the drums.",
+                  "ja": "私は音楽が好きです。ギターは演奏できませんが、ドラムを演奏できます。"
+                },
+                {
+                  "id": "G1_U1_GL_S_09",
+                  "speaker": "Tina",
+                  "en": "I like sports. I like dancing, too. Thank you.",
+                  "ja": "私はスポーツが好きです。踊ることも好きです。ありがとう。"
+                },
+                {
+                  "id": "G1_U1_GL_S_10",
+                  "speaker": "Kota",
+                  "en": "Great. Music, sports, and dancing are your favorites. I like music, too.",
+                  "ja": "すごいね。音楽、スポーツ、それに踊ることも君の好きなことなんだね。ぼくも音楽が好きだよ。"
+                },
+                {
+                  "id": "G1_U1_GL_S_11",
+                  "speaker": "Tina",
+                  "en": "Oh, really? How about dancing?",
+                  "ja": "へえ、そうなの？ 踊ることはどう？"
+                },
+                {
+                  "id": "G1_U1_GL_S_12",
+                  "speaker": "Kota",
+                  "en": "Well, I don't like dancing so much. I can't dance well. My favorites are music and fireworks.",
+                  "ja": "うーん、ぼくは踊ることはあんまり好きじゃないかな。上手に踊れないんだ。ぼくの好きなものは音楽と花火だよ。"
+                },
+                {
+                  "id": "G1_U1_GL_S_13",
+                  "speaker": "Tina",
+                  "en": "Fireworks?",
+                  "ja": "花火？"
+                },
+                {
+                  "id": "G1_U1_GL_S_14",
+                  "speaker": "Kota",
+                  "en": "Yeah. I like fireworks.",
+                  "ja": "そう。ぼくは花火が好きなんだ。"
+                },
+                {
+                  "id": "G1_U1_GL_S_15",
+                  "speaker": "Tina",
+                  "en": "Me, too. I really like the fireworks in New York! They're beautiful.",
+                  "ja": "私もよ。私は本当にニューヨークの花火が好きなの！ きれいなんだよ。"
+                },
+                {
+                  "id": "G1_U1_GL_S_16",
+                  "speaker": "Kota",
+                  "en": "You can see fireworks at summer festivals in Japan.",
+                  "ja": "君は日本の夏祭りで花火を見ることができるよ。"
+                },
+                {
+                  "id": "G1_U1_GL_S_17",
+                  "speaker": "Tina",
+                  "en": "Sounds great. I want to see them this year.",
+                  "ja": "楽しそう。今年見たいな。"
+                },
+                {
+                  "header": "自己紹介カードの解答例 (p.32)"
+                },
+                {
+                  "id": "G1_U1_GL_S_18",
+                  "speaker": "解答例",
+                  "en": "Hello. My name is Nakamura Rika.",
+                  "ja": "こんにちは。私の名前は中村里香です。"
+                },
+                {
+                  "id": "G1_U1_GL_S_19",
+                  "speaker": "解答例",
+                  "en": "I live in Kyoto.",
+                  "ja": "私は京都に住んでいます。"
+                },
+                {
+                  "id": "G1_U1_GL_S_20",
+                  "speaker": "解答例",
+                  "en": "My birthday is November 21.",
+                  "ja": "私の誕生日は11月21日です。"
+                },
+                {
+                  "id": "G1_U1_GL_S_21",
+                  "speaker": "解答例",
+                  "en": "I'm 12 years old.",
+                  "ja": "私は12歳です。"
+                },
+                {
+                  "id": "G1_U1_GL_S_22",
+                  "speaker": "解答例",
+                  "en": "I like blue.",
+                  "ja": "私は青色が好きです。"
+                },
+                {
+                  "id": "G1_U1_GL_S_23",
+                  "speaker": "解答例",
+                  "en": "I like winter.",
+                  "ja": "私は冬が好きです。"
+                },
+                {
+                  "id": "G1_U1_GL_S_24",
+                  "speaker": "解答例",
+                  "en": "I like apples.",
+                  "ja": "私はリンゴが好きです。"
+                },
+                {
+                  "id": "G1_U1_GL_S_25",
+                  "speaker": "解答例",
+                  "en": "I like drawing illustrations.",
+                  "ja": "私はイラストを描くことが好きです。"
+                },
+                {
+                  "id": "G1_U1_GL_S_26",
+                  "speaker": "解答例",
+                  "en": "I like playing the piano.",
+                  "ja": "私はピアノを弾くのが好きです。"
+                },
+                {
+                  "id": "G1_U1_GL_S_27",
+                  "speaker": "解答例",
+                  "en": "I like sports. I can swim fast.",
+                  "ja": "私はスポーツが好きです。私は速く泳ぐことができます。"
+                }
+              ],
+              "content_blocks": []
+            },
+            "APPENDIX": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "info_box",
+                  "header": "このユニットでできるようになったこと",
+                  "items": [
+                    {
+                      "label": "CAN-DO (L-1)",
+                      "text": "会話から、話し手についての情報を聞き取ることができる。"
+                    },
+                    {
+                      "label": "CAN-DO (W-1)",
+                      "text": "自己紹介カードに、自分の情報を書くことができる。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 32,
+          "hasAppendix": true
+        },
+        "ST": {
+          "title": "Start: 初登校",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U1_ST_W_01",
+                  "headword": "here",
+                  "pronunciation": "híər",
+                  "pos": "副",
+                  "meaning": "ここに、ここで、こちらへ"
+                },
+                {
+                  "id": "G1_U1_ST_W_02",
+                  "headword": "all",
+                  "pronunciation": "ɔ́ːl",
+                  "pos": "代",
+                  "meaning": "全て、みんな"
+                },
+                {
+                  "id": "G1_U1_ST_W_03",
+                  "headword": "about",
+                  "pronunciation": "əbáut",
+                  "pos": "前",
+                  "meaning": "～について（の）"
+                },
+                {
+                  "id": "G1_U1_ST_W_04",
+                  "headword": "hello",
+                  "pronunciation": "həlóu",
+                  "pos": "間",
+                  "meaning": "やあ、こんにちは"
+                },
+                {
+                  "id": "G1_U1_ST_W_05",
+                  "headword": "this",
+                  "pronunciation": "ðís",
+                  "pos": "代",
+                  "meaning": "これ〔空間的に話し手から近いもの［人］を指して〕"
+                },
+                {
+                  "id": "G1_U1_ST_W_06",
+                  "headword": "rice ball(s)",
+                  "pronunciation": "ráis bɔ̀ːl(z)",
+                  "pos": "名",
+                  "meaning": "おにぎり"
+                },
+                {
+                  "id": "G1_U1_ST_W_07",
+                  "headword": "year(s)",
+                  "pronunciation": "jíər(z)",
+                  "pos": "名",
+                  "meaning": "〔数詞の後で〕 ～歳、～年"
+                },
+                {
+                  "id": "G1_U1_ST_W_08",
+                  "headword": "old",
+                  "pronunciation": "óuld",
+                  "pos": "形",
+                  "meaning": "（年齢が）～歳の"
+                },
+                {
+                  "id": "G1_U1_ST_W_09",
+                  "headword": "live",
+                  "pronunciation": "lív",
+                  "pos": "動",
+                  "meaning": "住む、住んでいる"
+                },
+                {
+                  "id": "G1_U1_ST_W_10",
+                  "headword": "in",
+                  "pronunciation": "ín",
+                  "pos": "前",
+                  "usage": "〔場所〕",
+                  "meaning": "～に、～で、～の中に［で］"
+                },
+                {
+                  "id": "G1_U1_ST_W_11",
+                  "headword": "season",
+                  "pronunciation": "síːzn",
+                  "pos": "名",
+                  "meaning": "季節"
+                },
+                {
+                  "id": "G1_U1_ST_W_12",
+                  "headword": "fall",
+                  "pronunciation": "fɔ́ːl",
+                  "pos": "名",
+                  "meaning": "秋"
+                },
+                {
+                  "id": "G1_U1_ST_W_13",
+                  "headword": "thing(s)",
+                  "pronunciation": "θíŋ(z)",
+                  "pos": "名",
+                  "meaning": "もの、こと"
+                },
+                {
+                  "id": "G1_U1_ST_W_14",
+                  "headword": "firework(s)",
+                  "pronunciation": "fáiərwə̀ːrk(s)",
+                  "pos": "名",
+                  "meaning": "〔ふつう～sで〕花火"
+                },
+                {
+                  "id": "G1_U1_ST_W_15",
+                  "headword": "trumpet",
+                  "pronunciation": "trʌ́mpət",
+                  "pos": "名",
+                  "meaning": "トランペット"
+                },
+                {
+                  "id": "G1_U1_ST_W_16",
+                  "headword": "Here we go!",
+                  "pos": "熟",
+                  "meaning": "さあ、行こう［始めよう］。"
+                },
+                {
+                  "id": "G1_U1_ST_W_17",
+                  "headword": "~ year(s) old",
+                  "pos": "熟",
+                  "meaning": "～歳"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [
+                {
+                  "id": "G1_U1_ST_S_01",
+                  "speaker": "About You (例: Mika)",
+                  "en": "Hello. My name is Mika.",
+                  "ja": "こんにちは。私の名前は美香です。"
+                },
+                {
+                  "id": "G1_U1_ST_S_02",
+                  "speaker": "About You (例: Mika)",
+                  "en": "I like English.",
+                  "ja": "私は英語が好きです。"
+                },
+                {
+                  "id": "G1_U1_ST_S_03",
+                  "speaker": "About You (例: Mika)",
+                  "en": "My favorite food is French fries.",
+                  "ja": "好きな食べ物はフライドポテトです。"
+                },
+                {
+                  "id": "G1_U1_ST_S_04",
+                  "speaker": "All About Me (Kotaro)",
+                  "en": "Hello. My name is Kotaro.",
+                  "ja": "こんにちは。ぼくの名前はコウタロウです。"
+                },
+                {
+                  "id": "G1_U1_ST_S_05",
+                  "speaker": "All About Me (Kotaro)",
+                  "en": "This is me!",
+                  "ja": "これがぼくです！"
+                },
+                {
+                  "id": "G1_U1_ST_S_06",
+                  "speaker": "All About Me (Kotaro)",
+                  "en": "My birthday is April 2.",
+                  "ja": "ぼくの誕生日は4月2日です。"
+                },
+                {
+                  "id": "G1_U1_ST_S_07",
+                  "speaker": "All About Me (Kotaro)",
+                  "en": "I'm 13 years old.",
+                  "ja": "ぼくは13歳です。"
+                },
+                {
+                  "id": "G1_U1_ST_S_08",
+                  "speaker": "All About Me (Kotaro)",
+                  "en": "I live in Yokohama.",
+                  "ja": "ぼくは横浜に住んでいます。"
+                },
+                {
+                  "id": "G1_U1_ST_S_09",
+                  "speaker": "All About Me (Kotaro)",
+                  "en": "I can play the trumpet.",
+                  "ja": "ぼくはトランペットを演奏できます。"
+                },
+                {
+                  "id": "G1_U1_ST_S_10",
+                  "speaker": "Short Phrases",
+                  "en": "I like",
+                  "ja": "ぼくは～が好きです。"
+                },
+                {
+                  "id": "G1_U1_ST_S_11",
+                  "speaker": "Short Phrases",
+                  "en": "Color: blue",
+                  "ja": "色：青"
+                },
+                {
+                  "id": "G1_U1_ST_S_12",
+                  "speaker": "Short Phrases",
+                  "en": "Food: rice balls",
+                  "ja": "食べ物：おにぎり"
+                },
+                {
+                  "id": "G1_U1_ST_S_13",
+                  "speaker": "Short Phrases",
+                  "en": "Season: I like fall.",
+                  "ja": "季節：ぼくは秋が好きです。"
+                },
+                {
+                  "id": "G1_U1_ST_S_14",
+                  "speaker": "My Favorite Things",
+                  "en": "music",
+                  "ja": "音楽"
+                },
+                {
+                  "id": "G1_U1_ST_S_15",
+                  "speaker": "My Favorite Things",
+                  "en": "animals",
+                  "ja": "動物"
+                },
+                {
+                  "id": "G1_U1_ST_S_16",
+                  "speaker": "My Favorite Things",
+                  "en": "fireworks",
+                  "ja": "花火"
+                }
+              ],
+              "content_blocks": []
+            }
+          },
+          "explanations": {},
+          "page": 17
+        },
+        "EX": {
+          "title": "Extra Story / 音声内容",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U1_EX_W_01",
+                  "headword": "assistant",
+                  "pronunciation": "əsístənt",
+                  "pos": "形",
+                  "meaning": "補助の"
+                },
+                {
+                  "id": "G1_U1_EX_W_02",
+                  "headword": "teacher",
+                  "pronunciation": "tíːtʃər",
+                  "pos": "名",
+                  "meaning": "先生"
+                },
+                {
+                  "id": "G1_U1_EX_W_03",
+                  "headword": "Assistant English Teacher (AET)",
+                  "pos": "名",
+                  "meaning": "英語指導助手〔Assistant Language Teacher (ALT) とよばれることもあります〕"
+                },
+                {
+                  "id": "G1_U1_EX_W_04",
+                  "headword": "Cape Town",
+                  "pronunciation": "kéiptáun",
+                  "pos": "名",
+                  "meaning": "ケープタウン〔南アフリカ共和国の都市〕"
+                },
+                {
+                  "id": "G1_U1_EX_W_05",
+                  "headword": "musical(s)",
+                  "pronunciation": "mjúːzikl(z)",
+                  "pos": "名",
+                  "meaning": "ミュージカル"
+                },
+                {
+                  "id": "G1_U1_EX_W_06",
+                  "headword": "anime",
+                  "pronunciation": "ǽnəmèi",
+                  "pos": "名",
+                  "meaning": "アニメ"
+                },
+                {
+                  "id": "G1_U1_EX_W_07",
+                  "headword": "rugby",
+                  "pronunciation": "rʌ́ɡbi",
+                  "pos": "名",
+                  "meaning": "ラグビー"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [
+                {
+                  "header": "Part 1 の音声内容 (p.27)"
+                },
+                {
+                  "id": "G1_U1_EX_S_01",
+                  "speaker": "(1) Eri",
+                  "en": "Hi. I'm Goto Eri.",
+                  "ja": "こんにちは。私は後藤絵里です。"
+                },
+                {
+                  "id": "G1_U1_EX_S_02",
+                  "speaker": "(1) Eri",
+                  "en": "Call me Eri.",
+                  "ja": "エリって呼んでください。"
+                },
+                {
+                  "id": "G1_U1_EX_S_03",
+                  "speaker": "(1) Eri",
+                  "en": "I'm from Japan.",
+                  "ja": "私は日本出身です。"
+                },
+                {
+                  "id": "G1_U1_EX_S_04",
+                  "speaker": "(1) Eri",
+                  "en": "I'm from Kanagawa.",
+                  "ja": "私は神奈川出身です。"
+                },
+                {
+                  "id": "G1_U1_EX_S_05",
+                  "speaker": "(1) Eri",
+                  "en": "I'm a junior high school student.",
+                  "ja": "私は中学生です。"
+                },
+                {
+                  "id": "G1_U1_EX_S_06",
+                  "speaker": "(1) Eri",
+                  "en": "I'm twelve years old.",
+                  "ja": "私は12歳です。"
+                },
+                {
+                  "id": "G1_U1_EX_S_07",
+                  "speaker": "(1) Eri",
+                  "en": "Where are you from?",
+                  "ja": "あなたはどちらの出身ですか。"
+                },
+                {
+                  "id": "G1_U1_EX_S_08",
+                  "speaker": "(2) Ms. Thusi",
+                  "en": "Hi. I'm Anna Thusi.",
+                  "ja": "こんにちは。私はアナ・ツシです。"
+                },
+                {
+                  "id": "G1_U1_EX_S_09",
+                  "speaker": "(2) Ms. Thusi",
+                  "en": "Call me Ms. Thusi.",
+                  "ja": "ツシ先生って呼んでください。"
+                },
+                {
+                  "id": "G1_U1_EX_S_10",
+                  "speaker": "(2) Ms. Thusi",
+                  "en": "I'm from Cape Town, South Africa.",
+                  "ja": "私は南アフリカのケープタウン出身です。"
+                },
+                {
+                  "id": "G1_U1_EX_S_11",
+                  "speaker": "(2) Ms. Thusi",
+                  "en": "I'm an assistant language teacher.",
+                  "ja": "私は外国語指導助手の教師です。"
+                },
+                {
+                  "id": "G1_U1_EX_S_12",
+                  "speaker": "(2) Ms. Thusi",
+                  "en": "I'm twenty-seven years old.",
+                  "ja": "私は27歳です。"
+                },
+                {
+                  "id": "G1_U1_EX_S_13",
+                  "speaker": "(2) Ms. Thusi",
+                  "en": "Do you want to go to South Africa?",
+                  "ja": "南アフリカに行ってみたいですか。"
+                },
+                {
+                  "id": "G1_U1_EX_S_14",
+                  "speaker": "(3) Nick",
+                  "en": "Hi. I'm Nicholas Rios.",
+                  "ja": "こんにちは。ぼくはニコラス・リオスです。"
+                },
+                {
+                  "id": "G1_U1_EX_S_15",
+                  "speaker": "(3) Nick",
+                  "en": "Call me Nick.",
+                  "ja": "ニックって呼んでください。"
+                },
+                {
+                  "id": "G1_U1_EX_S_16",
+                  "speaker": "(3) Nick",
+                  "en": "I'm Tina's brother.",
+                  "ja": "ぼくはティナの弟です。"
+                },
+                {
+                  "id": "G1_U1_EX_S_17",
+                  "speaker": "(3) Nick",
+                  "en": "I'm from the United States, the U.S.",
+                  "ja": "ぼくはアメリカ合衆国出身です。"
+                },
+                {
+                  "id": "G1_U1_EX_S_18",
+                  "speaker": "(3) Nick",
+                  "en": "I'm from New York.",
+                  "ja": "ぼくはニューヨーク出身です。"
+                },
+                {
+                  "id": "G1_U1_EX_S_19",
+                  "speaker": "(3) Nick",
+                  "en": "I'm an elementary school student.",
+                  "ja": "ぼくは小学生です。"
+                },
+                {
+                  "id": "G1_U1_EX_S_20",
+                  "speaker": "(3) Nick",
+                  "en": "I'm ten years old.",
+                  "ja": "ぼくは10歳です。"
+                },
+                {
+                  "id": "G1_U1_EX_S_21",
+                  "speaker": "(3) Nick",
+                  "en": "Nice to meet you!",
+                  "ja": "よろしくお願いします！"
+                },
+                {
+                  "header": "Part 2 の音声内容 (p.28)"
+                },
+                {
+                  "id": "G1_U1_EX_S_22",
+                  "speaker": "(1) Eri",
+                  "en": "Hi, I'm Eri. I like spring.",
+                  "ja": "こんにちは、絵里です。私は春が好きです。"
+                },
+                {
+                  "id": "G1_U1_EX_S_23",
+                  "speaker": "(1) Eri",
+                  "en": "Summer is too hot. Winter is too cold.",
+                  "ja": "夏は暑すぎます。冬は寒すぎます。"
+                },
+                {
+                  "id": "G1_U1_EX_S_24",
+                  "speaker": "(1) Eri",
+                  "en": "Spring is the best season.",
+                  "ja": "春は最高の季節です。"
+                },
+                {
+                  "id": "G1_U1_EX_S_25",
+                  "speaker": "(1) Eri",
+                  "en": "In spring, I can see cherry blossoms. They're beautiful.",
+                  "ja": "春には、桜を見ることができます。美しいです。"
+                },
+                {
+                  "id": "G1_U1_EX_S_26",
+                  "speaker": "(1) Eri",
+                  "en": "Fall is a good season, too. I like fall, too.",
+                  "ja": "秋もいい季節です。私は秋も好きなんです。"
+                },
+                {
+                  "id": "G1_U1_EX_S_27",
+                  "speaker": "(1) Eri",
+                  "en": "What seasons do you like?",
+                  "ja": "どの季節が好きですか。"
+                },
+                {
+                  "id": "G1_U1_EX_S_28",
+                  "speaker": "(2) Ms. Thusi",
+                  "en": "Hi, I'm Ms. Thusi. I like winter. I especially like winter in Japan.",
+                  "ja": "こんにちは、ツシです。私は冬が好きです。特に日本の冬が好きです。"
+                },
+                {
+                  "id": "G1_U1_EX_S_29",
+                  "speaker": "(2) Ms. Thusi",
+                  "en": "In winter, the sky is clear. I can see Mt. Fuji from my room.",
+                  "ja": "冬は空が澄んでいます。部屋からは富士山が見えます。"
+                },
+                {
+                  "id": "G1_U1_EX_S_30",
+                  "speaker": "(2) Ms. Thusi",
+                  "en": "And I like the snow in Japan. I enjoy making a snowman.",
+                  "ja": "そして、日本の雪が好きです。雪だるまを作って遊びます。"
+                },
+                {
+                  "id": "G1_U1_EX_S_31",
+                  "speaker": "(2) Ms. Thusi",
+                  "en": "I like winter, but I don't like summer in Japan.",
+                  "ja": "冬は好きですが、日本の夏は好きではありません。"
+                },
+                {
+                  "id": "G1_U1_EX_S_32",
+                  "speaker": "(2) Ms. Thusi",
+                  "en": "It's too hot.",
+                  "ja": "暑すぎるからです。"
+                },
+                {
+                  "id": "G1_U1_EX_S_33",
+                  "speaker": "(2) Ms. Thusi",
+                  "en": "Do you like winter?",
+                  "ja": "冬は好きですか。"
+                },
+                {
+                  "id": "G1_U1_EX_S_34",
+                  "speaker": "(3) Nick",
+                  "en": "Hi, I'm Nick. What's your favorite food?",
+                  "ja": "こんにちは、ニックです。あなたの好きな食べ物は何ですか。"
+                },
+                {
+                  "id": "G1_U1_EX_S_35",
+                  "speaker": "(3) Nick",
+                  "en": "I like spaghetti. It's delicious.",
+                  "ja": "ぼくはスパゲッティが好きです。おいしいです。"
+                },
+                {
+                  "id": "G1_U1_EX_S_36",
+                  "speaker": "(3) Nick",
+                  "en": "I like salad, too.",
+                  "ja": "サラダも好きです。"
+                },
+                {
+                  "id": "G1_U1_EX_S_37",
+                  "speaker": "(3) Nick",
+                  "en": "I like carrots, tomatoes, lettuce, and onions.",
+                  "ja": "ニンジン、トマト、レタス、タマネギが好きです。"
+                },
+                {
+                  "id": "G1_U1_EX_S_38",
+                  "speaker": "(3) Nick",
+                  "en": "But I don't like green peppers.",
+                  "ja": "でもピーマンは好きではありません。"
+                },
+                {
+                  "id": "G1_U1_EX_S_39",
+                  "speaker": "(3) Nick",
+                  "en": "What's your favorite food?",
+                  "ja": "あなたの好きな食べ物は何ですか。"
+                },
+                {
+                  "header": "Extra Story (p.29)"
+                },
+                {
+                  "id": "G1_U1_EX_S_40",
+                  "speaker": "Ms. Thusi",
+                  "en": "Hello, everyone. I'm Anna Thusi.",
+                  "ja": "こんにちは、みなさん。私はアナ・ツシです。"
+                },
+                {
+                  "id": "G1_U1_EX_S_41",
+                  "speaker": "Ms. Thusi",
+                  "en": "I'm your Assistant English Teacher.",
+                  "ja": "私はあなたたちのAET[英語指導助手]です。"
+                },
+                {
+                  "id": "G1_U1_EX_S_42",
+                  "speaker": "Ms. Thusi",
+                  "en": "I'm from Cape Town, South Africa.",
+                  "ja": "南アフリカのケープタウン出身なんですよ。"
+                },
+                {
+                  "id": "G1_U1_EX_S_43",
+                  "speaker": "Ms. Thusi",
+                  "en": "I like musicals, anime, and watching rugby.",
+                  "ja": "私はミュージカル、アニメ、それにラグビーを見ることが好きです。"
+                },
+                {
+                  "id": "G1_U1_EX_S_44",
+                  "speaker": "Ms. Thusi",
+                  "en": "Nice to meet you.",
+                  "ja": "はじめまして。"
+                },
+                {
+                  "header": "Part 3 の音声内容 (p.29-30)"
+                },
+                {
+                  "id": "G1_U1_EX_S_45",
+                  "speaker": "(1) Eri",
+                  "en": "Hi, I'm Eri. Do you like music?",
+                  "ja": "こんにちは、エリです。音楽は好きですか。"
+                },
+                {
+                  "id": "G1_U1_EX_S_46",
+                  "speaker": "(1) Eri",
+                  "en": "I like music very much. I can't play the drums, but I can play the piano.",
+                  "ja": "私は音楽がとても好きです。ドラムは演奏できませんが、ピアノは弾けます。"
+                },
+                {
+                  "id": "G1_U1_EX_S_47",
+                  "speaker": "(1) Eri",
+                  "en": "And I can play the flute. Sometimes I play the flute at home.",
+                  "ja": "フルートも吹けます。ときどき家で、フルートを吹いています。"
+                },
+                {
+                  "id": "G1_U1_EX_S_48",
+                  "speaker": "(1) Eri",
+                  "en": "I want to be a good player.",
+                  "ja": "上手に吹けるようになりたいです。"
+                },
+                {
+                  "id": "G1_U1_EX_S_49",
+                  "speaker": "(2) Ms. Thusi",
+                  "en": "Hi, I'm Ms. Thusi. Do you like sports?",
+                  "ja": "こんにちは、ツシです。スポーツは好きですか。"
+                },
+                {
+                  "id": "G1_U1_EX_S_50",
+                  "speaker": "(2) Ms. Thusi",
+                  "en": "I like sports very much.",
+                  "ja": "私はとてもスポーツが好きです。"
+                },
+                {
+                  "id": "G1_U1_EX_S_51",
+                  "speaker": "(2) Ms. Thusi",
+                  "en": "Kendo and karate are popular sports in Japan, right?",
+                  "ja": "日本では剣道や空手が人気スポーツですよね。"
+                },
+                {
+                  "id": "G1_U1_EX_S_52",
+                  "speaker": "(2) Ms. Thusi",
+                  "en": "I can't do kendo. I can't do karate, either.",
+                  "ja": "私は剣道ができません。空手もできません。"
+                },
+                {
+                  "id": "G1_U1_EX_S_53",
+                  "speaker": "(2) Ms. Thusi",
+                  "en": "But I can play rugby well.",
+                  "ja": "だけど、ラグビーは上手にできます。"
+                },
+                {
+                  "id": "G1_U1_EX_S_54",
+                  "speaker": "(2) Ms. Thusi",
+                  "en": "Rugby is a popular sport in South Africa.",
+                  "ja": "ラグビーは南アフリカで人気のスポーツなんですよ。"
+                },
+                {
+                  "id": "G1_U1_EX_S_55",
+                  "speaker": "(3) Nick",
+                  "en": "Hi, I'm Nick. Do you like dancing?",
+                  "ja": "こんにちは、ぼくはニックです。ダンスは好きですか。"
+                },
+                {
+                  "id": "G1_U1_EX_S_56",
+                  "speaker": "(3) Nick",
+                  "en": "I like dancing very much. I can dance well. It's fun.",
+                  "ja": "ぼくはダンスが大好きなんです。上手に踊ることができるんです。楽しいですよ。"
+                },
+                {
+                  "id": "G1_U1_EX_S_57",
+                  "speaker": "(3) Nick",
+                  "en": "I like sports, too.",
+                  "ja": "ぼくはスポーツも好きです。"
+                },
+                {
+                  "id": "G1_U1_EX_S_58",
+                  "speaker": "(3) Nick",
+                  "en": "I can't run fast, but I can play soccer.",
+                  "ja": "速く走ることはできないけれど、サッカーをすることはできます。"
+                },
+                {
+                  "id": "G1_U1_EX_S_59",
+                  "speaker": "(3) Nick",
+                  "en": "I'm good at kicking the ball.",
+                  "ja": "ぼくはボールを蹴るのが得意なんです。"
+                }
+              ],
+              "content_blocks": []
+            }
+          },
+          "explanations": {},
+          "page": "27-30"
+        }
+      },
+      "hasAppendix": true
+    }
+  },
+  "allExplanations": {
+    "G1_U1_P2_S_01": "**Look.** は、「見て。」と相手の注意を引く言い方です。",
+    "G1_U1_P2_S_06": "**How about you?** は、「あなたはどうですか。」と、相手に同意や意見を求めるときに使います。文の終わりに付いているよびかけは、最後を上げ調子で言いましょう。",
+    "G1_U1_P2_S_08": "**I like spring.** (私は春が好きです。)のような一般動詞の文を否定文にするときは、動詞の前に **don't [do not]** を置いて表します。",
+    "G1_U1_P2_S_09": "**Why? [Why not?]** で、「どうして (ですか)。」という意味を表します。ここでは、「なぜコウタは春が好きではないのか」の意味になります。",
+    "G1_U1_P2_S_10": "**Achoo!!** は、くしゃみの「ハクション!!」という音を表します。",
+    "G1_U1_P2_S_11": "**I see.** は、「わかりました ［なるほど］。」と、相づちを打つときに使う表現です。会話で役立つ表現ですから覚えておきましょう。",
+    "G1_U1_P2_S_12": "**Bless you.** は、くしゃみをした人に言う表現で、「お大事に。」という意味です。",
+    "G1_U1_P1_S_02": "「あなたは～ですか。」と相手の名前や状態などをたずねるときは、**Are you ～?** を使います。**are** は動詞の仲間で、「be動詞」ともよばれます。「～です」という意味で、主語が **you** などのときに使います。たずねる文の終わりには必ず **(?)** クエスチョンマーク（疑問符）を付けましょう。",
+    "G1_U1_P1_S_03": "**I'm ～.** (私は～です。)の～の部分には、名前だけでなく、**lost** (道に迷った) のように、状態を表す形容詞が入ることもあります。また、**a student** (生徒) のように身分や職業が入ることもあります。⑤の文の **a** は「１つの」という意味ですが、特に訳す必要はありません。ただし英語では、ものの名前に **a** のような数を表す語を付けて、１つ［１人］とそれ以上（単数か複数）の区別をはっきりさせます。覚えておきましょう。",
+    "G1_U1_P1_S_07": "**Thanks.** は相手にお礼を言うときに使う表現です。**Thank you.** よりもくだけた言い方で、友達どうしのような親しい関係の場合に用います。",
+    "G1_U1_P1_S_10": "**Nice to meet you.** は、初めて会う人への挨拶で、「はじめまして。」「よろしく。」という意味です。この文の **you** は、「あなたを［に］」という意味の代名詞です。",
+    "G1_U1_P1_S_12": "「私のことを～と呼んでください。」と伝えるときは、**Call me ～.** と言います。**me** は「私を［に］」という意味の代名詞です。**I** (私は) との違いに注意して、いっしょに覚えましょう。",
+    "G1_U1_P3_S_03": "自分の出身地を伝えるとき、**I'm from ～.** と言います。**from** は「～から（の）、～出身（の）」という意味の前置詞で、自分の出身地を伝えるときに使います。**I'm from ～.** で「私は～出身です。」という意味を表します。",
+    "G1_U1_P3_S_04": "**like** は「～が好きです」という意味で、後に好きなものを入れて使います。**and** は「～と…」という意味の語と語をつなぐ接続詞で、よく似た事柄どうしを結びつけます。",
+    "G1_U1_P3_S_05": "**can** は「～することができます」と可能を表す助動詞です。**can** の文は〈主語 + can + 動詞の原形 ～.〉の形で表します。このとき、**can** の後の動詞は原形を使い、**can** の付く文では、主語が何であっても動詞の形は変わりません。この文の **play** は、「（楽器）を演奏する」という意味で使われています。**play** がこの意味で使われるときは、楽器の前に必ず **the** を付けるので注意しましょう。〈**play + the + 楽器**〉の形で表します。",
+    "G1_U1_P3_S_07": "**It's** は **It is** ～「それは～です」の短縮形です。**It** は（ドラムを演奏すること）を指しています。",
+    "G1_U1_P3_S_08": "**can't** は **cannot** の短縮形です。動詞の前に **can't** を置くことで、「～することができません」という否定の意味を表しています。**can't [cannot]** の後には、動詞の原形が続きます。",
+    "G1_U1_P3_S_09": "**cool** は「かっこいい」「すごい」という意味で、ほめたり相づちを打ったりするときに使います。"
+  }
+}

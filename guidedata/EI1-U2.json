@@ -1,0 +1,2112 @@
+{
+  "type": "FULL_BACKUP",
+  "units": {
+    "G1-U2": {
+      "title": "Unit G1-U2",
+      "parts": {
+        "AP": {
+          "title": "AI Appendix: まとめとアドバイス",
+          "views": {
+            "PART_APPENDIX": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "info_box",
+                  "header": "P1: be動詞の疑問文",
+                  "items": [
+                    {
+                      "tag": "Point",
+                      "text": "相手の「状態」や「正体」をきくときは Are you ~? を使おう。be動詞で聞かれたら、be動詞で答えるのがルールだよ！",
+                      "en": "==**Are you**== a new student? — Yes, I ==**am**==."
+                    }
+                  ]
+                },
+                {
+                  "type": "info_box",
+                  "header": "P2: 一般動詞の疑問文と『頻度』",
+                  "items": [
+                    {
+                      "tag": "Grammar",
+                      "text": "「動作」をきくときは Do you ~? を使おう。always や usually などの『頻度』を表す言葉は、一般動詞の「前」に置くのが基本だよ。",
+                      "en": "I ==**usually**== practice on Mondays."
+                    }
+                  ]
+                },
+                {
+                  "type": "info_box",
+                  "header": "P3: 助動詞 can で広がる能力",
+                  "items": [
+                    {
+                      "tag": "Check",
+                      "text": "「〜できる？」と能力をきくときは Can you ~? だね。早口言葉の練習みたいに、ゆっくり（slowly）頼むときにも使えるよ。",
+                      "en": "==**Can you**== say it slowly?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "UNIT_APPENDIX": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "info_box",
+                  "header": "AI解説：『3つの疑問文』を見分けよう",
+                  "items": [
+                    {
+                      "label": "状態をきく (be動詞)",
+                      "en": "==**Are you**== interested in anime?",
+                      "note": "答え：Yes, I am."
+                    },
+                    {
+                      "label": "習慣をきく (一般動詞)",
+                      "en": "==**Do you**== play the guitar?",
+                      "note": "答え：Yes, I do."
+                    },
+                    {
+                      "label": "能力をきく (助動詞)",
+                      "en": "==**Can you**== make takoyaki?",
+                      "note": "答え：Yes, I can."
+                    }
+                  ]
+                },
+                {
+                  "type": "info_box",
+                  "header": "Unit 2 を終えた君へ",
+                  "items": [
+                    {
+                      "tag": "Message",
+                      "text": "部活動の紹介や、世界の中学生の生活、早口言葉まで、たくさんの表現を学んだね！"
+                    },
+                    {
+                      "tag": "Advice",
+                      "text": "これで君は、相手に質問して会話を広げる『コミュニケーションの鍵』を手に入れたんだ。中山スズさんのように、自分のことを英語で話せるようになると、もっと世界が広がるよ。Good job!"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 0,
+          "hasAppendix": true
+        },
+        "EX": {
+          "title": "Extra Story / 音声内容",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U2_EX_W_01",
+                  "headword": "almost",
+                  "pronunciation": "ɔ́ːlmòust",
+                  "pos": "副",
+                  "meaning": "ほとんど、もう少しで"
+                },
+                {
+                  "id": "G1_U2_EX_W_02",
+                  "headword": "try",
+                  "pronunciation": "trái",
+                  "pos": "動",
+                  "meaning": "試しにやってみる"
+                },
+                {
+                  "id": "G1_U2_EX_W_03",
+                  "headword": "again",
+                  "pronunciation": "əɡén",
+                  "pos": "副",
+                  "meaning": "もう一度"
+                },
+                {
+                  "id": "G1_U2_EX_W_04",
+                  "headword": "turn",
+                  "pronunciation": "tə́ːrn",
+                  "pos": "名",
+                  "meaning": "順番"
+                },
+                {
+                  "id": "G1_U2_EX_W_05",
+                  "headword": "oops",
+                  "pronunciation": "úps",
+                  "pos": "間",
+                  "meaning": "あっ、しまった"
+                },
+                {
+                  "id": "G1_U2_EX_W_06",
+                  "headword": "You did it!",
+                  "pos": "熟",
+                  "meaning": "やりましたね。"
+                },
+                {
+                  "id": "G1_U2_EX_W_07",
+                  "headword": "She sells seashells by the seashore.",
+                  "pos": "名",
+                  "meaning": "〔早口言葉〕彼女は海辺のそばで貝がらを売っている。"
+                },
+                {
+                  "id": "G1_U2_EX_W_08",
+                  "headword": "Good job!",
+                  "pos": "熟",
+                  "meaning": "いいぞ！"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "audio_section",
+                  "header": "Part 1 の音声内容 (p.43)",
+                  "items": [
+                    {
+                      "id": "G1_U2_EX_S_01",
+                      "speaker": "Ms. Thusi",
+                      "en": "Hello. Welcome to our drama club. Are you a new student?",
+                      "ja": "こんにちは。演劇部へようこそ。新入生ですか。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_02",
+                      "speaker": "Akira",
+                      "en": "Yes, I am. Drama club?",
+                      "ja": "そうです。演劇部ですか。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_03",
+                      "speaker": "Ms. Thusi",
+                      "en": "Yes. Are you interested in the drama club?",
+                      "ja": "ええ。演劇部に興味はありますか。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_04",
+                      "speaker": "Akira",
+                      "en": "Well, no, not really. I'm interested in art. I want to join the art club.",
+                      "ja": "えーと、いいえ、あまり興味がないんです。美術に興味があります。美術部に入りたいです。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_05",
+                      "speaker": "Ms. Thusi",
+                      "en": "The art club? Oh, the art club is in the next room. This is the drama club.",
+                      "ja": "美術部なの。ああ、美術部は隣の部屋だよ。ここは演劇部です。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_06",
+                      "speaker": "Akira",
+                      "en": "I see. Thank you.",
+                      "ja": "わかりました。ありがとうございます。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_07",
+                      "speaker": "Ms. Thusi",
+                      "en": "You're welcome.",
+                      "ja": "どういたしまして。"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_section",
+                  "header": "Part 2 の音声内容 (p.44)",
+                  "items": [
+                    {
+                      "id": "G1_U2_EX_S_08",
+                      "speaker": "Kota",
+                      "en": "I want to join the brass band! It looked fun.",
+                      "ja": "吹奏楽部に入りたいな！ 楽しそうだった。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_09",
+                      "speaker": "Tina",
+                      "en": "Music is fun. We need music in our lives.",
+                      "ja": "音楽は楽しいね。私たちは生活の中に音楽が必要だわ。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_10",
+                      "speaker": "Kota",
+                      "en": "That's right.",
+                      "ja": "その通りだね。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_11",
+                      "speaker": "Tina",
+                      "en": "By the way, do you watch Music Now on Tuesdays? That's my favorite TV program.",
+                      "ja": "ところで、火曜日に「Music Now」を見る？ 私の好きなテレビ番組なの。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_12",
+                      "speaker": "Kota",
+                      "en": "Yes, I do. I usually watch it on Tuesdays. It's interesting.",
+                      "ja": "うん。普通は火曜日にそれを見るよ。おもしろいよね。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_13",
+                      "speaker": "Tina",
+                      "en": "Great.",
+                      "ja": "いいね。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_14",
+                      "speaker": "Kota",
+                      "en": "I also like listening to the radio.",
+                      "ja": "ラジオを聞くのも好きなんだ。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_15",
+                      "speaker": "Tina",
+                      "en": "Really?",
+                      "ja": "そうなの？"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_16",
+                      "speaker": "Kota",
+                      "en": "I often listen to the radio on my phone.",
+                      "ja": "よくスマートフォンでラジオを聞くよ。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_17",
+                      "en": "My favorite music programs are on Mondays, Wednesdays, Thursdays, Fridays, and Saturdays.",
+                      "ja": "好きな音楽番組は月曜日、水曜日、木曜日、金曜日、土曜日にあるんだ。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_18",
+                      "speaker": "Tina",
+                      "en": "Wow, you have a lot of favorites! Do you read music magazines, too?",
+                      "ja": "わあ、たくさんお気に入りがあるのね！ 音楽雑誌も読むの？"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_19",
+                      "speaker": "Kota",
+                      "en": "Sometimes. My father reads them, so sometimes I borrow his.",
+                      "ja": "ときどきね。お父さんが読むから、ときどき彼のを借りるんだ。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_20",
+                      "speaker": "Tina",
+                      "en": "Wow! You really like music.",
+                      "ja": "わあ！ 本当に音楽が好きなのね。"
+                    }
+                  ]
+                },
+                {
+                  "type": "extra_story_section",
+                  "header": "Extra Story (p.45)",
+                  "label": "早口言葉の練習",
+                  "items": [
+                    {
+                      "id": "G1_U2_EX_S_21",
+                      "speaker": "Tina",
+                      "en": "“Takegakini taketetaketa.”",
+                      "ja": "「竹垣に竹立てたけた」"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_22",
+                      "speaker": "Eri",
+                      "en": "Almost. Try again!",
+                      "ja": "ほとんどできてる。もう一度やってみて！"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_23",
+                      "speaker": "Tina",
+                      "en": "“Takegakini taketetakaketa.”",
+                      "ja": "「竹垣に竹立てかけた」"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_24",
+                      "speaker": "Eri",
+                      "en": "Yes! You did it!",
+                      "ja": "そう。できたね！"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_25",
+                      "speaker": "Tina",
+                      "en": "Eri, it's your turn. “She sells seashells by the seashore.”",
+                      "ja": "エリ、あなたの番だよ。「She sells seashells by the seashore.」"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_26",
+                      "speaker": "Eri",
+                      "en": "“She shells seashells ...” Oops!",
+                      "ja": "「She shells seashells ...」 あっ！ しまった！"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_27",
+                      "en": "“She sells seashells by the seashore.”",
+                      "ja": "「She sells seashells by the seashore.」"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_28",
+                      "speaker": "Tina",
+                      "en": "Yes! Good job!",
+                      "ja": "そうよ！ いいぞ！"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_section",
+                  "header": "Part 3 の音声内容 (p.45-47)",
+                  "items": [
+                    {
+                      "id": "G1_U2_EX_S_29",
+                      "speaker": "Tina",
+                      "en": "Oh, tomorrow is Tuesday. We have a calligraphy class tomorrow, right?",
+                      "ja": "ああ、明日は火曜日だね。明日は書道があるよね。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_30",
+                      "speaker": "Kota",
+                      "en": "Yes. What's wrong?",
+                      "ja": "そうだよ。どうかしたの。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_31",
+                      "speaker": "Tina",
+                      "en": "I'm not good at writing kanji. Kanji are beautiful, but really hard for me.",
+                      "ja": "漢字を書くのが得意じゃないの。漢字は美しいけれど、私にとってはとても難しいわ。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_32",
+                      "speaker": "Kota",
+                      "en": "I see. Eri, can you write “lemon” in kanji?",
+                      "ja": "なるほど。エリ、「レモン」って漢字で書ける？"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_33",
+                      "speaker": "Eri",
+                      "en": "“Lemon?” No, I can't. It's difficult. How about you, Kota? Can you write it?",
+                      "ja": "「レモン」？ いいえ、書けない。難しい。コウタ、あなたはどうなの？ 書けるの？"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_34",
+                      "speaker": "Kota",
+                      "en": "Me? Of course not.",
+                      "ja": "ぼく？ もちろん書けないよ。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_35",
+                      "speaker": "Eri",
+                      "en": "What? No kidding.",
+                      "ja": "何それ。ふざけないでよ。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_36",
+                      "speaker": "Kota",
+                      "en": "Sorry, Eri. I mean kanji are difficult for us, too. So, don't worry, Tina.",
+                      "ja": "ごめん、エリ。つまりぼくらにとっても、漢字は難しいということだよ。だから心配しないで、ティナ。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_37",
+                      "speaker": "Tina",
+                      "en": "OK. Thank you.",
+                      "ja": "わかった。ありがとう。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_38",
+                      "speaker": "Kota",
+                      "en": "By the way, what did you do yesterday, Tina?",
+                      "ja": "ところで、昨日は何をしたの、ティナ。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_39",
+                      "speaker": "Tina",
+                      "en": "I visited Nick's friend, Lily. She has a unicycle, and she can ride it very well.",
+                      "ja": "ニックの友達のリリーを訪ねたわ。彼女は一輪車を持っていて、とても上手に乗れるの。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_40",
+                      "en": "I was surprised. Can you ride a unicycle, Eri?",
+                      "ja": "とても驚いたわ。エリ、あなたは一輪車に乗れる？"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_41",
+                      "speaker": "Eri",
+                      "en": "Yes, I can. I was in the unicycle club at Honcho Elementary School.",
+                      "ja": "うん、乗れるよ。本町小学校で一輪車クラブに入っていたんだ。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_42",
+                      "speaker": "Tina",
+                      "en": "Cool! We didn't have any unicycles at my school in New York.",
+                      "ja": "かっこいい！ ニューヨークの私の学校には一輪車は一台もなかったの。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_43",
+                      "en": "How about you, Kota? Can you ride one?",
+                      "ja": "あなたはどう、コウタ。一輪車に乗れるの？"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_44",
+                      "speaker": "Kota",
+                      "en": "No, I can't. I don't want to ride one.",
+                      "ja": "ううん、乗れない。乗りたくないな。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_45",
+                      "speaker": "Tina",
+                      "en": "Oh, why not?",
+                      "ja": "えー、どうして。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_46",
+                      "speaker": "Kota",
+                      "en": "It looks dangerous.",
+                      "ja": "危なそうだよ。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_47",
+                      "speaker": "Tina",
+                      "en": "I see.",
+                      "ja": "なるほどね。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_48",
+                      "speaker": "Eri",
+                      "en": "What else did you do yesterday, Tina?",
+                      "ja": "ティナ、昨日は他に何をしたの。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_49",
+                      "speaker": "Tina",
+                      "en": "I ate takoyaki for the first time.",
+                      "ja": "はじめてたこ焼きを食べたわ。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_50",
+                      "speaker": "Eri",
+                      "en": "Did you like it?",
+                      "ja": "気に入った？"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_51",
+                      "speaker": "Tina",
+                      "en": "Yes! It was delicious. I want to eat takoyaki every day.",
+                      "ja": "うん！ とてもおいしかったわ。毎日たこ焼きを食べたいわ。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_52",
+                      "speaker": "Eri",
+                      "en": "Oh, you love it. Let's have a takoyaki party someday.",
+                      "ja": "へえ、大好きなんだね。いつかたこ焼きパーティーをしようよ。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_53",
+                      "speaker": "Tina",
+                      "en": "Wow, can you make it?",
+                      "ja": "わあ、作れるの？"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_54",
+                      "speaker": "Eri",
+                      "en": "No. I can't make takoyaki. How about you, Kota? Can you make it?",
+                      "ja": "ううん。たこ焼きは作れないな。コウタはどうなの？ 作れるの？"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_55",
+                      "speaker": "Kota",
+                      "en": "Yes, I can. Sometimes I make takoyaki with my grandma. It's not difficult.",
+                      "ja": "うん、作れるよ。ときどきおばあちゃんと作るんだ。難しくないよ。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_56",
+                      "speaker": "Tina",
+                      "en": "Great. We can learn from Kota.",
+                      "ja": "いいね。コウタから教えてもらえるわ。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_57",
+                      "speaker": "Eri",
+                      "en": "You're right.",
+                      "ja": "その通りね。"
+                    },
+                    {
+                      "id": "G1_U2_EX_S_58",
+                      "speaker": "Kota",
+                      "en": "OK. How about having a takoyaki party at my house next week?",
+                      "ja": "よし。来週、ぼくの家でたこ焼きパーティーをするのはどうかな。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "43-47"
+        },
+        "GL": {
+          "title": "Goal: 活動メンバーを集めよう",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U2_GL_W_01",
+                  "headword": "team",
+                  "pronunciation": "tíːm",
+                  "pos": "名",
+                  "meaning": "チーム"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "goal_section",
+                  "header": "活動メンバーを集めよう (p.48)",
+                  "label": "目的・場面・状況",
+                  "text": "あなたは、自分がしている部活動や委員会活動の新メンバーを探しています。Tinaと上級生のやり取りを参考に質問を考えて、友達を誘ってみましょう。",
+                  "items": [
+                    {
+                      "tag": "Listen 1",
+                      "text": "Tinaが誘われた活動にチェックを付けましょう。"
+                    },
+                    {
+                      "tag": "Listen 2",
+                      "text": "Tinaと上級生は、どんなやり取りをしたでしょうか。話された情報の順に番号を書きましょう。"
+                    }
+                  ]
+                },
+                {
+                  "type": "dialogue_section",
+                  "header": "音声の内容 (p.48-49)",
+                  "label": "Arata と Tina の対話",
+                  "items": [
+                    {
+                      "id": "G1_U2_GL_S_01",
+                      "speaker": "Arata",
+                      "en": "Hi, I'm Arata. I'm in the second grade.",
+                      "ja": "こんにちは、ぼくはアラタ。2年生です。"
+                    },
+                    {
+                      "id": "G1_U2_GL_S_02",
+                      "speaker": "Tina",
+                      "en": "Hello. I'm Christina Rios.",
+                      "ja": "こんにちは。私はクリスティーナ・リオスです。"
+                    },
+                    {
+                      "id": "G1_U2_GL_S_03",
+                      "speaker": "Arata",
+                      "en": "Do you like sports?",
+                      "ja": "スポーツは好きかな。"
+                    },
+                    {
+                      "id": "G1_U2_GL_S_04",
+                      "speaker": "Tina",
+                      "en": "Yes, I do. I especially like swimming.",
+                      "ja": "はい、好きです。とくに水泳が好きです。"
+                    },
+                    {
+                      "id": "G1_U2_GL_S_05",
+                      "speaker": "Tina",
+                      "en": "Sometimes I go swimming on weekends.",
+                      "ja": "ときどき週末に泳ぎに行くんですよ。"
+                    },
+                    {
+                      "id": "G1_U2_GL_S_06",
+                      "speaker": "Arata",
+                      "en": "Oh, you like swimming. How about ball games?",
+                      "ja": "へえ、水泳が好きなんだね。球技はどう？"
+                    },
+                    {
+                      "id": "G1_U2_GL_S_07",
+                      "speaker": "Arata",
+                      "en": "Are you interested in basketball?",
+                      "ja": "バスケットボールに興味はある？"
+                    },
+                    {
+                      "id": "G1_U2_GL_S_08",
+                      "speaker": "Tina",
+                      "en": "Yes, I am. I often play basketball with my friends.",
+                      "ja": "はい、興味あります。よく友達とバスケットボールをするんですよ。"
+                    },
+                    {
+                      "id": "G1_U2_GL_S_09",
+                      "speaker": "Tina",
+                      "en": "Basketball is fun.",
+                      "ja": "バスケットボールは楽しいですよね。"
+                    },
+                    {
+                      "id": "G1_U2_GL_S_10",
+                      "speaker": "Arata",
+                      "en": "That's cool. I'm on the basketball team.",
+                      "ja": "かっこいいね。ぼくはバスケットボール部なんだ。"
+                    },
+                    {
+                      "id": "G1_U2_GL_S_11",
+                      "speaker": "Arata",
+                      "en": "Come and join our team!",
+                      "ja": "ぼくたちの部においでよ！"
+                    },
+                    {
+                      "id": "G1_U2_GL_S_12",
+                      "speaker": "Arata",
+                      "en": "We usually practice on Mondays, Tuesdays, and Thursdays.",
+                      "ja": "ぼくたちは普通は月曜日、火曜日、それに木曜日に練習しているんだ。"
+                    },
+                    {
+                      "id": "G1_U2_GL_S_13",
+                      "speaker": "Arata",
+                      "en": "Are you free on those days?",
+                      "ja": "君はその日はひまかな。"
+                    },
+                    {
+                      "id": "G1_U2_GL_S_14",
+                      "speaker": "Tina",
+                      "en": "Sorry, but I'm in the drama club, and we usually practice on Mondays.",
+                      "ja": "申し訳ないですが、私は演劇部に入っていて、普通は月曜日に練習しています。"
+                    },
+                    {
+                      "id": "G1_U2_GL_S_15",
+                      "speaker": "Arata",
+                      "en": "Oh, I see. But let's play basketball together some other time.",
+                      "ja": "ああ、わかった。けれどいつかそのうちいっしょにバスケットボールをしよう。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak (p.49)",
+                  "label": "友達を誘ってみよう",
+                  "items": [
+                    {
+                      "id": "G1_U2_GL_S_16",
+                      "speaker": "[解答例] A",
+                      "en": "Do you like sports?",
+                      "ja": "あなたはスポーツが好きですか。"
+                    },
+                    {
+                      "id": "G1_U2_GL_S_17",
+                      "speaker": "[解答例] B",
+                      "en": "Yes, I do.",
+                      "ja": "はい、好きです。"
+                    },
+                    {
+                      "id": "G1_U2_GL_S_18",
+                      "speaker": "[解答例] A",
+                      "en": "Are you interested in soccer?",
+                      "ja": "あなたはサッカーに興味がありますか。"
+                    },
+                    {
+                      "id": "G1_U2_GL_S_19",
+                      "speaker": "[解答例] B",
+                      "en": "Yes. I sometimes play soccer in the park.",
+                      "ja": "はい。ときどき公園でサッカーをします。"
+                    },
+                    {
+                      "id": "G1_U2_GL_S_20",
+                      "speaker": "[解答例] A",
+                      "en": "Can you run fast?",
+                      "ja": "あなたは速く走ることができますか。"
+                    },
+                    {
+                      "id": "G1_U2_GL_S_21",
+                      "speaker": "[解答例] B",
+                      "en": "Yes, I can.",
+                      "ja": "はい、できます。"
+                    },
+                    {
+                      "id": "G1_U2_GL_S_22",
+                      "speaker": "[解答例] A",
+                      "en": "Come and join our soccer team!",
+                      "ja": "私たちのサッカー部においでよ！"
+                    }
+                  ]
+                }
+              ]
+            },
+            "APPENDIX": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "info_box",
+                  "header": "このユニットでできるようになったこと",
+                  "items": [
+                    {
+                      "label": "CAN-DO (L-1)",
+                      "text": "会話から、興味のあることなどについての質問を聞き取ることができる。"
+                    },
+                    {
+                      "label": "CAN-DO (SI-1)",
+                      "text": "興味のあることなどについてたずねることができる。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 49,
+          "hasAppendix": true
+        },
+        "P1": {
+          "title": "Start & Part 1: 部活動を見学",
+          "views": {
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "相手の状態や出身地などをたずねる。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "I am a new student.",
+                      "ja": "(私は新入生です。)"
+                    },
+                    {
+                      "ref_num": "②",
+                      "en": "You are a new student.",
+                      "ja": "(あなたは新入生です。)"
+                    },
+                    {
+                      "ref_num": "③",
+                      "en": "Are you a new student?",
+                      "ja": "(あなたは新入生ですか。)",
+                      "ref_id": "G1_U2_P1_S_03"
+                    },
+                    {
+                      "ref_num": "④",
+                      "en": "— Yes, I am. / No, I'm not.",
+                      "ja": "(はい、そうです。／いいえ、違います。)",
+                      "ref_id": "G1_U2_P1_S_06"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "Are you ...?",
+                  "text": "「あなた（たち）は～ですか。」と相手の状態や出身地などをたずねるときは、**Are you ...?** を使います。**you** は相手を指す語で、「あなたは［が］」という意味の代名詞です。主語が **you** のとき、「～です」は **am** ではなく **are** を用います。**are** は be動詞の仲間です。たずねる文（疑問文）の終わりには必ず **（？）クエスチョンマーク（疑問符）** を付けます。「あなたは～ですか。」に対して「はい［いいえ］、私は～です［ではありません］。」と答えるときは、**I** と **am** を使います。「はい」と答えるときは **Yes, I am.** を、「いいえ」と答えるときは **No, I'm not.** を使います。",
+                  "items": [
+                    {
+                      "tag": "Unit 2 で出てきた記号",
+                      "text": "( , ) コンマ　日本語の読点「、」にあたり、文の区切りに置かれます。"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G1_U2_P1G_E_01",
+                      "ref_num": "①",
+                      "en": "Here's the brass band.",
+                      "note": "→教科書p.38 Key Phrase",
+                      "text": "**Here's** は **Here is** の短縮形で、**Here's ～.** で「ここが～だ。」と確かめる言い方です。",
+                      "ref_id": "G1_U2_P1_S_01"
+                    },
+                    {
+                      "id": "G1_U2_P1G_E_02",
+                      "ref_num": "③",
+                      "en": "Are you new students?",
+                      "text": "「あなた（たち）は～ですか。」と相手の状態や出身地などをたずねるときは、**Are you ...?** を使います。**are** は be動詞の仲間です。「～です」という意味で、主語が **you** などのときに使います。また、たずねる文の終わりには必ず **（？）クエスチョンマーク（疑問符）** を付けましょう。",
+                      "ref_id": "G1_U2_P1_S_03"
+                    },
+                    {
+                      "id": "G1_U2_P1G_E_03",
+                      "ref_num": "⑤",
+                      "en": "Are you interested in the brass band?",
+                      "text": "**be interested in ～** で、「～に興味をもっている」という意味を表します。",
+                      "ref_id": "G1_U2_P1_S_05"
+                    },
+                    {
+                      "id": "G1_U2_P1G_E_04",
+                      "ref_num": "⑥",
+                      "en": "Yes, I am.",
+                      "text": "**Are you ...?** の文に「はい。」で答えるときは **Yes, I am.** 、「いいえ。」で答えるときは **No, I'm not.** と言います。コンマは文の区切りを表し、文の途中で使います。",
+                      "ref_id": "G1_U2_P1_S_06"
+                    },
+                    {
+                      "id": "G1_U2_P1G_E_05",
+                      "ref_num": "⑨",
+                      "en": "Come in.",
+                      "text": "**Come in.** で「入りなさい。」という意味を表します。**please** を付けると「どうぞ～」と丁寧な言い方になります。",
+                      "ref_id": "G1_U2_P1_S_09"
+                    }
+                  ]
+                }
+              ]
+            },
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U2_ST_W_01",
+                  "headword": "school",
+                  "pronunciation": "skúːl",
+                  "pos": "名",
+                  "meaning": "学校"
+                },
+                {
+                  "id": "G1_U2_P1_W_01",
+                  "headword": "after",
+                  "pronunciation": "ǽftər",
+                  "pos": "前",
+                  "meaning": "〔時間〕～の後に"
+                },
+                {
+                  "id": "G1_U2_P1_W_02",
+                  "headword": "in",
+                  "pronunciation": "ín",
+                  "pos": "副",
+                  "meaning": "中へ、中に"
+                },
+                {
+                  "id": "G1_U2_P1_W_03",
+                  "headword": "brass band",
+                  "pronunciation": "brǽs bænd",
+                  "pos": "名",
+                  "meaning": "ブラスバンド、吹奏楽部"
+                },
+                {
+                  "id": "G1_U2_P1_W_04",
+                  "headword": "new",
+                  "pronunciation": "njúː",
+                  "pos": "形",
+                  "meaning": "新しい、新入りの"
+                },
+                {
+                  "id": "G1_U2_P1_W_05",
+                  "headword": "yes",
+                  "pronunciation": "jés",
+                  "pos": "副",
+                  "meaning": "はい、そうです"
+                },
+                {
+                  "id": "G1_U2_P1_W_06",
+                  "headword": "come",
+                  "pronunciation": "kʌ́m",
+                  "pos": "動",
+                  "meaning": "やって来る、行く"
+                },
+                {
+                  "id": "G1_U2_P1_W_07",
+                  "headword": "Mr.",
+                  "pronunciation": "místər",
+                  "pos": "名",
+                  "meaning": "～さん、～先生"
+                },
+                {
+                  "id": "G1_U2_P1_W_08",
+                  "headword": "come in",
+                  "pos": "熟",
+                  "meaning": "入る、入ってくる"
+                },
+                {
+                  "id": "G1_U2_P1_W_09",
+                  "headword": "no",
+                  "pronunciation": "nóu",
+                  "pos": "副",
+                  "meaning": "いいえ、いや"
+                },
+                {
+                  "id": "G1_U2_P1_W_10",
+                  "headword": "interested",
+                  "pronunciation": "íntərəstid",
+                  "pos": "形",
+                  "meaning": "興味［関心］をもっている"
+                },
+                {
+                  "id": "G1_U2_P1_W_11",
+                  "headword": "in",
+                  "pronunciation": "ín",
+                  "pos": "前",
+                  "meaning": "～において、～に関して"
+                },
+                {
+                  "id": "G1_U2_P1_W_12",
+                  "headword": "K-pop",
+                  "pos": "名",
+                  "meaning": "韓国のポピュラー音楽"
+                },
+                {
+                  "id": "G1_U2_P1_W_13",
+                  "headword": "of",
+                  "pronunciation": "ʌ́v",
+                  "pos": "前",
+                  "meaning": "～の"
+                },
+                {
+                  "id": "G1_U2_P1_W_14",
+                  "headword": "big",
+                  "pronunciation": "bíɡ",
+                  "pos": "形",
+                  "meaning": "熱烈な、熱狂的な"
+                },
+                {
+                  "id": "G1_U2_P1_W_15",
+                  "headword": "fan",
+                  "pronunciation": "fǽn",
+                  "pos": "名",
+                  "meaning": "ファン"
+                },
+                {
+                  "id": "G1_U2_P1_W_16",
+                  "headword": "anime",
+                  "pronunciation": "ǽnəmei",
+                  "pos": "名",
+                  "meaning": "アニメ"
+                },
+                {
+                  "id": "G1_U2_P1_W_17",
+                  "headword": "be interested in ~",
+                  "pos": "熟",
+                  "meaning": "～に興味をもっている"
+                },
+                {
+                  "id": "G1_U2_P1_W_18",
+                  "headword": "very much",
+                  "pos": "熟",
+                  "meaning": "とても"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "intro_section",
+                  "header": "Start: School Activities (p.33)",
+                  "label": "Unit 2 の目標",
+                  "items": [
+                    {
+                      "tag": "Goal: Listen",
+                      "text": "会話から、興味のあることなどについての質問を聞き取ることができる。"
+                    },
+                    {
+                      "tag": "Goal: Speak",
+                      "text": "興味のあることなどについてたずねることができる。"
+                    },
+                    {
+                      "id": "G1_U2_ST_S_01",
+                      "speaker": "About You",
+                      "en": "Do you usually keep a diary?",
+                      "ja": "あなたは部活動や委員会活動をしていますか。また、興味のある活動はありますか。"
+                    }
+                  ]
+                },
+                {
+                  "type": "dialogue_section",
+                  "header": "Part 1: 部活動を見学 (p.34)",
+                  "label": "吹奏楽部にて",
+                  "items": [
+                    {
+                      "id": "G1_U2_P1_S_Q",
+                      "speaker": "Question",
+                      "ja": "Q. ウタダ先生は、コウタたちにどのような質問をしていますか。"
+                    },
+                    {
+                      "id": "G1_U2_P1_S_A",
+                      "speaker": "Answer",
+                      "ja": "A. (例) 新入生かどうか。吹奏楽部に興味はあるか。"
+                    },
+                    {
+                      "id": "G1_U2_P1_S_00",
+                      "speaker": "Setting",
+                      "en": "After classes:",
+                      "ja": "放課後："
+                    },
+                    {
+                      "id": "G1_U2_P1_S_01",
+                      "ref_num": "①",
+                      "speaker": "Tina",
+                      "en": "Here's the brass band.",
+                      "ja": "ここが吹奏楽部だね。"
+                    },
+                    {
+                      "id": "G1_U2_P1_S_02",
+                      "ref_num": "②",
+                      "speaker": "Mr. Utada",
+                      "en": "Hello.",
+                      "ja": "やあ。"
+                    },
+                    {
+                      "id": "G1_U2_P1_S_03",
+                      "ref_num": "③",
+                      "speaker": "Mr. Utada",
+                      "en": "Are you new students?",
+                      "ja": "君たちは新入生かい？"
+                    },
+                    {
+                      "id": "G1_U2_P1_S_04",
+                      "ref_num": "④",
+                      "speaker": "Kota",
+                      "en": "Yes.",
+                      "ja": "はい。"
+                    },
+                    {
+                      "id": "G1_U2_P1_S_05",
+                      "ref_num": "⑤",
+                      "speaker": "Mr. Utada",
+                      "en": "Are you interested in the brass band?",
+                      "ja": "吹奏楽部に興味があるのかな。"
+                    },
+                    {
+                      "id": "G1_U2_P1_S_06",
+                      "ref_num": "⑥",
+                      "speaker": "Kota",
+                      "en": "Yes, I am.",
+                      "ja": "はい、そうです。"
+                    },
+                    {
+                      "id": "G1_U2_P1_S_07",
+                      "ref_num": "⑦",
+                      "speaker": "Mr. Utada",
+                      "en": "Good!",
+                      "ja": "いいね！"
+                    },
+                    {
+                      "id": "G1_U2_P1_S_08",
+                      "ref_num": "⑧",
+                      "speaker": "Mr. Utada",
+                      "en": "I'm a music teacher.",
+                      "ja": "私は音楽の先生です。"
+                    },
+                    {
+                      "id": "G1_U2_P1_S_09",
+                      "ref_num": "⑨",
+                      "speaker": "Mr. Utada",
+                      "en": "Come in.",
+                      "ja": "中に入って。"
+                    },
+                    {
+                      "id": "G1_U2_P1_S_10",
+                      "ref_num": "⑩",
+                      "speaker": "Mr. Utada",
+                      "en": "Have a look inside.",
+                      "ja": "中を見てみて。"
+                    },
+                    {
+                      "id": "G1_U2_P1_S_11",
+                      "ref_num": "⑪",
+                      "speaker": "Kota and Tina",
+                      "en": "Thank you, Mr. Utada.",
+                      "ja": "ウタダ先生、ありがとうございます。"
+                    },
+                    {
+                      "id": "G1_U2_P1_S_12",
+                      "speaker": "You're the Writer!",
+                      "en": "What are they interested in?",
+                      "ja": "(解答例) 彼らは何に興味がありますか。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak (p.35)",
+                  "label": "ペアでたずね合おう",
+                  "items": [
+                    {
+                      "id": "G1_U2_P1_S_13",
+                      "speaker": "[例] A",
+                      "en": "Are you a music fan?",
+                      "ja": "あなたは音楽のファンですか。"
+                    },
+                    {
+                      "id": "G1_U2_P1_S_14",
+                      "speaker": "[例] B1",
+                      "en": "Yes, I am. I like K-pop very much.",
+                      "ja": "はい、そうです。私は韓国のポピュラー音楽がとても好きです。"
+                    },
+                    {
+                      "id": "G1_U2_P1_S_15",
+                      "speaker": "[例] B2",
+                      "en": "No, I'm not. I'm a big fan of anime.",
+                      "ja": "いいえ、違います。私はアニメの大ファンです。"
+                    },
+                    {
+                      "id": "G1_U2_P1_S_16",
+                      "speaker": "[解答例] A",
+                      "en": "Are you interested in sports?",
+                      "ja": "あなたはスポーツに興味がありますか。"
+                    },
+                    {
+                      "id": "G1_U2_P1_S_17",
+                      "speaker": "[解答例] B",
+                      "en": "No, I'm not. I'm interested in math.",
+                      "ja": "いいえ、興味ありません。私は数学に興味があります。"
+                    },
+                    {
+                      "id": "G1_U2_P1_S_18",
+                      "speaker": "[解答例] A",
+                      "en": "Are you interested in musicals?",
+                      "ja": "あなたはミュージカルに興味がありますか。"
+                    },
+                    {
+                      "id": "G1_U2_P1_S_19",
+                      "speaker": "[解答例] B",
+                      "en": "Yes, I am. I'm a big fan of The Sound of Music.",
+                      "ja": "はい、興味があります。私は『サウンド・オブ・ミュージック』の大ファンです。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 40
+        },
+        "P2": {
+          "title": "Part 2: いつ練習しているの",
+          "views": {
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "相手のすること・好きなことなどをたずねる。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "I play the trumpet.",
+                      "ja": "(私はトランペットを演奏します。)"
+                    },
+                    {
+                      "ref_num": "②",
+                      "en": "Do you ==**play**== an instrument?",
+                      "ja": "(あなたは楽器を演奏しますか。)",
+                      "ref_id": "G1_U2_P2_S_04"
+                    },
+                    {
+                      "ref_num": "③",
+                      "en": "— Yes, I ==**do**==. / No, I ==**don't**==.",
+                      "ja": "(はい、します。／いいえ、しません。)",
+                      "ref_id": "G1_U2_P2_S_05"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "Do you ...?",
+                  "text": "**You like music.** (あなたは音楽が好きだ。) のような一般動詞の文を疑問文にするときは、主語 (you) の前に **Do** を置いて、**〈Do + 主語 + 動詞 ～?〉** の語順になります。疑問文なので文の終わりには **?** を付け、最後は上げ調子に言いましょう。「はい」なら **Yes, I do.** 、「いいえ」なら **No, I don't.** と答えます。**don't** は **do not** の短縮形です。また、「あなたは」とたずねているので、答えるときの主語は「私は (I)」になることに注意しましょう。",
+                  "items": [
+                    {
+                      "tag": "肯定文",
+                      "en": "You ==**like**== music.",
+                      "ja": "(あなたは音楽が好きだ。)"
+                    },
+                    {
+                      "tag": "疑問文",
+                      "en": "==**Do**== you ==**like**== music?",
+                      "ja": "(あなたは音楽が好きですか。)"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G1_U2_P2G_E_01",
+                      "ref_num": "①",
+                      "en": "Do you like music?",
+                      "text": "**like** は「～が好きだ」という味の一般動詞で、その後には、「～を［が］」という意味の、その動作や状態の対象となる語句がきます。この文では **music** が目的語となっています。",
+                      "ref_id": "G1_U2_P2_S_01"
+                    },
+                    {
+                      "id": "G1_U2_P2G_E_02",
+                      "ref_num": "④, ⑧",
+                      "en": "Do you play an instrument? / Do you practice it every day?",
+                      "text": "一般動詞の疑問文は、主語 (you) の前に **do** を置いて表します。④の **instrument** のような母音で始まる語の前の **a** は、**an** になるので、注意しましょう。⑧の **practice** は「練習する」という味の一般動詞で、**it** は「それを［に］」という意味の代名詞です。**it** は一度出てきた名詞の代わりに使われますが、この **it** は **the trumpet** の代わりに使われています。",
+                      "ref_id": "G1_U2_P2_S_04"
+                    },
+                    {
+                      "id": "G1_U2_P2G_E_03",
+                      "ref_num": "⑤, ⑨",
+                      "en": "Yes, I do. / No, I don't.",
+                      "text": "**Do you ...?** の疑問文に答えるときは **do** を使い、「はい」なら **Yes, I do.** 、「いいえ」なら **No, I don't.** と言います。「あなたは」とたずねているので、答えるときの主語は「私は (I)」になることに注意しましょう。",
+                      "ref_id": "G1_U2_P2_S_05"
+                    },
+                    {
+                      "id": "G1_U2_P2G_E_04",
+                      "ref_num": "⑥",
+                      "en": "I play the trumpet a little.",
+                      "text": "この文の **play** は、「(楽器) を演奏する」という意味で使われています。**play** がこの意味で使われるときは、**〈play + the + 楽器〉** の形で、楽器の前に必ず **the** を付けるので注意しましょう。**a little** は、「少し(は)」という意味の言葉です。",
+                      "ref_id": "G1_U2_P2_S_06"
+                    },
+                    {
+                      "id": "G1_U2_P2G_E_05",
+                      "ref_num": "⑭",
+                      "en": "We usually practice on Mondays, Wednesdays, and Fridays.",
+                      "text": "**on** は、曜日や日付の前に置く前置詞です。ここでは、「月曜日、水曜日、金曜日に」という意味になります。",
+                      "ref_id": "G1_U2_P2_S_14"
+                    }
+                  ]
+                }
+              ]
+            },
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U2_P2_W_01",
+                  "headword": "an",
+                  "pronunciation": "ən, æn",
+                  "pos": "冠",
+                  "meaning": "〔母音で始まる語の前で〕ある、1つの"
+                },
+                {
+                  "id": "G1_U2_P2_W_02",
+                  "headword": "instrument",
+                  "pronunciation": "ínstrəmənt",
+                  "pos": "名",
+                  "meaning": "楽器"
+                },
+                {
+                  "id": "G1_U2_P2_W_03",
+                  "headword": "do",
+                  "pronunciation": "dúː, də",
+                  "pos": "助",
+                  "meaning": "〔疑問文に対する応答の中で使う〕"
+                },
+                {
+                  "id": "G1_U2_P2_W_04",
+                  "headword": "little",
+                  "pronunciation": "lítl",
+                  "pos": "副",
+                  "meaning": "少しは、多少"
+                },
+                {
+                  "id": "G1_U2_P2_W_05",
+                  "headword": "usually",
+                  "pronunciation": "júːʒuəli",
+                  "pos": "副",
+                  "meaning": "普通は、いつもは"
+                },
+                {
+                  "id": "G1_U2_P2_W_06",
+                  "headword": "practice",
+                  "pronunciation": "prǽktis",
+                  "pos": "動",
+                  "meaning": "(～を) 練習する"
+                },
+                {
+                  "id": "G1_U2_P2_W_07",
+                  "headword": "on",
+                  "pronunciation": "άn, ɔːn",
+                  "pos": "前",
+                  "meaning": "〔日・時〕～に"
+                },
+                {
+                  "id": "G1_U2_P2_W_08",
+                  "headword": "Monday(s)",
+                  "pronunciation": "mʌ́ndei(z)",
+                  "pos": "名",
+                  "meaning": "月曜日"
+                },
+                {
+                  "id": "G1_U2_P2_W_09",
+                  "headword": "Wednesday(s)",
+                  "pronunciation": "wénzdei(z)",
+                  "pos": "名",
+                  "meaning": "水曜日"
+                },
+                {
+                  "id": "G1_U2_P2_W_10",
+                  "headword": "Friday(s)",
+                  "pronunciation": "fráidei(z)",
+                  "pos": "名",
+                  "meaning": "金曜日"
+                },
+                {
+                  "id": "G1_U2_P2_W_11",
+                  "headword": "a little",
+                  "pos": "熟",
+                  "meaning": "少しは、多少"
+                },
+                {
+                  "id": "G1_U2_P2_W_12",
+                  "headword": "listen",
+                  "pronunciation": "lísn",
+                  "pos": "動",
+                  "meaning": "聞く、耳を傾ける"
+                },
+                {
+                  "id": "G1_U2_P2_W_13",
+                  "headword": "to",
+                  "pronunciation": "túː, tə",
+                  "pos": "前",
+                  "meaning": "〔対象〕～に、～へ、～にとって"
+                },
+                {
+                  "id": "G1_U2_P2_W_14",
+                  "headword": "radio",
+                  "pronunciation": "réidiou",
+                  "pos": "名",
+                  "meaning": "ラジオ"
+                },
+                {
+                  "id": "G1_U2_P2_W_15",
+                  "headword": "read",
+                  "pronunciation": "ríːd",
+                  "pos": "動",
+                  "meaning": "(～を) 読む"
+                },
+                {
+                  "id": "G1_U2_P2_W_16",
+                  "headword": "magazine(s)",
+                  "pronunciation": "mæ̀ɡəzíːn(z)",
+                  "pos": "名",
+                  "meaning": "雑誌"
+                },
+                {
+                  "id": "G1_U2_P2_W_17",
+                  "headword": "always",
+                  "pronunciation": "ɔ́ːlweiz",
+                  "pos": "副",
+                  "meaning": "いつも、常に"
+                },
+                {
+                  "id": "G1_U2_P2_W_18",
+                  "headword": "it",
+                  "pronunciation": "ít",
+                  "pos": "代",
+                  "meaning": "それを［に］"
+                },
+                {
+                  "id": "G1_U2_P2_W_19",
+                  "headword": "often",
+                  "pronunciation": "ɔ́ːfn",
+                  "pos": "副",
+                  "meaning": "よく、たびたび、しばしば"
+                },
+                {
+                  "id": "G1_U2_P2_W_20",
+                  "headword": "sometimes",
+                  "pronunciation": "sʌ́mtàimz",
+                  "pos": "副",
+                  "meaning": "ときどき"
+                },
+                {
+                  "id": "G1_U2_P2_W_21",
+                  "headword": "never",
+                  "pronunciation": "névər",
+                  "pos": "副",
+                  "meaning": "決して～しない"
+                },
+                {
+                  "id": "G1_U2_P2_W_22",
+                  "headword": "free",
+                  "pronunciation": "fríː",
+                  "pos": "形",
+                  "meaning": "手が空いている、暇な"
+                },
+                {
+                  "id": "G1_U2_P2_W_23",
+                  "headword": "night(s)",
+                  "pronunciation": "náit(s)",
+                  "pos": "名",
+                  "meaning": "夜"
+                },
+                {
+                  "id": "G1_U2_P2_W_24",
+                  "headword": "listen to ~",
+                  "pos": "熟",
+                  "meaning": "～を聞く"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "dialogue_section",
+                  "header": "いつ練習しているの (p.36)",
+                  "label": "吹奏楽部の活動について",
+                  "items": [
+                    {
+                      "id": "G1_U2_P2_S_Q",
+                      "speaker": "Question",
+                      "ja": "Q. ウタダ先生はコウタにどのような質問をしていますか。"
+                    },
+                    {
+                      "id": "G1_U2_P2_S_A",
+                      "speaker": "Answer",
+                      "ja": "A. (例) 音楽が好きか。楽器を演奏するか。毎日練習するか。"
+                    },
+                    {
+                      "id": "G1_U2_P2_S_01",
+                      "ref_num": "①",
+                      "speaker": "Mr. Utada",
+                      "en": "Do you like music?",
+                      "ja": "君たちは音楽が好きかい？"
+                    },
+                    {
+                      "id": "G1_U2_P2_S_02",
+                      "ref_num": "②",
+                      "speaker": "Kota and Tina",
+                      "en": "Yes!",
+                      "ja": "はい！"
+                    },
+                    {
+                      "id": "G1_U2_P2_S_03",
+                      "ref_num": "③",
+                      "speaker": "Mr. Utada",
+                      "en": "Great.",
+                      "ja": "すばらしい。"
+                    },
+                    {
+                      "id": "G1_U2_P2_S_04",
+                      "ref_num": "④",
+                      "speaker": "Mr. Utada",
+                      "en": "Do you play an instrument?",
+                      "ja": "楽器を演奏するのかな。"
+                    },
+                    {
+                      "id": "G1_U2_P2_S_05",
+                      "ref_num": "⑤",
+                      "speaker": "Kota",
+                      "en": "Yes, I do.",
+                      "ja": "はい。"
+                    },
+                    {
+                      "id": "G1_U2_P2_S_06",
+                      "ref_num": "⑥",
+                      "speaker": "Kota",
+                      "en": "I play the trumpet a little.",
+                      "ja": "トランペットを少し演奏します。"
+                    },
+                    {
+                      "id": "G1_U2_P2_S_07",
+                      "ref_num": "⑦",
+                      "speaker": "Mr. Utada",
+                      "en": "Really?",
+                      "ja": "本当に？"
+                    },
+                    {
+                      "id": "G1_U2_P2_S_08",
+                      "ref_num": "⑧",
+                      "speaker": "Mr. Utada",
+                      "en": "Do you practice it every day?",
+                      "ja": "毎日練習するのかい？"
+                    },
+                    {
+                      "id": "G1_U2_P2_S_09",
+                      "ref_num": "⑨",
+                      "speaker": "Kota",
+                      "en": "No, I don't.",
+                      "ja": "いいえ。"
+                    },
+                    {
+                      "id": "G1_U2_P2_S_10",
+                      "ref_num": "⑩",
+                      "speaker": "Kota",
+                      "en": "I practice it on weekends.",
+                      "ja": "週末に練習します。"
+                    },
+                    {
+                      "id": "G1_U2_P2_S_11",
+                      "ref_num": "⑪",
+                      "speaker": "Mr. Utada",
+                      "en": "How about you?",
+                      "ja": "君はどうかな？"
+                    },
+                    {
+                      "id": "G1_U2_P2_S_12",
+                      "ref_num": "⑫",
+                      "speaker": "Tina",
+                      "en": "I sometimes play the drums.",
+                      "ja": "私はときどきドラムを演奏します。"
+                    },
+                    {
+                      "id": "G1_U2_P2_S_13",
+                      "ref_num": "⑬",
+                      "speaker": "Mr. Utada",
+                      "en": "Fine.",
+                      "ja": "すばらしい。"
+                    },
+                    {
+                      "id": "G1_U2_P2_S_14",
+                      "ref_num": "⑭",
+                      "speaker": "Mr. Utada",
+                      "en": "We usually practice on Mondays, Wednesdays, and Fridays.",
+                      "ja": "私たちは普通は、月曜日、水曜日、金曜日に練習するよ。"
+                    },
+                    {
+                      "id": "G1_U2_P2_S_15",
+                      "ref_num": "⑮",
+                      "speaker": "Mr. Utada",
+                      "en": "Come and play with us!",
+                      "ja": "私たちといっしょに演奏しにおいで！"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak (p.37)",
+                  "label": "曜日ごとの活動をたずねよう",
+                  "items": [
+                    {
+                      "id": "G1_U2_P2_S_16",
+                      "speaker": "[例] A",
+                      "en": "Do you watch Music Now on Fridays?",
+                      "ja": "あなたは金曜日に「Music Now」を見ますか。"
+                    },
+                    {
+                      "id": "G1_U2_P2_S_17",
+                      "speaker": "[例] B1",
+                      "en": "Yes, I do. I always watch it.",
+                      "ja": "はい、見ます。私はいつもそれを見ます。"
+                    },
+                    {
+                      "id": "G1_U2_P2_S_18",
+                      "speaker": "[例] B2",
+                      "en": "No, I don't. I'm not free on Friday nights.",
+                      "ja": "いいえ、見ません。私は金曜日の夜はひまではありません。"
+                    },
+                    {
+                      "id": "G1_U2_P2_S_19",
+                      "speaker": "[解答例]",
+                      "en": "Do you study English on Tuesdays?",
+                      "ja": "あなたは火曜日に英語を勉強しますか。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 41
+        },
+        "P3": {
+          "title": "Part 3: 練習しよう！",
+          "views": {
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "相手にできるかどうかをたずねる。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "I can read it.",
+                      "ja": "(私はそれを読むことができます。)",
+                      "ref_id": "G1_U2_P3_K_01"
+                    },
+                    {
+                      "ref_num": "②",
+                      "en": "Can you ==**read**== it?",
+                      "ja": "(それを読めますか。)",
+                      "ref_id": "G1_U2_P3_S_02"
+                    },
+                    {
+                      "ref_num": "③",
+                      "en": "— Yes, I can. / No, I can't.",
+                      "ja": "(はい、読めます。／いいえ、読めません。)",
+                      "ref_id": "G1_U2_P3_S_06"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "Can you ...?",
+                  "text": "「～することができますか」と可能かどうかをたずねる疑問文をつくるときは、**Can** を主語の前に置いて表します。語順は **〈Can + 主語 + 動詞の原形 ～?〉** になります。**can** の後の動詞は原形を使います。**Can ...?** の疑問文には、**can** を使って答えます。**Yes のときは 〈Yes, 主語 + can.〉**、**No のときは 〈No, 主語 + can't.〉** の形で答えます。",
+                  "items": [
+                    {
+                      "tag": "肯定文",
+                      "en": "He ==**can**== play the guitar.",
+                      "ja": "(彼はギターを演奏することができます。)"
+                    },
+                    {
+                      "tag": "疑問文",
+                      "en": "==**Can**== he [ ---- ] play the guitar?",
+                      "ja": "(彼はギターを演奏することができますか。)"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G1_U2_P3G_E_01",
+                      "ref_num": "①",
+                      "en": "What's this?",
+                      "text": "わからないものや事について「何」とたずねるときは **what** を使い、文の先頭に置きます。このような語を疑問詞といいます。**what's** は **what is** の短縮形です。**What's [What is] ～?** で「～は何ですか。」とたずねる文になります。疑問詞で始まる文の終わりは、文の最後を下げ調子に言います。普通の疑問文との違いに注意しましょう。",
+                      "ref_id": "G1_U2_P3_S_01"
+                    },
+                    {
+                      "id": "G1_U2_P3G_E_02",
+                      "ref_num": "②, ⑤",
+                      "en": "Can you read it? / Can you say it?",
+                      "text": "**can** が主語の前に置かれているので、「～することができますか」と可能かどうかをたずねる疑問文です。**can** の後の動詞は原形になります。②の **read it** の **it** 、⑤の **say it** の **it** は、動詞 **read, say** の目的語で、「それを」という意味の代名詞です。**it** は一度出てきた名詞の代わりに使われます。",
+                      "ref_id": "G1_U2_P3_S_02"
+                    },
+                    {
+                      "id": "G1_U2_P3G_E_03",
+                      "ref_num": "④",
+                      "en": "Oh, it's a tongue twister.",
+                      "text": "**what** のような疑問詞で始まる疑問文には、**Yes** や **No** では答えません。**What's this?** には、**It's [It is] ～.** (それは～です。) の形で答えます。",
+                      "ref_id": "G1_U2_P3_S_04"
+                    },
+                    {
+                      "id": "G1_U2_P3G_E_04",
+                      "ref_num": "⑥",
+                      "en": "No, I can't.",
+                      "text": "**Can ...?** の疑問文には、**can** を使って答えます。**Yes** で答えるときは **〈Yes, 主語 + can.〉** 、**No** で答えるときは **〈No, 主語 + can't.〉** で答えます。",
+                      "ref_id": "G1_U2_P3_S_07"
+                    },
+                    {
+                      "id": "G1_U2_P3G_E_05",
+                      "ref_num": "⑨",
+                      "en": "Repeat after me.",
+                      "note": "→教科書p.42 Key Phrase",
+                      "text": "動詞で始まっているので「～しなさい」と相手の行動を促す表現です。",
+                      "ref_id": "G1_U2_P3_S_10"
+                    }
+                  ]
+                }
+              ]
+            },
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U2_P3_W_01",
+                  "headword": "drama",
+                  "pronunciation": "drάːmə",
+                  "pos": "名",
+                  "meaning": "演劇"
+                },
+                {
+                  "id": "G1_U2_P3_W_02",
+                  "headword": "oh",
+                  "pronunciation": "óu",
+                  "pos": "間",
+                  "meaning": "ああ、まあ"
+                },
+                {
+                  "id": "G1_U2_P3_W_03",
+                  "headword": "tongue twister",
+                  "pronunciation": "tʌ́ŋ twìstər",
+                  "pos": "名",
+                  "meaning": "早口言葉"
+                },
+                {
+                  "id": "G1_U2_P3_W_04",
+                  "headword": "say",
+                  "pronunciation": "séi",
+                  "pos": "動",
+                  "meaning": "(～を) 言う、(…と) 述べる"
+                },
+                {
+                  "id": "G1_U2_P3_W_05",
+                  "headword": "repeat",
+                  "pronunciation": "ripíːt",
+                  "pos": "動",
+                  "meaning": "繰り返して言う"
+                },
+                {
+                  "id": "G1_U2_P3_W_06",
+                  "headword": "after",
+                  "pronunciation": "ǽftər",
+                  "pos": "前",
+                  "usage": "〔順序〕",
+                  "meaning": "～の次に、～の後について"
+                },
+                {
+                  "id": "G1_U2_P3_W_07",
+                  "headword": "write",
+                  "pronunciation": "ráit",
+                  "pos": "動",
+                  "meaning": "(～を) 書く"
+                },
+                {
+                  "id": "G1_U2_P3_W_08",
+                  "headword": "in",
+                  "pronunciation": "ín",
+                  "pos": "前",
+                  "usage": "〔手段・素材〕",
+                  "meaning": "～で、～を使って"
+                },
+                {
+                  "id": "G1_U2_P3_W_09",
+                  "headword": "ride",
+                  "pronunciation": "ráid",
+                  "pos": "動",
+                  "meaning": "～に乗る"
+                },
+                {
+                  "id": "G1_U2_P3_W_10",
+                  "headword": "unicycle",
+                  "pronunciation": "júːnəsàikl",
+                  "pos": "名",
+                  "meaning": "一輪車"
+                },
+                {
+                  "id": "G1_U2_P3_W_11",
+                  "headword": "curry",
+                  "pronunciation": "kə́ːri",
+                  "pos": "名",
+                  "meaning": "カレー"
+                },
+                {
+                  "id": "G1_U2_P3_W_12",
+                  "headword": "rice",
+                  "pronunciation": "ráis",
+                  "pos": "名",
+                  "meaning": "米、ごはん、ライス"
+                },
+                {
+                  "id": "G1_U2_P3_W_13",
+                  "headword": "curry and rice",
+                  "pos": "名",
+                  "meaning": "カレーライス"
+                },
+                {
+                  "id": "G1_U2_P3_W_14",
+                  "headword": "with",
+                  "pronunciation": "wíð",
+                  "pos": "前",
+                  "usage": "〔同伴〕",
+                  "meaning": "～といっしょに"
+                },
+                {
+                  "id": "G1_U2_P3_W_15",
+                  "headword": "father",
+                  "pronunciation": "fάːðər",
+                  "pos": "名",
+                  "meaning": "父親"
+                },
+                {
+                  "id": "G1_U2_P3_W_16",
+                  "headword": "great",
+                  "pronunciation": "ɡréit",
+                  "pos": "形",
+                  "meaning": "すばらしい"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "dialogue_section",
+                  "header": "練習しよう！ (p.38)",
+                  "label": "In the drama club (演劇部にて)",
+                  "items": [
+                    {
+                      "id": "G1_U2_P3_S_Q",
+                      "speaker": "Question",
+                      "ja": "Q. ティナができないと言っているのは、どんなことでしょうか。"
+                    },
+                    {
+                      "id": "G1_U2_P3_S_A",
+                      "speaker": "Answer",
+                      "ja": "A. (例) 「竹垣に竹立てかけた」という早口言葉を言うこと。"
+                    },
+                    {
+                      "id": "G1_U2_P3_S_01",
+                      "ref_num": "①",
+                      "speaker": "Tina",
+                      "en": "What's this?",
+                      "ja": "これは何？"
+                    },
+                    {
+                      "id": "G1_U2_P3_S_02",
+                      "ref_num": "②",
+                      "speaker": "Tina",
+                      "en": "Can you read it?",
+                      "ja": "読める？"
+                    },
+                    {
+                      "id": "G1_U2_P3_S_03",
+                      "ref_num": "③",
+                      "speaker": "Eri",
+                      "en": "Yes.",
+                      "ja": "うん。"
+                    },
+                    {
+                      "id": "G1_U2_P3_S_04",
+                      "ref_num": "④",
+                      "speaker": "Eri",
+                      "en": "Oh, it's a tongue twister.",
+                      "ja": "ああ、早口言葉だね。"
+                    },
+                    {
+                      "id": "G1_U2_P3_S_05",
+                      "en": "“Takegakini taketetaketa”",
+                      "ja": "「竹垣に竹立てかけた」"
+                    },
+                    {
+                      "id": "G1_U2_P3_S_06",
+                      "ref_num": "⑤",
+                      "speaker": "Eri",
+                      "en": "Can you say it?",
+                      "ja": "言える？"
+                    },
+                    {
+                      "id": "G1_U2_P3_S_07",
+                      "ref_num": "⑥",
+                      "speaker": "Tina",
+                      "en": "No, I can't.",
+                      "ja": "ううん、言えない。"
+                    },
+                    {
+                      "id": "G1_U2_P3_S_08",
+                      "ref_num": "⑦",
+                      "speaker": "Tina",
+                      "en": "Can you say it slowly?",
+                      "ja": "ゆっくり言ってくれる？"
+                    },
+                    {
+                      "id": "G1_U2_P3_S_09",
+                      "ref_num": "⑧",
+                      "speaker": "Eri",
+                      "en": "Of course.",
+                      "ja": "もちろん。"
+                    },
+                    {
+                      "id": "G1_U2_P3_S_10",
+                      "ref_num": "⑨",
+                      "speaker": "Eri",
+                      "en": "Repeat after me.",
+                      "ja": "私の後について言ってみて。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak (p.39)",
+                  "label": "できるかどうかをたずね合おう",
+                  "items": [
+                    {
+                      "id": "G1_U2_P3_S_11",
+                      "speaker": "[例] A",
+                      "en": "Can you make curry and rice?",
+                      "ja": "あなたはカレーライスを作れますか。"
+                    },
+                    {
+                      "id": "G1_U2_P3_S_12",
+                      "speaker": "[例] B1",
+                      "en": "Yes, I can. Sometimes I make it with my father.",
+                      "ja": "はい、作れます。ときどき私はお父さんといっしょにそれを作ります。"
+                    },
+                    {
+                      "id": "G1_U2_P3_S_13",
+                      "speaker": "[例] B2",
+                      "en": "No, I can't. But I can make yakisoba.",
+                      "ja": "いいえ、作れません。けれど私は焼きそばを作れます。"
+                    },
+                    {
+                      "id": "G1_U2_P3_S_14",
+                      "speaker": "[例] A",
+                      "en": "That's great.",
+                      "ja": "それはすごいですね。"
+                    },
+                    {
+                      "id": "G1_U2_P3_S_15",
+                      "speaker": "[解答例] A",
+                      "en": "Can you play the drums?",
+                      "ja": "あなたはドラムを演奏できますか。"
+                    },
+                    {
+                      "id": "G1_U2_P3_S_16",
+                      "speaker": "[解答例] B",
+                      "en": "No, I can't. But I can play the piano well.",
+                      "ja": "いいえ、演奏できません。けれど私はピアノを上手に弾けます。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 42
+        },
+        "WT1": {
+          "title": "World Tour 1: 世界の中学生",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U2_WT1_W_01",
+                  "headword": "break time",
+                  "pos": "名",
+                  "meaning": "（授業の）休み時間"
+                },
+                {
+                  "id": "G1_U2_WT1_W_02",
+                  "headword": "Australia",
+                  "pronunciation": "ɔːstréiljə",
+                  "pos": "名",
+                  "meaning": "オーストラリア"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "intro_section",
+                  "header": "世界の中学生の学校生活を知ろう",
+                  "items": [
+                    {
+                      "id": "G1_U2_WT1_S_01",
+                      "en": "What do you do in your break time?",
+                      "ja": "あなたは休み時間に何をしますか。"
+                    }
+                  ]
+                },
+                {
+                  "type": "script_section",
+                  "header": "音声の内容 (1) Matthew (Thailand)",
+                  "label": "タイの学校生活",
+                  "items": [
+                    {
+                      "id": "G1_U2_WT1_S_02",
+                      "speaker": "Matthew",
+                      "en": "Hi. I'm Matthew, from Thailand. This is my school.",
+                      "ja": "こんにちは、ぼくはマシュー、タイ出身です。これがぼくの学校です。"
+                    },
+                    {
+                      "id": "G1_U2_WT1_S_03",
+                      "speaker": "Matthew",
+                      "en": "My favorite subject is science. It's interesting and important for me.",
+                      "ja": "好きな教科は理科です。ぼくには興味深くて大切です。"
+                    },
+                    {
+                      "id": "G1_U2_WT1_S_04",
+                      "speaker": "Matthew",
+                      "en": "I eat lunch at the cafeteria. It's my favorite place.",
+                      "ja": "昼食は食堂で食べます。ぼくのお気に入りの場所です。"
+                    },
+                    {
+                      "id": "G1_U2_WT1_S_05",
+                      "speaker": "Matthew",
+                      "en": "We can buy food there. This is pork and rice. It's delicious.",
+                      "ja": "ぼくたちはそこで食べ物が買えます。これは豚肉とご飯。とてもおいしいんですよ。"
+                    },
+                    {
+                      "id": "G1_U2_WT1_S_06",
+                      "speaker": "Matthew",
+                      "en": "After school, I often play basketball. I'm good at playing basketball.",
+                      "ja": "放課後、よくバスケットボールをします。バスケットボールをするのが得意なんです。"
+                    },
+                    {
+                      "id": "G1_U2_WT1_S_07",
+                      "speaker": "Matthew",
+                      "en": "What do you eat for school lunch?",
+                      "ja": "あなたは学校の昼食に何を食べますか。"
+                    }
+                  ]
+                },
+                {
+                  "type": "script_section",
+                  "header": "音声の内容 (2) Georgia (Australia)",
+                  "label": "オーストラリアの学校生活",
+                  "items": [
+                    {
+                      "id": "G1_U2_WT1_S_08",
+                      "speaker": "Georgia",
+                      "en": "Hi. I'm Georgia, from Australia. This is my school.",
+                      "ja": "こんにちは、私はジョージア、オーストラリア出身です。これが私の学校です。"
+                    },
+                    {
+                      "id": "G1_U2_WT1_S_09",
+                      "speaker": "Georgia",
+                      "en": "My favorite subject is P.E. I like to play sports.",
+                      "ja": "好きな教科は体育です。スポーツをするのが好きなんです。"
+                    },
+                    {
+                      "id": "G1_U2_WT1_S_10",
+                      "speaker": "Georgia",
+                      "en": "At break time, I eat lunch and talk with my friends.",
+                      "ja": "休憩時間に、友達と昼食を食べておしゃべりします。"
+                    },
+                    {
+                      "id": "G1_U2_WT1_S_11",
+                      "speaker": "Georgia",
+                      "en": "I pack my own lunch box for school.",
+                      "ja": "学校に自分でお弁当をつめていきます。"
+                    },
+                    {
+                      "id": "G1_U2_WT1_S_12",
+                      "speaker": "Georgia",
+                      "en": "After school and on weekends, I like to play netball, basketball, and Australian football, AFL.",
+                      "ja": "放課後や週末に、ネットボール、バスケットボール、それにAFLというオーストラリアのフットボールをするのが好きです。"
+                    },
+                    {
+                      "id": "G1_U2_WT1_S_13",
+                      "speaker": "Georgia",
+                      "en": "I also listen to music with my sister.",
+                      "ja": "姉［妹］と音楽を聞くのも好きです。"
+                    },
+                    {
+                      "id": "G1_U2_WT1_S_14",
+                      "speaker": "Georgia",
+                      "en": "What do you do in your break time?",
+                      "ja": "あなたは休憩時間に何をしますか。"
+                    }
+                  ]
+                },
+                {
+                  "type": "extra_section",
+                  "header": "Extra: あなたの学校生活を紹介しよう",
+                  "label": "解答例 (Suzu Nakayama)",
+                  "items": [
+                    {
+                      "id": "G1_U2_WT1_S_15",
+                      "speaker": "Suzu",
+                      "en": "Hi. I'm Suzu Nakayama, from Japan. This is my school.",
+                      "ja": "こんにちは、私はナカヤマスズ、日本出身です。これが私の学校です。"
+                    },
+                    {
+                      "id": "G1_U2_WT1_S_16",
+                      "speaker": "Suzu",
+                      "en": "My favorite subject is English. I like to sing English songs.",
+                      "ja": "好きな教科は英語です。英語の歌を歌うのが好きです。"
+                    },
+                    {
+                      "id": "G1_U2_WT1_S_17",
+                      "speaker": "Suzu",
+                      "en": "I usually eat lunch in our classroom with my friends. It's my favorite time.",
+                      "ja": "いつもは教室で友達と昼食を食べます。私のお気に入りの時間です。"
+                    },
+                    {
+                      "id": "G1_U2_WT1_S_18",
+                      "speaker": "Suzu",
+                      "en": "After school, I play the guitar in the music room.",
+                      "ja": "放課後、音楽室でギターを弾きます。"
+                    },
+                    {
+                      "id": "G1_U2_WT1_S_19",
+                      "speaker": "Suzu",
+                      "en": "What do you do after school?",
+                      "ja": "あなたは放課後に何をしますか。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 50
+        }
+      },
+      "hasAppendix": true
+    }
+  },
+  "allExplanations": {
+    "G1_U2_P1_S_01": "**Here's** は **Here is** の短縮形で、**Here's ～.** で「ここが～だ。」と確かめる言い方です。",
+    "G1_U2_P1_S_03": "「あなた（たち）は～ですか。」と相手の状態や出身地などをたずねるときは、**Are you ...?** を使います。**are** は be動詞の仲間です。「～です」という意味で、主語が **you** などのときに使います。また、たずねる文の終わりには必ず **（？）クエスチョンマーク（疑問符）** を付けましょう。",
+    "G1_U2_P1_S_05": "**be interested in ～** で、「～に興味をもっている」という意味を表します。",
+    "G1_U2_P1_S_06": "**Are you ...?** の文に「はい。」で答えるときは **Yes, I am.** 、「いいえ。」で答えるときは **No, I'm not.** と言います。コンマは文の区切りを表し、文の途中で使います。",
+    "G1_U2_P1_S_09": "**Come in.** で「入りなさい。」という意味を表します。**please** を付けると「どうぞ～」と丁寧な言い方になります。",
+    "G1_U2_P2_S_01": "**like** は「～が好きだ」という味の一般動詞で、その後には、「～を［が］」という意味の、その動作や状態の対象となる語句がきます。この文では **music** が目的語となっています。",
+    "G1_U2_P2_S_04": "一般動詞の疑問文は、主語 (you) の前に **do** を置いて表します。④の **instrument** のような母音で始まる語の前の **a** は、**an** になるので、注意しましょう。⑧の **practice** は「練習する」という味の一般動詞で、**it** は「それを［に］」という意味の代名詞です。**it** は一度出てきた名詞の代わりに使われますが、この **it** は **the trumpet** の代わりに使われています。",
+    "G1_U2_P2_S_05": "**Do you ...?** の疑問文に答えるときは **do** を使い、「はい」なら **Yes, I do.** 、「いいえ」なら **No, I don't.** と言います。「あなたは」とたずねているので、答えるときの主語は「私は (I)」になることに注意しましょう。",
+    "G1_U2_P2_S_06": "この文の **play** は、「(楽器) を演奏する」という意味で使われています。**play** がこの意味で使われるときは、**〈play + the + 楽器〉** の形で、楽器の前に必ず **the** を付けるので注意しましょう。**a little** は、「少し(は)」という意味の言葉です。",
+    "G1_U2_P2_S_14": "**on** は、曜日や日付の前に置く前置詞です。ここでは、「月曜日、水曜日、金曜日に」という意味になります。",
+    "G1_U2_P3_S_01": "わからないものや事について「何」とたずねるときは **what** を使い、文の先頭に置きます。このような語を疑問詞といいます。**what's** は **what is** の短縮形です。**What's [What is] ～?** で「～は何ですか。」とたずねる文になります。疑問詞で始まる文の終わりは、文の最後を下げ調子に言います。普通の疑問文との違いに注意しましょう。",
+    "G1_U2_P3_S_02": "**can** が主語の前に置かれているので、「～することができますか」と可能かどうかをたずねる疑問文です。**can** の後の動詞は原形になります。②の **read it** の **it** 、⑤の **say it** の **it** は、動詞 **read, say** の目的語で、「それを」という意味の代名詞です。**it** は一度出てきた名詞の代わりに使われます。",
+    "G1_U2_P3_S_04": "**what** のような疑問詞で始まる疑問文には、**Yes** や **No** では答えません。**What's this?** には、**It's [It is] ～.** (それは～です。) の形で答えます。",
+    "G1_U2_P3_S_07": "**Can ...?** の疑問文には、**can** を使って答えます。**Yes** で答えるときは **〈Yes, 主語 + can.〉** 、**No** で答えるときは **〈No, 主語 + can't.〉** で答えます。",
+    "G1_U2_P3_S_10": "動詞で始まっているので「～しなさい」と相手の行動を促す表現です。"
+  }
+}
