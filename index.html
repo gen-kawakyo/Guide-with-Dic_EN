@@ -111,6 +111,9 @@
         ::-webkit-scrollbar-track { background: transparent; }
         ::-webkit-scrollbar-thumb { background: rgba(26, 26, 26, 0.1); border-radius: 10px; }
         ::-webkit-scrollbar-thumb:hover { background: rgba(26, 26, 26, 0.2); }
+
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
     </style>
 </head>
 <body class="min-h-screen">
@@ -160,9 +163,6 @@
             <div class="flex items-center gap-1.5 sm:gap-2">
                 <button onclick="openGlobalSearch()" class="p-2 rounded-full hover:bg-slate-100 transition-colors text-[#073d88]">
                     <i data-lucide="search" class="w-5 h-5"></i>
-                </button>
-                <button onclick="resetToTop()" id="btn-home" class="hidden p-2 rounded-full bg-[#1A1A1A] text-white hover:bg-opacity-80 transition-all">
-                    <i data-lucide="home" class="w-4 h-4"></i>
                 </button>
             </div>
         </div>
@@ -226,20 +226,20 @@
 
             <div id="main-content" class="hidden space-y-8">
                 <!-- View Tabs -->
-                <div class="flex items-center gap-8 border-b border-[#1A1A1A]/5 sticky top-16 bg-[#FDFCF7] z-30 pt-4">
-                    <button onclick="setView('text')" id="tab-text" class="view-tab pb-3 section-header opacity-60 tab-active">
+                <div class="flex items-center gap-4 sm:gap-8 border-b border-[#1A1A1A]/5 sticky top-16 bg-[#FDFCF7]/80 backdrop-blur-sm z-30 pt-4 overflow-x-auto scrollbar-hide no-scrollbar">
+                    <button onclick="setView('text')" id="tab-text" class="view-tab pb-3 section-header whitespace-nowrap opacity-60 tab-active">
                         <i data-lucide="file-text" class="w-3.5 h-3.5"></i>
                         Text
                     </button>
-                    <button onclick="setView('grammar')" id="tab-grammar" class="view-tab pb-3 section-header opacity-60">
+                    <button onclick="setView('grammar')" id="tab-grammar" class="view-tab pb-3 section-header whitespace-nowrap opacity-60">
                         <i data-lucide="graduation-cap" class="w-3.5 h-3.5"></i>
                         Grammar
                     </button>
-                    <button onclick="setView('vocab')" id="tab-vocab" class="view-tab pb-3 section-header opacity-60">
+                    <button onclick="setView('vocab')" id="tab-vocab" class="view-tab pb-3 section-header whitespace-nowrap opacity-60">
                         <i data-lucide="languages" class="w-3.5 h-3.5"></i>
-                        Vocabulary
+                        Vocab
                     </button>
-                    <button onclick="setView('appendix')" id="tab-appendix" class="view-tab pb-3 section-header opacity-60">
+                    <button onclick="setView('appendix')" id="tab-appendix" class="view-tab pb-3 section-header whitespace-nowrap opacity-60">
                         <i data-lucide="book-open" class="w-3.5 h-3.5"></i>
                         Appendix
                     </button>
@@ -470,7 +470,50 @@
             document.getElementById('main-content').classList.add('hidden');
             document.getElementById('active-controls').classList.add('hidden');
             document.getElementById('nav-trigger').classList.add('hidden');
-            document.getElementById('btn-home').classList.add('hidden');
+            
+            // Re-render Hub contents in case they were replaced by a spinner
+            document.getElementById('welcome-screen').innerHTML = `
+                <div class="w-full max-w-xl mx-auto space-y-12">
+                    <div class="text-center space-y-3">
+                        <div class="inline-flex p-4 rounded-3xl bg-[#1A1A1A]/5 mb-4">
+                             <i data-lucide="layout-grid" class="w-12 h-12 text-[#073d88]/40"></i>
+                         </div>
+                         <h2 class="text-2xl font-bold jp-serif tracking-tight">英語学習ハブへようこそ</h2>
+                         <p class="opacity-40 text-sm max-w-sm mx-auto">学年とユニットを選んで学習を始めましょう。</p>
+                    </div>
+
+                    <div class="bg-white p-6 sm:p-8 rounded-[2rem] border border-[#1A1A1A]/5 shadow-xl shadow-[#1A1A1A]/5 space-y-8">
+                        <div class="flex items-center gap-2 p-1 bg-[#F8F7F2] rounded-2xl">
+                            <button onclick="setHubGrade('1')" id="hub-grade-1" class="hub-grade-btn flex-1 py-3 rounded-xl text-xs font-bold transition-all ${hubGrade === '1' ? 'bg-white shadow-sm ring-1 ring-[#1A1A1A]/5' : 'opacity-40 hover:opacity-100'}">G1 <span class="hidden sm:inline">Grade 1</span></button>
+                            <button onclick="setHubGrade('2')" id="hub-grade-2" class="hub-grade-btn flex-1 py-3 rounded-xl text-xs font-bold transition-all ${hubGrade === '2' ? 'bg-white shadow-sm ring-1 ring-[#1A1A1A]/5' : 'opacity-40 hover:opacity-100'}">G2 <span class="hidden sm:inline">Grade 2</span></button>
+                            <button onclick="setHubGrade('3')" id="hub-grade-3" class="hub-grade-btn flex-1 py-3 rounded-xl text-xs font-bold transition-all ${hubGrade === '3' ? 'bg-white shadow-sm ring-1 ring-[#1A1A1A]/5' : 'opacity-40 hover:opacity-100'}">G3 <span class="hidden sm:inline">Grade 3</span></button>
+                        </div>
+
+                        <div id="hub-unit-grid" class="grid grid-cols-4 gap-2 sm:gap-3"></div>
+
+                        <div class="pt-6 border-t border-[#1A1A1A]/5 flex flex-col sm:flex-row items-center gap-3">
+                            <label class="w-full sm:flex-1 cursor-pointer group">
+                                <div class="flex items-center justify-center gap-2 py-4 bg-slate-50 rounded-2xl text-[11px] font-bold uppercase tracking-widest text-[#1A1A1A]/60 group-hover:bg-[#1A1A1A] group-hover:text-white transition-all">
+                                    <i data-lucide="upload" class="w-4 h-4"></i>
+                                    <span>ローカル読込</span>
+                                    <input type="file" id="hub-file-load-reset" multiple accept=".json" class="hidden">
+                                </div>
+                            </label>
+                            <button onclick="openGlobalSearch()" class="w-full sm:flex-1 flex items-center justify-center gap-2 py-4 bg-slate-50 rounded-2xl text-[11px] font-bold uppercase tracking-widest text-[#073d88]/60 hover:bg-[#073d88] hover:text-white transition-all">
+                                <i data-lucide="book" class="w-4 h-4"></i>
+                                <span>辞書・検索</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            // Connect the reset hub file input
+            document.getElementById('hub-file-load-reset')?.addEventListener('change', handleHubFileSelect);
+            
+            renderHub();
+            lucide.createIcons();
+
             selectedUnitId = null;
             selectedPartId = null;
             updateSidebar();
@@ -480,7 +523,6 @@
             const loaded = !!(selectedUnitId && appData.units[selectedUnitId]);
             document.getElementById('active-controls').classList.toggle('hidden', !loaded);
             document.getElementById('nav-trigger').classList.toggle('hidden', !loaded);
-            document.getElementById('btn-home').classList.toggle('hidden', !loaded);
         }
 
         function openGlobalSearch() {
@@ -557,7 +599,6 @@
             
             // Show loading indicator
             const welcome = document.getElementById('welcome-screen');
-            const originalContent = welcome.innerHTML;
             welcome.innerHTML = `
                 <div class="animate-spin mb-4"><i data-lucide="refresh-cw" class="w-8 h-8 opacity-20"></i></div>
                 <p class="opacity-30 text-sm">Loading ${filename}...</p>
@@ -570,20 +611,20 @@
                 const json = await res.json();
                 mergeData(json);
                 updateSidebar();
-                selectFirstAvailablePart();
                 
                 // Switch focus to content
                 document.getElementById('welcome-screen').classList.add('hidden');
                 document.getElementById('main-content').classList.remove('hidden');
                 updateHeaderUI();
-
+                
+                selectFirstAvailablePart();
+                
                 // Mobile specific: Open matrix automatically after loading
                 if (window.innerWidth < 1024) {
                     toggleMobileNav();
                 }
             } catch (err) {
-                welcome.innerHTML = originalContent;
-                lucide.createIcons();
+                resetToTop(); // Restore Hub if error
                 alert(`${filename} の読み込みに失敗しました。ファイルパス（${path}）を確認してください。`);
             }
         }
@@ -847,30 +888,30 @@
             
             // Connect hub file input
             const hubFile = document.getElementById('hub-file-load');
-            if (hubFile) {
-                hubFile.addEventListener('change', e => {
-                    const files = e.target.files;
-                    if (!files.length) return;
-                    Array.from(files).forEach(file => {
-                        const reader = new FileReader();
-                        reader.onload = event => {
-                            try {
-                                mergeData(JSON.parse(event.target.result));
-                                document.getElementById('welcome-screen').classList.add('hidden');
-                                document.getElementById('main-content').classList.remove('hidden');
-                                updateHeaderUI();
-                                selectFirstAvailablePart();
-                                
-                                if (window.innerWidth < 1024) {
-                                    toggleMobileNav();
-                                }
-                            } catch (err) {}
-                        };
-                        reader.readAsText(file);
-                    });
-                });
-            }
+            if (hubFile) hubFile.addEventListener('change', handleHubFileSelect);
         });
+
+        function handleHubFileSelect(e) {
+            const files = e.target.files;
+            if (!files.length) return;
+            Array.from(files).forEach(file => {
+                const reader = new FileReader();
+                reader.onload = event => {
+                    try {
+                        mergeData(JSON.parse(event.target.result));
+                        document.getElementById('welcome-screen').classList.add('hidden');
+                        document.getElementById('main-content').classList.remove('hidden');
+                        updateHeaderUI();
+                        selectFirstAvailablePart();
+                        
+                        if (window.innerWidth < 1024) {
+                            toggleMobileNav();
+                        }
+                    } catch (err) {}
+                };
+                reader.readAsText(file);
+            });
+        }
 
         function toggleMobileNav() {
             isMobileNavOpen = !isMobileNavOpen;
@@ -1261,11 +1302,22 @@
             if (!part) return;
             
             const views = part.views || {};
+            const hasText = views.TEXT || views.YCDI || views.WT || views.LR || views.ST;
+            const hasGrammar = views.GRAMMAR || views.AG;
+            const hasVocab = views.VOCABULARY || views.GL;
             const hasLocalAppendix = views.APPENDIX || views.PART_APPENDIX || views.UNIT_APPENDIX || part.hasAppendix;
             const isAppendixPart = selectedPartId === 'AP' || selectedPartId.startsWith('AP_');
             
-            // Show Appendix tab ONLY if it is the intended 'AP' part or the part itself has specific appendix data
+            // Show/Hide tabs based on content availability
+            document.getElementById('tab-text').classList.toggle('hidden', !hasText);
+            document.getElementById('tab-grammar').classList.toggle('hidden', !hasGrammar);
+            document.getElementById('tab-vocab').classList.toggle('hidden', !hasVocab);
             document.getElementById('tab-appendix').classList.toggle('hidden', !isAppendixPart && !hasLocalAppendix);
+
+            // Special Case: Appendix-only view
+            // If the user wants "Blue text only for APPENDIX" in appendix view, 
+            // the current scrollable tabs are fine, but let's make sure if it's an appendix-only part, 
+            // others are hidden. (Already handled by logic above)
 
             // Text View
             if (currentView === 'text') {
