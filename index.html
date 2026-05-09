@@ -100,6 +100,12 @@
             opacity: 1 !important;
         }
         
+        @media (min-width: 480px) {
+            .xs\:inline { display: inline; }
+            .xs\:flex { display: flex; }
+            .xs\:hidden { display: none; }
+        }
+
         /* Custom Scrollbar */
         ::-webkit-scrollbar { width: 6px; }
         ::-webkit-scrollbar-track { background: transparent; }
@@ -110,70 +116,55 @@
 <body class="min-h-screen">
 
     <!-- Header -->
-    <header class="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-[#1A1A1A]/10 px-4 lg:px-6 py-3 flex items-center justify-between">
-        <div class="flex items-center gap-3">
-            <button onclick="toggleMobileNav()" class="lg:hidden p-2 -ml-2 bg-[#1A1A1A]/5 rounded-xl hover:bg-[#1A1A1A]/10 transition-colors">
-                <i data-lucide="menu" class="w-5 h-5"></i>
-            </button>
-            <div class="bg-[#1A1A1A] text-white p-2 rounded-lg hidden sm:block">
-                <i data-lucide="book-open" class="w-4 h-4 sm:w-5 h-5"></i>
-            </div>
-            <div>
-                <h1 class="text-sm sm:text-lg font-bold tracking-tight italic serif truncate max-w-[120px] sm:max-w-none">English Learning Hub V2</h1>
-            </div>
-        </div>
-
-        <div class="flex items-center gap-2 sm:gap-4">
-            <div id="study-controls" class="hidden flex items-center gap-2 sm:gap-4 mr-1 sm:mr-2 border-r border-[#1A1A1A]/10 pr-2 sm:pr-4">
-                <label class="flex items-center gap-1.5 cursor-pointer group">
-                    <input type="checkbox" id="toggle-japanese" class="w-3.5 h-3.5 rounded border-[#1A1A1A]/20 accent-[#1A1A1A]">
-                    <span class="text-[10px] font-bold uppercase tracking-wider opacity-60">Show JP</span>
-                </label>
-                <label class="flex items-center gap-2 cursor-pointer group">
-                    <input type="checkbox" id="toggle-meanings" class="w-3.5 h-3.5 rounded border-[#1A1A1A]/20 accent-[#1A1A1A]">
-                    <span class="text-[10px] font-bold uppercase tracking-wider opacity-60">Show Vocab</span>
-                </label>
+    <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-[#1A1A1A]/10 px-4 py-3">
+        <div class="max-w-[1600px] mx-auto flex items-center justify-between gap-4">
+            <!-- Left: Brand & Mobile Menu -->
+            <div class="flex items-center gap-3">
+                <button onclick="toggleMobileNav()" id="nav-trigger" class="hidden p-2 -ml-2 bg-[#1A1A1A]/5 rounded-xl hover:bg-[#1A1A1A]/10 transition-colors">
+                    <i data-lucide="layout-grid" class="w-5 h-5 text-[#073d88]"></i>
+                </button>
+                <div onclick="resetToTop()" class="cursor-pointer flex items-center gap-2 group">
+                    <div class="bg-[#1A1A1A] text-white p-1.5 rounded-lg transition-transform group-hover:scale-105">
+                        <i data-lucide="book-open" class="w-4 h-4 sm:w-5 h-5"></i>
+                    </div>
+                    <div class="hidden sm:block">
+                        <h1 class="text-sm font-bold tracking-tight italic serif">English Hub</h1>
+                    </div>
+                </div>
             </div>
 
-            <!-- Grade/Unit Selector -->
-            <div class="flex items-center gap-2 bg-[#F8F7F2] border border-[#1A1A1A]/10 p-1 rounded-full overflow-hidden">
-                <select id="grade-selector" class="bg-transparent text-[10px] font-bold uppercase tracking-widest px-2 py-1 outline-none cursor-pointer">
-                    <option value="1">G1</option>
-                    <option value="2">G2</option>
-                    <option value="3">G3</option>
-                </select>
-                <div class="w-px h-3 bg-[#1A1A1A]/10"></div>
-                <select id="unit-selector" class="bg-transparent text-[10px] font-bold uppercase tracking-widest px-2 py-1 outline-none cursor-pointer">
-                    <option value="1">U1</option>
-                    <option value="2">U2</option>
-                    <option value="3">U3</option>
-                    <option value="4">U4</option>
-                    <option value="5">U5</option>
-                    <option value="6">U6</option>
-                    <option value="7">U7</option>
-                    <option value="8">U8</option>
-                </select>
-                <button onclick="loadCurrentSelection()" class="bg-[#1A1A1A] text-white p-1.5 rounded-full hover:bg-opacity-80 transition-all">
-                    <i data-lucide="refresh-cw" class="w-3 h-3"></i>
+            <!-- Middle: Dynamic Controls (Visible when content loaded) -->
+            <div id="active-controls" class="hidden flex-1 flex items-center justify-center gap-2 lg:gap-4 overflow-hidden">
+                <div class="flex items-center gap-1 bg-[#F8F7F2] border border-[#1A1A1A]/10 p-1 rounded-full">
+                    <button onclick="setMode('display')" id="btn-display" class="mode-btn px-3 sm:px-4 py-1.5 rounded-full text-[10px] sm:text-xs font-bold transition-all bg-white shadow-sm flex items-center gap-1.5">
+                        <i data-lucide="eye" class="w-3 h-3"></i>
+                        <span class="hidden xs:inline">Display</span>
+                    </button>
+                    <button onclick="setMode('study')" id="btn-study" class="mode-btn px-3 sm:px-4 py-1.5 rounded-full text-[10px] sm:text-xs font-bold transition-all opacity-60 hover:opacity-100 flex items-center gap-1.5">
+                        <i data-lucide="graduation-cap" class="w-3 h-3"></i>
+                        <span class="hidden xs:inline">Study</span>
+                    </button>
+                </div>
+
+                <div id="study-options" class="hidden flex items-center gap-1 border-l border-[#1A1A1A]/10 pl-2 lg:pl-4">
+                    <button onclick="toggleStudyOption('japanese')" id="opt-japanese" class="p-2 rounded-lg bg-[#1A1A1A]/5 hover:bg-[#1A1A1A]/10 transition-colors opacity-40">
+                         <i data-lucide="languages" class="w-4 h-4"></i>
+                    </button>
+                    <button onclick="toggleStudyOption('meanings')" id="opt-meanings" class="p-2 rounded-lg bg-[#1A1A1A]/5 hover:bg-[#1A1A1A]/10 transition-colors opacity-40">
+                         <i data-lucide="spell-check" class="w-4 h-4"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Right: Global Actions -->
+            <div class="flex items-center gap-1.5 sm:gap-2">
+                <button onclick="openGlobalSearch()" class="p-2 rounded-full hover:bg-slate-100 transition-colors text-[#073d88]">
+                    <i data-lucide="search" class="w-5 h-5"></i>
+                </button>
+                <button onclick="resetToTop()" id="btn-home" class="hidden p-2 rounded-full bg-[#1A1A1A] text-white hover:bg-opacity-80 transition-all">
+                    <i data-lucide="home" class="w-4 h-4"></i>
                 </button>
             </div>
-
-            <nav class="flex bg-[#E4E3E0]/50 p-1 rounded-full hidden md:flex">
-                <button onclick="setMode('display')" id="btn-display" class="mode-btn px-4 py-1.5 rounded-full text-xs font-bold transition-all bg-white shadow-sm">Display</button>
-                <button onclick="setMode('study')" id="btn-study" class="mode-btn px-4 py-1.5 rounded-full text-xs font-bold transition-all opacity-60 hover:opacity-100">Study</button>
-            </nav>
-
-            <label class="flex items-center gap-2 bg-[#073d88] text-white px-4 py-2 rounded-full text-xs font-bold cursor-pointer hover:bg-opacity-90 transition-all">
-                <i data-lucide="book" class="w-3.5 h-3.5"></i>
-                <span>Dict</span>
-                <input type="file" id="dict-file-input" accept=".json" class="hidden">
-            </label>
-
-            <label class="flex items-center gap-2 bg-[#1A1A1A] text-white px-4 py-2 rounded-full text-xs font-bold cursor-pointer hover:bg-opacity-90 transition-all">
-                <i data-lucide="upload" class="w-3.5 h-3.5"></i>
-                <span>Load</span>
-                <input type="file" id="file-input" multiple accept=".json" class="hidden">
-            </label>
         </div>
     </header>
 
@@ -191,12 +182,46 @@
 
         <!-- Content Area -->
         <section id="content-area" class="space-y-8">
-            <div id="welcome-screen" class="h-[40vh] flex flex-col items-center justify-center text-center space-y-4">
-                <div class="p-6 rounded-full bg-[#1A1A1A]/5 mb-2">
-                    <i data-lucide="layout-grid" class="w-10 h-10 opacity-20"></i>
+            <div id="welcome-screen" class="min-h-[70vh] flex flex-col items-center justify-center p-4">
+                <div class="w-full max-w-xl mx-auto space-y-12">
+                    <div class="text-center space-y-3">
+                        <div class="inline-flex p-4 rounded-3xl bg-[#1A1A1A]/5 mb-4 mb-2">
+                             <i data-lucide="layout-grid" class="w-12 h-12 text-[#073d88]/40"></i>
+                         </div>
+                         <h2 class="text-2xl font-bold jp-serif tracking-tight">英語学習ハブへようこそ</h2>
+                         <p class="opacity-40 text-sm max-w-sm mx-auto">学年とユニットを選んで学習を始めましょう。</p>
+                    </div>
+
+                    <!-- Hub Entry Point -->
+                    <div class="bg-white p-6 sm:p-8 rounded-[2rem] border border-[#1A1A1A]/5 shadow-xl shadow-[#1A1A1A]/5 space-y-8">
+                        <!-- Grade Tabs -->
+                        <div class="flex items-center gap-2 p-1 bg-[#F8F7F2] rounded-2xl">
+                            <button onclick="setHubGrade('1')" id="hub-grade-1" class="hub-grade-btn flex-1 py-3 rounded-xl text-xs font-bold transition-all bg-white shadow-sm ring-1 ring-[#1A1A1A]/5">G1 <span class="hidden sm:inline">Grade 1</span></button>
+                            <button onclick="setHubGrade('2')" id="hub-grade-2" class="hub-grade-btn flex-1 py-3 rounded-xl text-xs font-bold transition-all opacity-40 hover:opacity-100">G2 <span class="hidden sm:inline">Grade 2</span></button>
+                            <button onclick="setHubGrade('3')" id="hub-grade-3" class="hub-grade-btn flex-1 py-3 rounded-xl text-xs font-bold transition-all opacity-40 hover:opacity-100">G3 <span class="hidden sm:inline">Grade 3</span></button>
+                        </div>
+
+                        <!-- Unit Grid -->
+                        <div id="hub-unit-grid" class="grid grid-cols-4 gap-2 sm:gap-3">
+                            <!-- Populated by JS -->
+                        </div>
+
+                        <!-- Secondary Actions -->
+                        <div class="pt-6 border-t border-[#1A1A1A]/5 flex flex-col sm:flex-row items-center gap-3">
+                            <label class="w-full sm:flex-1 cursor-pointer group">
+                                <div class="flex items-center justify-center gap-2 py-4 bg-slate-50 rounded-2xl text-[11px] font-bold uppercase tracking-widest text-[#1A1A1A]/60 group-hover:bg-[#1A1A1A] group-hover:text-white transition-all">
+                                    <i data-lucide="upload" class="w-4 h-4"></i>
+                                    <span>ローカル読込</span>
+                                    <input type="file" id="hub-file-load" multiple accept=".json" class="hidden">
+                                </div>
+                            </label>
+                            <button onclick="openGlobalSearch()" class="w-full sm:flex-1 flex items-center justify-center gap-2 py-4 bg-slate-50 rounded-2xl text-[11px] font-bold uppercase tracking-widest text-[#073d88]/60 hover:bg-[#073d88] hover:text-white transition-all">
+                                <i data-lucide="book" class="w-4 h-4"></i>
+                                <span>辞書・検索</span>
+                            </button>
+                        </div>
+                    </div>
                 </div>
-                <h2 class="text-lg font-bold jp-serif">英語学習ハブへようこそ</h2>
-                <p class="opacity-40 text-sm max-w-xs mx-auto">上のセレクターから学年とユニットを選択して「更新」ボタンを押すか、ローカルのJSONファイルをロードしてください。</p>
             </div>
 
             <div id="main-content" class="hidden space-y-8">
@@ -339,6 +364,7 @@
         let isMobileNavOpen = false;
         let selectedUnitId = null;
         let selectedPartId = null;
+        let hubGrade = '1';
         let showJapanese = false;
         let showMeanings = false;
         let dictionary = {};
@@ -407,6 +433,96 @@
         }
 
         // Dictionary Helpers
+        // Hub Functions
+        function setHubGrade(grade) {
+            hubGrade = grade;
+            document.querySelectorAll('.hub-grade-btn').forEach(btn => {
+                btn.classList.remove('bg-white', 'shadow-sm', 'ring-1', 'ring-[#1A1A1A]/5', 'opacity-40');
+                if (btn.id === `hub-grade-${grade}`) {
+                    btn.classList.add('bg-white', 'shadow-sm', 'ring-1', 'ring-[#1A1A1A]/5');
+                } else {
+                    btn.classList.add('opacity-40');
+                }
+            });
+        }
+
+        function selectHubUnit(unit) {
+            loadServerContent(hubGrade, unit);
+        }
+
+        function renderHub() {
+            const welcome = document.getElementById('welcome-screen');
+            if (!welcome) return;
+
+            const gridHtml = [1,2,3,4,5,6,7,8].map(u => `
+                <button onclick="selectHubUnit('${u}')" class="unit-tile flex flex-col items-center justify-center aspect-square rounded-2xl border-2 border-transparent bg-[#F8F7F2] hover:bg-white hover:border-[#F27D26]/20 transition-all group">
+                    <span class="text-[10px] font-bold opacity-30 group-hover:text-[#F27D26] transition-colors">U${u}</span>
+                    <span class="text-lg font-bold serif group-hover:text-[#F27D26] transition-colors">${u}</span>
+                </button>
+            `).join('');
+
+            const gridPlaceholder = document.getElementById('hub-unit-grid');
+            if (gridPlaceholder) gridPlaceholder.innerHTML = gridHtml;
+        }
+
+        function resetToTop() {
+            document.getElementById('welcome-screen').classList.remove('hidden');
+            document.getElementById('main-content').classList.add('hidden');
+            document.getElementById('active-controls').classList.add('hidden');
+            document.getElementById('nav-trigger').classList.add('hidden');
+            document.getElementById('btn-home').classList.add('hidden');
+            selectedUnitId = null;
+            selectedPartId = null;
+            updateSidebar();
+        }
+
+        function updateHeaderUI() {
+            const loaded = !!(selectedUnitId && appData.units[selectedUnitId]);
+            document.getElementById('active-controls').classList.toggle('hidden', !loaded);
+            document.getElementById('nav-trigger').classList.toggle('hidden', !loaded);
+            document.getElementById('btn-home').classList.toggle('hidden', !loaded);
+        }
+
+        function openGlobalSearch() {
+            if (Object.keys(dictionary).length === 0) {
+                const input = document.createElement('input');
+                input.type = 'file';
+                input.accept = '.json';
+                input.onchange = (e) => {
+                    const file = e.target.files[0];
+                    if (!file) return;
+                    const reader = new FileReader();
+                    reader.onload = (ev) => {
+                        try {
+                            handleDictionaryData(JSON.parse(ev.target.result));
+                            if (window.innerWidth < 1024) document.getElementById('dictionary-panel').classList.remove('hidden');
+                        } catch (err) { alert("辞書の読み込みに失敗しました。"); }
+                    };
+                    reader.readAsText(file);
+                };
+                input.click();
+            } else {
+                if (window.innerWidth < 1024) {
+                    document.getElementById('dictionary-panel').classList.remove('hidden');
+                }
+            }
+        }
+
+        function toggleStudyOption(type) {
+            if (type === 'japanese') {
+                showJapanese = !showJapanese;
+                document.getElementById('opt-japanese').classList.toggle('opacity-40', !showJapanese);
+                document.getElementById('opt-japanese').classList.toggle('bg-[#F27D26]/10', showJapanese);
+                document.getElementById('opt-japanese').classList.toggle('text-[#F27D26]', showJapanese);
+            } else if (type === 'meanings') {
+                showMeanings = !showMeanings;
+                document.getElementById('opt-meanings').classList.toggle('opacity-40', !showMeanings);
+                document.getElementById('opt-meanings').classList.toggle('bg-[#F27D26]/10', showMeanings);
+                document.getElementById('opt-meanings').classList.toggle('text-[#F27D26]', showMeanings);
+            }
+            renderContent();
+        }
+
         function handleDictionaryData(data) {
             if (!Array.isArray(data)) return;
             dictionary = {};
@@ -459,6 +575,12 @@
                 // Switch focus to content
                 document.getElementById('welcome-screen').classList.add('hidden');
                 document.getElementById('main-content').classList.remove('hidden');
+                updateHeaderUI();
+
+                // Mobile specific: Open matrix automatically after loading
+                if (window.innerWidth < 1024) {
+                    toggleMobileNav();
+                }
             } catch (err) {
                 welcome.innerHTML = originalContent;
                 lucide.createIcons();
@@ -692,40 +814,6 @@
             }
         }
 
-        document.getElementById('dict-file-input').addEventListener('change', function(e) {
-            const file = e.target.files[0];
-            if (!file) return;
-            const reader = new FileReader();
-            reader.onload = (event) => {
-                try {
-                    handleDictionaryData(JSON.parse(event.target.result));
-                    alert("Dictionary loaded!");
-                } catch (err) { alert("Failed to load dictionary."); }
-            };
-            reader.readAsText(file);
-        });
-
-        document.getElementById('file-input').addEventListener('change', function(e) {
-            const files = e.target.files;
-            if (!files.length) return;
-            Array.from(files).forEach(file => {
-                const reader = new FileReader();
-                reader.onload = function(event) {
-                    try {
-                        const json = JSON.parse(event.target.result);
-                        mergeData(json);
-                        updateSidebar();
-                        if (selectedUnitId && selectedPartId) renderContent();
-                        else selectFirstAvailablePart();
-                    } catch (err) { console.error("JSON Error:", err); }
-                };
-                reader.readAsText(file);
-            });
-        });
-
-        document.getElementById('toggle-japanese').addEventListener('change', (e) => { showJapanese = e.target.checked; renderContent(); });
-        document.getElementById('toggle-meanings').addEventListener('change', (e) => { showMeanings = e.target.checked; renderContent(); });
-
         function setMode(mode) {
             currentMode = mode;
             document.querySelectorAll('.mode-btn').forEach(btn => {
@@ -733,7 +821,8 @@
                 if (btn.id === `btn-${mode}`) btn.classList.add('bg-white', 'shadow-sm');
                 else btn.classList.add('opacity-60');
             });
-            document.getElementById('study-controls').classList.toggle('hidden', mode !== 'study');
+            const opt = document.getElementById('study-options');
+            if (opt) opt.classList.toggle('hidden', mode !== 'study');
             renderContent();
         }
 
@@ -753,10 +842,34 @@
         // Initialize on load
         window.addEventListener('DOMContentLoaded', () => {
             loadDictionary();
+            renderHub();
             lucide.createIcons();
             
-            // Optional: Initial load of G1-U1 or just wait for selection
-            // loadServerContent(1, 1);
+            // Connect hub file input
+            const hubFile = document.getElementById('hub-file-load');
+            if (hubFile) {
+                hubFile.addEventListener('change', e => {
+                    const files = e.target.files;
+                    if (!files.length) return;
+                    Array.from(files).forEach(file => {
+                        const reader = new FileReader();
+                        reader.onload = event => {
+                            try {
+                                mergeData(JSON.parse(event.target.result));
+                                document.getElementById('welcome-screen').classList.add('hidden');
+                                document.getElementById('main-content').classList.remove('hidden');
+                                updateHeaderUI();
+                                selectFirstAvailablePart();
+                                
+                                if (window.innerWidth < 1024) {
+                                    toggleMobileNav();
+                                }
+                            } catch (err) {}
+                        };
+                        reader.readAsText(file);
+                    });
+                });
+            }
         });
 
         function toggleMobileNav() {
@@ -916,6 +1029,7 @@
                 });
             });
             list.innerHTML = html;
+            updateMobileNavigation();
             lucide.createIcons();
         }
 
@@ -923,6 +1037,9 @@
             selectedUnitId = uId; 
             selectedPartId = pId; 
             
+            if (isMobileNavOpen) toggleMobileNav();
+            updateHeaderUI();
+
             const part = appData.units[uId].parts[pId];
             const views = part.views || {};
             
@@ -1311,10 +1428,6 @@
             return html;
         }
 
-        window.onload = () => {
-            lucide.createIcons();
-            loadDictionary();
-        };
     </script>
 </body>
 </html>
