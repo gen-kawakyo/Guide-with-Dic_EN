@@ -1239,19 +1239,50 @@
         }
 
         function showExplanation(id) {
-            const exp = getExplanation(id);
-            if (!exp) return;
+            const text = getExplanation(id);
+            if (!text) return;
             
-            if (exp.en || exp.ja) {
-                document.getElementById('modal-context-en').innerHTML = parseMarkdown(exp.en || '');
-                document.getElementById('modal-context-ja').innerHTML = parseMarkdown(exp.ja || '');
+            // 元の英文を探す（現在のパート内を優先）
+            let originalItem = null;
+            const unit = appData.units[selectedUnitId];
+            const part = unit?.parts[selectedPartId];
+            
+            if (part && part.views) {
+                for (const vKey in part.views) {
+                    const view = part.views[vKey];
+                    // itemsを検索
+                    if (view.items) {
+                        originalItem = view.items.find(i => (i.ref_id || i.id) === id);
+                    }
+                    // content_blocks内のitemsを検索
+                    if (!originalItem && view.content_blocks) {
+                        view.content_blocks.forEach(block => {
+                            if (block.items && !originalItem) {
+                                originalItem = block.items.find(i => (i.ref_id || i.id) === id);
+                            }
+                            if (block.groups && !originalItem) {
+                                block.groups.forEach(group => {
+                                    if (group.items && !originalItem) {
+                                        originalItem = group.items.find(i => (i.ref_id || i.id) === id);
+                                    }
+                                });
+                            }
+                        });
+                    }
+                    if (originalItem) break;
+                }
+            }
+
+            if (originalItem) {
+                document.getElementById('modal-context-en').innerHTML = parseMarkdown(originalItem.en || '');
+                document.getElementById('modal-context-ja').innerHTML = parseMarkdown(originalItem.ja || '');
                 document.getElementById('modal-context').classList.remove('hidden');
             } else {
                 document.getElementById('modal-context').classList.add('hidden');
             }
 
-            document.getElementById('modal-text').innerHTML = parseMarkdown(exp.text);
-            document.getElementById('modal-page').innerText = `Page: ${exp.page || '--'}`;
+            document.getElementById('modal-text').innerHTML = parseMarkdown(text);
+            document.getElementById('modal-page').innerText = `Page: ${part?.page || '--'}`;
             document.getElementById('modal-id').innerText = `ID: ${id}`;
             document.getElementById('modal').classList.remove('hidden');
             lucide.createIcons();
