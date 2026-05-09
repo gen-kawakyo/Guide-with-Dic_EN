@@ -123,16 +123,14 @@
         <div class="max-w-[1600px] mx-auto flex items-center justify-between gap-4">
             <!-- Left: Brand & Mobile Menu -->
             <div class="flex items-center gap-3">
-                <button onclick="toggleMobileNav()" id="nav-trigger" class="hidden p-2 -ml-2 bg-[#1A1A1A]/5 rounded-xl hover:bg-[#1A1A1A]/10 transition-colors">
+                <button onclick="toggleMobileNav()" id="nav-trigger" class="hidden p-2 -ml-2 bg-[#073d88]/5 rounded-xl hover:bg-[#073d88]/10 transition-colors">
                     <i data-lucide="layout-grid" class="w-5 h-5 text-[#073d88]"></i>
                 </button>
-                <div onclick="resetToTop()" class="cursor-pointer flex items-center gap-2 group">
-                    <div class="bg-[#1A1A1A] text-white p-1.5 rounded-lg transition-transform group-hover:scale-105">
+                <div class="flex items-center gap-2">
+                    <div class="bg-[#1A1A1A] text-white p-1.5 rounded-lg">
                         <i data-lucide="book-open" class="w-4 h-4 sm:w-5 h-5"></i>
                     </div>
-                    <div class="hidden sm:block">
-                        <h1 class="text-sm font-bold tracking-tight italic serif">English Hub</h1>
-                    </div>
+                    <h1 class="text-xs sm:text-sm font-bold tracking-tight italic serif">English Hub</h1>
                 </div>
             </div>
 
@@ -160,9 +158,13 @@
             </div>
 
             <!-- Right: Global Actions -->
-            <div class="flex items-center gap-1.5 sm:gap-2">
+            <div class="flex items-center gap-1 sm:gap-2">
                 <button onclick="openGlobalSearch()" class="p-2 rounded-full hover:bg-slate-100 transition-colors text-[#073d88]">
                     <i data-lucide="search" class="w-5 h-5"></i>
+                </button>
+                <div class="w-px h-6 bg-[#1A1A1A]/10 mx-1"></div>
+                <button onclick="resetToTop()" class="p-2 rounded-full hover:bg-slate-100 transition-colors text-[#1A1A1A]/60 hover:text-[#1A1A1A]">
+                    <i data-lucide="home" class="w-5 h-5"></i>
                 </button>
             </div>
         </div>
@@ -266,17 +268,18 @@
         <!-- Dictionary Sidebar -->
         <aside id="dictionary-sidebar" class="hidden lg:block">
             <div id="dictionary-container" class="bg-white rounded-2xl border border-[#1A1A1A]/5 shadow-sm sticky top-20 flex flex-col h-[calc(100vh-120px)] overflow-hidden">
-                <div class="px-5 py-4 border-b border-[#1A1A1A]/5 flex items-center justify-between bg-slate-50/50 cursor-pointer hover:bg-slate-100/80 transition-colors group" onclick="clearDictionary()">
-                    <div class="flex items-center gap-2">
-                        <i data-lucide="book" class="w-3.5 h-3.5 text-[#073d88]"></i>
-                        <h2 class="text-[10px] font-bold uppercase tracking-wider text-[#1A1A1A]/60 group-hover:text-[#1A1A1A]">Dictionary</h2>
+                <div class="p-4 border-b border-[#1A1A1A]/5 bg-slate-50/50">
+                    <div class="relative">
+                        <input type="text" id="search-input" placeholder="辞書・ユニット内検索..." 
+                               oninput="handleSearch(this.value)"
+                               class="w-full bg-white border border-[#1A1A1A]/10 rounded-xl py-2.5 pl-9 pr-4 text-xs font-medium focus:outline-none focus:ring-2 focus:ring-[#073d88]/20 focus:border-[#073d88] transition-all">
+                        <i data-lucide="search" class="w-3.5 h-3.5 absolute left-3 top-1/2 -translate-y-1/2 text-[#1A1A1A]/30"></i>
                     </div>
-                    <i data-lucide="trash-2" class="w-3 h-3 opacity-0 group-hover:opacity-20 transition-opacity"></i>
                 </div>
                 <div id="dictionary-results" class="flex-1 overflow-y-auto p-5 space-y-6">
                     <div class="flex flex-col items-center justify-center h-full text-center space-y-4 opacity-20">
                         <i data-lucide="search" class="w-8 h-8"></i>
-                        <p class="text-[11px] jp-serif">英単語をクリックして検索</p>
+                        <p class="text-[11px] jp-serif">言葉を入力して検索</p>
                     </div>
                 </div>
             </div>
@@ -340,18 +343,24 @@
     <div id="dictionary-panel" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 lg:hidden">
         <div class="absolute inset-0 bg-[#1A1A1A]/30 backdrop-blur-sm" onclick="closeDictionary()"></div>
         <aside class="relative flex flex-col w-full max-w-[440px] h-[80vh] bg-white rounded-3xl shadow-2xl overflow-hidden border border-[#1A1A1A]/10 animate-fade-in">
-            <div class="px-8 py-5 border-b border-[#1A1A1A]/5 flex items-center justify-between bg-slate-50">
-                <div class="flex items-center gap-3">
-                    <div class="p-1.5 bg-[#073d88]/10 rounded-lg text-[#073d88]">
-                        <i data-lucide="book" class="w-4 h-4"></i>
+            <div class="px-6 py-4 border-b border-[#1A1A1A]/5 flex flex-col gap-4 bg-slate-50">
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-2">
+                        <div class="p-1.5 bg-[#073d88]/10 rounded-lg text-[#073d88]">
+                            <i data-lucide="search" class="w-4 h-4"></i>
+                        </div>
+                        <h2 class="text-xs font-bold uppercase tracking-widest text-[#1A1A1A]/80">Search</h2>
                     </div>
-                    <div>
-                        <h2 class="text-xs font-bold uppercase tracking-widest text-[#1A1A1A]/80">Dictionary</h2>
-                    </div>
+                    <button onclick="closeDictionary()" class="p-2 bg-white/50 rounded-full shadow-sm"><i data-lucide="x" class="w-4 h-4"></i></button>
                 </div>
-                <button onclick="closeDictionary()" class="p-2 -mr-2 opacity-30 hover:opacity-100 transition-opacity"><i data-lucide="x" class="w-4 h-4"></i></button>
+                <div class="relative">
+                    <input type="text" id="search-input-mobile" placeholder="検索ワードを入力..." 
+                           oninput="handleSearch(this.value)"
+                           class="w-full bg-white border border-[#1A1A1A]/10 rounded-xl py-3 pl-10 pr-4 text-sm font-medium focus:outline-none focus:ring-2 focus:ring-[#073d88]/20 transition-all">
+                    <i data-lucide="search" class="w-4 h-4 absolute left-3.5 top-1/2 -translate-y-1/2 text-[#1A1A1A]/30"></i>
+                </div>
             </div>
-            <div id="dictionary-results-mobile" class="flex-1 overflow-y-auto p-8 space-y-8">
+            <div id="dictionary-results-mobile" class="flex-1 overflow-y-auto p-6 space-y-8">
                 <!-- Mobile results injected via JS -->
             </div>
         </aside>
@@ -537,17 +546,154 @@
                     reader.onload = (ev) => {
                         try {
                             handleDictionaryData(JSON.parse(ev.target.result));
-                            if (window.innerWidth < 1024) document.getElementById('dictionary-panel').classList.remove('hidden');
+                            showSearchUI();
                         } catch (err) { alert("辞書の読み込みに失敗しました。"); }
                     };
                     reader.readAsText(file);
                 };
                 input.click();
             } else {
-                if (window.innerWidth < 1024) {
-                    document.getElementById('dictionary-panel').classList.remove('hidden');
+                showSearchUI();
+            }
+        }
+
+        function showSearchUI() {
+            if (window.innerWidth < 1024) {
+                document.getElementById('dictionary-panel').classList.remove('hidden');
+                setTimeout(() => document.getElementById('search-input-mobile')?.focus(), 100);
+            } else {
+                document.getElementById('search-input')?.focus();
+            }
+        }
+
+        function handleSearch(query) {
+            const q = query.trim().toLowerCase();
+            if (!q) {
+                clearDictionary();
+                return;
+            }
+
+            const unitResults = searchInUnit(q);
+            const dictResults = searchDictionaryInternal(q);
+            
+            displayAllSearchResults(q, unitResults, dictResults);
+        }
+
+        function searchInUnit(q) {
+            if (q.length < 2 || !selectedUnitId) return [];
+            const matches = [];
+            const unit = appData.units[selectedUnitId];
+            if (!unit) return [];
+
+            for (const pId in unit.parts) {
+                const part = unit.parts[pId];
+                for (const vKey in part.views) {
+                    const view = part.views[vKey];
+                    const searchItems = (items) => {
+                        if (!items) return;
+                        items.forEach(item => {
+                            const en = (item.en || "").toLowerCase();
+                            const ja = (item.ja || "").toLowerCase();
+                            if (en.includes(q) || ja.includes(q)) {
+                                matches.push({ pId, pTitle: part.title, vId: vKey, item });
+                            }
+                        });
+                    };
+                    searchItems(view.items);
+                    if (view.content_blocks) {
+                        view.content_blocks.forEach(block => {
+                            searchItems(block.items);
+                            if (block.groups) block.groups.forEach(g => searchItems(g.items));
+                        });
+                    }
                 }
             }
+            return matches.slice(0, 10);
+        }
+
+        function searchDictionaryInternal(word) {
+            const cleanWord = word.toLowerCase().trim().replace(/[.,!?;:()]/g, '');
+            if (dictionary[cleanWord]) return dictionary[cleanWord];
+            
+            const candidates = [];
+            if (cleanWord.endsWith('ies') && cleanWord.length > 3) candidates.push(cleanWord.slice(0, -3) + 'y');
+            if (cleanWord.endsWith('es') && cleanWord.length > 3) candidates.push(cleanWord.slice(0, -2));
+            if (cleanWord.endsWith('s') && cleanWord.length > 2) candidates.push(cleanWord.slice(0, -1));
+            
+            for (const cand of candidates) {
+                if (dictionary[cand]) return dictionary[cand];
+            }
+            return [];
+        }
+
+        function displayAllSearchResults(query, unitResults, dictResults) {
+            const container = document.getElementById('dictionary-results');
+            const mobileContainer = document.getElementById('dictionary-results-mobile');
+            
+            const enrich = (t) => t.replace(/(<[^>]+>)|(\b[a-zA-Z']+\b)/g, (match, tag, word) => tag || `<span class="cursor-pointer hover:text-blue-600 transition-colors underline decoration-transparent" onclick="searchDictionary('${word}'); event.stopPropagation();">${word}</span>`);
+
+            let html = `<div class="space-y-8">`;
+
+            // Unit Results
+            if (unitResults.length > 0) {
+                html += `<div>
+                    <h3 class="text-[10px] font-bold uppercase tracking-widest text-[#F27D26] mb-4 flex items-center gap-2">
+                        <i data-lucide="layers" class="w-3 h-3"></i> Unit Results
+                    </h3>
+                    <div class="space-y-3">`;
+                unitResults.forEach(res => {
+                    html += `<div onclick="selectPart('${selectedUnitId}', '${res.pId}'); setView('${res.vId.toLowerCase()}');" class="p-3 bg-slate-50 hover:bg-white border border-transparent hover:border-[#1A1A1A]/10 rounded-xl cursor-pointer transition-all">
+                        <p class="text-[9px] font-bold opacity-30 uppercase tracking-widest mb-1">${res.pTitle} / ${res.vId}</p>
+                        <p class="text-xs font-bold serif text-[#073d88] leading-tight mb-1">${enrich(res.item.en || "")}</p>
+                        <p class="text-[10px] jp-serif opacity-60">${res.item.ja || ""}</p>
+                    </div>`;
+                });
+                html += `</div></div>`;
+            }
+
+            // Dictionary Results
+            if (dictResults.length > 0) {
+                html += `<div>
+                    <h3 class="text-[10px] font-bold uppercase tracking-widest text-[#073d88] mb-4 flex items-center gap-2">
+                        <i data-lucide="book" class="w-3 h-3"></i> Dictionary
+                    </h3>`;
+                dictResults.forEach(entry => {
+                    html += `<div class="dictionary-entry mb-8">
+                        <h3 class="text-lg font-bold serif border-b border-[#1A1A1A]/10 pb-2 mb-3">${entry.word}</h3>
+                        ${entry.senses.map(sense => `
+                            <div class="mb-4">
+                                <span class="text-[8px] bg-[#1A1A1A] text-white px-1.5 py-0.5 rounded font-bold mr-2 uppercase">${sense.pos}</span>
+                                <div class="mt-2 space-y-1.5">
+                                    ${sense.definitions.map(def => `<p class="text-xs font-bold jp-serif">${def.meaning}</p>`).join('')}
+                                </div>
+                            </div>`).join('')}
+                    </div>`;
+                });
+                html += `</div>`;
+            }
+
+            if (unitResults.length === 0 && dictResults.length === 0) {
+                html = `<div class="flex flex-col items-center justify-center py-10 text-center opacity-20">
+                    <i data-lucide="info" class="w-8 h-8 mb-4"></i>
+                    <p class="text-xs jp-serif">見つかりませんでした</p>
+                </div>`;
+            }
+
+            container.innerHTML = html;
+            mobileContainer.innerHTML = html;
+            lucide.createIcons();
+        }
+
+        function searchDictionary(word) {
+            const input = document.getElementById('search-input');
+            const inputMobile = document.getElementById('search-input-mobile');
+            if (input) input.value = word;
+            if (inputMobile) inputMobile.value = word;
+            
+            if (window.innerWidth < 1024) {
+                 document.getElementById('dictionary-panel').classList.remove('hidden');
+            }
+            handleSearch(word);
         }
 
         function toggleStudyOption(type) {
@@ -675,25 +821,14 @@
         function clearDictionary() {
             const container = document.getElementById('dictionary-results');
             const mobileContainer = document.getElementById('dictionary-results-mobile');
-            
-            if (container) {
-                container.innerHTML = `
-                    <div class="flex flex-col items-center justify-center h-full text-center space-y-4 opacity-20">
-                        <i data-lucide="search" class="w-8 h-8"></i>
-                        <p class="text-[11px] jp-serif">英単語をクリックして検索</p>
-                    </div>
-                `;
-            }
-            if (mobileContainer) {
-                mobileContainer.innerHTML = `
-                    <div class="flex flex-col items-center justify-center h-full text-center space-y-6 opacity-20">
-                        <div class="p-6 rounded-full border-2 border-dashed border-current">
-                            <i data-lucide="search" class="w-12 h-12"></i>
-                        </div>
-                        <p class="text-sm font-medium jp-serif">英単語をクリックして辞書で検索します。</p>
-                    </div>
-                `;
-            }
+            const emptyHtml = `
+                <div class="flex flex-col items-center justify-center h-full text-center space-y-4 opacity-20">
+                    <i data-lucide="search" class="w-8 h-8"></i>
+                    <p class="text-[11px] jp-serif">言葉を入力して検索</p>
+                </div>
+            `;
+            if (container) container.innerHTML = emptyHtml;
+            if (mobileContainer) mobileContainer.innerHTML = emptyHtml;
             lucide.createIcons();
         }
 
