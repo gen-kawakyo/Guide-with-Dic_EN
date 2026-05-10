@@ -320,9 +320,14 @@
                 <i data-lucide="compass" class="w-3.5 h-3.5"></i>
                 Navigation
             </h2>
-            <button onclick="toggleMobileNav()" class="p-2 -mr-2 bg-[#1A1A1A]/5 rounded-full hover:bg-[#1A1A1A]/10 transition-colors">
-                <i data-lucide="x" class="w-5 h-5"></i>
-            </button>
+            <div class="flex items-center gap-2">
+                <button onclick="resetToTop()" class="p-2 bg-[#F27D26]/10 text-[#F27D26] rounded-full hover:bg-[#F27D26]/20 transition-colors">
+                    <i data-lucide="home" class="w-5 h-5"></i>
+                </button>
+                <button onclick="toggleMobileNav()" class="p-2 bg-[#1A1A1A]/5 rounded-full hover:bg-[#1A1A1A]/10 transition-colors">
+                    <i data-lucide="chevron-down" class="w-5 h-5"></i>
+                </button>
+            </div>
         </div>
         
         <div class="flex-1 overflow-y-auto pt-6 px-4 pb-20">
@@ -473,6 +478,7 @@
         }
 
         function resetToTop() {
+            if (isMobileNavOpen) toggleMobileNav();
             document.getElementById('welcome-screen').classList.remove('hidden');
             document.getElementById('main-content').classList.add('hidden');
             document.getElementById('active-controls').classList.add('hidden');
@@ -756,6 +762,9 @@
         async function loadServerContent(grade, unit) {
             const filename = `EI${grade}-U${unit}.json`;
             const path = `guidedata/${filename}`;
+            
+            // Clear existing units to ensure we only switch focus
+            appData = { units: {} };
             
             // Show loading indicator
             const welcome = document.getElementById('welcome-screen');
@@ -1359,17 +1368,26 @@
             const state = { lastSpeaker: null };
             const keys = Object.keys(block);
             
+            // Generate unique block ID for TTS
+            const blockId = `block-${vKey}-${bIdx}-${Math.random().toString(36).substr(2, 5)}`;
+            
             if (isTextView) {
-                let blockHtml = `<div class="space-y-4 animate-fade-in ${bIdx > 0 ? 'border-t border-[#1A1A1A]/5 pt-8' : ''}">`;
+                let blockHtml = `<div id="${blockId}" class="relative space-y-4 animate-fade-in ${bIdx > 0 ? 'border-t border-[#1A1A1A]/5 pt-8' : ''}">`;
                 
                 keys.forEach(key => {
                     if (['items', 'groups', 'type', 'item_layout', 'color'].includes(key)) return;
                     
                     if (key === 'header') {
-                        blockHtml += `<h3 class="section-header opacity-30 mt-6" style="${getItemStyleString('header')}; ${blockColor ? `color: ${blockColor};` : ''}">
-                            <i data-lucide="${getBlockIcon(block)}" class="w-3 h-3"></i>
-                            ${block.header}
-                        </h3>`;
+                        blockHtml += `
+                        <div class="flex items-center justify-between group/header">
+                            <h3 class="section-header opacity-30 mt-6" style="${getItemStyleString('header')}; ${blockColor ? `color: ${blockColor};` : ''}">
+                                <i data-lucide="${getBlockIcon(block)}" class="w-3 h-3"></i>
+                                ${block.header}
+                            </h3>
+                            <button onclick="playBlockEn('${blockId}')" class="mt-6 p-2 rounded-full bg-white shadow-sm border border-[#1A1A1A]/5 text-[#073d88] opacity-0 group-hover/header:opacity-100 hover:scale-110 transition-all active:scale-95" title="音声を再生">
+                                <i data-lucide="volume-2" class="w-4 h-4"></i>
+                            </button>
+                        </div>`;
                     } else {
                         const style = getItemStyleString(key);
                         const isJp = itemStyles[key]?.font === 'jp' || key === 'text' || key === 'label';
@@ -1388,16 +1406,22 @@
             }
 
             // Normal Card Style
-            let blockHtml = `<div class="bg-white border border-[#1A1A1A]/10 p-8 rounded-3xl space-y-6 shadow-sm animate-fade-in" style="${blockColor ? `border-left: 3px solid ${blockColor};` : ''}">`;
+            let blockHtml = `<div id="${blockId}" class="relative bg-white border border-[#1A1A1A]/10 p-8 rounded-3xl space-y-6 shadow-sm animate-fade-in" style="${blockColor ? `border-left: 3px solid ${blockColor};` : ''}">`;
             
             keys.forEach(key => {
                 if (['items', 'groups', 'type', 'item_layout', 'color'].includes(key)) return;
                 
                 if (key === 'header') {
-                    blockHtml += `<h3 class="section-header" style="${getItemStyleString('header')}; ${blockColor ? `color: ${blockColor};` : ''}">
-                        <i data-lucide="${getBlockIcon(block)}" class="w-3.5 h-3.5"></i>
-                        ${block.header}
-                    </h3>`;
+                    blockHtml += `
+                    <div class="flex items-center justify-between group/header">
+                        <h3 class="section-header" style="${getItemStyleString('header')}; ${blockColor ? `color: ${blockColor};` : ''}">
+                            <i data-lucide="${getBlockIcon(block)}" class="w-3.5 h-3.5"></i>
+                            ${block.header}
+                        </h3>
+                        <button onclick="playBlockEn('${blockId}')" class="p-2 rounded-full bg-slate-50 text-[#073d88] opacity-0 group-hover/header:opacity-100 hover:scale-110 transition-all active:scale-95" title="音声を再生">
+                            <i data-lucide="volume-2" class="w-4 h-4"></i>
+                        </button>
+                    </div>`;
                 } else {
                     const style = getItemStyleString(key);
                     const isJp = itemStyles[key]?.font === 'jp' || key === 'text' || key === 'label';
@@ -1621,6 +1645,54 @@
 
         function closeModal() { document.getElementById('modal').classList.add('hidden'); }
         function getBlockIcon(block) { return block.icon || appConfig.icons[block.type] || 'help-circle'; }
+
+        // TTS Implementation
+        let ttsQueue = [];
+        let ttsPlaying = false;
+
+        function playBlockEn(blockId) {
+            const block = document.getElementById(blockId);
+            if (!block) return;
+
+            // Stop current speech
+            window.speechSynthesis.cancel();
+            ttsQueue = [];
+            ttsPlaying = false;
+
+            // Collect all English sentences (textbook-en class)
+            const enElements = block.querySelectorAll('.textbook-en');
+            const sentences = Array.from(enElements)
+                .map(el => el.textContent.trim())
+                .filter(txt => txt.length > 0);
+
+            if (sentences.length === 0) return;
+
+            ttsQueue = sentences;
+            processTtsQueue();
+        }
+
+        function processTtsQueue() {
+            if (ttsQueue.length === 0) {
+                ttsPlaying = false;
+                return;
+            }
+
+            ttsPlaying = true;
+            const text = ttsQueue.shift();
+            const utterance = new SpeechSynthesisUtterance(text);
+            utterance.lang = 'en-US';
+            utterance.rate = 0.9; // Slightly slower for clarity
+            
+            utterance.onend = () => {
+                processTtsQueue();
+            };
+
+            utterance.onerror = () => {
+                ttsPlaying = false;
+            };
+
+            window.speechSynthesis.speak(utterance);
+        }
 
         function parseMarkdown(text) {
             if (!text) return '';
