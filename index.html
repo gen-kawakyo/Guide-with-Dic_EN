@@ -21,6 +21,7 @@
             background-color: #F8F7F2;
             color: #1A1A1A;
             -webkit-font-smoothing: antialiased;
+            transition: background-color 0.4s cubic-bezier(0.16, 1, 0.3, 1);
         }
         .serif { font-family: var(--font-serif); }
         .jp-serif { font-family: var(--font-jp); }
@@ -156,6 +157,9 @@
                 <button onclick="openGlobalSearch()" class="p-2 rounded-full hover:bg-slate-100 transition-colors text-[#073d88]">
                     <i data-lucide="search" class="w-5 h-5"></i>
                 </button>
+                <button onclick="openSettings()" class="p-2 rounded-full hover:bg-slate-100 transition-colors text-[#1A1A1A]/30" title="設定">
+                    <i data-lucide="settings" class="w-5 h-5"></i>
+                </button>
                 <div class="w-px h-6 bg-[#1A1A1A]/10 mx-1"></div>
                 <button onclick="resetToTop()" class="p-2 rounded-full hover:bg-slate-100 transition-colors text-[#1A1A1A]/60 hover:text-[#1A1A1A]">
                     <i data-lucide="home" class="w-5 h-5"></i>
@@ -222,10 +226,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- Hidden Settings Trigger -->
-                <button onclick="requestSettingsAccess()" class="fixed bottom-4 right-4 p-4 opacity-[0.03] hover:opacity-20 transition-opacity">
-                    <i data-lucide="settings" class="w-4 h-4"></i>
-                </button>
             </div>
 
             <div id="main-content" class="hidden space-y-8">
@@ -288,6 +288,11 @@
         </aside>
     </main>
 
+    <!-- Hidden Settings Trigger -->
+    <button onclick="openSettings()" id="settings-trigger" class="fixed bottom-4 right-4 p-4 opacity-[0.1] hover:opacity-100 transition-opacity z-50" title="アプリ設定を開く">
+        <i data-lucide="settings" class="w-4 h-4"></i>
+    </button>
+
     <!-- Modal -->
     <div id="modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4">
         <div class="absolute inset-0 bg-[#1A1A1A]/20 backdrop-blur-sm" onclick="closeModal()"></div>
@@ -313,6 +318,90 @@
                     </div>
                 </div>
                 <button onclick="closeModal()" class="opacity-20 hover:opacity-100"><i data-lucide="x" class="w-4 h-4"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 設定パネル (App Settings) -->
+    <div id="app-settings-modal" class="hidden fixed inset-0 z-[100] flex items-center justify-center p-4">
+        <div class="absolute inset-0 bg-[#1A1A1A]/40 backdrop-blur-sm" onclick="closeSettings()"></div>
+        <div class="relative w-full max-w-sm bg-white rounded-[2.5rem] shadow-2xl overflow-hidden border border-[#1A1A1A]/10 animate-fade-in flex flex-col max-h-[90vh]">
+            <!-- ヘッダー -->
+            <div class="p-8 pb-4 flex items-center justify-between border-b border-[#1A1A1A]/5">
+                 <h2 class="section-header">
+                    <i data-lucide="settings-2" class="w-4 h-4"></i>
+                    アプリ設定
+                </h2>
+                <button onclick="closeSettings()" class="p-2 bg-slate-50 rounded-full hover:bg-slate-100 text-[#1A1A1A]/40 transition-colors">
+                    <i data-lucide="x" class="w-4 h-4"></i>
+                </button>
+            </div>
+            
+            <div class="flex-1 overflow-y-auto p-8 space-y-8 no-scrollbar">
+                <!-- 音声設定 -->
+                <div class="space-y-4">
+                    <label class="text-[10px] font-bold opacity-40 uppercase tracking-widest flex items-center gap-2">
+                        <i data-lucide="mic" class="w-3 h-3"></i> 音声とスピーチ
+                    </label>
+                    <div class="space-y-4 p-5 bg-[#F8F7F2] rounded-2xl border border-[#1A1A1A]/5">
+                        <div class="space-y-2">
+                            <div class="flex justify-between text-[10px] font-bold">
+                                <span class="opacity-40 uppercase">再生速度</span>
+                                <span id="label-speed" class="text-[#073d88]">0.8</span>
+                            </div>
+                            <input type="range" id="input-speed" min="0.5" max="2.0" step="0.1" value="0.8" 
+                                   oninput="updateAppSetting('rate', this.value); document.getElementById('label-speed').textContent = this.value"
+                                   class="w-full accent-[#073d88] h-1.5 bg-[#1A1A1A]/10 rounded-lg appearance-none cursor-pointer">
+                        </div>
+                        <div class="space-y-2">
+                            <div class="flex justify-between text-[10px] font-bold">
+                                <span class="opacity-40 uppercase">声のトーン</span>
+                                <span id="label-pitch" class="text-[#073d88]">1.5</span>
+                            </div>
+                            <input type="range" id="input-pitch" min="0.5" max="2.0" step="0.1" value="1.5" 
+                                   oninput="updateAppSetting('pitch', this.value); document.getElementById('label-pitch').textContent = this.value"
+                                   class="w-full accent-[#073d88] h-1.5 bg-[#1A1A1A]/10 rounded-lg appearance-none cursor-pointer">
+                        </div>
+                        <div class="space-y-2">
+                            <label class="text-[9px] font-bold opacity-30 uppercase">音声エンジン（デバイス）</label>
+                            <select id="voice-select" onchange="updateAppSetting('voiceURI', this.value)" 
+                                    class="w-full bg-white border border-[#1A1A1A]/10 rounded-xl px-3 py-2 text-[10px] font-bold focus:outline-none focus:ring-2 focus:ring-[#073d88]/20">
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- テーマ・カラー -->
+                <div class="space-y-4">
+                    <label class="text-[10px] font-bold opacity-40 uppercase tracking-widest flex items-center gap-2">
+                        <i data-lucide="palette" class="w-3 h-3"></i> テーマとカラー
+                    </label>
+                    
+                    <button id="natural-theme-btn" onclick="applyNaturalTheme()" class="w-full py-4 bg-[#F8F7F2] border transition-all rounded-2xl text-[11px] font-extrabold hover:shadow-md flex items-center justify-center gap-2 text-[#1A1A1A]/80 border-[#1A1A1A]/10">
+                        <i data-lucide="leaf" class="w-3.5 h-3.5 text-[#059669]"></i>
+                        ナチュラル (基本色)
+                    </button>
+
+                    <div class="space-y-3">
+                        <div class="flex items-center justify-between border-b border-[#1A1A1A]/5 pb-2">
+                            <span class="text-[9px] font-bold opacity-30 uppercase">10色パレット</span>
+                            <div class="flex items-center gap-2">
+                                <input type="color" id="palette-color-picker" oninput="updateSelectedSlot(this.value)" class="w-6 h-6 rounded-md border border-[#1A1A1A]/10 p-0.5 cursor-pointer bg-white">
+                            </div>
+                        </div>
+                        <div id="color-palette-grid" class="grid grid-cols-5 gap-3">
+                            <!-- 10個のカラー枠が読み込み時に生成されます -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- リセットボタン -->
+                <div class="pt-4 border-t border-[#1A1A1A]/5">
+                    <button onclick="resetAppSettings()" class="w-full py-3 text-[9px] font-bold opacity-20 hover:opacity-100 transition-opacity uppercase tracking-widest flex items-center justify-center gap-1.5">
+                        <i data-lucide="rotate-ccw" class="w-3 h-3"></i>
+                        全ての設定をリセット
+                    </button>
+                </div>
             </div>
         </div>
     </div>
@@ -373,56 +462,6 @@
         </aside>
     </div>
 
-    <!-- Hidden Settings Panel -->
-    <div id="settings-panel" class="hidden fixed inset-0 z-[60] flex items-center justify-center p-4">
-        <div class="absolute inset-0 bg-[#1A1A1A]/50 backdrop-blur-md" onclick="closeSettings()"></div>
-        <aside class="relative w-full max-w-sm bg-white rounded-[2.5rem] p-8 shadow-2xl space-y-8 animate-fade-in">
-            <div class="flex items-center justify-between">
-                <div>
-                    <h2 class="text-xl font-bold jp-serif">アプリ設定</h2>
-                    <p class="text-[10px] opacity-40 uppercase tracking-widest font-bold">Audio & System</p>
-                </div>
-                <button onclick="closeSettings()" class="p-2 bg-slate-100 rounded-full"><i data-lucide="x" class="w-4 h-4"></i></button>
-            </div>
-
-            <div class="space-y-6">
-                <!-- Voice Selection -->
-                <div class="space-y-2">
-                    <label class="text-[10px] font-bold opacity-40 uppercase tracking-wider">Voice Selection</label>
-                    <select id="setting-voice" onchange="updateAppSetting('voiceURI', this.value)" 
-                            class="w-full bg-slate-50 border border-transparent focus:border-[#073d88] rounded-xl px-4 py-3 text-sm font-bold focus:outline-none transition-all">
-                    </select>
-                </div>
-
-                <!-- Speed -->
-                <div class="space-y-2">
-                    <div class="flex justify-between">
-                        <label class="text-[10px] font-bold opacity-40 uppercase tracking-wider">Speech Speed</label>
-                        <span id="label-speed" class="text-[10px] font-bold text-[#073d88]">1.0</span>
-                    </div>
-                    <input type="range" min="0.5" max="2.0" step="0.1" value="1.0" 
-                           oninput="updateAppSetting('rate', this.value); document.getElementById('label-speed').textContent = this.value" 
-                           class="w-full accent-[#073d88]">
-                </div>
-
-                <!-- Tone -->
-                <div class="space-y-2">
-                    <div class="flex justify-between">
-                        <label class="text-[10px] font-bold opacity-40 uppercase tracking-wider">Speech Pitch (Tone)</label>
-                        <span id="label-pitch" class="text-[10px] font-bold text-[#073d88]">1.0</span>
-                    </div>
-                    <input type="range" min="0.5" max="2.0" step="0.1" value="1.0" 
-                           oninput="updateAppSetting('pitch', this.value); document.getElementById('label-pitch').textContent = this.value" 
-                           class="w-full accent-[#073d88]">
-                </div>
-            </div>
-
-            <div class="pt-4 border-t border-[#1A1A1A]/5">
-                <p class="text-[9px] opacity-30 text-center">Settings are saved locally on this device.</p>
-            </div>
-        </aside>
-    </div>
-
     <script>
         let appData = { units: {} };
         let currentMode = 'display';
@@ -434,79 +473,6 @@
         let showJapanese = false;
         let showMeanings = false;
         let dictionary = {};
-        
-        let appSettings = {
-            rate: 0.8,
-            pitch: 1.5,
-            voiceURI: ''
-        };
-
-        // Initialize on load
-        window.addEventListener('DOMContentLoaded', () => {
-            initSettings();
-            loadDictionary();
-            renderHub();
-            lucide.createIcons();
-            
-            // Connect hub file input
-            const hubFile = document.getElementById('hub-file-load');
-            if (hubFile) hubFile.addEventListener('change', handleHubFileSelect);
-            
-            // Listen for voice updates
-            window.speechSynthesis.onvoiceschanged = () => populateVoiceList();
-        });
-
-        function initSettings() {
-            const saved = localStorage.getItem('english_hub_settings');
-            if (saved) {
-                try {
-                    appSettings = { ...appSettings, ...JSON.parse(saved) };
-                } catch(e) {}
-            }
-        }
-
-        function requestSettingsAccess() {
-            const pw = prompt("パスワードを入力してください:");
-            if (pw === "1234") {
-                openSettings();
-            }
-        }
-
-        function openSettings() {
-            document.getElementById('settings-panel').classList.remove('hidden');
-            populateVoiceList();
-            
-            // Update UI with current values
-            const speedInput = document.querySelectorAll('#settings-panel input[type="range"]')[0];
-            const pitchInput = document.querySelectorAll('#settings-panel input[type="range"]')[1];
-            if (speedInput) speedInput.value = appSettings.rate;
-            if (pitchInput) pitchInput.value = appSettings.pitch;
-            document.getElementById('label-speed').textContent = appSettings.rate;
-            document.getElementById('label-pitch').textContent = appSettings.pitch;
-        }
-
-        function closeSettings() {
-            document.getElementById('settings-panel').classList.add('hidden');
-        }
-
-        function updateAppSetting(key, value) {
-            appSettings[key] = parseFloat(value) || value;
-            localStorage.setItem('english_hub_settings', JSON.stringify(appSettings));
-        }
-
-        function populateVoiceList() {
-            const voices = window.speechSynthesis.getVoices().filter(v => v.lang.startsWith('en'));
-            const select = document.getElementById('setting-voice');
-            if (!select || voices.length === 0) return;
-            
-            const options = voices.map(v => `<option value="${v.voiceURI}" ${appSettings.voiceURI === v.voiceURI ? 'selected' : ''}>${v.name}</option>`).join('');
-            select.innerHTML = options;
-            
-            // Set initial voiceURI if none saved
-            if (!appSettings.voiceURI && voices.length > 0) {
-                updateAppSetting('voiceURI', voices[0].voiceURI);
-            }
-        }
 
         let appConfig = {
             icons: {
@@ -1165,8 +1131,139 @@
             renderContent();
         }
 
+        // Theme & Settings logic
+        const DEFAULT_PALETTE = ['#FDFCF7', '#F0F9FF', '#F0FDF4', '#FFF1F2', '#F1F5F9', '#FEF08A', '#E0F2FE', '#EDE9FE', '#F5F3FF', '#FAFAF9'];
+        const initialSavedSettings = JSON.parse(localStorage.getItem('english_hub_settings')) || {};
+        let appSettings = {
+            bgColor: '#F8F7F2',
+            palette: [...DEFAULT_PALETTE],
+            activeSlot: 0,
+            isNatural: true,
+            rate: 0.8,
+            pitch: 1.5,
+            voiceURI: '',
+            ...initialSavedSettings
+        };
+
+        let voices = [];
+        function populateVoiceList() {
+            voices = window.speechSynthesis.getVoices();
+            const select = document.getElementById('voice-select');
+            if (!select) return;
+            
+            select.innerHTML = voices.length > 0 
+                ? voices.map(v => `<option value="${v.voiceURI}" ${v.voiceURI === appSettings.voiceURI ? 'selected' : ''}>${v.name} (${v.lang})</option>`).join('')
+                : '<option value="">音声エンジン読み込み中...</option>';
+        }
+        window.speechSynthesis.onvoiceschanged = populateVoiceList;
+
+        function applySavedTheme() {
+            document.body.style.backgroundColor = appSettings.bgColor;
+        }
+
+        function openSettings() { 
+            const panel = document.getElementById('app-settings-modal');
+            if (!panel) return;
+            panel.classList.remove('hidden'); 
+            
+            // Sync UI inputs
+            const labelSpeed = document.getElementById('label-speed');
+            const labelPitch = document.getElementById('label-pitch');
+            if (labelSpeed) labelSpeed.textContent = appSettings.rate;
+            if (labelPitch) labelPitch.textContent = appSettings.pitch;
+            
+            const speedInput = document.getElementById('input-speed');
+            const pitchInput = document.getElementById('input-pitch');
+            if (speedInput) speedInput.value = appSettings.rate;
+            if (pitchInput) pitchInput.value = appSettings.pitch;
+            
+            populateVoiceList();
+            renderPalette(); 
+            lucide.createIcons();
+        }
+        function closeSettings() { 
+            const panel = document.getElementById('app-settings-modal');
+            if (panel) panel.classList.add('hidden'); 
+        }
+
+        function updateAppSetting(key, value) {
+            if (key === 'rate' || key === 'pitch') appSettings[key] = parseFloat(value);
+            else appSettings[key] = value;
+            saveSettings();
+        }
+
+        function updateTheme(color, isNatural = false) {
+            appSettings.bgColor = color;
+            appSettings.isNatural = isNatural;
+            document.body.style.backgroundColor = color;
+            saveSettings();
+            renderPalette();
+        }
+
+        function applyNaturalTheme() {
+            updateTheme('#F8F7F2', true);
+        }
+
+        function renderPalette() {
+            const grid = document.getElementById('color-palette-grid');
+            if (!grid) return;
+
+            const naturalBtn = document.getElementById('natural-theme-btn');
+            if (naturalBtn) {
+                if (appSettings.isNatural) {
+                    naturalBtn.classList.add('border-[#059669]', 'ring-4', 'ring-[#059669]/10', 'shadow-sm');
+                    naturalBtn.classList.remove('border-[#1A1A1A]/10');
+                } else {
+                    naturalBtn.classList.remove('border-[#059669]', 'ring-4', 'ring-[#059669]/10', 'shadow-sm');
+                    naturalBtn.classList.add('border-[#1A1A1A]/10');
+                }
+            }
+
+            grid.innerHTML = appSettings.palette.map((color, idx) => `
+                <button onclick="selectSlot(${idx})" 
+                        class="w-full aspect-square rounded-xl border-2 transition-all ${(!appSettings.isNatural && appSettings.activeSlot === idx) ? 'border-[#073d88] scale-110 shadow-lg ring-4 ring-[#073d88]/20 z-10' : 'border-[#1A1A1A]/10 hover:border-[#1A1A1A]/30'}" 
+                        style="background-color: ${color};" 
+                        title="Slot ${idx + 1}"></button>
+            `).join('');
+            
+            const picker = document.getElementById('palette-color-picker');
+            if (picker) picker.value = appSettings.palette[appSettings.activeSlot];
+        }
+
+        function selectSlot(idx) {
+            appSettings.activeSlot = idx;
+            updateTheme(appSettings.palette[idx], false);
+        }
+
+        function updateSelectedSlot(color) {
+            appSettings.palette[appSettings.activeSlot] = color;
+            updateTheme(color, false);
+        }
+
+        function resetAppSettings() {
+            if (confirm("全てのカラー設定と音声をリセットしますか？")) {
+                appSettings = {
+                    bgColor: '#F8F7F2',
+                    palette: [...DEFAULT_PALETTE],
+                    activeSlot: 0,
+                    isNatural: true,
+                    rate: 0.8,
+                    pitch: 1.5,
+                    voiceURI: ''
+                };
+                updateTheme(appSettings.bgColor, true);
+                saveSettings();
+                openSettings(); // Refresh UI
+            }
+        }
+
+        function saveSettings() {
+            localStorage.setItem('english_hub_settings', JSON.stringify(appSettings));
+        }
+
         // Initialize on load
         window.addEventListener('DOMContentLoaded', () => {
+            applySavedTheme();
             loadDictionary();
             renderHub();
             lucide.createIcons();
@@ -1807,15 +1904,16 @@
             ttsPlaying = true;
             const text = ttsQueue.shift();
             const utterance = new SpeechSynthesisUtterance(text);
-            
-            // Apply Settings
             utterance.lang = 'en-US';
-            utterance.rate = appSettings.rate;
-            utterance.pitch = appSettings.pitch;
             
-            const voices = window.speechSynthesis.getVoices();
-            const selectedVoice = voices.find(v => v.voiceURI === appSettings.voiceURI);
-            if (selectedVoice) utterance.voice = selectedVoice;
+            // Apply saved settings
+            utterance.rate = appSettings.rate || 0.8;
+            utterance.pitch = appSettings.pitch || 1.5;
+            
+            if (appSettings.voiceURI) {
+                const selectedVoice = window.speechSynthesis.getVoices().find(v => v.voiceURI === appSettings.voiceURI);
+                if (selectedVoice) utterance.voice = selectedVoice;
+            }
             
             utterance.onend = () => {
                 processTtsQueue();
