@@ -222,6 +222,10 @@
                         </div>
                     </div>
                 </div>
+                <!-- Hidden Settings Trigger -->
+                <button onclick="requestSettingsAccess()" class="fixed bottom-4 right-4 p-4 opacity-[0.03] hover:opacity-20 transition-opacity">
+                    <i data-lucide="settings" class="w-4 h-4"></i>
+                </button>
             </div>
 
             <div id="main-content" class="hidden space-y-8">
@@ -369,6 +373,56 @@
         </aside>
     </div>
 
+    <!-- Hidden Settings Panel -->
+    <div id="settings-panel" class="hidden fixed inset-0 z-[60] flex items-center justify-center p-4">
+        <div class="absolute inset-0 bg-[#1A1A1A]/50 backdrop-blur-md" onclick="closeSettings()"></div>
+        <aside class="relative w-full max-w-sm bg-white rounded-[2.5rem] p-8 shadow-2xl space-y-8 animate-fade-in">
+            <div class="flex items-center justify-between">
+                <div>
+                    <h2 class="text-xl font-bold jp-serif">アプリ設定</h2>
+                    <p class="text-[10px] opacity-40 uppercase tracking-widest font-bold">Audio & System</p>
+                </div>
+                <button onclick="closeSettings()" class="p-2 bg-slate-100 rounded-full"><i data-lucide="x" class="w-4 h-4"></i></button>
+            </div>
+
+            <div class="space-y-6">
+                <!-- Voice Selection -->
+                <div class="space-y-2">
+                    <label class="text-[10px] font-bold opacity-40 uppercase tracking-wider">Voice Selection</label>
+                    <select id="setting-voice" onchange="updateAppSetting('voiceURI', this.value)" 
+                            class="w-full bg-slate-50 border border-transparent focus:border-[#073d88] rounded-xl px-4 py-3 text-sm font-bold focus:outline-none transition-all">
+                    </select>
+                </div>
+
+                <!-- Speed -->
+                <div class="space-y-2">
+                    <div class="flex justify-between">
+                        <label class="text-[10px] font-bold opacity-40 uppercase tracking-wider">Speech Speed</label>
+                        <span id="label-speed" class="text-[10px] font-bold text-[#073d88]">1.0</span>
+                    </div>
+                    <input type="range" min="0.5" max="2.0" step="0.1" value="1.0" 
+                           oninput="updateAppSetting('rate', this.value); document.getElementById('label-speed').textContent = this.value" 
+                           class="w-full accent-[#073d88]">
+                </div>
+
+                <!-- Tone -->
+                <div class="space-y-2">
+                    <div class="flex justify-between">
+                        <label class="text-[10px] font-bold opacity-40 uppercase tracking-wider">Speech Pitch (Tone)</label>
+                        <span id="label-pitch" class="text-[10px] font-bold text-[#073d88]">1.0</span>
+                    </div>
+                    <input type="range" min="0.5" max="2.0" step="0.1" value="1.0" 
+                           oninput="updateAppSetting('pitch', this.value); document.getElementById('label-pitch').textContent = this.value" 
+                           class="w-full accent-[#073d88]">
+                </div>
+            </div>
+
+            <div class="pt-4 border-t border-[#1A1A1A]/5">
+                <p class="text-[9px] opacity-30 text-center">Settings are saved locally on this device.</p>
+            </div>
+        </aside>
+    </div>
+
     <script>
         let appData = { units: {} };
         let currentMode = 'display';
@@ -380,6 +434,79 @@
         let showJapanese = false;
         let showMeanings = false;
         let dictionary = {};
+        
+        let appSettings = {
+            rate: 0.9,
+            pitch: 1.0,
+            voiceURI: ''
+        };
+
+        // Initialize on load
+        window.addEventListener('DOMContentLoaded', () => {
+            initSettings();
+            loadDictionary();
+            renderHub();
+            lucide.createIcons();
+            
+            // Connect hub file input
+            const hubFile = document.getElementById('hub-file-load');
+            if (hubFile) hubFile.addEventListener('change', handleHubFileSelect);
+            
+            // Listen for voice updates
+            window.speechSynthesis.onvoiceschanged = () => populateVoiceList();
+        });
+
+        function initSettings() {
+            const saved = localStorage.getItem('english_hub_settings');
+            if (saved) {
+                try {
+                    appSettings = { ...appSettings, ...JSON.parse(saved) };
+                } catch(e) {}
+            }
+        }
+
+        function requestSettingsAccess() {
+            const pw = prompt("パスワードを入力してください:");
+            if (pw === "1234") {
+                openSettings();
+            }
+        }
+
+        function openSettings() {
+            document.getElementById('settings-panel').classList.remove('hidden');
+            populateVoiceList();
+            
+            // Update UI with current values
+            const speedInput = document.querySelectorAll('#settings-panel input[type="range"]')[0];
+            const pitchInput = document.querySelectorAll('#settings-panel input[type="range"]')[1];
+            if (speedInput) speedInput.value = appSettings.rate;
+            if (pitchInput) pitchInput.value = appSettings.pitch;
+            document.getElementById('label-speed').textContent = appSettings.rate;
+            document.getElementById('label-pitch').textContent = appSettings.pitch;
+        }
+
+        function closeSettings() {
+            document.getElementById('settings-panel').classList.add('hidden');
+        }
+
+        function updateAppSetting(key, value) {
+            appSettings[key] = parseFloat(value) || value;
+            localStorage.setItem('english_hub_settings', JSON.stringify(appSettings));
+        }
+
+        function populateVoiceList() {
+            const voices = window.speechSynthesis.getVoices().filter(v => v.lang.startsWith('en'));
+            const select = document.getElementById('setting-voice');
+            if (!select || voices.length === 0) return;
+            
+            const options = voices.map(v => `<option value="${v.voiceURI}" ${appSettings.voiceURI === v.voiceURI ? 'selected' : ''}>${v.name}</option>`).join('');
+            select.innerHTML = options;
+            
+            // Set initial voiceURI if none saved
+            if (!appSettings.voiceURI && voices.length > 0) {
+                updateAppSetting('voiceURI', voices[0].voiceURI);
+            }
+        }
 
         let appConfig = {
             icons: {
@@ -1680,8 +1807,15 @@
             ttsPlaying = true;
             const text = ttsQueue.shift();
             const utterance = new SpeechSynthesisUtterance(text);
+            
+            // Apply Settings
             utterance.lang = 'en-US';
-            utterance.rate = 0.9; // Slightly slower for clarity
+            utterance.rate = appSettings.rate;
+            utterance.pitch = appSettings.pitch;
+            
+            const voices = window.speechSynthesis.getVoices();
+            const selectedVoice = voices.find(v => v.voiceURI === appSettings.voiceURI);
+            if (selectedVoice) utterance.voice = selectedVoice;
             
             utterance.onend = () => {
                 processTtsQueue();
