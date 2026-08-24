@@ -1,0 +1,3059 @@
+{
+  "type": "FULL_BACKUP",
+  "units": {
+    "G2-U5": {
+      "title": "Unit G2-U5",
+      "parts": {
+        "AG4": {
+          "title": "Active Grammar 4: 助動詞",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G2_U5_AG4_W_01",
+                  "headword": "will",
+                  "pos": "助",
+                  "usage": "〔Will you ～? で〕",
+                  "meaning": "～してください、～してくれませんか。〔依頼〕"
+                },
+                {
+                  "id": "G2_U5_AG4_W_02",
+                  "headword": "Would you ~ ?",
+                  "meaning": "～してください、～してくれませんか。"
+                },
+                {
+                  "id": "G2_U5_AG4_W_03",
+                  "headword": "close",
+                  "pronunciation": "/klóuz/",
+                  "pos": "動",
+                  "meaning": "～を閉める"
+                },
+                {
+                  "id": "G2_U5_AG4_W_04",
+                  "headword": "hunting",
+                  "pronunciation": "/hʌ́ntiŋ/",
+                  "pos": "名",
+                  "meaning": "探求、捜索"
+                }
+              ],
+              "content_blocks": []
+            },
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "explanation_section",
+                  "header": "場面と意味",
+                  "text": "ストーリーをふりかえって、どんな場面で何を伝えていたかを思い出してみましょう。",
+                  "items": [
+                    {
+                      "tag": "Look Back",
+                      "en": "You must check the location of the evacuation shelters in advance.",
+                      "ja": "(避難所の位置を事前に確認しておかなきゃね。)",
+                      "note": "自然災害時にしなければならないことについて話し合っている場面。"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_section",
+                  "header": "文の形",
+                  "text": "助動詞といっしょに使う動詞はいつも原形になります。"
+                },
+                {
+                  "type": "auxiliary_list",
+                  "header": "助動詞の働きと使い方の例",
+                  "items": [
+                    {
+                      "tag": "can",
+                      "label": "能力・可能",
+                      "en": "I can read this kanji.",
+                      "ja": "私はこの漢字が読めます。"
+                    },
+                    {
+                      "tag": "can",
+                      "label": "能力・可能",
+                      "en": "I can't say this tongue twister.",
+                      "ja": "私はこの早口言葉を言えません。"
+                    },
+                    {
+                      "tag": "can",
+                      "label": "依頼",
+                      "en": "Can you come with me? — Of course.",
+                      "ja": "私といっしょに来てくれますか。 ― もちろんです。",
+                      "note": "Daily Life 1"
+                    },
+                    {
+                      "tag": "can",
+                      "label": "許可",
+                      "en": "You can use this computer.",
+                      "ja": "あなたはこのコンピュータを使ってもいいです。"
+                    },
+                    {
+                      "tag": "can",
+                      "label": "許可を求める",
+                      "en": "Can I have melon juice? — Sure.",
+                      "ja": "メロンジュースをいただけますか。 ― かしこまりました。",
+                      "note": "Daily Life 4"
+                    },
+                    {
+                      "tag": "can",
+                      "label": "提案・申し出",
+                      "en": "Can I call a teacher? — Yes, please.",
+                      "ja": "先生を呼びましょうか？ ― はい、お願いします。",
+                      "note": "Daily Life 6"
+                    },
+                    {
+                      "tag": "will",
+                      "label": "未来",
+                      "en": "She'll meet him at the airport.",
+                      "ja": "彼女は彼と空港で会うでしょう。",
+                      "note": "Unit 3-2"
+                    },
+                    {
+                      "tag": "will",
+                      "label": "未来",
+                      "en": "It will be a hot summer.",
+                      "ja": "暑い夏になるでしょう。"
+                    },
+                    {
+                      "tag": "will",
+                      "label": "依頼",
+                      "en": "Nick, will you clean your room? — Yes, Mom.",
+                      "ja": "ニック、部屋を掃除してくれないかな。 ― はい、ママ。"
+                    },
+                    {
+                      "tag": "may",
+                      "label": "許可を求める",
+                      "en": "May I ask you something? — Sure.",
+                      "ja": "おたずねしてもいいですか。 ― もちろんです。",
+                      "note": "Daily Life 5"
+                    },
+                    {
+                      "tag": "shall",
+                      "label": "申し出る",
+                      "en": "Shall I take your order? — Yes, please.",
+                      "ja": "ご注文を承りましょうか。 ― はい、お願いします。",
+                      "note": "Daily Life 4"
+                    },
+                    {
+                      "tag": "shall",
+                      "label": "提案",
+                      "en": "Shall we have lunch together? — Yes, let's.",
+                      "ja": "いっしょに昼食をとりませんか。 ― はい、そうしましょう。"
+                    },
+                    {
+                      "tag": "shall",
+                      "label": "提案",
+                      "en": "Shall we go hunting?",
+                      "ja": "探求に行きましょうか。"
+                    },
+                    {
+                      "tag": "could",
+                      "label": "依頼 (ていねい)",
+                      "en": "Could you tell me the way to the zoo? — Of course.",
+                      "ja": "動物園への道を教えていただけますか。 ― もちろんです。",
+                      "note": "Daily Life 5"
+                    },
+                    {
+                      "tag": "would",
+                      "label": "すすめる",
+                      "en": "Would you like a drink? — Yes, please.",
+                      "ja": "飲み物はいかがですか。 ― はい、お願いします。",
+                      "note": "Daily Life 4"
+                    },
+                    {
+                      "tag": "would",
+                      "label": "依頼 (ていねい)",
+                      "en": "Would you close the window? — Certainly.",
+                      "ja": "窓を閉めてくださいませんか。 ― かしこまりました。"
+                    },
+                    {
+                      "tag": "must",
+                      "label": "義務",
+                      "en": "You must check the weather information.",
+                      "ja": "あなたは天気予報をチェックしないといけません。",
+                      "note": "Unit 5-1"
+                    },
+                    {
+                      "tag": "must",
+                      "label": "禁止",
+                      "en": "You must not leave home.",
+                      "ja": "あなたは家から出てはいけません。",
+                      "note": "Unit 5-1"
+                    },
+                    {
+                      "tag": "should",
+                      "label": "義務・助言",
+                      "en": "I think you should take a rest.",
+                      "ja": "休んだ方がいいと思います。",
+                      "note": "Daily Life 6"
+                    }
+                  ]
+                },
+                {
+                  "type": "grammar_hunt",
+                  "header": "Grammar Hunt (p.110)",
+                  "items": [
+                    {
+                      "id": "G2_U5_AG4_G_01",
+                      "speaker": "Eri",
+                      "en": "When we ==**can't**== stay home, we ==**can**== stay at schools or community centers.",
+                      "ja": "(家にいられないとき、学校やコミュニティーセンターで過ごせるんだよ。)",
+                      "note": "能力・可能を表す can"
+                    }
+                  ]
+                }
+              ]
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "speak_section",
+                  "header": "About You: 防災に関する考えを Hajin に伝えよう",
+                  "items": [
+                    {
+                      "id": "G2_U5_AG4_S_01",
+                      "en": "Can you tell me your ideas for safety?",
+                      "ja": "安全について、あなたの考えを教えてくれませんか。"
+                    },
+                    {
+                      "id": "G2_U5_AG4_S_02",
+                      "speaker": "Hajin",
+                      "en": "I learned that it's important to know evacuation sites.",
+                      "ja": "私は避難場所を知ることが重要だと学びました。"
+                    },
+                    {
+                      "id": "G2_U5_AG4_S_03",
+                      "speaker": "Hajin",
+                      "en": "If we don't know the sites, we won't be able to evacuate quickly when we have to.",
+                      "ja": "避難場所を知らなければ、私たちは必要なときに素早く避難することができないでしょう。"
+                    },
+                    {
+                      "id": "G2_U5_AG4_S_04",
+                      "speaker": "Hajin",
+                      "en": "My family still doesn't know much about our city, so I'll share information about the evacuation site with them this evening.",
+                      "ja": "私の家族はまだこの町のことを知らないので、今晩、避難場所についての情報を彼らと共有するつもりです。"
+                    },
+                    {
+                      "id": "G2_U5_AG4_S_05",
+                      "speaker": "Hajin",
+                      "en": "We should also plan several evacuation routes.",
+                      "ja": "私たちは避難経路もいくつか計画しておくべきです。"
+                    },
+                    {
+                      "id": "G2_U5_AG4_S_06",
+                      "speaker": "Hajin",
+                      "en": "We need to prepare for situations like fires and floods.",
+                      "ja": "私たちは火事や洪水のような状況に備える必要があります。"
+                    },
+                    {
+                      "id": "G2_U5_AG4_S_07",
+                      "speaker": "Hajin",
+                      "en": "What other things are important? Can you tell me your ideas for safety?",
+                      "ja": "ほかに大切なことは何ですか？ 安全について、あなたの考えを教えてくれませんか。"
+                    },
+                    {
+                      "id": "G2_U5_AG4_S_08",
+                      "tag": "解答例",
+                      "en": "I think it is important to have an emergency bag.",
+                      "ja": "私は防災バッグを用意することが大事だと思います。"
+                    },
+                    {
+                      "id": "G2_U5_AG4_S_09",
+                      "tag": "解答例",
+                      "en": "It is necessary make a checklist and sometimes check the contents of the bag.",
+                      "ja": "チェックリストを作り、ときどき中身を確認する必要があります。"
+                    },
+                    {
+                      "id": "G2_U5_AG4_S_10",
+                      "tag": "解答例",
+                      "en": "You should talk about an emergency bag with your family first.",
+                      "ja": "まず、家族と防災バッグについて話すべきです。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 110
+        },
+        "AP": {
+          "title": "AI Appendix: Unit 5 総まとめ",
+          "views": {
+            "PART_APPENDIX": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "info_box",
+                  "header": "P1-P2: 義務と必要の表現をマスターしよう",
+                  "items": [
+                    {
+                      "tag": "Must",
+                      "text": "「～しなければならない」という強い義務は must。否定形の ==**must not**== は「～してはいけない」という強い禁止になるよ！",
+                      "en": "You ==**must**== check the location."
+                    },
+                    {
+                      "tag": "Have to",
+                      "text": "「～する必要がある」は have to。否定形の ==**don't have to**== は「～する必要はない」という不必要を表すんだ。禁止じゃないから注意してね！",
+                      "en": "You ==**don't have to**== evacuate."
+                    }
+                  ]
+                },
+                {
+                  "type": "info_box",
+                  "header": "P3: 「～することは…だ」と判断を伝える",
+                  "items": [
+                    {
+                      "tag": "It is ... to",
+                      "text": "It を仮の主語にして、本当の主語（～すること）を後ろの to ＋ 動詞の原形 で表す便利な形だよ。It は「それ」と訳さないのがポイント！",
+                      "en": "==**It's important to prepare**== well."
+                    }
+                  ]
+                }
+              ]
+            },
+            "UNIT_APPENDIX": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "info_box",
+                  "header": "覚えておきたい実用フレーズ",
+                  "items": [
+                    {
+                      "id": "G2_U5_AP_S_01",
+                      "en": "in advance",
+                      "ja": "前もって、あらかじめ"
+                    },
+                    {
+                      "id": "G2_U5_AP_S_02",
+                      "en": "depend on ~",
+                      "ja": "～次第である"
+                    },
+                    {
+                      "id": "G2_U5_AP_S_03",
+                      "en": "It's a piece of cake.",
+                      "ja": "朝飯前だよ（とても簡単だ）"
+                    },
+                    {
+                      "id": "G2_U5_AP_S_04",
+                      "en": "Never judge a book by its cover.",
+                      "ja": "見かけで判断してはいけない（ことわざ）"
+                    }
+                  ]
+                },
+                {
+                  "type": "info_box",
+                  "header": "防災バッグの最終チェック",
+                  "items": [
+                    {
+                      "tag": "Check",
+                      "text": "a whistle (笛), a bottle of water (水), work gloves (軍手), a map (地図), a charger (充電器)"
+                    },
+                    {
+                      "tag": "Emergency",
+                      "text": "災害用伝言ダイヤルは「171」。英語では ==**Dial 171**== と言おう！"
+                    }
+                  ]
+                },
+                {
+                  "type": "message_box",
+                  "header": "Unit 5 を終えた君へ",
+                  "items": [
+                    {
+                      "tag": "Message",
+                      "text": "このユニットで学んだことは、日常生活だけでなく、もしもの時に誰かを助ける力になる言葉ばかりだよ。"
+                    },
+                    {
+                      "tag": "Goal",
+                      "text": "「避難が必要か、それとも家にとどまるべきか（It depends on the situation）」。学んだ英語を使って、家族やALTの先生と防災について話し合ってみてね。自分の意見をしっかり伝えられるようになった君なら、きっと周りの人を安心させられるはず！"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 0,
+          "hasAppendix": true
+        },
+        "EX": {
+          "title": "Extra Story / 音声内容",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G2_U5_EX_W_01",
+                  "headword": "organize",
+                  "pronunciation": "/ɔ́ːrɡənàiz/",
+                  "pos": "動",
+                  "meaning": "～を並べる"
+                },
+                {
+                  "id": "G2_U5_EX_W_02",
+                  "headword": "attract",
+                  "pronunciation": "/ətrǽkt/",
+                  "pos": "動",
+                  "meaning": "（注意など）を引く"
+                },
+                {
+                  "id": "G2_U5_EX_W_03",
+                  "headword": "attention",
+                  "pronunciation": "/əténʃən/",
+                  "pos": "名",
+                  "meaning": "注意"
+                },
+                {
+                  "id": "G2_U5_EX_W_04",
+                  "headword": "add",
+                  "pronunciation": "/ǽd/",
+                  "pos": "動",
+                  "meaning": "加える"
+                },
+                {
+                  "id": "G2_U5_EX_W_05",
+                  "headword": "illustration(s)",
+                  "pronunciation": "/ìləstréiʃən(z)/",
+                  "pos": "名",
+                  "meaning": "イラスト"
+                },
+                {
+                  "id": "G2_U5_EX_W_06",
+                  "headword": "pictogram(s)",
+                  "pronunciation": "/píktəɡræ̀m(s)/",
+                  "pos": "名",
+                  "meaning": "ピクトグラム（絵を使ってわかりやすく示した図や標識）"
+                },
+                {
+                  "id": "G2_U5_EX_W_07",
+                  "headword": "I agree.",
+                  "meaning": "賛成です。"
+                },
+                {
+                  "id": "G2_U5_EX_W_08",
+                  "headword": "Me, neither.",
+                  "meaning": "〔否定のあとで〕私も。"
+                },
+                {
+                  "id": "G2_U5_EX_W_09",
+                  "headword": "Never judge a book by its cover.",
+                  "pos": "ことわざ",
+                  "meaning": "本は表紙では判断できない（外見で人や物を判断するなという味）"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "story_section",
+                  "header": "Extra Story: Making the poster (p.101)",
+                  "items": [
+                    {
+                      "id": "G2_U5_EX_S_01",
+                      "speaker": "Eri",
+                      "en": "So here is all the information. How shall we organize it?",
+                      "ja": "ここに全部の情報があるよ。どうやってそれを並べようか。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_02",
+                      "speaker": "Tina",
+                      "en": "Like this? It looks kind of boring.",
+                      "ja": "こんな風に？ なんだかつまらなそう。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_03",
+                      "speaker": "Kota",
+                      "en": "We need to attract attention. Let's add illustrations or pictograms here.",
+                      "ja": "ぼくたちは注意を引きつける必要があるね。ここにイラストかピクトグラムを加えよう。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_04",
+                      "speaker": "Hajin",
+                      "en": "I agree.",
+                      "ja": "ぼくは賛成だ。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_05",
+                      "speaker": "Tina",
+                      "en": "OK, who can draw? I'm not good at drawing.",
+                      "ja": "わかった、誰が絵を描けるかな。私は絵を描くのは得意じゃないんだ。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_06",
+                      "speaker": "Kota",
+                      "en": "Me, neither.",
+                      "ja": "ぼくも。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_07",
+                      "speaker": "Hajin",
+                      "en": "How about something like this?",
+                      "ja": "こんな感じのものはどうかな。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_08",
+                      "speaker": "Tina",
+                      "en": "That looks great!",
+                      "ja": "よさそう！"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_09",
+                      "speaker": "Eri",
+                      "en": "I didn't know you were an artist!",
+                      "ja": "あなたが芸術家だとは知らなかったよ。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_10",
+                      "speaker": "Hajin",
+                      "en": "Hey, never judge a book by its cover.",
+                      "ja": "ちょっと、見かけで判断しないでよ。"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_section",
+                  "header": "Part 1 (p.102) の音声内容：自然災害への対策",
+                  "items": [
+                    {
+                      "id": "G2_U5_EX_S_11",
+                      "tag": "(1) 台風",
+                      "en": "From summer to fall, we have typhoons.",
+                      "ja": "夏から秋にかけて台風が来ます。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_12",
+                      "tag": "(1) 台風",
+                      "en": "What must you remember to protect yourself against typhoons?",
+                      "ja": "台風から身を守るために覚えておかなければならないことは何でしょうか？"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_13",
+                      "tag": "(1) 台風",
+                      "en": "When a typhoon is coming, you must always check the weather information.",
+                      "ja": "台風が近づいてきたら、気象情報を常に確認しなければなりません。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_14",
+                      "tag": "(1) 台風",
+                      "en": "If you are at home, you must not leave. It is particularly dangerous to go out to see a river.",
+                      "ja": "家にいるときは、外に出てはいけません。川を見に行くのは特に危険です。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_15",
+                      "tag": "(1) 台風",
+                      "en": "If your room has windows, you must cover them or stay away from them.",
+                      "ja": "もしあなたの部屋に窓があったら、窓を覆うか、窓から離れなければなりません。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_16",
+                      "tag": "(2) 雷",
+                      "en": "In summer, we have a lot of lightning.",
+                      "ja": "夏は、雷が多くなります。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_17",
+                      "tag": "(2) 雷",
+                      "en": "What must you remember to protect yourself against lightning?",
+                      "ja": "雷から身を守るために覚えておかなければならないことは何でしょうか？"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_18",
+                      "tag": "(2) 雷",
+                      "en": "Lightning often strikes tall objects like trees. If you see lightning, you must stay away from tall trees. Keep at least two meters away from a tree.",
+                      "ja": "雷は、木のような高いものによく落ちます。雷を見たら、高い木から離れておかなくてはなりません。木からは最低でも2メートルは離れてください。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_19",
+                      "tag": "(2) 雷",
+                      "en": "Some people are struck by lightning in open spaces like playing fields, golf courses, or beaches. When you see lightning, you must not stay in an open space.",
+                      "ja": "運動場やゴルフ場、浜辺のような開けた場所で落雷に遭う人もいます。雷を見たときは、開けた場所にいてはいけません。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_20",
+                      "tag": "(2) 雷",
+                      "en": "If you're in an open space, move to a safe place. You must get into a building, a car, or a bus.",
+                      "ja": "開けた場所にいたら、安全な場所に移動してください。建物や自動車、バスの中に入らなければなりません。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_21",
+                      "tag": "(3) 大雪",
+                      "en": "In winter, we sometimes have heavy snow.",
+                      "ja": "冬には、ときどき大雪が降ります。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_22",
+                      "tag": "(3) 大雪",
+                      "en": "What must you remember to protect yourself against heavy snow?",
+                      "ja": "大雪から身を守るために覚えておかなければならないことは何でしょうか？"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_23",
+                      "tag": "(3) 大雪",
+                      "en": "If heavy snow is forecast, you must return home and stay there. You should prepare enough food because heavy snow can keep you in your home for a while.",
+                      "ja": "大雪の予報が出ていたら、家に帰ってそこにいなければなりません。大雪でしばらく家にいる可能性があるので、十分な食料を備えておくべきです。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_24",
+                      "tag": "(3) 大雪",
+                      "en": "When it snows, roads become slippery. If you go outside, put on snow boots. You must not ride a bicycle. It's easy to slip and hurt yourself.",
+                      "ja": "雪が降ると道路が滑りやすくなります。外出するときは、スノーブーツを履いてください。自転車に乗ってはいけません。滑りやすいのでケガをしやすくなります。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_25",
+                      "tag": "(3) 大雪",
+                      "en": "When you clear snow from the roof, you must not work alone. If you work alone, no one can help you if you fall off the roof. That's why you must work in a group.",
+                      "ja": "屋根の雪かきをするときは、1人で作業してはいけません。1人で作業すると、屋根から落ちても誰も助けることができません。だから、グループで作業しなければなりません。"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_section",
+                  "header": "Part 2 (p.103) の音声内容：日常生活の義務と必要",
+                  "items": [
+                    {
+                      "id": "G2_U5_EX_S_26",
+                      "speaker": "Tina",
+                      "en": "Dad, I'll send our poster to Grandma and Grandpa.",
+                      "ja": "パパ、私たちのポスターをおじいちゃんとおばあちゃんに送ろうと思うんだ。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_27",
+                      "speaker": "Mr. Rios",
+                      "en": "That's a good idea. It's really helpful for people in Puerto Rico. They have a lot of earthquakes.",
+                      "ja": "それはいい考えだね。プエルトリコの人にとても役立つよ。たくさん地震が起こるからね。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_28",
+                      "speaker": "Tina",
+                      "en": "Hey, do you have a stamp, Dad?",
+                      "ja": "ねえ、切手を持っているかな、パパ。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_29",
+                      "speaker": "Mr. Rios",
+                      "en": "Sorry, Tina. I don't have any. You have to go to the post office.",
+                      "ja": "すまない、ティナ。1枚もないんだ。郵便局に行く必要があるね。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_30",
+                      "speaker": "Tina",
+                      "en": "OK. I'll go and get some there. I'll be right back.",
+                      "ja": "わかった。そこに行って数枚買うね。すぐに戻るね。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_31",
+                      "speaker": "Mr. Rios",
+                      "en": "You don't have to hurry. The post office is open until five.",
+                      "ja": "急ぐ必要はないよ。郵便局は5時まで開いているから。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_32",
+                      "speaker": "Nick",
+                      "en": "Mom, can I go out and play with my friends?",
+                      "ja": "ママ、出かけて友達と遊んでもいい？"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_33",
+                      "speaker": "Ms. Rios",
+                      "en": "You have to do your homework first.",
+                      "ja": "まずは宿題をしないとね。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_34",
+                      "speaker": "Nick",
+                      "en": "But I don't have any homework this weekend.",
+                      "ja": "でも今週末は宿題はないんだ。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_35",
+                      "speaker": "Ms. Rios",
+                      "en": "OK, then. But you have to be home by 10 : 50. We're going to do some disaster prevention drills. We're going to the park together at eleven.",
+                      "ja": "いいわ、それなら。でも10時50分までには家に帰る必要があるわ。私たちは災害防止訓練をする予定なの。11時にいっしょに公園に行く予定よ。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_36",
+                      "speaker": "Nick",
+                      "en": "OK, Mom. I'll be home before 10 : 50.",
+                      "ja": "いいよ、ママ。10時50分より前に家に帰るね。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_37",
+                      "speaker": "Mr. Rios",
+                      "en": "What are you doing, dear?",
+                      "ja": "何をしているんだい、ねえ。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_38",
+                      "speaker": "Ms. Rios",
+                      "en": "I'm checking the things in the kitchen.",
+                      "ja": "台所のものを確認しているところよ。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_39",
+                      "speaker": "Ms. Rios",
+                      "en": "No, but I have to get some supplies, so I have to go shopping.",
+                      "ja": "いいえ、でも日用品を買う必要があるから、買い物に行かないと。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_40",
+                      "speaker": "Mr. Rios",
+                      "en": "Oh, no, you don't have to. You're busy. I'll do it.",
+                      "ja": "ああ、いいよ、そうする必要はない。君は忙しい。ぼくがやるよ。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_41",
+                      "speaker": "Ms. Rios",
+                      "en": "Really? Thanks. Here's the list.",
+                      "ja": "本当に？ ありがとう。ここにリストがあるの。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_42",
+                      "speaker": "Mr. Rios",
+                      "en": "Oh, no problem. It's a piece of cake.",
+                      "ja": "ああ、問題ない。朝飯前だよ。"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_section",
+                  "header": "Part 3 (p.104) の音声内容：防災ポスター発表",
+                  "items": [
+                    {
+                      "id": "G2_U5_EX_S_43",
+                      "speaker": "(1) Ms. Thusi",
+                      "en": "Our city does fire drills every year. Some drills are for foreign residents. The instructions are in several languages like English, Korean, and Chinese.",
+                      "ja": "私たちの市は毎年、防火訓練をします。外国人の居住者のための訓練もあります。説明は、英語、韓国語、中国語のような複数の言語でなされます。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_44",
+                      "speaker": "(1) Ms. Thusi",
+                      "en": "I joined last month and learned some safety rules. A lot of junior and senior high school students helped us.",
+                      "ja": "私は先月参加して、安全のルールを学びました。たくさんの中高生が私たちを手伝ってくれました。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_45",
+                      "speaker": "(1) Ms. Thusi",
+                      "en": "Now I can answer these questions. It's very important for us to join fire drills.",
+                      "ja": "私は今ならそれらの問いに答えられます。防火訓練に参加することは私たちにとってとても大切です。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_46",
+                      "speaker": "(2) Kakeru",
+                      "en": "What number do you call in case of a disaster? Yes. Dial 171. It's necessary to exchange information with each other when a disaster happens. You can dial 171 and leave a voice message for your family or friends.",
+                      "ja": "災害時に何番に電話しますか。そうです。ダイヤル 171 番です。災害が起こったとき、お互いに情報を交換することが必要です。171 番に電話して、家族や友達のために、音声の伝言を残せます。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_47",
+                      "speaker": "(2) Kakeru",
+                      "en": "Last year there was a big earthquake. I was at home and my grandfather was out. I tried to get in touch with him again and again, but I couldn't. I was very worried about him.",
+                      "ja": "昨年、大きな地震がありました。ぼくは家にいて、祖父は出かけていました。ぼくは何度も彼に連絡をとろうとしましたが、できませんでした。彼のことをとても心配しました。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_48",
+                      "speaker": "(2) Kakeru",
+                      "en": "My grandfather got home late that night. He told me about the Disaster Emergency Message Dial. Remember to Dial 171. It's very useful in case of a disaster.",
+                      "ja": "祖父はその日の夜遅くに帰宅しました。彼はぼくに災害用伝言ダイヤルのことを教えてくれました。忘れずに 171 番に電話してください。災害時にとても役に立ちます。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_49",
+                      "speaker": "(3) Mr. Hata",
+                      "en": "Do you say something to your family when you leave home? This action may save your life. This is a true story about a junior high school student in Fukushima on March 11th, 2011.",
+                      "ja": "家を出るとき、家族に何か言いますか。この行動はあなたの命を救うかもしれません。これは 2011 年 3 月 11 日に福島にいたある中学生の際の話です。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_50",
+                      "speaker": "(3) Mr. Hata",
+                      "en": "She lived with her parents, next to her grandparents' house. At 2:45 p.m., a big earthquake shook her home. She was usually at school at that time, but that day she was alone in her room.",
+                      "ja": "彼女は両親と暮らしていて、祖父母の家が隣でした。午後 2 時 45 分、大地震が彼女の家を襲いました。彼女は普段ならそのとき学校にいましたが、その日は部屋に一人きりでした。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_51",
+                      "speaker": "(3) Mr. Hata",
+                      "en": "Right after the earthquake, her grandparents went to her house and saved her. Soon after they left home, a tsunami hit their house. Why were her grandparents able to save her?",
+                      "ja": "地震直後、彼女の祖父母が家に行って彼女を救い出しました。彼らが家を出てすぐ、津波が彼らの家を襲いました。なぜ祖父母は彼女を救うことができたのでしょうか。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_52",
+                      "speaker": "(3) Mr. Hata",
+                      "en": "It was because she said to her grandmother that morning, \"I'll be back home before noon today. We have a graduation ceremony.\" Her grandmother remembered her words.",
+                      "ja": "それはその日の朝に彼女が祖母に言ったからでした、「私は今日 12 時前に帰るよ。卒業式があるんだ。」と。祖母は彼女のその言葉を思い出したのです。"
+                    },
+                    {
+                      "id": "G2_U5_EX_S_53",
+                      "speaker": "(3) Mr. Hata",
+                      "en": "It's very important to have conversations and share your schedule with your family members.",
+                      "ja": "会話してスケジュールを家族と共有することはとても大切なのです。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "101-104"
+        },
+        "GL": {
+          "title": "Goal: 防災バッグの中身を決めよう",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G2_U5_GL_W_01",
+                  "headword": "helmet",
+                  "pronunciation": "/hélmət/",
+                  "pos": "名",
+                  "meaning": "ヘルメット"
+                },
+                {
+                  "id": "G2_U5_GL_W_02",
+                  "headword": "whistle",
+                  "pronunciation": "/hwísl/",
+                  "pos": "名",
+                  "meaning": "笛"
+                },
+                {
+                  "id": "G2_U5_GL_W_03",
+                  "headword": "work",
+                  "pronunciation": "/wə́ːrk/",
+                  "pos": "名",
+                  "meaning": "作業、仕事、業務"
+                },
+                {
+                  "id": "G2_U5_GL_W_04",
+                  "headword": "glove(s)",
+                  "pronunciation": "/ɡlʌ́v(z)/",
+                  "pos": "名",
+                  "meaning": "手袋"
+                },
+                {
+                  "id": "G2_U5_GL_W_05",
+                  "headword": "coin(s)",
+                  "pronunciation": "/kɔ́in(z)/",
+                  "pos": "名",
+                  "meaning": "硬貨、小銭"
+                },
+                {
+                  "id": "G2_U5_GL_W_06",
+                  "headword": "wallet",
+                  "pronunciation": "/wάlət/",
+                  "pos": "名",
+                  "meaning": "財布"
+                },
+                {
+                  "id": "G2_U5_GL_W_07",
+                  "headword": "first-aid",
+                  "pronunciation": "/fə́ːrstéid/",
+                  "pos": "形",
+                  "meaning": "応急の"
+                },
+                {
+                  "id": "G2_U5_GL_W_08",
+                  "headword": "kit",
+                  "pronunciation": "/kít/",
+                  "pos": "名",
+                  "meaning": "用具一式、セット"
+                },
+                {
+                  "id": "G2_U5_GL_W_09",
+                  "headword": "toothbrush",
+                  "pronunciation": "/túːθbrʌ̀ʃ/",
+                  "pos": "名",
+                  "meaning": "歯ブラシ"
+                },
+                {
+                  "id": "G2_U5_GL_W_10",
+                  "headword": "bottle",
+                  "pronunciation": "/bάtl/",
+                  "pos": "名",
+                  "meaning": "ボトル、びん"
+                },
+                {
+                  "id": "G2_U5_GL_W_11",
+                  "headword": "umbrella",
+                  "pronunciation": "/ʌmbrélə/",
+                  "pos": "名",
+                  "meaning": "傘"
+                },
+                {
+                  "id": "G2_U5_GL_W_12",
+                  "headword": "charger",
+                  "pronunciation": "/tʃάːrdʒər/",
+                  "pos": "名",
+                  "meaning": "充電器"
+                },
+                {
+                  "id": "G2_U5_GL_W_13",
+                  "headword": "call",
+                  "pronunciation": "/kɔ́ːl/",
+                  "pos": "動",
+                  "usage": "〔call for ～で〕",
+                  "meaning": "～を求める、～を頼む"
+                },
+                {
+                  "id": "G2_U5_GL_W_14",
+                  "headword": "call for ~",
+                  "meaning": "～を求める、～を頼む、～を大声で呼ぶ"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "item_list",
+                  "header": "防災バッグの持ち物候補 (p.105)",
+                  "items": [
+                    {
+                      "id": "G2_U5_GL_I_01",
+                      "tag": "A",
+                      "en": "a helmet",
+                      "ja": "ヘルメット"
+                    },
+                    {
+                      "id": "G2_U5_GL_I_02",
+                      "tag": "B",
+                      "en": "a whistle",
+                      "ja": "笛"
+                    },
+                    {
+                      "id": "G2_U5_GL_I_03",
+                      "tag": "C",
+                      "en": "work gloves",
+                      "ja": "軍手"
+                    },
+                    {
+                      "id": "G2_U5_GL_I_04",
+                      "tag": "D",
+                      "en": "a map",
+                      "ja": "地図"
+                    },
+                    {
+                      "id": "G2_U5_GL_I_05",
+                      "tag": "E",
+                      "en": "coins and a wallet",
+                      "ja": "小銭と財布"
+                    },
+                    {
+                      "id": "G2_U5_GL_I_06",
+                      "tag": "F",
+                      "en": "a first-aid kit",
+                      "ja": "救急セット"
+                    },
+                    {
+                      "id": "G2_U5_GL_I_07",
+                      "tag": "G",
+                      "en": "clothes",
+                      "ja": "衣類"
+                    },
+                    {
+                      "id": "G2_U5_GL_I_08",
+                      "tag": "H",
+                      "en": "a toothbrush and a mug",
+                      "ja": "歯ブラシとマグカップ"
+                    },
+                    {
+                      "id": "G2_U5_GL_I_09",
+                      "tag": "I",
+                      "en": "a bottle of water",
+                      "ja": "ペットボトルの水"
+                    },
+                    {
+                      "id": "G2_U5_GL_I_10",
+                      "tag": "J",
+                      "en": "an umbrella",
+                      "ja": "傘"
+                    },
+                    {
+                      "id": "G2_U5_GL_I_11",
+                      "tag": "K",
+                      "en": "a charger",
+                      "ja": "充電器"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_script",
+                  "header": "3人が説明する「災害時に必要なもの」",
+                  "items": [
+                    {
+                      "id": "G2_U5_GL_S_01",
+                      "speaker": "(1) Ms. Thusi",
+                      "en": "You can't live without this. You can drink it when you are thirsty.",
+                      "ja": "あなたはこれなしでは生きられません。のどが渇いたとき、飲むことができます。"
+                    },
+                    {
+                      "id": "G2_U5_GL_S_02",
+                      "speaker": "(1) Ms. Thusi",
+                      "en": "You can wash your face with it. You can wash your hands with it.",
+                      "ja": "それで顔を洗うことができます。それで手を洗うことができます。"
+                    },
+                    {
+                      "id": "G2_U5_GL_S_03",
+                      "speaker": "(1) Ms. Thusi",
+                      "en": "You also need it when you cook.",
+                      "ja": "料理するときにもそれが必要です。"
+                    },
+                    {
+                      "id": "G2_U5_GL_S_04",
+                      "speaker": "(2) Kakeru",
+                      "en": "After a disaster, you have to get information. You have to get in touch with your family members and your friends.",
+                      "ja": "被災後、情報を得る必要があります。家族や友達に連絡をとらなければなりません。"
+                    },
+                    {
+                      "id": "G2_U5_GL_S_05",
+                      "speaker": "(2) Kakeru",
+                      "en": "Maybe you also have to call an ambulance.",
+                      "ja": "おそらく救急車を呼ぶ必要もあるでしょう。"
+                    },
+                    {
+                      "id": "G2_U5_GL_S_06",
+                      "speaker": "(2) Kakeru",
+                      "en": "You use your smartphone when you do these things. But you can't use it without electricity.",
+                      "ja": "これらのことをするとき、スマートフォンを使います。でも、電気なしでは使うことができません。"
+                    },
+                    {
+                      "id": "G2_U5_GL_S_07",
+                      "speaker": "(2) Kakeru",
+                      "en": "So don't forget to pack this in your bag. You can get one with a solar panel.",
+                      "ja": "だから、これをバッグに入れるのを忘れないでください。ソーラーパネル付きのものも手に入ります。"
+                    },
+                    {
+                      "id": "G2_U5_GL_S_08",
+                      "speaker": "(3) Mr. Hata",
+                      "en": "On March 11, 2011, I experienced the Great East Japan Earthquake. After the earthquake, I had to evacuate from my hometown.",
+                      "ja": "2011年3月11日に、私は東日本大震災を経験しました。地震の後、私は故郷から避難する必要がありました。"
+                    },
+                    {
+                      "id": "G2_U5_GL_S_09",
+                      "speaker": "(3) Mr. Hata",
+                      "en": "On the way, I went to a convenience store to buy food, drinks, and medicine.",
+                      "ja": "途中で、私は食べ物、飲み物、薬を買うためにコンビニに行きました。"
+                    },
+                    {
+                      "id": "G2_U5_GL_S_10",
+                      "speaker": "(3) Mr. Hata",
+                      "en": "But I couldn't use my prepaid card or electronic money because the power was down.",
+                      "ja": "しかし、停電していたため、プリペイドカードや電子マネーを使うことができませんでした。"
+                    },
+                    {
+                      "id": "G2_U5_GL_S_11",
+                      "speaker": "(3) Mr. Hata",
+                      "en": "Luckily, I had these in my bag. I think it's necessary to prepare them for a disaster.",
+                      "ja": "幸運にも、これらが私のバッグにありました。災害のためにこれらを用意しておくことが必要だと思います。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak: バッグに何を入れるべきか (p.106)",
+                  "items": [
+                    {
+                      "id": "G2_U5_GL_S_12",
+                      "speaker": "A",
+                      "en": "I think it's necessary to pack a bottle of water. We can use it for washing our hands.",
+                      "ja": "私はペットボトルの水を入れる必要があると思います。それを手洗い用にも使うことができます。"
+                    },
+                    {
+                      "id": "G2_U5_GL_S_13",
+                      "speaker": "B",
+                      "en": "I think so, too. I think we need a charger, too. We often use our smartphones.",
+                      "ja": "私もそう思います。充電器も必要だと思います。私たちはよくスマートフォンを使いますから。"
+                    },
+                    {
+                      "id": "G2_U5_GL_S_14",
+                      "speaker": "C",
+                      "en": "I don't think we need a charger. I don't think we can't use the internet at that time.",
+                      "ja": "私は充電器は必要ないと思います。そのときにはインターネットを使えないと思うからです。"
+                    }
+                  ]
+                },
+                {
+                  "type": "summary_section",
+                  "header": "Our Group's Emergency Bag (私たちのグループの防災バッグ)",
+                  "items": [
+                    {
+                      "id": "G2_U5_GL_S_15",
+                      "label": "a whistle",
+                      "en": "It's useful when you want to call for help.",
+                      "ja": "助けを求めたいときに役立ちます。"
+                    },
+                    {
+                      "id": "G2_U5_GL_S_16",
+                      "label": "a bottle of water",
+                      "en": "We can use it for washing our hands.",
+                      "ja": "手洗いに使うことができます。"
+                    },
+                    {
+                      "id": "G2_U5_GL_S_17",
+                      "label": "work gloves",
+                      "en": "It's necessary to protect our hands.",
+                      "ja": "手を守るために必要です。"
+                    },
+                    {
+                      "id": "G2_U5_GL_S_18",
+                      "label": "a map",
+                      "en": "We can check it when we want to find a safe place.",
+                      "ja": "安全な場所を見つけたいときに確認できます。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "105-106"
+        },
+        "P1": {
+          "title": "Part 1: みんなで考えよう",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G2_U5_P1_W_01",
+                  "headword": "type(s)",
+                  "pronunciation": "/táip(s)/",
+                  "pos": "名",
+                  "meaning": "タイプ、種類"
+                },
+                {
+                  "id": "G2_U5_P1_W_02",
+                  "headword": "natural",
+                  "pronunciation": "/nǽtʃərəl/",
+                  "pos": "形",
+                  "meaning": "自然の"
+                },
+                {
+                  "id": "G2_U5_P1_W_03",
+                  "headword": "helpful",
+                  "pronunciation": "/hélpfəl/",
+                  "pos": "形",
+                  "meaning": "役立つ、助けになる"
+                },
+                {
+                  "id": "G2_U5_P1_W_04",
+                  "headword": "poster",
+                  "pronunciation": "/póustər/",
+                  "pos": "名",
+                  "meaning": "ポスター"
+                },
+                {
+                  "id": "G2_U5_P1_W_05",
+                  "headword": "safety",
+                  "pronunciation": "/séifti/",
+                  "pos": "名",
+                  "meaning": "安全、無事"
+                },
+                {
+                  "id": "G2_U5_P1_W_06",
+                  "headword": "group",
+                  "pronunciation": "/ɡrúːp/",
+                  "pos": "名",
+                  "meaning": "集団、グループ"
+                },
+                {
+                  "id": "G2_U5_P1_W_07",
+                  "headword": "group work",
+                  "pos": "名",
+                  "meaning": "共同作業"
+                },
+                {
+                  "id": "G2_U5_P1_W_08",
+                  "headword": "prepared",
+                  "pronunciation": "/pripέərd/",
+                  "pos": "形",
+                  "meaning": "用意のできた"
+                },
+                {
+                  "id": "G2_U5_P1_W_09",
+                  "headword": "must",
+                  "pronunciation": "/mʌ́st/",
+                  "pos": "助",
+                  "meaning": "～しなければならない、すべきである"
+                },
+                {
+                  "id": "G2_U5_P1_W_10",
+                  "headword": "must not",
+                  "pos": "助",
+                  "meaning": "～してはいけない"
+                },
+                {
+                  "id": "G2_U5_P1_W_11",
+                  "headword": "location",
+                  "pronunciation": "/loukéiʃən/",
+                  "pos": "名",
+                  "meaning": "場所、位置"
+                },
+                {
+                  "id": "G2_U5_P1_W_12",
+                  "headword": "shelter(s)",
+                  "pronunciation": "/ʃéltər(z)/",
+                  "pos": "名",
+                  "meaning": "避難所、シェルター"
+                },
+                {
+                  "id": "G2_U5_P1_W_13",
+                  "headword": "advance",
+                  "pronunciation": "/ədˈvɑːns/",
+                  "pos": "名",
+                  "meaning": "前進"
+                },
+                {
+                  "id": "G2_U5_P1_W_14",
+                  "headword": "community",
+                  "pronunciation": "/kəmjúːnəti/",
+                  "pos": "名",
+                  "meaning": "地域社会、共同体、コミュニティー"
+                },
+                {
+                  "id": "G2_U5_P1_W_15",
+                  "headword": "center(s)",
+                  "pronunciation": "/séntər(z)/",
+                  "pos": "名",
+                  "meaning": "センター、中心施設"
+                },
+                {
+                  "id": "G2_U5_P1_W_16",
+                  "headword": "include",
+                  "pronunciation": "/inklúːd/",
+                  "pos": "動",
+                  "meaning": "～を含む"
+                },
+                {
+                  "id": "G2_U5_P1_W_17",
+                  "headword": "in advance",
+                  "pos": "熟",
+                  "meaning": "前もって、あらかじめ"
+                },
+                {
+                  "id": "G2_U5_P1_W_18",
+                  "headword": "typhoon",
+                  "pronunciation": "/taifúːn/",
+                  "pos": "名",
+                  "meaning": "台風"
+                },
+                {
+                  "id": "G2_U5_P1_W_19",
+                  "headword": "leave",
+                  "pronunciation": "/líːv/",
+                  "pos": "動",
+                  "meaning": "（～を）去る、離れる"
+                },
+                {
+                  "id": "G2_U5_P1_W_20",
+                  "headword": "window(s)",
+                  "pronunciation": "/wíndou(z)/",
+                  "pos": "名",
+                  "meaning": "窓"
+                },
+                {
+                  "id": "G2_U5_P1_W_21",
+                  "headword": "lightning",
+                  "pronunciation": "/láitniŋ/",
+                  "pos": "名",
+                  "meaning": "雷の光、稲妻"
+                },
+                {
+                  "id": "G2_U5_P1_W_22",
+                  "headword": "away",
+                  "pronunciation": "/əwéi/",
+                  "pos": "副",
+                  "meaning": "〔位置・時間〕～から離れて"
+                },
+                {
+                  "id": "G2_U5_P1_W_23",
+                  "headword": "tall",
+                  "pronunciation": "/tɔ́ːl/",
+                  "pos": "形",
+                  "meaning": "背の高い、（細長く）高い"
+                },
+                {
+                  "id": "G2_U5_P1_W_24",
+                  "headword": "tree(s)",
+                  "pronunciation": "/tríː(z)/",
+                  "pos": "名",
+                  "meaning": "木"
+                },
+                {
+                  "id": "G2_U5_P1_W_25",
+                  "headword": "open",
+                  "pronunciation": "/óupən/",
+                  "pos": "形",
+                  "meaning": "広々とした"
+                },
+                {
+                  "id": "G2_U5_P1_W_26",
+                  "headword": "space",
+                  "pronunciation": "/spéis/",
+                  "pos": "名",
+                  "meaning": "空いた土地、空間"
+                },
+                {
+                  "id": "G2_U5_P1_W_27",
+                  "headword": "car",
+                  "pronunciation": "/kάːr/",
+                  "pos": "名",
+                  "meaning": "自動車"
+                },
+                {
+                  "id": "G2_U5_P1_W_28",
+                  "headword": "heavy",
+                  "pronunciation": "/hévi/",
+                  "pos": "形",
+                  "meaning": "〔程度・量・深刻さなどが〕大きい"
+                },
+                {
+                  "id": "G2_U5_P1_W_29",
+                  "headword": "stay away from ~",
+                  "meaning": "～から離れている"
+                },
+                {
+                  "id": "G2_U5_P1_W_30",
+                  "headword": "get into ~",
+                  "meaning": "～の中へ入る"
+                },
+                {
+                  "id": "G2_U5_P1_W_31",
+                  "headword": "in a group",
+                  "meaning": "グループで、集団の中で"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "dialogue_section",
+                  "header": "みんなで考えよう (p.92)",
+                  "items": [
+                    {
+                      "id": "G2_U5_P1_S_Q1",
+                      "speaker": "Question",
+                      "en": "Q. Kota がポスターに入れる提案をしたのは、何についての情報ですか。",
+                      "ja": "Q. コウタがポスターに入れる提案をしたのは、何についての情報ですか。"
+                    },
+                    {
+                      "id": "G2_U5_P1_S_A1",
+                      "speaker": "Answer",
+                      "en": "A. (例) 避難所についての情報。",
+                      "ja": "A. (例) 避難所についての情報。"
+                    },
+                    {
+                      "id": "G2_U5_P1_S_01",
+                      "ref_num": "①",
+                      "speaker": "Ms. Thusi",
+                      "en": "There are different types of natural disasters in Japan.",
+                      "ja": "日本にはいろいろな種類の自然災害があります。"
+                    },
+                    {
+                      "id": "G2_U5_P1_S_02",
+                      "ref_num": "②",
+                      "speaker": "Ms. Thusi",
+                      "en": "Let's make a helpful poster in English about safety during natural disasters.",
+                      "ja": "自然災害時の安全について手助けとなる英語のポスターを作ってみましょう。"
+                    },
+                    {
+                      "id": "G2_U5_P1_S_03",
+                      "ref_num": "③",
+                      "speaker": "Setting",
+                      "en": "Later, the students are doing group work:",
+                      "ja": "その後、生徒たちがグループワークをしています："
+                    },
+                    {
+                      "id": "G2_U5_P1_S_04",
+                      "ref_num": "④",
+                      "speaker": "Kota",
+                      "en": "Hajin, is your family prepared for natural disasters?",
+                      "ja": "ハジン、君の家族は自然災害に備えているかい？"
+                    },
+                    {
+                      "id": "G2_U5_P1_S_05",
+                      "ref_num": "⑤",
+                      "speaker": "Hajin",
+                      "en": "Well, we have emergency bags.",
+                      "ja": "そうだね、防災バッグがあるよ。"
+                    },
+                    {
+                      "id": "G2_U5_P1_S_06",
+                      "ref_num": "⑥",
+                      "speaker": "Tina",
+                      "en": "We have them, too.",
+                      "ja": "うちにもあるよ。"
+                    },
+                    {
+                      "id": "G2_U5_P1_S_07",
+                      "ref_num": "⑦",
+                      "speaker": "Eri",
+                      "en": "That's good.",
+                      "ja": "いいね。"
+                    },
+                    {
+                      "id": "G2_U5_P1_S_08",
+                      "ref_num": "⑧",
+                      "speaker": "Eri",
+                      "en": "Also, you must check the location of the evacuation shelters in advance.",
+                      "ja": "それと、避難所の位置も事前に確認しておかなきゃね。"
+                    },
+                    {
+                      "id": "G2_U5_P1_S_09",
+                      "ref_num": "⑨",
+                      "speaker": "Tina",
+                      "en": "I didn't know that.",
+                      "ja": "それは知らなかったな。"
+                    },
+                    {
+                      "id": "G2_U5_P1_S_10",
+                      "ref_num": "⑩",
+                      "speaker": "Eri",
+                      "en": "When we can't stay home, we can stay at schools or community centers.",
+                      "ja": "家にいられないとき、学校やコミュニティーセンターで過ごせるんだよ。"
+                    },
+                    {
+                      "id": "G2_U5_P1_S_11",
+                      "ref_num": "⑪",
+                      "speaker": "Kota",
+                      "en": "We mustn't forget to include information about shelters.",
+                      "ja": "避難所についての情報を入れ忘れないようにしなきゃ。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak (p.93)",
+                  "label": "自然災害が起きたときの対応",
+                  "items": [
+                    {
+                      "id": "G2_U5_P1_S_12",
+                      "speaker": "[例]",
+                      "en": "When a typhoon is coming, you must check the weather information.",
+                      "ja": "台風が来るとき、あなたは気象情報をチェックしなければなりません。"
+                    },
+                    {
+                      "id": "G2_U5_P1_S_13",
+                      "speaker": "[解答例]",
+                      "en": "When you see lightning, you must stay away from tall trees.",
+                      "ja": "雷を見たとき、あなたは高い木から離れておかなければなりません。"
+                    },
+                    {
+                      "id": "G2_U5_P1_S_14",
+                      "speaker": "[解答例]",
+                      "en": "When you see lightning, you must not stay in an open space.",
+                      "ja": "雷を見たとき、あなたは開けた場所にとどまってはいけません。"
+                    }
+                  ]
+                }
+              ]
+            },
+            "GRAMMAR": {
+              "items": [
+                {
+                  "id": "G2_U5_P1_K_01",
+                  "en": "You ==**must**== check the location of the evacuation shelters.",
+                  "ja": "避難所の場所を確認しなければなりません。",
+                  "ref_id": "G2_U5_P1_S_08"
+                },
+                {
+                  "id": "G2_U5_P1_K_02",
+                  "en": "You ==**must not**== forget to include information about shelters.",
+                  "ja": "避難所についての情報を含めるのを忘れてはいけません。",
+                  "ref_id": "G2_U5_P1_S_11"
+                }
+              ],
+              "content_blocks": []
+            }
+          },
+          "explanations": {},
+          "page": 93
+        },
+        "P1_G": {
+          "title": "Part 1 解説",
+          "views": {
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "しなければならないことを言う。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "You ==**must**== check the location of the evacuation shelters.",
+                      "ja": "(避難所の場所を確認しなければなりません。)",
+                      "ref_id": "G2_U5_P1_K_01"
+                    },
+                    {
+                      "ref_num": "②",
+                      "en": "You ==**must not**== forget to include information about shelters.",
+                      "ja": "(避難所についての情報を含めるのを忘れてはいけません。)",
+                      "ref_id": "G2_U5_P1_K_02"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "助動詞 must",
+                  "text": "① 「～しなければならない」という強い義務の意味を表すときは、助動詞 must を使って〈must + 動詞の原形〉の形で表します。",
+                  "items": [
+                    {
+                      "en": "You ==**must check**== the location of the evacuation shelters.",
+                      "ja": "(避難所の場所を確認しなければなりません。)"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "label": "must の否定文",
+                  "text": "② must の否定文は〈must't [must not] + 動詞の原形〉の形で表し、「～してはならない」という意味の強い禁止を表します。すでに学習した否定の命令文 Don't ～. とほぼ同じ意味を表すので覚えておきましょう。",
+                  "note": "※短縮形の発音に注意しましょう。mustn't /mʌ́snt/",
+                  "items": [
+                    {
+                      "en": "You ==**must not forget**== to include information about shelters.",
+                      "ja": "(避難所についての情報を含めるのを忘れてはいけません。)"
+                    },
+                    {
+                      "text": "= ==**Don't forget**== to include information about shelters."
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G2_U5_P1G_E_01",
+                      "ref_num": "①",
+                      "en": "There are different types of natural disasters in Japan.",
+                      "text": "**There is[are] ～.** の文です。主語は different types of natural disasters で複数なので、**There are ～.** になります。",
+                      "ref_id": "G2_U5_P1_S_01"
+                    },
+                    {
+                      "id": "G2_U5_P1G_E_02",
+                      "ref_num": "⑧",
+                      "en": "Also, you must check the location of the evacuation shelters in advance.",
+                      "text": "強い義務感などを表す助動詞 **must** の文です。**〈must + 動詞の原形〉** で、「～しなければならない」という味を表します。文末の **in advance** は「前もって、あらかじめ」という意味になります。",
+                      "ref_id": "G2_U5_P1_S_08"
+                    },
+                    {
+                      "id": "G2_U5_P1G_E_03",
+                      "ref_num": "⑨",
+                      "en": "I didn't know that.",
+                      "text": "**I didn't know that.** で「それは知りませんでした。」という意味を表します。相手が話した内容について、その時点まで知らなかったことを言うときに使います。",
+                      "ref_id": "G2_U5_P1_S_09"
+                    },
+                    {
+                      "id": "G2_U5_P1G_E_04",
+                      "ref_num": "⑪",
+                      "en": "We mustn't forget to include information about shelters.",
+                      "text": "**must** の否定文は **〈must't [must not] + 動詞の原形〉** の形で表し、「～してはならない」という強い禁止の意味になります。",
+                      "ref_id": "G2_U5_P1_S_11"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 98
+        },
+        "P2": {
+          "title": "Part 2: 必要なことは",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G2_U5_P2_W_01",
+                  "headword": "earthquake(s)",
+                  "pronunciation": "/ə́ːrθkwèik(s)/",
+                  "pos": "名",
+                  "meaning": "地震"
+                },
+                {
+                  "id": "G2_U5_P2_W_02",
+                  "headword": "hit",
+                  "pronunciation": "/hít/",
+                  "pos": "動",
+                  "meaning": "〔嵐などが〕襲う"
+                },
+                {
+                  "id": "G2_U5_P2_W_03",
+                  "headword": "protect",
+                  "pronunciation": "/prətékt/",
+                  "pos": "動",
+                  "meaning": "～を保護する、守る"
+                },
+                {
+                  "id": "G2_U5_P2_W_04",
+                  "headword": "ourselves",
+                  "pronunciation": "/auərsélvz/",
+                  "pos": "代",
+                  "meaning": "私たち自身を［に］"
+                },
+                {
+                  "id": "G2_U5_P2_W_05",
+                  "headword": "occur(s)",
+                  "pronunciation": "/əkə́ːr(z)/",
+                  "pos": "動",
+                  "meaning": "起こる、生じる"
+                },
+                {
+                  "id": "G2_U5_P2_W_06",
+                  "headword": "prepare",
+                  "pronunciation": "/pripέər/",
+                  "pos": "動",
+                  "meaning": "～を用意する、準備する"
+                },
+                {
+                  "id": "G2_U5_P2_W_07",
+                  "headword": "head",
+                  "pronunciation": "/héd/",
+                  "pos": "名",
+                  "meaning": "頭、頭部"
+                },
+                {
+                  "id": "G2_U5_P2_W_08",
+                  "headword": "save",
+                  "pronunciation": "/séiv/",
+                  "pos": "動",
+                  "meaning": "～を救う、～を助ける"
+                },
+                {
+                  "id": "G2_U5_P2_W_09",
+                  "headword": "life",
+                  "pronunciation": "/láif/",
+                  "pos": "名",
+                  "meaning": "生命、命",
+                  "note": "複数形：lives /láivz/"
+                },
+                {
+                  "id": "G2_U5_P2_W_10",
+                  "headword": "drop",
+                  "pronunciation": "/drάp/",
+                  "pos": "動",
+                  "meaning": "体（の一部）を低くする"
+                },
+                {
+                  "id": "G2_U5_P2_W_11",
+                  "headword": "hold",
+                  "pronunciation": "/hóuld/",
+                  "pos": "動",
+                  "meaning": "しっかり持つ、つかむ"
+                },
+                {
+                  "id": "G2_U5_P2_W_12",
+                  "headword": "on",
+                  "pronunciation": "/άn, ɔ́ːn/",
+                  "pos": "前",
+                  "meaning": "〔付着〕離れずに、くっついて"
+                },
+                {
+                  "id": "G2_U5_P2_W_13",
+                  "headword": "case",
+                  "pronunciation": "/kéis/",
+                  "pos": "名",
+                  "meaning": "場合、状況"
+                },
+                {
+                  "id": "G2_U5_P2_W_14",
+                  "headword": "evacuate",
+                  "pronunciation": "/ivǽkjuèit/",
+                  "pos": "動",
+                  "meaning": "避難する"
+                },
+                {
+                  "id": "G2_U5_P2_W_15",
+                  "headword": "depend(s)",
+                  "pronunciation": "/dipénd(z)/",
+                  "pos": "動",
+                  "meaning": "～次第である、～によって決まる"
+                },
+                {
+                  "id": "G2_U5_P2_W_16",
+                  "headword": "situation",
+                  "pronunciation": "/sìtʃuéiʃən/",
+                  "pos": "名",
+                  "meaning": "状況"
+                },
+                {
+                  "id": "G2_U5_P2_W_17",
+                  "headword": "early",
+                  "pronunciation": "/ə́ːrli/",
+                  "pos": "副",
+                  "meaning": "早く"
+                },
+                {
+                  "id": "G2_U5_P2_W_18",
+                  "headword": "necessary",
+                  "pronunciation": "/nésəsèri/",
+                  "pos": "形",
+                  "meaning": "必要な"
+                },
+                {
+                  "id": "G2_U5_P2_W_19",
+                  "headword": "hold on",
+                  "meaning": "しっかり持つ、つかまる"
+                },
+                {
+                  "id": "G2_U5_P2_W_20",
+                  "headword": "in some cases",
+                  "meaning": "場合によっては"
+                },
+                {
+                  "id": "G2_U5_P2_W_21",
+                  "headword": "depend on ~",
+                  "meaning": "～次第である"
+                },
+                {
+                  "id": "G2_U5_P2_W_22",
+                  "headword": "keep -ing",
+                  "meaning": "～し続ける"
+                },
+                {
+                  "id": "G2_U5_P2_W_23",
+                  "headword": "if necessary",
+                  "meaning": "もし必要であれば"
+                },
+                {
+                  "id": "G2_U5_P2_W_24",
+                  "headword": "post",
+                  "pronunciation": "/póust/",
+                  "pos": "名",
+                  "meaning": "郵便、郵便物"
+                },
+                {
+                  "id": "G2_U5_P2_W_25",
+                  "headword": "post office",
+                  "pronunciation": "/póust àːfəs/",
+                  "pos": "名",
+                  "meaning": "郵便局"
+                },
+                {
+                  "id": "G2_U5_P2_W_26",
+                  "headword": "to-do",
+                  "pronunciation": "/tədúː/",
+                  "pos": "形",
+                  "meaning": "やるべきことの"
+                },
+                {
+                  "id": "G2_U5_P2_W_27",
+                  "headword": "list",
+                  "pronunciation": "/líst/",
+                  "pos": "名",
+                  "meaning": "リスト、一覧表"
+                },
+                {
+                  "id": "G2_U5_P2_W_28",
+                  "headword": "badminton",
+                  "pronunciation": "/bǽdmintn/",
+                  "pos": "名",
+                  "meaning": "バドミントン"
+                },
+                {
+                  "id": "G2_U5_P2_W_29",
+                  "headword": "little",
+                  "pronunciation": "/lítl/",
+                  "pos": "形",
+                  "meaning": "小さい、年少の、若い"
+                },
+                {
+                  "id": "G2_U5_P2_W_30",
+                  "headword": "secure",
+                  "pronunciation": "/sikjúər/",
+                  "pos": "動",
+                  "meaning": "～を固定する"
+                },
+                {
+                  "id": "G2_U5_P2_W_31",
+                  "headword": "bookshelf",
+                  "pronunciation": "/búkʃèlf/",
+                  "pos": "名",
+                  "meaning": "本棚",
+                  "note": "複数形：bookshelves"
+                },
+                {
+                  "id": "G2_U5_P2_W_32",
+                  "headword": "take care of ~",
+                  "meaning": "～の世話をする"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "poster_section",
+                  "header": "必要なことは (p.94)",
+                  "items": [
+                    {
+                      "id": "G2_U5_P2_S_Q1",
+                      "speaker": "Question",
+                      "en": "Q. それぞれの自然災害発生時に必要な行動は何でしょうか。",
+                      "ja": "Q. それぞれの自然災害発生時に必要な行動は何でしょうか。"
+                    },
+                    {
+                      "id": "G2_U5_P2_S_A1",
+                      "speaker": "Answer",
+                      "en": "A. (例) 地震のときは頭を守り、台風、大雨、津波のときは情報を集め続け、必要であれば避難する。",
+                      "ja": "A. (例) 地震のときは頭を守り、台風、大雨、津波のときは情報を集め続け、必要であれば避難する。"
+                    },
+                    {
+                      "id": "G2_U5_P2_S_01",
+                      "ref_num": "①",
+                      "speaker": "Setting",
+                      "en": "The students are making a poster:",
+                      "ja": "生徒たちがポスターを作っています："
+                    },
+                    {
+                      "id": "G2_U5_P2_S_02",
+                      "ref_num": "②",
+                      "en": "BE PREPARED FOR Natural Disasters",
+                      "ja": "自然災害に備えましょう"
+                    },
+                    {
+                      "id": "G2_U5_P2_S_03",
+                      "ref_num": "③",
+                      "en": "Japan has many types of natural disasters: earthquakes, tsunamis, typhoons, and heavy rain.",
+                      "ja": "日本には地震、津波、台風や大雨など、いろいろな種類の自然災害があります。"
+                    },
+                    {
+                      "id": "G2_U5_P2_S_04",
+                      "ref_num": "④",
+                      "en": "When a disaster hits, we have to protect ourselves.",
+                      "ja": "災害が襲ってきたら、自分自身の身を守らなければなりません。"
+                    },
+                    {
+                      "id": "G2_U5_P2_S_05",
+                      "ref_num": "⑤",
+                      "en": "When an earthquake occurs:",
+                      "ja": "地震が起きたら："
+                    },
+                    {
+                      "id": "G2_U5_P2_S_06",
+                      "ref_num": "⑥",
+                      "en": "(What do we need to prepare?)",
+                      "ja": "(何を備える必要がある？)"
+                    },
+                    {
+                      "id": "G2_U5_P2_S_07",
+                      "ref_num": "⑦",
+                      "en": "You have to protect your head first.",
+                      "ja": "まずは頭を守らなければなりません。"
+                    },
+                    {
+                      "id": "G2_U5_P2_S_08",
+                      "ref_num": "⑧",
+                      "en": "These actions can save lives. Drop, Cover, Hold On",
+                      "ja": "これらの行動が命を守ります。 姿勢を低くする、頭を覆う、しっかりつかまる"
+                    },
+                    {
+                      "id": "G2_U5_P2_S_09",
+                      "ref_num": "⑨",
+                      "en": "When typhoons, heavy rain, or tsunamis occur:",
+                      "ja": "台風、大雨、津波が起きたら："
+                    },
+                    {
+                      "id": "G2_U5_P2_S_10",
+                      "ref_num": "⑩",
+                      "en": "In some cases, you don't have to evacuate.",
+                      "ja": "場合によっては、避難する必要はありません。"
+                    },
+                    {
+                      "id": "G2_U5_P2_S_11",
+                      "ref_num": "⑪",
+                      "en": "Sometimes, you have to stay home.",
+                      "ja": "時には、家にとどまる必要があります。"
+                    },
+                    {
+                      "id": "G2_U5_P2_S_12",
+                      "ref_num": "⑫",
+                      "en": "It depends on your situation and location.",
+                      "ja": "あなたの状況やいる場所次第です。"
+                    },
+                    {
+                      "id": "G2_U5_P2_S_13",
+                      "ref_num": "⑬",
+                      "en": "Keep checking for information.",
+                      "ja": "情報を集め続けましょう。"
+                    },
+                    {
+                      "id": "G2_U5_P2_S_14",
+                      "ref_num": "⑭",
+                      "en": "Evacuate early if necessary.",
+                      "ja": "必要ならば早めに避難しましょう。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak (p.95)",
+                  "label": "週末にやるべきことのリスト",
+                  "items": [
+                    {
+                      "id": "G2_U5_P2_S_15",
+                      "speaker": "[例] A",
+                      "en": "I have to get up at six on Sunday. I have a badminton tournament.",
+                      "ja": "私は日曜日に6時に起きなければなりません。バドミントンの大会があります。"
+                    },
+                    {
+                      "id": "G2_U5_P2_S_16",
+                      "speaker": "[例] B",
+                      "en": "I have to stay home and take care of my little brother.",
+                      "ja": "私は家にいて、弟の世話をする必要があります。"
+                    },
+                    {
+                      "id": "G2_U5_P2_S_17",
+                      "speaker": "[解答例] A",
+                      "en": "I have to do my English homework on Saturday. I have a test.",
+                      "ja": "(私は土曜日に英語の宿題をする必要があります。テストがあります。)"
+                    },
+                    {
+                      "id": "G2_U5_P2_S_18",
+                      "speaker": "[解答例] B",
+                      "en": "I have to walk my dog on Sunday.",
+                      "ja": "(私は日曜日にイヌの散歩をする必要があります。)"
+                    },
+                    {
+                      "id": "G2_U5_P2_S_19",
+                      "speaker": "Write [解答例]",
+                      "en": "Ken has to do his English homework, but I don't have to do that.",
+                      "ja": "ケンは英語の宿題をする必要がありますが、私はそれをする必要がありません。"
+                    }
+                  ]
+                }
+              ]
+            },
+            "GRAMMAR": {
+              "items": [
+                {
+                  "id": "G2_U5_P2_K_01",
+                  "en": "We ==**have to protect**== ourselves.",
+                  "ja": "私たちは自分の身を守る必要があります。",
+                  "ref_id": "G2_U5_P2_S_04"
+                },
+                {
+                  "id": "G2_U5_P2_K_02",
+                  "en": "You ==**don't have to evacuate**==.",
+                  "ja": "避難する必要はありません。",
+                  "ref_id": "G2_U5_P2_S_10"
+                }
+              ],
+              "content_blocks": []
+            }
+          },
+          "explanations": {},
+          "page": 95
+        },
+        "P2_G": {
+          "title": "Part 2 解説",
+          "views": {
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "する必要があることを言う。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "We ==**have to protect**== ourselves.",
+                      "ja": "(私たちは自分の身を守る必要があります。)",
+                      "ref_id": "G2_U5_P2_K_01"
+                    },
+                    {
+                      "ref_num": "②",
+                      "en": "You ==**don't have to evacuate**==.",
+                      "ja": "(避難する必要はありません。)",
+                      "ref_id": "G2_U5_P2_K_02"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "have to + 動詞の原形",
+                  "text": "① 「～する必要がある」と言うときは、〈have to + 動詞の原形〉で表します。主語が3人称単数のときは has to を使います。助動詞 must とほぼ同じ意味を表すので覚えておきましょう。",
+                  "note": "＊発音に注意しましょう。have to /hǽftə/ / has to /hǽstə/",
+                  "items": [
+                    {
+                      "en": "You ==**have to get down**==.",
+                      "ja": "(姿勢を低くしなければなりません。)"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "label": "have to の否定文",
+                  "text": "② have to の否定文は〈don't [doesn't] have to + 動詞の原形〉の形で表し、「～する必要がない」という意味になります。",
+                  "items": [
+                    {
+                      "tag": "Check",
+                      "text": "must not は「～してはいけない（禁止）」、don't have to は「～する必要はない（不必要）」という意味になり、否定文では意味が大きく異なるので注意が必要です。"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G2_U5_P2G_E_01",
+                      "ref_num": "④, ⑦, ⑪",
+                      "en": "When a disaster hits, we have to protect ourselves. / You have to protect your head first. / Sometimes, you have to stay home.",
+                      "text": "**〈have to + 動詞の原形〉** の形で、「～する必要がある」という味を表します。to の後は必ず動詞の原形になることを注意しましょう。",
+                      "ref_id": "G2_U5_P2_S_04"
+                    },
+                    {
+                      "id": "G2_U5_P2G_E_02",
+                      "ref_num": "⑩",
+                      "en": "In some cases, you don't have to evacuate.",
+                      "text": "have to の否定文です。**〈don't [doesn't] have to + 動詞の原形〉** の形で、「～する必要がない」という意味を表します。**in some cases** で「場合によっては」という意味を表します。",
+                      "ref_id": "G2_U5_P2_S_10"
+                    },
+                    {
+                      "id": "G2_U5_P2G_E_03",
+                      "ref_num": "⑫",
+                      "en": "It depends on your situation and location.",
+                      "text": "**depend on ～** で、「～次第である」という意味を表します。ある事柄が、条件や状況によって影響を受けることを表すときに使う表現です。",
+                      "ref_id": "G2_U5_P2_S_12"
+                    },
+                    {
+                      "id": "G2_U5_P2G_E_04",
+                      "ref_num": "⑬",
+                      "en": "Keep checking for information.",
+                      "text": "**keep ～ing** で、「～し続ける」という意味を表します。行為や行動を継続することを表すときに使います。keep の後は動詞の形が **-ing** となります。",
+                      "ref_id": "G2_U5_P2_S_13"
+                    },
+                    {
+                      "id": "G2_U5_P2G_E_05",
+                      "ref_num": "⑭",
+                      "en": "Evacuate early if necessary.",
+                      "text": "**if necessary** で「もし必要であれば」という味を表します。**necessary** は「必要な」という味の形容詞です。",
+                      "ref_id": "G2_U5_P2_S_14"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 99
+        },
+        "P3": {
+          "title": "Part 3: 今日からできること",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G2_U5_P3_W_01",
+                  "headword": "pamphlet",
+                  "pronunciation": "/pǽmflət/",
+                  "pos": "名",
+                  "meaning": "パンフレット"
+                },
+                {
+                  "id": "G2_U5_P3_W_02",
+                  "headword": "checklist",
+                  "pronunciation": "/tʃék-lìst/",
+                  "pos": "名",
+                  "meaning": "チェックリスト、一覧表"
+                },
+                {
+                  "id": "G2_U5_P3_W_03",
+                  "headword": "good",
+                  "pronunciation": "/ɡúd/",
+                  "pos": "間",
+                  "meaning": "よろしい、いいぞ"
+                },
+                {
+                  "id": "G2_U5_P3_W_04",
+                  "headword": "content(s)",
+                  "pronunciation": "/kάntent(s)/",
+                  "pos": "名",
+                  "meaning": "内容物、中身"
+                },
+                {
+                  "id": "G2_U5_P3_W_05",
+                  "headword": "again",
+                  "pronunciation": "/əɡén/",
+                  "pos": "副",
+                  "meaning": "再び、もう一度"
+                },
+                {
+                  "id": "G2_U5_P3_W_06",
+                  "headword": "it",
+                  "pronunciation": "/ít/",
+                  "pos": "代",
+                  "usage": "〔形式上の主語として〕",
+                  "meaning": "（実質上の主語が後ろにくる）"
+                },
+                {
+                  "id": "G2_U5_P3_W_07",
+                  "headword": "flashlight",
+                  "pronunciation": "/flǽʃ-làit/",
+                  "pos": "名",
+                  "meaning": "懐中電灯"
+                },
+                {
+                  "id": "G2_U5_P3_W_08",
+                  "headword": "radio",
+                  "pronunciation": "/réidiòu/",
+                  "pos": "名",
+                  "meaning": "ラジオ"
+                },
+                {
+                  "id": "G2_U5_P3_W_09",
+                  "headword": "map",
+                  "pronunciation": "/mǽp/",
+                  "pos": "名",
+                  "meaning": "地図"
+                },
+                {
+                  "id": "G2_U5_P3_W_10",
+                  "headword": "canned",
+                  "pronunciation": "/kǽnd/",
+                  "pos": "形",
+                  "meaning": "缶詰めの"
+                },
+                {
+                  "id": "G2_U5_P3_W_11",
+                  "headword": "water",
+                  "pronunciation": "/wɔ́ːtər/",
+                  "pos": "名",
+                  "meaning": "水"
+                },
+                {
+                  "id": "G2_U5_P3_W_12",
+                  "headword": "remember",
+                  "pronunciation": "/rimémbər/",
+                  "pos": "動",
+                  "usage": "〔remember to ～で〕",
+                  "meaning": "忘れずに～する"
+                },
+                {
+                  "id": "G2_U5_P3_W_13",
+                  "headword": "dial",
+                  "pronunciation": "/dáiəl/",
+                  "pos": "動",
+                  "meaning": "（電話番号を）押す、～に電話をかける"
+                },
+                {
+                  "id": "G2_U5_P3_W_14",
+                  "headword": "message board",
+                  "pos": "名",
+                  "meaning": "伝言板"
+                },
+                {
+                  "id": "G2_U5_P3_W_15",
+                  "headword": "board",
+                  "pronunciation": "/bɔ́ːrd/",
+                  "pos": "名",
+                  "meaning": "掲示板"
+                },
+                {
+                  "id": "G2_U5_P3_W_16",
+                  "headword": "plan",
+                  "pronunciation": "/plǽn/",
+                  "pos": "動",
+                  "meaning": "～の計画を立てる"
+                },
+                {
+                  "id": "G2_U5_P3_W_17",
+                  "headword": "route",
+                  "pronunciation": "/rúːt/",
+                  "pos": "名",
+                  "meaning": "道筋、経路"
+                },
+                {
+                  "id": "G2_U5_P3_W_18",
+                  "headword": "schedule",
+                  "pronunciation": "/skédʒuːl/",
+                  "pos": "名",
+                  "meaning": "予定（表）、スケジュール"
+                },
+                {
+                  "id": "G2_U5_P3_W_19",
+                  "headword": "leave",
+                  "pronunciation": "/líːv/",
+                  "pos": "動",
+                  "meaning": "～をあとに残す、～を置いていく"
+                },
+                {
+                  "id": "G2_U5_P3_W_20",
+                  "headword": "useful",
+                  "pronunciation": "/júːsfəl/",
+                  "pos": "形",
+                  "meaning": "有用な、役に立つ"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "dialogue_section",
+                  "header": "今日からできること (p.96)",
+                  "items": [
+                    {
+                      "id": "G2_U5_P3_S_Q1",
+                      "speaker": "Question",
+                      "en": "Q. Ms. Rios は、何が大切だと言っていますか。",
+                      "ja": "Q. リオスさんは、何が大切だと言っていますか。"
+                    },
+                    {
+                      "id": "G2_U5_P3_S_A1",
+                      "speaker": "Answer",
+                      "en": "A. (例) 非常事態のためによく備えておくこと。",
+                      "ja": "A. (例) 非常事態のためによく備えておくこと。"
+                    },
+                    {
+                      "id": "G2_U5_P3_S_01",
+                      "ref_num": "①",
+                      "speaker": "Setting",
+                      "en": "Tina, Nick, and Ms. Rios are checking the emergency bag:",
+                      "ja": "ティナ、ニック、リオスさんが防災パックを確認しています："
+                    },
+                    {
+                      "id": "G2_U5_P3_S_02",
+                      "ref_num": "②",
+                      "speaker": "Tina",
+                      "en": "Here's a pamphlet about preparing for natural disasters.",
+                      "ja": "これが自然災害への備えについてのパンフレットだよ。"
+                    },
+                    {
+                      "id": "G2_U5_P3_S_03",
+                      "ref_num": "③",
+                      "speaker": "Tina",
+                      "en": "It has a checklist of things for the emergency bag.",
+                      "ja": "防災バッグに入れるもののチェックリストがあるよ。"
+                    },
+                    {
+                      "id": "G2_U5_P3_S_04",
+                      "ref_num": "④",
+                      "speaker": "Ms. Rios",
+                      "en": "Good. Let's check the contents of the bag again.",
+                      "ja": "いいね。バッグの中身をもう一度確認しよう。"
+                    },
+                    {
+                      "id": "G2_U5_P3_S_05",
+                      "ref_num": "⑤",
+                      "speaker": "Ms. Rios",
+                      "en": "It's important to prepare well for emergencies.",
+                      "ja": "非常事態のためによく備えておくことは大切だね。"
+                    },
+                    {
+                      "id": "G2_U5_P3_S_06",
+                      "ref_num": "⑥",
+                      "speaker": "Tina",
+                      "en": "Let's see.",
+                      "ja": "ええと。"
+                    },
+                    {
+                      "id": "G2_U5_P3_S_07",
+                      "ref_num": "⑦",
+                      "speaker": "Tina",
+                      "en": "We have a flashlight, a radio, a map, canned food, some water, and ....",
+                      "ja": "入っているのは、懐中電灯、ラジオ、地図、缶詰めの食品、水、それから……。"
+                    },
+                    {
+                      "id": "G2_U5_P3_S_08",
+                      "ref_num": "⑧",
+                      "speaker": "Ms. Rios",
+                      "en": "Good. We have everything.",
+                      "ja": "いいわね。全部あるわ。"
+                    },
+                    {
+                      "id": "G2_U5_P3_S_09",
+                      "ref_num": "⑨",
+                      "speaker": "Tina",
+                      "en": "Oh, and don't forget cat food for Felix.",
+                      "ja": "ああ、フェリックスのためのキャットフードを忘れないで。"
+                    },
+                    {
+                      "id": "G2_U5_P3_S_10",
+                      "ref_num": "⑩",
+                      "speaker": "Nick",
+                      "en": "And ... cookies?",
+                      "ja": "それと……クッキーは？"
+                    },
+                    {
+                      "id": "G2_U5_P3_S_11",
+                      "ref_num": "⑪",
+                      "speaker": "Tina",
+                      "en": "OK, but I don't think you have to bring them all.",
+                      "ja": "うん、でも全部を持っていく必要はないと思うよ。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak (p.97)",
+                  "label": "災害に備えて特に必要だと思うこと",
+                  "items": [
+                    {
+                      "id": "G2_U5_P3_S_12",
+                      "speaker": "[例] A",
+                      "en": "It's necessary to prepare an emergency bag.",
+                      "ja": "防災バッグを準備しておくことが必要です。"
+                    },
+                    {
+                      "id": "G2_U5_P3_S_13",
+                      "speaker": "[例] B",
+                      "en": "It's necessary to remember to dial 171. We can leave messages for our family. It's useful.",
+                      "ja": "忘れずに171番に電話することが必要です。私たちは家族にメッセージを残すことができます。役に立ちます。"
+                    },
+                    {
+                      "id": "G2_U5_P3_S_14",
+                      "speaker": "[解答例] A",
+                      "en": "It's necessary to check the location of the evacuation shelters in advance.",
+                      "ja": "(避難所の位置を前もって確認しておくことが必要です。)"
+                    },
+                    {
+                      "id": "G2_U5_P3_S_15",
+                      "speaker": "[解答例] B",
+                      "en": "It's important to share our schedule with our family.",
+                      "ja": "(家族とスケジュールを共有することが大切です。)"
+                    }
+                  ]
+                }
+              ]
+            },
+            "GRAMMAR": {
+              "items": [
+                {
+                  "id": "G2_U5_P3_K_01",
+                  "en": "==**It's important to prepare**== well for emergencies.",
+                  "ja": "緊急事態によく備えることは大切です。",
+                  "ref_id": "G2_U5_P3_S_05"
+                }
+              ],
+              "content_blocks": []
+            }
+          },
+          "explanations": {},
+          "page": 97
+        },
+        "P3_G": {
+          "title": "Part 3 解説",
+          "views": {
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "意見や判断などを言う。",
+                  "items": [
+                    {
+                      "en": "==**It's important to prepare**== well for emergencies.",
+                      "ja": "(緊急事態によく備えることは大切です。)",
+                      "ref_id": "G2_U5_P3_K_01"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "不定詞に代わる It",
+                  "text": "〈It is ～ (for 人) + to + 動詞の原形〉の形で、「（人が）…するのは～です」という意味を表します。文頭の It は形式上の主語で、不定詞〈to + 動詞の原形〉以下の内容（to prepare well for emergencies）をさします。この It は「それ（は）」と訳さないので、注意しましょう。",
+                  "items": [
+                    {
+                      "en": "==**It**=='s important ==**to prepare**== well for emergencies.",
+                      "text": "= ==**To prepare well for emergencies**== is important."
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G2_U5_P3G_E_01",
+                      "ref_num": "⑥",
+                      "en": "It's important to prepare well for emergencies.",
+                      "text": "**〈It is ～ (for 人) + to + 動詞の原形〉** の形の文です。文頭の **It** は不定詞の **〈to + 動詞の原形〉** 以下のことを指しています。「（人が）…するのは～です」という意味になります。",
+                      "ref_id": "G2_U5_P3_S_05"
+                    },
+                    {
+                      "id": "G2_U5_P3G_E_02",
+                      "ref_num": "⑦",
+                      "en": "Let's see.",
+                      "note": "→教科書p.64 Key Phrase",
+                      "text": "**Let's see.** で「ええっと。」という意味を表します。相手と話しているときに少し間を取るときに使う表現です。",
+                      "ref_id": "G2_U5_P3_S_06"
+                    },
+                    {
+                      "id": "G2_U5_P3G_E_03",
+                      "ref_num": "⑬",
+                      "en": "OK, but I don't think you have to bring them all.",
+                      "text": "**〈have to + 動詞の原形〉** の形で、「～する必要がある」という意味を表します。I don't think とあるので、「～とは思えません」という味になります。",
+                      "ref_id": "G2_U5_P3_S_11"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 100
+        },
+        "DL5": {
+          "title": "Daily Life 5: 電車の乗り換え",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G2_U5_DL5_W_01",
+                  "headword": "market",
+                  "pronunciation": "/mάːrkət/",
+                  "pos": "名",
+                  "meaning": "市場"
+                },
+                {
+                  "id": "G2_U5_DL5_W_02",
+                  "headword": "tower",
+                  "pronunciation": "/táuər/",
+                  "pos": "名",
+                  "meaning": "塔、タワー"
+                },
+                {
+                  "id": "G2_U5_DL5_W_03",
+                  "headword": "line",
+                  "pronunciation": "/láin/",
+                  "pos": "名",
+                  "meaning": "（鉄道の）線、路線"
+                },
+                {
+                  "id": "G2_U5_DL5_W_04",
+                  "headword": "could",
+                  "pronunciation": "/kúd, kəd/",
+                  "pos": "助",
+                  "usage": "〔Could you ～? で〕",
+                  "meaning": "～していただけますか"
+                },
+                {
+                  "id": "G2_U5_DL5_W_05",
+                  "headword": "subway",
+                  "pronunciation": "/sʌ́bwèi/",
+                  "pos": "名",
+                  "meaning": "地下鉄"
+                },
+                {
+                  "id": "G2_U5_DL5_W_06",
+                  "headword": "change",
+                  "pronunciation": "/tʃéindʒ/",
+                  "pos": "動",
+                  "meaning": "（乗り物を）乗り換える"
+                },
+                {
+                  "id": "G2_U5_DL5_W_07",
+                  "headword": "off",
+                  "pronunciation": "/ɔ́ːf/",
+                  "pos": "副",
+                  "meaning": "外れて、取れて、降りて"
+                },
+                {
+                  "id": "G2_U5_DL5_W_08",
+                  "headword": "ticket",
+                  "pronunciation": "/tíkət/",
+                  "pos": "名",
+                  "meaning": "切符、チケット"
+                },
+                {
+                  "id": "G2_U5_DL5_W_09",
+                  "headword": "follow",
+                  "pronunciation": "/fάlou/",
+                  "pos": "動",
+                  "meaning": "～の後について行く［来る］"
+                },
+                {
+                  "id": "G2_U5_DL5_W_10",
+                  "headword": "May I ~?",
+                  "meaning": "～してもよろしいですか。"
+                },
+                {
+                  "id": "G2_U5_DL5_W_11",
+                  "headword": "Could you tell me the way to ~?",
+                  "meaning": "～への行き方を教えていただけますか。"
+                },
+                {
+                  "id": "G2_U5_DL5_W_12",
+                  "headword": "get off",
+                  "meaning": "（列車・バスなどから）降りる"
+                },
+                {
+                  "id": "G2_U5_DL5_W_13",
+                  "headword": "change to ~",
+                  "meaning": "～に乗り換える"
+                },
+                {
+                  "id": "G2_U5_DL5_W_14",
+                  "headword": "how to ~",
+                  "meaning": "～する方法"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "dialogue_section",
+                  "header": "1. 乗り換えの案内：円山動物園への行き方",
+                  "items": [
+                    {
+                      "id": "G2_U5_DL5_S_01",
+                      "speaker": "Tourist",
+                      "en": "Excuse me. May I ask you something?",
+                      "ja": "すみません。おたずねしてもいいですか。"
+                    },
+                    {
+                      "id": "G2_U5_DL5_S_02",
+                      "speaker": "Yuma",
+                      "en": "Sure.",
+                      "ja": "もちろんです。"
+                    },
+                    {
+                      "id": "G2_U5_DL5_S_03",
+                      "speaker": "Tourist",
+                      "en": "Could you tell me the way to Sapporo Maruyama Zoo?",
+                      "ja": "札幌市円山動物園までの行き方を教えていただけないでしょうか。"
+                    },
+                    {
+                      "id": "G2_U5_DL5_S_04",
+                      "speaker": "Yuma",
+                      "en": "Take the subway and get off at Odori Station. Then, change to the Tozai Line and get off at Maruyama Koen Station.",
+                      "ja": "地下鉄に乗って大通駅で降りてください。それから東西線に乗り換えて円山公園駅で降りてください。"
+                    },
+                    {
+                      "id": "G2_U5_DL5_S_05",
+                      "speaker": "Tourist",
+                      "en": "I see. Thank you.",
+                      "ja": "わかりました。ありがとうございます。"
+                    },
+                    {
+                      "id": "G2_U5_DL5_S_06",
+                      "speaker": "Yuma",
+                      "en": "Do you know how to buy a subway ticket?",
+                      "ja": "地下鉄の切符の買い方は知っていますか？"
+                    },
+                    {
+                      "id": "G2_U5_DL5_S_07",
+                      "speaker": "Tourist",
+                      "en": "No. Could you tell me how?",
+                      "ja": "いいえ。どうするか教えていただけますか？"
+                    },
+                    {
+                      "id": "G2_U5_DL5_S_08",
+                      "speaker": "Yuma",
+                      "en": "Sure. I'll show you. Follow me, please.",
+                      "ja": "もちろんです。お教えします。ついて来てください。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "2. 練習：中央卸売市場への行き方 [解答例]",
+                  "items": [
+                    {
+                      "id": "G2_U5_DL5_S_09",
+                      "speaker": "A",
+                      "en": "Excuse me. May I ask you something?",
+                      "ja": "すみません。おたずねしてもいいですか。"
+                    },
+                    {
+                      "id": "G2_U5_DL5_S_10",
+                      "speaker": "B",
+                      "en": "Sure.",
+                      "ja": "もちろんです。"
+                    },
+                    {
+                      "id": "G2_U5_DL5_S_11",
+                      "speaker": "A",
+                      "en": "Could you tell me the way to Chuo Fish Market?",
+                      "ja": "中央卸売市場までの行き方を教えていただけないでしょうか。"
+                    },
+                    {
+                      "id": "G2_U5_DL5_S_12",
+                      "speaker": "B",
+                      "en": "Take the subway and get off at Odori Station. Then, change to the Tozai Line and get off at Nijuyonken Station.",
+                      "ja": "地下鉄に乗って大通駅で降りてください。それから東西線に乗り換えて二十四軒駅で降りてください。"
+                    },
+                    {
+                      "id": "G2_U5_DL5_S_13",
+                      "speaker": "A",
+                      "en": "I see. Thank you.",
+                      "ja": "わかりました。ありがとうございます。"
+                    },
+                    {
+                      "id": "G2_U5_DL5_S_14",
+                      "speaker": "B",
+                      "en": "Do you know the way to the market from Nijuyonken Station?",
+                      "ja": "二十四軒駅から市場までの道は知っていますか？"
+                    },
+                    {
+                      "id": "G2_U5_DL5_S_15",
+                      "speaker": "A",
+                      "en": "No. Could you tell me the way?",
+                      "ja": "いいえ。教えていただけますか？"
+                    },
+                    {
+                      "id": "G2_U5_DL5_S_16",
+                      "speaker": "B",
+                      "en": "Sure. I'll show you my map.",
+                      "ja": "もちろんです。私の地図を見せましょう。"
+                    },
+                    {
+                      "id": "G2_U5_DL5_S_17",
+                      "speaker": "A",
+                      "en": "Thank you.",
+                      "ja": "ありがとうございます。"
+                    },
+                    {
+                      "id": "G2_U5_DL5_S_18",
+                      "speaker": "B",
+                      "en": "You're welcome.",
+                      "ja": "どういたしまして。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 107
+        },
+        "ST": {
+          "title": "Start: How Do We Stay Safe?",
+          "views": {
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "goal_section",
+                  "header": "Unit 5 の目標 (Goal)",
+                  "items": [
+                    {
+                      "tag": "Listen",
+                      "text": "災害時に役立つものの説明から、必要な情報を聞き取ることができる。"
+                    },
+                    {
+                      "tag": "Speak",
+                      "text": "必要だと思うものについて、意見を整理して伝え合うことができる。"
+                    }
+                  ]
+                },
+                {
+                  "type": "vocabulary_labels",
+                  "header": "防災に関するキーワード",
+                  "items": [
+                    {
+                      "id": "G2_U5_ST_L_01",
+                      "en": "Toilet for Disaster",
+                      "ja": "災害用トイレ"
+                    },
+                    {
+                      "id": "G2_U5_ST_L_02",
+                      "en": "Emergency Bag",
+                      "ja": "防災バッグ"
+                    },
+                    {
+                      "id": "G2_U5_ST_L_03",
+                      "en": "Evacuation Site",
+                      "ja": "避難場所"
+                    },
+                    {
+                      "id": "G2_U5_ST_L_04",
+                      "en": "Fire Drill",
+                      "ja": "防火訓練"
+                    }
+                  ]
+                },
+                {
+                  "type": "intro_section",
+                  "header": "About You",
+                  "items": [
+                    {
+                      "id": "G2_U5_ST_S_01",
+                      "en": "Do you have an emergency bag?",
+                      "ja": "あなたは防災バッグを持っていますか。"
+                    },
+                    {
+                      "id": "G2_U5_ST_S_02",
+                      "en": "Yes, I do.",
+                      "ja": "(例) はい、持っています。",
+                      "tag": "例"
+                    }
+                  ]
+                },
+                {
+                  "type": "check_section",
+                  "header": "1. 予想する",
+                  "items": [
+                    {
+                      "id": "G2_U5_ST_S_03",
+                      "en": "What will Kota and his friends talk about?",
+                      "ja": "コウタと彼の友達は何について話すでしょうか。"
+                    },
+                    {
+                      "id": "G2_U5_ST_S_04",
+                      "en": "They will talk about the things to put in their emergency bags.",
+                      "ja": "(例) 彼らは防災バッグにしまう物について話すでしょう。",
+                      "tag": "例"
+                    }
+                  ]
+                }
+              ]
+            },
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G2_U5_ST_W_01",
+                  "headword": "safe",
+                  "pronunciation": "/séif/",
+                  "pos": "形",
+                  "meaning": "安全な、無事な"
+                },
+                {
+                  "id": "G2_U5_ST_W_02",
+                  "headword": "toilet",
+                  "pronunciation": "/tɔ́ilət/",
+                  "pos": "名",
+                  "meaning": "トイレ"
+                },
+                {
+                  "id": "G2_U5_ST_W_03",
+                  "headword": "disaster",
+                  "pronunciation": "/dizǽstər/",
+                  "pos": "名",
+                  "meaning": "災害"
+                },
+                {
+                  "id": "G2_U5_ST_W_04",
+                  "headword": "emergency",
+                  "pronunciation": "/imə́ːrdʒənsi/",
+                  "pos": "名",
+                  "meaning": "非常事態"
+                },
+                {
+                  "id": "G2_U5_ST_W_05",
+                  "headword": "evacuation",
+                  "pronunciation": "/ivæ̀kjuéiʃən/",
+                  "pos": "名",
+                  "meaning": "避難"
+                },
+                {
+                  "id": "G2_U5_ST_W_06",
+                  "headword": "site",
+                  "pronunciation": "/sáit/",
+                  "pos": "名",
+                  "meaning": "用地、場所"
+                },
+                {
+                  "id": "G2_U5_ST_W_07",
+                  "headword": "fire",
+                  "pronunciation": "/fáiər/",
+                  "pos": "名",
+                  "meaning": "火事、火災"
+                },
+                {
+                  "id": "G2_U5_ST_W_08",
+                  "headword": "drill",
+                  "pronunciation": "/dríl/",
+                  "pos": "名",
+                  "meaning": "訓練"
+                },
+                {
+                  "id": "G2_U5_ST_W_09",
+                  "headword": "fire drill",
+                  "pos": "名",
+                  "meaning": "防火訓練、防災訓練"
+                }
+              ],
+              "content_blocks": []
+            }
+          },
+          "explanations": {},
+          "page": 91
+        },
+        "DL6": {
+          "title": "Daily Life 6: 体調不良",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G2_U5_DL6_W_01",
+                  "headword": "matter",
+                  "pronunciation": "/mǽtər/",
+                  "pos": "名",
+                  "meaning": "事柄、問題、事件"
+                },
+                {
+                  "id": "G2_U5_DL6_W_02",
+                  "headword": "pale",
+                  "pronunciation": "/péil/",
+                  "pos": "形",
+                  "meaning": "青白い、青ざめた"
+                },
+                {
+                  "id": "G2_U5_DL6_W_03",
+                  "headword": "mm",
+                  "pronunciation": "/mm/",
+                  "pos": "間",
+                  "meaning": "うむ、ええと"
+                },
+                {
+                  "id": "G2_U5_DL6_W_04",
+                  "headword": "headache",
+                  "pronunciation": "/héidèik/",
+                  "pos": "名",
+                  "meaning": "頭痛"
+                },
+                {
+                  "id": "G2_U5_DL6_W_05",
+                  "headword": "should",
+                  "pronunciation": "/ʃúd/",
+                  "pos": "助",
+                  "meaning": "～した方がよい"
+                },
+                {
+                  "id": "G2_U5_DL6_W_06",
+                  "headword": "sick",
+                  "pronunciation": "/sík/",
+                  "pos": "形",
+                  "meaning": "病気の"
+                },
+                {
+                  "id": "G2_U5_DL6_W_07",
+                  "headword": "dizzy",
+                  "pronunciation": "/dízi/",
+                  "pos": "形",
+                  "meaning": "目まいがする"
+                },
+                {
+                  "id": "G2_U5_DL6_W_08",
+                  "headword": "stomachache",
+                  "pronunciation": "/stʌ́məkèik/",
+                  "pos": "名",
+                  "meaning": "胃痛、腹痛"
+                },
+                {
+                  "id": "G2_U5_DL6_W_09",
+                  "headword": "doctor",
+                  "pronunciation": "/dάktər/",
+                  "pos": "名",
+                  "meaning": "医者、医師"
+                },
+                {
+                  "id": "G2_U5_DL6_W_10",
+                  "headword": "lie",
+                  "pronunciation": "/lái/",
+                  "pos": "動",
+                  "meaning": "横になる、横たわる"
+                },
+                {
+                  "id": "G2_U5_DL6_W_11",
+                  "headword": "What's the matter?",
+                  "meaning": "どうしましたか。"
+                },
+                {
+                  "id": "G2_U5_DL6_W_12",
+                  "headword": "Are you OK?",
+                  "meaning": "大丈夫ですか。"
+                },
+                {
+                  "id": "G2_U5_DL6_W_13",
+                  "headword": "take a rest",
+                  "meaning": "ひと休みする"
+                },
+                {
+                  "id": "G2_U5_DL6_W_14",
+                  "headword": "Can I ~?",
+                  "meaning": "～しましょうか。"
+                },
+                {
+                  "id": "G2_U5_DL6_W_15",
+                  "headword": "take ~ to ...",
+                  "meaning": "～を…へ連れて行く"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "dialogue_section",
+                  "header": "1. 具合をたずねる対話",
+                  "items": [
+                    {
+                      "id": "G2_U5_DL6_S_01",
+                      "speaker": "Cathy",
+                      "en": "What's the matter?",
+                      "ja": "どうしたの？"
+                    },
+                    {
+                      "id": "G2_U5_DL6_S_02",
+                      "speaker": "Cathy",
+                      "en": "You look pale.",
+                      "ja": "顔が青白いよ。"
+                    },
+                    {
+                      "id": "G2_U5_DL6_S_03",
+                      "speaker": "Makoto",
+                      "en": "Mm, I have a headache.",
+                      "ja": "うーん、頭痛がするんだ。"
+                    },
+                    {
+                      "id": "G2_U5_DL6_S_04",
+                      "speaker": "Cathy",
+                      "en": "Are you OK?",
+                      "ja": "大丈夫？"
+                    },
+                    {
+                      "id": "G2_U5_DL6_S_05",
+                      "speaker": "Cathy",
+                      "en": "I think you should take a rest.",
+                      "ja": "休んだ方がいいと思うよ。"
+                    },
+                    {
+                      "id": "G2_U5_DL6_S_06",
+                      "speaker": "Cathy",
+                      "en": "Can I take you to the school nurse's office?",
+                      "ja": "保健室に連れて行ってあげようか？"
+                    },
+                    {
+                      "id": "G2_U5_DL6_S_07",
+                      "speaker": "Makoto",
+                      "en": "Yes, please. Thank you.",
+                      "ja": "うん、お願い。ありがとう。"
+                    },
+                    {
+                      "id": "G2_U5_DL6_S_08",
+                      "speaker": "Cathy",
+                      "en": "No problem.",
+                      "ja": "問題ないよ。"
+                    }
+                  ]
+                },
+                {
+                  "type": "phrase_list_section",
+                  "header": "体調に関する表現（表の中身）",
+                  "label": "症状を言う (Symptoms)",
+                  "items": [
+                    {
+                      "id": "G2_U5_DL6_L_01",
+                      "en": "I feel sick.",
+                      "ja": "具合が悪いです。"
+                    },
+                    {
+                      "id": "G2_U5_DL6_L_02",
+                      "en": "I have a fever.",
+                      "ja": "熱があります。"
+                    },
+                    {
+                      "id": "G2_U5_DL6_L_03",
+                      "en": "I feel dizzy.",
+                      "ja": "めまいがします。"
+                    },
+                    {
+                      "id": "G2_U5_DL6_L_04",
+                      "en": "I have a stomachache.",
+                      "ja": "胃痛がします。"
+                    }
+                  ]
+                },
+                {
+                  "type": "phrase_list_section",
+                  "label": "アドバイス・提案 (Advice / Proposals)",
+                  "items": [
+                    {
+                      "id": "G2_U5_DL6_L_05",
+                      "en": "go home",
+                      "ja": "帰宅する"
+                    },
+                    {
+                      "id": "G2_U5_DL6_L_06",
+                      "en": "see a doctor",
+                      "ja": "医者にかかる"
+                    },
+                    {
+                      "id": "G2_U5_DL6_L_07",
+                      "en": "lie down in bed",
+                      "ja": "ベッドに横になる"
+                    },
+                    {
+                      "id": "G2_U5_DL6_L_08",
+                      "en": "call a teacher",
+                      "ja": "先生を呼ぶ"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "2. 練習：めまいがする場合 [解答例]",
+                  "items": [
+                    {
+                      "id": "G2_U5_DL6_S_09",
+                      "speaker": "A",
+                      "en": "What's the matter? You look pale.",
+                      "ja": "どうしたのですか？ 顔が青白いですよ。"
+                    },
+                    {
+                      "id": "G2_U5_DL6_S_10",
+                      "speaker": "B",
+                      "en": "Mm. I feel dizzy.",
+                      "ja": "うーん、めまいがします。"
+                    },
+                    {
+                      "id": "G2_U5_DL6_S_11",
+                      "speaker": "A",
+                      "en": "I think you should go home. Can I call a teacher?",
+                      "ja": "帰宅した方がいいと思います。先生を呼びましょうか？"
+                    },
+                    {
+                      "id": "G2_U5_DL6_S_12",
+                      "speaker": "B",
+                      "en": "Yes, please. Thank you.",
+                      "ja": "はい、お願いします。ありがとうございます。"
+                    },
+                    {
+                      "id": "G2_U5_DL6_S_13",
+                      "speaker": "A",
+                      "en": "No problem.",
+                      "ja": "問題ありません。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 108
+        }
+      },
+      "hasAppendix": true
+    }
+  },
+  "allExplanations": {
+    "G2_U5_P1_S_01": "**There is[are] ～.** の文です。主語は different types of natural disasters で複数なので、**There are ～.** になります。",
+    "G2_U5_P1_S_08": "強い義務感などを表す助動詞 **must** の文です。**〈must + 動詞の原形〉** で、「～しなければならない」という味を表します。文末の **in advance** は「前もって、あらかじめ」という意味になります。",
+    "G2_U5_P1_S_09": "**I didn't know that.** で「それは知りませんでした。」という意味を表します。相手が話した内容について、その時点まで知らなかったことを言うときに使います。",
+    "G2_U5_P1_S_11": "**must** の否定文は **〈must't [must not] + 動詞の原形〉** の形で表し、「～してはならない」という強い禁止の意味になります。",
+    "G2_U5_P2_S_04": "**〈have to + 動詞の原形〉** の形で、「～する必要がある」という味を表します。to の後は必ず動詞の原形になることを注意しましょう。",
+    "G2_U5_P2_S_10": "have to の否定文です。**〈don't [doesn't] have to + 動詞の原形〉** の形で、「～する必要がない」という意味を表します。**in some cases** で「場合によっては」という意味を表します。",
+    "G2_U5_P2_S_12": "**depend on ～** で、「～次第である」という意味を表します。ある事柄が、条件や状況によって影響を受けることを表すときに使う表現です。",
+    "G2_U5_P2_S_13": "**keep ～ing** で、「～し続ける」という意味を表します。行為や行動を継続することを表すときに使います。keep の後は動詞の形が **-ing** となります。",
+    "G2_U5_P2_S_14": "**if necessary** で「もし必要であれば」という味を表します。**necessary** は「必要な」という味の形容詞です。",
+    "G2_U5_P3_S_05": "**〈It is ～ (for 人) + to + 動詞の原形〉** の形の文です。文頭の **It** は不定詞の **〈to + 動詞の原形〉** 以下のことを指しています。「（人が）…するのは～です」という意味になります。",
+    "G2_U5_P3_S_06": "**Let's see.** で「ええっと。」という意味を表します。相手と話しているときに少し間を取るときに使う表現です。",
+    "G2_U5_P3_S_11": "**〈have to + 動詞の原形〉** の形で、「～する必要がある」という意味を表します。I don't think とあるので、「～とは思えません」という味になります。"
+  }
+}

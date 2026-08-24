@@ -1,0 +1,3461 @@
+{
+  "type": "FULL_BACKUP",
+  "units": {
+    "G3-U6": {
+      "title": "Unit G3-U6",
+      "parts": {
+        "AG2": {
+          "title": "Active Grammar 2: 後置修飾",
+          "views": {
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "explanation_section",
+                  "header": "場面と意味 (Look Back)",
+                  "items": [
+                    {
+                      "tag": "(1)",
+                      "speaker": "Nick",
+                      "en": "Look! They're wearing T-shirts designed by Tina.",
+                      "ja": "ほら見て！ ティナがデザインしたTシャツを着ているよ。"
+                    },
+                    {
+                      "tag": "(1)",
+                      "speaker": "Mr. Rios",
+                      "en": "Kota is the conductor, and Tina will sing a solo.",
+                      "ja": "コウタが指揮者で、ティナはソロパートを歌うんだね。"
+                    },
+                    {
+                      "tag": "(1)",
+                      "speaker": "Nick",
+                      "en": "The boy playing the piano with Eri is Hajin.",
+                      "ja": "エリとピアノを演奏している男子はハジンだよ。"
+                    },
+                    {
+                      "tag": "場面解説(1)",
+                      "text": "(例) 合唱コンクール会場で、ティナのクラスの衣装や人について説明している。"
+                    },
+                    {
+                      "tag": "(2)",
+                      "speaker": "Kota",
+                      "en": "Being a puppy walker was another great experience I had.",
+                      "ja": "パピーウォーカーになったことは、ぼくがしたもう1つのすばらしい経験だ。"
+                    },
+                    {
+                      "tag": "場面解説(2)",
+                      "text": "(例) ティナのプレゼンテーションの後に、コウタ自身がしてきた経験について説明している。"
+                    }
+                  ]
+                },
+                {
+                  "type": "pattern_summary",
+                  "header": "文の形 1: 名詞の後ろに語句を置いて説明を追加する",
+                  "items": [
+                    {
+                      "tag": "前置詞",
+                      "label": "(1) 前置詞を使って",
+                      "en": "I'm going to visit ==**my cousins in Okinawa**==.",
+                      "ja": "私は沖縄にいる私のいとこたちに会いに行きます。"
+                    },
+                    {
+                      "tag": "不定詞",
+                      "label": "(2) 不定詞〈to + 動詞の原形〉を使って",
+                      "en": "Let's get ==**something to eat**==.",
+                      "ja": "何か食べるものを手に入れましょう。"
+                    },
+                    {
+                      "tag": "-ing形",
+                      "label": "(3) 〈動詞の -ing形〉を使って (Unit 6-1)",
+                      "en": "==**The student singing a solo**== is my sister.",
+                      "ja": "ソロパートを歌っている生徒は私の姉です。"
+                    },
+                    {
+                      "tag": "過去分詞",
+                      "label": "(4) 過去分詞を使って (Unit 6-2)",
+                      "en": "I use ==**a bag made in Japan**==.",
+                      "ja": "私は日本で作られたかばんを使っています。"
+                    }
+                  ]
+                },
+                {
+                  "type": "pattern_summary",
+                  "header": "文の形 2: 名詞の後ろに文を置いて説明を追加する",
+                  "items": [
+                    {
+                      "tag": "接触節",
+                      "label": "(1) 文（主語＋動詞）を使って (Unit 5-3)",
+                      "en": "I'll show you ==**some photos I took during the school trip**==.",
+                      "ja": "あなたに私が修学旅行の間に撮ったいくつかの写真を見せましょう。"
+                    },
+                    {
+                      "tag": "目的格 which",
+                      "label": "(2) 関係代名詞 which, that（目的語）を使って (Unit 5-1, 5-2)",
+                      "en": "This is ==**a graph (which) I found on the internet**==.",
+                      "ja": "これは私がインターネットで見つけたグラフです。"
+                    },
+                    {
+                      "tag": "目的格 that",
+                      "label": "(2) 関係代名詞 which, that（目的語）を使って (Unit 5-1, 5-2)",
+                      "en": "These are ==**the photos (that) she took during the school trip**==.",
+                      "ja": "これらは彼女が修学旅行の間に撮った写真です。"
+                    },
+                    {
+                      "tag": "主格 which",
+                      "label": "(3) 関係代名詞 which, who, that（主語）を使って (Unit 4-1, 4-2, 4-3)",
+                      "en": "This is ==**a robot which can communicate with people**==.",
+                      "ja": "これは人々とコミュニケーションをとることができるロボットです。"
+                    },
+                    {
+                      "tag": "主格 who",
+                      "label": "(3) 関係代名詞 which, who, that（主語）を使って (Unit 4-1, 4-2, 4-3)",
+                      "en": "I have ==**an uncle who runs a Japanese restaurant**==.",
+                      "ja": "私には日本料理店を経営している叔父がいます。"
+                    },
+                    {
+                      "tag": "主格 that",
+                      "label": "(3) 関係代名詞 which, who, that（主語）を使って (Unit 4-1, 4-2, 4-3)",
+                      "en": "==**Robots that can clean your house**== have become popular.",
+                      "ja": "家を掃除できるロボットは人気になってきています。"
+                    }
+                  ]
+                },
+                {
+                  "type": "comparison_section",
+                  "header": "比べてみよう（英語と日本語の修飾の違い）",
+                  "text": "(例) 日本語では説明される名詞が最後に来るが、英語では名詞が最初に来て、説明が後に続いている。",
+                  "items": [
+                    {
+                      "id": "G3_U6_AG2_C_01",
+                      "tag": "現在分詞",
+                      "en": "people dancing on the stage",
+                      "ja": "ステージで踊っている人たち"
+                    },
+                    {
+                      "id": "G3_U6_AG2_C_02",
+                      "tag": "接触節",
+                      "en": "a photo I took in a park yesterday",
+                      "ja": "私が昨日公園で撮った写真"
+                    }
+                  ]
+                },
+                {
+                  "type": "grammar_hunt",
+                  "header": "Grammar Hunt (解答例: Unit 4 Part 1)",
+                  "items": [
+                    {
+                      "id": "G3_U6_AG2_H_01",
+                      "en": "==**Smartphones which respond to voice commands**== are common these days.",
+                      "ja": "音声の指示に応答するスマートフォンは、最近では一般的です。",
+                      "note": "関係代名詞 which を使って、「smartphones」に説明を加えている。"
+                    }
+                  ]
+                }
+              ]
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "speak_section",
+                  "header": "Speak: 大切にしているものを紹介しよう (p.134 / 教科書p.81)",
+                  "items": [
+                    {
+                      "id": "G3_U6_AG2_S_01",
+                      "en": "Do you have something that is special to you?",
+                      "ja": "あなたにとって何か特別なものはありますか。"
+                    },
+                    {
+                      "id": "G3_U6_AG2_S_02",
+                      "speaker": "Hajin",
+                      "en": "This is the T-shirt that my basketball teammates in Seoul gave me.",
+                      "ja": "これはソウルのバスケットボールのチームメイトにもらったTシャツです。"
+                    },
+                    {
+                      "id": "G3_U6_AG2_S_03",
+                      "speaker": "Hajin",
+                      "en": "It's more than our team's uniform.",
+                      "ja": "ぼくたちのチームのユニフォーム以上のものです。"
+                    },
+                    {
+                      "id": "G3_U6_AG2_S_04",
+                      "speaker": "Hajin",
+                      "en": "It has messages written by the coach and every team member.",
+                      "ja": "それにはコーチとチームのメンバー全員のメッセージが書かれています。"
+                    },
+                    {
+                      "id": "G3_U6_AG2_S_05",
+                      "speaker": "Hajin",
+                      "en": "They prepared this for me when I left Korea.",
+                      "ja": "ぼくが韓国を離れるときに、彼らがぼくのためにこれを用意してくれました。"
+                    },
+                    {
+                      "id": "G3_U6_AG2_S_06",
+                      "speaker": "Hajin",
+                      "en": "It's the thing that cheers me up when I'm feeling down.",
+                      "ja": "落ち込んでいるときにぼくを元気づけてくれるものです。"
+                    },
+                    {
+                      "id": "G3_U6_AG2_S_07",
+                      "speaker": "Hajin",
+                      "en": "Do you have something special to you?",
+                      "ja": "あなたにとって特別なものはありますか。"
+                    },
+                    {
+                      "id": "G3_U6_AG2_S_08",
+                      "speaker": "Hajin",
+                      "en": "I'd love to hear about it.",
+                      "ja": "それについてぜひ聞きたいです。"
+                    },
+                    {
+                      "id": "G3_U6_AG2_S_09",
+                      "speaker": "解答例",
+                      "en": "These are paper cranes that my friend Satsuki made for me when I was in the hospital for an injury.",
+                      "ja": "これらは、私がけがで入院したときに友達のサツキが作ってくれた折鶴です。"
+                    },
+                    {
+                      "id": "G3_U6_AG2_S_10",
+                      "speaker": "解答例",
+                      "en": "They gave me the energy to recover and helped me get out of the hospital quickly.",
+                      "ja": "それらは私に回復する力をくれ、私が早く退院するのを助けてくれました。"
+                    },
+                    {
+                      "id": "G3_U6_AG2_S_11",
+                      "speaker": "解答例",
+                      "en": "She and I have been best friends until today.",
+                      "ja": "彼女と私は今でもずっと親友です。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 134
+        },
+        "EX": {
+          "title": "Extra Story / 音声内容",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G3_U6_EX_W_01",
+                  "headword": "timing",
+                  "pronunciation": "/ˈtaɪmɪŋ/",
+                  "pos": "名",
+                  "meaning": "タイミング"
+                },
+                {
+                  "id": "G3_U6_EX_W_02",
+                  "headword": "slowly",
+                  "pronunciation": "/ˈsloʊli/",
+                  "pos": "副",
+                  "meaning": "ゆっくりと"
+                },
+                {
+                  "id": "G3_U6_EX_W_03",
+                  "headword": "harmony",
+                  "pronunciation": "/ˈhɑːrməni/",
+                  "pos": "名",
+                  "meaning": "ハーモニー"
+                },
+                {
+                  "id": "G3_U6_EX_W_04",
+                  "headword": "be patient with ~",
+                  "meaning": "～に対して忍耐強い"
+                },
+                {
+                  "id": "G3_U6_EX_W_05",
+                  "headword": "I'm glad I could help.",
+                  "meaning": "役に立ててうれしいです。"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "story_section",
+                  "header": "Extra Story: Eri and Hajin are practicing the piano (p.126 / 教科書p.72)",
+                  "items": [
+                    {
+                      "id": "G3_U6_EX_S_01",
+                      "speaker": "Setting",
+                      "en": "Eri and Hajin are practicing the piano:",
+                      "ja": "エリとハジンがピアノの練習をしています："
+                    },
+                    {
+                      "id": "G3_U6_EX_S_02",
+                      "speaker": "Eri",
+                      "en": "I can't play with my left hand, so I want you to play the left hand part.",
+                      "ja": "私は左手で弾けないから、左手のパートを弾いてほしいんだ。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_03",
+                      "speaker": "Hajin",
+                      "en": "OK ....",
+                      "ja": "わかった……。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_04",
+                      "speaker": "Eri",
+                      "en": "This is harder than I thought.",
+                      "ja": "これは思ったより難しいね。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_05",
+                      "speaker": "Hajin",
+                      "en": "Sorry, I can't get the timing right.",
+                      "ja": "ごめん、きちんとタイミングを合わせられなくて。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_06",
+                      "speaker": "Eri",
+                      "en": "Don't worry.",
+                      "ja": "心配しないで。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_07",
+                      "speaker": "Eri",
+                      "en": "Let's do it slowly.",
+                      "ja": "ゆっくりやろう。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_08",
+                      "speaker": "Eri",
+                      "en": "Let's listen to each other more.",
+                      "ja": "もっとお互いの音を聞こう。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_09",
+                      "speaker": "Setting",
+                      "en": "Later:",
+                      "ja": "後で："
+                    },
+                    {
+                      "id": "G3_U6_EX_S_10",
+                      "speaker": "Tina",
+                      "en": "Hey guys, that sounds good.",
+                      "ja": "ねえ、上手に聞こえるよ。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_11",
+                      "speaker": "Kota",
+                      "en": "You're in perfect harmony!",
+                      "ja": "完璧なハーモニーだ！"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_12",
+                      "speaker": "Hajin",
+                      "en": "Really? Thanks.",
+                      "ja": "本当？ ありがとう。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_13",
+                      "speaker": "Hajin",
+                      "en": "Eri has been very patient with me.",
+                      "ja": "エリはぼくにとても忍耐強かったんだ。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_14",
+                      "speaker": "Eri",
+                      "en": "I think we can do it.",
+                      "ja": "私たち、できると思うわ。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_15",
+                      "speaker": "Eri",
+                      "en": "Thank you, Hajin.",
+                      "ja": "ありがとう、ハジン。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_16",
+                      "speaker": "Hajin",
+                      "en": "I'm glad I could help.",
+                      "ja": "役に立ててうれしいよ。"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_section",
+                  "header": "Part 1 の音声内容：合唱コンクールの参考にしたい動画 (p.126-127 / 教科書p.73)",
+                  "items": [
+                    {
+                      "id": "G3_U6_EX_S_17",
+                      "tag": "(1)",
+                      "speaker": "Eri",
+                      "en": "Hey, guys. I found a wonderful music video on the internet. Look at this.",
+                      "ja": "ねえ、みんな。インターネットですばらしい音楽動画を見つけたわ。これを見て。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_18",
+                      "tag": "(1)",
+                      "speaker": "Eri",
+                      "en": "It's a children's chorus based in the U.S., named One Voice Children's Choir.",
+                      "ja": "アメリカ合衆国に拠点を置く子どもの合唱団で、ワンボイス・チルドレンズ・クワイアっていう名前なの。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_19",
+                      "tag": "(1)",
+                      "speaker": "Eri",
+                      "en": "In this video, they sing \"Dynamite,\" a BTS cover.",
+                      "ja": "この動画では、BTSの『ダイナマイト』のカバーを歌っているわ。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_20",
+                      "tag": "(1)",
+                      "speaker": "Eri",
+                      "en": "What do you think, Tina?",
+                      "ja": "ティナ、どう思う？"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_21",
+                      "tag": "(1)",
+                      "speaker": "Tina",
+                      "en": "I really like it.",
+                      "ja": "本当に気に入ったわ。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_22",
+                      "tag": "(1)",
+                      "speaker": "Tina",
+                      "en": "There are children of various ages and different voices, but they sing in perfect harmony.",
+                      "ja": "色んな年齢の子どもたちがいて、声もそれぞれ違うけど、完璧なハーモニーで歌ってるわね。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_23",
+                      "tag": "(1)",
+                      "speaker": "Eri",
+                      "en": "You can say that again.",
+                      "ja": "その通りよ。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_24",
+                      "tag": "(1)",
+                      "speaker": "Tina",
+                      "en": "The boy wearing the white hoodie impressed me the most.",
+                      "ja": "白いパーカーを着ている男の子がいちばん私の印象に残ったわ。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_25",
+                      "tag": "(1)",
+                      "speaker": "Eri",
+                      "en": "You mean the boy holding the microphone?",
+                      "ja": "マイクを持っている男の子のこと？"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_26",
+                      "tag": "(1)",
+                      "speaker": "Tina",
+                      "en": "That's right. I liked his voice.",
+                      "ja": "そうよ。私は彼の声が気に入ったわ。"
+                    },
+                    {
+                      "id": "",
+                      "tag": "",
+                      "speaker": "",
+                      "en": "",
+                      "ja": ""
+                    },
+                    {
+                      "id": "G3_U6_EX_S_27",
+                      "tag": "(2)",
+                      "speaker": "Eri",
+                      "en": "How about you, Kota?",
+                      "ja": "コウタ、あなたはどうだった？"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_28",
+                      "tag": "(2)",
+                      "speaker": "Kota",
+                      "en": "I was so impressed by their performance. Let's watch it again.",
+                      "ja": "彼らのパフォーマンスにすごく感動したよ。もう一度それを見よう。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_29",
+                      "tag": "(2)",
+                      "speaker": "Eri",
+                      "en": "Sure! What did you like best about the video?",
+                      "ja": "いいわよ！ その動画の何がいちばん気に入ったの？"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_30",
+                      "tag": "(2)",
+                      "speaker": "Kota",
+                      "en": "They look so happy when they sing.",
+                      "ja": "彼らが歌っているときすごく幸せそうなところさ。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_31",
+                      "tag": "(2)",
+                      "speaker": "Kota",
+                      "en": "Look at the girl wearing the blue jacket and orange shirt.",
+                      "ja": "青いジャケットとオレンジ色のシャツを着ている女の子を見て。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_32",
+                      "tag": "(2)",
+                      "speaker": "Eri",
+                      "en": "The dancing girl with long black hair?",
+                      "ja": "長い黒髪の、踊っている女の子？"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_33",
+                      "tag": "(2)",
+                      "speaker": "Kota",
+                      "en": "Yes. She has a great smile.",
+                      "ja": "そう。彼女はすばらしい笑顔をしているね。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_34",
+                      "tag": "(2)",
+                      "speaker": "Eri",
+                      "en": "I think so, too.",
+                      "ja": "私もそう思うわ。"
+                    },
+                    {
+                      "id": "",
+                      "tag": "",
+                      "speaker": "",
+                      "en": "",
+                      "ja": ""
+                    },
+                    {
+                      "id": "G3_U6_EX_S_35",
+                      "tag": "(3)",
+                      "speaker": "Hajin",
+                      "en": "By the way, who is the man playing the piano? Is he Japanese?",
+                      "ja": "ところで、ピアノを弾いている男性は誰？ 彼は日本人なの？"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_36",
+                      "tag": "(3)",
+                      "speaker": "Eri",
+                      "en": "That's a good question, Hajin.",
+                      "ja": "それはいい質問だね、ハジン。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_37",
+                      "tag": "(3)",
+                      "speaker": "Eri",
+                      "en": "The man playing the piano is Mr. Fukuda Masafumi.",
+                      "ja": "ピアノを弾いている男性は、福田真史さんよ。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_38",
+                      "tag": "(3)",
+                      "speaker": "Eri",
+                      "en": "He was born in Osaka. He is the director and founder of the choir.",
+                      "ja": "彼は大阪で生まれたの。彼がこの合唱団のディレクターであり創設者なの。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_39",
+                      "tag": "(3)",
+                      "speaker": "Eri",
+                      "en": "I was surprised to know that.",
+                      "ja": "私はそれを知って驚いたわ。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_40",
+                      "tag": "(3)",
+                      "speaker": "Kota",
+                      "en": "Yes, that's really surprising. I want to know more about him.",
+                      "ja": "うん、本当に驚きだね。ぼくは彼についてもっと知りたいな。"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_section",
+                  "header": "Part 2 の音声内容：日本のポップカルチャー (p.128 / 教科書p.75)",
+                  "items": [
+                    {
+                      "id": "G3_U6_EX_S_41",
+                      "tag": "(1)",
+                      "speaker": "Nick",
+                      "en": "What a charming bear! What's that character?",
+                      "ja": "なんてかわいらしいクマなんだ！ そのキャラクターは何ですか？"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_42",
+                      "tag": "(1)",
+                      "speaker": "Woman",
+                      "en": "That's Kumamon. He's a mascot born in Kumamoto.",
+                      "ja": "それはくまモンです。熊本で生まれたマスコットキャラクターなんですよ。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_43",
+                      "tag": "(1)",
+                      "speaker": "Nick",
+                      "en": "A mascot?",
+                      "ja": "マスコットキャラクター？"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_44",
+                      "tag": "(1)",
+                      "speaker": "Woman",
+                      "en": "Yes. Each prefecture in Japan has its own mascot.",
+                      "ja": "そうです。日本の各都道府県にはそれぞれのマスコットキャラクターがいるんですよ。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_45",
+                      "tag": "(1)",
+                      "speaker": "Woman",
+                      "en": "Kumamon is one of them. I think it's the most popular one.",
+                      "ja": "くまモンはそれらのうちの1つです。いちばん人気のあるものだと思います。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_46",
+                      "tag": "(1)",
+                      "speaker": "Nick",
+                      "en": "What other characters are there?",
+                      "ja": "ほかにはどんなキャラクターがいるんでしょうか？"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_47",
+                      "tag": "(1)",
+                      "speaker": "Woman",
+                      "en": "Well, Chiba Prefecture has Chiiba-kun. Gunma Prefecture has Gunma-chan.",
+                      "ja": "そうですね、千葉県にはチーバくんがいます。群馬県にはぐんまちゃんがいます。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_48",
+                      "tag": "(1)",
+                      "speaker": "Nick",
+                      "en": "Sounds interesting. I'll look up mascot characters on the internet.",
+                      "ja": "おもしろそうですね。ぼくはインターネットでマスコットキャラクターを調べてみます。"
+                    },
+                    {
+                      "id": "",
+                      "tag": "",
+                      "speaker": "",
+                      "en": "",
+                      "ja": ""
+                    },
+                    {
+                      "id": "G3_U6_EX_S_49",
+                      "tag": "(2)",
+                      "speaker": "Nick",
+                      "en": "I know this anime! I like the character wearing glasses.",
+                      "ja": "このアニメ、知ってます！ ぼくは眼鏡をかけたそのキャラクターが好きなんです。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_50",
+                      "tag": "(2)",
+                      "speaker": "Nick",
+                      "en": "She's a good friend of Maruko. She's always kind.",
+                      "ja": "彼女はまる子のいい友達ですね。いつも優しいです。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_51",
+                      "tag": "(2)",
+                      "speaker": "Woman",
+                      "en": "Oh, I'm happy that you know the characters in this anime.",
+                      "ja": "あら、このアニメのキャラクターをご存じだなんて、うれしいです。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_52",
+                      "tag": "(2)",
+                      "speaker": "Woman",
+                      "en": "This anime is originally a manga series created by Sakura Momoko.",
+                      "ja": "このアニメは元々、さくらももこによってつくられた漫画シリーズなんですよ。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_53",
+                      "tag": "(2)",
+                      "speaker": "Nick",
+                      "en": "Sakura Momoko? That's the same as Maruko's real name, isn't it?",
+                      "ja": "さくらももこ？ それってまる子の本名と同じですよね。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_54",
+                      "tag": "(2)",
+                      "speaker": "Woman",
+                      "en": "That's right. Maruko is based on the author herself.",
+                      "ja": "その通りです。まる子は作者自身をもとにしているんです。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_55",
+                      "tag": "(2)",
+                      "speaker": "Nick",
+                      "en": "I didn't know that.",
+                      "ja": "それは知りませんでした。"
+                    },
+                    {
+                      "id": "",
+                      "tag": "",
+                      "speaker": "",
+                      "en": "",
+                      "ja": ""
+                    },
+                    {
+                      "id": "G3_U6_EX_S_56",
+                      "tag": "(3)",
+                      "speaker": "Mr. Rios",
+                      "en": "What's this poster?",
+                      "ja": "このポスターは何ですか？"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_57",
+                      "tag": "(3)",
+                      "speaker": "Woman",
+                      "en": "This is about a movie titled Your Name.",
+                      "ja": "これは『君の名は。』というタイトルの映画についてのものです。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_58",
+                      "tag": "(3)",
+                      "speaker": "Woman",
+                      "en": "It's one of the most successful animated movies in Japan, and it's also well known worldwide.",
+                      "ja": "それは日本で最も成功したアニメ映画の一つで、世界でもよく知られています。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_59",
+                      "tag": "(3)",
+                      "speaker": "Mr. Rios",
+                      "en": "Oh, is it? The scenery looks so realistic and beautiful.",
+                      "ja": "へえ、そうなんですか？ 背景がとても写実的で美しいですね。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_60",
+                      "tag": "(3)",
+                      "speaker": "Woman",
+                      "en": "Yes. All the movies directed by Shinkai Makoto are beautiful.",
+                      "ja": "はい。新海誠氏によって監督された映画はどれも美しいです。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_61",
+                      "tag": "(3)",
+                      "speaker": "Mr. Rios",
+                      "en": "Shinkai Makoto?",
+                      "ja": "新海誠？"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_62",
+                      "tag": "(3)",
+                      "speaker": "Woman",
+                      "en": "He's the director of Your Name. He's a great anime creator.",
+                      "ja": "『君の名は。』の監督です。彼はすばらしいアニメクリエイターです。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_63",
+                      "tag": "(3)",
+                      "speaker": "Mr. Rios",
+                      "en": "I see.",
+                      "ja": "なるほど。"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_section",
+                  "header": "Part 3 の音声内容：日本を離れる前に見たいもの (p.129 / 教科書p.77)",
+                  "items": [
+                    {
+                      "id": "G3_U6_EX_S_64",
+                      "tag": "(1)",
+                      "speaker": "Mr. Rios",
+                      "en": "We're leaving Japan soon. What do you want to see before leaving?",
+                      "ja": "もうすぐ日本を離れるよ。離れる前に何を見たい？"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_65",
+                      "tag": "(1)",
+                      "speaker": "Tina",
+                      "en": "I want to see pictures made by Hokusai.",
+                      "ja": "私は北斎によって作られた絵が見たいな。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_66",
+                      "tag": "(1)",
+                      "speaker": "Mr. Rios",
+                      "en": "You mean Katsushika Hokusai, don't you?",
+                      "ja": "葛飾北斎のことだね。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_67",
+                      "tag": "(1)",
+                      "speaker": "Tina",
+                      "en": "Yes. I saw some of his works in an art textbook.",
+                      "ja": "そう。美術の教科書で彼の作品をいくつか見たの。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_68",
+                      "tag": "(1)",
+                      "speaker": "Tina",
+                      "en": "The Great Wave off Kanagawa is so impressive.",
+                      "ja": "『神奈川沖浪裏』は本当に印象的よ。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_69",
+                      "tag": "(1)",
+                      "speaker": "Tina",
+                      "en": "I want to see it with my own eyes.",
+                      "ja": "それを自分の目で見たいの。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_70",
+                      "tag": "(1)",
+                      "speaker": "Mr. Rios",
+                      "en": "I see. Do you know where you can see it?",
+                      "ja": "なるほど。それがどこで見られるかは知ってるかい？"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_71",
+                      "tag": "(1)",
+                      "speaker": "Tina",
+                      "en": "No, I'm not sure.",
+                      "ja": "いいえ、わからないわ。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_72",
+                      "tag": "(1)",
+                      "speaker": "Mr. Rios",
+                      "en": "There's a museum which has collected his works in Tokyo. I think you can see it there.",
+                      "ja": "東京に彼の作品を集めた美術館があるよ。そこでそれが見られると思う。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_73",
+                      "tag": "(1)",
+                      "speaker": "Mr. Rios",
+                      "en": "But you can see it at the British Museum, in London, too.",
+                      "ja": "でも、ロンドンの大英博物館でもそれを見られるよ。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_74",
+                      "tag": "(1)",
+                      "speaker": "Tina",
+                      "en": "Really? I'll check it out. Thanks, Dad.",
+                      "ja": "本当に？ 調べてみるわ。ありがとう、お父さん。"
+                    },
+                    {
+                      "id": "",
+                      "tag": "",
+                      "speaker": "",
+                      "en": "",
+                      "ja": ""
+                    },
+                    {
+                      "id": "G3_U6_EX_S_75",
+                      "tag": "(2)",
+                      "speaker": "Tina",
+                      "en": "I've been interested in kabuki, too.",
+                      "ja": "私はずっと歌舞伎にも興味があるの。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_76",
+                      "tag": "(2)",
+                      "speaker": "Tina",
+                      "en": "There's a theater that performs kabuki in Tokyo. I'd like to go there before leaving.",
+                      "ja": "東京には歌舞伎を上演する劇場があるのよ。日本を離れる前にそこに行きたいな。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_77",
+                      "tag": "(2)",
+                      "speaker": "Mr. Rios",
+                      "en": "Oh, I'd like to see kabuki, too. Why don't we go to see it together?",
+                      "ja": "ああ、ぼくも歌舞伎を見たいよ。一緒にそれを見に行かないかい？"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_78",
+                      "tag": "(2)",
+                      "speaker": "Tina",
+                      "en": "That's great. Are you interested in kabuki, too, Dad?",
+                      "ja": "それはいいわね。お父さんも歌舞伎に興味があるの？"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_79",
+                      "tag": "(2)",
+                      "speaker": "Mr. Rios",
+                      "en": "Sure. Kabuki is one of the most popular traditional performing arts in Japan.",
+                      "ja": "ああ。歌舞伎は日本の最も人気がある伝統的な舞台芸術の1つだよ。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_80",
+                      "tag": "(2)",
+                      "speaker": "Mr. Rios",
+                      "en": "Do you know when kabuki began?",
+                      "ja": "歌舞伎がいつ始まったか、知ってるかい？"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_81",
+                      "tag": "(2)",
+                      "speaker": "Tina",
+                      "en": "I have no idea.",
+                      "ja": "全然わからないわ。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_82",
+                      "tag": "(2)",
+                      "speaker": "Mr. Rios",
+                      "en": "It's said that it began in the early 17th century.",
+                      "ja": "17世紀初頭に始まったと言われているよ。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_83",
+                      "tag": "(2)",
+                      "speaker": "Tina",
+                      "en": "That's more than 400 years ago.",
+                      "ja": "それって400年以上前ね。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_84",
+                      "tag": "(2)",
+                      "speaker": "Mr. Rios",
+                      "en": "Yeah, it has a long history.",
+                      "ja": "そう、それには長い歴史があるんだ。"
+                    },
+                    {
+                      "id": "",
+                      "tag": "",
+                      "speaker": "",
+                      "en": "",
+                      "ja": ""
+                    },
+                    {
+                      "id": "G3_U6_EX_S_85",
+                      "tag": "(3)",
+                      "speaker": "Tina",
+                      "en": "How about you, Dad? Is there anything you want to do in Japan?",
+                      "ja": "お父さんはどう？ 日本でやりたいことは何かあるの？"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_86",
+                      "tag": "(3)",
+                      "speaker": "Mr. Rios",
+                      "en": "Yes, there is. I want to see plum blossoms in Kairakuen.",
+                      "ja": "ああ、あるよ。偕楽園で梅の花を見たいんだ。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_87",
+                      "tag": "(3)",
+                      "speaker": "Tina",
+                      "en": "Kairakuen ... oh, that's the garden in Mito City, in Ibaraki, isn't it?",
+                      "ja": "偕楽園……ああ、それは茨城の水戸市にある庭園よね。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_88",
+                      "tag": "(3)",
+                      "speaker": "Tina",
+                      "en": "I heard that Kairakuen is one of the three most famous gardens in Japan.",
+                      "ja": "偕楽園は日本三名園の1つだって聞いたわ。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_89",
+                      "tag": "(3)",
+                      "speaker": "Mr. Rios",
+                      "en": "Wow, you know a lot! Do you know when the garden was built, then?",
+                      "ja": "へえ、よく知っているね！ じゃあ、その庭園がいつつくられたか知ってる？"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_90",
+                      "tag": "(3)",
+                      "speaker": "Tina",
+                      "en": "I'm not sure. Let me check ....",
+                      "ja": "わからないわ。調べさせて……。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_91",
+                      "tag": "(3)",
+                      "speaker": "Tina",
+                      "en": "The website says Tokugawa Nariaki created the garden during the Edo period.",
+                      "ja": "ウェブサイトによると、徳川斉昭が江戸時代にその庭園をつくったんだって。"
+                    },
+                    {
+                      "id": "G3_U6_EX_S_92",
+                      "tag": "(3)",
+                      "speaker": "Mr. Rios",
+                      "en": "Thanks, Tina. Today I learned something!",
+                      "ja": "ありがとう、ティナ。今日は新しいことを学んだよ！"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "126-129"
+        },
+        "AP": {
+          "title": "AI Appendix: Unit 6 総まとめ",
+          "views": {
+            "PART_APPENDIX": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "info_box",
+                  "header": "P1-P2: 分詞の後置修飾「〜している」vs「〜された」を一瞬で見分けるコツ！",
+                  "items": [
+                    {
+                      "tag": "現在分詞 (-ing)",
+                      "label": "「〜している（能動）」",
+                      "text": "修飾される名詞が「自分からその動作をしている」ときは -ing形！",
+                      "en": "the boy ==**playing the piano**== (ピアノを弾いている男子)"
+                    },
+                    {
+                      "tag": "過去分詞 (-ed)",
+                      "label": "「〜された（受動）」",
+                      "text": "修飾される名詞が「誰かによってその動作をされる」ときは過去分詞！",
+                      "en": "T-shirts ==**designed by Tina**== (ティナによってデザインされたTシャツ)"
+                    },
+                    {
+                      "tag": "英語脳のコツ",
+                      "text": "日本語は「修飾語 ➔ 名詞」の順だけど、英語は「まず名詞をポンと出し、後ろから説明を足す」リズム。この感覚を身につけるとリスニングが劇的にラクになるよ！"
+                    }
+                  ]
+                },
+                {
+                  "type": "info_box",
+                  "header": "P3: 間接疑問文は「語順のワナ」に要注意！",
+                  "items": [
+                    {
+                      "tag": "大原則",
+                      "text": "疑問文が文の一部に入り込むと、語順は必ず「肯定文と同じ（疑問詞＋主語＋動詞）」に戻る！",
+                      "en": "Tell us ==**why you're leaving**==. (not: why are you leaving)"
+                    },
+                    {
+                      "tag": "一般動詞のワナ",
+                      "text": "does や did が消えて、動詞に 3単現の s や過去形が復活する点に注意しよう！",
+                      "en": "Where does he live? ➔ I don't know ==**where he lives**==."
+                    }
+                  ]
+                }
+              ]
+            },
+            "UNIT_APPENDIX": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "info_box",
+                  "header": "作品や本・映画を英語でおすすめする必修フレーズ",
+                  "items": [
+                    {
+                      "id": "G3_U6_AP_S_01",
+                      "label": "おすすめする",
+                      "en": "I'd like to recommend a movie titled Your Name.",
+                      "ja": "『君の名は。』というタイトルの映画をおすすめしたいです。"
+                    },
+                    {
+                      "id": "G3_U6_AP_S_02",
+                      "label": "背景・原作",
+                      "en": "It's an animated movie based on a manga by ....",
+                      "ja": "それは……の漫画をもとにしたアニメ映画です。"
+                    },
+                    {
+                      "id": "G3_U6_AP_S_03",
+                      "label": "心温まるストーリー",
+                      "en": "The story is heartwarming and easy to understand.",
+                      "ja": "ストーリーは心温まり、理解しやすいです。"
+                    },
+                    {
+                      "id": "G3_U6_AP_S_04",
+                      "label": "共感できる",
+                      "en": "I can understand the main character in some way.",
+                      "ja": "私は何らかの形で主人公に共感できます。"
+                    }
+                  ]
+                },
+                {
+                  "type": "message_box",
+                  "header": "Unit 6 を終えた君へ：世界を変えるハーモニーを",
+                  "items": [
+                    {
+                      "tag": "Harmony",
+                      "text": "エリの手首のけがを、ハジンが左手を担当する連弾で乗り越えたように、違いや困難があっても力を合わせれば「完璧なハーモニー（perfect harmony）」を生み出すことができます。"
+                    },
+                    {
+                      "tag": "Global Vision",
+                      "text": "ザンビアに稲作の技術を届けたアカリ、ニュージーランドの原生林を守るノア、そして「世界がもし100人の村だったら」で知った教育や環境の格差。世界をよりよい場所にする第一歩は、まず「世界のいまを知ること（understand what the world is like today）」です。"
+                    },
+                    {
+                      "tag": "Keep Singing!",
+                      "text": "中学校3年間の英語学習もいよいよクライマックス。君が学んだ言葉は、日本の素晴らしい文化を世界に発信し、遠い国の誰かと手を取り合うための大きな架け橋になります。自信を持って、前へ進み続けよう！"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 0,
+          "hasAppendix": true
+        },
+        "GL": {
+          "title": "Goal: おすすめの作品を伝え合おう",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G3_U6_GL_W_01",
+                  "headword": "animated",
+                  "pronunciation": "/ˈænɪmeɪtɪd/",
+                  "pos": "形",
+                  "meaning": "アニメの"
+                },
+                {
+                  "id": "G3_U6_GL_W_02",
+                  "headword": "animated movie",
+                  "pos": "名",
+                  "meaning": "アニメ映画"
+                },
+                {
+                  "id": "G3_U6_GL_W_03",
+                  "headword": "direct(ed)",
+                  "pronunciation": "/dəˈrɛkt(ɪd)/",
+                  "pos": "動",
+                  "meaning": "～を監督する"
+                },
+                {
+                  "id": "G3_U6_GL_W_04",
+                  "headword": "heartwarming",
+                  "pronunciation": "/ˈhɑːrtwɔːrmɪŋ/",
+                  "pos": "形",
+                  "meaning": "心温まる"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "info_section",
+                  "header": "おすすめの作品選択表 (p.130 / 教科書p.78)",
+                  "label": "Kotaたち3人がTinaにすすめた作品",
+                  "items": [
+                    {
+                      "tag": "Kota",
+                      "text": "おすすめの作品: E (DVD) / おすすめのポイント: I (合唱コンクールを取り上げた映画) / Tinaが質問した情報: L (主題歌)"
+                    },
+                    {
+                      "tag": "Eri",
+                      "text": "おすすめの作品: D (映画) / おすすめのポイント: K (主人公が前向きで優しい) / Tinaが質問した情報: J (物語の設定)"
+                    },
+                    {
+                      "tag": "Hajin",
+                      "text": "おすすめの作品: A (絵本) / おすすめのポイント: M (メッセージが素晴らしい) / Tinaが質問した情報: H (出版された時期)"
+                    }
+                  ]
+                },
+                {
+                  "type": "phrase_list_section",
+                  "header": "伝える準備のメモ（吹き出し） (p.130 / 教科書p.78)",
+                  "items": [
+                    {
+                      "id": "G3_U6_GL_M_01",
+                      "label": "作品名",
+                      "en": "I'd like to recommend Botchan.",
+                      "ja": "『坊っちゃん』をおすすめしたいです。"
+                    },
+                    {
+                      "id": "G3_U6_GL_M_02",
+                      "label": "どんな種類の作品かな？",
+                      "en": "a story of a young teacher",
+                      "ja": "若い教師の物語"
+                    },
+                    {
+                      "id": "G3_U6_GL_M_03",
+                      "label": "誰が作ったのかな？",
+                      "en": "Natsume Soseki",
+                      "ja": "夏目漱石"
+                    },
+                    {
+                      "id": "G3_U6_GL_M_04",
+                      "label": "いつ作られたのかな？",
+                      "en": "in 1906",
+                      "ja": "1906年"
+                    },
+                    {
+                      "id": "G3_U6_GL_M_05",
+                      "label": "どんな人やものが出てくるかな？",
+                      "en": "The main character is Botchan.",
+                      "ja": "主人公は坊っちゃん。"
+                    },
+                    {
+                      "id": "G3_U6_GL_M_06",
+                      "label": "どうしておすすめしたいのかな？",
+                      "en": "The characters are unique.",
+                      "ja": "登場人物が独特。"
+                    },
+                    {
+                      "id": "G3_U6_GL_M_07",
+                      "label": "あなたの感想は？",
+                      "en": "I can understand Botchan.",
+                      "ja": "坊っちゃんに共感できる。"
+                    }
+                  ]
+                },
+                {
+                  "type": "phrase_list_section",
+                  "header": "ペアで伝え合うときの表現 (p.130 / 教科書p.78)",
+                  "items": [
+                    {
+                      "id": "G3_U6_GL_P_01",
+                      "en": "I'd like to recommend ....",
+                      "ja": "……をおすすめしたいです。"
+                    },
+                    {
+                      "id": "G3_U6_GL_P_02",
+                      "en": "It's an animated movie directed by ....",
+                      "ja": "それは……によって監督されたアニメ映画です。"
+                    },
+                    {
+                      "id": "G3_U6_GL_P_03",
+                      "en": "What do you like about it?",
+                      "ja": "それについて何が好きなのですか。"
+                    },
+                    {
+                      "id": "G3_U6_GL_P_04",
+                      "en": "The story is heartwarming.",
+                      "ja": "ストーリーが心温まります。"
+                    },
+                    {
+                      "id": "G3_U6_GL_P_05",
+                      "en": "Tell me about the characters.",
+                      "ja": "登場人物について教えて。"
+                    }
+                  ]
+                },
+                {
+                  "type": "dialogue_section",
+                  "header": "Speak: ペアでの対話 [解答例] (p.130 / 教科書p.78)",
+                  "items": [
+                    {
+                      "id": "G3_U6_GL_S_01",
+                      "speaker": "A",
+                      "en": "I'd like to recommend Botchan. It is a novel written by Natsume Soseki.",
+                      "ja": "私は『坊っちゃん』をおすすめしたいです。夏目漱石によって書かれた小説です。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_02",
+                      "speaker": "B",
+                      "en": "What do you like about it?",
+                      "ja": "それについて何が好きなのですか。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_03",
+                      "speaker": "A",
+                      "en": "The characters are unique. And I can understand Botchan, the main character.",
+                      "ja": "登場人物が独特です。それに、私は主人公の坊っちゃんに共感できます。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_04",
+                      "speaker": "B",
+                      "en": "Tell me about the story.",
+                      "ja": "ストーリーについて教えて。"
+                    }
+                  ]
+                },
+                {
+                  "type": "phrase_list_section",
+                  "header": "友達のおすすめ作品例 (p.130 / 教科書p.79)",
+                  "items": [
+                    {
+                      "id": "G3_U6_GL_F_01",
+                      "label": "Eri (エリ)",
+                      "en": "Stand By Me",
+                      "ja": "『スタンド・バイ・ミー』"
+                    },
+                    {
+                      "id": "G3_U6_GL_F_02",
+                      "label": "Kazuya (カズヤ)",
+                      "en": "Your Name",
+                      "ja": "『君の名は。』"
+                    },
+                    {
+                      "id": "G3_U6_GL_F_03",
+                      "label": "Aki (アキ)",
+                      "en": "Colorful",
+                      "ja": "『カラフル』"
+                    }
+                  ]
+                },
+                {
+                  "type": "essay_section",
+                  "header": "Extra: 作品紹介文 [解答例] (p.131 / 教科書p.79)",
+                  "label": "夏目漱石『坊っちゃん』の紹介",
+                  "items": [
+                    {
+                      "id": "G3_U6_GL_S_05",
+                      "en": "I'd like to recommend a funny Japanese novel called Botchan.",
+                      "ja": "『坊っちゃん』というおもしろい日本の小説をおすすめします。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_06",
+                      "en": "It was written by a famous writer, Natsume Soseki in 1906.",
+                      "ja": "それは有名な作家夏目漱石によって1906年に書かれました。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_07",
+                      "en": "The story is about a young teacher called Botchan.",
+                      "ja": "坊っちゃんという若い先生の話です。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_08",
+                      "en": "He moves to a small town in Shikoku.",
+                      "ja": "彼は四国の小さな町に引っ越します。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_09",
+                      "en": "The characters are very unique and interesting.",
+                      "ja": "とても独特でおもしろいキャラクターが登場します。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_10",
+                      "en": "The book is interesting and easy to read, so it's perfect for young people like us.",
+                      "ja": "この本はおもしろくて読みやすいので、私たちのような若い人々にはぴったりです。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_11",
+                      "en": "You'll understand Botchan in some way.",
+                      "ja": "あなたは坊っちゃんに何らかの方法で共感するでしょう。"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_section",
+                  "header": "音声内容：Tinaにすすめるおすすめ作品 (p.131-132 / 教科書p.78-79)",
+                  "items": [
+                    {
+                      "id": "G3_U6_GL_S_12",
+                      "tag": "(1) Kota",
+                      "speaker": "Kota",
+                      "en": "I'd like to give you this DVD, Tina.",
+                      "ja": "このDVDを君にあげたいんだ、ティナ。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_13",
+                      "tag": "(1) Kota",
+                      "speaker": "Tina",
+                      "en": "Oh, thank you.",
+                      "ja": "あら、ありがとう。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_14",
+                      "tag": "(1) Kota",
+                      "speaker": "Kota",
+                      "en": "I want you to watch it because it's a movie which features a chorus of junior high school students.",
+                      "ja": "中学生の合唱団を取り上げた映画だから、君に見てほしいんだ。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_15",
+                      "tag": "(1) Kota",
+                      "speaker": "Kota",
+                      "en": "Look at the boys and girls walking up the hill.",
+                      "ja": "丘を登っている男の子たちと女の子たちを見て。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_16",
+                      "tag": "(1) Kota",
+                      "speaker": "Kota",
+                      "en": "They take part in a chorus contest in Nagasaki.",
+                      "ja": "彼らは長崎の合唱コンテストに参加するんだ。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_17",
+                      "tag": "(1) Kota",
+                      "speaker": "Kota",
+                      "en": "Singing brings them closer together — just like us.",
+                      "ja": "歌うことで彼らは親しくなるんだよ―ちょうどぼくたちのように。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_18",
+                      "tag": "(1) Kota",
+                      "speaker": "Tina",
+                      "en": "It's the perfect movie for us to watch.",
+                      "ja": "それは私たちが見るのにぴったりの映画ね。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_19",
+                      "tag": "(1) Kota",
+                      "speaker": "Kota",
+                      "en": "That's right.",
+                      "ja": "そうなんだ。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_20",
+                      "tag": "(1) Kota",
+                      "speaker": "Tina",
+                      "en": "By the way, what's the theme song of the movie?",
+                      "ja": "ところで、その映画の主題歌は何？"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_21",
+                      "tag": "(1) Kota",
+                      "speaker": "Kota",
+                      "en": "It's \"A Letter,\" written by Angela Aki.",
+                      "ja": "アンジェラ・アキによって作曲された『手紙』だよ。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_22",
+                      "tag": "(1) Kota",
+                      "speaker": "Kota",
+                      "en": "The lyrics are very inspiring.",
+                      "ja": "歌詞がとても感動的なんだ。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_23",
+                      "tag": "(1) Kota",
+                      "speaker": "Kota",
+                      "en": "I want you to listen to the song when you're feeling down.",
+                      "ja": "君が落ち込んでいるときに、この歌を聞いてほしい。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_24",
+                      "tag": "(1) Kota",
+                      "speaker": "Tina",
+                      "en": "Thanks. I'll watch the movie and listen to the song.",
+                      "ja": "ありがとう。映画を見てその歌を聞くわ。"
+                    },
+                    {
+                      "id": "",
+                      "tag": "",
+                      "speaker": "",
+                      "en": "",
+                      "ja": ""
+                    },
+                    {
+                      "id": "G3_U6_GL_S_25",
+                      "tag": "(2) Eri",
+                      "speaker": "Eri",
+                      "en": "I watched a movie named In This Corner of the World last weekend.",
+                      "ja": "先週末、『この世界の片隅に』っていう名前の映画を見たわ。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_26",
+                      "tag": "(2) Eri",
+                      "speaker": "Eri",
+                      "en": "Have you ever watched it?",
+                      "ja": "あなたは見たことある？"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_27",
+                      "tag": "(2) Eri",
+                      "speaker": "Tina",
+                      "en": "No, never.",
+                      "ja": "いいえ、ないわ。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_28",
+                      "tag": "(2) Eri",
+                      "speaker": "Eri",
+                      "en": "You should watch it.",
+                      "ja": "見たほうがいいわよ。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_29",
+                      "tag": "(2) Eri",
+                      "speaker": "Eri",
+                      "en": "It's a Japanese animated movie based on the manga by Kono Fumiyo.",
+                      "ja": "それはこうの史代の漫画をもとにした日本のアニメ映画なの。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_30",
+                      "tag": "(2) Eri",
+                      "speaker": "Eri",
+                      "en": "The story follows the wartime life of a girl who loves drawing and gets married at the age of 18.",
+                      "ja": "その物語は、絵を描くのが大好きで18歳で結婚する少女の戦時中の生活を追っているの。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_31",
+                      "tag": "(2) Eri",
+                      "speaker": "Tina",
+                      "en": "Tell me why you recommend it.",
+                      "ja": "どうしてそれを勧めるのか教えて。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_32",
+                      "tag": "(2) Eri",
+                      "speaker": "Eri",
+                      "en": "First of all, the main character is really nice.",
+                      "ja": "まず、主人公が本当にすてきなの。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_33",
+                      "tag": "(2) Eri",
+                      "speaker": "Eri",
+                      "en": "She isn't a special girl, but she has a pure and kind heart.",
+                      "ja": "彼女は特別な女の子じゃないけど、純粋で優しい心を持っているの。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_34",
+                      "tag": "(2) Eri",
+                      "speaker": "Eri",
+                      "en": "She's always smiling.",
+                      "ja": "いつも笑っているわ。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_35",
+                      "tag": "(2) Eri",
+                      "speaker": "Eri",
+                      "en": "She never forgets to be kind and tries to overcome difficulties in her own way during wartime.",
+                      "ja": "戦時中でも優しくなることを決して忘れず、自分なりの方法で困難を乗り越えようとするの。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_36",
+                      "tag": "(2) Eri",
+                      "speaker": "Eri",
+                      "en": "Through her, you can feel not only the horror of war, but also how important a peaceful daily life is.",
+                      "ja": "彼女を通じて、戦争の恐ろしさだけでなく、平和な日常生活がどんなに大切かも感じることができるわ。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_37",
+                      "tag": "(2) Eri",
+                      "speaker": "Tina",
+                      "en": "Sounds interesting. What is the setting of the story?",
+                      "ja": "おもしろそうね。その物語の設定はどういうものなの？"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_38",
+                      "tag": "(2) Eri",
+                      "speaker": "Eri",
+                      "en": "The story is set in Kure and Hiroshima during World War II.",
+                      "ja": "物語は、第二次世界大戦中の呉と広島に設定されているわ。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_39",
+                      "tag": "(2) Eri",
+                      "speaker": "Eri",
+                      "en": "We went to Hiroshima and learned a lot about the war, right?",
+                      "ja": "私たちは広島に行って戦争についてたくさん学んだわよね。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_40",
+                      "tag": "(2) Eri",
+                      "speaker": "Eri",
+                      "en": "I'm sure this movie will remind you of our experience in Hiroshima.",
+                      "ja": "きっとこの映画は私たちの広島での経験をあなたに思い出させてくれるわ。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_41",
+                      "tag": "(2) Eri",
+                      "speaker": "Tina",
+                      "en": "I see. Thank you for telling me about the movie.",
+                      "ja": "なるほど。その映画について教えてくれてありがとう。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_42",
+                      "tag": "(2) Eri",
+                      "speaker": "Tina",
+                      "en": "I'll check it out later.",
+                      "ja": "あとでそれをチェックしてみるわね。"
+                    },
+                    {
+                      "id": "",
+                      "tag": "",
+                      "speaker": "",
+                      "en": "",
+                      "ja": ""
+                    },
+                    {
+                      "id": "G3_U6_GL_S_43",
+                      "tag": "(3) Hajin",
+                      "speaker": "Hajin",
+                      "en": "Do you have a second, Tina?",
+                      "ja": "ティナ、ちょっと時間ある？"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_44",
+                      "tag": "(3) Hajin",
+                      "speaker": "Tina",
+                      "en": "Sure.",
+                      "ja": "ええ。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_45",
+                      "tag": "(3) Hajin",
+                      "speaker": "Hajin",
+                      "en": "I'd like to give you this.",
+                      "ja": "これを君にあげたいんだ。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_46",
+                      "tag": "(3) Hajin",
+                      "speaker": "Hajin",
+                      "en": "It's a picture book written by Alison McGhee.",
+                      "ja": "アリスン・マギーによって書かれた絵本だよ。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_47",
+                      "tag": "(3) Hajin",
+                      "speaker": "Tina",
+                      "en": "Wow. I like the cover illustration.",
+                      "ja": "わあ、その表紙のイラスト、好きよ。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_48",
+                      "tag": "(3) Hajin",
+                      "speaker": "Tina",
+                      "en": "The jumping dog and the girl blowing leaves into the air are so cute.",
+                      "ja": "飛び跳ねている犬と葉っぱを空中へと吹いている女の子がとてもかわいいわ。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_49",
+                      "tag": "(3) Hajin",
+                      "speaker": "Hajin",
+                      "en": "It was illustrated by Taeeun Yoo. She lives in South Korea.",
+                      "ja": "それはユ・テウンによって描かれたんだ。彼女は韓国に住んでいるよ。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_50",
+                      "tag": "(3) Hajin",
+                      "speaker": "Hajin",
+                      "en": "She's illustrated many children's books and received many awards.",
+                      "ja": "多くの児童書の挿絵を描いて、たくさんの賞を受賞したんだ。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_51",
+                      "tag": "(3) Hajin",
+                      "speaker": "Tina",
+                      "en": "I didn't know about her.",
+                      "ja": "彼女のことは知らなかったわ。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_52",
+                      "tag": "(3) Hajin",
+                      "speaker": "Hajin",
+                      "en": "The illustrations are beautiful, of course, but I want you to read the book because its message is great.",
+                      "ja": "挿絵も美しいけど、もちろん、その本の名メッセージがすばらしいから、君に読んでほしいんだ。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_53",
+                      "tag": "(3) Hajin",
+                      "speaker": "Hajin",
+                      "en": "The book says that you are stronger, braver, and wilder than you think you are.",
+                      "ja": "その本は、君は自分が思っているよりも強く、勇敢で、自由奔放なんだよって伝えているんだ。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_54",
+                      "tag": "(3) Hajin",
+                      "speaker": "Hajin",
+                      "en": "The words in this book will encourage and support you in your new adventure.",
+                      "ja": "この本の中の言葉が、新しい冒険で君を励まして支えてくれるよ。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_55",
+                      "tag": "(3) Hajin",
+                      "speaker": "Tina",
+                      "en": "That's really encouraging.",
+                      "ja": "それは本当に励まされるわ。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_56",
+                      "tag": "(3) Hajin",
+                      "speaker": "Tina",
+                      "en": "I didn't know there was such a wonderful book.",
+                      "ja": "そんなすばらしい本があるなんて知らなかった。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_57",
+                      "tag": "(3) Hajin",
+                      "speaker": "Tina",
+                      "en": "Do you know when it came out?",
+                      "ja": "それはいつ世に出たのか知ってる？"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_58",
+                      "tag": "(3) Hajin",
+                      "speaker": "Hajin",
+                      "en": "In 2010. It was more than 15 years ago.",
+                      "ja": "2010年だよ。もう15年以上前だね。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_59",
+                      "tag": "(3) Hajin",
+                      "speaker": "Tina",
+                      "en": "I see. I'll read the book with Nick.",
+                      "ja": "そうなんだ。ニックと一緒にその本を読むわね。"
+                    },
+                    {
+                      "id": "G3_U6_GL_S_60",
+                      "tag": "(3) Hajin",
+                      "speaker": "Tina",
+                      "en": "Thank you so much, Hajin.",
+                      "ja": "本当にありがとう、ハジン。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "130-132"
+        },
+        "P1": {
+          "title": "Part 1: もうすぐ合唱コンクール",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G3_U6_P1_W_01",
+                  "headword": "trouble",
+                  "pronunciation": "/trʌ́bl/",
+                  "pos": "名",
+                  "meaning": "心配事、困ること"
+                },
+                {
+                  "id": "G3_U6_P1_W_02",
+                  "headword": "wrist",
+                  "pronunciation": "/ríst/",
+                  "pos": "名",
+                  "meaning": "手首"
+                },
+                {
+                  "id": "G3_U6_P1_W_03",
+                  "headword": "twist(ed)",
+                  "pronunciation": "/twíst(id)/",
+                  "pos": "動",
+                  "meaning": "～をひねる、～を捻挫する"
+                },
+                {
+                  "id": "G3_U6_P1_W_04",
+                  "headword": "could",
+                  "pronunciation": "/kúd, kəd/",
+                  "pos": "助",
+                  "meaning": "～かもしれない"
+                },
+                {
+                  "id": "G3_U6_P1_W_05",
+                  "headword": "be in trouble",
+                  "meaning": "困ったことになっている"
+                },
+                {
+                  "id": "G3_U6_P1_W_06",
+                  "headword": "tricks",
+                  "pronunciation": "/trík(s)/",
+                  "pos": "名",
+                  "meaning": "手品、トリック"
+                },
+                {
+                  "id": "G3_U6_P1_W_07",
+                  "headword": "magic trick",
+                  "pronunciation": "/mǽdʒik trík/",
+                  "pos": "名",
+                  "meaning": "手品"
+                },
+                {
+                  "id": "G3_U6_P1_W_08",
+                  "headword": "magician",
+                  "pronunciation": "/mədʒíʃən/",
+                  "pos": "名",
+                  "meaning": "手品師"
+                },
+                {
+                  "id": "G3_U6_P1_W_09",
+                  "headword": "channel",
+                  "pronunciation": "/tʃǽnl/",
+                  "pos": "名",
+                  "meaning": "チャンネル"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "dialogue_section",
+                  "header": "もうすぐ合唱コンクール (p.117 / 教科書p.72)",
+                  "items": [
+                    {
+                      "id": "G3_U6_P1_S_Q1",
+                      "speaker": "Question",
+                      "en": "Q. Kota が紹介したビデオには、どんな人が出てくるでしょうか。",
+                      "ja": "Q. コウタが紹介したビデオには、どんな人が出てくるでしょうか。"
+                    },
+                    {
+                      "id": "G3_U6_P1_S_A1",
+                      "speaker": "Answer",
+                      "en": "A. (例) 1台のピアノを弾いている2人の人。",
+                      "ja": "A. (例) 1台のピアノを弾いている2人の人。"
+                    },
+                    {
+                      "id": "G3_U6_P1_S_01",
+                      "ref_num": "①",
+                      "speaker": "Kota",
+                      "en": "What's the matter?",
+                      "ja": "どうしたの？"
+                    },
+                    {
+                      "id": "G3_U6_P1_S_02",
+                      "ref_num": "②",
+                      "speaker": "Kota",
+                      "en": "Are you in trouble?",
+                      "ja": "何か困っている？"
+                    },
+                    {
+                      "id": "G3_U6_P1_S_03",
+                      "ref_num": "③",
+                      "speaker": "Eri",
+                      "en": "I twisted my wrist while I was playing volleyball.",
+                      "ja": "バレーボールをしている間に手首をひねってしまったの。"
+                    },
+                    {
+                      "id": "G3_U6_P1_S_04",
+                      "ref_num": "④",
+                      "speaker": "Eri",
+                      "en": "I don't think I can play the piano at the chorus contest.",
+                      "ja": "私、合唱コンクールでピアノを弾けないと思う。"
+                    },
+                    {
+                      "id": "G3_U6_P1_S_05",
+                      "ref_num": "⑤",
+                      "speaker": "Tina",
+                      "en": "What should we do?",
+                      "ja": "どうすればいいんだろう。"
+                    },
+                    {
+                      "id": "G3_U6_P1_S_06",
+                      "ref_num": "⑥",
+                      "speaker": "Tina",
+                      "en": "We have only a few days until the contest.",
+                      "ja": "コンクールまであと数日しかないよ。"
+                    },
+                    {
+                      "id": "G3_U6_P1_S_07",
+                      "ref_num": "⑦",
+                      "speaker": "Kota",
+                      "en": "I have an idea.",
+                      "ja": "ぼくに考えがある。"
+                    },
+                    {
+                      "id": "G3_U6_P1_S_08",
+                      "ref_num": "⑧",
+                      "speaker": "Kota",
+                      "en": "Look at this video.",
+                      "ja": "この動画を見て。"
+                    },
+                    {
+                      "id": "G3_U6_P1_S_09",
+                      "ref_num": "⑨",
+                      "speaker": "Kota",
+                      "en": "There are two people playing one piano.",
+                      "ja": "1台のピアノを弾いている2人の人がいるよ。"
+                    },
+                    {
+                      "id": "G3_U6_P1_S_10",
+                      "ref_num": "⑩",
+                      "speaker": "Kota",
+                      "en": "We could try that.",
+                      "ja": "ぼくたちはこれを試せるんじゃないかな。"
+                    },
+                    {
+                      "id": "G3_U6_P1_S_11",
+                      "ref_num": "⑪",
+                      "speaker": "Tina",
+                      "en": "Who can play the piano with Eri?",
+                      "ja": "誰がエリといっしょにピアノを弾けるの？"
+                    },
+                    {
+                      "id": "G3_U6_P1_S_12",
+                      "ref_num": "⑫",
+                      "speaker": "Hajin",
+                      "en": "I can play a little bit.",
+                      "ja": "ぼく、少し弾けるよ。"
+                    },
+                    {
+                      "id": "G3_U6_P1_S_13",
+                      "ref_num": "⑬",
+                      "speaker": "Eri",
+                      "en": "Really?",
+                      "ja": "本当？"
+                    },
+                    {
+                      "id": "G3_U6_P1_S_14",
+                      "ref_num": "⑭",
+                      "speaker": "Eri",
+                      "en": "Can you help me?",
+                      "ja": "私を助けてくれる？"
+                    },
+                    {
+                      "id": "G3_U6_P1_S_15",
+                      "ref_num": "⑮",
+                      "speaker": "Eri",
+                      "en": "We can play together.",
+                      "ja": "私たち、いっしょに弾けるかも。"
+                    },
+                    {
+                      "id": "G3_U6_P1_S_16",
+                      "ref_num": "⑯",
+                      "speaker": "Hajin",
+                      "en": "Sure.",
+                      "ja": "わかった。"
+                    },
+                    {
+                      "id": "G3_U6_P1_S_17",
+                      "ref_num": "⑰",
+                      "speaker": "Hajin",
+                      "en": "I'll do my best.",
+                      "ja": "できる限りやってみるよ。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak & Write (p.118 / 教科書p.73)",
+                  "label": "お気に入りの動画や写真に出てくる人やものを詳しく説明しよう",
+                  "items": [
+                    {
+                      "id": "G3_U6_P1_S_18",
+                      "speaker": "[例] A",
+                      "en": "Sometimes I watch this video. The person doing magic tricks is Ms. Trick.",
+                      "ja": "ときどき私はこの動画を見ます。手品をしている人は Ms. Trick です。"
+                    },
+                    {
+                      "id": "G3_U6_P1_S_19",
+                      "speaker": "[例] B",
+                      "en": "She looks amazing.",
+                      "ja": "彼女はすばらしく見えます。"
+                    },
+                    {
+                      "id": "G3_U6_P1_S_20",
+                      "speaker": "[解答例] A",
+                      "en": "Look at this picture. The person dancing on the stage is Leo.",
+                      "ja": "この写真を見てください。ステージで踊っている人はレオです。"
+                    },
+                    {
+                      "id": "G3_U6_P1_S_21",
+                      "speaker": "[解答例] B",
+                      "en": "He looks cool.",
+                      "ja": "彼はかっこよく見えます。"
+                    },
+                    {
+                      "id": "G3_U6_P1_S_22",
+                      "speaker": "Write [例]",
+                      "en": "Sometimes I watch \"The Magician Channel.\" The person doing magic tricks in the video is Ms. Trick.",
+                      "ja": "ときどき私は「マジシャン・チャンネル」を見ます。動画の中で手品をしている人は Ms. Trick です。"
+                    },
+                    {
+                      "id": "G3_U6_P1_S_23",
+                      "speaker": "Write [解答例]",
+                      "en": "I have some pictures of my favorite dancers. In this picture, the person dancing on the stage is Leo.",
+                      "ja": "私はお気に入りのダンサーの写真を何枚か持っています。この写真の中で、ステージで踊っている人はレオです。"
+                    }
+                  ]
+                }
+              ]
+            },
+            "GRAMMAR": {
+              "items": [
+                {
+                  "id": "G3_U6_P1_K_01",
+                  "en": "There are two people ==**playing one piano**==.",
+                  "ja": "1台のピアノを弾いている2人の人がいます。",
+                  "ref_id": "G3_U6_P1_S_09"
+                }
+              ],
+              "content_blocks": []
+            }
+          },
+          "explanations": {},
+          "page": 118
+        },
+        "P2": {
+          "title": "Part 2: 合唱コンクール当日",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G3_U6_P2_W_01",
+                  "headword": "heal",
+                  "pronunciation": "/híːl/",
+                  "pos": "動",
+                  "meaning": "～を治す、救う、癒やす"
+                },
+                {
+                  "id": "G3_U6_P2_W_02",
+                  "headword": "conductor",
+                  "pronunciation": "/kəndʌ́ktər/",
+                  "pos": "名",
+                  "meaning": "指揮者"
+                },
+                {
+                  "id": "G3_U6_P2_W_03",
+                  "headword": "solo",
+                  "pronunciation": "/sóulou/",
+                  "pos": "名",
+                  "meaning": "独唱、ソロ"
+                },
+                {
+                  "id": "G3_U6_P2_W_04",
+                  "headword": "hurt",
+                  "pronunciation": "/hə́ːrt/",
+                  "pos": "動",
+                  "meaning": "～にけがをさせる、～を痛める",
+                  "note": "過去形・過去分詞も同形 hurt"
+                },
+                {
+                  "id": "G3_U6_P2_W_05",
+                  "headword": "series",
+                  "pronunciation": "/síəriːz/",
+                  "pos": "名",
+                  "meaning": "続きもの、シリーズもの"
+                },
+                {
+                  "id": "G3_U6_P2_W_06",
+                  "headword": "hear of ~",
+                  "meaning": "～のことを耳にする"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "dialogue_section",
+                  "header": "合唱コンクール当日 (p.119 / 教科書p.74)",
+                  "items": [
+                    {
+                      "id": "G3_U6_P2_S_Q1",
+                      "speaker": "Question",
+                      "en": "Q. Tina たちが着ているTシャツについて、Nick はどんな説明をしましたか。",
+                      "ja": "Q. ティナたちが着ているTシャツについて、ニックはどんな説明をしましたか。"
+                    },
+                    {
+                      "id": "G3_U6_P2_S_A1",
+                      "speaker": "Answer",
+                      "en": "A. (例) ティナがデザインしたTシャツだと説明した。",
+                      "ja": "A. (例) ティナがデザインしたTシャツだと説明した。"
+                    },
+                    {
+                      "id": "G3_U6_P2_S_01",
+                      "ref_num": "①",
+                      "speaker": "Setting",
+                      "en": "Tina has invited her parents to the contest:",
+                      "ja": "ティナは、コンクールに両親を招待しました："
+                    },
+                    {
+                      "id": "G3_U6_P2_S_02",
+                      "ref_num": "②",
+                      "speaker": "Nick",
+                      "en": "Tina's class is next.",
+                      "ja": "ティナのクラスは次だね。"
+                    },
+                    {
+                      "id": "G3_U6_P2_S_03",
+                      "ref_num": "③",
+                      "speaker": "Mr. Rios",
+                      "en": "What are they going to sing?",
+                      "ja": "何を歌うのかな？"
+                    },
+                    {
+                      "id": "G3_U6_P2_S_04",
+                      "ref_num": "④",
+                      "speaker": "Nick",
+                      "en": "\"Heal the World.\"",
+                      "ja": "「ヒール・ザ・ワールド」だよ。"
+                    },
+                    {
+                      "id": "G3_U6_P2_S_05",
+                      "ref_num": "⑤",
+                      "speaker": "Ms. Rios",
+                      "en": "Here they are.",
+                      "ja": "出てきたわ。"
+                    },
+                    {
+                      "id": "G3_U6_P2_S_06",
+                      "ref_num": "⑥",
+                      "speaker": "Nick",
+                      "en": "Look!",
+                      "ja": "ほら見て！"
+                    },
+                    {
+                      "id": "G3_U6_P2_S_07",
+                      "ref_num": "⑦",
+                      "speaker": "Nick",
+                      "en": "They're wearing T-shirts designed by Tina.",
+                      "ja": "ティナがデザインしたTシャツを着ているよ。"
+                    },
+                    {
+                      "id": "G3_U6_P2_S_08",
+                      "ref_num": "⑧",
+                      "speaker": "Mr. Rios",
+                      "en": "Kota is the conductor, and Tina will sing a solo.",
+                      "ja": "コウタが指揮者で、ティナはソロパートを歌うんだね。"
+                    },
+                    {
+                      "id": "G3_U6_P2_S_09",
+                      "ref_num": "⑨",
+                      "speaker": "Nick",
+                      "en": "The boy playing the piano with Eri is Hajin.",
+                      "ja": "エリとピアノを演奏している男子はハジンだよ。"
+                    },
+                    {
+                      "id": "G3_U6_P2_S_10",
+                      "ref_num": "⑩",
+                      "speaker": "Nick",
+                      "en": "Eri hurt her wrist, so Hajin is helping her.",
+                      "ja": "エリが手首を痛めたから、ハジンが手伝っているんだ。"
+                    },
+                    {
+                      "id": "G3_U6_P2_S_11",
+                      "ref_num": "⑪",
+                      "speaker": "Ms. Rios",
+                      "en": "That's really nice.",
+                      "ja": "それは本当にすてきね。"
+                    },
+                    {
+                      "id": "G3_U6_P2_S_12",
+                      "speaker": "You're the Writer!",
+                      "en": "I think so, too.",
+                      "ja": "(解答例) 私もそう思います。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak & Write (p.120 / 教科書p.75)",
+                  "label": "日本の作品を外国の人に紹介しよう",
+                  "items": [
+                    {
+                      "id": "G3_U6_P2_S_13",
+                      "speaker": "[例] A",
+                      "en": "Have you heard of Naruto?",
+                      "ja": "「ナルト」のことを耳にしたことがありますか。"
+                    },
+                    {
+                      "id": "G3_U6_P2_S_14",
+                      "speaker": "[例] A",
+                      "en": "It's a manga series created by Kishimoto Masashi.",
+                      "ja": "岸本斉史によって作られた漫画のシリーズです。"
+                    },
+                    {
+                      "id": "G3_U6_P2_S_15",
+                      "speaker": "[例] A",
+                      "en": "It's really popular all over the world.",
+                      "ja": "世界中で本当に人気があります。"
+                    },
+                    {
+                      "id": "G3_U6_P2_S_16",
+                      "speaker": "[例] B",
+                      "en": "I didn't know that.",
+                      "ja": "それを知りませんでした。"
+                    },
+                    {
+                      "id": "G3_U6_P2_S_17",
+                      "speaker": "[解答例] A",
+                      "en": "Have you heard of Totoro?",
+                      "ja": "「トトロ」のことを耳にしたことがありますか。"
+                    },
+                    {
+                      "id": "G3_U6_P2_S_18",
+                      "speaker": "[解答例] A",
+                      "en": "It's an anime created by Miyazaki Hayao.",
+                      "ja": "それは宮崎駿によって作られたアニメです。"
+                    },
+                    {
+                      "id": "G3_U6_P2_S_19",
+                      "speaker": "[解答例] A",
+                      "en": "It's really loved in many countries.",
+                      "ja": "たくさんの国で本当に愛されています。"
+                    },
+                    {
+                      "id": "G3_U6_P2_S_20",
+                      "speaker": "[解答例] B",
+                      "en": "I like this movie.",
+                      "ja": "私はその映画が好きです。"
+                    },
+                    {
+                      "id": "G3_U6_P2_S_21",
+                      "speaker": "Write [解答例]",
+                      "en": "Totoro is an anime created by Miyazaki Hayao. It's really loved in many countries.",
+                      "ja": "「トトロ」は宮崎駿によって作られたアニメです。たくさんの国で本当に愛されています。"
+                    }
+                  ]
+                }
+              ]
+            },
+            "GRAMMAR": {
+              "items": [
+                {
+                  "id": "G3_U6_P2_K_01",
+                  "en": "They're wearing T-shirts ==**designed by Tina**==.",
+                  "ja": "彼らはティナがデザインしたTシャツを着ています。",
+                  "ref_id": "G3_U6_P2_S_07"
+                }
+              ],
+              "content_blocks": []
+            }
+          },
+          "explanations": {},
+          "page": 120
+        },
+        "P1_G": {
+          "title": "Part 1 解説",
+          "views": {
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "「～している（もの・人）」と説明を加える。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "There are two people ==**playing one piano**==.",
+                      "ja": "(1台のピアノを弾いている2人の人がいます。)",
+                      "ref_id": "G3_U6_P1_K_01"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "後置修飾 (動詞の -ing形)",
+                  "text": "playing のような動詞の ==**-ing形**== が、「～している（もの・人）」という意味で名詞に説明（修飾）を加えることがあります。この動詞の -ing形は、語句を伴って後ろから名詞を修飾しています。",
+                  "items": [
+                    {
+                      "tag": "構成",
+                      "en": "two people (2人の人) ← [ ==**playing one piano**== (1台のピアノを弾いている) ]",
+                      "note": "現在分詞句が直前の名詞 two people を修飾"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G3_U6_P1G_E_01",
+                      "ref_num": "①",
+                      "en": "What's the matter?",
+                      "text": "**What's the matter?** は、「どうしたの。」と相手にたずねる表現です。",
+                      "ref_id": "G3_U6_P1_S_01"
+                    },
+                    {
+                      "id": "G3_U6_P1G_E_02",
+                      "ref_num": "②",
+                      "en": "Are you in trouble?",
+                      "text": "**be in trouble** で、「困ったことになっている」という意味です。",
+                      "ref_id": "G3_U6_P1_S_02"
+                    },
+                    {
+                      "id": "G3_U6_P1G_E_03",
+                      "ref_num": "③",
+                      "en": "I twisted my wrist while I was playing volleyball.",
+                      "text": "**while** は「～している間に」という意味の接続詞です。while に続く文は **〈be動詞の過去形＋動詞の -ing形〉** で過去進行形になっているので、while I was playing volleyball で「バレーボールをしている間に」という意味になります。",
+                      "ref_id": "G3_U6_P1_S_03"
+                    },
+                    {
+                      "id": "G3_U6_P1G_E_04",
+                      "ref_num": "④",
+                      "en": "I don't think I can play the piano at the chorus contest.",
+                      "text": "I don't think の後には接続詞 that が省略されていて、**I don't think (that) ～.** で「～と思いません。」という意味を表します。",
+                      "ref_id": "G3_U6_P1_S_04"
+                    },
+                    {
+                      "id": "G3_U6_P1G_E_05",
+                      "ref_num": "⑥",
+                      "en": "We have only a few days until the contest.",
+                      "text": "**a few ～** は「少数の～、いくつかの～」という意味です。**until** は「～まで（ずっと）」と時間の終わりを示す前置詞で、until the contest は「コンクールまで」という意味になります。",
+                      "ref_id": "G3_U6_P1_S_06"
+                    },
+                    {
+                      "id": "G3_U6_P1G_E_06",
+                      "ref_num": "⑦",
+                      "en": "I have an idea.",
+                      "text": "**I have an idea.** は、「考えがある。」と自分の意見や考えを提案する表現です。",
+                      "ref_id": "G3_U6_P1_S_07"
+                    },
+                    {
+                      "id": "G3_U6_P1G_E_07",
+                      "ref_num": "⑨",
+                      "en": "There are two people playing one piano.",
+                      "text": "**playing** は名詞 (two people) を説明（修飾）する動詞の **-ing形** で、後ろから名詞を修飾します。**There are[is] ～.** は「～があります。」「～がいます。」という存在を表す文です。",
+                      "ref_id": "G3_U6_P1_S_09"
+                    },
+                    {
+                      "id": "G3_U6_P1G_E_08",
+                      "ref_num": "⑩",
+                      "en": "We could try that.",
+                      "note": "→教科書p.72 Key Phrase",
+                      "text": "この文の **could** は can の過去形としてではなく、低い可能性を表す助動詞として使われています。**that** は前文の内容を指しています。",
+                      "ref_id": "G3_U6_P1_S_10"
+                    },
+                    {
+                      "id": "G3_U6_P1G_E_09",
+                      "ref_num": "⑭",
+                      "en": "Can you help me?",
+                      "text": "**Can you ～?** は、「～してくれませんか。」と相手に依頼をするときに使う言い方です。**Can you help me?** は、「助けてくれませんか。」という意味で、助けを求めるときに使います。",
+                      "ref_id": "G3_U6_P1_S_14"
+                    },
+                    {
+                      "id": "G3_U6_P1G_E_10",
+                      "ref_num": "⑰",
+                      "en": "I'll do my best.",
+                      "text": "**I'll** は **I will** の短縮形です。**will** は意志を表す助動詞で、後に動詞の原形が続いて、「～しよう」という意味を表します。",
+                      "ref_id": "G3_U6_P1_S_17"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "123-124"
+        },
+        "P2_G": {
+          "title": "Part 2 解説",
+          "views": {
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "「～された（もの・人）」と説明を加える。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "They're wearing T-shirts ==**designed by Tina**==.",
+                      "ja": "(彼らはティナがデザインしたTシャツを着ています。)",
+                      "ref_id": "G3_U6_P2_K_01"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "後置修飾 (過去分詞)",
+                  "text": "designed のような==**過去分詞**==が、「～された（もの・人）」という意味で名詞に説明（修飾）を加えることがあります。この過去分詞は、動詞の -ing形と同様に、語句を伴って後ろから名詞に説明（修飾）を加えています。",
+                  "items": [
+                    {
+                      "tag": "構成",
+                      "en": "T-shirts (Tシャツ) ← [ ==**designed by Tina**== (ティナにデザインされた) ]",
+                      "note": "過去分詞句が直前の名詞 T-shirts を修飾"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G3_U6_P2G_E_01",
+                      "ref_num": "①",
+                      "en": "Tina has invited her parents to the contest:",
+                      "text": "**has invited** は、「招待した」という完了を表す現在完了形です。**to** は対象を示して「～に［へ］、～に対して」という意味を表しています。",
+                      "ref_id": "G3_U6_P2_S_01"
+                    },
+                    {
+                      "id": "G3_U6_P2G_E_02",
+                      "ref_num": "③",
+                      "en": "What are they going to sing?",
+                      "text": "**are they going to** は、to の後に動詞の原形が続いて、「～する（予定だ）」と未来を表します。",
+                      "ref_id": "G3_U6_P2_S_03"
+                    },
+                    {
+                      "id": "G3_U6_P2G_E_03",
+                      "ref_num": "⑤",
+                      "en": "Here they are.",
+                      "text": "**Here they are.** は複数のものを差し出して「はい、（こちらを）どうぞ。」と言うときに使いますが、ここでは、Tina たちがステージに出てきたことを指しています。",
+                      "ref_id": "G3_U6_P2_S_05"
+                    },
+                    {
+                      "id": "G3_U6_P2G_E_04",
+                      "ref_num": "⑦",
+                      "en": "They're wearing T-shirts designed by Tina.",
+                      "text": "**designed** は「デザインされた」という意味で、名詞 (T-shirts) に後ろから説明（修飾）を加えている過去分詞です。過去分詞が **by Tina** のように語句を伴っている場合は、後ろから名詞に説明を加えます。",
+                      "ref_id": "G3_U6_P2_S_07"
+                    },
+                    {
+                      "id": "G3_U6_P2G_E_05",
+                      "ref_num": "⑧",
+                      "en": "Kota is the conductor, and Tina will sing a solo.",
+                      "text": "この文の助動詞 **will** は「～だろう」という単純未来を表しています。",
+                      "ref_id": "G3_U6_P2_S_08"
+                    },
+                    {
+                      "id": "G3_U6_P2G_E_06",
+                      "ref_num": "⑨",
+                      "en": "The boy playing the piano with Eri is Hajin.",
+                      "text": "**playing** は名詞 (the boy) を説明（修飾）する動詞の **-ing形** です。**the piano with Eri** のように語句を伴っている場合は、後ろから名詞に説明を加えます。**The boy playing the piano with Eri** がこの文の主語です。",
+                      "ref_id": "G3_U6_P2_S_09"
+                    },
+                    {
+                      "id": "G3_U6_P2G_E_07",
+                      "ref_num": "⑩",
+                      "en": "Eri hurt her wrist, so Hajin is helping her.",
+                      "text": "**so** は「それで、だから」という意味で結果を表す接続詞です。**Eri hurt her wrist**（エリが手首を痛めた）を受けて、so が使われています。**is helping** は **〈be動詞＋動詞の -ing形〉** の形で、「～している」という現在進行形の文です。",
+                      "ref_id": "G3_U6_P2_S_10"
+                    },
+                    {
+                      "id": "G3_U6_P2G_E_08",
+                      "ref_num": "⑪",
+                      "en": "That's really nice.",
+                      "text": "**that** は直前に相手が言ったことを指しています。**really** は「本当に」の意味で、**nice** を強調しています。",
+                      "ref_id": "G3_U6_P2_S_11"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 124
+        },
+        "P3_G": {
+          "title": "Part 3 解説",
+          "views": {
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "「なぜ～か」「いつ～か」などと言う。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "Why are you leaving?",
+                      "ja": "(どうして行ってしまうのですか。)",
+                      "ref_id": "G3_U6_P3_K_01"
+                    },
+                    {
+                      "ref_num": "②",
+                      "en": "Tell us ==**why you're leaving**==.",
+                      "ja": "(どうして行ってしまうのか私たちに教えて。)",
+                      "ref_id": "G3_U6_P3_K_02"
+                    },
+                    {
+                      "ref_num": "③",
+                      "en": "When are you leaving?",
+                      "ja": "(いつ出発するのですか。)",
+                      "ref_id": "G3_U6_P3_K_03"
+                    },
+                    {
+                      "ref_num": "④",
+                      "en": "Do you know ==**when you're leaving**==?",
+                      "ja": "(いつ出発するかわかっているのですか。)",
+                      "ref_id": "G3_U6_P3_K_04"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "間接疑問文",
+                  "text": "why や when などの疑問詞で始まる疑問文が、別の文の一部に組み込まれるとき、この文を==**間接疑問文**==といいます。このとき、疑問詞以下の語順は肯定文と同じになり、==**〈疑問詞＋主語＋動詞〉**==の形になります。",
+                  "items": [
+                    {
+                      "tag": "be動詞のとき",
+                      "en": "I know. ＋ What is this? → I know ==**what this is**==.",
+                      "ja": "(これが何であるか、私は知っています。)",
+                      "note": "主語と be動詞を入れ替える"
+                    },
+                    {
+                      "tag": "一般動詞のとき",
+                      "en": "I don't know. ＋ Where does he live? → I don't know ==**where he lives**==.",
+                      "ja": "(彼がどこに住んでいるのか、私は知りません。)",
+                      "note": "主語＋一般動詞（3単現のsに注意）にする"
+                    },
+                    {
+                      "tag": "助動詞のとき",
+                      "en": "Do you know? ＋ When will this train start? → Do you know ==**when this train will start**==?",
+                      "ja": "(この電車がいつ出発するか、あなたは知っていますか。)",
+                      "note": "主語と助動詞を入れ替える"
+                    },
+                    {
+                      "tag": "主語が疑問詞のとき",
+                      "en": "I know. ＋ What is in this box? → I know ==**what is in this box**==.",
+                      "ja": "(この箱の中に何があるのか、私は知っています。)",
+                      "note": "＊疑問詞が後の文の主語になるときは、語順は変わりません。"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G3_U6_P3G_E_01",
+                      "ref_num": "②",
+                      "en": "Unbelievable!",
+                      "note": "→教科書p.76 Key Phrase",
+                      "text": "**Unbelievable!** は「信じられない。」と言うときに使う表現です。",
+                      "ref_id": "G3_U6_P3_S_02"
+                    },
+                    {
+                      "id": "G3_U6_P3G_E_02",
+                      "ref_num": "④",
+                      "en": "Eri, Hajin, you two sounded awesome together.",
+                      "text": "**you two** の **two** は主語である you と同格で「あなたたち2人」という意味になります。two が置かれる位置に注意しましょう。",
+                      "ref_id": "G3_U6_P3_S_04"
+                    },
+                    {
+                      "id": "G3_U6_P3G_E_03",
+                      "ref_num": "⑪",
+                      "en": "Tell us why you're leaving.",
+                      "text": "この文は間接疑問文で、**why** のような疑問詞で始まる疑問文が **tell** のような動詞の目的語として別の文の一部になっています。",
+                      "ref_id": "G3_U6_P3_S_11"
+                    },
+                    {
+                      "id": "G3_U6_P3G_E_04",
+                      "ref_num": "⑬",
+                      "en": "Do you know when you're leaving?",
+                      "text": "**when** 以下の文は **〈疑問詞＋主語＋動詞〉** の形で間接疑問文になっています。",
+                      "ref_id": "G3_U6_P3_S_13"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 125
+        },
+        "P3": {
+          "title": "Part 3: コンクールの結果は",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G3_U6_P3_W_01",
+                  "headword": "unbelievable",
+                  "pronunciation": "/ˌʌnbɪˈliːvəbl/",
+                  "pos": "形",
+                  "meaning": "信じられない"
+                },
+                {
+                  "id": "G3_U6_P3_W_02",
+                  "headword": "news",
+                  "pronunciation": "/njuːz/",
+                  "pos": "名",
+                  "meaning": "（個人的な）知らせ、情報"
+                },
+                {
+                  "id": "G3_U6_P3_W_03",
+                  "headword": "win",
+                  "pronunciation": "/wɪn/",
+                  "pos": "動",
+                  "meaning": "勝つ、優勝する",
+                  "note": "過去形・過去分詞形：won /wʌn/"
+                },
+                {
+                  "id": "G3_U6_P3_W_04",
+                  "headword": "London",
+                  "pronunciation": "/ˈlʌndən/",
+                  "pos": "名",
+                  "meaning": "ロンドン〔英国の首都〕"
+                },
+                {
+                  "id": "G3_U6_P3_W_05",
+                  "headword": "strange",
+                  "pronunciation": "/streɪndʒ/",
+                  "pos": "形",
+                  "meaning": "奇妙な、変な"
+                },
+                {
+                  "id": "G3_U6_P3_W_06",
+                  "headword": "beginning",
+                  "pronunciation": "/bɪˈɡɪnɪŋ/",
+                  "pos": "名",
+                  "meaning": "最初、始まり"
+                },
+                {
+                  "id": "G3_U6_P3_W_07",
+                  "headword": "at the beginning of ~",
+                  "meaning": "～の初めに"
+                },
+                {
+                  "id": "G3_U6_P3_W_08",
+                  "headword": "wave",
+                  "pronunciation": "/weɪv/",
+                  "pos": "名",
+                  "meaning": "波"
+                },
+                {
+                  "id": "G3_U6_P3_W_09",
+                  "headword": "tale",
+                  "pronunciation": "/teɪl/",
+                  "pos": "名",
+                  "meaning": "物語"
+                },
+                {
+                  "id": "G3_U6_P3_W_10",
+                  "headword": "The Great Wave off Kanagawa",
+                  "pos": "名",
+                  "meaning": "『神奈川沖浪裏』〔作品名〕"
+                },
+                {
+                  "id": "G3_U6_P3_W_11",
+                  "headword": "The Tale of Genji",
+                  "pos": "名",
+                  "meaning": "『源氏物語』〔作品名〕"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "dialogue_section",
+                  "header": "コンクールの結果は (p.121 / 教科書p.76)",
+                  "items": [
+                    {
+                      "id": "G3_U6_P3_S_Q1",
+                      "speaker": "Question",
+                      "en": "Q. Tina は、なぜ悲しそうにしているのでしょうか。",
+                      "ja": "Q. ティナは、なぜ悲しそうにしているのでしょうか。"
+                    },
+                    {
+                      "id": "G3_U6_P3_S_A1",
+                      "speaker": "Answer",
+                      "en": "A. (例) 日本を離れなければならないから。",
+                      "ja": "A. (例) 日本を離れなければならないから。"
+                    },
+                    {
+                      "id": "G3_U6_P3_S_01",
+                      "ref_num": "①",
+                      "speaker": "Setting",
+                      "en": "After the contest:",
+                      "ja": "コンクールの後で："
+                    },
+                    {
+                      "id": "G3_U6_P3_S_02",
+                      "ref_num": "②",
+                      "speaker": "Eri",
+                      "en": "Unbelievable!",
+                      "ja": "信じられない！"
+                    },
+                    {
+                      "id": "G3_U6_P3_S_03",
+                      "ref_num": "③",
+                      "speaker": "Eri",
+                      "en": "We won.",
+                      "ja": "私たち、優勝したよ。"
+                    },
+                    {
+                      "id": "G3_U6_P3_S_04",
+                      "ref_num": "④",
+                      "speaker": "Kota",
+                      "en": "Eri, Hajin, you two sounded awesome together.",
+                      "ja": "エリ、ハジン、2人の演奏はとても息が合っていたよ。"
+                    },
+                    {
+                      "id": "G3_U6_P3_S_05",
+                      "ref_num": "⑤",
+                      "speaker": "Kota",
+                      "en": "And Tina, your solo was amazing.",
+                      "ja": "それにティナ、ソロがすばらしかったね。"
+                    },
+                    {
+                      "id": "G3_U6_P3_S_06",
+                      "ref_num": "⑥",
+                      "speaker": "Eri",
+                      "en": "You look strange, Tina.",
+                      "ja": "ティナ、変だよ。"
+                    },
+                    {
+                      "id": "G3_U6_P3_S_07",
+                      "ref_num": "⑦",
+                      "speaker": "Eri",
+                      "en": "Aren't you happy?",
+                      "ja": "うれしくないの？"
+                    },
+                    {
+                      "id": "G3_U6_P3_S_08",
+                      "ref_num": "⑧",
+                      "speaker": "Tina",
+                      "en": "I am, but I also have bad news.",
+                      "ja": "うれしいよ。だけど、悪い知らせもあるの。"
+                    },
+                    {
+                      "id": "G3_U6_P3_S_09",
+                      "ref_num": "⑨",
+                      "speaker": "Tina",
+                      "en": "I have to leave Japan.",
+                      "ja": "日本を離れなければいけないの。"
+                    },
+                    {
+                      "id": "G3_U6_P3_S_10",
+                      "ref_num": "⑩",
+                      "speaker": "Kota",
+                      "en": "What?",
+                      "ja": "何だって？"
+                    },
+                    {
+                      "id": "G3_U6_P3_S_11",
+                      "ref_num": "⑪",
+                      "speaker": "Kota",
+                      "en": "Tell us why you're leaving.",
+                      "ja": "どうして離れるのかぼくたちに教えてよ。"
+                    },
+                    {
+                      "id": "G3_U6_P3_S_12",
+                      "ref_num": "⑫",
+                      "speaker": "Tina",
+                      "en": "My family's moving to London because of my father's job.",
+                      "ja": "私の家族が、お父さんの仕事のためにロンドンに引っ越す予定なの。"
+                    },
+                    {
+                      "id": "G3_U6_P3_S_13",
+                      "ref_num": "⑬",
+                      "speaker": "Hajin",
+                      "en": "Do you know when you're leaving?",
+                      "ja": "いつ出発するかわかっているの？"
+                    },
+                    {
+                      "id": "G3_U6_P3_S_14",
+                      "ref_num": "⑭",
+                      "speaker": "Tina",
+                      "en": "At the beginning of March.",
+                      "ja": "3月の初めに。"
+                    },
+                    {
+                      "id": "G3_U6_P3_S_15",
+                      "speaker": "You're the Writer!",
+                      "en": "It's so soon.",
+                      "ja": "(解答例) すぐだね。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak & Write (p.122 / 教科書p.77)",
+                  "label": "『源氏物語』についての情報交換",
+                  "items": [
+                    {
+                      "id": "G3_U6_P3_S_16",
+                      "speaker": "[例] A",
+                      "en": "Do you know who the main character is?",
+                      "ja": "主人公が誰か知っていますか。"
+                    },
+                    {
+                      "id": "G3_U6_P3_S_17",
+                      "speaker": "[例] B",
+                      "en": "Yes. It's Hikaru Genji. I learned that in history class.",
+                      "ja": "はい。光源氏です。歴史の授業で学びました。"
+                    },
+                    {
+                      "id": "G3_U6_P3_S_18",
+                      "speaker": "[解答例] A",
+                      "en": "Do you know when it was written?",
+                      "ja": "それがいつ書かれたか知っていますか。"
+                    },
+                    {
+                      "id": "G3_U6_P3_S_19",
+                      "speaker": "[解答例] B",
+                      "en": "Yes. It was written in the Heian period. I learned that in history class, too.",
+                      "ja": "はい。平安時代に書かれました。それも歴史の授業で学びました。"
+                    },
+                    {
+                      "id": "G3_U6_P3_S_20",
+                      "speaker": "[解答例] A",
+                      "en": "Do you know what kind of story it is?",
+                      "ja": "どのような話か知っていますか。"
+                    },
+                    {
+                      "id": "G3_U6_P3_S_21",
+                      "speaker": "[解答例] B",
+                      "en": "No. I have never read it.",
+                      "ja": "いいえ。私はそれを読んだことがないのです。"
+                    },
+                    {
+                      "id": "G3_U6_P3_S_22",
+                      "speaker": "Write [解答例]",
+                      "en": "Aya knows who the main character of The Tale of Genji is and when it was written. But she doesn't know what kind of story it is.",
+                      "ja": "アヤは、『源氏物語』の主人公が誰で、いつ書かれたかを知っています。しかし、彼女はそれがどのような話なのか知りません。"
+                    }
+                  ]
+                }
+              ]
+            },
+            "GRAMMAR": {
+              "items": [
+                {
+                  "id": "G3_U6_P3_K_01",
+                  "en": "Why are you leaving?",
+                  "ja": "どうして行ってしまうのですか。"
+                },
+                {
+                  "id": "G3_U6_P3_K_02",
+                  "en": "Tell us ==**why you're leaving**==.",
+                  "ja": "どうして行ってしまうのか私たちに教えて。",
+                  "ref_id": "G3_U6_P3_S_11"
+                },
+                {
+                  "id": "G3_U6_P3_K_03",
+                  "en": "When are you leaving?",
+                  "ja": "いつ出発するのですか。"
+                },
+                {
+                  "id": "G3_U6_P3_K_04",
+                  "en": "Do you know ==**when you're leaving**==?",
+                  "ja": "いつ出発するかわかっているのですか。",
+                  "ref_id": "G3_U6_P3_S_13"
+                }
+              ],
+              "content_blocks": []
+            }
+          },
+          "explanations": {},
+          "page": 122
+        },
+        "ST": {
+          "title": "Start: The Chorus Contest",
+          "views": {
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "goal_section",
+                  "header": "Unit 6 の目標 (Goal)",
+                  "items": [
+                    {
+                      "tag": "Listen",
+                      "text": "おすすめの作品について話を聞き、おおまかな内容を捉えることができる。"
+                    },
+                    {
+                      "tag": "Speak",
+                      "text": "おすすめの作品について、詳しい情報を伝え合うことができる。"
+                    }
+                  ]
+                },
+                {
+                  "type": "intro_section",
+                  "header": "About You",
+                  "items": [
+                    {
+                      "id": "G3_U6_ST_S_01",
+                      "en": "What school event do you remember the best?",
+                      "ja": "あなたが一番覚えている学校行事は何ですか。"
+                    },
+                    {
+                      "id": "G3_U6_ST_S_02",
+                      "en": "I remember the school trip the best.",
+                      "ja": "(例) 修学旅行をいちばん覚えています。",
+                      "tag": "例"
+                    }
+                  ]
+                },
+                {
+                  "type": "check_section",
+                  "header": "1. 予想する",
+                  "items": [
+                    {
+                      "id": "G3_U6_ST_S_03",
+                      "en": "What problem will they have before the chorus contest?",
+                      "ja": "合唱コンクール前に彼らはどんな問題を抱えるでしょうか。"
+                    },
+                    {
+                      "id": "G3_U6_ST_S_04",
+                      "en": "Their practice will not go well.",
+                      "ja": "(例) 練習がうまくいかないでしょう。",
+                      "tag": "例"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 116
+        },
+        "WT2": {
+          "title": "World Tour 2: If the World Were a Village of 100 People",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G3_U6_WT2_W_01",
+                  "headword": "village",
+                  "pronunciation": "/ˈvɪlɪdʒ/",
+                  "pos": "名",
+                  "meaning": "村"
+                },
+                {
+                  "id": "G3_U6_WT2_W_02",
+                  "headword": "billion",
+                  "pronunciation": "/ˈbɪljən/",
+                  "pos": "名/形",
+                  "meaning": "10億（の）"
+                },
+                {
+                  "id": "G3_U6_WT2_W_03",
+                  "headword": "geography",
+                  "pronunciation": "/dʒiˈɑːɡrəfi/",
+                  "pos": "名",
+                  "meaning": "地理"
+                },
+                {
+                  "id": "G3_U6_WT2_W_04",
+                  "headword": "Oceania",
+                  "pronunciation": "/ˌoʊʃiˈeɪniə/",
+                  "pos": "名",
+                  "meaning": "オセアニア"
+                },
+                {
+                  "id": "G3_U6_WT2_W_05",
+                  "headword": "non-",
+                  "pronunciation": "/nɑːn/",
+                  "pos": "接頭",
+                  "meaning": "非～"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "info_section",
+                  "header": "100人の村の統計データ (p.138 / 教科書p.84)",
+                  "label": "If the World Were a Village of 100 People:世界がもし100人の村だったら",
+                  "items": [
+                    {
+                      "id": "G3_U6_WT2_D_01",
+                      "label": "世界人口",
+                      "en": "In the world today, there are over 8 billion people.",
+                      "ja": "現在、世界には80億人以上の人々がいます。"
+                    },
+                    {
+                      "id": "G3_U6_WT2_D_02",
+                      "label": "地理 (Geography)",
+                      "en": "Asia: 60 / Africa: 16 / North and South America: 13 / Europe: 10 / Oceania: 1",
+                      "ja": "アジア：60人 / アフリカ：16人 / 南北アメリカ：13人 / ヨーロッパ：10人 / オセアニア：1人"
+                    },
+                    {
+                      "id": "G3_U6_WT2_D_03",
+                      "label": "教育 (Education)",
+                      "en": "Able to read and write: 86 / Not able to read and write: 14",
+                      "ja": "読み書きができる：86人 / 読み書きができない：14人"
+                    },
+                    {
+                      "id": "G3_U6_WT2_D_04",
+                      "label": "科学技術 (Technology)",
+                      "en": "Internet users: 59 / Non-internet users: 41",
+                      "ja": "インターネット利用者：59人 / インターネット非利用者：41人"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Watch & Extra: 気づいたこと・感想 (p.138 / 教科書p.84)",
+                  "items": [
+                    {
+                      "id": "G3_U6_WT2_S_01",
+                      "tag": "Watch (例)",
+                      "en": "If 100 people lived in the village, 86 people in the village would be able to read and write, but 14 wouldn't.",
+                      "ja": "(例) もしその村に100人が住んでいるとしたら、その村の86人は読み書きができるが、14人はできないだろう。"
+                    },
+                    {
+                      "id": "G3_U6_WT2_S_02",
+                      "tag": "Extra (例)",
+                      "text": "(例) 今の世界にさまざまな格差があることがわかった。このままではよくないと思う。特に教育は重要なので、平等に受けられる村にするべきだ。"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_section",
+                  "header": "音声内容：If the World Were a Village of 100 People (p.139 / 教科書p.84)",
+                  "items": [
+                    {
+                      "id": "G3_U6_WT2_S_03",
+                      "en": "In the world today, there are over eight billion people.",
+                      "ja": "現在、世界には80億人以上の人々がいます。"
+                    },
+                    {
+                      "id": "G3_U6_WT2_S_04",
+                      "en": "If the world were a small village, what would it look like?",
+                      "ja": "もし世界が1つの小さな村だったら、それはどんなふうに見えるでしょうか？"
+                    },
+                    {
+                      "id": "G3_U6_WT2_S_05",
+                      "tag": "Geography",
+                      "en": "If 100 people lived in the village, 60 would be from Asia, 16 would be from Africa, 13 would be from North and South America, 10 would be from Europe, and 1 would be from Oceania.",
+                      "ja": "もしその村に100人が住んでいるとしたら、60人がアジア出身、16人がアフリカ出身、13人が北アメリカと南アメリカ出身、10人がヨーロッパ出身、そして1人がオセアニア出身でしょう。"
+                    },
+                    {
+                      "id": "G3_U6_WT2_S_06",
+                      "tag": "Education",
+                      "en": "If 100 people lived in the village, 86 people in the village would be able to read and write, but 14 wouldn't.",
+                      "ja": "もしその村に100人が住んでいるとしたら、その村の86人は読み書きができますが、14人はできないでしょう。"
+                    },
+                    {
+                      "id": "G3_U6_WT2_S_07",
+                      "tag": "Technology",
+                      "en": "If 100 people lived in the village, 59 people would be internet users.",
+                      "ja": "もしその村に100人が住んでいるとしたら、59人はインターネット利用者でしょう。"
+                    },
+                    {
+                      "id": "G3_U6_WT2_S_08",
+                      "tag": "Technology",
+                      "en": "41 people would never see anything online.",
+                      "ja": "41人はオンラインで何も見ることがないでしょう。"
+                    },
+                    {
+                      "id": "G3_U6_WT2_S_09",
+                      "tag": "Conclusion",
+                      "en": "In order to change the world for the better, we have to understand what the world is like today.",
+                      "ja": "世界をよりよいほうに変えるためには、現在の世界がどのようになっているかを理解しなければなりません。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "138-139"
+        },
+        "YCD2": {
+          "title": "You Can Do It! 2: 持続可能な社会に向けレポートしよう",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G3_U6_YCD2_W_01",
+                  "headword": "agricultural",
+                  "pronunciation": "/ˌæɡrɪˈkʌltʃərəl/",
+                  "pos": "形",
+                  "meaning": "農業の"
+                },
+                {
+                  "id": "G3_U6_YCD2_W_02",
+                  "headword": "cultivate",
+                  "pronunciation": "/ˈkʌltɪveɪt/",
+                  "pos": "動",
+                  "meaning": "～を栽培する、耕す"
+                },
+                {
+                  "id": "G3_U6_YCD2_W_03",
+                  "headword": "rice",
+                  "pronunciation": "/raɪs/",
+                  "pos": "名",
+                  "meaning": "稲、米"
+                },
+                {
+                  "id": "G3_U6_YCD2_W_04",
+                  "headword": "Zambia",
+                  "pronunciation": "/ˈzæmbiə/",
+                  "pos": "名",
+                  "meaning": "ザンビア"
+                },
+                {
+                  "id": "G3_U6_YCD2_W_05",
+                  "headword": "issue",
+                  "pronunciation": "/ˈɪʃuː/",
+                  "pos": "名",
+                  "meaning": "（社会的な）問題"
+                },
+                {
+                  "id": "G3_U6_YCD2_W_06",
+                  "headword": "crop(s)",
+                  "pronunciation": "/krɑːp(s)/",
+                  "pos": "名",
+                  "meaning": "作物、収穫物"
+                },
+                {
+                  "id": "G3_U6_YCD2_W_07",
+                  "headword": "grow",
+                  "pronunciation": "/ɡroʊ/",
+                  "pos": "動",
+                  "meaning": "～を育てる、～を栽培する",
+                  "note": "過去形：grew /ɡruː/"
+                },
+                {
+                  "id": "G3_U6_YCD2_W_08",
+                  "headword": "seed(s)",
+                  "pronunciation": "/siːd(z)/",
+                  "pos": "名",
+                  "meaning": "種、種子"
+                },
+                {
+                  "id": "G3_U6_YCD2_W_09",
+                  "headword": "harvest",
+                  "pronunciation": "/ˈhɑːrvɪst/",
+                  "pos": "名",
+                  "meaning": "収穫高、収穫物"
+                },
+                {
+                  "id": "G3_U6_YCD2_W_10",
+                  "headword": "kilogram",
+                  "pronunciation": "/ˈkɪləɡræm/",
+                  "pos": "名",
+                  "meaning": "キログラム"
+                },
+                {
+                  "id": "G3_U6_YCD2_W_11",
+                  "headword": "manual",
+                  "pronunciation": "/ˈmænjuəl/",
+                  "pos": "名",
+                  "meaning": "マニュアル、手引書"
+                },
+                {
+                  "id": "G3_U6_YCD2_W_12",
+                  "headword": "on",
+                  "pronunciation": "/ɑːn, ɔːn/",
+                  "pos": "前",
+                  "usage": "〔関連〕",
+                  "meaning": "～に関して、～について"
+                },
+                {
+                  "id": "G3_U6_YCD2_W_13",
+                  "headword": "locally",
+                  "pronunciation": "/ˈloʊkəli/",
+                  "pos": "副",
+                  "meaning": "地元で、近所で"
+                },
+                {
+                  "id": "G3_U6_YCD2_W_14",
+                  "headword": "Noah",
+                  "pronunciation": "/ˈnoʊə/",
+                  "pos": "名",
+                  "meaning": "ノア〔人物名〕"
+                },
+                {
+                  "id": "G3_U6_YCD2_W_15",
+                  "headword": "eco-",
+                  "pronunciation": "/ˈiːkoʊ-/",
+                  "pos": "接頭",
+                  "meaning": "環境の、生態の"
+                },
+                {
+                  "id": "G3_U6_YCD2_W_16",
+                  "headword": "warrior(s)",
+                  "pronunciation": "/ˈwɔːriər(z)/",
+                  "pos": "名",
+                  "meaning": "戦士"
+                },
+                {
+                  "id": "G3_U6_YCD2_W_17",
+                  "headword": "New Zealand",
+                  "pronunciation": "/ˌnjuː ˈziːlənd/",
+                  "pos": "名",
+                  "meaning": "ニュージーランド"
+                },
+                {
+                  "id": "G3_U6_YCD2_W_18",
+                  "headword": "land",
+                  "pronunciation": "/lænd/",
+                  "pos": "名",
+                  "meaning": "土地、国土、陸地"
+                },
+                {
+                  "id": "G3_U6_YCD2_W_19",
+                  "headword": "native",
+                  "pronunciation": "/ˈneɪtɪv/",
+                  "pos": "形",
+                  "meaning": "原産の、自生の"
+                },
+                {
+                  "id": "G3_U6_YCD2_W_20",
+                  "headword": "reduce",
+                  "pronunciation": "/rɪˈdjuːs/",
+                  "pos": "動",
+                  "meaning": "～を減少させる"
+                },
+                {
+                  "id": "G3_U6_YCD2_W_21",
+                  "headword": "nature reserve",
+                  "pos": "名",
+                  "meaning": "自然保護区"
+                },
+                {
+                  "id": "G3_U6_YCD2_W_22",
+                  "headword": "reserve",
+                  "pronunciation": "/rɪˈzɜːrv/",
+                  "pos": "名",
+                  "meaning": "保護区"
+                },
+                {
+                  "id": "G3_U6_YCD2_W_23",
+                  "headword": "CO2",
+                  "pronunciation": "/ˌsiː oʊ ˈtuː/",
+                  "pos": "名",
+                  "meaning": "二酸化炭素"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "report_section",
+                  "header": "レポート 1: Akari (日本・農業高校生) (p.135 / 教科書p.82)",
+                  "label": "ザンビアへの稲作支援 [98 words]",
+                  "items": [
+                    {
+                      "id": "G3_U6_YCD2_S_01",
+                      "speaker": "Akari",
+                      "en": "Hi. I'm Akari.",
+                      "ja": "こんにちは。私はアカリです。"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_02",
+                      "speaker": "Akari",
+                      "en": "I study at an agricultural high school in Japan.",
+                      "ja": "日本の農業高校で勉強しています。"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_03",
+                      "speaker": "Akari",
+                      "en": "We cultivate rice at school and send it to Zambia.",
+                      "ja": "私たちは学校でお米を栽培しザンビアに送っています。"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_04",
+                      "speaker": "Akari",
+                      "en": "Zambia has a serious social issue.",
+                      "ja": "ザンビアには深刻な社会問題があります。"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_05",
+                      "speaker": "Akari",
+                      "en": "Many children do not have homes.",
+                      "ja": "多くの子どもたちには家がありません。"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_06",
+                      "speaker": "Akari",
+                      "en": "When we learned about it, we decided to send the crops we grew.",
+                      "ja": "私たちはそのことを学んだとき、私たちが育てた作物を送ることを決めました。"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_07",
+                      "speaker": "Akari",
+                      "en": "We ordered the seeds and began to cultivate them.",
+                      "ja": "種を注文し栽培を始めました。"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_08",
+                      "speaker": "Akari",
+                      "en": "In the first year, the harvest was only two kilograms.",
+                      "ja": "最初の年は、収穫高はたったの2キログラムでした。"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_09",
+                      "speaker": "Akari",
+                      "en": "It increased to nine kilograms last year.",
+                      "ja": "昨年は9キログラムにまで増えました。"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_10",
+                      "speaker": "Akari",
+                      "en": "We also made a manual on how to grow rice locally.",
+                      "ja": "私たちは現地でお米を栽培する方法のマニュアルも作りました。"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_11",
+                      "speaker": "Akari",
+                      "en": "Now I know that there is something we can do for a distant country.",
+                      "ja": "今、私たちは遠い国のために何かできることがあると知っています。"
+                    }
+                  ]
+                },
+                {
+                  "type": "report_section",
+                  "header": "レポート 2: Noah (ニュージーランド) (p.135 / 教科書p.82)",
+                  "label": "Eco-Warriors の森林保護活動 [90 words]",
+                  "items": [
+                    {
+                      "id": "G3_U6_YCD2_S_12",
+                      "speaker": "Noah",
+                      "en": "Hi. I'm Noah.",
+                      "ja": "こんにちは。私はノアです。"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_13",
+                      "speaker": "Noah",
+                      "en": "I'd like to introduce our effort, Eco-Warriors.",
+                      "ja": "私たちの取り組み、エコ・ウォーリアーズを紹介したいと思います。"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_14",
+                      "speaker": "Noah",
+                      "en": "Protecting our forest is especially important for us in New Zealand.",
+                      "ja": "私たちの森林を保護することはニュージーランドにいる私たちにとっては特に重要です。"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_15",
+                      "speaker": "Noah",
+                      "en": "Look at this graph.",
+                      "ja": "このグラフを見てください。"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_16",
+                      "speaker": "Noah",
+                      "en": "It shows the percentage of forest.",
+                      "ja": "森林の割合を示しています。"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_17",
+                      "speaker": "Noah",
+                      "en": "Before people arrived in New Zealand, more than 80 percent of the land was covered in native forest.",
+                      "ja": "人々がニュージーランドに到達するまでは、80パーセントを超える土地が原生林に覆われていました。"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_18",
+                      "speaker": "Noah",
+                      "en": "This was reduced to 27 percent by 2018.",
+                      "ja": "これが2018年までに27パーセントまで減少しました。"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_19",
+                      "speaker": "Noah",
+                      "en": "We Eco-Warriors plant native trees on a nature reserve.",
+                      "ja": "私たちエコ・ウォーリアーズは自然保護区に郷土樹木を植えています。"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_20",
+                      "speaker": "Noah",
+                      "en": "I learned that these native trees that we plant can remove a lot of CO2.",
+                      "ja": "私たちが植えたこれらの郷土樹木が多くの二酸化炭素を取り除くことができると知りました。"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_21",
+                      "speaker": "Noah",
+                      "en": "I want to continue working for a better world.",
+                      "ja": "私はよりよい世界のために、活動を続けたいです。"
+                    }
+                  ]
+                },
+                {
+                  "type": "report_section",
+                  "header": "Write: 貧困問題に関するレポート [解答例] (p.137 / 教科書p.83)",
+                  "label": "SDGs 目標 1: 貧困をなくそう",
+                  "items": [
+                    {
+                      "id": "G3_U6_YCD2_S_22",
+                      "en": "Did you know that around 736 million people all over the world were living in poverty in 2015?",
+                      "ja": "2015年には世界中で約7億3600万人が貧困の中で暮らしていたことを知っていましたか？"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_23",
+                      "en": "That's a lot of people!",
+                      "ja": "すごい人数ですね！"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_24",
+                      "en": "I want to help people in poverty.",
+                      "ja": "私は貧しい人々を助けたいと思っています。"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_25",
+                      "en": "I often buy fair trade products because I know that the farmers and workers who make them can get enough money.",
+                      "ja": "私はフェアトレード商品をよく買います、それを作る農家や労働者が十分なお金を得られることを知っているからです。"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_26",
+                      "en": "Fair trade helps to reduce poverty in developing countries.",
+                      "ja": "フェアトレードは、開発途上国の貧困を減らすことに役立ちます。"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_27",
+                      "en": "Also, I made a poster about poverty and put it up at school.",
+                      "ja": "また、貧困についてのポスターを作って学校に貼りました。"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_28",
+                      "en": "I hope my poster can help more people understand the problem and take action.",
+                      "ja": "私のポスターが、より多くの人が問題を理解し、行動を起こすのに役立つことを願っています。"
+                    }
+                  ]
+                },
+                {
+                  "type": "essay_section",
+                  "header": "Writing モデル (p.137 / 教科書p.83)",
+                  "items": [
+                    {
+                      "id": "G3_U6_YCD2_S_29",
+                      "en": "How Do We Reduce Food Waste?",
+                      "ja": "食品廃棄物を削減するには？"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_30",
+                      "en": "Today, more than eight hundred million people in the world are starving.",
+                      "ja": "今日、世界で8億人以上の人々が飢えています。"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_31",
+                      "en": "According to a report, the amount of food aid for starving people is 4.2 million tons a year.",
+                      "ja": "ある報告によると、飢えた人々への食料援助の量は年間420万トンです。"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_32",
+                      "en": "On the other hand, we throw away about 2.5 billion tons of food waste a year.",
+                      "ja": "一方、私たちは年間約25億トンの食品廃棄物を廃棄しています。"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_33",
+                      "en": "What can we do to build a sustainable society?",
+                      "ja": "持続可能な社会を構築するために、私たちは何ができるのでしょうか。"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_34",
+                      "en": "We cooperated with a local food company to create new kinds of food, for example, steamed bread made with radish leaves, and hamburg steak made with shiitake mushroom stems.",
+                      "ja": "地元の食品会社と協力して、大根の葉を使った蒸しパンや、椎茸の茎を使ったハンバーグなど、新しい種類の食品を作りました。"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_35",
+                      "en": "We introduced them at our school festival.",
+                      "ja": "それらを学校祭で紹介しました。"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_36",
+                      "en": "Let's keep thinking about how to reduce food waste.",
+                      "ja": "食品廃棄物を減らす方法を考え続けましょう。"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_37",
+                      "en": "It's important to start with small things that we can do.",
+                      "ja": "私たちにできる小さなことから始めることが重要です。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "テストにトライ！ (p.137 / 教科書p.83)",
+                  "items": [
+                    {
+                      "id": "G3_U6_YCD2_S_38",
+                      "speaker": "Question",
+                      "en": "What can you do to make the world better? Please tell us your opinion.",
+                      "ja": "世界をよりよくするために、あなたに何ができますか。あなたの意見を聞かせてください。"
+                    },
+                    {
+                      "id": "G3_U6_YCD2_S_39",
+                      "speaker": "[解答例]",
+                      "en": "I think we can clean the beach to make the world better.",
+                      "ja": "私は世界をよりよくするために、ビーチをきれいにすることができると思います。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "135-137"
+        }
+      },
+      "hasAppendix": true
+    }
+  },
+  "allExplanations": {
+    "G3_U6_P1_S_01": "**What's the matter?** は、「どうしたの。」と相手にたずねる表現です。",
+    "G3_U6_P1_S_02": "**be in trouble** で、「困ったことになっている」という意味です。",
+    "G3_U6_P1_S_03": "**while** は「～している間に」という意味の接続詞です。while に続く文は **〈be動詞の過去形＋動詞の -ing形〉** で過去進行形になっているので、while I was playing volleyball で「バレーボールをしている間に」という意味になります。",
+    "G3_U6_P1_S_04": "I don't think の後には接続詞 that が省略されていて、**I don't think (that) ～.** で「～と思いません。」という意味を表します。",
+    "G3_U6_P1_S_06": "**a few ～** は「少数の～、いくつかの～」という意味です。**until** は「～まで（ずっと）」と時間の終わりを示す前置詞で、until the contest は「コンクールまで」という意味になります。",
+    "G3_U6_P1_S_07": "**I have an idea.** は、「考えがある。」と自分の意見や考えを提案する表現です。",
+    "G3_U6_P1_S_09": "**playing** は名詞 (two people) を説明（修飾）する動詞の **-ing形** で、後ろから名詞を修飾します。**There are[is] ～.** は「～があります。」「～がいます。」という存在を表す文です。",
+    "G3_U6_P1_S_10": "この文の **could** は can の過去形としてではなく、低い可能性を表す助動詞として使われています。**that** は前文の内容を指しています。",
+    "G3_U6_P1_S_14": "**Can you ～?** は、「～してくれませんか。」と相手に依頼をするときに使う言い方です。**Can you help me?** は、「助けてくれませんか。」という意味で、助けを求めるときに使います。",
+    "G3_U6_P1_S_17": "**I'll** は **I will** の短縮形です。**will** は意志を表す助動詞で、後に動詞の原形が続いて、「～しよう」という意味を表します。",
+    "G3_U6_P2_S_01": "**has invited** は、「招待した」という完了を表す現在完了形です。**to** は対象を示して「～に［へ］、～に対して」という意味を表しています。",
+    "G3_U6_P2_S_03": "**are they going to** は、to の後に動詞の原形が続いて、「～する（予定だ）」と未来を表します。",
+    "G3_U6_P2_S_05": "**Here they are.** は複数のものを差し出して「はい、（こちらを）どうぞ。」と言うときに使いますが、ここでは、Tina たちがステージに出てきたことを指しています。",
+    "G3_U6_P2_S_07": "**designed** は「デザインされた」という意味で、名詞 (T-shirts) に後ろから説明（修飾）を加えている過去分詞です。過去分詞が **by Tina** のように語句を伴っている場合は、後ろから名詞に説明を加えます。",
+    "G3_U6_P2_S_08": "この文の助動詞 **will** は「～だろう」という単純未来を表しています。",
+    "G3_U6_P2_S_09": "**playing** は名詞 (the boy) を説明（修飾）する動詞の **-ing形** です。**the piano with Eri** のように語句を伴っている場合は、後ろから名詞に説明を加えます。**The boy playing the piano with Eri** がこの文の主語です。",
+    "G3_U6_P2_S_10": "**so** は「それで、だから」という意味で結果を表す接続詞です。**Eri hurt her wrist**（エリが手首を痛めた）を受けて、so が使われています。**is helping** は **〈be動詞＋動詞の -ing形〉** の形で、「～している」という現在進行形の文です。",
+    "G3_U6_P2_S_11": "**that** は直前に相手が言ったことを指しています。**really** は「本当に」の意味で、**nice** を強調しています。",
+    "G3_U6_P3_S_02": "**Unbelievable!** は「信じられない。」と言うときに使う表現です。",
+    "G3_U6_P3_S_04": "**you two** の **two** は主語である you と同格で「あなたたち2人」という意味になります。two が置かれる位置に注意しましょう。",
+    "G3_U6_P3_S_11": "この文は間接疑問文で、**why** のような疑問詞で始まる疑問文が **tell** のような動詞の目的語として別の文の一部になっています。",
+    "G3_U6_P3_S_13": "**when** 以下の文は **〈疑問詞＋主語＋動詞〉** の形で間接疑問文になっています。"
+  }
+}

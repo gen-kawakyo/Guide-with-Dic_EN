@@ -1,0 +1,4312 @@
+{
+  "type": "FULL_BACKUP",
+  "units": {
+    "G1-U6": {
+      "title": "Unit G1-U6",
+      "parts": {
+        "AG3": {
+          "title": "Active Grammar 3: is / 3人称単数現在形",
+          "views": {
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "explanation_section",
+                  "header": "場面と意味 (Look Back)",
+                  "text": "ストーリーをふり返って、どんな場面で何を伝えていたかを思い出してみましょう。\n(例) この場で会話に参加していない Tina について話をしている。",
+                  "items": [
+                    {
+                      "speaker": "Grandpa",
+                      "en": "Where's Tina?",
+                      "ja": "ティナはどこだい？"
+                    },
+                    {
+                      "speaker": "Ms. Rios",
+                      "en": "She's in bed.",
+                      "ja": "ベッドで寝ています。"
+                    },
+                    {
+                      "speaker": "Grandma",
+                      "en": "Oh, dear! Does she have a cold?",
+                      "ja": "おやまあの 風邪をひいたの？"
+                    },
+                    {
+                      "speaker": "Mr. Rios",
+                      "en": "No, she doesn't.",
+                      "ja": "いや、違うんだ。"
+                    }
+                  ]
+                },
+                {
+                  "type": "pattern_summary",
+                  "header": "文の形 1: is 〈3人称単数のときの be動詞〉 (Unit 4-1, 4-3)",
+                  "items": [
+                    {
+                      "tag": "肯定文",
+                      "en": "Hajin ==**is**== from Korea.",
+                      "ja": "ハジンは韓国出身です。"
+                    },
+                    {
+                      "tag": "疑問文",
+                      "en": "==**Is**== he from India?",
+                      "ja": "彼はインド出身ですか。",
+                      "text": "[mark]**疑問文は、is を主語の前に置きます。**[/mark]"
+                    },
+                    {
+                      "tag": "応答",
+                      "en": "— Yes, he ==**is**==. / No, he ==**is not**==.",
+                      "ja": "はい、そうです。／いいえ、違います。"
+                    },
+                    {
+                      "tag": "否定文",
+                      "en": "He ==**is not**== from India.",
+                      "ja": "彼はインド出身ではありません。",
+                      "text": "[mark]**否定文は、is の後に not を置きます。**[/mark]"
+                    }
+                  ]
+                },
+                {
+                  "type": "word_summary",
+                  "header": "主語とbe動詞",
+                  "items": [
+                    {
+                      "tag": "is",
+                      "text": "he ／ she ／ it ／ this ／ that　➔　is"
+                    }
+                  ]
+                },
+                {
+                  "type": "word_summary",
+                  "header": "短縮形",
+                  "items": [
+                    {
+                      "text": "he is ➔ he's**"
+                    },
+                    {
+                      "text": "she is ➔ she's"
+                    },
+                    {
+                      "text": "it is ➔ it's"
+                    },
+                    {
+                      "text": "that is ➔ that's"
+                    },
+                    {
+                      "text": "is not ➔ isn't"
+                    }
+                  ]
+                },
+                {
+                  "type": "pattern_summary",
+                  "header": "文の形 2: 3人称単数現在形 〈3人称単数のときの一般動詞〉 (Unit 6-1, 6-2, 6-3)",
+                  "items": [
+                    {
+                      "tag": "肯定文",
+                      "en": "Tina ==**plays**== the drums.",
+                      "ja": "ティナはドラムを演奏します。"
+                    },
+                    {
+                      "tag": "疑問文",
+                      "en": "==**Does**== she ==**play**== the trumpet?",
+                      "ja": "彼女はトランペットを演奏しますか。",
+                      "note": "疑問文は、Does を主語の前に置きます。動詞は原形にします。"
+                    },
+                    {
+                      "tag": "応答",
+                      "en": "— Yes, she ==**does**==. / No, she ==**does not**==.",
+                      "ja": "はい、演奏します。／いいえ、演奏しません。"
+                    },
+                    {
+                      "tag": "否定文",
+                      "en": "She ==**does not play**== the trumpet.",
+                      "ja": "彼女はトランペットを演奏しません。",
+                      "note": "否定文は、動詞の前に does not [doesn't] を置きます。動詞は元の形（原形）にします。"
+                    }
+                  ]
+                },
+                {
+                  "type": "word_summary",
+                  "header": "語尾変化と発音",
+                  "items": [
+                    {
+                      "text": "come ➔ comes　**/z/**"
+                    },
+                    {
+                      "text": "go ➔ goes　**/z/**"
+                    },
+                    {
+                      "text": "study ➔ studies　**/z/**"
+                    },
+                    {
+                      "text": "sleep ➔ sleeps　**/s/**"
+                    },
+                    {
+                      "text": "eat ➔ eats　**/ts/**"
+                    },
+                    {
+                      "text": "wash ➔ washes　**/ɪz/**"
+                    }
+                  ]
+                },
+                {
+                  "type": "word_summary",
+                  "header": "短縮形",
+                  "items": [
+                    {
+                      "text": "does not ➔ doesn't"
+                    }
+                  ]
+                },
+                {
+                  "type": "grammar_hunt",
+                  "header": "Grammar Hunt (解答例: Unit 6 Part 1)",
+                  "label": "is と 3単現の一般動詞の識別（主語：Tina, she）",
+                  "items": [
+                    {
+                      "id": "G1_U6_AG3_H_01",
+                      "en": "Tina'<u>s</u> my sister.",
+                      "ja": "ティナはぼくの姉です。"
+                    },
+                    {
+                      "id": "G1_U6_AG3_H_02",
+                      "en": "She'<u>s</u> very active.",
+                      "ja": "彼女はとても活発です。"
+                    },
+                    {
+                      "id": "G1_U6_AG3_H_03",
+                      "en": "She <u><b>has</b></u> a lot of friends.",
+                      "ja": "彼女にはたくさんの友達がいます。"
+                    },
+                    {
+                      "id": "G1_U6_AG3_H_04",
+                      "en": "She <u><b>likes</b></u> singing and dancing.",
+                      "ja": "彼女は歌うことと踊ることが好きです。"
+                    },
+                    {
+                      "id": "G1_U6_AG3_H_05",
+                      "en": "She always <u><b>studies</b></u> hard.",
+                      "ja": "彼女はいつも一生懸命勉強します。"
+                    },
+                    {
+                      "id": "G1_U6_AG3_H_06",
+                      "en": "She never <u><b>gives</b></u> up.",
+                      "ja": "彼女は決してあきらめません。"
+                    },
+                    {
+                      "id": "G1_U6_AG3_H_07",
+                      "en": "But these days she'<u>s</u> a little quiet.",
+                      "ja": "だけど、最近ちょっとおとなしいんです。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Extra: 登場人物の説明 [解答例] (p.127 / 教科書p.95)",
+                  "items": [
+                    {
+                      "id": "G1_U6_AG3_E_01",
+                      "en": "Tina is from New York.",
+                      "ja": "ティナはニューヨーク出身です。"
+                    },
+                    {
+                      "id": "G1_U6_AG3_E_02",
+                      "en": "She likes music and sports.",
+                      "ja": "彼女は音楽とスポーツが好きです。"
+                    }
+                  ]
+                }
+              ]
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "speak_section",
+                  "header": "Speak: 自慢の友達を紹介しよう (p.127 / 教科書p.95)",
+                  "items": [
+                    {
+                      "id": "G1_U6_AG3_S_01",
+                      "en": "Tell me about your friends.",
+                      "ja": "あなたの友達について教えてね。"
+                    },
+                    {
+                      "id": "G1_U6_AG3_S_02",
+                      "speaker": "Nick",
+                      "en": "This is my friend, Shota.",
+                      "ja": "こちらはぼくの友達のショウタです。"
+                    },
+                    {
+                      "id": "G1_U6_AG3_S_03",
+                      "speaker": "Nick",
+                      "en": "He's funny and popular.",
+                      "ja": "彼はおもしろくて人気があります。"
+                    },
+                    {
+                      "id": "G1_U6_AG3_S_04",
+                      "speaker": "Nick",
+                      "en": "He always tells jokes.",
+                      "ja": "彼はいつも冗談を言います。"
+                    },
+                    {
+                      "id": "G1_U6_AG3_S_05",
+                      "speaker": "Nick",
+                      "en": "Shota likes cats.",
+                      "ja": "ショウタはネコが好きです。"
+                    },
+                    {
+                      "id": "G1_U6_AG3_S_06",
+                      "speaker": "Nick",
+                      "en": "Sometimes he comes to my house and we play with Felix together.",
+                      "ja": "ときどきぼくの家に来て、ぼくたちはいっしょにフェリックスと遊びます。"
+                    },
+                    {
+                      "id": "G1_U6_AG3_S_07",
+                      "speaker": "Nick",
+                      "en": "It's fun.",
+                      "ja": "楽しいです。"
+                    },
+                    {
+                      "id": "G1_U6_AG3_S_08",
+                      "speaker": "Nick",
+                      "en": "I like him.",
+                      "ja": "ぼくは彼が好きです。"
+                    },
+                    {
+                      "id": "G1_U6_AG3_S_09",
+                      "speaker": "Nick",
+                      "en": "How about you?",
+                      "ja": "あなたはどうですか。"
+                    },
+                    {
+                      "id": "G1_U6_AG3_S_10",
+                      "speaker": "Nick",
+                      "en": "Tell me about your friends.",
+                      "ja": "あなたの友達について教えてね。"
+                    },
+                    {
+                      "id": "G1_U6_AG3_S_11",
+                      "speaker": "解答例",
+                      "en": "This is my friend, Saki.",
+                      "ja": "こちらは私の友達のサキです。"
+                    },
+                    {
+                      "id": "G1_U6_AG3_S_12",
+                      "speaker": "解答例",
+                      "en": "She is kind and friendly.",
+                      "ja": "彼女は親切でフレンドリーです。"
+                    },
+                    {
+                      "id": "G1_U6_AG3_S_13",
+                      "speaker": "解答例",
+                      "en": "She is good at cooking.",
+                      "ja": "彼女は料理が得意です。"
+                    },
+                    {
+                      "id": "G1_U6_AG3_S_14",
+                      "speaker": "解答例",
+                      "en": "I like her.",
+                      "ja": "私は彼女が好きです。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 127
+        },
+        "AG4": {
+          "title": "Active Grammar 4: 疑問詞",
+          "views": {
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "explanation_section",
+                  "header": "場面と意味 (Look Back)",
+                  "text": "ストーリーをふり返って、どんな場面で何を伝えていたかを思い出してみましょう。\n(例) (1) 見慣れない生徒が誰なのかをたずねている。(2) クリスマスに何が欲しいのかたずねている。",
+                  "items": [
+                    {
+                      "tag": "(1)",
+                      "speaker": "Tina",
+                      "en": "Eri, who's that?",
+                      "ja": "エリ、あれは誰かな。"
+                    },
+                    {
+                      "tag": "(1)",
+                      "speaker": "Eri",
+                      "en": "Maybe he's a new student in Kota's class.",
+                      "ja": "もしかしたらコウタのクラスの新しい生徒かな。"
+                    },
+                    {
+                      "tag": "(2)",
+                      "speaker": "Grandma",
+                      "en": "What do you want for Christmas?",
+                      "ja": "クリスマスには何がほしい？"
+                    },
+                    {
+                      "tag": "(2)",
+                      "speaker": "Nick",
+                      "en": "A new bicycle.",
+                      "ja": "新しい自転車。"
+                    }
+                  ]
+                },
+                {
+                  "type": "pattern_summary",
+                  "header": "文の形：疑問詞一覧表と疑問文・応答の例",
+                  "items": [
+                    {
+                      "tag": "what",
+                      "label": "何［が・を・に］（物事についてたずねる）",
+                      "en": "Q: What is this? ➔ A: — It's a tongue twister.",
+                      "ja": "Q: これは何ですか。 ➔ A: 早口言葉です。(Unit 2-3)"
+                    },
+                    {
+                      "tag": "what",
+                      "label": "何［が・を・に］（物事についてたずねる）",
+                      "en": "Q: What do you do during the summer vacation? ➔ A: — I usually visit my grandparents.",
+                      "ja": "Q: 夏休みは何をしますか。 ➔ A: 普段は祖父母のところをたずねます。(Unit 3-1)"
+                    },
+                    {
+                      "tag": "what ~",
+                      "label": "何の、どんな（何の～かをたずねる）",
+                      "en": "Q: What color do you like? ➔ A: — I like red.",
+                      "ja": "Q: どの色が好きですか。 ➔ A: 私は赤が好きです。(Let's Be Friends! 3)"
+                    },
+                    {
+                      "tag": "what time",
+                      "label": "何時（何時かをたずねる）",
+                      "en": "Q: What time is it? ➔ A: — It's nine o'clock.",
+                      "ja": "Q: 何時ですか。 ➔ A: 9時です。(Daily Life 3)"
+                    },
+                    {
+                      "tag": "who",
+                      "label": "誰［が・を］（人についてたずねる）",
+                      "en": "Q: Who is that? ➔ A: — He is Mr. Hoshino.",
+                      "ja": "Q: あちらは誰ですか。 ➔ A: 星野先生です。(Unit 4-2)"
+                    },
+                    {
+                      "tag": "whose",
+                      "label": "誰のもの（誰のものかをたずねる）",
+                      "en": "Q: Whose is this bag? ➔ A: — It's mine.",
+                      "ja": "Q: このかばんは誰のものですか。 ➔ A: 私のものです。(Daily Life 1)"
+                    },
+                    {
+                      "tag": "whose ~",
+                      "label": "誰の～（誰の～かをたずねる）",
+                      "en": "Q: Whose bag is this? ➔ A: — It's Kota's.",
+                      "ja": "Q: これは誰のかばんですか。 ➔ A: コウタのものです。(Daily Life 1)"
+                    },
+                    {
+                      "tag": "which",
+                      "label": "どちら［が・を］（選択をたずねる）",
+                      "en": "Q: Which would you like, chicken or beef? ➔ A: — I'd like beef.",
+                      "ja": "Q: とり肉と牛肉のどちらがよろしいですか。 ➔ A: 牛肉がいいです。(Daily Life 2)"
+                    },
+                    {
+                      "tag": "which ~",
+                      "label": "どちらの（どの～かをたずねる）",
+                      "en": "Q: Which bus goes to Honcho Station? ➔ A: — Bus No. 1.",
+                      "ja": "Q: どのバスが本町駅に行きますか。 ➔ A: 1番のバスです。(Daily Life 3)"
+                    },
+                    {
+                      "tag": "where",
+                      "label": "どこ［に・へ］（場所をたずねる）",
+                      "en": "Q: Where do you have lunch? ➔ A: — In my classroom.",
+                      "ja": "Q: どこで昼食をとりますか。 ➔ A: 教室です。(Unit 5-2)"
+                    },
+                    {
+                      "tag": "when",
+                      "label": "いつ（時をたずねる）",
+                      "en": "Q: When do you do your homework? ➔ A: — After dinner.",
+                      "ja": "Q: いつ宿題をしますか。 ➔ A: 夕食の後です。(Unit 5-3)"
+                    },
+                    {
+                      "tag": "why",
+                      "label": "なぜ、どうして（理由・目的をたずねる）",
+                      "en": "Q: Why do you want to go to Italy? ➔ A: — I want to see a soccer game.",
+                      "ja": "Q: なぜ、イタリアに行きたいのですか。 ➔ A: サッカーの試合が見たいです。"
+                    },
+                    {
+                      "tag": "why not",
+                      "label": "どうして（どうしていけないのかをたずねる）",
+                      "en": "Q: Why not?",
+                      "ja": "どうしていけないのですか。(Unit 1-2)"
+                    },
+                    {
+                      "tag": "how",
+                      "label": "どう、どのように（様子・方法をたずねる）",
+                      "en": "Q: How are you? ➔ A: — I'm fine.",
+                      "ja": "Q: 元気ですか。 ➔ A: 私は元気です。(Let's Be Friends! 2)"
+                    },
+                    {
+                      "tag": "how many",
+                      "label": "どのくらい（どの程度の数をたずねる）",
+                      "en": "Q: How many pieces do you want? ➔ A: — Two pieces, please.",
+                      "ja": "Q: いくつほしいですか。 ➔ A: 2切れお願いします。(Daily Life 2)"
+                    },
+                    {
+                      "tag": "how much",
+                      "label": "いくら（どの程度の量をたずねる）",
+                      "en": "Q: How much is it? ➔ A: — It's one thousand yen.",
+                      "ja": "Q: いくらですか。 ➔ A: 1,000円です。(Daily Life 2)"
+                    }
+                  ]
+                },
+                {
+                  "type": "grammar_hunt",
+                  "header": "Grammar Hunt (解答例: Unit 4 & 5)",
+                  "items": [
+                    {
+                      "id": "G1_U6_AG4_H_01",
+                      "tag": "Unit 4 Part 2",
+                      "speaker": "Tina",
+                      "en": "Eri, <u><b>who</b></u>'s that?",
+                      "ja": "エリ、あれは誰かな。"
+                    },
+                    {
+                      "id": "G1_U6_AG4_H_02",
+                      "tag": "Unit 4 Part 2",
+                      "speaker": "Eri",
+                      "en": "Maybe he's a new student in Kota's class.",
+                      "ja": "もしかしたらコウタのクラスの新しい生徒かな。"
+                    },
+                    {
+                      "id": "G1_U6_AG4_H_03",
+                      "tag": "Unit 5 Part 2",
+                      "speaker": "Eri",
+                      "en": "<u><b>Where</b></u> do you have lunch?",
+                      "ja": "どこで昼食をとりますか。"
+                    },
+                    {
+                      "id": "G1_U6_AG4_H_04",
+                      "tag": "Unit 5 Part 2",
+                      "speaker": "David",
+                      "en": "We usually eat in the cafeteria.",
+                      "ja": "私たちは普段カフェテリアで食べます。"
+                    },
+                    {
+                      "id": "G1_U6_AG4_H_05",
+                      "tag": "Unit 5 Part 3",
+                      "speaker": "Hajin",
+                      "en": "<u><b>When</b></u> do you practice?",
+                      "ja": "いつ練習しますか。"
+                    },
+                    {
+                      "id": "G1_U6_AG4_H_06",
+                      "tag": "Unit 5 Part 3",
+                      "speaker": "David",
+                      "en": "After school and on weekends.",
+                      "ja": "放課後と週末です。"
+                    }
+                  ]
+                }
+              ]
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "speak_section",
+                  "header": "Speak: David へのチャット質問 (p.130 / 教科書p.97)",
+                  "items": [
+                    {
+                      "id": "G1_U6_AG4_S_01",
+                      "en": "Do you have any questions?",
+                      "ja": "何か質問はありますか。"
+                    },
+                    {
+                      "id": "G1_U6_AG4_S_02",
+                      "speaker": "David",
+                      "en": "Hi, friends in Japan.",
+                      "ja": "日本の友人のみなさん、こんにちは。"
+                    },
+                    {
+                      "id": "G1_U6_AG4_S_03",
+                      "speaker": "David",
+                      "en": "Thanks for the video call last time.",
+                      "ja": "前回はビデオ通話をありがとう。"
+                    },
+                    {
+                      "id": "G1_U6_AG4_S_04",
+                      "speaker": "David",
+                      "en": "I had a great time with you.",
+                      "ja": "私はみなさんとすばらしい時間を過ごしました。"
+                    },
+                    {
+                      "id": "G1_U6_AG4_S_05",
+                      "speaker": "David",
+                      "en": "I hope you got an idea of me and my life in New York.",
+                      "ja": "私とニューヨークでの生活を知ってもらえたらうれしいです。"
+                    },
+                    {
+                      "id": "G1_U6_AG4_S_06",
+                      "speaker": "David",
+                      "en": "What do you think?",
+                      "ja": "あなたたちはどう思いますか。"
+                    },
+                    {
+                      "id": "G1_U6_AG4_S_07",
+                      "speaker": "David",
+                      "en": "You can ask me anything!",
+                      "ja": "何でも聞いてくださいね。"
+                    },
+                    {
+                      "id": "G1_U6_AG4_S_08",
+                      "speaker": "David",
+                      "en": "Oh, I can tell you about Tina and Nick, too!",
+                      "ja": "ああ、ティナとニックのことも話せますよ。"
+                    },
+                    {
+                      "id": "G1_U6_AG4_S_09",
+                      "speaker": "David",
+                      "en": "Any questions?",
+                      "ja": "何か質問はありますか。"
+                    },
+                    {
+                      "id": "G1_U6_AG4_S_10",
+                      "speaker": "解答例",
+                      "en": "Hi, David.",
+                      "ja": "こんにちは、デイヴィッド。"
+                    },
+                    {
+                      "id": "G1_U6_AG4_S_11",
+                      "speaker": "解答例",
+                      "en": "Your life in New York is very nice.",
+                      "ja": "あなたのニューヨークでの生活はとてもすてきです。"
+                    },
+                    {
+                      "id": "G1_U6_AG4_S_12",
+                      "speaker": "解答例",
+                      "en": "I have some questions.",
+                      "ja": "いくつか質問があります。"
+                    },
+                    {
+                      "id": "G1_U6_AG4_S_13",
+                      "speaker": "解答例",
+                      "en": "How do you go to school?",
+                      "ja": "あなたはどうやって学校に行きますか。"
+                    },
+                    {
+                      "id": "G1_U6_AG4_S_14",
+                      "speaker": "解答例",
+                      "en": "Where do you practice wheelchair tennis?",
+                      "ja": "どこで車いすテニスを練習しますか。"
+                    },
+                    {
+                      "id": "G1_U6_AG4_S_15",
+                      "speaker": "解答例",
+                      "en": "What time do you usually go to bed?",
+                      "ja": "あなたは普段何時に寝ますか。"
+                    },
+                    {
+                      "id": "G1_U6_AG4_S_16",
+                      "speaker": "解答例",
+                      "en": "I want meet you someday.",
+                      "ja": "いつかあなたに会いたいです。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 130
+        },
+        "AP": {
+          "title": "AI Appendix: Unit 6 総まとめ",
+          "views": {
+            "PART_APPENDIX": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "info_box",
+                  "header": "P1〜P3: 「3単現（3人称・単数・現在）」の3大鉄則を完全攻略！",
+                  "items": [
+                    {
+                      "tag": "条件の確認",
+                      "label": "いつ -(e)s が付くの？",
+                      "text": "① **3人称**（I, you 以外の彼・彼女・物・人の名前）で、\n② **単数**（1人・1つ）で、\n③ **現在**（今の話）のとき！\n※ 主語が複数（they や Ken and Tom など）のときは原形のまま！"
+                    },
+                    {
+                      "tag": "肯定文",
+                      "label": "一般動詞の語尾に -(e)s をつける",
+                      "en": "She ==**likes**== singing. / He ==**studies**== hard. / She ==**has**== a lot of friends."
+                    },
+                    {
+                      "tag": "疑問文",
+                      "label": "Does が出たら動詞は原形に戻る！",
+                      "en": "==**Does**== she ==**have**== a cold? ➔ Yes, she ==**does**==. / No, she ==**doesn't**==."
+                    },
+                    {
+                      "tag": "否定文",
+                      "label": "doesn't の後ろも動詞は原形に戻る！",
+                      "en": "She ==**doesn't go**== to school."
+                    }
+                  ]
+                },
+                {
+                  "type": "info_box",
+                  "header": "Active Grammar 4: 疑問詞（5W1H）の役割マップ",
+                  "items": [
+                    {
+                      "label": "What（なに）",
+                      "text": "物事や名前・時刻（What time）・色などをたずねる。"
+                    },
+                    {
+                      "label": "Who（だれ）/ Whose（だれのもの）",
+                      "text": "人や持ち主をたずねる。"
+                    },
+                    {
+                      "label": "Which（どちら・どの）",
+                      "text": "選べる選択肢の中からたずねる。"
+                    },
+                    {
+                      "label": "Where（どこ）/ When（いつ）",
+                      "text": "場所や時間をたずねる。"
+                    },
+                    {
+                      "label": "Why（なぜ）",
+                      "text": "理由をたずねる（Because 〜 で答える）。"
+                    },
+                    {
+                      "label": "How（どのように・どう）",
+                      "text": "様子・手段や、数（How many）・値段（How much）をたずねる。"
+                    }
+                  ]
+                }
+              ]
+            },
+            "UNIT_APPENDIX": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "info_box",
+                  "header": "友達・憧れの人の魅力を伝える「推し紹介」黄金テンプレート",
+                  "items": [
+                    {
+                      "id": "G1_U6_AP_S_01",
+                      "label": "名前と人柄",
+                      "en": "This is my friend, .... He/She is very kind and active.",
+                      "ja": "こちらは私の友達の……です。とても親切で活発です。"
+                    },
+                    {
+                      "id": "G1_U6_AP_S_02",
+                      "label": "得意なこと",
+                      "en": "He/She can play the piano very well.",
+                      "ja": "彼／彼女はピアノをとても上手に弾くことができます。"
+                    },
+                    {
+                      "id": "G1_U6_AP_S_03",
+                      "label": "日頃の努力",
+                      "en": "He/She always practices hard every day.",
+                      "ja": "彼／彼女はいつも毎日熱心に練習します。"
+                    },
+                    {
+                      "id": "G1_U6_AP_S_04",
+                      "label": "自分の気持ち",
+                      "en": "I respect his/her effort. I like him/her very much.",
+                      "ja": "私は彼／彼女の努力を尊敬しています。彼／彼女が大好きです。"
+                    }
+                  ]
+                },
+                {
+                  "type": "message_box",
+                  "header": "Unit 6 を終えた君へ：英語で誰かを元気づけよう！",
+                  "items": [
+                    {
+                      "tag": "Cheer Up!",
+                      "text": "元気をなくしたティナを家族みんなが心配し、エリが「私たちが寂しいよ」とお見舞いに訪れたように、言葉は相手の心を温かく包み込む魔法になります。"
+                    },
+                    {
+                      "tag": "Beyond Yourself",
+                      "text": "これまでの「I（自分）」や「You（相手）」の話から、Unit 6 では「He（彼）」「She（彼女）」「They（彼ら）」という『自分の周りの大切な人々』について語る力を手に入れました。"
+                    },
+                    {
+                      "tag": "Keep Smiling!",
+                      "text": "道に迷った観光客に親切に道を教えたり、大好きな友達や大谷翔平選手の魅力を世界に紹介したり。君の英語は、人と人とをつなぐ力強い架け橋になっています。自信を持って、笑顔で次のステップへ進もう！"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 0,
+          "hasAppendix": true
+        },
+        "DL3": {
+          "title": "Daily Life Scene 3: バス停",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U6_DL3_W_01",
+                  "headword": "No. / no.",
+                  "pos": "略",
+                  "usage": "〔数字の前につけて〕",
+                  "meaning": "～番〔numberの略〕"
+                },
+                {
+                  "id": "G1_U6_DL3_W_02",
+                  "headword": "number",
+                  "pronunciation": "/ˈnʌmbər/",
+                  "pos": "名",
+                  "meaning": "番号、～番"
+                },
+                {
+                  "id": "G1_U6_DL3_W_03",
+                  "headword": "excuse",
+                  "pronunciation": "/ɪkˈskjuːz/",
+                  "pos": "動",
+                  "meaning": "～を許す"
+                },
+                {
+                  "id": "G1_U6_DL3_W_04",
+                  "headword": "help",
+                  "pronunciation": "/hɛlp/",
+                  "pos": "名",
+                  "meaning": "助け、援助、救助"
+                },
+                {
+                  "id": "G1_U6_DL3_W_05",
+                  "headword": "which",
+                  "pronunciation": "/wɪtʃ/",
+                  "pos": "代",
+                  "meaning": "どちらの、どの"
+                },
+                {
+                  "id": "G1_U6_DL3_W_06",
+                  "headword": "tourist",
+                  "pronunciation": "/ˈtʊərɪst/",
+                  "pos": "名",
+                  "meaning": "観光客"
+                },
+                {
+                  "id": "G1_U6_DL3_W_07",
+                  "headword": "bus",
+                  "pronunciation": "/bʌs/",
+                  "pos": "名",
+                  "meaning": "バス"
+                },
+                {
+                  "id": "G1_U6_DL3_W_08",
+                  "headword": "let",
+                  "pronunciation": "/lɛt/",
+                  "pos": "動",
+                  "meaning": "～させる"
+                },
+                {
+                  "id": "G1_U6_DL3_W_09",
+                  "headword": "see",
+                  "pronunciation": "/siː/",
+                  "pos": "動",
+                  "meaning": "考える"
+                },
+                {
+                  "id": "G1_U6_DL3_W_10",
+                  "headword": "it",
+                  "pronunciation": "/ɪt/",
+                  "pos": "代",
+                  "usage": "〔天候・時間・距離・寒暖などを表す文の主語として〕",
+                  "meaning": "（訳出しない）"
+                },
+                {
+                  "id": "G1_U6_DL3_W_11",
+                  "headword": "o'clock",
+                  "pronunciation": "/əˈklɑːk/",
+                  "pos": "副",
+                  "meaning": "～時"
+                },
+                {
+                  "id": "G1_U6_DL3_W_12",
+                  "headword": "so",
+                  "pronunciation": "/soʊ/",
+                  "pos": "接",
+                  "meaning": "それで、だから"
+                },
+                {
+                  "id": "G1_U6_DL3_W_13",
+                  "headword": "welcome",
+                  "pronunciation": "/ˈwɛlkəm/",
+                  "pos": "形",
+                  "meaning": "（人が）歓迎される"
+                },
+                {
+                  "id": "G1_U6_DL3_W_14",
+                  "headword": "trip",
+                  "pronunciation": "/trɪp/",
+                  "pos": "名",
+                  "meaning": "旅行"
+                },
+                {
+                  "id": "G1_U6_DL3_W_15",
+                  "headword": "bye",
+                  "pronunciation": "/baɪ/",
+                  "pos": "間",
+                  "meaning": "ではまた、じゃあね"
+                },
+                {
+                  "id": "G1_U6_DL3_W_16",
+                  "headword": "Excuse me.",
+                  "usage": "〔見知らぬ人に話しかけるときに〕",
+                  "meaning": "すみません。"
+                },
+                {
+                  "id": "G1_U6_DL3_W_17",
+                  "headword": "What time ~?",
+                  "meaning": "何時に～ですか。"
+                },
+                {
+                  "id": "G1_U6_DL3_W_18",
+                  "headword": "Let me see.",
+                  "meaning": "ええっと。"
+                },
+                {
+                  "id": "G1_U6_DL3_W_19",
+                  "headword": "You're welcome.",
+                  "meaning": "どういたしまして。"
+                },
+                {
+                  "id": "G1_U6_DL3_W_20",
+                  "headword": "Have a nice trip!",
+                  "usage": "〔旅立つ人への挨拶〕",
+                  "meaning": "よい旅を。"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "dialogue_section",
+                  "header": "1. バス停でのやり取り (p.125 / 教科書p.94)",
+                  "label": "本町駅行きのバス案内",
+                  "items": [
+                    {
+                      "id": "G1_U6_DL3_S_01",
+                      "speaker": "Haruto",
+                      "en": "Excuse me.",
+                      "ja": "すみません。"
+                    },
+                    {
+                      "id": "G1_U6_DL3_S_02",
+                      "speaker": "Haruto",
+                      "en": "Do you need any help?",
+                      "ja": "何かお手伝いしましょうか？"
+                    },
+                    {
+                      "id": "G1_U6_DL3_S_03",
+                      "speaker": "Tourist",
+                      "en": "Yes.",
+                      "ja": "ええ。"
+                    },
+                    {
+                      "id": "G1_U6_DL3_S_04",
+                      "speaker": "Tourist",
+                      "en": "Which bus goes to Honcho Station?",
+                      "ja": "どのバスが本町駅に行きますか？"
+                    },
+                    {
+                      "id": "G1_U6_DL3_S_05",
+                      "speaker": "Haruto",
+                      "en": "Bus No. 1.",
+                      "ja": "1番のバスです。"
+                    },
+                    {
+                      "id": "G1_U6_DL3_S_06",
+                      "speaker": "Tourist",
+                      "en": "Oh, I see.",
+                      "ja": "ああ、わかりました。"
+                    },
+                    {
+                      "id": "G1_U6_DL3_S_07",
+                      "speaker": "Tourist",
+                      "en": "What time does the next bus come?",
+                      "ja": "次のバスは何時に来ますか？"
+                    },
+                    {
+                      "id": "G1_U6_DL3_S_08",
+                      "speaker": "Haruto",
+                      "en": "Let me see ... it's ten o'clock now, so the next bus comes at 10:10.",
+                      "ja": "ええっと……今が10時なので、次のバスは10時10分に来ます。"
+                    },
+                    {
+                      "id": "G1_U6_DL3_S_09",
+                      "speaker": "Tourist",
+                      "en": "OK. Thank you.",
+                      "ja": "わかりました。ありがとうございます。"
+                    },
+                    {
+                      "id": "G1_U6_DL3_S_10",
+                      "speaker": "Haruto",
+                      "en": "You're welcome.",
+                      "ja": "どういたしまして。"
+                    },
+                    {
+                      "id": "G1_U6_DL3_S_11",
+                      "speaker": "Haruto",
+                      "en": "Have a nice trip!",
+                      "ja": "よい旅を！"
+                    },
+                    {
+                      "id": "G1_U6_DL3_S_12",
+                      "speaker": "Haruto",
+                      "en": "Bye!",
+                      "ja": "では！"
+                    }
+                  ]
+                },
+                {
+                  "type": "dialogue_section",
+                  "header": "2. 時刻表を見たやり取り [解答例] (p.125 / 教科書p.94)",
+                  "label": "本町美術館行きのバス案内",
+                  "items": [
+                    {
+                      "id": "G1_U6_DL3_S_13",
+                      "speaker": "A",
+                      "en": "Excuse me. Do you need any help?",
+                      "ja": "すみません。何かお手伝いしましょうか？"
+                    },
+                    {
+                      "id": "G1_U6_DL3_S_14",
+                      "speaker": "B",
+                      "en": "Yes. Which bus goes to Honcho Museum?",
+                      "ja": "はい。どのバスが本町美術館に行きますか？"
+                    },
+                    {
+                      "id": "G1_U6_DL3_S_15",
+                      "speaker": "A",
+                      "en": "Bus No. 2.",
+                      "ja": "2番のバスです。"
+                    },
+                    {
+                      "id": "G1_U6_DL3_S_16",
+                      "speaker": "B",
+                      "en": "I see. What time does the next bus come?",
+                      "ja": "わかりました。次のバスは何時に来ますか？"
+                    },
+                    {
+                      "id": "G1_U6_DL3_S_17",
+                      "speaker": "A",
+                      "en": "Well, it's nine o'clock now, so the next bus comes at 9:25.",
+                      "ja": "うーん、今が9時なので、次のバスは9時25分に来ます。"
+                    },
+                    {
+                      "id": "G1_U6_DL3_S_18",
+                      "speaker": "B",
+                      "en": "OK. Thank you.",
+                      "ja": "わかりました。ありがとうございます。"
+                    },
+                    {
+                      "id": "G1_U6_DL3_S_19",
+                      "speaker": "A",
+                      "en": "You're welcome.",
+                      "ja": "どういたしまして。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 125
+        },
+        "DL4": {
+          "title": "Daily Life Scene 4: 道案内",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U6_DL4_W_01",
+                  "headword": "by",
+                  "pronunciation": "/bái, bəi/",
+                  "pos": "前",
+                  "usage": "〔手段・方法〕",
+                  "meaning": "～で、～によって"
+                },
+                {
+                  "id": "G1_U6_DL4_W_02",
+                  "headword": "here",
+                  "pronunciation": "/híər/",
+                  "pos": "名",
+                  "meaning": "ここ"
+                },
+                {
+                  "id": "G1_U6_DL4_W_03",
+                  "headword": "museum",
+                  "pronunciation": "/mjuːzíːəm/",
+                  "pos": "名",
+                  "meaning": "博物館"
+                },
+                {
+                  "id": "G1_U6_DL4_W_04",
+                  "headword": "foot",
+                  "pronunciation": "/fút/",
+                  "pos": "名",
+                  "meaning": "足〔くるぶし以下の部分〕"
+                },
+                {
+                  "id": "G1_U6_DL4_W_05",
+                  "headword": "how",
+                  "pronunciation": "/hάu/",
+                  "pos": "副",
+                  "usage": "〔方法・手段〕",
+                  "meaning": "どのようにして"
+                },
+                {
+                  "id": "G1_U6_DL4_W_06",
+                  "headword": "get",
+                  "pronunciation": "/ɡét/",
+                  "pos": "動",
+                  "meaning": "着く"
+                },
+                {
+                  "id": "G1_U6_DL4_W_07",
+                  "headword": "straight",
+                  "pronunciation": "/stréit/",
+                  "pos": "副",
+                  "meaning": "まっすぐに、一直線に"
+                },
+                {
+                  "id": "G1_U6_DL4_W_08",
+                  "headword": "turn",
+                  "pronunciation": "/tə́ːrn/",
+                  "pos": "動",
+                  "meaning": "曲がる"
+                },
+                {
+                  "id": "G1_U6_DL4_W_09",
+                  "headword": "right",
+                  "pronunciation": "/ráit/",
+                  "pos": "副",
+                  "meaning": "右へ［に］"
+                },
+                {
+                  "id": "G1_U6_DL4_W_10",
+                  "headword": "along",
+                  "pronunciation": "/əlɔ́ːŋ, əlάːŋ/",
+                  "pos": "前",
+                  "meaning": "～に沿って、～を通って"
+                },
+                {
+                  "id": "G1_U6_DL4_W_11",
+                  "headword": "street",
+                  "pronunciation": "/stríːt/",
+                  "pos": "名",
+                  "meaning": "通り"
+                },
+                {
+                  "id": "G1_U6_DL4_W_12",
+                  "headword": "corner",
+                  "pronunciation": "/kɔ́ːrnər/",
+                  "pos": "名",
+                  "meaning": "（道の）曲がり角"
+                },
+                {
+                  "id": "G1_U6_DL4_W_13",
+                  "headword": "left",
+                  "pronunciation": "/léft/",
+                  "pos": "名",
+                  "meaning": "左"
+                },
+                {
+                  "id": "G1_U6_DL4_W_14",
+                  "headword": "long",
+                  "pronunciation": "/lɔ́ːŋ/",
+                  "pos": "形",
+                  "usage": "〔時間・物・距離が〕",
+                  "meaning": "長い"
+                },
+                {
+                  "id": "G1_U6_DL4_W_15",
+                  "headword": "take",
+                  "pronunciation": "/téik/",
+                  "pos": "動",
+                  "meaning": "（乗り物）に乗って行く、（時間・労力など）～がかかる"
+                },
+                {
+                  "id": "G1_U6_DL4_W_16",
+                  "headword": "on foot",
+                  "meaning": "徒歩で"
+                },
+                {
+                  "id": "G1_U6_DL4_W_17",
+                  "headword": "get to ~",
+                  "meaning": "～に着く"
+                },
+                {
+                  "id": "G1_U6_DL4_W_18",
+                  "headword": "How ~?",
+                  "meaning": "どのように～ですか。"
+                },
+                {
+                  "id": "G1_U6_DL4_W_19",
+                  "headword": "How long does it take ~? — It takes ....",
+                  "meaning": "～にどのくらいの時間がかかりますか。―…かかります。"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "phrase_list_section",
+                  "header": "地図の案内用語 (p.128 / 教科書p.96)",
+                  "items": [
+                    {
+                      "id": "G1_U6_DL4_M_01",
+                      "label": "本町公園",
+                      "en": "Honcho Park",
+                      "ja": "本町公園"
+                    },
+                    {
+                      "id": "G1_U6_DL4_M_02",
+                      "label": "本町駅",
+                      "en": "Honcho Station",
+                      "ja": "本町駅"
+                    },
+                    {
+                      "id": "G1_U6_DL4_M_03",
+                      "label": "本町博物館",
+                      "en": "Honcho Museum",
+                      "ja": "本町博物館"
+                    },
+                    {
+                      "id": "G1_U6_DL4_M_04",
+                      "label": "手段",
+                      "en": "on foot",
+                      "ja": "徒歩で"
+                    },
+                    {
+                      "id": "G1_U6_DL4_M_05",
+                      "label": "手段",
+                      "en": "by bus",
+                      "ja": "バスで"
+                    },
+                    {
+                      "id": "G1_U6_DL4_M_06",
+                      "label": "現在地",
+                      "en": "You are here.",
+                      "ja": "現在地"
+                    }
+                  ]
+                },
+                {
+                  "type": "dialogue_section",
+                  "header": "1. 本町駅への道案内 (p.128 / 教科書p.96)",
+                  "items": [
+                    {
+                      "id": "G1_U6_DL4_S_01",
+                      "speaker": "Tourist",
+                      "en": "Excuse me.",
+                      "ja": "すみません。"
+                    },
+                    {
+                      "id": "G1_U6_DL4_S_02",
+                      "speaker": "Tourist",
+                      "en": "How can I get to Honcho Station?",
+                      "ja": "本町駅にはどうやって行けばいいですか。"
+                    },
+                    {
+                      "id": "G1_U6_DL4_S_03",
+                      "speaker": "Sana",
+                      "en": "Go straight along this street.",
+                      "ja": "この道をまっすぐ行ってください。"
+                    },
+                    {
+                      "id": "G1_U6_DL4_S_04",
+                      "speaker": "Sana",
+                      "en": "Turn right at the second corner.",
+                      "ja": "2番目の角で右に曲がってください。"
+                    },
+                    {
+                      "id": "G1_U6_DL4_S_05",
+                      "speaker": "Sana",
+                      "en": "It's on your left.",
+                      "ja": "左手にあります。"
+                    },
+                    {
+                      "id": "G1_U6_DL4_S_06",
+                      "speaker": "Tourist",
+                      "en": "How long does it take from here?",
+                      "ja": "ここからどのくらい時間がかかりますか。"
+                    },
+                    {
+                      "id": "G1_U6_DL4_S_07",
+                      "speaker": "Sana",
+                      "en": "About 25 minutes on foot.",
+                      "ja": "歩いて25分くらいです。"
+                    },
+                    {
+                      "id": "G1_U6_DL4_S_08",
+                      "speaker": "Sana",
+                      "en": "You can also take a bus.",
+                      "ja": "バスに乗ることもできますよ。"
+                    },
+                    {
+                      "id": "G1_U6_DL4_S_09",
+                      "speaker": "Sana",
+                      "en": "It takes about 10 minutes by bus.",
+                      "ja": "バスではだいたい10分です。"
+                    },
+                    {
+                      "id": "G1_U6_DL4_S_10",
+                      "speaker": "Tourist",
+                      "en": "I see.",
+                      "ja": "わかりました。"
+                    },
+                    {
+                      "id": "G1_U6_DL4_S_11",
+                      "speaker": "Tourist",
+                      "en": "Thank you.",
+                      "ja": "ありがとうございます。"
+                    },
+                    {
+                      "id": "G1_U6_DL4_S_12",
+                      "speaker": "Sana",
+                      "en": "You're welcome.",
+                      "ja": "どういたしまして。"
+                    }
+                  ]
+                },
+                {
+                  "type": "dialogue_section",
+                  "header": "2. 本町博物館への道案内 [解答例] (p.128 / 教科書p.96)",
+                  "items": [
+                    {
+                      "id": "G1_U6_DL4_S_13",
+                      "speaker": "A",
+                      "en": "Excuse me.",
+                      "ja": "すみません。"
+                    },
+                    {
+                      "id": "G1_U6_DL4_S_14",
+                      "speaker": "A",
+                      "en": "How can I get to Honcho Museum?",
+                      "ja": "本町博物館にはどうやって行けばいいですか。"
+                    },
+                    {
+                      "id": "G1_U6_DL4_S_15",
+                      "speaker": "B",
+                      "en": "Go straight along this street.",
+                      "ja": "この道をまっすぐ行ってください。"
+                    },
+                    {
+                      "id": "G1_U6_DL4_S_16",
+                      "speaker": "B",
+                      "en": "Turn right at the first corner.",
+                      "ja": "最初の角で右に曲がってください。"
+                    },
+                    {
+                      "id": "G1_U6_DL4_S_17",
+                      "speaker": "B",
+                      "en": "It's on your left.",
+                      "ja": "左手にあります。"
+                    },
+                    {
+                      "id": "G1_U6_DL4_S_18",
+                      "speaker": "A",
+                      "en": "How long does it take from here?",
+                      "ja": "ここからどのくらい時間がかかりますか。"
+                    },
+                    {
+                      "id": "G1_U6_DL4_S_19",
+                      "speaker": "B",
+                      "en": "About 15 minutes on foot.",
+                      "ja": "歩いて15分くらいです。"
+                    },
+                    {
+                      "id": "G1_U6_DL4_S_20",
+                      "speaker": "B",
+                      "en": "You can also take a bus.",
+                      "ja": "バスに乗ることもできますよ。"
+                    },
+                    {
+                      "id": "G1_U6_DL4_S_21",
+                      "speaker": "B",
+                      "en": "It takes about 5 minutes by bus.",
+                      "ja": "バスではだいたい5分です。"
+                    },
+                    {
+                      "id": "G1_U6_DL4_S_22",
+                      "speaker": "A",
+                      "en": "I see.",
+                      "ja": "わかりました。"
+                    },
+                    {
+                      "id": "G1_U6_DL4_S_23",
+                      "speaker": "A",
+                      "en": "Thank you.",
+                      "ja": "ありがとうございます。"
+                    },
+                    {
+                      "id": "G1_U6_DL4_S_24",
+                      "speaker": "B",
+                      "en": "You're welcome.",
+                      "ja": "どういたしまして。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 128
+        },
+        "EX": {
+          "title": "Extra Story / 音声内容",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U6_EX_W_01",
+                  "headword": "same",
+                  "pronunciation": "/séim/",
+                  "pos": "形",
+                  "meaning": "同じ"
+                },
+                {
+                  "id": "G1_U6_EX_W_02",
+                  "headword": "open",
+                  "pronunciation": "/óupən/",
+                  "pos": "動",
+                  "meaning": "～を開ける"
+                },
+                {
+                  "id": "G1_U6_EX_W_03",
+                  "headword": "until",
+                  "pronunciation": "/əntíl/",
+                  "pos": "前",
+                  "meaning": "～まで（ずっと）"
+                },
+                {
+                  "id": "G1_U6_EX_W_04",
+                  "headword": "promise",
+                  "pronunciation": "/prάməs/",
+                  "pos": "動",
+                  "meaning": "約束する"
+                },
+                {
+                  "id": "G1_U6_EX_W_05",
+                  "headword": "How are you feeling?",
+                  "meaning": "気分はどうですか。"
+                },
+                {
+                  "id": "G1_U6_EX_W_06",
+                  "headword": "much better",
+                  "meaning": "ずっとよい"
+                },
+                {
+                  "id": "G1_U6_EX_W_07",
+                  "headword": "say hi",
+                  "meaning": "よろしくと言う"
+                },
+                {
+                  "id": "G1_U6_EX_W_08",
+                  "headword": "What's new?",
+                  "meaning": "変わったことはないですか。"
+                },
+                {
+                  "id": "G1_U6_EX_W_09",
+                  "headword": "That's sweet.",
+                  "meaning": "優しいですね。"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "audio_section",
+                  "header": "Part 1 の音声内容：Hajin の家族紹介 (p.120 / 教科書p.87)",
+                  "items": [
+                    {
+                      "id": "G1_U6_EX_S_01",
+                      "tag": "(1)",
+                      "speaker": "Hajin",
+                      "en": "This is my father.",
+                      "ja": "これは私の父です。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_02",
+                      "tag": "(1)",
+                      "speaker": "Hajin",
+                      "en": "He's funny.",
+                      "ja": "彼はおもしろいです。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_03",
+                      "tag": "(1)",
+                      "speaker": "Hajin",
+                      "en": "He likes joking.",
+                      "ja": "冗談が好きです。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_04",
+                      "tag": "(1)",
+                      "speaker": "Hajin",
+                      "en": "We hear his jokes and laugh every day.",
+                      "ja": "ぼくたちは毎日、彼の冗談を聞いて笑います。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_05",
+                      "tag": "(1)",
+                      "speaker": "Hajin",
+                      "en": "He's a writer.",
+                      "ja": "彼は作家なんです。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_06",
+                      "tag": "(1)",
+                      "speaker": "Hajin",
+                      "en": "He writes stories for comedy shows, anime, and movies.",
+                      "ja": "彼はコメディショー、アニメや映画のために物語を書きます。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_07",
+                      "tag": "(1)",
+                      "speaker": "Hajin",
+                      "en": "He reads a lot of books.",
+                      "ja": "たくさんの本を読みます。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_08",
+                      "tag": "(1)",
+                      "speaker": "Hajin",
+                      "en": "He gets ideas from them.",
+                      "ja": "それらからアイデアを得ます。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_09",
+                      "tag": "(1)",
+                      "speaker": "Hajin",
+                      "en": "He really likes funny things.",
+                      "ja": "彼は本当におもしろいことが好きなんです。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_10",
+                      "tag": "(2)",
+                      "speaker": "Hajin",
+                      "en": "This is my sister.",
+                      "ja": "これは私の姉です。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_11",
+                      "tag": "(2)",
+                      "speaker": "Hajin",
+                      "en": "She goes to university.",
+                      "ja": "彼女は大学に通っています。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_12",
+                      "tag": "(2)",
+                      "speaker": "Hajin",
+                      "en": "She studies very hard.",
+                      "ja": "彼女はとても熱心に勉強します。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_13",
+                      "tag": "(2)",
+                      "speaker": "Hajin",
+                      "en": "She wants to be a doctor.",
+                      "ja": "医者になりたいと思っています。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_14",
+                      "tag": "(2)",
+                      "speaker": "Hajin",
+                      "en": "She likes running.",
+                      "ja": "走ることが好きです。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_15",
+                      "tag": "(2)",
+                      "speaker": "Hajin",
+                      "en": "She runs three kilometers every morning.",
+                      "ja": "彼女は毎朝3キロメートル走ります。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_16",
+                      "tag": "(2)",
+                      "speaker": "Hajin",
+                      "en": "She's a really hard worker.",
+                      "ja": "本当に努力家なんです。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_17",
+                      "tag": "(2)",
+                      "speaker": "Hajin",
+                      "en": "I respect her efforts.",
+                      "ja": "彼女の努力を尊敬します。"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_section",
+                  "header": "Part 2 の音声内容：親戚の紹介 (p.120-121 / 教科書p.89)",
+                  "items": [
+                    {
+                      "id": "G1_U6_EX_S_18",
+                      "tag": "(1)",
+                      "speaker": "Ms. Rios",
+                      "en": "This is Paul.",
+                      "ja": "これはポール。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_19",
+                      "tag": "(1)",
+                      "speaker": "Ms. Rios",
+                      "en": "He's your cousin.",
+                      "ja": "あなたのいとこよ。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_20",
+                      "tag": "(1)",
+                      "speaker": "Ms. Rios",
+                      "en": "He lives in France.",
+                      "ja": "フランスに住んでいるの。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_21",
+                      "tag": "(1)",
+                      "speaker": "Nick",
+                      "en": "Does he like sports?",
+                      "ja": "彼はスポーツが好きかな。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_22",
+                      "tag": "(1)",
+                      "speaker": "Ms. Rios",
+                      "en": "Yes, he does.",
+                      "ja": "うん、好きよ。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_23",
+                      "tag": "(1)",
+                      "speaker": "Ms. Rios",
+                      "en": "He likes soccer.",
+                      "ja": "サッカーが好きなの。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_24",
+                      "tag": "(1)",
+                      "speaker": "Nick",
+                      "en": "Cool.",
+                      "ja": "いいね。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_25",
+                      "tag": "(1)",
+                      "speaker": "Nick",
+                      "en": "What does he do?",
+                      "ja": "何をしている人なの。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_26",
+                      "tag": "(1)",
+                      "speaker": "Ms. Rios",
+                      "en": "He works at a restaurant.",
+                      "ja": "レストランで働いているよ。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_27",
+                      "tag": "(1)",
+                      "speaker": "Ms. Rios",
+                      "en": "He's a cook.",
+                      "ja": "料理人なの。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_28",
+                      "tag": "(2)",
+                      "speaker": "Ms. Rios",
+                      "en": "This is Carlos.",
+                      "ja": "これはカルロス。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_29",
+                      "tag": "(2)",
+                      "speaker": "Ms. Rios",
+                      "en": "He's your uncle.",
+                      "ja": "あなたのおじさんよ。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_30",
+                      "tag": "(2)",
+                      "speaker": "Ms. Rios",
+                      "en": "He lives in the U.S.",
+                      "ja": "アメリカに住んでいるの。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_31",
+                      "tag": "(2)",
+                      "speaker": "Nick",
+                      "en": "Does he like sports?",
+                      "ja": "彼はスポーツが好きかな。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_32",
+                      "tag": "(2)",
+                      "speaker": "Ms. Rios",
+                      "en": "No, he doesn't.",
+                      "ja": "いいえ、好きじゃないわ。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_33",
+                      "tag": "(2)",
+                      "speaker": "Ms. Rios",
+                      "en": "He likes music.",
+                      "ja": "音楽が好きなの。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_34",
+                      "tag": "(2)",
+                      "speaker": "Ms. Rios",
+                      "en": "He plays the guitar.",
+                      "ja": "ギターを弾くわ。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_35",
+                      "tag": "(2)",
+                      "speaker": "Ms. Rios",
+                      "en": "He can play it very well.",
+                      "ja": "すごく上手なのよ。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_36",
+                      "tag": "(2)",
+                      "speaker": "Nick",
+                      "en": "Great.",
+                      "ja": "いいね。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_37",
+                      "tag": "(2)",
+                      "speaker": "Nick",
+                      "en": "Is he a musician?",
+                      "ja": "ミュージシャンなのかな。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_38",
+                      "tag": "(2)",
+                      "speaker": "Ms. Rios",
+                      "en": "No, he isn't.",
+                      "ja": "違うわ。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_39",
+                      "tag": "(2)",
+                      "speaker": "Ms. Rios",
+                      "en": "He works at a train station.",
+                      "ja": "彼は電車の駅で働いているの。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_40",
+                      "tag": "(3)",
+                      "speaker": "Ms. Rios",
+                      "en": "This is Jeanne.",
+                      "ja": "これがジャンヌ。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_41",
+                      "tag": "(3)",
+                      "speaker": "Ms. Rios",
+                      "en": "She's your aunt.",
+                      "ja": "あなたのおばさんよ。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_42",
+                      "tag": "(3)",
+                      "speaker": "Ms. Rios",
+                      "en": "She lives in Puerto Rico.",
+                      "ja": "プエルトリコに住んでいるの。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_43",
+                      "tag": "(3)",
+                      "speaker": "Nick",
+                      "en": "Does she like sports?",
+                      "ja": "彼女はスポーツが好きかな。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_44",
+                      "tag": "(3)",
+                      "speaker": "Ms. Rios",
+                      "en": "No, she doesn't.",
+                      "ja": "いいえ、好きじゃないわ。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_45",
+                      "tag": "(3)",
+                      "speaker": "Ms. Rios",
+                      "en": "She likes animals.",
+                      "ja": "動物が好きなの。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_46",
+                      "tag": "(3)",
+                      "speaker": "Nick",
+                      "en": "Does she have any pets?",
+                      "ja": "彼女は何かペットを飼っているのかな。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_47",
+                      "tag": "(3)",
+                      "speaker": "Ms. Rios",
+                      "en": "Yes, she does.",
+                      "ja": "うん、飼っているよ。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_48",
+                      "tag": "(3)",
+                      "speaker": "Ms. Rios",
+                      "en": "She has three dogs and four cats.",
+                      "ja": "3匹の犬と4匹のネコを飼っているわ。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_49",
+                      "tag": "(3)",
+                      "speaker": "Nick",
+                      "en": "Wow.",
+                      "ja": "わあ。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_50",
+                      "tag": "(3)",
+                      "speaker": "Nick",
+                      "en": "What does she do?",
+                      "ja": "彼女は何をしている人なの。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_51",
+                      "tag": "(3)",
+                      "speaker": "Ms. Rios",
+                      "en": "She works at an animal hospital.",
+                      "ja": "動物病院で働いているよ。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_52",
+                      "tag": "(3)",
+                      "speaker": "Ms. Rios",
+                      "en": "She's a vet.",
+                      "ja": "彼女は獣医なの。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_53",
+                      "tag": "(3)",
+                      "speaker": "Nick",
+                      "en": "Oh, I see.",
+                      "ja": "へえ、そうなんだ。"
+                    }
+                  ]
+                },
+                {
+                  "type": "story_section",
+                  "header": "Extra Story: In Tina's room (p.121-122 / 教科書p.90)",
+                  "items": [
+                    {
+                      "id": "G1_U6_EX_S_54",
+                      "speaker": "Setting",
+                      "en": "In Tina's room:",
+                      "ja": "ティナの部屋で："
+                    },
+                    {
+                      "id": "G1_U6_EX_S_55",
+                      "speaker": "Eri",
+                      "en": "Tina, how are you feeling?",
+                      "ja": "ティナ、気分はどうかな。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_56",
+                      "speaker": "Tina",
+                      "en": "I feel much better, thanks.",
+                      "ja": "ずっといいわ、ありがとう。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_57",
+                      "speaker": "Eri",
+                      "en": "Good.",
+                      "ja": "よかった。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_58",
+                      "speaker": "Eri",
+                      "en": "Oh, Kota and Hajin say hi.",
+                      "ja": "ああ、コウタとハジンがよろしく伝えてって。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_59",
+                      "speaker": "Tina",
+                      "en": "What's new?",
+                      "ja": "変わったことはない？"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_60",
+                      "speaker": "Tina",
+                      "en": "How's school?",
+                      "ja": "学校はどう？"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_61",
+                      "speaker": "Eri",
+                      "en": "It's the same.",
+                      "ja": "変わりないよ。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_62",
+                      "speaker": "Eri",
+                      "en": "We just miss you.",
+                      "ja": "ただあなたがいなくて寂しいだけよ。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_63",
+                      "speaker": "Tina",
+                      "en": "Thanks.",
+                      "ja": "ありがとう。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_64",
+                      "speaker": "Tina",
+                      "en": "That's sweet.",
+                      "ja": "優しいのね。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_65",
+                      "speaker": "Eri",
+                      "en": "And ... Merry Christmas!",
+                      "ja": "それと……メリークリスマス！"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_66",
+                      "speaker": "Tina",
+                      "en": "Oh, thank you!",
+                      "ja": "わあ、どうもありがとう！"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_67",
+                      "speaker": "Eri",
+                      "en": "Don't open it until Christmas Day, OK?",
+                      "ja": "クリスマスの日までそれを開けないで、いい？"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_68",
+                      "speaker": "Tina",
+                      "en": "OK.",
+                      "ja": "わかった。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_69",
+                      "speaker": "Tina",
+                      "en": "I promise.",
+                      "ja": "約束するわ。"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_section",
+                  "header": "Part 3 の音声内容：Nick の家での様子 (p.122 / 教科書p.91)",
+                  "items": [
+                    {
+                      "id": "G1_U6_EX_S_70",
+                      "speaker": "Grandpa",
+                      "en": "Elena, how is Nick?",
+                      "ja": "エレナ、ニックはどうしているんだい。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_71",
+                      "speaker": "Ms. Rios",
+                      "en": "He's fine.",
+                      "ja": "元気よ。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_72",
+                      "speaker": "Ms. Rios",
+                      "en": "He talks about his school life every day.",
+                      "ja": "毎日、学校のことを話してくれるわ。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_73",
+                      "speaker": "Grandpa",
+                      "en": "That's nice.",
+                      "ja": "それはいいね。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_74",
+                      "speaker": "Grandpa",
+                      "en": "Does he enjoy school?",
+                      "ja": "彼は学校を楽しんでいるのかな。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_75",
+                      "speaker": "Ms. Rios",
+                      "en": "Yes, but he doesn't study at home.",
+                      "ja": "ええ。でも、家では勉強しないのよ。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_76",
+                      "speaker": "Ms. Rios",
+                      "en": "He always plays video games.",
+                      "ja": "いつもテレビゲームをしているわ。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_77",
+                      "speaker": "Grandpa",
+                      "en": "Well, that's natural.",
+                      "ja": "まあ、自然なことだよ。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_78",
+                      "speaker": "Grandpa",
+                      "en": "Kids like games.",
+                      "ja": "子供はゲームが好きなんだから。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_79",
+                      "speaker": "Ms. Rios",
+                      "en": "He plays too much.",
+                      "ja": "遊びすぎよ。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_80",
+                      "speaker": "Ms. Rios",
+                      "en": "He doesn't go to bed before ten, so sometimes he gets up late.",
+                      "ja": "10時前に寝ないの。だから起きるのが遅いこともあるのよ。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_81",
+                      "speaker": "Grandpa",
+                      "en": "Really?",
+                      "ja": "そうかい。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_82",
+                      "speaker": "Grandpa",
+                      "en": "That's not good.",
+                      "ja": "それはよくないね。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_83",
+                      "speaker": "Grandpa",
+                      "en": "Does he help you at home?",
+                      "ja": "彼は家で手伝いをしてくれるのかな。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_84",
+                      "speaker": "Ms. Rios",
+                      "en": "Yes.",
+                      "ja": "ええ。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_85",
+                      "speaker": "Ms. Rios",
+                      "en": "He sets the table every day.",
+                      "ja": "毎日食卓の用意をしてくれるわ。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_86",
+                      "speaker": "Ms. Rios",
+                      "en": "And sometimes he takes out the garbage.",
+                      "ja": "そして、ときどきごみを出すこともしてくれるの。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_87",
+                      "speaker": "Grandpa",
+                      "en": "Oh, that's great.",
+                      "ja": "ああ、それはいいね。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_88",
+                      "speaker": "Ms. Rios",
+                      "en": "But he doesn't wash the dishes.",
+                      "ja": "でも、皿洗いはしてくれないの。"
+                    },
+                    {
+                      "id": "G1_U6_EX_S_89",
+                      "speaker": "Grandpa",
+                      "en": "Mmm ... no one likes that!",
+                      "ja": "うーん……、まあ、皿洗いが好きな人はいないからね！"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "120-122"
+        },
+        "GL": {
+          "title": "Goal: 友達のすてきなところを紹介しよう",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U6_GL_W_01",
+                  "headword": "by",
+                  "pronunciation": "/bái, bəi/",
+                  "pos": "前",
+                  "usage": "〔動作主〕",
+                  "meaning": "～によって"
+                },
+                {
+                  "id": "G1_U6_GL_W_02",
+                  "headword": "take",
+                  "pronunciation": "/téik/",
+                  "pos": "動",
+                  "meaning": "（授業・試験など）を受ける"
+                },
+                {
+                  "id": "G1_U6_GL_W_03",
+                  "headword": "text(s)",
+                  "pronunciation": "/tékst(téksts)/",
+                  "pos": "動",
+                  "meaning": "～にテキストメッセージを送る"
+                },
+                {
+                  "id": "G1_U6_GL_W_04",
+                  "headword": "work",
+                  "pronunciation": "/wə́ːrk/",
+                  "pos": "動",
+                  "meaning": "働く、勉強する、取り組む、努力する"
+                },
+                {
+                  "id": "G1_U6_GL_W_05",
+                  "headword": "and",
+                  "pronunciation": "/ǽnd, ənd/",
+                  "pos": "接",
+                  "meaning": "それから、そして、だから"
+                },
+                {
+                  "id": "G1_U6_GL_W_06",
+                  "headword": "smile",
+                  "pronunciation": "/smáil/",
+                  "pos": "動",
+                  "meaning": "にっこり笑う、ほほえむ"
+                },
+                {
+                  "id": "G1_U6_GL_W_07",
+                  "headword": "respect",
+                  "pronunciation": "/rispékt/",
+                  "pos": "動",
+                  "meaning": "～を尊敬する"
+                },
+                {
+                  "id": "G1_U6_GL_W_08",
+                  "headword": "effort",
+                  "pronunciation": "/éfərt/",
+                  "pos": "名",
+                  "meaning": "努力、労力"
+                },
+                {
+                  "id": "G1_U6_GL_W_09",
+                  "headword": "help(s)",
+                  "pronunciation": "/hélp(s)/",
+                  "pos": "動",
+                  "meaning": "（～を）助ける、（～を）手伝う"
+                },
+                {
+                  "id": "G1_U6_GL_W_10",
+                  "headword": "take a lesson [lessons]",
+                  "meaning": "授業を受ける、教わる"
+                },
+                {
+                  "id": "G1_U6_GL_W_11",
+                  "headword": "work hard",
+                  "meaning": "懸命に働く［勉強する］"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "essay_section",
+                  "header": "About Tina (ティナについて) by Eri (エリより) (p.123 / 教科書p.92)",
+                  "label": "Eri が書いた紹介文 [47 words]",
+                  "items": [
+                    {
+                      "id": "G1_U6_GL_S_Q1",
+                      "speaker": "Question",
+                      "ja": "Eri が伝えたいのは、Tina のどのような一面でしょうか。"
+                    },
+                    {
+                      "id": "G1_U6_GL_S_01",
+                      "en": "Tina is very active.",
+                      "ja": "ティナはとても活発です。"
+                    },
+                    {
+                      "id": "G1_U6_GL_S_02",
+                      "en": "She always works hard.",
+                      "ja": "彼女はいつも頑張っています。",
+                      "note": "教科書p.92の消しゴム部分 (C)"
+                    },
+                    {
+                      "id": "G1_U6_GL_S_03",
+                      "en": "She takes Japanese lessons on weekends.",
+                      "ja": "彼女は週末に日本語の授業を受けています。"
+                    },
+                    {
+                      "id": "G1_U6_GL_S_04",
+                      "en": "These days she enjoys writing.",
+                      "ja": "最近、彼女は書くことを楽しんでいます。"
+                    },
+                    {
+                      "id": "G1_U6_GL_S_05",
+                      "en": "She sometimes texts me in Japanese.",
+                      "ja": "ときどき日本語でテキストメッセージを私に送ってきます。"
+                    },
+                    {
+                      "id": "G1_U6_GL_S_06",
+                      "en": "She sometimes works too hard and gets tired, but she always smiles.",
+                      "ja": "彼女はときどき頑張りすぎて疲れてしまいますが、いつも笑顔です。"
+                    },
+                    {
+                      "id": "G1_U6_GL_S_07",
+                      "en": "I respect her effort.",
+                      "ja": "私は彼女の努力を尊敬しています。"
+                    },
+                    {
+                      "id": "G1_U6_GL_S_08",
+                      "en": "I like her very much.",
+                      "ja": "私は彼女が大好きです。"
+                    },
+                    {
+                      "id": "G1_U6_GL_S_09",
+                      "en": "[47 words]",
+                      "ja": "[47語]"
+                    }
+                  ]
+                },
+                {
+                  "type": "check_section",
+                  "header": "読解チェック (p.123 / 教科書p.92)",
+                  "items": [
+                    {
+                      "id": "G1_U6_GL_C_01",
+                      "label": "(1) 消しゴム部分の語句選択",
+                      "text": "教科書p.92の消しゴムが置かれた部分には、どのような言葉が書かれているでしょうか。紹介文の内容にいちばん合う語句を選び、記号に○を付けましょう。",
+                      "items": [
+                        {
+                          "tag": "A",
+                          "en": "likes animals",
+                          "ja": "動物が好きです"
+                        },
+                        {
+                          "tag": "B",
+                          "en": "always helps me",
+                          "ja": "いつも私を助けてくれます"
+                        },
+                        {
+                          "tag": "C",
+                          "en": "always works hard",
+                          "ja": "いつも頑張っています",
+                          "note": "正解: C"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "G1_U6_GL_C_02",
+                      "label": "(2) 気持ちを表した部分の下線",
+                      "text": "Tina に対する Eri の気持ちを表した部分に、下線を引きましょう。",
+                      "note": "下線部: I respect her effort. I like her very much."
+                    }
+                  ]
+                },
+                {
+                  "type": "phrase_list_section",
+                  "header": "① 伝える内容の整理メモ (p.124 / 教科書p.93)",
+                  "items": [
+                    {
+                      "id": "G1_U6_GL_M_01",
+                      "label": "すてきなところは？",
+                      "ja": "(例) 親切、英語が得意"
+                    },
+                    {
+                      "id": "G1_U6_GL_M_02",
+                      "label": "すてきなところを具体的に書くと？",
+                      "ja": "(例) 英語を上手に話すことができる"
+                    },
+                    {
+                      "id": "G1_U6_GL_M_03",
+                      "label": "その人に対して、どんな気持ち？",
+                      "ja": "(例) とても好き"
+                    }
+                  ]
+                },
+                {
+                  "type": "essay_section",
+                  "header": "About Hiroshi (ヒロシについて) by Tomoki (トモキより) [解答例] (p.124 / 教科書p.93)",
+                  "label": "Tomoki が書いた紹介文",
+                  "items": [
+                    {
+                      "id": "G1_U6_GL_S_10",
+                      "en": "Hiroshi is very kind.",
+                      "ja": "ヒロシはとても親切です。"
+                    },
+                    {
+                      "id": "G1_U6_GL_S_11",
+                      "en": "He takes English lessons every day.",
+                      "ja": "彼は毎日、英語の授業を受けています。"
+                    },
+                    {
+                      "id": "G1_U6_GL_S_12",
+                      "en": "These days he enjoys reading English books.",
+                      "ja": "最近、英語の本を読むことを楽しんでいます。"
+                    },
+                    {
+                      "id": "G1_U6_GL_S_13",
+                      "en": "He sometimes sings some English songs for me.",
+                      "ja": "彼はときどきぼくに英語の歌を歌ってくれます。"
+                    },
+                    {
+                      "id": "G1_U6_GL_S_14",
+                      "en": "He can speak English well.",
+                      "ja": "彼は上手に英語を話すことができます。"
+                    },
+                    {
+                      "id": "G1_U6_GL_S_15",
+                      "en": "I respect his effort.",
+                      "ja": "ぼくは彼の努力を尊敬しています。"
+                    },
+                    {
+                      "id": "G1_U6_GL_S_16",
+                      "en": "I like him very much.",
+                      "ja": "ぼくは彼が大好きです。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "123-124"
+        },
+        "P1": {
+          "title": "Part 1: Tina はこんなお姉さん",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U6_P1_W_01",
+                  "headword": "active",
+                  "pronunciation": "/ǽktiv/",
+                  "pos": "形",
+                  "meaning": "活発な、元気な"
+                },
+                {
+                  "id": "G1_U6_P1_W_02",
+                  "headword": "has",
+                  "pronunciation": "/hǽz, həz/",
+                  "pos": "動",
+                  "meaning": "haveの3人称単数現在形"
+                },
+                {
+                  "id": "G1_U6_P1_W_03",
+                  "headword": "lot",
+                  "pronunciation": "/lάːt/",
+                  "pos": "名",
+                  "usage": "〔a lot で〕",
+                  "meaning": "たくさんのこと［もの］"
+                },
+                {
+                  "id": "G1_U6_P1_W_04",
+                  "headword": "give(s)",
+                  "pronunciation": "/ɡív(z)/",
+                  "pos": "動",
+                  "meaning": "屈する"
+                },
+                {
+                  "id": "G1_U6_P1_W_05",
+                  "headword": "these",
+                  "pronunciation": "/ðiːz/",
+                  "pos": "代",
+                  "usage": "〔thisの複数形〕",
+                  "meaning": "これらの"
+                },
+                {
+                  "id": "G1_U6_P1_W_06",
+                  "headword": "quiet",
+                  "pronunciation": "/kwáiət/",
+                  "pos": "形",
+                  "meaning": "静かな"
+                },
+                {
+                  "id": "G1_U6_P1_W_07",
+                  "headword": "a lot of ~",
+                  "meaning": "たくさんの～"
+                },
+                {
+                  "id": "G1_U6_P1_W_08",
+                  "headword": "give up",
+                  "meaning": "あきらめる"
+                },
+                {
+                  "id": "G1_U6_P1_W_09",
+                  "headword": "these days",
+                  "meaning": "このごろ、最近"
+                },
+                {
+                  "id": "G1_U6_P1_W_10",
+                  "headword": "cook",
+                  "pronunciation": "/kúk/",
+                  "pos": "動",
+                  "meaning": "（～を）料理する、～を作る"
+                },
+                {
+                  "id": "G1_U6_P1_W_11",
+                  "headword": "omelet",
+                  "pronunciation": "/άːmlət/",
+                  "pos": "名",
+                  "meaning": "オムレツ"
+                },
+                {
+                  "id": "G1_U6_P1_W_12",
+                  "headword": "breakfast",
+                  "pronunciation": "/brékfəst/",
+                  "pos": "名",
+                  "meaning": "朝食"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "speech_section",
+                  "header": "Tina はこんなお姉さん (p.111 / 教科書p.86)",
+                  "items": [
+                    {
+                      "id": "G1_U6_P1_S_Q1",
+                      "speaker": "Question",
+                      "en": "Q. Nick から見て、最近の Tina はどんな様子でしょうか。",
+                      "ja": "Q. ニックから見て、最近のティナはどんな様子でしょうか。"
+                    },
+                    {
+                      "id": "G1_U6_P1_S_A1",
+                      "speaker": "Answer",
+                      "en": "A. (例) 少しおとなしい。",
+                      "ja": "A. (例) 少しおとなしい。"
+                    },
+                    {
+                      "id": "G1_U6_P1_S_01",
+                      "ref_num": "①",
+                      "speaker": "Nick",
+                      "en": "Tina's my sister.",
+                      "ja": "ティナはぼくの姉です。"
+                    },
+                    {
+                      "id": "G1_U6_P1_S_02",
+                      "ref_num": "②",
+                      "speaker": "Nick",
+                      "en": "She's very active.",
+                      "ja": "彼女はとても活発です。"
+                    },
+                    {
+                      "id": "G1_U6_P1_S_03",
+                      "ref_num": "③",
+                      "speaker": "Nick",
+                      "en": "She has a lot of friends.",
+                      "ja": "彼女にはたくさんの友達がいます。"
+                    },
+                    {
+                      "id": "G1_U6_P1_S_04",
+                      "ref_num": "④",
+                      "speaker": "Nick",
+                      "en": "She likes singing and dancing.",
+                      "ja": "彼女は歌うことと踊ることが好きです。"
+                    },
+                    {
+                      "id": "G1_U6_P1_S_05",
+                      "ref_num": "⑤",
+                      "speaker": "Nick",
+                      "en": "She always studies hard.",
+                      "ja": "彼女はいつも一生懸命勉強します。"
+                    },
+                    {
+                      "id": "G1_U6_P1_S_06",
+                      "ref_num": "⑥",
+                      "speaker": "Nick",
+                      "en": "She never gives up.",
+                      "ja": "彼女は決してあきらめません。"
+                    },
+                    {
+                      "id": "G1_U6_P1_S_07",
+                      "ref_num": "⑦",
+                      "speaker": "Nick",
+                      "en": "But these days she's a little quiet.",
+                      "ja": "だけど、最近ちょっとおとなしいんです。"
+                    },
+                    {
+                      "id": "G1_U6_P1_S_08",
+                      "speaker": "You're the Writer!",
+                      "en": "It's boring. I want to play with her.",
+                      "ja": "(解答例) つまらないです。彼女と遊びたいな。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak & Write: 友達について紹介しよう (p.112 / 教科書p.87)",
+                  "items": [
+                    {
+                      "id": "G1_U6_P1_S_09",
+                      "speaker": "[例] A",
+                      "en": "Do you read books?",
+                      "ja": "あなたは本を読みますか。"
+                    },
+                    {
+                      "id": "G1_U6_P1_S_10",
+                      "speaker": "[例] B",
+                      "en": "No, I don't.",
+                      "ja": "いいえ、読みません。"
+                    },
+                    {
+                      "id": "G1_U6_P1_S_11",
+                      "speaker": "[例] A",
+                      "en": "Do you cook breakfast every morning?",
+                      "ja": "あなたは毎朝朝食を作りますか。"
+                    },
+                    {
+                      "id": "G1_U6_P1_S_12",
+                      "speaker": "[例] B",
+                      "en": "Yes, I do.",
+                      "ja": "はい、作ります。"
+                    },
+                    {
+                      "id": "G1_U6_P1_S_13",
+                      "speaker": "[解答例] A",
+                      "en": "Do you play the piano?",
+                      "ja": "あなたはピアノを弾きますか。"
+                    },
+                    {
+                      "id": "G1_U6_P1_S_14",
+                      "speaker": "[解答例] B",
+                      "en": "No, I don't.",
+                      "ja": "いいえ、弾きません。"
+                    },
+                    {
+                      "id": "G1_U6_P1_S_15",
+                      "speaker": "[解答例] A",
+                      "en": "Do you study English every morning?",
+                      "ja": "あなたは毎朝英語を勉強しますか。"
+                    },
+                    {
+                      "id": "G1_U6_P1_S_16",
+                      "speaker": "[解答例] B",
+                      "en": "Yes, I do.",
+                      "ja": "はい、します。"
+                    },
+                    {
+                      "id": "G1_U6_P1_S_17",
+                      "speaker": "発表 [例]",
+                      "en": "Miki is great. She cooks breakfast every morning. She can make an omelet.",
+                      "ja": "ミキはすばらしいです。彼女は毎朝朝食を作ります。彼女はオムレツを作ることができます。"
+                    },
+                    {
+                      "id": "G1_U6_P1_S_18",
+                      "speaker": "発表 [解答例]",
+                      "en": "Ken is great. He studies English every morning. He can speak English well.",
+                      "ja": "ケンはすばらしいです。彼は毎朝英語の勉強をします。彼は上手に英語を話すことができます。"
+                    },
+                    {
+                      "id": "G1_U6_P1_S_19",
+                      "speaker": "Write [解答例]",
+                      "en": "Ken studies English hard. He studies English every morning. These days he enjoys reading English books. He sometimes helps my English homework. He is great.",
+                      "ja": "ケンは一生懸命英語を勉強します。彼は毎朝英語の勉強をします。最近彼は英語の本を読むことを楽しんでいます。彼はときどきぼくの英語の宿題を手伝ってくれます。彼はすばらしいです。"
+                    }
+                  ]
+                }
+              ]
+            },
+            "GRAMMAR": {
+              "items": [
+                {
+                  "id": "G1_U6_P1_K_01",
+                  "en": "I like singing and dancing.",
+                  "ja": "私は歌うことと踊ることが好きです。"
+                },
+                {
+                  "id": "G1_U6_P1_K_02",
+                  "en": "She ==**likes**== singing and dancing.",
+                  "ja": "彼女は歌うことと踊ることが好きです。",
+                  "ref_id": "G1_U6_P1_S_04"
+                }
+              ],
+              "content_blocks": []
+            }
+          },
+          "explanations": {},
+          "page": 112
+        },
+        "P1_G": {
+          "title": "Part 1 解説",
+          "views": {
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "自分と相手以外の人がすることを言う。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "I like singing and dancing.",
+                      "ja": "(私は歌うことと踊ることが好きです。)"
+                    },
+                    {
+                      "ref_num": "②",
+                      "en": "She ==**likes**== singing and dancing.",
+                      "ja": "(彼女は歌うことと踊ることが好きです。)",
+                      "ref_id": "G1_U6_P1_K_02"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "動詞の -(e)s形（3人称単数現在形）",
+                  "text": "主語が **He, She, It**、人の名前など **I, you 以外で単数（1人や1つのもの）** のときは、like などの一般動詞は語尾に ==**-(e)s**== を付けた形を使います。この形を==**3人称単数現在形**==といいます。",
+                  "items": [
+                    {
+                      "tag": "主語が I, you",
+                      "en": "I ==**like**== music.",
+                      "ja": "(私は音楽が好きです。)"
+                    },
+                    {
+                      "tag": "主語が 3人称単数",
+                      "en": "She ==**likes**== music.",
+                      "ja": "(彼女は音楽が好きです。)",
+                      "note": "動詞の語尾に -(e)s を付ける"
+                    }
+                  ]
+                },
+                {
+                  "type": "rules",
+                  "header": "〈-(e)s の付け方〉",
+                  "text": "一般動詞の語尾に -s が付くか -es が付くかは、それぞれの動詞の語尾によって決まります。",
+                  "items": [
+                    {
+                      "label": "1. 普通の語は -s を付ける",
+                      "en": "wake > wakes, play > plays"
+                    },
+                    {
+                      "label": "2. -o や -ch などで終わる語は -es を付ける",
+                      "en": "go > goes, watch > watches"
+                    },
+                    {
+                      "label": "3. 〈子音字＋y〉で終わる語は y を i に変えて -es を付ける",
+                      "en": "study > studies"
+                    },
+                    {
+                      "label": "4. have は -(e)s を付けず、has という形になる",
+                      "en": "have > has"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G1_U6_P1G_E_01",
+                      "ref_num": "③",
+                      "en": "She has a lot of friends.",
+                      "text": "**has** は **have**（～を持っている）の3人称単数現在形です。have は原形に -s を付けるのではなく、特別な形 **has** を使います。**a lot of ～** は「たくさんの～」という意味で、その後に続く名詞は、数えられる名詞の場合は複数形にします。",
+                      "ref_id": "G1_U6_P1_S_03"
+                    },
+                    {
+                      "id": "G1_U6_P1G_E_02",
+                      "ref_num": "④",
+                      "en": "She likes singing and dancing.",
+                      "text": "**likes** は **like**（～が好き）の3人称単数現在形で、原形に **-s** を付けます。",
+                      "ref_id": "G1_U6_P1_S_04"
+                    },
+                    {
+                      "id": "G1_U6_P1G_E_03",
+                      "ref_num": "⑤",
+                      "en": "She always studies hard.",
+                      "text": "主語が she のとき、一般動詞には語尾に **-(e)s** を付けます。**study**（勉強する）の3人称単数現在形は、**studies** です。study は〈子音字＋y〉で終わる語なので、原形（-(e)s の付かない形）の末尾の y を **i** に変えて **-es** を付けます。**hard** は、「熱心に、懸命に」という意味の副詞で、直前の動詞（study）の様子を説明しています。",
+                      "ref_id": "G1_U6_P1_S_05"
+                    },
+                    {
+                      "id": "G1_U6_P1G_E_04",
+                      "ref_num": "⑦",
+                      "en": "But these days she's a little quiet.",
+                      "text": "**these days** は「このごろ」という意味で、このように文のはじめに置くことも、最後に置くこともあります。**a little** は「少しは」という意味で、直後の形容詞 **quiet**（静かな）の程度を説明しています。",
+                      "ref_id": "G1_U6_P1_S_07"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 117
+        },
+        "P2": {
+          "title": "Part 2: Tina はどうしたの",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U6_P2_W_01",
+                  "headword": "almost",
+                  "pronunciation": "/ɔ́ːlmoust/",
+                  "pos": "副",
+                  "meaning": "ほとんど、もう少しで"
+                },
+                {
+                  "id": "G1_U6_P2_W_02",
+                  "headword": "for",
+                  "pronunciation": "/fɔ́ːr, fər/",
+                  "pos": "前",
+                  "usage": "〔機会〕",
+                  "meaning": "～に"
+                },
+                {
+                  "id": "G1_U6_P2_W_03",
+                  "headword": "Christmas",
+                  "pronunciation": "/krísməs/",
+                  "pos": "名",
+                  "meaning": "クリスマス"
+                },
+                {
+                  "id": "G1_U6_P2_W_04",
+                  "headword": "bicycle",
+                  "pronunciation": "/báisikl/",
+                  "pos": "名",
+                  "meaning": "自転車"
+                },
+                {
+                  "id": "G1_U6_P2_W_05",
+                  "headword": "all",
+                  "pronunciation": "/ɔ́ːl/",
+                  "pos": "副",
+                  "meaning": "全く、すっかり"
+                },
+                {
+                  "id": "G1_U6_P2_W_06",
+                  "headword": "dear",
+                  "pronunciation": "/díər/",
+                  "pos": "間",
+                  "meaning": "おや、まあ"
+                },
+                {
+                  "id": "G1_U6_P2_W_07",
+                  "headword": "does",
+                  "pronunciation": "/dʌ́z, dəz/",
+                  "pos": "助",
+                  "meaning": "doの3人称単数現在形"
+                },
+                {
+                  "id": "G1_U6_P2_W_08",
+                  "headword": "cold",
+                  "pronunciation": "/kóuld/",
+                  "pos": "名",
+                  "meaning": "風邪"
+                },
+                {
+                  "id": "G1_U6_P2_W_09",
+                  "headword": "Steve",
+                  "pos": "名",
+                  "meaning": "スティーブ〔人物の名〕"
+                },
+                {
+                  "id": "G1_U6_P2_W_10",
+                  "headword": "have",
+                  "pronunciation": "/hǽv/",
+                  "pos": "動",
+                  "meaning": "（病気）にかかっている"
+                },
+                {
+                  "id": "G1_U6_P2_W_11",
+                  "headword": "all right",
+                  "meaning": "よろしい。はい。結構です。"
+                },
+                {
+                  "id": "G1_U6_P2_W_12",
+                  "headword": "in bed",
+                  "meaning": "（ベッドで）寝ている"
+                },
+                {
+                  "id": "G1_U6_P2_W_13",
+                  "headword": "Oh, dear!",
+                  "meaning": "おや、まあ。"
+                },
+                {
+                  "id": "G1_U6_P2_W_14",
+                  "headword": "have a cold",
+                  "meaning": "風邪をひいている"
+                },
+                {
+                  "id": "G1_U6_P2_W_15",
+                  "headword": "work(s)",
+                  "pronunciation": "/wə́ːrk(s)/",
+                  "pos": "動",
+                  "meaning": "働く、勤めている"
+                },
+                {
+                  "id": "G1_U6_P2_W_16",
+                  "headword": "Puerto Rico",
+                  "pronunciation": "/pwèərtou ríːkou/",
+                  "pos": "名",
+                  "meaning": "プエルトリコ"
+                },
+                {
+                  "id": "G1_U6_P2_W_17",
+                  "headword": "France",
+                  "pronunciation": "/frǽns/",
+                  "pos": "名",
+                  "meaning": "フランス"
+                },
+                {
+                  "id": "G1_U6_P2_W_18",
+                  "headword": "China",
+                  "pronunciation": "/tʃáinə/",
+                  "pos": "名",
+                  "meaning": "中国"
+                },
+                {
+                  "id": "G1_U6_P2_W_19",
+                  "headword": "train",
+                  "pronunciation": "/tréin/",
+                  "pos": "名",
+                  "meaning": "列車、電車"
+                },
+                {
+                  "id": "G1_U6_P2_W_20",
+                  "headword": "station",
+                  "pronunciation": "/stéiʃən/",
+                  "pos": "名",
+                  "meaning": "駅"
+                },
+                {
+                  "id": "G1_U6_P2_W_21",
+                  "headword": "I don't know.",
+                  "meaning": "わかりません。"
+                },
+                {
+                  "id": "G1_U6_P2_W_22",
+                  "headword": "sure",
+                  "pronunciation": "/ʃúər/",
+                  "pos": "形",
+                  "usage": "〔～を〕",
+                  "meaning": "確信して、確かで"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "dialogue_section",
+                  "header": "Tina はどうしたの (p.113 / 教科書p.88)",
+                  "items": [
+                    {
+                      "id": "G1_U6_P2_S_Q1",
+                      "speaker": "Question",
+                      "en": "Q. Tina はどこにいるでしょうか。",
+                      "ja": "Q. ティナはどこにいるでしょうか。"
+                    },
+                    {
+                      "id": "G1_U6_P2_S_A1",
+                      "speaker": "Answer",
+                      "en": "A. (例) ベッド",
+                      "ja": "A. (例) ベッド"
+                    },
+                    {
+                      "id": "G1_U6_P2_S_01",
+                      "ref_num": "①",
+                      "speaker": "Setting",
+                      "en": "On a video call:",
+                      "ja": "テレビ電話にて："
+                    },
+                    {
+                      "id": "G1_U6_P2_S_02",
+                      "ref_num": "②",
+                      "speaker": "Nick",
+                      "en": "Hi, Grandpa.",
+                      "ja": "おじいちゃん、こんにちは。"
+                    },
+                    {
+                      "id": "G1_U6_P2_S_03",
+                      "ref_num": "③",
+                      "speaker": "Nick",
+                      "en": "Hi, Grandma.",
+                      "ja": "おばあちゃん、こんにちは。"
+                    },
+                    {
+                      "id": "G1_U6_P2_S_04",
+                      "ref_num": "④",
+                      "speaker": "Grandma",
+                      "en": "Hi, Nick.",
+                      "ja": "こんにちは、ニック。"
+                    },
+                    {
+                      "id": "G1_U6_P2_S_05",
+                      "ref_num": "⑤",
+                      "speaker": "Grandma",
+                      "en": "It's almost Christmas.",
+                      "ja": "もう少しでクリスマスだね。"
+                    },
+                    {
+                      "id": "G1_U6_P2_S_06",
+                      "ref_num": "⑥",
+                      "speaker": "Grandma",
+                      "en": "What do you want for Christmas?",
+                      "ja": "クリスマスには何がほしい？"
+                    },
+                    {
+                      "id": "G1_U6_P2_S_07",
+                      "ref_num": "⑦",
+                      "speaker": "Nick",
+                      "en": "A new bicycle.",
+                      "ja": "新しい自転車。"
+                    },
+                    {
+                      "id": "G1_U6_P2_S_08",
+                      "ref_num": "⑧",
+                      "speaker": "Mr. Rios",
+                      "en": "A new bicycle, please.",
+                      "ja": "新しい自転車を「お願いします」。"
+                    },
+                    {
+                      "id": "G1_U6_P2_S_09",
+                      "ref_num": "⑨",
+                      "speaker": "Nick",
+                      "en": "Sorry.",
+                      "ja": "ごめんなさい。"
+                    },
+                    {
+                      "id": "G1_U6_P2_S_10",
+                      "ref_num": "⑩",
+                      "speaker": "Nick",
+                      "en": "A new bicycle, please.",
+                      "ja": "新しい自転車をお願いします。"
+                    },
+                    {
+                      "id": "G1_U6_P2_S_11",
+                      "ref_num": "⑪",
+                      "speaker": "Grandma",
+                      "en": "All right.",
+                      "ja": "いいですよ。"
+                    },
+                    {
+                      "id": "G1_U6_P2_S_12",
+                      "ref_num": "⑫",
+                      "speaker": "Grandpa",
+                      "en": "Where's Tina?",
+                      "ja": "ティナはどこかな？"
+                    },
+                    {
+                      "id": "G1_U6_P2_S_13",
+                      "ref_num": "⑬",
+                      "speaker": "Ms. Rios",
+                      "en": "She's in bed.",
+                      "ja": "ベッドで寝ています。"
+                    },
+                    {
+                      "id": "G1_U6_P2_S_14",
+                      "ref_num": "⑭",
+                      "speaker": "Grandma",
+                      "en": "Oh, dear!",
+                      "ja": "おやまあの"
+                    },
+                    {
+                      "id": "G1_U6_P2_S_15",
+                      "ref_num": "⑮",
+                      "speaker": "Grandma",
+                      "en": "Does she have a cold, Steve?",
+                      "ja": "彼女は風邪をひいたの、スティーブ？"
+                    },
+                    {
+                      "id": "G1_U6_P2_S_16",
+                      "ref_num": "⑯",
+                      "speaker": "Mr. Rios",
+                      "en": "No, she doesn't.",
+                      "ja": "いや、違うんだ。"
+                    },
+                    {
+                      "id": "G1_U6_P2_S_17",
+                      "speaker": "You're the Writer!",
+                      "en": "Is she sleepy?",
+                      "ja": "(解答例) 彼女は眠いのかな。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak: 登場人物についての質問と答え (p.114 / 教科書p.89)",
+                  "items": [
+                    {
+                      "id": "G1_U6_P2_S_18",
+                      "speaker": "[例] A",
+                      "en": "Does Eri play the drums?",
+                      "ja": "エリはドラムを演奏しますか。"
+                    },
+                    {
+                      "id": "G1_U6_P2_S_19",
+                      "speaker": "[例] B",
+                      "en": "No, she doesn't. But she plays the piano.",
+                      "ja": "いいえ、しません。しかし、ピアノは演奏します。"
+                    },
+                    {
+                      "id": "G1_U6_P2_S_20",
+                      "speaker": "[例] B",
+                      "en": "I don't know.",
+                      "ja": "(答えがないとき) わかりません。"
+                    },
+                    {
+                      "id": "G1_U6_P2_S_21",
+                      "speaker": "[解答例] A",
+                      "en": "Does Kota play the trumpet?",
+                      "ja": "コウタはトランペットを演奏しますか。"
+                    },
+                    {
+                      "id": "G1_U6_P2_S_22",
+                      "speaker": "[解答例] B",
+                      "en": "Yes, he does.",
+                      "ja": "はい、します。"
+                    },
+                    {
+                      "id": "G1_U6_P2_S_23",
+                      "speaker": "[解答例] A",
+                      "en": "Does Nick like dancing?",
+                      "ja": "ニックは踊ることが好きですか。"
+                    },
+                    {
+                      "id": "G1_U6_P2_S_24",
+                      "speaker": "[解答例] B",
+                      "en": "Yes, he does.",
+                      "ja": "はい、好きです。"
+                    },
+                    {
+                      "id": "G1_U6_P2_S_25",
+                      "speaker": "[解答例] A",
+                      "en": "Does Tina like music?",
+                      "ja": "ティナは音楽が好きですか。"
+                    },
+                    {
+                      "id": "G1_U6_P2_S_26",
+                      "speaker": "[解答例] B",
+                      "en": "Yes, she does. She likes sports, too.",
+                      "ja": "はい、好きです。彼女はスポーツも好きです。"
+                    }
+                  ]
+                }
+              ]
+            },
+            "GRAMMAR": {
+              "items": [
+                {
+                  "id": "G1_U6_P2_K_01",
+                  "en": "Do you have a cold?",
+                  "ja": "あなたは風邪をひいていますか。"
+                },
+                {
+                  "id": "G1_U6_P2_K_02",
+                  "en": "She has a cold.",
+                  "ja": "彼女は風邪をひいています。"
+                },
+                {
+                  "id": "G1_U6_P2_K_03",
+                  "en": "==**Does she have**== a cold?",
+                  "ja": "彼女は風邪をひいていますか。",
+                  "ref_id": "G1_U6_P2_S_15"
+                },
+                {
+                  "id": "G1_U6_P2_K_04",
+                  "en": "Yes, she ==**does**==. / No, she ==**doesn't**==.",
+                  "ja": "はい、ひいています。／いいえ、ひいていません。",
+                  "ref_id": "G1_U6_P2_S_16"
+                }
+              ],
+              "content_blocks": []
+            }
+          },
+          "explanations": {},
+          "page": 114
+        },
+        "P2_G": {
+          "title": "Part 2 解説",
+          "views": {
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "自分と相手以外の人がすることをたずねる。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "Do you have a cold?",
+                      "ja": "(あなたは風邪をひいていますか。)",
+                      "ref_id": "G1_U6_P2_K_01"
+                    },
+                    {
+                      "ref_num": "②",
+                      "en": "She has a cold.",
+                      "ja": "(彼女は風邪をひいています。)",
+                      "ref_id": "G1_U6_P2_K_02"
+                    },
+                    {
+                      "ref_num": "③",
+                      "en": "==**Does she have**== a cold?",
+                      "ja": "(彼女は風邪をひいていますか。)",
+                      "ref_id": "G1_U6_P2_K_03"
+                    },
+                    {
+                      "ref_num": "④",
+                      "en": "— Yes, she ==**does**==. / No, she ==**doesn't**==.",
+                      "ja": "(はい、ひいています。／いいえ、ひいていません。)",
+                      "ref_id": "G1_U6_P2_K_04"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "Does he / she ...?",
+                  "text": "①②③ 主語が I, you や複数のときの一般動詞の文を疑問文にするときは主語の前に Do を置きましたが、主語が==**3人称単数**==のときは、主語の前に ==**Does**== を置き、==**〈Does ＋ 主語 ＋ 動詞の原形～?〉**==の語順になります。後に続く動詞は原形（-(e)s の付かない形）を使います。",
+                  "items": [
+                    {
+                      "tag": "肯定文",
+                      "en": "Tina ==**likes**== music.",
+                      "ja": "(ティナは音楽が好きです。)"
+                    },
+                    {
+                      "tag": "疑問文",
+                      "en": "==**Does**== Tina ==**like**== music?",
+                      "ja": "(ティナは音楽が好きですか。)",
+                      "note": "主語の前に Does を置き、動詞を原形にする"
+                    },
+                    {
+                      "tag": "答え方",
+                      "text": "Does ...? の疑問文には、does を使って答えます。Yes のときは〈Yes, 主語 ＋ does.〉、No のときは〈No, 主語 ＋ doesn't.〉の形を使います。doesn't は does not の短縮形です。"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G1_U6_P2G_E_01",
+                      "ref_num": "⑤",
+                      "en": "It's almost Christmas.",
+                      "text": "この文の **It** は時間・天候などを表す主語です。**almost** は「ほとんど」という意味です。ここでは、もうすぐクリスマスであることを表しています。",
+                      "ref_id": "G1_U6_P2_S_05"
+                    },
+                    {
+                      "id": "G1_U6_P2G_E_02",
+                      "ref_num": "⑧",
+                      "en": "A new bicycle, please.",
+                      "note": "→教科書p.88 Key Phrases",
+                      "text": "**A new bicycle, please.** は、Nick がその前に言った A new bicycle に **please** を付けて、言い換えています。please を付けると「どうぞ～」と丁寧な言い方になります。お願いするときは丁寧な言い方にします。",
+                      "ref_id": "G1_U6_P2_S_08"
+                    },
+                    {
+                      "id": "G1_U6_P2G_E_03",
+                      "ref_num": "⑪",
+                      "en": "All right.",
+                      "note": "→教科書p.88 Key Phrases",
+                      "text": "**All right.** は、Sorry. と謝ったのを受け、その謝罪を受け入れ納得したことを伝える表現です。",
+                      "ref_id": "G1_U6_P2_S_11"
+                    },
+                    {
+                      "id": "G1_U6_P2G_E_04",
+                      "ref_num": "⑬",
+                      "en": "She's in bed.",
+                      "text": "where のような疑問詞で始まる疑問文には Yes や No で答えません。Where is [are] ～? の疑問文には、**in bed**（ベッドで寝ている）のように場所を表す語句を使って答えます。**in** は、「～に［で］」と時間・位置を表す前置詞です。",
+                      "ref_id": "G1_U6_P2_S_13"
+                    },
+                    {
+                      "id": "G1_U6_P2G_E_05",
+                      "ref_num": "⑮",
+                      "en": "Does she have a cold, Steve?",
+                      "text": "she のように主語が3人称（I、you 以外）で単数のときは、主語の前に **Does** を置いて、一般動詞の疑問文を作ります。このとき、後に続く動詞は原形を使います。**have a cold** は「風邪をひいている」の意味を表します。この **cold** は「寒い」という形容詞ではなく、「風邪」という名詞です。",
+                      "ref_id": "G1_U6_P2_S_15"
+                    },
+                    {
+                      "id": "G1_U6_P2G_E_06",
+                      "ref_num": "⑯",
+                      "en": "No, she doesn't.",
+                      "text": "Does ～? の疑問文には **does** を使って答えます。Yes のときは **〈Yes, 主語 ＋ does.〉**、No のときは **〈No, 主語 ＋ doesn't [does not].〉** の形を使います。",
+                      "ref_id": "G1_U6_P2_S_16"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "118-119"
+        },
+        "P3": {
+          "title": "Part 3: Tina に必要なもの",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U6_P3_W_01",
+                  "headword": "sleep",
+                  "pronunciation": "/sliːp/",
+                  "pos": "動",
+                  "meaning": "眠る"
+                },
+                {
+                  "id": "G1_U6_P3_W_02",
+                  "headword": "well",
+                  "pronunciation": "/wél/",
+                  "pos": "副",
+                  "meaning": "よく、十分に、しっかり"
+                },
+                {
+                  "id": "G1_U6_P3_W_03",
+                  "headword": "lot",
+                  "pronunciation": "/lάːt/",
+                  "pos": "名",
+                  "usage": "〔a lot で副詞的に〕",
+                  "meaning": "よく、大いに"
+                },
+                {
+                  "id": "G1_U6_P3_W_04",
+                  "headword": "play",
+                  "pronunciation": "/pléi/",
+                  "pos": "動",
+                  "meaning": "遊ぶ"
+                },
+                {
+                  "id": "G1_U6_P3_W_05",
+                  "headword": "either",
+                  "pronunciation": "/íːðər/",
+                  "pos": "副",
+                  "usage": "〔... not ~ either で〕",
+                  "meaning": "…もまた～しない［でない］"
+                },
+                {
+                  "id": "G1_U6_P3_W_06",
+                  "headword": "have",
+                  "pronunciation": "/hǽv/",
+                  "pos": "動",
+                  "meaning": "（友人・親戚など）がいる、～を（ペットとして）飼う"
+                },
+                {
+                  "id": "G1_U6_P3_W_07",
+                  "headword": "worry",
+                  "pronunciation": "/wə́ːri/",
+                  "pos": "動",
+                  "meaning": "心配する、気にする"
+                },
+                {
+                  "id": "G1_U6_P3_W_08",
+                  "headword": "little",
+                  "pronunciation": "/lítl/",
+                  "pos": "形",
+                  "usage": "〔a little ～で〕",
+                  "meaning": "少しの～"
+                },
+                {
+                  "id": "G1_U6_P3_W_09",
+                  "headword": "yes",
+                  "pronunciation": "/jés/",
+                  "pos": "副",
+                  "usage": "〔同意して〕",
+                  "meaning": "そうです、その通りです"
+                },
+                {
+                  "id": "G1_U6_P3_W_10",
+                  "headword": "bit",
+                  "pronunciation": "/bít/",
+                  "pos": "名",
+                  "meaning": "少し、ちょっと"
+                },
+                {
+                  "id": "G1_U6_P3_W_11",
+                  "headword": "need(s)",
+                  "pronunciation": "/níːd(z)/",
+                  "pos": "動",
+                  "meaning": "～を必要とする"
+                },
+                {
+                  "id": "G1_U6_P3_W_12",
+                  "headword": "rest",
+                  "pronunciation": "/rést/",
+                  "pos": "名",
+                  "meaning": "休息、休憩"
+                },
+                {
+                  "id": "G1_U6_P3_W_13",
+                  "headword": "a lot",
+                  "meaning": "よく、大いに"
+                },
+                {
+                  "id": "G1_U6_P3_W_14",
+                  "headword": "go to school",
+                  "meaning": "学校に行く、通学する"
+                },
+                {
+                  "id": "G1_U6_P3_W_15",
+                  "headword": "not ~ either",
+                  "meaning": "…もまた～しない［でない］"
+                },
+                {
+                  "id": "G1_U6_P3_W_16",
+                  "headword": "a little bit",
+                  "meaning": "ほんの少し、ちょっと"
+                },
+                {
+                  "id": "G1_U6_P3_W_17",
+                  "headword": "home",
+                  "pronunciation": "/hóum/",
+                  "pos": "名",
+                  "meaning": "家、自宅"
+                },
+                {
+                  "id": "G1_U6_P3_W_18",
+                  "headword": "set",
+                  "pronunciation": "/sét/",
+                  "pos": "動",
+                  "meaning": "（食卓）の準備をする"
+                },
+                {
+                  "id": "G1_U6_P3_W_19",
+                  "headword": "table",
+                  "pronunciation": "/téibl/",
+                  "pos": "名",
+                  "meaning": "テーブル"
+                },
+                {
+                  "id": "G1_U6_P3_W_20",
+                  "headword": "take",
+                  "pronunciation": "/téik/",
+                  "pos": "動",
+                  "meaning": "～を持って行く"
+                },
+                {
+                  "id": "G1_U6_P3_W_21",
+                  "headword": "out",
+                  "pronunciation": "/áut/",
+                  "pos": "副",
+                  "meaning": "外へ（出て）"
+                },
+                {
+                  "id": "G1_U6_P3_W_22",
+                  "headword": "garbage",
+                  "pronunciation": "/ɡάːrbidʒ/",
+                  "pos": "名",
+                  "meaning": "ごみ、生ごみ"
+                },
+                {
+                  "id": "G1_U6_P3_W_23",
+                  "headword": "wash",
+                  "pronunciation": "/wάːʃ/",
+                  "pos": "動",
+                  "meaning": "～を洗う"
+                },
+                {
+                  "id": "G1_U6_P3_W_24",
+                  "headword": "dish",
+                  "pronunciation": "/díʃ/",
+                  "pos": "名",
+                  "usage": "〔the ～esで〕",
+                  "meaning": "皿、食器類"
+                },
+                {
+                  "id": "G1_U6_P3_W_25",
+                  "headword": "clear",
+                  "pronunciation": "/klíər/",
+                  "pos": "動",
+                  "meaning": "～を片づける、～をきれいにする"
+                },
+                {
+                  "id": "G1_U6_P3_W_26",
+                  "headword": "at home",
+                  "meaning": "家に［で］"
+                },
+                {
+                  "id": "G1_U6_P3_W_27",
+                  "headword": "take out ~",
+                  "meaning": "～を出す、～を取り出す"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "dialogue_section",
+                  "header": "Tina に必要なもの (p.115 / 教科書p.90)",
+                  "items": [
+                    {
+                      "id": "G1_U6_P3_S_Q1",
+                      "speaker": "Question",
+                      "en": "Q. Tina のおばあさんは、Tina には何が必要だと言っていますか。",
+                      "ja": "Q. ティナのおばあさんは、ティナには何が必要だと言っていますか。"
+                    },
+                    {
+                      "id": "G1_U6_P3_S_A1",
+                      "speaker": "Answer",
+                      "en": "A. (例) 休息。",
+                      "ja": "A. (例) 休息。"
+                    },
+                    {
+                      "id": "G1_U6_P3_S_01",
+                      "ref_num": "①",
+                      "speaker": "Grandpa",
+                      "en": "Does she sleep well?",
+                      "ja": "彼女はよく眠れているのかい？"
+                    },
+                    {
+                      "id": "G1_U6_P3_S_02",
+                      "ref_num": "②",
+                      "speaker": "Ms. Rios",
+                      "en": "Yes, she does.",
+                      "ja": "ええ、眠れています。"
+                    },
+                    {
+                      "id": "G1_U6_P3_S_03",
+                      "ref_num": "③",
+                      "speaker": "Ms. Rios",
+                      "en": "She sleeps a lot.",
+                      "ja": "たくさん寝ます。"
+                    },
+                    {
+                      "id": "G1_U6_P3_S_04",
+                      "ref_num": "④",
+                      "speaker": "Mr. Rios",
+                      "en": "But she doesn't go to school.",
+                      "ja": "だけど学校に行かないんだ。"
+                    },
+                    {
+                      "id": "G1_U6_P3_S_05",
+                      "ref_num": "⑤",
+                      "speaker": "Nick",
+                      "en": "She doesn't play with me, either!",
+                      "ja": "それにぼくと遊んでもくれない！"
+                    },
+                    {
+                      "id": "G1_U6_P3_S_06",
+                      "ref_num": "⑥",
+                      "speaker": "Grandma",
+                      "en": "Does she have friends?",
+                      "ja": "彼女に友達はいるの？"
+                    },
+                    {
+                      "id": "G1_U6_P3_S_07",
+                      "ref_num": "⑦",
+                      "speaker": "Nick",
+                      "en": "Sure.",
+                      "ja": "もちろん。"
+                    },
+                    {
+                      "id": "G1_U6_P3_S_08",
+                      "ref_num": "⑧",
+                      "speaker": "Nick",
+                      "en": "Kota, Eri, and Hajin.",
+                      "ja": "コウタ、エリ、それからハジン。"
+                    },
+                    {
+                      "id": "G1_U6_P3_S_09",
+                      "ref_num": "⑨",
+                      "speaker": "Nick",
+                      "en": "They're nice.",
+                      "ja": "みんないい人たちだよ。"
+                    },
+                    {
+                      "id": "G1_U6_P3_S_10",
+                      "ref_num": "⑩",
+                      "speaker": "Grandpa",
+                      "en": "I see.",
+                      "ja": "なるほど。"
+                    },
+                    {
+                      "id": "G1_U6_P3_S_11",
+                      "ref_num": "⑪",
+                      "speaker": "Grandpa",
+                      "en": "Don't worry, Nick.",
+                      "ja": "ニック、心配しなくていいよ。"
+                    },
+                    {
+                      "id": "G1_U6_P3_S_12",
+                      "ref_num": "⑫",
+                      "speaker": "Grandpa",
+                      "en": "She's a little bit tired.",
+                      "ja": "彼女はちょっと疲れているんだ。"
+                    },
+                    {
+                      "id": "G1_U6_P3_S_13",
+                      "ref_num": "⑬",
+                      "speaker": "Grandma",
+                      "en": "Yes, she needs some rest.",
+                      "ja": "そうね、ちょっと休息が必要なのよ。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak: 家の手伝いについての発表 (p.116 / 教科書p.91)",
+                  "items": [
+                    {
+                      "id": "G1_U6_P3_S_14",
+                      "speaker": "[例]",
+                      "en": "Ken doesn't wash the dishes, but he clears the table. He is great.",
+                      "ja": "ケンは皿洗いをしませんが、食事の後片づけはします。彼はすばらしいです。"
+                    },
+                    {
+                      "id": "G1_U6_P3_S_15",
+                      "speaker": "[解答例]",
+                      "en": "Yui doesn't clear the table, but she cooks breakfast.",
+                      "ja": "ユイは食事の後片づけはしませんが、朝食は作ります。"
+                    }
+                  ]
+                }
+              ]
+            },
+            "GRAMMAR": {
+              "items": [
+                {
+                  "id": "G1_U6_P3_K_01",
+                  "en": "I don't go to school.",
+                  "ja": "私は学校に行きません。"
+                },
+                {
+                  "id": "G1_U6_P3_K_02",
+                  "en": "She goes to school.",
+                  "ja": "彼女は学校に行きます。"
+                },
+                {
+                  "id": "G1_U6_P3_K_03",
+                  "en": "She ==**doesn't go**== to school.",
+                  "ja": "彼女は学校に行きません。",
+                  "ref_id": "G1_U6_P3_S_04"
+                }
+              ],
+              "content_blocks": []
+            }
+          },
+          "explanations": {},
+          "page": 116
+        },
+        "P3_G": {
+          "title": "Part 3 解説",
+          "views": {
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "自分と相手以外の人がしないことを言う。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "I don't go to school.",
+                      "ja": "(私は学校に行きません。)",
+                      "ref_id": "G1_U6_P3_K_01"
+                    },
+                    {
+                      "ref_num": "②",
+                      "en": "She goes to school.",
+                      "ja": "(彼女は学校に行きます。)",
+                      "ref_id": "G1_U6_P3_K_02"
+                    },
+                    {
+                      "ref_num": "③",
+                      "en": "She ==**doesn't go**== to school.",
+                      "ja": "(彼女は学校に行きません。)",
+                      "ref_id": "G1_U6_P3_K_03"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "He [She] doesn't ....",
+                  "text": "主語が I, you や複数のときの一般動詞の文を否定文にするときは、動詞の前に don't を置きましたが、主語が==**3人称単数**==のときは、動詞の前に ==**doesn't [does not]**== を置いて、==**〈主語 ＋ doesn't [does not] ＋ 動詞の原形～.〉**==の語順になります。このとき、疑問文と同様、後に続く動詞は原形になるので注意しましょう。",
+                  "items": [
+                    {
+                      "tag": "肯定文",
+                      "en": "She ==**goes**== to school.",
+                      "ja": "(彼女は学校に行きます。)"
+                    },
+                    {
+                      "tag": "否定文",
+                      "en": "She ==**doesn't go**== to school.",
+                      "ja": "(彼女は学校に行きません。)",
+                      "note": "動詞の前に doesn't を置き、動詞を原形にする"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G1_U6_P3G_E_01",
+                      "ref_num": "④",
+                      "en": "But she doesn't go to school.",
+                      "text": "主語が3人称単数のときの一般動詞の否定文は、動詞の前に **doesn't [does not]** を置き、**〈主語 ＋ doesn't [does not] ＋ 動詞の原形～.〉** の語順になります。このとき、疑問文と同様、後に続く動詞は原形を使います。",
+                      "ref_id": "G1_U6_P3_S_04"
+                    },
+                    {
+                      "id": "G1_U6_P3G_E_02",
+                      "ref_num": "⑦",
+                      "en": "Sure.",
+                      "text": "**Sure.** は、「もちろん。」と、強く肯定するときに使う表現です。",
+                      "ref_id": "G1_U6_P3_S_07"
+                    },
+                    {
+                      "id": "G1_U6_P3G_E_03",
+                      "ref_num": "⑩",
+                      "en": "I see.",
+                      "text": "**I see.** は、「わかりました［なるほど］。」と、納得したときに使う表現です。",
+                      "ref_id": "G1_U6_P3_S_10"
+                    },
+                    {
+                      "id": "G1_U6_P3G_E_04",
+                      "ref_num": "⑪",
+                      "en": "Don't worry, Nick.",
+                      "note": "→教科書p.90 Key Phrase",
+                      "text": "**Don't worry.** は、「心配しないで。」と相手を励ましたり、慰めたりするときに使います。よびかけ (Nick) は、最後を上げ調子に言いましょう。",
+                      "ref_id": "G1_U6_P3_S_11"
+                    },
+                    {
+                      "id": "G1_U6_P3G_E_05",
+                      "ref_num": "⑫",
+                      "en": "She's a little bit tired.",
+                      "text": "**a little bit** は、「ほんの少し、ちょっと」という程度を表す表現です。",
+                      "ref_id": "G1_U6_P3_S_12"
+                    },
+                    {
+                      "id": "G1_U6_P3G_E_06",
+                      "ref_num": "⑬",
+                      "en": "Yes, she needs some rest.",
+                      "text": "主語が she なので、「～を必要とする」という意味の動詞の **need** の語尾に **s** が付いています。**some** は「いくらかの」という意味の形容詞で、「休息」という意味の名詞、**rest** にかかっています。",
+                      "ref_id": "G1_U6_P3_S_13"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 119
+        },
+        "ST": {
+          "title": "Start: Cheer Up, Tina",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U6_ST_W_01",
+                  "headword": "cheer",
+                  "pronunciation": "/tʃíər/",
+                  "pos": "動",
+                  "meaning": "元気づく"
+                },
+                {
+                  "id": "G1_U6_ST_W_02",
+                  "headword": "up",
+                  "pronunciation": "/ʌ́p/",
+                  "pos": "副",
+                  "usage": "〔変化〕",
+                  "meaning": "（気持ちが）高まって"
+                },
+                {
+                  "id": "G1_U6_ST_W_03",
+                  "headword": "grandmother",
+                  "pronunciation": "/ɡrǽnmʌ̀ðər/",
+                  "pos": "名",
+                  "meaning": "祖母"
+                },
+                {
+                  "id": "G1_U6_ST_W_04",
+                  "headword": "grandma",
+                  "pronunciation": "/ɡrǽnmɑː/",
+                  "pos": "名",
+                  "meaning": "おばあちゃん"
+                },
+                {
+                  "id": "G1_U6_ST_W_05",
+                  "headword": "grandfather",
+                  "pronunciation": "/ɡrǽnfɑ̀ːðər/",
+                  "pos": "名",
+                  "meaning": "祖父"
+                },
+                {
+                  "id": "G1_U6_ST_W_06",
+                  "headword": "grandpa",
+                  "pronunciation": "/ɡrǽnpɑː/",
+                  "pos": "名",
+                  "meaning": "おじいちゃん"
+                },
+                {
+                  "id": "G1_U6_ST_W_07",
+                  "headword": "parent(s)",
+                  "pronunciation": "/pέərənt (pέərənts)/",
+                  "pos": "名",
+                  "usage": "〔～sで〕",
+                  "meaning": "親、両親"
+                },
+                {
+                  "id": "G1_U6_ST_W_08",
+                  "headword": "mother",
+                  "pronunciation": "/mʌ́ðər/",
+                  "pos": "名",
+                  "meaning": "母親"
+                },
+                {
+                  "id": "G1_U6_ST_W_09",
+                  "headword": "mom",
+                  "pronunciation": "/mɑ́ːm/",
+                  "pos": "名",
+                  "meaning": "お母さん、ママ"
+                },
+                {
+                  "id": "G1_U6_ST_W_10",
+                  "headword": "father",
+                  "pronunciation": "/fάːðər/",
+                  "pos": "名",
+                  "meaning": "父親"
+                },
+                {
+                  "id": "G1_U6_ST_W_11",
+                  "headword": "dad",
+                  "pronunciation": "/dǽd/",
+                  "pos": "名",
+                  "meaning": "お父さん、パパ"
+                },
+                {
+                  "id": "G1_U6_ST_W_12",
+                  "headword": "aunt",
+                  "pronunciation": "/ǽnt/",
+                  "pos": "名",
+                  "meaning": "おば"
+                },
+                {
+                  "id": "G1_U6_ST_W_13",
+                  "headword": "uncle",
+                  "pronunciation": "/ʌ́ŋkl/",
+                  "pos": "名",
+                  "meaning": "おじ"
+                },
+                {
+                  "id": "G1_U6_ST_W_14",
+                  "headword": "child",
+                  "pronunciation": "/tʃáild/",
+                  "pos": "名",
+                  "meaning": "（親に対して）子"
+                },
+                {
+                  "id": "G1_U6_ST_W_15",
+                  "headword": "children",
+                  "pronunciation": "/tʃíldrən/",
+                  "pos": "名",
+                  "meaning": "childの複数形"
+                },
+                {
+                  "id": "G1_U6_ST_W_16",
+                  "headword": "sister",
+                  "pronunciation": "/sístər/",
+                  "pos": "名",
+                  "meaning": "姉、妹、姉妹"
+                },
+                {
+                  "id": "G1_U6_ST_W_17",
+                  "headword": "brother",
+                  "pronunciation": "/brʌ́ðər/",
+                  "pos": "名",
+                  "meaning": "兄、弟、兄弟"
+                },
+                {
+                  "id": "G1_U6_ST_W_18",
+                  "headword": "cousin",
+                  "pronunciation": "/kʌ́zn/",
+                  "pos": "名",
+                  "meaning": "いとこ"
+                },
+                {
+                  "id": "G1_U6_ST_W_19",
+                  "headword": "Felix",
+                  "pos": "名",
+                  "meaning": "フェリックス〔Tinaたちが飼っているネコの名〕"
+                },
+                {
+                  "id": "G1_U6_ST_W_20",
+                  "headword": "Cheer up.",
+                  "meaning": "元気を出して。"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "goal_section",
+                  "header": "Unit 6 の目標 (Goal)",
+                  "items": [
+                    {
+                      "tag": "Read",
+                      "text": "身近な人を紹介する文章を読み、おおまかな内容を捉えることができる。"
+                    },
+                    {
+                      "tag": "Write",
+                      "text": "友達のすてきなところが伝わる、紹介文を書くことができる。"
+                    }
+                  ]
+                },
+                {
+                  "type": "intro_section",
+                  "header": "About You",
+                  "items": [
+                    {
+                      "id": "G1_U6_ST_S_01",
+                      "en": "How are your friends or family doing these days?",
+                      "ja": "あなたの友達や家族の、最近の様子はどうですか。"
+                    },
+                    {
+                      "id": "G1_U6_ST_S_02",
+                      "en": "My friends and family are doing well.",
+                      "ja": "(例) 友達も家族も元気にしている。",
+                      "tag": "例"
+                    }
+                  ]
+                },
+                {
+                  "type": "tree_section",
+                  "header": "Tina's family (ティナの家族) & Tina's friends (ティナの友達)",
+                  "items": [
+                    {
+                      "id": "G1_U6_ST_T_01",
+                      "label": "祖父母",
+                      "text": "grandparents: grandma (おばあちゃん), grandpa (おじいちゃん)"
+                    },
+                    {
+                      "id": "G1_U6_ST_T_02",
+                      "label": "両親・親戚",
+                      "text": "parents: mom (お母さん), dad (お父さん), aunt (おば), uncle (おじ)"
+                    },
+                    {
+                      "id": "G1_U6_ST_T_03",
+                      "label": "子ども達・ペット",
+                      "text": "children: Tina (ティナ), sister (姉), brother (弟), cousin (いとこ), Felix (フェリックス)"
+                    },
+                    {
+                      "id": "G1_U6_ST_T_04",
+                      "label": "友達",
+                      "text": "Tina's friends: Hajin (ハジン), Kota (コウタ), Eri (エリ)"
+                    }
+                  ]
+                },
+                {
+                  "type": "check_section",
+                  "header": "1. 予想する",
+                  "items": [
+                    {
+                      "id": "G1_U6_ST_S_03",
+                      "en": "What happened to Tina?",
+                      "ja": "Tina はどうしたのでしょうか。"
+                    },
+                    {
+                      "id": "G1_U6_ST_S_04",
+                      "en": "She is not feeling well.",
+                      "ja": "(例) 体調が悪くなった。",
+                      "tag": "例"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 110
+        },
+        "YCD2": {
+          "title": "You Can Do It! 2: ゲストの魅力を伝えるMCになろう",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U6_YCD2_W_01",
+                  "headword": "special",
+                  "pronunciation": "/spéʃəl/",
+                  "pos": "形",
+                  "meaning": "特別な［の］"
+                },
+                {
+                  "id": "G1_U6_YCD2_W_02",
+                  "headword": "guest",
+                  "pronunciation": "/ɡést/",
+                  "pos": "名",
+                  "meaning": "招待客、ゲスト"
+                },
+                {
+                  "id": "G1_U6_YCD2_W_03",
+                  "headword": "today",
+                  "pronunciation": "/tədéi/",
+                  "pos": "副",
+                  "meaning": "今日（は）"
+                },
+                {
+                  "id": "G1_U6_YCD2_W_04",
+                  "headword": "comedian",
+                  "pronunciation": "/kəmíːdiən/",
+                  "pos": "名",
+                  "meaning": "お笑い芸人"
+                },
+                {
+                  "id": "G1_U6_YCD2_W_05",
+                  "headword": "appear(s)",
+                  "pronunciation": "/əpíər(z)/",
+                  "pos": "動",
+                  "meaning": "現れる、（～に）出る"
+                },
+                {
+                  "id": "G1_U6_YCD2_W_06",
+                  "headword": "as",
+                  "pronunciation": "/ǽz, əz/",
+                  "pos": "前",
+                  "meaning": "～として"
+                },
+                {
+                  "id": "G1_U6_YCD2_W_07",
+                  "headword": "fashion",
+                  "pronunciation": "/fǽʃən/",
+                  "pos": "名",
+                  "meaning": "ファッション"
+                },
+                {
+                  "id": "G1_U6_YCD2_W_08",
+                  "headword": "model",
+                  "pronunciation": "/mάːdl/",
+                  "pos": "名",
+                  "meaning": "モデル"
+                },
+                {
+                  "id": "G1_U6_YCD2_W_09",
+                  "headword": "confident",
+                  "pronunciation": "/kάnfədənt/",
+                  "pos": "形",
+                  "meaning": "自信がある、自信に満ちた"
+                },
+                {
+                  "id": "G1_U6_YCD2_W_10",
+                  "headword": "now",
+                  "pronunciation": "/náu/",
+                  "pos": "副",
+                  "meaning": "さて、さあ"
+                },
+                {
+                  "id": "G1_U6_YCD2_W_11",
+                  "headword": "talk",
+                  "pronunciation": "/tɔ́ːk/",
+                  "pos": "動",
+                  "meaning": "話す、しゃべる"
+                },
+                {
+                  "id": "G1_U6_YCD2_W_12",
+                  "headword": "welcome",
+                  "pronunciation": "/wélkəm/",
+                  "pos": "動",
+                  "meaning": "～を歓迎する、～を出迎える"
+                },
+                {
+                  "id": "G1_U6_YCD2_W_13",
+                  "headword": "studio",
+                  "pronunciation": "/st(j)úːdiòu/",
+                  "pos": "名",
+                  "meaning": "スタジオ"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "mc_script_section",
+                  "header": "MC台本：渡辺直美さんの紹介 (p.131 / 教科書p.98)",
+                  "label": "Tina が書いた台本 [65 words]",
+                  "items": [
+                    {
+                      "id": "G1_U6_YCD2_S_01",
+                      "en": "Hello, everyone.",
+                      "ja": "みなさん、こんにちは。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_02",
+                      "en": "We want to introduce our special guest today!",
+                      "ja": "今日の特別なゲストをご紹介したいと思います！"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_03",
+                      "en": "Her name is Watanabe Naomi.",
+                      "ja": "渡辺直美さんです。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_04",
+                      "en": "She is a very popular comedian.",
+                      "ja": "彼女はとても人気のあるお笑い芸人です。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_05",
+                      "en": "She can dance and sing well.",
+                      "ja": "ダンスと歌がお上手です。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_06",
+                      "en": "She sometimes appears as a fashion model.",
+                      "ja": "彼女はときどきファッションモデルとして登場することもあります。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_07",
+                      "en": "She is confident.",
+                      "ja": "彼女は自信に満ちています。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_08",
+                      "en": "She lives in New York now.",
+                      "ja": "今はニューヨークに住んでいます。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_09",
+                      "en": "I'm a big fan.",
+                      "ja": "私は大ファンです。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_10",
+                      "en": "I want to talk about dance with her.",
+                      "ja": "彼女とダンスについて話したいです。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_11",
+                      "en": "Now, here she is!",
+                      "ja": "では、お呼びしましょう！"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_12",
+                      "en": "Please welcome her to the studio!",
+                      "ja": "彼女をスタジオに歓迎してください！"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_13",
+                      "en": "[65 words]",
+                      "ja": "[65語]"
+                    }
+                  ]
+                },
+                {
+                  "type": "check_section",
+                  "header": "Read: 台本の読解チェック (p.131 / 教科書p.98)",
+                  "items": [
+                    {
+                      "id": "G1_U6_YCD2_C_01",
+                      "label": "① 紹介されていること",
+                      "text": "Tina はゲストのどのようなことを紹介していますか。",
+                      "ja": "(例) 名前、職業、得意なこと、性格、住んでいるところ。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_C_02",
+                      "label": "② 特に話したいこと",
+                      "text": "Tina がゲストと特に話したいことはなんでしょうか。当てはまる部分に下線を引きましょう。",
+                      "note": "下線部: I want to talk about dance with her."
+                    }
+                  ]
+                },
+                {
+                  "type": "phrase_list_section",
+                  "header": "① アイデアマップ [解答例: 大谷翔平] (p.132 / 教科書p.98)",
+                  "items": [
+                    {
+                      "id": "G1_U6_YCD2_M_01",
+                      "label": "名前",
+                      "en": "Ohtani Shohei",
+                      "ja": "大谷翔平"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_M_02",
+                      "label": "性格・特徴",
+                      "en": "strong",
+                      "ja": "たくましい"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_M_03",
+                      "label": "職業",
+                      "en": "famous baseball player",
+                      "ja": "有名な野球選手"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_M_04",
+                      "label": "得意なこと",
+                      "en": "can play baseball very well",
+                      "ja": "とても上手に野球をする"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_M_05",
+                      "label": "住んでいる所",
+                      "en": "lives in the U.S.",
+                      "ja": "アメリカに住んでいる"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_M_06",
+                      "label": "ペット",
+                      "en": "has a cute dog",
+                      "ja": "かわいい犬を飼っている"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_M_07",
+                      "label": "特技",
+                      "en": "speaks English well",
+                      "ja": "上手に英語を話す"
+                    }
+                  ]
+                },
+                {
+                  "type": "phrase_list_section",
+                  "header": "② 構成整理メモ [解答例] (p.132 / 教科書p.99)",
+                  "items": [
+                    {
+                      "id": "G1_U6_YCD2_M_08",
+                      "label": "すてきなところは？",
+                      "en": "Ohtani Shohei is strong.",
+                      "ja": "(例) 大谷翔平はたくましいです。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_M_09",
+                      "label": "詳しい説明",
+                      "en": "He practices baseball hard.",
+                      "ja": "(例) 彼は一生懸命に野球を練習します。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_M_10",
+                      "label": "その人に対して、どんな気持ち？",
+                      "en": "I'm a big fan.",
+                      "ja": "(例) 私は大ファンです。"
+                    }
+                  ]
+                },
+                {
+                  "type": "mc_script_section",
+                  "header": "③ 台本を書こう [解答例: 大谷翔平] (p.132 / 教科書p.99)",
+                  "items": [
+                    {
+                      "id": "G1_U6_YCD2_S_14",
+                      "en": "Hello, everyone.",
+                      "ja": "みなさん、こんにちは。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_15",
+                      "en": "We want to introduce our special guest today!",
+                      "ja": "今日の特別なゲストをご紹介したいと思います！"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_16",
+                      "en": "His name is Ohtani Shohei.",
+                      "ja": "大谷翔平です。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_17",
+                      "en": "He is a famous baseball player.",
+                      "ja": "彼は有名な野球選手です。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_18",
+                      "en": "He can hit and throw a ball very well.",
+                      "ja": "彼はとても上手にボールを打ったり投げたりすることができます。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_19",
+                      "en": "He practices baseball hard.",
+                      "ja": "彼は一生懸命に野球を練習します。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_20",
+                      "en": "He is strong.",
+                      "ja": "彼はたくましいです。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_21",
+                      "en": "He lives in the U.S. and he speaks English well.",
+                      "ja": "彼はアメリカに住んでいて上手に英語を話します。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_22",
+                      "en": "I'm a big fan.",
+                      "ja": "私は大ファンです。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_23",
+                      "en": "I want to talk with him.",
+                      "ja": "彼と話したいです。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_24",
+                      "en": "Now, here he is!",
+                      "ja": "では、お呼びしましょう！"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_25",
+                      "en": "Please welcome him to the studio!",
+                      "ja": "彼をスタジオに歓迎してください！"
+                    }
+                  ]
+                },
+                {
+                  "type": "mc_script_section",
+                  "header": "Writing モデル (p.133 / 教科書p.99)",
+                  "label": "大谷翔平選手の紹介",
+                  "items": [
+                    {
+                      "id": "G1_U6_YCD2_S_26",
+                      "en": "Hello, everyone.",
+                      "ja": "皆さん、こんにちは。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_27",
+                      "en": "I want to introduce our special guest today!",
+                      "ja": "本日の特別ゲストをご紹介します！"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_28",
+                      "en": "His name is Ohtani Shohei.",
+                      "ja": "彼の名前は大谷翔平です。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_29",
+                      "en": "He is a major league baseball player.",
+                      "ja": "彼はメジャーリーグの野球選手です。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_30",
+                      "en": "He can hit well.",
+                      "ja": "彼は打撃が上手です。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_31",
+                      "en": "He can pitch well, too.",
+                      "ja": "投球も上手です。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_32",
+                      "en": "He is very popular all over the world.",
+                      "ja": "彼は世界中でとても人気があります。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_33",
+                      "en": "He is very polite.",
+                      "ja": "彼はとても礼儀正しいです。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_34",
+                      "en": "He always sets a high goal, and he tries his best.",
+                      "ja": "彼は常に高い目標を設定し、最善を尽くします。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_35",
+                      "en": "I want to be a positive person like him.",
+                      "ja": "私も彼のような前向きな人間になりたいです。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_36",
+                      "en": "Now, here he is!",
+                      "ja": "さあ、来ました！"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_37",
+                      "en": "Please welcome him to the studio!",
+                      "ja": "スタジオに歓迎してください！"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "テストにトライ！ [解答例] (p.133 / 教科書p.99)",
+                  "label": "大好きなサッカー選手スズキサキの紹介",
+                  "items": [
+                    {
+                      "id": "G1_U6_YCD2_S_38",
+                      "en": "This is my favorite soccer player.",
+                      "ja": "こちらは私の大好きなサッカー選手です。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_39",
+                      "en": "Her name is Suzuki Saki.",
+                      "ja": "彼女の名前はスズキ サキです。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_40",
+                      "en": "She lives in New York.",
+                      "ja": "彼女はニューヨークに住んでいます。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_41",
+                      "en": "She plays in many countries.",
+                      "ja": "彼女は多くの国でプレーします。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_42",
+                      "en": "She is popular.",
+                      "ja": "彼女は人気があります。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_43",
+                      "en": "She practices hard every day.",
+                      "ja": "彼女は毎日熱心に練習します。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_44",
+                      "en": "I like watching her on TV.",
+                      "ja": "テレビで彼女を見るのが好きです。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_45",
+                      "en": "She can play well.",
+                      "ja": "彼女は上手にプレーします。"
+                    },
+                    {
+                      "id": "G1_U6_YCD2_S_46",
+                      "en": "I want to meet her.",
+                      "ja": "私は彼女に会いたいです。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "131-133"
+        }
+      },
+      "hasAppendix": true
+    }
+  },
+  "allExplanations": {
+    "G1_U6_P1_S_03": "**has** は **have**（～を持っている）の3人称単数現在形です。have は原形に -s を付けるのではなく、特別な形 **has** を使います。**a lot of ～** は「たくさんの～」という意味で、その後に続く名詞は、数えられる名詞の場合は複数形にします。",
+    "G1_U6_P1_S_04": "**likes** は **like**（～が好き）の3人称単数現在形で、原形に **-s** を付けます。",
+    "G1_U6_P1_S_05": "主語が she のとき、一般動詞には語尾に **-(e)s** を付けます。**study**（勉強する）の3人称単数現在形は、**studies** です。study は〈子音字＋y〉で終わる語なので、原形（-(e)s の付かない形）の末尾の y を **i** に変えて **-es** を付けます。**hard** は、「熱心に、懸命に」という意味の副詞で、直前の動詞（study）の様子を説明しています。",
+    "G1_U6_P1_S_07": "**these days** は「このごろ」という意味で、このように文のはじめに置くことも、最後に置くこともあります。**a little** は「少しは」という意味で、直後の形容詞 **quiet**（静かな）の程度を説明しています。",
+    "G1_U6_P2_S_05": "この文の **It** は時間・天候などを表す主語です。**almost** は「ほとんど」という意味です。ここでは、もうすぐクリスマスであることを表しています。",
+    "G1_U6_P2_S_08": "**A new bicycle, please.** は、Nick がその前に言った A new bicycle に **please** を付けて、言い換えています。please を付けると「どうぞ～」と丁寧な言い方になります。お願いするときは丁寧な言い方にします。",
+    "G1_U6_P2_S_11": "**All right.** は、Sorry. と謝ったのを受け、その謝罪を受け入れ納得したことを伝える表現です。",
+    "G1_U6_P2_S_13": "where のような疑問詞で始まる疑問文には Yes や No で答えません。Where is [are] ～? の疑問文には、**in bed**（ベッドで寝ている）のように場所を表す語句を使って答えます。**in** は、「～に［で］」と時間・位置を表す前置詞です。",
+    "G1_U6_P2_S_15": "she のように主語が3人称（I、you 以外）で単数のときは、主語の前に **Does** を置いて、一般動詞の疑問文を作ります。このとき、後に続く動詞は原形を使います。**have a cold** は「風邪をひいている」の意味を表します。この **cold** は「寒い」という形容詞ではなく、「風邪」という名詞です。",
+    "G1_U6_P2_S_16": "Does ～? の疑問文には **does** を使って答えます。Yes のときは **〈Yes, 主語 ＋ does.〉**、No のときは **〈No, 主語 ＋ doesn't [does not].〉** の形を使います。",
+    "G1_U6_P3_S_04": "主語が3人称単数のときの一般動詞の否定文は、動詞の前に **doesn't [does not]** を置き、**〈主語 ＋ doesn't [does not] ＋ 動詞の原形～.〉** の語順になります。このとき、疑問文と同様、後に続く動詞は原形を使います。",
+    "G1_U6_P3_S_07": "**Sure.** は、「もちろん。」と、強く肯定するときに使う表現です。",
+    "G1_U6_P3_S_10": "**I see.** は、「わかりました［なるほど］。」と、納得したときに使う表現です。",
+    "G1_U6_P3_S_11": "**Don't worry.** は、「心配しないで。」と相手を励ましたり、慰めたりするときに使います。よびかけ (Nick) は、最後を上げ調子に言いましょう。",
+    "G1_U6_P3_S_12": "**a little bit** は、「ほんの少し、ちょっと」という程度を表す表現です。",
+    "G1_U6_P3_S_13": "主語が she なので、「～を必要とする」という意味の動詞の **need** の語尾に **s** が付いています。**some** は「いくらかの」という意味の形容詞で、「休息」という意味の名詞、**rest** にかかっています。"
+  }
+}

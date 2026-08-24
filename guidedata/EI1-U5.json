@@ -1,0 +1,2677 @@
+{
+  "type": "FULL_BACKUP",
+  "units": {
+    "G1-U5": {
+      "title": "Unit G1-U5",
+      "parts": {
+        "AP": {
+          "title": "AI Appendix: Unit 5 総まとめ",
+          "views": {
+            "PART_APPENDIX": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "info_box",
+                  "header": "P1: 相手を動かす「命令文」と「Let's」",
+                  "items": [
+                    {
+                      "tag": "Point",
+                      "text": "命令文は「You」を言わずに、いきなり動詞から始めるのがコツだよ！",
+                      "en": "==**Turn on**== your camera."
+                    },
+                    {
+                      "tag": "Don't",
+                      "text": "「～しちゃダメ」と優しく注意するときは Don't を最初につけよう。",
+                      "en": "==**Don't**== be shy."
+                    },
+                    {
+                      "tag": "Let's",
+                      "text": "「いっしょにやろう！」と誘うときは、仲間の証の Let's を使おう。",
+                      "en": "==**Let's**== begin."
+                    }
+                  ]
+                },
+                {
+                  "type": "info_box",
+                  "header": "P2-P3: 場所(Where)と時間(When)の名探偵",
+                  "items": [
+                    {
+                      "tag": "Where",
+                      "text": "「どこ？」ときくときは Where。場所を答えるときは at, in, on などの前置詞を忘れずにね！"
+                    },
+                    {
+                      "tag": "When",
+                      "text": "「いつ？」ときくときは When。時刻(What time)よりももっと広い「時」をきくことができるよ。"
+                    }
+                  ]
+                }
+              ]
+            },
+            "PRACTICAL_GUIDE": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "flow_section",
+                  "header": "注文の 3 ステップ",
+                  "items": [
+                    {
+                      "id": "G1_U5_AP_S_01",
+                      "label": "1. 注文する",
+                      "en": "Can I have the pizza?",
+                      "ja": "ピザをいただけますか？"
+                    },
+                    {
+                      "id": "G1_U5_AP_S_02",
+                      "label": "2. 数を言う",
+                      "en": "Two pieces, please.",
+                      "ja": "2切れお願いします。"
+                    },
+                    {
+                      "id": "G1_U5_AP_S_03",
+                      "label": "3. 値段をきく",
+                      "en": "How much is it?",
+                      "ja": "いくらですか？"
+                    }
+                  ]
+                }
+              ]
+            },
+            "UNIT_APPENDIX": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "message_box",
+                  "header": "デイヴィッドのように心を開こう",
+                  "items": [
+                    {
+                      "tag": "Bravo!",
+                      "text": "このユニットで、君は「相手に何かを頼む」「予定を立てる」「買い物をする」という、海外旅行でも役立つ一生モノのスキルを手に入れたよ！"
+                    },
+                    {
+                      "tag": "Next Step",
+                      "text": "David のように、車いすテニスに打ち込んだり、自分の学校を紹介したりする姿はとてもかっこいいね。次は自分の好きなことについても英語で話せるようになろう。Good luck!"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 0,
+          "hasAppendix": true
+        },
+        "P1_G": {
+          "title": "Part 1 解説",
+          "views": {
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "命令文",
+                  "text": "① 「～しなさい」と相手に指示や注意をするときは、主語を省略して動詞の原形で文を始めます。このような文を命令文といいます。",
+                  "items": [
+                    {
+                      "tag": "普通の文",
+                      "en": "You turn on your camera.",
+                      "ja": "(あなたはカメラをオンにしています。)"
+                    },
+                    {
+                      "tag": "命令文",
+                      "en": "Turn on your camera.",
+                      "ja": "(カメラをオンにしてください。)"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "label": "禁止の命令文",
+                  "text": "② 「～してはいけません」と相手に禁止するときは、動詞の原形の前に Don't [Do not] を置いて文を始めます。",
+                  "items": [
+                    {
+                      "tag": "命令文",
+                      "en": "Be shy.",
+                      "ja": "(恥ずかしがりなさい。)"
+                    },
+                    {
+                      "tag": "禁止の命令文",
+                      "en": "Don't be shy.",
+                      "ja": "(恥ずかしがらないでください。)"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "label": "Let's ～ の文",
+                  "text": "③ 「～しましょう」と相手を誘うときは、〈Let's + 動詞の原形 ～.〉の文を使います。",
+                  "items": [
+                    {
+                      "tag": "命令文",
+                      "en": "Begin.",
+                      "ja": "(始めなさい。)"
+                    },
+                    {
+                      "tag": "誘う文",
+                      "en": "Let's begin.",
+                      "ja": "(始めましょう。)"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G1_U5_P1G_E_01",
+                      "ref_num": "③",
+                      "en": "Good to see you, Tina!",
+                      "text": "「会えてうれしいです。」と相手に会えてうれしい気持ちを伝える表現です。",
+                      "ref_id": "G1_U5_P1_S_03"
+                    },
+                    {
+                      "id": "G1_U5_P1G_E_02",
+                      "ref_num": "⑤, ⑮",
+                      "en": "Turn on your camera! / Ask me anything.",
+                      "text": "動詞の原形で始まっているので「～しなさい」と相手に指示する言い方です。⑤の Turn on ～ は「～をつける」という意味で、テレビや電話などの電源を入れるときに使います。⑮の anything は「何でも」という意味の代名詞です。",
+                      "ref_id": "G1_U5_P1_S_05"
+                    },
+                    {
+                      "id": "G1_U5_P1G_E_03",
+                      "ref_num": "⑥",
+                      "en": "Sorry.",
+                      "text": "「ごめんなさい。」という意味の表現です。謝るときに使います。",
+                      "ref_id": "G1_U5_P1_S_06"
+                    },
+                    {
+                      "id": "G1_U5_P1G_E_04",
+                      "ref_num": "⑪",
+                      "en": "Sure.",
+                      "text": "「もちろんです。」という意味で、相手に何かを頼まれたりお願いされたりしたときに応じる表現です。",
+                      "ref_id": "G1_U5_P1_S_11"
+                    },
+                    {
+                      "id": "G1_U5_P1G_E_05",
+                      "ref_num": "⑫",
+                      "en": "Let's begin, Kota.",
+                      "text": "「～しましょう。」と相手を誘うときは、〈Let's + 動詞の原形 ～.〉の文を使います。",
+                      "ref_id": "G1_U5_P1_S_12"
+                    },
+                    {
+                      "id": "G1_U5_P1G_E_06",
+                      "ref_num": "⑭",
+                      "en": "Don't be shy.",
+                      "text": "「～してはいけません。」と相手に禁止するときは、動詞の原形の前に Don't を置きます。be は be 動詞の原形です。",
+                      "ref_id": "G1_U5_P1_S_14"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 99
+        },
+        "P1": {
+          "title": "Part 1: はじめまして！",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U5_P1_W_01",
+                  "headword": "video call",
+                  "pronunciation": "/vídiou kɔ̀ːl/",
+                  "pos": "名",
+                  "meaning": "ビデオ通話"
+                },
+                {
+                  "id": "G1_U5_P1_W_02",
+                  "headword": "call",
+                  "pronunciation": "/kɔ́ːl/",
+                  "pos": "名",
+                  "meaning": "電話（をかけること）、通話"
+                },
+                {
+                  "id": "G1_U5_P1_W_03",
+                  "headword": "good",
+                  "pronunciation": "/ɡúd/",
+                  "pos": "形",
+                  "meaning": "（知らせなどが）うれしい、（時・経験などが）楽しい"
+                },
+                {
+                  "id": "G1_U5_P1_W_04",
+                  "headword": "see",
+                  "pronunciation": "/síː/",
+                  "pos": "動",
+                  "meaning": "～に会う、～が見える"
+                },
+                {
+                  "id": "G1_U5_P1_W_05",
+                  "headword": "face",
+                  "pronunciation": "/féis/",
+                  "pos": "名",
+                  "meaning": "顔"
+                },
+                {
+                  "id": "G1_U5_P1_W_06",
+                  "headword": "on",
+                  "pronunciation": "/άn, ɔ́ːn/",
+                  "pos": "前",
+                  "meaning": "〔器具・交通〕～で、～を使って"
+                },
+                {
+                  "id": "G1_U5_P1_W_07",
+                  "pos": "副",
+                  "meaning": "〔電気などが〕ついて、通じて"
+                },
+                {
+                  "id": "G1_U5_P1_W_08",
+                  "headword": "camera",
+                  "pronunciation": "/kǽmərə/",
+                  "pos": "名",
+                  "meaning": "カメラ"
+                },
+                {
+                  "id": "G1_U5_P1_W_09",
+                  "headword": "sorry",
+                  "pronunciation": "/sάri/",
+                  "pos": "間",
+                  "meaning": "すみません"
+                },
+                {
+                  "id": "G1_U5_P1_W_10",
+                  "headword": "now",
+                  "pronunciation": "/náu/",
+                  "pos": "副",
+                  "meaning": "今（では）、現在（では）"
+                },
+                {
+                  "id": "G1_U5_P1_W_11",
+                  "headword": "know",
+                  "pronunciation": "/nóu/",
+                  "pos": "動",
+                  "meaning": "（～を）知る、わかっている"
+                },
+                {
+                  "id": "G1_U5_P1_W_12",
+                  "headword": "life",
+                  "pronunciation": "/láif/",
+                  "pos": "名",
+                  "meaning": "生活"
+                },
+                {
+                  "id": "G1_U5_P1_W_13",
+                  "headword": "sure",
+                  "pronunciation": "/ʃúər/",
+                  "pos": "副",
+                  "meaning": "（返答として）はい、もちろん"
+                },
+                {
+                  "id": "G1_U5_P1_W_14",
+                  "headword": "begin",
+                  "pronunciation": "/biɡín/",
+                  "pos": "動",
+                  "meaning": "（～を）始める"
+                },
+                {
+                  "id": "G1_U5_P1_W_15",
+                  "headword": "um",
+                  "pronunciation": "/ʌ́m/",
+                  "pos": "間",
+                  "meaning": "うーん、あのう"
+                },
+                {
+                  "id": "G1_U5_P1_W_16",
+                  "headword": "do",
+                  "pronunciation": "/dúː, də/",
+                  "pos": "助",
+                  "meaning": "〔否定の命令文をつくる〕～するな"
+                },
+                {
+                  "id": "G1_U5_P1_W_17",
+                  "headword": "shy",
+                  "pronunciation": "/ʃái/",
+                  "pos": "形",
+                  "meaning": "恥ずかしがりの、人見知りの"
+                },
+                {
+                  "id": "G1_U5_P1_W_18",
+                  "headword": "anything",
+                  "pronunciation": "/éniθìŋ/",
+                  "pos": "代",
+                  "meaning": "何でも"
+                },
+                {
+                  "id": "G1_U5_P1_W_19",
+                  "headword": "turn on ~",
+                  "meaning": "（明かりなど）をつける"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "dialogue_section",
+                  "header": "はじめまして！ (p.93)",
+                  "items": [
+                    {
+                      "id": "G1_U5_P1_S_Q1",
+                      "speaker": "Question",
+                      "en": "Q. ビデオ通話の初めに、Hajin は Kota に何を伝えたでしょうか。",
+                      "ja": "Q. ビデオ通話の初めに、Hajin は Kota に何を伝えたでしょうか。"
+                    },
+                    {
+                      "id": "G1_U5_P1_S_A1",
+                      "speaker": "Answer",
+                      "en": "A. (例) コウタのビデオカメラをつけること。",
+                      "ja": "A. (例) コウタのビデオカメラをつけること。"
+                    },
+                    {
+                      "id": "G1_U5_P1_S_01",
+                      "ref_num": "①",
+                      "speaker": "Setting",
+                      "en": "On a video call:",
+                      "ja": "ビデオ通話で："
+                    },
+                    {
+                      "id": "G1_U5_P1_S_02",
+                      "ref_num": "②",
+                      "speaker": "Tina",
+                      "en": "Hi, David!",
+                      "ja": "こんにちは、デイヴィッド！"
+                    },
+                    {
+                      "id": "G1_U5_P1_S_03",
+                      "ref_num": "③",
+                      "speaker": "David",
+                      "en": "Good to see you, Tina!",
+                      "ja": "ティナ、会えてうれしいよ！"
+                    },
+                    {
+                      "id": "G1_U5_P1_S_04",
+                      "ref_num": "④",
+                      "speaker": "Hajin",
+                      "en": "Kota, we can't see your face.",
+                      "ja": "コウタ、顔が映ってないよ。"
+                    },
+                    {
+                      "id": "G1_U5_P1_S_05",
+                      "ref_num": "⑤",
+                      "speaker": "Hajin",
+                      "en": "Turn on your camera!",
+                      "ja": "カメラをつけて！"
+                    },
+                    {
+                      "id": "G1_U5_P1_S_06",
+                      "ref_num": "⑥",
+                      "speaker": "Kota",
+                      "en": "Sorry.",
+                      "ja": "ごめん。"
+                    },
+                    {
+                      "id": "G1_U5_P1_S_07",
+                      "ref_num": "⑦",
+                      "speaker": "Kota",
+                      "en": "It's on now.",
+                      "ja": "もうついているよ。"
+                    },
+                    {
+                      "id": "G1_U5_P1_S_08",
+                      "ref_num": "⑧",
+                      "speaker": "Kota",
+                      "en": "Nice to meet you.",
+                      "ja": "よろしくね。"
+                    },
+                    {
+                      "id": "G1_U5_P1_S_09",
+                      "ref_num": "⑨",
+                      "speaker": "David",
+                      "en": "Nice to meet you, too.",
+                      "ja": "こちらこそ、よろしくね。"
+                    },
+                    {
+                      "id": "G1_U5_P1_S_10",
+                      "ref_num": "⑩",
+                      "speaker": "Tina",
+                      "en": "My friends want to know about your school life, David.",
+                      "ja": "デイヴィッド、私の友達が君の学校生活について知りたいんだって。"
+                    },
+                    {
+                      "id": "G1_U5_P1_S_11",
+                      "ref_num": "⑪",
+                      "speaker": "David",
+                      "en": "Sure.",
+                      "ja": "いいよ。"
+                    },
+                    {
+                      "id": "G1_U5_P1_S_12",
+                      "ref_num": "⑫",
+                      "speaker": "Eri",
+                      "en": "Let's begin, Kota.",
+                      "ja": "コウタ、始めよう。"
+                    },
+                    {
+                      "id": "G1_U5_P1_S_13",
+                      "ref_num": "⑬",
+                      "speaker": "Kota",
+                      "en": "Um ....",
+                      "ja": "えーと……。"
+                    },
+                    {
+                      "id": "G1_U5_P1_S_14",
+                      "ref_num": "⑭",
+                      "speaker": "David",
+                      "en": "Don't be shy.",
+                      "ja": "恥ずかしがらないで。"
+                    },
+                    {
+                      "id": "G1_U5_P1_S_15",
+                      "ref_num": "⑮",
+                      "speaker": "David",
+                      "en": "Ask me anything.",
+                      "ja": "何でもきいてよ。"
+                    },
+                    {
+                      "id": "G1_U5_P1_S_16",
+                      "speaker": "You're the Writer!",
+                      "en": "Well, are you in any club?",
+                      "ja": "(解答例) えーと、クラブには入っているかな。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak (p.94)",
+                  "label": "標識の意味を説明しよう",
+                  "items": [
+                    {
+                      "id": "G1_U5_P1_S_17",
+                      "speaker": "[解答例] (1)",
+                      "en": "Do not use the phone.",
+                      "ja": "(電話を使用してはいけません。)"
+                    },
+                    {
+                      "id": "G1_U5_P1_S_18",
+                      "speaker": "[解答例] (2)",
+                      "en": "Do not take a picture.",
+                      "ja": "(写真を撮ってはいけません。)"
+                    },
+                    {
+                      "id": "G1_U5_P1_S_19",
+                      "speaker": "[解答例] (3)",
+                      "en": "Do not eat or drink.",
+                      "ja": "(飲食をしてはいけません。)"
+                    },
+                    {
+                      "id": "G1_U5_P1_S_20",
+                      "speaker": "[解答例] (4)",
+                      "en": "Watch your step.",
+                      "ja": "(足元に注意してください。)"
+                    }
+                  ]
+                }
+              ]
+            },
+            "GRAMMAR": {
+              "items": [
+                {
+                  "id": "G1_U5_P1_K_01",
+                  "en": "Turn on your camera.",
+                  "ja": "(カメラをオンにしてください。)",
+                  "ref_id": "G1_U5_P1_S_05"
+                },
+                {
+                  "id": "G1_U5_P1_K_02",
+                  "en": "Don't be shy.",
+                  "ja": "(恥ずかしがらないでください。)",
+                  "ref_id": "G1_U5_P1_S_14"
+                },
+                {
+                  "id": "G1_U5_P1_K_03",
+                  "en": "Let's begin.",
+                  "ja": "(始めましょう。)",
+                  "ref_id": "G1_U5_P1_S_12"
+                }
+              ],
+              "content_blocks": []
+            }
+          },
+          "explanations": {},
+          "page": 94
+        },
+        "P2_G": {
+          "title": "Part 2 解説",
+          "views": {
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "「どこ」なのかをたずねる。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "==**Where's**== the science lab?",
+                      "ja": "(理科室はどこですか。)",
+                      "ref_id": "G1_U5_P2_S_01"
+                    },
+                    {
+                      "ref_num": "②",
+                      "en": "— It's ==**on**== the first floor.",
+                      "ja": "(1階です。)",
+                      "ref_id": "G1_U5_P2_K_01"
+                    },
+                    {
+                      "ref_num": "③",
+                      "en": "==**Where do**== you have lunch?",
+                      "ja": "(あなたは昼食をどこで食べますか。)",
+                      "ref_id": "G1_U5_P2_S_08"
+                    },
+                    {
+                      "ref_num": "④",
+                      "en": "— We usually eat ==**in**== the cafeteria.",
+                      "ja": "(たいていカフェテリアで食べます。)",
+                      "ref_id": "G1_U5_P2_S_09"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "where",
+                  "text": "① 「どこに［で］」と場所をたずねるときは疑問詞 where を使います。「～はどこですか？」という疑問文は、文頭に where を置き〈Where + is [are] + 主語 ～?〉の形にします。ここでの be 動詞は、主語が単数なら is、複数なら are を使います。この is、are は「～です」ではなく「（～が）います［あります］」の意味で使われていますから注意しましょう。",
+                  "items": [
+                    {
+                      "tag": "Where is [are] ～?",
+                      "text": "場所を表す語句を使って答えます。at, in, on などの場所を表す前置詞と組み合わせて表します。"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "label": "どこで～しますか。",
+                  "text": "③ 「どこで～しますか。」と一般動詞でたずねるときは、〈Where + do + 主語 + 動詞の原形 ～?〉の形で表します。",
+                  "items": [
+                    {
+                      "tag": "Where do ～?",
+                      "text": "④と同様に、at, in, on など場所を表す前置詞を使って答えます。"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G1_U5_P2G_E_01",
+                      "ref_num": "①",
+                      "en": "Where's your school?",
+                      "text": "Where's は Where is の短縮形です。Where ～? は「～はどこですか。」と場所をたずねるときに使います。",
+                      "ref_id": "G1_U5_P2_S_01"
+                    },
+                    {
+                      "id": "G1_U5_P2G_E_02",
+                      "ref_num": "②",
+                      "en": "It's in Queens, New York.",
+                      "text": "Where ～? の質問文には Yes や No で答えません。at, in, on など場所を表す前置詞を使い、場所を答えます。",
+                      "ref_id": "G1_U5_P2_S_02"
+                    },
+                    {
+                      "id": "G1_U5_P2G_E_03",
+                      "ref_num": "③",
+                      "en": "Queens is famous for its ethnic diversity.",
+                      "text": "be famous for ～ は「～で有名である」という意味の表現です。for のあとには、有名であることの理由を表す言葉が入ります。",
+                      "ref_id": "G1_U5_P2_S_03"
+                    },
+                    {
+                      "id": "G1_U5_P2G_E_04",
+                      "ref_num": "⑧",
+                      "en": "Where do you have lunch?",
+                      "text": "「どこで～しますか。」と何かをする場所をたずねるときは、〈where + do + 主語 + 動詞の原形 ～?〉の形で表します。",
+                      "ref_id": "G1_U5_P2_S_08"
+                    },
+                    {
+                      "id": "G1_U5_P2G_E_05",
+                      "ref_num": "⑩",
+                      "en": "We can choose our favorite dishes, like pizza or French fries.",
+                      "text": "like ～ で、「～のような」という意味を表します。例を挙げるときに使います。",
+                      "ref_id": "G1_U5_P2_S_10"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 100
+        },
+        "P3": {
+          "title": "Part 3: すごいね、David",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U5_P3_W_01",
+                  "headword": "some",
+                  "pronunciation": "/sʌm, səm/",
+                  "pos": "形",
+                  "meaning": "いくつかの、いくらかの、多少の"
+                },
+                {
+                  "id": "G1_U5_P3_W_02",
+                  "headword": "wow",
+                  "pronunciation": "/wáu/",
+                  "pos": "間",
+                  "meaning": "わあ、うわあ"
+                },
+                {
+                  "id": "G1_U5_P3_W_03",
+                  "headword": "trophy",
+                  "pronunciation": "/tróufi/",
+                  "pos": "名",
+                  "meaning": "トロフィー"
+                },
+                {
+                  "id": "G1_U5_P3_W_04",
+                  "headword": "great",
+                  "pronunciation": "/ɡréit/",
+                  "pos": "形",
+                  "meaning": "優れた、偉大な"
+                },
+                {
+                  "id": "G1_U5_P3_W_05",
+                  "headword": "tennis",
+                  "pronunciation": "/ténis/",
+                  "pos": "名",
+                  "meaning": "テニス"
+                },
+                {
+                  "id": "G1_U5_P3_W_06",
+                  "headword": "show",
+                  "pronunciation": "/ʃóu/",
+                  "pos": "動",
+                  "meaning": "～を見せる"
+                },
+                {
+                  "id": "G1_U5_P3_W_07",
+                  "headword": "photo(s)",
+                  "pronunciation": "/fóutou(z)/",
+                  "pos": "名",
+                  "meaning": "写真"
+                },
+                {
+                  "id": "G1_U5_P3_W_08",
+                  "headword": "OK",
+                  "pronunciation": "/òukéi/",
+                  "pos": "副/形",
+                  "meaning": "はい、いいですよ、大丈夫な"
+                },
+                {
+                  "id": "G1_U5_P3_W_09",
+                  "headword": "wheelchair",
+                  "pronunciation": "/hwíːltʃèər/",
+                  "pos": "名",
+                  "meaning": "車いす"
+                },
+                {
+                  "id": "G1_U5_P3_W_10",
+                  "headword": "practice",
+                  "pronunciation": "/prǽktis/",
+                  "pos": "動",
+                  "meaning": "（～を）練習する"
+                },
+                {
+                  "id": "G1_U5_P3_W_11",
+                  "headword": "match",
+                  "pronunciation": "/mǽtʃ/",
+                  "pos": "名",
+                  "meaning": "試合"
+                },
+                {
+                  "id": "G1_U5_P3_W_12",
+                  "headword": "next",
+                  "pronunciation": "/nékst/",
+                  "pos": "形",
+                  "meaning": "次の、来～"
+                },
+                {
+                  "id": "G1_U5_P3_W_13",
+                  "headword": "luck",
+                  "pronunciation": "/lʌ́k/",
+                  "pos": "名",
+                  "meaning": "幸運、つき"
+                },
+                {
+                  "id": "G1_U5_P3_W_14",
+                  "headword": "wheelchair tennis",
+                  "pos": "名",
+                  "meaning": "車いすテニス"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "dialogue_section",
+                  "header": "すごいね、David (p.97)",
+                  "items": [
+                    {
+                      "id": "G1_U5_P3_S_Q1",
+                      "speaker": "Question",
+                      "en": "Q. David の次の試合はいつでしょうか。",
+                      "ja": "Q. David の次の試合はいつでしょうか。"
+                    },
+                    {
+                      "id": "G1_U5_P3_S_A1",
+                      "speaker": "Answer",
+                      "en": "A. (例) 来月。",
+                      "ja": "A. (例) 来月。"
+                    },
+                    {
+                      "id": "G1_U5_P3_S_01",
+                      "ref_num": "①",
+                      "speaker": "Hajin",
+                      "en": "Do you play sports?",
+                      "ja": "スポーツはするの？"
+                    },
+                    {
+                      "id": "G1_U5_P3_S_02",
+                      "ref_num": "②",
+                      "speaker": "Hajin",
+                      "en": "I see some trophies.",
+                      "ja": "トロフィーが見えるよ。"
+                    },
+                    {
+                      "id": "G1_U5_P3_S_03",
+                      "ref_num": "③",
+                      "speaker": "Tina",
+                      "en": "David is a great tennis player.",
+                      "ja": "デイヴィッドはすごいテニス選手なんだよ。"
+                    },
+                    {
+                      "id": "G1_U5_P3_S_04",
+                      "ref_num": "④",
+                      "speaker": "David",
+                      "en": "Thanks, Tina.",
+                      "ja": "ティナ、ありがとう。"
+                    },
+                    {
+                      "id": "G1_U5_P3_S_05",
+                      "ref_num": "⑤",
+                      "speaker": "Tina",
+                      "en": "Show your photos of tennis.",
+                      "ja": "テニスの写真を見せてよ。"
+                    },
+                    {
+                      "id": "G1_U5_P3_S_06",
+                      "ref_num": "⑥",
+                      "speaker": "David",
+                      "en": "OK.",
+                      "ja": "いいよ。"
+                    },
+                    {
+                      "id": "G1_U5_P3_S_07",
+                      "ref_num": "⑦",
+                      "speaker": "Kota",
+                      "en": "Wow!",
+                      "ja": "わあ！"
+                    },
+                    {
+                      "id": "G1_U5_P3_S_08",
+                      "ref_num": "⑧",
+                      "speaker": "Kota",
+                      "en": "You play wheelchair tennis.",
+                      "ja": "車いすテニスをしているんだね。"
+                    },
+                    {
+                      "id": "G1_U5_P3_S_09",
+                      "ref_num": "⑨",
+                      "speaker": "Hajin",
+                      "en": "When do you practice?",
+                      "ja": "いつ練習しているの？"
+                    },
+                    {
+                      "id": "G1_U5_P3_S_10",
+                      "ref_num": "⑩",
+                      "speaker": "David",
+                      "en": "After school and on weekends.",
+                      "ja": "放課後と週末だよ。"
+                    },
+                    {
+                      "id": "G1_U5_P3_S_11",
+                      "ref_num": "⑪",
+                      "speaker": "Eri",
+                      "en": "When's your next match?",
+                      "ja": "次の試合はいつあるの？"
+                    },
+                    {
+                      "id": "G1_U5_P3_S_12",
+                      "ref_num": "⑫",
+                      "speaker": "David",
+                      "en": "It's next month.",
+                      "ja": "来月だよ。"
+                    },
+                    {
+                      "id": "G1_U5_P3_S_13",
+                      "ref_num": "⑬",
+                      "speaker": "Eri",
+                      "en": "Good luck!",
+                      "ja": "がんばってね！"
+                    },
+                    {
+                      "id": "G1_U5_P3_S_14",
+                      "ref_num": "⑭",
+                      "speaker": "David",
+                      "en": "Thanks.",
+                      "ja": "ありがとう。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak (p.98)",
+                  "label": "1日の生活の違いを確かめよう",
+                  "items": [
+                    {
+                      "id": "G1_U5_P3_S_15",
+                      "speaker": "[解答例] (1)",
+                      "en": "When do you do your homework?",
+                      "ja": "(あなたはいつ宿題をしますか。)"
+                    },
+                    {
+                      "id": "G1_U5_P3_S_16",
+                      "speaker": "[解答例] (1) Ans",
+                      "en": "In the morning. / After dinner. / At night.",
+                      "ja": "(午前中です。 / 夕食の後です。 / 夜です。)"
+                    },
+                    {
+                      "id": "G1_U5_P3_S_17",
+                      "speaker": "[解答例] (2)",
+                      "en": "When do you take a bath?",
+                      "ja": "(あなたはいつお風呂に入りますか。)"
+                    },
+                    {
+                      "id": "G1_U5_P3_S_18",
+                      "speaker": "[解答例] (2) Ans",
+                      "en": "At about six.",
+                      "ja": "(6時ごろです。)"
+                    }
+                  ]
+                }
+              ]
+            },
+            "GRAMMAR": {
+              "items": [
+                {
+                  "id": "G1_U5_P3_K_01",
+                  "en": "When's your next match? — It's next month.",
+                  "ja": "(次の試合はいつですか。 ― 来月です。)",
+                  "ref_id": "G1_U5_P3_S_11"
+                },
+                {
+                  "id": "G1_U5_P3_K_02",
+                  "en": "When do you practice? — After school and on weekends.",
+                  "ja": "(いつ練習しますか。 ― 放課後と週末です。)",
+                  "ref_id": "G1_U5_P3_S_09"
+                }
+              ],
+              "content_blocks": []
+            }
+          },
+          "explanations": {},
+          "page": 98
+        },
+        "DL2": {
+          "title": "Daily Life 2: 注文",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U5_DL2_W_01",
+                  "headword": "tomato",
+                  "pronunciation": "/təméitou/",
+                  "pos": "名",
+                  "meaning": "トマト"
+                },
+                {
+                  "id": "G1_U5_DL2_W_02",
+                  "headword": "basil",
+                  "pronunciation": "/bǽzl/",
+                  "pos": "名",
+                  "meaning": "バジル"
+                },
+                {
+                  "id": "G1_U5_DL2_W_03",
+                  "headword": "Italy",
+                  "pronunciation": "/ítəli/",
+                  "pos": "名",
+                  "meaning": "イタリア"
+                },
+                {
+                  "id": "G1_U5_DL2_W_04",
+                  "headword": "pho",
+                  "pronunciation": "/fóu/",
+                  "pos": "名",
+                  "meaning": "フォー（ベトナムの麺料理）"
+                },
+                {
+                  "id": "G1_U5_DL2_W_05",
+                  "headword": "chicken",
+                  "pronunciation": "/tʃíkin/",
+                  "pos": "名",
+                  "meaning": "とり肉"
+                },
+                {
+                  "id": "G1_U5_DL2_W_06",
+                  "headword": "beef",
+                  "pronunciation": "/bíːf/",
+                  "pos": "名",
+                  "meaning": "牛肉"
+                },
+                {
+                  "id": "G1_U5_DL2_W_07",
+                  "headword": "Vietnam",
+                  "pronunciation": "/vìetnάːm/",
+                  "pos": "名",
+                  "meaning": "ベトナム"
+                },
+                {
+                  "id": "G1_U5_DL2_W_08",
+                  "headword": "vegetable",
+                  "pronunciation": "/védʒtəbl/",
+                  "pos": "名",
+                  "meaning": "野菜"
+                },
+                {
+                  "id": "G1_U5_DL2_W_09",
+                  "headword": "India",
+                  "pronunciation": "/índiə/",
+                  "pos": "名",
+                  "meaning": "インド"
+                },
+                {
+                  "id": "G1_U5_DL2_W_10",
+                  "headword": "can",
+                  "pronunciation": "/kæn, kən/",
+                  "pos": "助",
+                  "meaning": "～してもよい"
+                },
+                {
+                  "id": "G1_U5_DL2_W_11",
+                  "headword": "how",
+                  "pronunciation": "/háu/",
+                  "pos": "副",
+                  "meaning": "（程度）どれほど、どれくらい"
+                },
+                {
+                  "id": "G1_U5_DL2_W_12",
+                  "headword": "much",
+                  "pronunciation": "/mʌ́tʃ/",
+                  "pos": "代",
+                  "meaning": "たくさん、多量、多額"
+                },
+                {
+                  "id": "G1_U5_DL2_W_13",
+                  "headword": "vendor",
+                  "pronunciation": "/véndər/",
+                  "pos": "名",
+                  "meaning": "売る人、売り手"
+                },
+                {
+                  "id": "G1_U5_DL2_W_14",
+                  "headword": "which",
+                  "pronunciation": "/hwítʃ/",
+                  "pos": "代",
+                  "meaning": "どちら、どれ"
+                },
+                {
+                  "id": "G1_U5_DL2_W_15",
+                  "headword": "would",
+                  "pronunciation": "/wúd, wəd/",
+                  "pos": "助",
+                  "meaning": "will の過去形"
+                },
+                {
+                  "id": "G1_U5_DL2_W_16",
+                  "headword": "please",
+                  "pronunciation": "/plíːz/",
+                  "pos": "副",
+                  "meaning": "どうか、どうぞ"
+                },
+                {
+                  "id": "G1_U5_DL2_W_17",
+                  "headword": "thousand",
+                  "pronunciation": "/θáuznd/",
+                  "pos": "名",
+                  "meaning": "1,000（の）"
+                },
+                {
+                  "id": "G1_U5_DL2_W_18",
+                  "headword": "yen",
+                  "pronunciation": "/jén/",
+                  "pos": "名",
+                  "meaning": "円（日本の通貨単位）"
+                },
+                {
+                  "id": "G1_U5_DL2_W_19",
+                  "headword": "pie",
+                  "pronunciation": "/pái/",
+                  "pos": "名",
+                  "meaning": "パイ"
+                },
+                {
+                  "id": "G1_U5_DL2_W_20",
+                  "headword": "cherry",
+                  "pronunciation": "/tʃéri/",
+                  "pos": "名",
+                  "meaning": "サクランボ"
+                },
+                {
+                  "id": "G1_U5_DL2_W_21",
+                  "headword": "piece",
+                  "pronunciation": "/píːs/",
+                  "pos": "名",
+                  "meaning": "1つ、1切れ、1枚"
+                },
+                {
+                  "id": "G1_U5_DL2_W_22",
+                  "headword": "ice cream",
+                  "pronunciation": "/áis krìːm/",
+                  "pos": "名",
+                  "meaning": "アイスクリーム"
+                },
+                {
+                  "id": "G1_U5_DL2_W_23",
+                  "headword": "coconut",
+                  "pronunciation": "/kóukənʌ̀t/",
+                  "pos": "名",
+                  "meaning": "ココナッツ"
+                },
+                {
+                  "id": "G1_U5_DL2_W_24",
+                  "headword": "scoop",
+                  "pronunciation": "/skúːp/",
+                  "pos": "名",
+                  "meaning": "すくうこと、一すくいの量"
+                },
+                {
+                  "id": "G1_U5_DL2_W_25",
+                  "headword": "tea",
+                  "pronunciation": "/tíː/",
+                  "pos": "名",
+                  "meaning": "お茶、紅茶"
+                },
+                {
+                  "id": "G1_U5_DL2_W_26",
+                  "headword": "in",
+                  "pronunciation": "/ín, ən/",
+                  "pos": "前",
+                  "meaning": "〔状態・状況〕～の場合には"
+                },
+                {
+                  "id": "G1_U5_DL2_W_27",
+                  "headword": "total",
+                  "pronunciation": "/tóutl/",
+                  "pos": "名",
+                  "meaning": "合計、総額"
+                },
+                {
+                  "id": "G1_U5_DL2_W_28",
+                  "headword": "Can I have ~?",
+                  "meaning": "～をいただけますか。～をください。"
+                },
+                {
+                  "id": "G1_U5_DL2_W_29",
+                  "headword": "Which would you like, ~ or ...?",
+                  "meaning": "～と…のどちらがよろしいですか。"
+                },
+                {
+                  "id": "G1_U5_DL2_W_30",
+                  "headword": "I'd like ~.",
+                  "meaning": "～がほしいです。"
+                },
+                {
+                  "id": "G1_U5_DL2_W_31",
+                  "headword": "How much ~?",
+                  "meaning": "～はいくらですか。"
+                },
+                {
+                  "id": "G1_U5_DL2_W_32",
+                  "headword": "How many ~?",
+                  "meaning": "いくつ～のですか。"
+                },
+                {
+                  "id": "G1_U5_DL2_W_33",
+                  "headword": "in total",
+                  "meaning": "全体で"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "goal_section",
+                  "header": "Goal",
+                  "items": [
+                    {
+                      "id": "G1_U5_DL2_S_01",
+                      "en": "Goal: You can order items and handle payment.",
+                      "ja": "目標：買い物や注文のやり取りをすることができる。"
+                    }
+                  ]
+                },
+                {
+                  "type": "menu_section",
+                  "header": "Food Menu Items",
+                  "items": [
+                    {
+                      "id": "G1_U5_DL2_M_01",
+                      "en": "Tomato Spaghetti",
+                      "ja": "トマトスパゲッティ"
+                    },
+                    {
+                      "id": "G1_U5_DL2_M_02",
+                      "en": "Basil Spaghetti",
+                      "ja": "バジルスパゲッティ"
+                    },
+                    {
+                      "id": "G1_U5_DL2_M_03",
+                      "en": "Chicken Pho",
+                      "ja": "鶏肉のフォー"
+                    },
+                    {
+                      "id": "G1_U5_DL2_M_04",
+                      "en": "Beef Pho",
+                      "ja": "牛肉のフォー"
+                    },
+                    {
+                      "id": "G1_U5_DL2_M_05",
+                      "en": "Chicken Curry",
+                      "ja": "チキンカレー"
+                    },
+                    {
+                      "id": "G1_U5_DL2_M_06",
+                      "en": "Vegetable Curry",
+                      "ja": "野菜カレー"
+                    },
+                    {
+                      "id": "G1_U5_DL2_M_07",
+                      "en": "Cherry Pie (1 piece)",
+                      "ja": "チェリーパイ（1切れ）"
+                    },
+                    {
+                      "id": "G1_U5_DL2_M_08",
+                      "en": "Coconut Ice Cream (1 scoop)",
+                      "ja": "ココナッツアイスクリーム（1すくい）"
+                    },
+                    {
+                      "id": "G1_U5_DL2_M_09",
+                      "en": "Hot Tea (1 cup)",
+                      "ja": "温かい紅茶（1杯）"
+                    }
+                  ]
+                },
+                {
+                  "type": "dialogue_section",
+                  "header": "1. スパゲッティの注文 (p.108)",
+                  "items": [
+                    {
+                      "id": "G1_U5_DL2_S_02",
+                      "speaker": "Haruto",
+                      "en": "Can I have the spaghetti?",
+                      "ja": "スパゲッティをください。"
+                    },
+                    {
+                      "id": "G1_U5_DL2_S_03",
+                      "speaker": "Vendor",
+                      "en": "Which would you like, tomato spaghetti or basil spaghetti?",
+                      "ja": "トマトスパゲッティとバジルスパゲッティ、どちらがよろしいですか。"
+                    },
+                    {
+                      "id": "G1_U5_DL2_S_04",
+                      "speaker": "Haruto",
+                      "en": "I'd like tomato spaghetti, please. How much is it?",
+                      "ja": "トマトスパゲッティをお願いします。いくらですか。"
+                    },
+                    {
+                      "id": "G1_U5_DL2_S_05",
+                      "speaker": "Vendor",
+                      "en": "It's one thousand yen.",
+                      "ja": "1,000円です。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "2. カレーの注文 [解答例]",
+                  "items": [
+                    {
+                      "id": "G1_U5_DL2_S_06",
+                      "speaker": "A",
+                      "en": "Can I have the curry?",
+                      "ja": "カレーをください。"
+                    },
+                    {
+                      "id": "G1_U5_DL2_S_07",
+                      "speaker": "B",
+                      "en": "Which would you like, chicken curry or vegetable curry?",
+                      "ja": "チキンカレーと野菜カレー、どちらがよろしいですか。"
+                    },
+                    {
+                      "id": "G1_U5_DL2_S_08",
+                      "speaker": "A",
+                      "en": "I'd like chicken curry, please. How much is it?",
+                      "ja": "チキンカレーをお願いします。いくらですか。"
+                    },
+                    {
+                      "id": "G1_U5_DL2_S_09",
+                      "speaker": "B",
+                      "en": "It's eight hundred yen.",
+                      "ja": "(800円です。)"
+                    }
+                  ]
+                },
+                {
+                  "type": "dialogue_section",
+                  "header": "3. チェリーパイの注文 (p.109)",
+                  "items": [
+                    {
+                      "id": "G1_U5_DL2_S_10",
+                      "speaker": "Haruto",
+                      "en": "Can I have the cherry pie?",
+                      "ja": "チェリーパイをください。"
+                    },
+                    {
+                      "id": "G1_U5_DL2_S_11",
+                      "speaker": "Vendor",
+                      "en": "Sure. How many pieces do you want?",
+                      "ja": "もちろん。いくつほしいですか。"
+                    },
+                    {
+                      "id": "G1_U5_DL2_S_12",
+                      "speaker": "Haruto",
+                      "en": "Two pieces, please. How much is that in total?",
+                      "ja": "2切れお願いします。合計でいくらですか。"
+                    },
+                    {
+                      "id": "G1_U5_DL2_S_13",
+                      "speaker": "Vendor",
+                      "en": "It's nine hundred yen.",
+                      "ja": "900円です。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "4. アイスクリームの注文 [解答例]",
+                  "items": [
+                    {
+                      "id": "G1_U5_DL2_S_14",
+                      "speaker": "A",
+                      "en": "Can I have the coconut ice cream?",
+                      "ja": "ココナッツアイスクリームをください。"
+                    },
+                    {
+                      "id": "G1_U5_DL2_S_15",
+                      "speaker": "B",
+                      "en": "Sure. How many scoops do you want?",
+                      "ja": "もちろん。何すくいほしいですか。"
+                    },
+                    {
+                      "id": "G1_U5_DL2_S_16",
+                      "speaker": "A",
+                      "en": "Two scoops, please. How much is that in total?",
+                      "ja": "2段お願いします。合計でいくらですか。"
+                    },
+                    {
+                      "id": "G1_U5_DL2_S_17",
+                      "speaker": "B",
+                      "en": "It's four hundred yen.",
+                      "ja": "(400円です。)"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "108-109"
+        },
+        "ST": {
+          "title": "Start: Hi, David!",
+          "views": {
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "goal_section",
+                  "header": "Unit 5 の目標 (Goal)",
+                  "items": [
+                    {
+                      "tag": "Read",
+                      "text": "チャットのやり取りから、必要な情報を読み取ることができる。"
+                    },
+                    {
+                      "tag": "Speak",
+                      "text": "観光プランを考えるために、時間や場所の希望を引き出すことができる。"
+                    }
+                  ]
+                },
+                {
+                  "type": "intro_section",
+                  "header": "About You",
+                  "items": [
+                    {
+                      "id": "G1_U5_ST_S_01",
+                      "ja": "あなたは学校のどんなところが好きですか。"
+                    },
+                    {
+                      "id": "G1_U5_ST_S_02",
+                      "en": "(例) 運動場が広いところ",
+                      "ja": "(例) 運動場が広いところ",
+                      "tag": "例"
+                    }
+                  ]
+                },
+                {
+                  "type": "check_section",
+                  "header": "1. 予想する",
+                  "items": [
+                    {
+                      "id": "G1_U5_ST_S_03",
+                      "ja": "David が通うニューヨークの高校は、どんな様子でしょうか。教科書pp.72-73の写真を参考に、予想してみましょう。"
+                    },
+                    {
+                      "id": "G1_U5_ST_S_04",
+                      "en": "(例) 校舎が大きく、図書館、カフェテリアや体育館などの施設がある。",
+                      "ja": "(例) 校舎が大きく、図書館、カフェテリアや体育館などの施設がある。",
+                      "tag": "例"
+                    }
+                  ]
+                },
+                {
+                  "type": "context_section",
+                  "header": "3. 映像を見る (Labels)",
+                  "items": [
+                    {
+                      "id": "G1_U5_ST_C_01",
+                      "en": "the school building",
+                      "ja": "(校舎)"
+                    },
+                    {
+                      "id": "G1_U5_ST_C_02",
+                      "en": "the library",
+                      "ja": "(図書館)"
+                    },
+                    {
+                      "id": "G1_U5_ST_C_03",
+                      "en": "the cafeteria",
+                      "ja": "(カフェテリア)"
+                    },
+                    {
+                      "id": "G1_U5_ST_C_04",
+                      "en": "the gym",
+                      "ja": "(体育館)"
+                    },
+                    {
+                      "id": "G1_U5_ST_C_05",
+                      "en": "the classroom",
+                      "ja": "(教室)"
+                    },
+                    {
+                      "id": "G1_U5_ST_C_06",
+                      "en": "between classes",
+                      "ja": "(授業の合間)"
+                    },
+                    {
+                      "id": "G1_U5_ST_C_07",
+                      "en": "after school",
+                      "ja": "(放課後)"
+                    }
+                  ]
+                }
+              ]
+            },
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U5_ST_W_01",
+                  "headword": "cafeteria",
+                  "pronunciation": "/kæ̀fətíəriə/",
+                  "pos": "名",
+                  "meaning": "カフェテリア（セルフサービスの食堂）"
+                },
+                {
+                  "id": "G1_U5_ST_W_02",
+                  "headword": "between",
+                  "pronunciation": "/bitwíːn, bətwíːn/",
+                  "pos": "前",
+                  "meaning": "～の間に［で・を・の］"
+                },
+                {
+                  "id": "G1_U5_ST_W_03",
+                  "headword": "after school",
+                  "pos": "熟",
+                  "meaning": "放課後（に）"
+                }
+              ],
+              "content_blocks": []
+            }
+          },
+          "explanations": {},
+          "page": 92
+        },
+        "P2": {
+          "title": "Part 2: 教えて、David",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U5_P2_W_01",
+                  "headword": "where",
+                  "pronunciation": "/hwéər/",
+                  "pos": "副",
+                  "meaning": "どこで［に・へ］"
+                },
+                {
+                  "id": "G1_U5_P2_W_02",
+                  "headword": "Queens",
+                  "pos": "名",
+                  "meaning": "クイーンズ（ニューヨーク市東部の区）"
+                },
+                {
+                  "id": "G1_U5_P2_W_03",
+                  "headword": "for",
+                  "pronunciation": "/fɔ́ːr, fər/",
+                  "pos": "前",
+                  "meaning": "〔理由・原因〕～が理由で"
+                },
+                {
+                  "id": "G1_U5_P2_W_04",
+                  "headword": "ethnic",
+                  "pronunciation": "/éθnik/",
+                  "pos": "形",
+                  "meaning": "民族の、民族的な"
+                },
+                {
+                  "id": "G1_U5_P2_W_05",
+                  "headword": "diversity",
+                  "pronunciation": "/divə́ːrsəti/",
+                  "pos": "名",
+                  "meaning": "多様性"
+                },
+                {
+                  "id": "G1_U5_P2_W_06",
+                  "headword": "Lincoln High",
+                  "pos": "名",
+                  "meaning": "リンカーン高校"
+                },
+                {
+                  "id": "G1_U5_P2_W_07",
+                  "headword": "front",
+                  "pronunciation": "/frʌ́nt/",
+                  "pos": "形",
+                  "meaning": "前の、表の、正面の"
+                },
+                {
+                  "id": "G1_U5_P2_W_08",
+                  "headword": "gate",
+                  "pronunciation": "/ɡéit/",
+                  "pos": "名",
+                  "meaning": "門、出入り口"
+                },
+                {
+                  "id": "G1_U5_P2_W_09",
+                  "headword": "lab",
+                  "pronunciation": "/lǽb/",
+                  "pos": "名",
+                  "meaning": "実験室（laboratory の略式の言い方）"
+                },
+                {
+                  "id": "G1_U5_P2_W_10",
+                  "headword": "room",
+                  "pronunciation": "/rúːm/",
+                  "pos": "名",
+                  "meaning": "部屋、～室"
+                },
+                {
+                  "id": "G1_U5_P2_W_11",
+                  "headword": "have",
+                  "pronunciation": "/hǽv/",
+                  "pos": "動",
+                  "meaning": "～を食べる、～を飲む"
+                },
+                {
+                  "id": "G1_U5_P2_W_12",
+                  "headword": "lunch",
+                  "pronunciation": "/lʌ́ntʃ/",
+                  "pos": "名",
+                  "meaning": "昼食、ランチ"
+                },
+                {
+                  "id": "G1_U5_P2_W_13",
+                  "headword": "choose",
+                  "pronunciation": "/tʃúːz/",
+                  "pos": "動",
+                  "meaning": "～を選ぶ"
+                },
+                {
+                  "id": "G1_U5_P2_W_14",
+                  "headword": "dish(es)",
+                  "pronunciation": "/díʃ(iz)/",
+                  "pos": "名",
+                  "meaning": "料理、食べ物"
+                },
+                {
+                  "id": "G1_U5_P2_W_15",
+                  "headword": "pizza",
+                  "pronunciation": "/píːtsə/",
+                  "pos": "名",
+                  "meaning": "ピザ"
+                },
+                {
+                  "id": "G1_U5_P2_W_16",
+                  "headword": "be famous for ~",
+                  "meaning": "～で有名である"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "dialogue_section",
+                  "header": "教えて、David (p.95)",
+                  "items": [
+                    {
+                      "id": "G1_U5_P2_S_Q1",
+                      "speaker": "Question",
+                      "en": "Q. David は、いつもどこで昼食をとっているでしょうか。",
+                      "ja": "Q. David は、いつもどこで昼食をとっているでしょうか。"
+                    },
+                    {
+                      "id": "G1_U5_P2_S_A1",
+                      "speaker": "Answer",
+                      "en": "A. (例) カフェテリア。",
+                      "ja": "A. (例) カフェテリア。"
+                    },
+                    {
+                      "id": "G1_U5_P2_S_01",
+                      "ref_num": "①",
+                      "speaker": "Kota",
+                      "en": "Where's your school?",
+                      "ja": "学校はどこにあるの？"
+                    },
+                    {
+                      "id": "G1_U5_P2_S_02",
+                      "ref_num": "②",
+                      "speaker": "David",
+                      "en": "It's in Queens, New York.",
+                      "ja": "ニューヨークのクイーンズだよ。"
+                    },
+                    {
+                      "id": "G1_U5_P2_S_03",
+                      "ref_num": "③",
+                      "speaker": "David",
+                      "en": "Queens is famous for its ethnic diversity.",
+                      "ja": "クイーンズは民族多様性で有名な板なんだ。"
+                    },
+                    {
+                      "id": "G1_U5_P2_S_04",
+                      "ref_num": "④",
+                      "speaker": "David",
+                      "en": "Look at this video.",
+                      "ja": "この動画を見て。"
+                    },
+                    {
+                      "id": "G1_U5_P2_S_05",
+                      "ref_num": "⑤",
+                      "speaker": "David",
+                      "en": "This is my school, Lincoln High.",
+                      "ja": "これがぼくの学校、リンカーン高校だよ。"
+                    },
+                    {
+                      "id": "G1_U5_P2_S_06",
+                      "ref_num": "⑥",
+                      "speaker": "David",
+                      "en": "This is our front gate.",
+                      "ja": "ここが正門。"
+                    },
+                    {
+                      "id": "G1_U5_P2_S_07",
+                      "ref_num": "⑦",
+                      "speaker": "David",
+                      "en": "This is the science lab ... the library ... the music room.",
+                      "ja": "ここが理科室……図書室……音楽室。"
+                    },
+                    {
+                      "id": "G1_U5_P2_S_08",
+                      "ref_num": "⑧",
+                      "speaker": "Eri",
+                      "en": "Where do you have lunch?",
+                      "ja": "どこで昼食を食べるの？"
+                    },
+                    {
+                      "id": "G1_U5_P2_S_09",
+                      "ref_num": "⑨",
+                      "speaker": "David",
+                      "en": "We usually eat in the cafeteria.",
+                      "ja": "いつもはカフェテリアで食べるよ。"
+                    },
+                    {
+                      "id": "G1_U5_P2_S_10",
+                      "ref_num": "⑩",
+                      "speaker": "David",
+                      "en": "We can choose our favorite dishes, like pizza or French fries.",
+                      "ja": "好みの料理を選べるんだ、ピザとかポテトとかね。"
+                    },
+                    {
+                      "id": "G1_U5_P2_S_11",
+                      "ref_num": "⑪",
+                      "speaker": "Hajin",
+                      "en": "That's cool!",
+                      "ja": "いいね！"
+                    },
+                    {
+                      "id": "G1_U5_P2_S_12",
+                      "speaker": "You're the Writer!",
+                      "en": "I want to eat lunch in the cafeteria.",
+                      "ja": "(解答例) カフェテリアで昼食を食べたいな。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak (p.96)",
+                  "label": "校内の施設の場所をたずね合おう",
+                  "items": [
+                    {
+                      "id": "G1_U5_P2_S_13",
+                      "speaker": "[解答例] A",
+                      "en": "Where's the science lab?",
+                      "ja": "(理科室はどこですか。)"
+                    },
+                    {
+                      "id": "G1_U5_P2_S_14",
+                      "speaker": "[解答例] B",
+                      "en": "It's on the second floor, next to the stairs.",
+                      "ja": "(2階の階段の横です。)"
+                    }
+                  ]
+                }
+              ]
+            },
+            "GRAMMAR": {
+              "items": [
+                {
+                  "id": "G1_U5_P2_K_01",
+                  "en": "Where's the science lab? — It's on the first floor.",
+                  "ja": "(理科室はどこですか。 ― 1階です。)",
+                  "ref_id": "G1_U5_P2_S_13"
+                },
+                {
+                  "id": "G1_U5_P2_K_02",
+                  "en": "Where do you have lunch? — We usually eat in the cafeteria.",
+                  "ja": "(あなたは昼食をどこで食べますか。 ― たいていカフェテリアで食べます。)",
+                  "ref_id": "G1_U5_P2_S_08"
+                }
+              ],
+              "content_blocks": []
+            }
+          },
+          "explanations": {},
+          "page": 96
+        },
+        "GL": {
+          "title": "Goal: おすすめの観光プランを考えよう",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U5_GL_W_01",
+                  "headword": "from",
+                  "pronunciation": "/frʌm, frάm/",
+                  "pos": "前",
+                  "meaning": "〔時・位置の起点〕～から（離れて）"
+                },
+                {
+                  "id": "G1_U5_GL_W_02",
+                  "headword": "to",
+                  "pronunciation": "/tú, tə/",
+                  "pos": "前",
+                  "meaning": "〔範囲・限度〕～まで、～との間での"
+                },
+                {
+                  "id": "G1_U5_GL_W_03",
+                  "headword": "Sunday",
+                  "pronunciation": "/sʌ́ndei/",
+                  "pos": "名",
+                  "meaning": "日曜日"
+                },
+                {
+                  "id": "G1_U5_GL_W_04",
+                  "headword": "a.m.",
+                  "pronunciation": "/éɪém/",
+                  "pos": "副",
+                  "meaning": "午前"
+                },
+                {
+                  "id": "G1_U5_GL_W_05",
+                  "headword": "p.m.",
+                  "pronunciation": "/píːém/",
+                  "pos": "副",
+                  "meaning": "午後"
+                },
+                {
+                  "id": "G1_U5_GL_W_06",
+                  "headword": "Chinatown",
+                  "pronunciation": "/tʃáinətὰun/",
+                  "pos": "名",
+                  "meaning": "中華街"
+                },
+                {
+                  "id": "G1_U5_GL_W_07",
+                  "headword": "sunset",
+                  "pronunciation": "/sʌ́nset/",
+                  "pos": "名",
+                  "meaning": "夕焼け、入り日"
+                },
+                {
+                  "id": "G1_U5_GL_W_08",
+                  "headword": "noon",
+                  "pronunciation": "/núːn/",
+                  "pos": "名",
+                  "meaning": "正午"
+                },
+                {
+                  "id": "G1_U5_GL_W_09",
+                  "headword": "tour",
+                  "pronunciation": "/túər/",
+                  "pos": "名",
+                  "meaning": "ツアー"
+                },
+                {
+                  "id": "G1_U5_GL_W_10",
+                  "headword": "place",
+                  "pronunciation": "/pléis/",
+                  "pos": "名",
+                  "meaning": "場所"
+                },
+                {
+                  "id": "G1_U5_GL_W_11",
+                  "headword": "time",
+                  "pronunciation": "/táim/",
+                  "pos": "名",
+                  "meaning": "時間、時刻"
+                },
+                {
+                  "id": "G1_U5_GL_W_12",
+                  "headword": "from ~ to ...",
+                  "meaning": "～から…まで"
+                },
+                {
+                  "id": "G1_U5_GL_W_13",
+                  "headword": "at noon",
+                  "meaning": "正午に"
+                },
+                {
+                  "id": "G1_U5_GL_W_14",
+                  "headword": "after that",
+                  "meaning": "その後"
+                },
+                {
+                  "id": "G1_U5_GL_W_15",
+                  "headword": "minute(s)",
+                  "meaning": "分"
+                },
+                {
+                  "id": "G1_U5_GL_W_16",
+                  "headword": "miss",
+                  "pronunciation": "/mís/",
+                  "pos": "動",
+                  "meaning": "～を逃す、～を見落とす"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "context_section",
+                  "header": "目的・場面・状況",
+                  "items": [
+                    {
+                      "id": "G1_U5_GL_S_01",
+                      "ja": "まだ町についてよく知らないALTが、おすすめの観光プランを知りたがっています。"
+                    },
+                    {
+                      "id": "G1_U5_GL_S_02",
+                      "ja": "Tina と David のチャットを参考に、ALTのためのプランを伝えるためのメモを完成させましょう。"
+                    }
+                  ]
+                },
+                {
+                  "type": "dialogue_section",
+                  "header": "Tina と David のチャット",
+                  "items": [
+                    {
+                      "id": "G1_U5_GL_S_03",
+                      "speaker": "Tina",
+                      "en": "When are you free?",
+                      "ja": "いつ時間が空いていますか。"
+                    },
+                    {
+                      "id": "G1_U5_GL_S_04",
+                      "speaker": "David",
+                      "en": "Next Sunday, from 11 a.m. to 6 p.m.",
+                      "ja": "次の日曜日の午前11時から午後6時までだよ。"
+                    },
+                    {
+                      "id": "G1_U5_GL_S_05",
+                      "speaker": "Tina",
+                      "en": "Where do you want to go?",
+                      "ja": "どこに行きたいですか。"
+                    },
+                    {
+                      "id": "G1_U5_GL_S_06",
+                      "speaker": "David",
+                      "en": "Well, I want to go to Chinatown and Minato Mirai.",
+                      "ja": "そうだね、中華街とみなとみらいに行きたいな。"
+                    },
+                    {
+                      "id": "G1_U5_GL_S_07",
+                      "speaker": "Tina",
+                      "en": "OK! What do you want to do there?",
+                      "ja": "いいよ！そこで何をしたい？"
+                    },
+                    {
+                      "id": "G1_U5_GL_S_08",
+                      "speaker": "David",
+                      "en": "In Chinatown, I want to eat lunch. In Minato Mirai, I want to see the sunset.",
+                      "ja": "中華街ではお昼ご飯を食べたいな。みなとみらいでは夕焼けを見たいな。"
+                    },
+                    {
+                      "id": "G1_U5_GL_S_09",
+                      "speaker": "Tina",
+                      "en": "Let's eat ramen in Chinatown at noon. I also want to eat sweets there at 3 p.m.",
+                      "ja": "正午に中華街でラーメンを食べよう。午後3時にそこでお菓子も食べたいな。"
+                    },
+                    {
+                      "id": "G1_U5_GL_S_10",
+                      "speaker": "Tina",
+                      "en": "After that, we can see the beautiful sunset in Minato Mirai.",
+                      "ja": "その後、みなとみらいできれいな夕焼けを見られるよ。"
+                    },
+                    {
+                      "id": "G1_U5_GL_S_11",
+                      "speaker": "David",
+                      "en": "Great!",
+                      "ja": "いいね！"
+                    }
+                  ]
+                },
+                {
+                  "type": "schedule_section",
+                  "header": "Yokohama Tour with David (観光プランメモ)",
+                  "items": [
+                    {
+                      "id": "G1_U5_GL_S_12",
+                      "en": "September 2 (Sun.)",
+                      "ja": "9月2日（日）"
+                    },
+                    {
+                      "id": "G1_U5_GL_S_13",
+                      "en": "Yokohama Tour with David",
+                      "ja": "デイヴィッドと横浜ツアー"
+                    },
+                    {
+                      "id": "G1_U5_GL_S_14",
+                      "en": "Place: Chinatown",
+                      "ja": "場所：中華街"
+                    },
+                    {
+                      "id": "G1_U5_GL_S_15",
+                      "en": "Time: noon",
+                      "ja": "時間：正午"
+                    },
+                    {
+                      "id": "G1_U5_GL_S_16",
+                      "en": "Activities: eat ramen",
+                      "ja": "活動：ラーメンを食べる"
+                    },
+                    {
+                      "id": "G1_U5_GL_S_17",
+                      "en": "Time: 3 p.m.",
+                      "ja": "時間：午後3時"
+                    },
+                    {
+                      "id": "G1_U5_GL_S_18",
+                      "en": "Activities: eat sweets",
+                      "ja": "活動：スイーツを食べる"
+                    },
+                    {
+                      "id": "G1_U5_GL_S_19",
+                      "en": "5 min",
+                      "ja": "5分（移動時間）"
+                    },
+                    {
+                      "id": "G1_U5_GL_S_20",
+                      "en": "Place: Minato Mirai",
+                      "ja": "場所：みなとみらい"
+                    },
+                    {
+                      "id": "G1_U5_GL_S_21",
+                      "en": "Time: 5 p.m.",
+                      "ja": "時間：午後5時"
+                    },
+                    {
+                      "id": "G1_U5_GL_S_22",
+                      "en": "Activities: see the sunset",
+                      "ja": "活動：夕焼けを見る"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak: ALTのために観光プランを考えよう",
+                  "items": [
+                    {
+                      "id": "G1_U5_GL_S_23",
+                      "en": "When are you free?",
+                      "ja": "あなたはいつ暇ですか。"
+                    },
+                    {
+                      "id": "G1_U5_GL_S_24",
+                      "en": "Where do you want to go?",
+                      "ja": "あなたはどこに行きたいですか。"
+                    },
+                    {
+                      "id": "G1_U5_GL_S_25",
+                      "en": "What do you want to do?",
+                      "ja": "あなたは何をしたいですか。"
+                    },
+                    {
+                      "id": "G1_U5_GL_S_26",
+                      "tag": "ALTへのインタビュー[解答例]",
+                      "en": "A: When are you free? — ALT: Next Saturday, from 10 a.m. to 9 p.m.",
+                      "ja": "A: いつ時間が空いていますか。 ― ALT: 次の土曜日の午前10時から午後9時までです。"
+                    },
+                    {
+                      "id": "G1_U5_GL_S_27",
+                      "tag": "ALTへのインタビュー[解答例]",
+                      "en": "A: Where do you want to go? — ALT: I want to go to Osaka Castle.",
+                      "ja": "A: どこに行きたいですか。 ― ALT: 大阪城に行きたいです。"
+                    },
+                    {
+                      "id": "G1_U5_GL_S_28",
+                      "tag": "ALTへのインタビュー[解答例]",
+                      "en": "A: What do you want to do there? — ALT: I want to take pictures there.",
+                      "ja": "A: そこで何をしたいですか。 ― ALT: そこで写真を撮りたいです。"
+                    }
+                  ]
+                },
+                {
+                  "type": "model_plan_section",
+                  "header": "大阪観光プラン [解答例]",
+                  "items": [
+                    {
+                      "id": "G1_U5_GL_S_29",
+                      "en": "This is our plan for Osaka Tour.",
+                      "ja": "これが私たちの大阪観光のプランです。"
+                    },
+                    {
+                      "id": "G1_U5_GL_S_30",
+                      "en": "You take pictures at Osaka Castle at 11 a.m.",
+                      "ja": "午前11時に大阪城で写真を撮ります。"
+                    },
+                    {
+                      "id": "G1_U5_GL_S_31",
+                      "en": "And you eat delicious takoyaki for lunch there.",
+                      "ja": "また、そこでおいしいたこ焼きを昼食に食べます。"
+                    },
+                    {
+                      "id": "G1_U5_GL_S_32",
+                      "en": "After that, you see a parade at 2 p.m. in the Universal Studio Japan.",
+                      "ja": "その後、ユニバーサル・スタジオ・ジャパンで午後2時にパレードを見ます。"
+                    },
+                    {
+                      "id": "G1_U5_GL_S_33",
+                      "en": "You can see beautiful fireworks at 7 p.m. there. Don't miss it!",
+                      "ja": "そこで午後7時に美しい花火を見ることができます。お見逃しなく！"
+                    },
+                    {
+                      "id": "G1_U5_GL_S_34",
+                      "en": "You can eat great pizza at this restaurant.",
+                      "ja": "このレストランではおいしいピザを食べられます。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "106-107"
+        },
+        "P3_G": {
+          "title": "Part 3 解説",
+          "views": {
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "「いつ」なのかをたずねる。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "==**When's**== your next match?",
+                      "ja": "(次の試合はいつですか。)",
+                      "ref_id": "G1_U5_P3_S_11"
+                    },
+                    {
+                      "ref_num": "②",
+                      "en": "— It's ==**next month**==.",
+                      "ja": "(来月です。)",
+                      "ref_id": "G1_U5_P3_S_12"
+                    },
+                    {
+                      "ref_num": "③",
+                      "en": "==**When do**== you practice?",
+                      "ja": "(いつ練習しますか。)",
+                      "ref_id": "G1_U5_P3_S_09"
+                    },
+                    {
+                      "ref_num": "④",
+                      "en": "— ==**After school**== and ==**on weekends**==.",
+                      "ja": "(放課後と週末です。)",
+                      "ref_id": "G1_U5_P3_S_10"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "when",
+                  "text": "① 「いつ」と時をたずねるときに使う疑問詞で、When's [When is] ～? で、「～はいつですか。」とたずねる言い方になります。what time が「時刻」をたずねるのに対し、when は、より広い範囲の「時」をたずねるのに使うので、その違いをしっかり理解しておきましょう。",
+                  "items": [
+                    {
+                      "tag": "When is ～?",
+                      "text": "② When is ～? に答えるときは、It を主語にして〈It's [It is] + 時を表す語句.〉の形を使います。"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "label": "いつ～しますか。",
+                  "text": "③ 「いつ～しますか。」と一般動詞でたずねるときは、〈When + do + 主語 + 動詞の原形 ～?〉の形で表します。",
+                  "items": [
+                    {
+                      "tag": "When do ～?",
+                      "text": "④ この文は、主語と動詞の I practice が省略されています。When do ～? に答えるときは、〈主語 + 動詞 ～ + 時を表す語句.〉の形で答えます。"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G1_U5_P3G_E_01",
+                      "ref_num": "②",
+                      "en": "I see some trophies.",
+                      "text": "some は「いくつかの～」という意味を表す言葉で、漠然とした数量を表すときに使います。",
+                      "ref_id": "G1_U5_P3_S_02"
+                    },
+                    {
+                      "id": "G1_U5_P3G_E_02",
+                      "ref_num": "⑨",
+                      "en": "When do you practice?",
+                      "text": "「いつ～しますか。」とたずねるときは、〈When + do + 主語 + 動詞の原形 ～?〉の形で表します。",
+                      "ref_id": "G1_U5_P3_S_09"
+                    },
+                    {
+                      "id": "G1_U5_P3G_E_03",
+                      "ref_num": "⑩",
+                      "en": "After school and on weekends.",
+                      "text": "この文は、I practice が省略されています。when do ～? の疑問文に答えるときは、時を表す語句を答えます。時を表す語句は、この文のように時を表す語句だけで答えることもあります。and で 2 つの時をつなげています。",
+                      "ref_id": "G1_U5_P3_S_10"
+                    },
+                    {
+                      "id": "G1_U5_P3G_E_04",
+                      "ref_num": "⑪",
+                      "en": "When's your next match?",
+                      "text": "when's は when is の短縮形です。「～はいつですか。」とたずねるときは When's [When is] ～? の形を使います。",
+                      "ref_id": "G1_U5_P3_S_11"
+                    },
+                    {
+                      "id": "G1_U5_P3G_E_05",
+                      "ref_num": "⑫",
+                      "en": "It's next month.",
+                      "text": "When [When is] ～? の疑問文に答えるときは、〈It's [It is] + 時を表す語句.〉の形で答えます。",
+                      "ref_id": "G1_U5_P3_S_12"
+                    },
+                    {
+                      "id": "G1_U5_P3G_E_06",
+                      "ref_num": "⑬",
+                      "en": "Good luck!",
+                      "text": "「がんばってね！」と相手を応援する気持ちを伝えるときに使います。",
+                      "ref_id": "G1_U5_P3_S_13"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 101
+        },
+        "EX": {
+          "title": "Extra Story / 音声内容",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G1_U5_EX_W_01",
+                  "headword": "miss",
+                  "pronunciation": "/mís/",
+                  "pos": "動",
+                  "meaning": "～をなつかしく思う"
+                },
+                {
+                  "id": "G1_U5_EX_W_02",
+                  "headword": "change",
+                  "pronunciation": "/tʃéindʒ/",
+                  "pos": "名",
+                  "meaning": "変化"
+                },
+                {
+                  "id": "G1_U5_EX_W_03",
+                  "headword": "be different from ~",
+                  "meaning": "～と違っている"
+                },
+                {
+                  "id": "G1_U5_EX_W_04",
+                  "headword": "Take it easy.",
+                  "meaning": "無理をしないでね。"
+                },
+                {
+                  "id": "G1_U5_EX_W_05",
+                  "headword": "How's ~?",
+                  "meaning": "～はどうですか。"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "audio_section",
+                  "header": "Part 1 (p.102) の音声内容",
+                  "label": "バスツアーと美術館のルール",
+                  "items": [
+                    {
+                      "id": "G1_U5_EX_S_01",
+                      "tag": "(1)",
+                      "en": "Welcome to Tokyo Bus Tours.",
+                      "ja": "東京バス観光へ、ようこそ。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_02",
+                      "tag": "(1)",
+                      "en": "Fasten your seat belt.",
+                      "ja": "シートベルトをお締めください。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_03",
+                      "tag": "(1)",
+                      "en": "Please don't talk on the phone.",
+                      "ja": "携帯電話での通話はお控えください。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_04",
+                      "tag": "(1)",
+                      "en": "And please watch your step when you get on and off the bus.",
+                      "ja": "また、バスの乗り降りの際はお足元にご注意ください。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_05",
+                      "tag": "(1)",
+                      "en": "Have a good day.",
+                      "ja": "よい一日をお過ごしください。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_06",
+                      "tag": "(2)",
+                      "en": "Now let's look around the museum.",
+                      "ja": "さあ、美術館を見て回りましょう。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_07",
+                      "tag": "(2)",
+                      "en": "You can't take your bags, so leave them in the lockers.",
+                      "ja": "荷物は持ち運べないので、ロッカーにお預けください。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_08",
+                      "tag": "(2)",
+                      "en": "Please don't touch any paintings.",
+                      "ja": "絵画には触れないでください。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_09",
+                      "tag": "(2)",
+                      "en": "Please don't take pictures.",
+                      "ja": "写真撮影はご遠慮ください。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_10",
+                      "tag": "(2)",
+                      "en": "And please don't eat or drink in the museum.",
+                      "ja": "また、館内ではご飲食をお控えください。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_11",
+                      "tag": "(3)",
+                      "en": "You can do some shopping here.",
+                      "ja": "買い物はこちらでできます。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_12",
+                      "tag": "(3)",
+                      "en": "You can get traditional Japanese goods.",
+                      "ja": "日本の伝統的な商品をご購入いただくことができます。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_13",
+                      "tag": "(3)",
+                      "en": "You can also eat many kinds of Japanese food.",
+                      "ja": "また、さまざまな日本料理もお召し上がりになれます。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_14",
+                      "tag": "(3)",
+                      "en": "But please don't walk with food in your mouth.",
+                      "ja": "ただし、食べ物を口に入れたまま歩かないでください。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_15",
+                      "tag": "(3)",
+                      "en": "OK, please follow me.",
+                      "ja": "OK、では、ついてきてくださいね。"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_section",
+                  "header": "Part 2 (p.103) の音声内容",
+                  "label": "学校内の場所案内",
+                  "items": [
+                    {
+                      "id": "G1_U5_EX_S_16",
+                      "speaker": "Eri",
+                      "en": "Is something wrong, Hajin?",
+                      "ja": "ハジン、どうしたの。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_17",
+                      "speaker": "Hajin",
+                      "en": "Hi, Eri. Where's the nurse's office?",
+                      "ja": "やあ、エリ。保健室はどこかな。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_18",
+                      "speaker": "Eri",
+                      "en": "It's on the first floor, near the entrance. Are you OK?",
+                      "ja": "1階の入り口の近くだよ。大丈夫なの？"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_19",
+                      "speaker": "Hajin",
+                      "en": "I just cut my finger on some paper. Don't worry.",
+                      "ja": "紙で指を切っただけだよ。気にしないで。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_20",
+                      "speaker": "Eri",
+                      "en": "Let's go to the nurse's office together.",
+                      "ja": "いっしょに保健室に行きましょう。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_21",
+                      "speaker": "Hajin",
+                      "en": "Thanks, Eri. You are so kind.",
+                      "ja": "ありがとう、エリ。とても親切だね。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_22",
+                      "speaker": "Hajin",
+                      "en": "I have one more question. Where are the computers? I want to use the internet.",
+                      "ja": "もう1つききたいことがあるんだ。パソコンはどこにあるかな。インターネットを使いたいんだ。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_23",
+                      "speaker": "Eri",
+                      "en": "In the library. You can use them anytime.",
+                      "ja": "図書室にあるよ。いつでも使えるわ。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_24",
+                      "speaker": "Hajin",
+                      "en": "I see. Where's the library?",
+                      "ja": "わかった。図書室はどこかな？"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_25",
+                      "speaker": "Eri",
+                      "en": "It's on the second floor, next to the stairs.",
+                      "ja": "2階の階段の横にあるわ。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_26",
+                      "speaker": "Hajin",
+                      "en": "I see.",
+                      "ja": "そうなんだ。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_27",
+                      "speaker": "Hajin",
+                      "en": "Where's the music room?",
+                      "ja": "音楽室はどこにあるのかな。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_28",
+                      "speaker": "Eri",
+                      "en": "It's on the third floor, between the science lab and the art room. Do you want to join us?",
+                      "ja": "3階の理科室と美術室の間にあるわ。演劇部に入部したいの？"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_29",
+                      "speaker": "Hajin",
+                      "en": "Not right now, thanks.",
+                      "ja": "今はいいよ、ありがとう。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_30",
+                      "speaker": "Eri",
+                      "en": "OK. You can join us anytime. Hajin. Now, here is the nurse's office.",
+                      "ja": "わかったわ。ハジン、いつでも参加できるわ。さあ、ここが保健室よ。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_31",
+                      "speaker": "Hajin",
+                      "en": "Thanks a lot, Eri.",
+                      "ja": "どうもありがとう、エリ。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_32",
+                      "speaker": "Eri",
+                      "en": "You're welcome.",
+                      "ja": "どういたしまして。"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_section",
+                  "header": "Part 3 (p.104) の音声内容",
+                  "label": "デイヴィッドの日曜日",
+                  "items": [
+                    {
+                      "id": "G1_U5_EX_S_33",
+                      "speaker": "Eri",
+                      "en": "How do you spend your Sundays, David?",
+                      "ja": "日曜日はどんなふうに過ごしているの、デイヴィッド。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_34",
+                      "speaker": "David",
+                      "en": "I usually get up at about nine, and I eat brunch at about ten.",
+                      "ja": "普段は9時ごろに起きて、10時ごろにブランチを食べるよ。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_35",
+                      "speaker": "Eri",
+                      "en": "What do you do in the morning?",
+                      "ja": "午前中は何をするの。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_36",
+                      "speaker": "David",
+                      "en": "I study at home. I do my homework.",
+                      "ja": "家で勉強するよ。宿題をするんだ。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_37",
+                      "speaker": "Eri",
+                      "en": "Do you practice tennis on Sundays, too?",
+                      "ja": "日曜日もテニスを練習するの？"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_38",
+                      "speaker": "David",
+                      "en": "Yes. I practice every day.",
+                      "ja": "うん。毎日練習するよ。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_39",
+                      "speaker": "Eri",
+                      "en": "When do you practice?",
+                      "ja": "いつ練習するのかな。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_40",
+                      "speaker": "David",
+                      "en": "In the afternoon. I usually practice for about three hours in the afternoon.",
+                      "ja": "午後だよ。普段は午後に3時間くらい練習するんだ。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_41",
+                      "speaker": "Eri",
+                      "en": "I see.",
+                      "ja": "そうなんだね。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_42",
+                      "speaker": "Hajin",
+                      "en": "What else do you do on Sundays, David?",
+                      "ja": "日曜日は他に何をするの、デイヴィッド。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_43",
+                      "speaker": "David",
+                      "en": "Sometimes I listen to music and read books. And sometimes I play video games, too.",
+                      "ja": "ときどき音楽を聴いたり本を読んだりするよ。あとたまにテレビゲームもするよ。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_44",
+                      "speaker": "Hajin",
+                      "en": "Oh, you play video games. I like video games, too.",
+                      "ja": "へえ、テレビゲームをするんだね。ぼくもテレビゲームが好きだよ。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_45",
+                      "speaker": "David",
+                      "en": "Really? What's your favorite game?",
+                      "ja": "本当？ 君の好きなゲームは何かな。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_46",
+                      "speaker": "Hajin",
+                      "en": "I like the Monster Hunter series. They're games from Japan. Do you know them?",
+                      "ja": "ぼくはモンスターハンターシリーズが好きだよ。日本のゲームだよ。知ってる？"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_47",
+                      "speaker": "David",
+                      "en": "Yes, of course. They're popular here in the States, too. They're exciting.",
+                      "ja": "うん、もちろん。ここアメリカでも人気だよ。わくわくするよね。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_48",
+                      "speaker": "Hajin",
+                      "en": "That's right. When do you play games?",
+                      "ja": "そうなんだ。いつゲームをするの。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_49",
+                      "speaker": "David",
+                      "en": "In the evening. I play after dinner.",
+                      "ja": "晩だよ。夕食後にするんだ。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_50",
+                      "speaker": "Kota",
+                      "en": "You sometimes play video games after dinner. What else do you do in the evening?",
+                      "ja": "ときどき夕食後にテレビゲームをするんだね。晩は他に何をするの。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_51",
+                      "speaker": "David",
+                      "en": "I usually prepare for class. Is it hard?",
+                      "ja": "普段は授業の準備をするよ。それは大変なのかな。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_52",
+                      "speaker": "David",
+                      "en": "No, not really. I like it.",
+                      "ja": "ううん、そんなに。それは好きだよ。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_53",
+                      "speaker": "Kota",
+                      "en": "Oh, do you like studying?",
+                      "ja": "へえ、勉強するのが好きなの。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_54",
+                      "speaker": "David",
+                      "en": "Well, yes. I like math and science.",
+                      "ja": "うーん、そうだね。数学と理科が好きだよ。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_55",
+                      "speaker": "Kota",
+                      "en": "Great. Do you study till late at night?",
+                      "ja": "すごいね。夜遅くまで勉強するのかな。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_56",
+                      "speaker": "David",
+                      "en": "No, I only study till about ten o'clock.",
+                      "ja": "ううん、10時ごろまで勉強するだけだよ。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_57",
+                      "speaker": "Kota",
+                      "en": "So do you go to bed about ten?",
+                      "ja": "それじゃあ10時ごろに寝るのかな。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_58",
+                      "speaker": "David",
+                      "en": "No. I take a bath and write in my diary before bed.",
+                      "ja": "ううん。お風呂に入って寝る前に日記をつけるんだ。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_59",
+                      "speaker": "Kota",
+                      "en": "I see.",
+                      "ja": "そうなんだね。"
+                    }
+                  ]
+                },
+                {
+                  "type": "extra_story_section",
+                  "header": "Extra Story (p.105)",
+                  "label": "ティナとデイヴィッドの通話",
+                  "items": [
+                    {
+                      "id": "G1_U5_EX_S_60",
+                      "speaker": "David",
+                      "en": "How's life in Japan, Tina?",
+                      "ja": "日本での生活はどう、ティナ。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_61",
+                      "speaker": "Tina",
+                      "en": "It's good. I have great friends.",
+                      "ja": "いいよ。すばらしい友達がいるの。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_62",
+                      "speaker": "David",
+                      "en": "Do you miss life in the U.S.?",
+                      "ja": "アメリカでの生活をなつかしく思うのかな。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_63",
+                      "speaker": "Tina",
+                      "en": "Yes, sometimes. Life in Japan is very different from the U.S.",
+                      "ja": "ええ、ときどきね。日本での生活はアメリカとはとても違っているわ。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_64",
+                      "speaker": "David",
+                      "en": "It's a big change for you.",
+                      "ja": "君にとって大きな変化だよね。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_65",
+                      "speaker": "Tina",
+                      "en": "Yes.",
+                      "ja": "そうね。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_66",
+                      "speaker": "David",
+                      "en": "Take it easy. I'm always here for you.",
+                      "ja": "無理をしないでね。ぼくはいつも君のそばにいるよ。"
+                    },
+                    {
+                      "id": "G1_U5_EX_S_67",
+                      "speaker": "Tina",
+                      "en": "Thanks, David. You're a good friend.",
+                      "ja": "ありがとう、デイヴィッド。あなたはいい友達だわ。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "102-105"
+        }
+      },
+      "hasAppendix": true
+    }
+  },
+  "allExplanations": {
+    "G1_U5_P1_S_03": "「会えてうれしいです。」と相手に会えてうれしい気持ちを伝える表現です。",
+    "G1_U5_P1_S_05": "動詞の原形で始まっているので「～しなさい」と相手に指示する言い方です。⑤の Turn on ～ は「～をつける」という意味で、テレビや電話などの電源を入れるときに使います。⑮の anything は「何でも」という意味の代名詞です。",
+    "G1_U5_P1_S_06": "「ごめんなさい。」という意味の表現です。謝るときに使います。",
+    "G1_U5_P1_S_11": "「もちろんです。」という意味で、相手に何かを頼まれたりお願いされたりしたときに応じる表現です。",
+    "G1_U5_P1_S_12": "「～しましょう。」と相手を誘うときは、〈Let's + 動詞の原形 ～.〉の文を使います。",
+    "G1_U5_P1_S_14": "「～してはいけません。」と相手に禁止するときは、動詞の原形の前に Don't を置きます。be は be 動詞の原形です。",
+    "G1_U5_P2_S_01": "Where's は Where is の短縮形です。Where ～? は「～はどこですか。」と場所をたずねるときに使います。",
+    "G1_U5_P2_S_02": "Where ～? の質問文には Yes や No で答えません。at, in, on など場所を表す前置詞を使い、場所を答えます。",
+    "G1_U5_P2_S_03": "be famous for ～ は「～で有名である」という意味の表現です。for のあとには、有名であることの理由を表す言葉が入ります。",
+    "G1_U5_P2_S_08": "「どこで～しますか。」と何かをする場所をたずねるときは、〈where + do + 主語 + 動詞の原形 ～?〉の形で表します。",
+    "G1_U5_P2_S_10": "like ～ で、「～のような」という意味を表します。例を挙げるときに使います。",
+    "G1_U5_P3_S_02": "some は「いくつかの～」という意味を表す言葉で、漠然とした数量を表すときに使います。",
+    "G1_U5_P3_S_09": "「いつ～しますか。」とたずねるときは、〈When + do + 主語 + 動詞の原形 ～?〉の形で表します。",
+    "G1_U5_P3_S_10": "この文は、I practice が省略されています。when do ～? の疑問文に答えるときは、時を表す語句を答えます。時を表す語句は、この文のように時を表す語句だけで答えることもあります。and で 2 つの時をつなげています。",
+    "G1_U5_P3_S_11": "when's は when is の短縮形です。「～はいつですか。」とたずねるときは When's [When is] ～? の形を使います。",
+    "G1_U5_P3_S_12": "When [When is] ～? の疑問文に答えるときは、〈It's [It is] + 時を表す語句.〉の形で答えます。",
+    "G1_U5_P3_S_13": "「がんばってね！」と相手を応援する気持ちを伝えるときに使います。"
+  }
+}
