@@ -1,0 +1,2402 @@
+{
+  "type": "FULL_BACKUP",
+  "units": {
+    "G3-U5": {
+      "title": "Unit G3-U5",
+      "parts": {
+        "AP": {
+          "title": "AI Appendix: Unit 5 総まとめ",
+          "views": {
+            "PART_APPENDIX": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "info_box",
+                  "header": "P1-P2: 「～を…する〇〇」目的格を攻略！",
+                  "items": [
+                    {
+                      "tag": "Grammar",
+                      "text": "説明したい名詞のあとに which や that を置き、さらに〈主語＋動詞〉を続けよう。動詞の「目的語」が関係代名詞に変身して前に出ているんだよ！",
+                      "en": "the picture (==**which**==) I found on the internet"
+                    },
+                    {
+                      "tag": "Check",
+                      "text": "目的格の関係代名詞は、会話や日常的な文章では省略されることがとても多いんだ。省略しても意味が通じるようにトレーニングしよう。"
+                    }
+                  ]
+                },
+                {
+                  "type": "info_box",
+                  "header": "P3: 省略の形（接触節）を見抜こう",
+                  "items": [
+                    {
+                      "tag": "Point",
+                      "text": "名詞の直後にいきなり〈主語＋動詞〉がきたら、それは「後ろから説明している」サイン！この形をマスターすると、英語のリズムが一気にネイティブに近づくよ。",
+                      "en": "another great experience ==**I had**=="
+                    }
+                  ]
+                }
+              ]
+            },
+            "UNIT_APPENDIX": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "info_box",
+                  "header": "論理的に伝える 3 つのステップ",
+                  "items": [
+                    {
+                      "label": "順序を示す",
+                      "en": "First, .... / Second, ....",
+                      "ja": "1 つ目に……。 / 2 つ目に……。"
+                    },
+                    {
+                      "label": "具体例を出す",
+                      "en": "For example, .... / such as ～",
+                      "ja": "たとえば……。 / ～といった……。"
+                    },
+                    {
+                      "label": "結論を述べる",
+                      "en": "In this way, .... / So I think ....",
+                      "ja": "このようにして……。 / だから私は……と思います。"
+                    }
+                  ]
+                },
+                {
+                  "type": "message_box",
+                  "header": "Unit 5 を終えた君へ",
+                  "items": [
+                    {
+                      "tag": "Bravo!",
+                      "text": "関係代名詞の主格・目的格をすべて学んだ君は、もうどんなに複雑な情報でも一文で説明できる「最強の武器」を手に入れたよ！"
+                    },
+                    {
+                      "tag": "Goal",
+                      "text": "ティナやおばさんのフェアトレード、そしてメラティさんのプラスチック削減運動。彼女たちが世界を変えられたのは、強い思いを「正しい言葉」で伝えたから。君が手にした英語の力も、いつか誰かを助け、世界を変える力になるはず。Keep going!"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 0,
+          "hasAppendix": true
+        },
+        "DL4": {
+          "title": "Daily Life 4: 講演",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G3_U5_DL4_W_01",
+                  "headword": "Bali",
+                  "pronunciation": "/bάːli/",
+                  "pos": "名",
+                  "meaning": "バリ〔インドネシアの島〕"
+                },
+                {
+                  "id": "G3_U5_DL4_W_02",
+                  "headword": "campaign",
+                  "pronunciation": "/kæmpéin/",
+                  "pos": "名",
+                  "meaning": "キャンペーン、運動"
+                },
+                {
+                  "id": "G3_U5_DL4_W_03",
+                  "headword": "recycle",
+                  "pronunciation": "/rìːsáikl/",
+                  "pos": "動",
+                  "meaning": "～を再生利用する"
+                },
+                {
+                  "id": "G3_U5_DL4_W_04",
+                  "headword": "plastic(s)",
+                  "pronunciation": "/plǽstik(s)/",
+                  "pos": "名/形",
+                  "meaning": "プラスチック（製の）"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "comprehension_section",
+                  "header": "1. 講演のタイトルを選ぼう (p.114)",
+                  "items": [
+                    {
+                      "id": "G3_U5_DL4_S_01",
+                      "tag": "Option 1",
+                      "en": "Our School Life in Bali",
+                      "ja": "バリでの学校生活"
+                    },
+                    {
+                      "id": "G3_U5_DL4_S_02",
+                      "tag": "Option 2",
+                      "en": "Our Campaign to Recycle Plastics in Bali",
+                      "ja": "バリでのプラスチックをリサイクルするキャンペーン"
+                    },
+                    {
+                      "id": "G3_U5_DL4_S_03",
+                      "tag": "Selected",
+                      "en": "Our Campaign Against Plastic Bags in Bali",
+                      "ja": "バリでのプラスチック製のバッグに反対するキャンペーン"
+                    }
+                  ]
+                },
+                {
+                  "type": "write_section",
+                  "header": "Write: ゲストへのメッセージ (p.114)",
+                  "items": [
+                    {
+                      "id": "G3_U5_DL4_S_04",
+                      "tag": "解答例",
+                      "en": "I want to take action like you.",
+                      "ja": "私はあなたのように行動を起こしたいです。"
+                    }
+                  ]
+                },
+                {
+                  "type": "speech_script",
+                  "header": "講演内容 (p.114-115)",
+                  "items": [
+                    {
+                      "id": "G3_U5_DL4_S_05",
+                      "en": "Hi, I'm Melati Wijsen, from Bali.",
+                      "ja": "こんにちは、私はメラティ・ワイセン、バリ出身です。"
+                    },
+                    {
+                      "id": "G3_U5_DL4_S_06",
+                      "en": "I have a sister, Isabel.",
+                      "ja": "イザベルという姉［妹］がいます。"
+                    },
+                    {
+                      "id": "G3_U5_DL4_S_07",
+                      "en": "When my sister and I were elementary school students, we learned about great people who changed the world, such as Nelson Mandela and Mahatma Gandhi.",
+                      "ja": "姉［妹］と私が小学生のとき、私たちはネルソン・マンデラやマハトマ・ガンディーといった、世界を変えた偉人について学びました。"
+                    },
+                    {
+                      "id": "G3_U5_DL4_S_08",
+                      "en": "After that, we wanted to change the world, too.",
+                      "ja": "その後、私たちも世界を変えたいと思うようになりました。"
+                    },
+                    {
+                      "id": "G3_U5_DL4_S_09",
+                      "en": "We didn't want to wait until we got older.",
+                      "ja": "年をとるのを待ちたくはありませんでした。"
+                    },
+                    {
+                      "id": "G3_U5_DL4_S_10",
+                      "en": "Then we discussed the various problems in Bali and found that one big problem was plastic waste.",
+                      "ja": "そして、私たちはバリの様々な問題について話し合い、大きな1つの問題がプラスチックごみであるとわかりました。"
+                    },
+                    {
+                      "id": "G3_U5_DL4_S_11",
+                      "en": "Look at this picture of plastic waste on the beach.",
+                      "ja": "この、浜辺のプラスチックごみの写真を見てください。"
+                    },
+                    {
+                      "id": "G3_U5_DL4_S_12",
+                      "en": "To reduce plastic waste, we decided to focus on something we use every day: plastic bags.",
+                      "ja": "プラスチックごみを減らすために、私たちは毎日使っているあるものに焦点を当てることにしました。ビニール袋でした。"
+                    },
+                    {
+                      "id": "G3_U5_DL4_S_13",
+                      "en": "We began a campaign and called it \"Bye Bye Plastic Bags.\"",
+                      "ja": "私たちはある運動を始め、それを「バイバイビニール袋」と呼びました。"
+                    },
+                    {
+                      "id": "G3_U5_DL4_S_14",
+                      "en": "First, we gathered a team of local kids through social media.",
+                      "ja": "まず、ソーシャルメディアを通じて地元の子供たちのチームを結成しました。"
+                    },
+                    {
+                      "id": "G3_U5_DL4_S_15",
+                      "en": "As you can see in this picture, we picked up plastic bags on the beach.",
+                      "ja": "この写真に見られるように、私たちは浜辺でビニール袋を拾いました。"
+                    },
+                    {
+                      "id": "G3_U5_DL4_S_16",
+                      "en": "We also gave presentations around Bali and collected signatures.",
+                      "ja": "また、バリのあちこちでプレゼンテーションを行い、署名を集めました。"
+                    },
+                    {
+                      "id": "G3_U5_DL4_S_17",
+                      "en": "As a result, we finally met the Governor of Bali.",
+                      "ja": "その結果、私たちはついにバリの知事にお会いしました。"
+                    },
+                    {
+                      "id": "G3_U5_DL4_S_18",
+                      "en": "This is a picture from that time.",
+                      "ja": "これがそのときの写真です。"
+                    },
+                    {
+                      "id": "G3_U5_DL4_S_19",
+                      "en": "He promised us that he would ban plastic bags in Bali.",
+                      "ja": "彼はバリでビニール袋を禁止することを私たちに約束してくれました。"
+                    },
+                    {
+                      "id": "G3_U5_DL4_S_20",
+                      "en": "Our campaign has also become an international movement.",
+                      "ja": "私たちの運動は国際的な動きにもなりました。"
+                    },
+                    {
+                      "id": "G3_U5_DL4_S_21",
+                      "en": "\"Bye Bye Plastic Bags\" teams have launched in over 50 locations across the world.",
+                      "ja": "「バイバイビニール袋」のチームは世界中の50か所以上で始動しています。"
+                    },
+                    {
+                      "id": "G3_U5_DL4_S_22",
+                      "en": "Look at this picture.",
+                      "ja": "この写真を見てください。"
+                    },
+                    {
+                      "id": "G3_U5_DL4_S_23",
+                      "en": "The map shows our global teams around the world.",
+                      "ja": "この地図は、世界中にある私たちのグローバルチームを示しています。"
+                    },
+                    {
+                      "id": "G3_U5_DL4_S_24",
+                      "en": "From this success, we learned that even kids can make a difference.",
+                      "ja": "この成功から私たちは、子どもでも変化を生み出すことができるということを学びました。"
+                    },
+                    {
+                      "id": "G3_U5_DL4_S_25",
+                      "en": "We have the power to change the world.",
+                      "ja": "私たちには世界を変える力があるのです。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "114-115"
+        },
+        "EX": {
+          "title": "Extra Story / 音声内容",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G3_U5_EX_W_01",
+                  "headword": "greedy",
+                  "pronunciation": "/ɡríːdi/",
+                  "pos": "形",
+                  "meaning": "欲深い"
+                },
+                {
+                  "id": "G3_U5_EX_W_02",
+                  "headword": "talented",
+                  "pronunciation": "/tǽləntid/",
+                  "pos": "形",
+                  "meaning": "才能がある"
+                },
+                {
+                  "id": "G3_U5_EX_W_03",
+                  "headword": "be a success",
+                  "meaning": "成功する"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "audio_section",
+                  "header": "Part 1 の音声内容 (p.108)",
+                  "label": "韓国の文化紹介",
+                  "items": [
+                    {
+                      "id": "G3_U5_EX_S_01",
+                      "en": "Hello, everyone. Today, I want to tell you about the culture in my home country.",
+                      "ja": "みなさん、こんにちは。今日は、母国の文化についてお話ししたいと思います。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_02",
+                      "tag": "(1)",
+                      "en": "Do you know anything about traditional musical instruments in Korea?",
+                      "ja": "韓国の伝統楽器について何か知っていますか。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_03",
+                      "tag": "(1)",
+                      "en": "This is a drum people in Korea play.",
+                      "ja": "これは韓国の人たちが演奏する太鼓です。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_04",
+                      "tag": "(1)",
+                      "en": "They play it when they perform traditional Korean music. It's called buk.",
+                      "ja": "韓国の伝統音楽を演奏するときに使います。「プク」と呼ばれます。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_05",
+                      "tag": "(2)",
+                      "en": "Here's the next picture. Do you know anything about traditional games in Korea?",
+                      "ja": "次の写真です。韓国の伝統的な遊びについて何か知っていますか。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_06",
+                      "tag": "(2)",
+                      "en": "This is a board game people in Korea often play. It's like Japanese shogi.",
+                      "ja": "これは韓国の人がよくやるボードゲームです。日本の将棋のようなものです。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_07",
+                      "tag": "(2)",
+                      "en": "Do you know its name? It's called janggi. It looks like shogi, doesn't it?",
+                      "ja": "名前を知っていますか。チャンギといいます。将棋に似ていますよね。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_08",
+                      "tag": "(3)",
+                      "en": "This is a food people in Korea love to eat.",
+                      "ja": "これは韓国の人が大好きな食べ物です。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_09",
+                      "tag": "(3)",
+                      "en": "It's made with different vegetables. It's hot and sour. It's called kimchi.",
+                      "ja": "いろいろな野菜を使っています。辛くて酸っぱいです。キムチと呼ばれています。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_10",
+                      "tag": "(3)",
+                      "en": "Have you ever tried it? It's very popular in Japan, too.",
+                      "ja": "みなさんは食べたことがありますか。日本でもとても人気がありますよね。"
+                    }
+                  ]
+                },
+                {
+                  "type": "story_section",
+                  "header": "Extra Story (p.108-109)",
+                  "label": "Eri の夢",
+                  "items": [
+                    {
+                      "id": "G3_U5_EX_S_11",
+                      "speaker": "Hajin",
+                      "en": "How about you, Eri? What do you want to do in the future?",
+                      "ja": "エリはどう？ 将来何をしたい？"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_12",
+                      "speaker": "Eri",
+                      "en": "I want to study drama and work in theater.",
+                      "ja": "演劇を勉強して、劇場で働きたいな。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_13",
+                      "speaker": "Eri",
+                      "en": "I enjoyed our performance so much. I can't forget it.",
+                      "ja": "私たちの劇をすごく楽しめたの。忘れられないよ。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_14",
+                      "speaker": "Kota",
+                      "en": "Do you want to be an actor, or do you want to write plays?",
+                      "ja": "俳優になりたいの、それとも劇も書きたいの？"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_15",
+                      "speaker": "Eri",
+                      "en": "I want to do both. I'm greedy!",
+                      "ja": "両方やりたい。私は欲張りなんだ！"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_16",
+                      "speaker": "Tina",
+                      "en": "You can do both and be a success. We know that you are very talented.",
+                      "ja": "あなたは両方を実行して、成功することができるわ。私たちはあなたがとても才能があることを知っているもの。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_17",
+                      "speaker": "Kota",
+                      "en": "Yes, we do.",
+                      "ja": "そうだね。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_18",
+                      "speaker": "Eri",
+                      "en": "Really? You think so? Thanks!",
+                      "ja": "本当？ そう思う？ ありがとう！"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_19",
+                      "speaker": "Hajin",
+                      "en": "We'll be the first members of your fan club!",
+                      "ja": "ぼくたちは君のファンクラブの最初のメンバーになるね！"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_section",
+                  "header": "Part 2 の音声内容 (p.109-110)",
+                  "label": "おすすめの伝記",
+                  "items": [
+                    {
+                      "id": "G3_U5_EX_S_20",
+                      "tag": "(1) Tina",
+                      "en": "Hi, I'm Tina. This is a book that I want to recommend to you.",
+                      "ja": "こんにちは、ティナです。これが、私がみなさんにお勧めしたい本です。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_21",
+                      "tag": "(1) Tina",
+                      "en": "It's the story of the Japanese man that I respect the most.",
+                      "ja": "それは、私が最も尊敬する日本人男性の話です。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_22",
+                      "tag": "(1) Tina",
+                      "en": "He was a doctor and did medical care in Pakistan and Afghanistan.",
+                      "ja": "彼は医師で、パキスタンとアフガニスタンで医療を行いました。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_23",
+                      "tag": "(1) Tina",
+                      "en": "Sometimes it doesn't rain much in Afghanistan, and many people die because they have so little water.",
+                      "ja": "アフガニスタンでは雨があまり降らないことがあり、水がほとんどないせいで、多くの人々が命を落としてしまいます。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_24",
+                      "tag": "(1) Tina",
+                      "en": "He thought that people needed water more than medical care.",
+                      "ja": "彼は、人々が医療以上に水を必要としていると考えました。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_25",
+                      "tag": "(1) Tina",
+                      "en": "He studied construction technology and made a waterway for farming.",
+                      "ja": "彼は建設技術を学び、農業用の水路を造りました。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_26",
+                      "tag": "(1) Tina",
+                      "en": "The waterway that he made has been helping people there.",
+                      "ja": "彼が造った水路は、そこの人々をずっと助けています。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_27",
+                      "tag": "(1) Tina",
+                      "en": "He was killed in 2019, but he is still loved by people in Afghanistan.",
+                      "ja": "彼は2019年に殺害されましたが、今でもアフガニスタンの人々に愛されています。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_28",
+                      "tag": "(2) Kota",
+                      "en": "Hi, I'm Kota. I want to recommend this book to you.",
+                      "ja": "こんにちは、コウタです。ぼくはこの本をみなさんにお勧めしたいです。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_29",
+                      "tag": "(2) Kota",
+                      "en": "It's one of the best biographies that I've ever read.",
+                      "ja": "これはぼくが今まで読んだ中で最もすばらしい伝記の1つです。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_30",
+                      "tag": "(2) Kota",
+                      "en": "This book tells the life of a man who fought for the rights of the Indian people.",
+                      "ja": "この本は、インドの人々の権利のために戦った男性の生涯を伝えています。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_31",
+                      "tag": "(2) Kota",
+                      "en": "He believed in non-violence. That means using peaceful ways to solve problems.",
+                      "ja": "彼は非暴力を信じていました。それは、問題を解決するために平和的な方法を使うことを意味します。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_32",
+                      "tag": "(2) Kota",
+                      "en": "He wore simple clothes and lived a simple life.",
+                      "ja": "彼は質素な服を着て、質素な生活を送りました。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_33",
+                      "tag": "(2) Kota",
+                      "en": "His work inspired many people around the world to fight for freedom and equality.",
+                      "ja": "彼の功績は、世界中の多くの人々に、自由と平等のために戦うように影響を与えました。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_34",
+                      "tag": "(2) Kota",
+                      "en": "I think his ideas are still important today.",
+                      "ja": "彼の考えは今でも重要だと思います。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_35",
+                      "tag": "(3) Eri",
+                      "en": "Hi, I'm Eri. I want to recommend this book to you.",
+                      "ja": "こんにちは、エリです。私はこの本をみなさんにお勧めしたいです。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_36",
+                      "tag": "(3) Eri",
+                      "en": "It's a book that Ms. Thusi introduced to me.",
+                      "ja": "それはツィ先生が私に紹介してくれた本です。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_37",
+                      "tag": "(3) Eri",
+                      "en": "It's a story about a girl who stood up for girls' education.",
+                      "ja": "それは、女子の教育のために立ち上がった少女についての話です。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_38",
+                      "tag": "(3) Eri",
+                      "en": "She's from Pakistan. There are many girls who can't go to school there.",
+                      "ja": "彼女はパキスタン出身です。そこには、学校に行くことができない女の子がたくさんいます。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_39",
+                      "tag": "(3) Eri",
+                      "en": "She said that all children, including girls, have the right to an education.",
+                      "ja": "彼女は、女子を含むすべての子供が教育を受ける権利があると言いました。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_40",
+                      "tag": "(3) Eri",
+                      "en": "Some people didn't like her opinion and shot her on her way to school.",
+                      "ja": "一部の人々は彼女の意見が気に入らず、学校に行く途中で彼女を銃撃しました。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_41",
+                      "tag": "(3) Eri",
+                      "en": "However, many people around the world supported her.",
+                      "ja": "しかし、世界中の多くの人々が彼女を支持しました。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_42",
+                      "tag": "(3) Eri",
+                      "en": "She survived and continued to speak out for girls' education around the world.",
+                      "ja": "彼女は生き延び、世界中で女子の教育を訴え続けました。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_43",
+                      "tag": "(3) Eri",
+                      "en": "She said, \"One child, one teacher, one book, and one pen can change the world. Education is the only solution.\"",
+                      "ja": "彼女は「1人の子ども、1人の教師、1冊の本、そして1本のペンが、世界を変えることができるのです。教育こそが唯一の解決策なのです。」と言いました。"
+                    }
+                  ]
+                },
+                {
+                  "type": "audio_section",
+                  "header": "Part 3 の音声内容 (p.110-111)",
+                  "label": "高校生になったら挑戦したいこと",
+                  "items": [
+                    {
+                      "id": "G3_U5_EX_S_44",
+                      "speaker": "Tina",
+                      "en": "We'll be high school students next year. What do you want to do when you become a high school student, Hajin?",
+                      "ja": "来年、私たちは高校生ね。あなたは高校生になったら何をしたい、ハジン？"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_45",
+                      "speaker": "Hajin",
+                      "en": "Well, I want to study in the U.S.",
+                      "ja": "うーん、アメリカで勉強したいな。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_46",
+                      "speaker": "Eri",
+                      "en": "Oh, you want to study abroad. Why?",
+                      "ja": "えっ、留学したいんだ。どうして？"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_47",
+                      "speaker": "Hajin",
+                      "en": "I want to be able to speak English better. I also want to play basketball on an American high school team.",
+                      "ja": "英語をもっと上手に話せるようになりたいんだ。それに、アメリカの高校のチームでバスケットボールをしたい。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_48",
+                      "speaker": "Hajin",
+                      "en": "But there is one thing I really want to do.",
+                      "ja": "でも、本当にやりたいことが1つある。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_49",
+                      "speaker": "Tina",
+                      "en": "What's that?",
+                      "ja": "それは何？"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_50",
+                      "speaker": "Hajin",
+                      "en": "I want to make a lot of friends with students from all over the world.",
+                      "ja": "世界中から来た学生たちとたくさん友達になりたいんだ。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_51",
+                      "speaker": "Kota",
+                      "en": "That's great. Go for it.",
+                      "ja": "それはすばらしいね。がんばって。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_52",
+                      "speaker": "Tina",
+                      "en": "How about you, Eri? Is there anything you want to try in the near future?",
+                      "ja": "エリ、あなたはどう？ 近い将来やってみたいことはある？"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_53",
+                      "speaker": "Eri",
+                      "en": "Yes. There are lots of books I want to read. I'm going to read them when I become a high school student.",
+                      "ja": "うん。読みたい本がたくさんあるの。高校生になったらそれらを読むつもり。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_54",
+                      "speaker": "Tina",
+                      "en": "What kind of books do you want to read?",
+                      "ja": "どんな本を読みたいの？"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_55",
+                      "speaker": "Eri",
+                      "en": "I want to read novels that were written by famous authors from all over the world.",
+                      "ja": "世界中の有名な作家によって書かれた小説を読みたいの。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_56",
+                      "speaker": "Tina",
+                      "en": "That sounds great!",
+                      "ja": "それはすごいわ！"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_57",
+                      "speaker": "Eri",
+                      "en": "You remember when I wrote the script for the play we performed at the International Festival last year, right?",
+                      "ja": "昨年私たちが国際フェスティバルで上演した劇の脚本を私が書いたときのこと、覚えてるよね。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_58",
+                      "speaker": "Eri",
+                      "en": "Writing a story was an exciting experience for me. I also thought I should read more and more books to write interesting stories.",
+                      "ja": "物語を書くことは私にとってわくわくする経験だった。私はまた、おもしろい物語を書くためにますます多くの本を読むべきだと思ったわ。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_59",
+                      "speaker": "Tina",
+                      "en": "I see. I'll share titles of my favorite books with you later.",
+                      "ja": "なるほどね。後で、私のお気に入りの本のタイトルをあなたに伝えるわ。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_60",
+                      "speaker": "Kota",
+                      "en": "How about you, Tina? Is there something you want to try in the near future?",
+                      "ja": "ティナ、君はどう？ 近い将来やってみたいことはある？"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_61",
+                      "speaker": "Tina",
+                      "en": "I want a part-time job when I become a high school student. I want to work at a restaurant or a shop that sells something.",
+                      "ja": "私は高校生になったらアルバイトをしたいわ。レストランか、ものを売っているお店で働きたいの。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_62",
+                      "speaker": "Kota",
+                      "en": "Do you want to make some money?",
+                      "ja": "お金を稼ぎたいの？"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_63",
+                      "speaker": "Tina",
+                      "en": "That's one of the reasons, but I want to serve customers. I told you about a fair trade shop that my aunt runs in New York, right?",
+                      "ja": "それも理由の1つだけど、接客をしたいの。ニューヨークで私のおばさんが経営しているフェアトレードのお店について、話したわよね？"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_64",
+                      "speaker": "Kota",
+                      "en": "Yeah. You want to work with her in the future, don't you?",
+                      "ja": "うん。将来彼女と一緒に働きたいんだよね。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_65",
+                      "speaker": "Tina",
+                      "en": "Yes. I want to get some experience that will be useful for my future.",
+                      "ja": "そうなの。自分の将来に役立つ経験を積みたいの。"
+                    },
+                    {
+                      "id": "G3_U5_EX_S_66",
+                      "speaker": "Kota",
+                      "en": "That's great.",
+                      "ja": "それはすばらしいね。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "108-111"
+        },
+        "GL": {
+          "title": "Goal: 世界の課題について考えよう",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G3_U5_GL_W_01",
+                  "headword": "education",
+                  "pronunciation": "/èdʒukéiʃən/",
+                  "pos": "名",
+                  "meaning": "教育"
+                },
+                {
+                  "id": "G3_U5_GL_W_02",
+                  "headword": "Africa",
+                  "pronunciation": "/ǽfrikə/",
+                  "pos": "名",
+                  "meaning": "アフリカ"
+                },
+                {
+                  "id": "G3_U5_GL_W_03",
+                  "headword": "poverty",
+                  "pronunciation": "/pάvərti/",
+                  "pos": "名",
+                  "meaning": "貧乏、貧困"
+                },
+                {
+                  "id": "G3_U5_GL_W_04",
+                  "headword": "instead",
+                  "pronunciation": "/instéd/",
+                  "pos": "副",
+                  "meaning": "その代わりに"
+                },
+                {
+                  "id": "G3_U5_GL_W_05",
+                  "headword": "housework",
+                  "pronunciation": "/háuswə̀ːrk/",
+                  "pos": "名",
+                  "meaning": "家事"
+                },
+                {
+                  "id": "G3_U5_GL_W_06",
+                  "headword": "graph",
+                  "pronunciation": "/ɡrǽf/",
+                  "pos": "名",
+                  "meaning": "グラフ"
+                },
+                {
+                  "id": "G3_U5_GL_W_07",
+                  "headword": "percentage(s)",
+                  "pronunciation": "/pərséntidʒ(iz)/",
+                  "pos": "名",
+                  "meaning": "百分率、割合"
+                },
+                {
+                  "id": "G3_U5_GL_W_08",
+                  "headword": "region",
+                  "pronunciation": "/ríːdʒən/",
+                  "pos": "名",
+                  "meaning": "地域、地方"
+                },
+                {
+                  "id": "G3_U5_GL_W_09",
+                  "headword": "large",
+                  "pronunciation": "/lάːrdʒ/",
+                  "pos": "形",
+                  "meaning": "多い、多数の、多量の"
+                },
+                {
+                  "id": "G3_U5_GL_W_10",
+                  "headword": "Sub-Saharan",
+                  "pronunciation": "/sʌbsəhέərən/",
+                  "pos": "形",
+                  "meaning": "サハラ砂漠以南の"
+                },
+                {
+                  "id": "G3_U5_GL_W_11",
+                  "headword": "marriage",
+                  "pronunciation": "/mǽridʒ/",
+                  "pos": "名",
+                  "meaning": "結婚"
+                },
+                {
+                  "id": "G3_U5_GL_W_12",
+                  "headword": "around",
+                  "pronunciation": "/əráund/",
+                  "pos": "前",
+                  "meaning": "約～、およそ～、～頃"
+                },
+                {
+                  "id": "G3_U5_GL_W_13",
+                  "headword": "gap",
+                  "pronunciation": "/ɡǽp/",
+                  "pos": "名",
+                  "meaning": "相違、ずれ"
+                },
+                {
+                  "id": "G3_U5_GL_W_14",
+                  "headword": "marry",
+                  "pronunciation": "/mǽri/",
+                  "pos": "動",
+                  "meaning": "結婚する"
+                },
+                {
+                  "id": "G3_U5_GL_W_15",
+                  "headword": "instead of ~",
+                  "meaning": "～の代わりに"
+                },
+                {
+                  "id": "G3_U5_GL_W_16",
+                  "headword": "under",
+                  "pronunciation": "/ʌ́ndər/",
+                  "pos": "前",
+                  "meaning": "～より少なく、～未満の"
+                },
+                {
+                  "id": "G3_U5_GL_W_17",
+                  "headword": "those",
+                  "pronunciation": "/ðóuz/",
+                  "pos": "代",
+                  "meaning": "それらの、あれらの"
+                },
+                {
+                  "id": "G3_U5_GL_W_18",
+                  "headword": "million",
+                  "pronunciation": "/míljən/",
+                  "pos": "名/形",
+                  "meaning": "100万（の）"
+                },
+                {
+                  "id": "G3_U5_GL_W_19",
+                  "headword": "throughout",
+                  "pronunciation": "/θruːáut/",
+                  "pos": "前",
+                  "meaning": "～の至る所に"
+                },
+                {
+                  "id": "G3_U5_GL_W_20",
+                  "headword": "access",
+                  "pronunciation": "/ǽkses/",
+                  "pos": "名",
+                  "meaning": "（面会・利用などの）権利、機会"
+                },
+                {
+                  "id": "G3_U5_GL_W_21",
+                  "headword": "electricity",
+                  "pronunciation": "/ilèktrísəti/",
+                  "pos": "名",
+                  "meaning": "電力"
+                },
+                {
+                  "id": "G3_U5_GL_W_22",
+                  "headword": "plus",
+                  "pronunciation": "/plʌ́s/",
+                  "pos": "接",
+                  "meaning": "そしてその上、しかも"
+                },
+                {
+                  "id": "G3_U5_GL_W_23",
+                  "headword": "have access to ~",
+                  "meaning": "～を利用することができる"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "presentation_manuscript",
+                  "header": "Girls' Education in Africa (アフリカの女子教育) - Goto Eri",
+                  "items": [
+                    {
+                      "id": "G3_U5_GL_S_01",
+                      "tag": "Introduction",
+                      "en": "Did you know that around 50 percent of children don't go to junior high school in Sub-Saharan African countries?",
+                      "ja": "皆さんはサハラ砂漠以南の国々では約50%の子どもたちが中学校へ通っていないことを知っていましたか。"
+                    },
+                    {
+                      "id": "G3_U5_GL_S_02",
+                      "tag": "Introduction",
+                      "en": "In this graph, you'll find the percentage of girls is more than that of boys.",
+                      "ja": "このグラフでは、女の子の割合が男の子の割合より高いことがわかるでしょう。"
+                    },
+                    {
+                      "id": "G3_U5_GL_S_03",
+                      "tag": "Introduction",
+                      "en": "In some countries, the gap is more than 10 percent.",
+                      "ja": "いくつかの国々では、その隔たりは10%を超えます。"
+                    },
+                    {
+                      "id": "G3_U5_GL_S_04",
+                      "tag": "Introduction",
+                      "en": "Why don't many girls go to school?",
+                      "ja": "どうして多くの女の子たちが学校に行かないのでしょうか。"
+                    },
+                    {
+                      "id": "G3_U5_GL_S_05",
+                      "tag": "Introduction",
+                      "en": "There are two reasons.",
+                      "ja": "それには2つの理由があります。"
+                    },
+                    {
+                      "id": "G3_U5_GL_S_06",
+                      "tag": "Reason 1",
+                      "en": "First, it's because of poverty.",
+                      "ja": "1つ目に、貧困が原因です。"
+                    },
+                    {
+                      "id": "G3_U5_GL_S_07",
+                      "tag": "Reason 1",
+                      "en": "Instead of going to school, many girls have to do housework or help with work.",
+                      "ja": "学校へ行く代わりに、多くの女の子が家事をしたり仕事の手伝いをしたりしなければなりません。"
+                    },
+                    {
+                      "id": "G3_U5_GL_S_08",
+                      "tag": "Reason 1",
+                      "en": "This is a graph that shows the percentages of working children by region.",
+                      "ja": "これは、地域ごとに働く子どもたちの割合を示すグラフです。"
+                    },
+                    {
+                      "id": "G3_U5_GL_S_09",
+                      "tag": "Reason 1",
+                      "en": "You'll find the percentage is very large in Sub-Saharan African countries.",
+                      "ja": "サハラ砂漠以南の国々では、働く子どもたちの割合がとても大きいことがわかるでしょう。"
+                    },
+                    {
+                      "id": "G3_U5_GL_S_10",
+                      "tag": "Reason 1",
+                      "en": "It's more than 50 percent.",
+                      "ja": "50%を超えています。"
+                    },
+                    {
+                      "id": "G3_U5_GL_S_11",
+                      "tag": "Reason 2",
+                      "en": "Second, it's because of child marriage.",
+                      "ja": "2つ目に、児童婚が原因です。"
+                    },
+                    {
+                      "id": "G3_U5_GL_S_12",
+                      "tag": "Reason 2",
+                      "en": "There are many girls who marry under the age of 18 in those countries.",
+                      "ja": "それらの国々では、18歳未満で結婚する女の子が多くいます。"
+                    },
+                    {
+                      "id": "G3_U5_GL_S_13",
+                      "tag": "Reason 2",
+                      "en": "Some girls marry under the age of 15!",
+                      "ja": "中には15歳未満で結婚する女の子もいます！"
+                    },
+                    {
+                      "id": "G3_U5_GL_S_14",
+                      "tag": "Conclusion",
+                      "en": "I think all girls should be able to go to school.",
+                      "ja": "全ての女の子が学校へ行けるようになるべきだと思います。"
+                    },
+                    {
+                      "id": "G3_U5_GL_S_15",
+                      "tag": "Conclusion",
+                      "en": "For that, we have to solve the problems of poverty and child marriage.",
+                      "ja": "そのために、私たちは貧困と児童婚の問題を解決しなければなりません。"
+                    },
+                    {
+                      "id": "G3_U5_GL_S_16",
+                      "tag": "Conclusion",
+                      "en": "We can't do that quickly, but I'd like to do the things that I can do.",
+                      "ja": "それを素早くすることはできませんが、私は自分にできることをしたいです。"
+                    },
+                    {
+                      "id": "G3_U5_GL_S_17",
+                      "en": "[172 words]",
+                      "ja": "[172語]"
+                    }
+                  ]
+                },
+                {
+                  "type": "strategy_section",
+                  "header": "話の流れの示し方 (Flow Markers)",
+                  "items": [
+                    {
+                      "tag": "列挙する",
+                      "text": "First (of all), .... / Second, .... / Third, ...."
+                    },
+                    {
+                      "tag": "列挙する",
+                      "text": "To begin with, .... / Plus, ...."
+                    },
+                    {
+                      "tag": "例を示す",
+                      "text": "for example, / such as ～"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak: 世界の課題について調べ、発表しよう (p.113)",
+                  "label": "世界の電力不足についてのデータと解答例",
+                  "items": [
+                    {
+                      "id": "G3_U5_GL_S_18",
+                      "en": "733 million people (7億3300万人)",
+                      "ja": "7億3300万人"
+                    },
+                    {
+                      "id": "G3_U5_GL_S_19",
+                      "en": "Throughout the world, 733 million people didn't have access to electricity in 2020.",
+                      "ja": "2020年には世界中で7億3300万人が電気を利用できませんでした。"
+                    },
+                    {
+                      "id": "G3_U5_GL_S_20",
+                      "en": "What happens if you don't have electricity?",
+                      "ja": "もし電気がなかったら何が起こるでしょうか。"
+                    },
+                    {
+                      "id": "G3_U5_GL_S_21",
+                      "en": "For example, many students cannot do homework at night.",
+                      "ja": "たとえば、多くの学生は夜に宿題ができません。"
+                    },
+                    {
+                      "id": "G3_U5_GL_S_22",
+                      "tag": "解答例",
+                      "en": "There is a water problem in the world today.",
+                      "ja": "今日、世界には水の問題があります。"
+                    },
+                    {
+                      "id": "G3_U5_GL_S_23",
+                      "tag": "解答例",
+                      "en": "For example, many people in some regions don't have enough water, especially in Africa.",
+                      "ja": "たとえば、いくつかの地域の人々には、特にアフリカでは、十分な水がありません。"
+                    },
+                    {
+                      "id": "G3_U5_GL_S_24",
+                      "tag": "解答例",
+                      "en": "About 10 percent of people around the world don't have access to clean water.",
+                      "ja": "世界中の約10%の人々がきれいな水を利用できません。"
+                    }
+                  ]
+                },
+                {
+                  "type": "extra_section",
+                  "header": "Extra: 課題解決のための自分の考え (p.113)",
+                  "label": "水問題解決への提案（解答例）",
+                  "items": [
+                    {
+                      "id": "G3_U5_GL_S_25",
+                      "en": "We have to do something to solve this problem.",
+                      "ja": "この問題を解決するために何かをしなければなりません。"
+                    },
+                    {
+                      "id": "G3_U5_GL_S_26",
+                      "en": "We should not use too much water in our daily lives.",
+                      "ja": "私たちは日常生活の中で水を使いすぎるべきではありません。"
+                    },
+                    {
+                      "id": "G3_U5_GL_S_27",
+                      "en": "First, stop the water when you brush your teeth.",
+                      "ja": "まず、歯を磨くときは水を止めてください。"
+                    },
+                    {
+                      "id": "G3_U5_GL_S_28",
+                      "en": "Second, save water when you wash the dishes.",
+                      "ja": "2つ目に、食器を洗うときに水を節約しましょう。"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": "112-113"
+        },
+        "P1": {
+          "title": "Part 1: Tina からの提案",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G3_U5_P1_W_01",
+                  "headword": "presentation",
+                  "pronunciation": "/prìːzentéiʃən/",
+                  "pos": "名",
+                  "meaning": "プレゼンテーション、発表"
+                },
+                {
+                  "id": "G3_U5_P1_W_02",
+                  "headword": "suggestion",
+                  "pronunciation": "/səɡdʒéstʃən/",
+                  "pos": "名",
+                  "meaning": "提案"
+                },
+                {
+                  "id": "G3_U5_P1_W_03",
+                  "headword": "T-shirt(s)",
+                  "pronunciation": "/tíːʃə̀ːrt(s)/",
+                  "pos": "名",
+                  "meaning": "Tシャツ"
+                },
+                {
+                  "id": "G3_U5_P1_W_04",
+                  "headword": "contest",
+                  "pronunciation": "/kάntest/",
+                  "pos": "名",
+                  "meaning": "コンテスト"
+                },
+                {
+                  "id": "G3_U5_P1_W_05",
+                  "headword": "fair",
+                  "pronunciation": "/fέər/",
+                  "pos": "形",
+                  "meaning": "公平な、公正な"
+                },
+                {
+                  "id": "G3_U5_P1_W_06",
+                  "headword": "trade",
+                  "pronunciation": "/tréid/",
+                  "pos": "名",
+                  "meaning": "取引、貿易"
+                },
+                {
+                  "id": "G3_U5_P1_W_07",
+                  "headword": "fair trade",
+                  "pos": "名",
+                  "meaning": "フェアトレード"
+                },
+                {
+                  "id": "G3_U5_P1_W_08",
+                  "headword": "product(s)",
+                  "pronunciation": "/prάdəkt(s)/",
+                  "pos": "名",
+                  "meaning": "製品"
+                },
+                {
+                  "id": "G3_U5_P1_W_09",
+                  "headword": "explain",
+                  "pronunciation": "/ikspléin/",
+                  "pos": "動",
+                  "meaning": "～を説明する"
+                },
+                {
+                  "id": "G3_U5_P1_W_10",
+                  "headword": "cotton",
+                  "pronunciation": "/kάtn/",
+                  "pos": "名",
+                  "meaning": "綿、木綿"
+                },
+                {
+                  "id": "G3_U5_P1_W_11",
+                  "headword": "change",
+                  "pronunciation": "/tʃéindʒ/",
+                  "pos": "動",
+                  "meaning": "～を変える"
+                },
+                {
+                  "id": "G3_U5_P1_W_12",
+                  "headword": "mainly",
+                  "pronunciation": "/méinli/",
+                  "pos": "副",
+                  "meaning": "主に"
+                },
+                {
+                  "id": "G3_U5_P1_W_13",
+                  "headword": "developing",
+                  "pronunciation": "/divéləpiŋ/",
+                  "pos": "形",
+                  "meaning": "発展［開発］途上の"
+                },
+                {
+                  "id": "G3_U5_P1_W_14",
+                  "headword": "farmer(s)",
+                  "pronunciation": "/fάːrmər(z)/",
+                  "pos": "名",
+                  "meaning": "農家、農場主"
+                },
+                {
+                  "id": "G3_U5_P1_W_15",
+                  "headword": "little",
+                  "pronunciation": "/lítl/",
+                  "pos": "形",
+                  "meaning": "ほとんど～ない"
+                },
+                {
+                  "id": "G3_U5_P1_W_16",
+                  "headword": "income",
+                  "pronunciation": "/ínkʌm/",
+                  "pos": "名",
+                  "meaning": "収入"
+                },
+                {
+                  "id": "G3_U5_P1_W_17",
+                  "headword": "company",
+                  "pronunciation": "/kʌ́mpəni/",
+                  "pos": "名",
+                  "meaning": "会社",
+                  "note": "複数形：companies"
+                },
+                {
+                  "id": "G3_U5_P1_W_18",
+                  "headword": "low",
+                  "pronunciation": "/lóu/",
+                  "pos": "形",
+                  "meaning": "低い"
+                },
+                {
+                  "id": "G3_U5_P1_W_19",
+                  "headword": "cheaply",
+                  "pronunciation": "/tʃíːpli/",
+                  "pos": "副",
+                  "meaning": "安く"
+                },
+                {
+                  "id": "G3_U5_P1_W_20",
+                  "headword": "solve",
+                  "pronunciation": "/sάlv/",
+                  "pos": "動",
+                  "meaning": "～を解決する"
+                },
+                {
+                  "id": "G3_U5_P1_W_21",
+                  "headword": "picture",
+                  "pronunciation": "/píktʃər/",
+                  "pos": "名",
+                  "meaning": "画像、画面"
+                },
+                {
+                  "id": "G3_U5_P1_W_22",
+                  "headword": "which",
+                  "pronunciation": "/hwítʃ/",
+                  "pos": "関代",
+                  "usage": "〔目的格〕",
+                  "meaning": "（…が）～する［である］（もの）"
+                },
+                {
+                  "id": "G3_U5_P1_W_23",
+                  "headword": "earn",
+                  "pronunciation": "/ə́ːrn/",
+                  "pos": "動",
+                  "meaning": "（お金を）働いて得る、稼ぐ"
+                },
+                {
+                  "id": "G3_U5_P1_W_24",
+                  "headword": "enough",
+                  "pronunciation": "/inʌ́f/",
+                  "pos": "形",
+                  "meaning": "十分な、必要なだけの"
+                },
+                {
+                  "id": "G3_U5_P1_W_25",
+                  "headword": "sustainable",
+                  "pronunciation": "/səstéinəbl/",
+                  "pos": "形",
+                  "meaning": "持続可能な"
+                },
+                {
+                  "id": "G3_U5_P1_W_26",
+                  "headword": "production",
+                  "pronunciation": "/prədʌ́kʃən/",
+                  "pos": "名",
+                  "meaning": "製造、生産"
+                },
+                {
+                  "id": "G3_U5_P1_W_27",
+                  "headword": "make a suggestion",
+                  "meaning": "提案をする"
+                },
+                {
+                  "id": "G3_U5_P1_W_28",
+                  "headword": "enough ~ to ...",
+                  "meaning": "…するのに十分な～"
+                },
+                {
+                  "id": "G3_U5_P1_W_29",
+                  "headword": "in this way",
+                  "meaning": "このようにして"
+                },
+                {
+                  "id": "G3_U5_P1_W_30",
+                  "headword": "make a choice [choices]",
+                  "meaning": "選択する"
+                },
+                {
+                  "id": "G3_U5_P1_W_31",
+                  "headword": "Korean",
+                  "pronunciation": "/kəríːən/",
+                  "pos": "形",
+                  "meaning": "韓国の"
+                },
+                {
+                  "id": "G3_U5_P1_W_32",
+                  "headword": "cushion",
+                  "pronunciation": "/kúʃən/",
+                  "pos": "名",
+                  "meaning": "クッション"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "presentation_section",
+                  "header": "Tina's Presentation",
+                  "items": [
+                    {
+                      "id": "G3_U5_P1_S_01",
+                      "ref_num": "①",
+                      "speaker": "Title",
+                      "en": "Tina's Presentation:",
+                      "ja": "ティナのプレゼンテーション："
+                    },
+                    {
+                      "id": "G3_U5_P1_S_02",
+                      "ref_num": "②",
+                      "en": "Today, I would like to make a suggestion about T-shirts for the contest.",
+                      "ja": "今日は、コンテストの T シャツについて提案をしたいと思います。"
+                    },
+                    {
+                      "id": "G3_U5_P1_S_03",
+                      "ref_num": "③",
+                      "en": "How about choosing fair trade products?",
+                      "ja": "フェアトレードの製品を選ぶのはいかがでしょうか。"
+                    },
+                    {
+                      "id": "G3_U5_P1_S_04",
+                      "ref_num": "④",
+                      "en": "I will explain the reason.",
+                      "ja": "理由を説明します。"
+                    },
+                    {
+                      "id": "G3_U5_P1_S_05",
+                      "ref_num": "⑤",
+                      "en": "T-shirts are made of cotton, and they're mainly produced in developing countries.",
+                      "ja": "T シャツは綿から作られていて、主に発展途上国で生産されています。"
+                    },
+                    {
+                      "id": "G3_U5_P1_S_06",
+                      "ref_num": "⑥",
+                      "en": "In these countries, many cotton farmers receive little income because big companies buy cotton at low prices to produce a lot of clothes cheaply.",
+                      "ja": "これらの国では、大企業が大量の服を安く生産するために綿を安価で買うので、多くの綿農家はほんのわずかな収入しか受け取りません。"
+                    },
+                    {
+                      "id": "G3_U5_P1_S_07",
+                      "ref_num": "⑦",
+                      "en": "So what can we do to help them?",
+                      "ja": "では、彼らを助けるために私たちには何ができるでしょうか。"
+                    },
+                    {
+                      "id": "G3_U5_P1_S_08",
+                      "ref_num": "⑧",
+                      "en": "Fair trade is one of the ways to solve that problem.",
+                      "ja": "フェアトレードはこの問題を解決するための1つの方法です。"
+                    },
+                    {
+                      "id": "G3_U5_P1_S_09",
+                      "ref_num": "⑨",
+                      "en": "Look at this picture which I found on the internet.",
+                      "ja": "私がインターネットで見つけたこの写真を見てください。"
+                    },
+                    {
+                      "id": "G3_U5_P1_S_10",
+                      "ref_num": "⑩",
+                      "en": "If we choose fair trade products, farmers can earn enough money to live.",
+                      "ja": "フェアトレードの製品を選べば、農家は生活するのに十分なお金を稼ぐことができます。"
+                    },
+                    {
+                      "id": "G3_U5_P1_S_11",
+                      "ref_num": "⑪",
+                      "en": "In this way, we can develop a fair and sustainable system of production.",
+                      "ja": "このようにして、公正で持続可能な生産方法を開発することができます。"
+                    },
+                    {
+                      "id": "G3_U5_P1_S_12",
+                      "ref_num": "⑫",
+                      "en": "We can start to change the world by making smart choices.",
+                      "ja": "賢い選択をすることで、世界を変え始めることができます。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak (p.100)",
+                  "label": "日本の文化を紹介しよう",
+                  "items": [
+                    {
+                      "id": "G3_U5_P1_S_13",
+                      "speaker": "[例]",
+                      "en": "This is a cushion which people in Japan use on a tatami floor. It's called a zabuton.",
+                      "ja": "これは日本の人々が畳の上で使うクッションです。座布団と呼ばれます。"
+                    },
+                    {
+                      "id": "G3_U5_P1_S_14",
+                      "speaker": "[解答例1]",
+                      "en": "This is a kimono which people in Japan wear in summer. It's called a yukata.",
+                      "ja": "これは日本の人々が夏に着る着物です。浴衣と呼ばれます。"
+                    },
+                    {
+                      "id": "G3_U5_P1_S_15",
+                      "speaker": "[解答例2]",
+                      "en": "This is a card which people in Japan send in the New Year. It's called a nengajo.",
+                      "ja": "これは日本の人々が新年に送るカードです。年賀状と呼ばれます。"
+                    }
+                  ]
+                }
+              ]
+            },
+            "GRAMMAR": {
+              "items": [
+                {
+                  "id": "G3_U5_P1_K_01",
+                  "en": "Look at this picture (==**which**==) I found on the internet.",
+                  "ja": "私がインターネットで見つけたこの写真を見てください。",
+                  "ref_id": "G3_U5_P1_S_09"
+                }
+              ],
+              "content_blocks": []
+            }
+          },
+          "explanations": {},
+          "page": 100
+        },
+        "P1_G": {
+          "title": "Part 1 解説",
+          "views": {
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "「～が…する（もの）」と説明を加える。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "Look at this picture (==**which**==) I found on the internet.",
+                      "ja": "(私がインターネットで見つけたこの写真を見てください。)",
+                      "ref_id": "G3_U5_P1_S_09"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "関係代名詞 which (目的格)",
+                  "text": "関係代名詞 ==**which**== は、which に続く文の主語の働き（主格）のほかに、目的語の働き（目的格）もします。目的語の働きをするときは、which の後には、==**〈主語＋動詞〉**== が続きます。目的語になる関係代名詞はよく省略されます。",
+                  "items": [
+                    {
+                      "tag": "構成",
+                      "en": "this picture (この写真) ← [ (==**which**==) I found on the internet (私がインターネットで見つけた) ]",
+                      "note": "found の目的語が which になり、picture を修飾している"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G3_U5_P1G_E_01",
+                      "ref_num": "②",
+                      "en": "Today, I would like to make a suggestion about T-shirts for the contest.",
+                      "text": "**make a suggestion** は「提案をする」という意味です。",
+                      "ref_id": "G3_U5_P1_S_02"
+                    },
+                    {
+                      "id": "G3_U5_P1G_E_02",
+                      "ref_num": "⑤",
+                      "en": "T-shirts are made of cotton, and they're mainly produced in developing countries.",
+                      "text": "**are made of ～** と **they're mainly produced ～** は **〈be動詞＋動詞の過去分詞〉** の形で、受け身の文です。**they** は直前の **T-shirts** を指しています。",
+                      "ref_id": "G3_U5_P1_S_05"
+                    },
+                    {
+                      "id": "G3_U5_P1G_E_03",
+                      "ref_num": "⑧",
+                      "en": "Fair trade is one of the ways to solve that problem.",
+                      "text": "**one of ～** は、**〈one of ＋名詞の複数形〉** の形で、「～のうちの1つ、1人」という意味を表します。**that problem** は、2つ前の文 **In these countries, ～ cheaply.** の内容を指しています。",
+                      "ref_id": "G3_U5_P1_S_08"
+                    },
+                    {
+                      "id": "G3_U5_P1G_E_04",
+                      "ref_num": "⑨",
+                      "en": "Look at this picture which I found on the internet.",
+                      "text": "**which I found on the internet** は、関係代名詞 **which** に続く句が「私がインターネット上で見つけた」という意味で、その前にある名詞 **(this picture)** に説明を加えています。この関係代名詞 **which** は、目的語の代わりに使われています。**found** は **find** の過去形、過去分詞です。",
+                      "ref_id": "G3_U5_P1_S_09"
+                    },
+                    {
+                      "id": "G3_U5_P1G_E_05",
+                      "ref_num": "⑩",
+                      "en": "If we choose fair trade products, farmers can earn enough money to live.",
+                      "text": "**enough ～ to ...** は「…するのに十分な～」という意味です。",
+                      "ref_id": "G3_U5_P1_S_10"
+                    },
+                    {
+                      "id": "G3_U5_P1G_E_06",
+                      "ref_num": "⑪",
+                      "en": "In this way, we can develop a fair and sustainable system of production.",
+                      "text": "**in this way** は「このようにして」という意味で、前の発言を説明するときに使う表現です。",
+                      "ref_id": "G3_U5_P1_S_11"
+                    },
+                    {
+                      "id": "G3_U5_P1G_E_07",
+                      "ref_num": "⑫",
+                      "en": "We can start to change the world by making smart choices.",
+                      "text": "**making a choice[choices]** は「選択する」という意味です。**by** は、「～で、～によって」という意味の手段・方法を示す前置詞です。",
+                      "ref_id": "G3_U5_P1_S_12"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 105
+        },
+        "P2": {
+          "title": "Part 2: Tina の思い",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G3_U4_P2_W_01",
+                  "headword": "that",
+                  "pronunciation": "/ðæt, ðət/",
+                  "pos": "関代",
+                  "usage": "〔目的格〕",
+                  "meaning": "（…が）～する［である］（人・もの）"
+                },
+                {
+                  "id": "G3_U4_P2_W_02",
+                  "headword": "give",
+                  "pronunciation": "/ɡív/",
+                  "pos": "動",
+                  "usage": "〔スピーチ・演技など〕",
+                  "meaning": "行う"
+                },
+                {
+                  "id": "G3_U4_P2_W_03",
+                  "headword": "accessory",
+                  "pronunciation": "/æksésəri/",
+                  "pos": "名",
+                  "meaning": "アクセサリー",
+                  "note": "複数形：accessories"
+                },
+                {
+                  "id": "G3_U4_P2_W_04",
+                  "headword": "affect(s)",
+                  "pronunciation": "/əfékt(s)/",
+                  "pos": "動",
+                  "meaning": "～に影響する"
+                },
+                {
+                  "id": "G3_U4_P2_W_05",
+                  "headword": "producer(s)",
+                  "pronunciation": "/prədʒúːsər(z)/",
+                  "pos": "名",
+                  "meaning": "生産者"
+                },
+                {
+                  "id": "G3_U4_P2_W_06",
+                  "headword": "distant",
+                  "pronunciation": "/dístənt/",
+                  "pos": "形",
+                  "meaning": "遠く離れた"
+                },
+                {
+                  "id": "G3_U4_P2_W_07",
+                  "headword": "challenging",
+                  "pronunciation": "/tʃǽlindʒiŋ/",
+                  "pos": "形",
+                  "meaning": "意欲をそそる、困難な"
+                },
+                {
+                  "id": "G3_U4_P2_W_08",
+                  "headword": "rewarding",
+                  "pronunciation": "/riwɔ́ːrdiŋ/",
+                  "pos": "形",
+                  "meaning": "やりがいのある"
+                },
+                {
+                  "id": "G3_U4_P2_W_09",
+                  "headword": "admire",
+                  "pronunciation": "/əd-máiər/",
+                  "pos": "動",
+                  "meaning": "～に感心する、～を尊敬する"
+                },
+                {
+                  "id": "G3_U4_P2_W_10",
+                  "headword": "come true",
+                  "meaning": "実現する"
+                },
+                {
+                  "id": "G3_U4_P2_W_11",
+                  "headword": "recommend",
+                  "pronunciation": "/rèkəménd/",
+                  "pos": "動",
+                  "meaning": "～を勧める"
+                },
+                {
+                  "id": "G3_U4_P2_W_12",
+                  "headword": "ever",
+                  "pronunciation": "/évər/",
+                  "pos": "副",
+                  "usage": "〔最上級・比較級の強調〕",
+                  "meaning": "今までに"
+                },
+                {
+                  "id": "G3_U4_P2_W_13",
+                  "headword": "adventure",
+                  "pronunciation": "/ədvéntʃər/",
+                  "pos": "名",
+                  "meaning": "冒険、はらはらする経験"
+                },
+                {
+                  "id": "G3_U4_P2_W_14",
+                  "headword": "pirate(s)",
+                  "pronunciation": "/páiərət(s)/",
+                  "pos": "名",
+                  "meaning": "海賊"
+                },
+                {
+                  "id": "G3_U4_P2_W_15",
+                  "headword": "sail",
+                  "pronunciation": "/séil/",
+                  "pos": "動",
+                  "meaning": "～を航行する、船で行く"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "dialogue_section",
+                  "header": "Tina の思い (p.101)",
+                  "items": [
+                    {
+                      "id": "G3_U5_P2_S_Q1",
+                      "speaker": "Question",
+                      "en": "Q. Tina と Hajin がいつか実現したいことは何でしょうか。",
+                      "ja": "Q. ティナとハジンがいつか実現したいことは何でしょうか。"
+                    },
+                    {
+                      "id": "G3_U5_P2_S_A1",
+                      "speaker": "Answer",
+                      "en": "A. (例) Tina は彼女のおばと働きたい。Hajin はプロのバスケットボール選手になりたい。",
+                      "ja": "A. (例) ティナは彼女のおばと働きたい。ハジンはプロのバスケットボール選手になりたい。"
+                    },
+                    {
+                      "id": "G3_U5_P2_S_01",
+                      "ref_num": "①",
+                      "speaker": "Setting",
+                      "en": "Later, in the classroom:",
+                      "ja": "その後、教室で："
+                    },
+                    {
+                      "id": "G3_U5_P2_S_02",
+                      "ref_num": "②",
+                      "speaker": "Eri",
+                      "en": "The presentation that you gave was great!",
+                      "ja": "ティナがしたプレゼンテーションはすごかったよ！"
+                    },
+                    {
+                      "id": "G3_U5_P2_S_03",
+                      "ref_num": "③",
+                      "speaker": "Tina",
+                      "en": "Thank you.",
+                      "ja": "ありがとう。"
+                    },
+                    {
+                      "id": "G3_U5_P2_S_04",
+                      "ref_num": "④",
+                      "speaker": "Kota",
+                      "en": "Yes, I was impressed, too.",
+                      "ja": "うん、ぼくも感動したよ。"
+                    },
+                    {
+                      "id": "G3_U5_P2_S_05",
+                      "ref_num": "⑤",
+                      "speaker": "Kota",
+                      "en": "What made you interested in fair trade?",
+                      "ja": "どうしてフェアトレードに興味を持ったの？"
+                    },
+                    {
+                      "id": "G3_U5_P2_S_06",
+                      "ref_num": "⑥",
+                      "speaker": "Tina",
+                      "en": "My aunt runs a fair trade shop in New York.",
+                      "ja": "私のおばさんがニューヨークでフェアトレードのお店を経営しているの。"
+                    },
+                    {
+                      "id": "G3_U5_P2_S_07",
+                      "ref_num": "⑦",
+                      "speaker": "Tina",
+                      "en": "She sells clothes and accessories.",
+                      "ja": "彼女は服やアクセサリーを販売しているんだよ。"
+                    },
+                    {
+                      "id": "G3_U5_P2_S_08",
+                      "ref_num": "⑧",
+                      "speaker": "Tina",
+                      "en": "Her work directly affects the lives of producers in distant countries.",
+                      "ja": "彼女の仕事は遠い国の生産者の生活に直接影響しているんだ。"
+                    },
+                    {
+                      "id": "G3_U5_P2_S_09",
+                      "ref_num": "⑨",
+                      "speaker": "Tina",
+                      "en": "She says her job is challenging but rewarding.",
+                      "ja": "おばさんは、仕事は困難だけどやりがいがあるって言ってるよ。"
+                    },
+                    {
+                      "id": "G3_U5_P2_S_10",
+                      "ref_num": "⑩",
+                      "speaker": "Tina",
+                      "en": "She's a really cool person, and I admire her.",
+                      "ja": "本当にかっこいい人で、私は尊敬しているの。"
+                    },
+                    {
+                      "id": "G3_U5_P2_S_11",
+                      "ref_num": "⑪",
+                      "speaker": "Tina",
+                      "en": "One day, I want to work with her.",
+                      "ja": "いつか、おばさんといっしょに働きたいんだ。"
+                    },
+                    {
+                      "id": "G3_U5_P2_S_12",
+                      "ref_num": "⑫",
+                      "speaker": "Kota",
+                      "en": "I'm sure your dream will come true.",
+                      "ja": "ティナの夢はきっと叶うよ。"
+                    },
+                    {
+                      "id": "G3_U5_P2_S_13",
+                      "ref_num": "⑬",
+                      "speaker": "Eri",
+                      "en": "Hajin, what do you want to do in the future?",
+                      "ja": "ハジンは将来何をしたいの？"
+                    },
+                    {
+                      "id": "G3_U5_P2_S_14",
+                      "ref_num": "⑭",
+                      "speaker": "Hajin",
+                      "en": "I want to keep playing basketball and become a professional basketball player.",
+                      "ja": "バスケットボールをし続けてプロのバスケットボール選手になりたいんだ。"
+                    },
+                    {
+                      "id": "G3_U5_P2_S_15",
+                      "ref_num": "⑮",
+                      "speaker": "Eri",
+                      "en": "We'll watch you on TV!",
+                      "ja": "テレビで見るよ！"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak (p.102)",
+                  "label": "おすすめの本や映画を紹介しよう",
+                  "items": [
+                    {
+                      "id": "G3_U5_P2_S_16",
+                      "speaker": "[例] A",
+                      "en": "I recommend One Piece. It's the best comic book that I've ever read.",
+                      "ja": "私は「ワンピース」をお勧めします。それは私が今まで読んだ中で一番よい漫画本です。"
+                    },
+                    {
+                      "id": "G3_U5_P2_S_17",
+                      "speaker": "[例] B",
+                      "en": "What's it about?",
+                      "ja": "それは何についての本ですか。"
+                    },
+                    {
+                      "id": "G3_U5_P2_S_18",
+                      "speaker": "[例] A",
+                      "en": "It's an adventure story about pirates that sail the sea and look for treasure.",
+                      "ja": "航海して宝を探す海賊たちの冒険物語です。"
+                    },
+                    {
+                      "id": "G3_U5_P2_S_19",
+                      "speaker": "[解答例] A",
+                      "en": "I recommend Harry Potter. It's the most exciting movie that I've ever seen.",
+                      "ja": "私は「ハリー・ポッター」をお勧めします。それは私が今まで見た中で一番わくわくする映画です。"
+                    },
+                    {
+                      "id": "G3_U5_P2_S_20",
+                      "speaker": "[解答例] B",
+                      "en": "What's it about?",
+                      "ja": "それは何についての映画ですか。"
+                    },
+                    {
+                      "id": "G3_U5_P2_S_21",
+                      "speaker": "[解答例] A",
+                      "en": "It's a movie about the students that go to a magic school.",
+                      "ja": "魔法の学校に通う生徒たちについての映画です。"
+                    },
+                    {
+                      "id": "G3_U5_P2_S_22",
+                      "speaker": "Write [解答例]",
+                      "en": "Harry Potter is a movie about the students that go to a magic school.",
+                      "ja": "「ハリー・ポッター」は魔法の学校に通う生徒たちについての映画です。"
+                    }
+                  ]
+                }
+              ]
+            },
+            "GRAMMAR": {
+              "items": [
+                {
+                  "id": "G3_U5_P2_K_01",
+                  "en": "The presentation (==**that**==) you gave was great!",
+                  "ja": "あなたがしたプレゼンテーションはすばらしかったです。",
+                  "ref_id": "G3_U5_P2_S_02"
+                }
+              ],
+              "content_blocks": []
+            }
+          },
+          "explanations": {},
+          "page": 102
+        },
+        "P2_G": {
+          "title": "Part 2 解説",
+          "views": {
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "「～が…する（もの・人）」と説明を加える。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "The presentation (==**that**==) you gave was great!",
+                      "ja": "(あなたがしたプレゼンテーションはすばらしかったです。)",
+                      "ref_id": "G3_U5_P2_S_02"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "関係代名詞 that (目的格)",
+                  "text": "関係代名詞 ==**that**== は、that に続く文の主語の働き（主格）のほかに、目的語の働き（目的格）もします。目的語の働きをするときは、that の後には、==**〈主語＋動詞〉**== が続きます。目的語になる関係代名詞はよく省略されます。",
+                  "items": [
+                    {
+                      "tag": "構成",
+                      "en": "The presentation (プレゼンテーション) ← [ (==**that**==) you gave (あなたがした) ]",
+                      "note": "gave の目的語が that になり、presentation を修飾している"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G3_U5_P2G_E_01",
+                      "ref_num": "②",
+                      "en": "The presentation that you gave was great!",
+                      "text": "この文の主語は、the presentation that you gave です。関係代名詞 **that** に続く語句が「～が…する」という意味で、その前にある名詞 **(the presentation)** に説明を加えています。関係代名詞 **that** は、目的語の働きで使われています。",
+                      "ref_id": "G3_U5_P2_S_02"
+                    },
+                    {
+                      "id": "G3_U5_P2G_E_02",
+                      "ref_num": "④",
+                      "en": "Yes, I was impressed, too.",
+                      "note": "→教科書p.64 Key Phrase",
+                      "text": "**I was impressed.** は「感動しました。」と相手に伝えるときの表現です。",
+                      "ref_id": "G3_U5_P2_S_04"
+                    },
+                    {
+                      "id": "G3_U5_P2G_E_03",
+                      "ref_num": "⑤",
+                      "en": "What made you interested in fair trade?",
+                      "text": "この文の **made** は、**〈make ＋人・もの＋形容詞〉** の形で「（人・もの）を～（の状態）にする」という意味で使われており、文全体は「何があなたをフェアトレードに興味をもたせましたか。」という意味になります。**What** が主語です。",
+                      "ref_id": "G3_U5_P2_S_05"
+                    },
+                    {
+                      "id": "G3_U5_P2G_E_04",
+                      "ref_num": "⑫",
+                      "en": "I'm sure your dream will come true.",
+                      "text": "**I'm sure ～.** で「きっと～だ。」という意味です。**come true** は「実現する」という意味です。",
+                      "ref_id": "G3_U5_P2_S_12"
+                    },
+                    {
+                      "id": "G3_U5_P2G_E_05",
+                      "ref_num": "⑭",
+                      "en": "I want to keep playing basketball and become a professional basketball player.",
+                      "text": "**want to ～** は「～したい」、**〈keep ＋動詞の -ing形〉** は「～し続ける」という意味で、**want to keep playing basketball** は「バスケットボールをし続けたい」という意味になります。",
+                      "ref_id": "G3_U5_P2_S_14"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 106
+        },
+        "P3": {
+          "title": "Part 3: Kota が感じていることは",
+          "views": {
+            "VOCABULARY": {
+              "items": [
+                {
+                  "id": "G3_U5_P3_W_01",
+                  "headword": "past",
+                  "pronunciation": "/pǽst/",
+                  "pos": "形",
+                  "meaning": "過ぎたばかりの、この～"
+                },
+                {
+                  "id": "G3_U5_P3_W_02",
+                  "headword": "memorable",
+                  "pronunciation": "/mémərəbl/",
+                  "pos": "形",
+                  "meaning": "記憶すべき、記憶に残る、忘れられない"
+                },
+                {
+                  "id": "G3_U5_P3_W_03",
+                  "headword": "particular",
+                  "pronunciation": "/pərtíkjələr/",
+                  "pos": "形",
+                  "meaning": "特定の"
+                },
+                {
+                  "id": "G3_U5_P3_W_04",
+                  "headword": "get",
+                  "pronunciation": "/ɡét/",
+                  "pos": "動",
+                  "usage": "〔get to ～で〕",
+                  "meaning": "～するようになる"
+                },
+                {
+                  "id": "G3_U5_P3_W_05",
+                  "headword": "eye-opener",
+                  "pronunciation": "/áiòupənər/",
+                  "pos": "名",
+                  "meaning": "目を見張らせる出来事"
+                },
+                {
+                  "id": "G3_U5_P3_W_06",
+                  "headword": "viewpoint",
+                  "pronunciation": "/vjúːpɔ̀int/",
+                  "pos": "名",
+                  "meaning": "観点、立場"
+                },
+                {
+                  "id": "G3_U5_P3_W_07",
+                  "headword": "responsibility",
+                  "pronunciation": "/rispὰnsəbíləti/",
+                  "pos": "名",
+                  "meaning": "責任"
+                },
+                {
+                  "id": "G3_U5_P3_W_08",
+                  "headword": "Ricky",
+                  "note": "コウタが世話をする犬の名",
+                  "meaning": "リッキー"
+                },
+                {
+                  "id": "G3_U5_P3_W_09",
+                  "headword": "open",
+                  "pronunciation": "/óupən/",
+                  "pos": "形",
+                  "meaning": "進んで受け入れる"
+                },
+                {
+                  "id": "G3_U5_P3_W_10",
+                  "headword": "across",
+                  "pronunciation": "/əkrɔ́ːs, əkrάs/",
+                  "pos": "前",
+                  "meaning": "～と出くわして"
+                },
+                {
+                  "id": "G3_U5_P3_W_11",
+                  "headword": "interest",
+                  "pronunciation": "/íntərəst/",
+                  "pos": "動",
+                  "meaning": "～に興味をもたせる"
+                },
+                {
+                  "id": "G3_U5_P3_W_12",
+                  "headword": "career",
+                  "pronunciation": "/kəríər/",
+                  "pos": "名",
+                  "meaning": "（生涯の）仕事、職業"
+                },
+                {
+                  "id": "G3_U5_P3_W_13",
+                  "headword": "care",
+                  "pronunciation": "/kέər/",
+                  "pos": "動",
+                  "meaning": "～を気にかける"
+                },
+                {
+                  "id": "G3_U5_P3_W_14",
+                  "headword": "in the past ~ years",
+                  "meaning": "この～年で"
+                },
+                {
+                  "id": "G3_U5_P3_W_15",
+                  "headword": "in particular",
+                  "meaning": "特に、とりわけ"
+                },
+                {
+                  "id": "G3_U5_P3_W_16",
+                  "headword": "get to know ~",
+                  "meaning": "～と知り合いになる"
+                },
+                {
+                  "id": "G3_U5_P3_W_17",
+                  "headword": "care for ~",
+                  "meaning": "～の世話をする"
+                },
+                {
+                  "id": "G3_U5_P3_W_18",
+                  "headword": "come across ~",
+                  "meaning": "～をふと見つける"
+                },
+                {
+                  "id": "G3_U5_P3_W_19",
+                  "headword": "lead to ~",
+                  "meaning": "～につながる"
+                },
+                {
+                  "id": "G3_U5_P3_W_20",
+                  "headword": "Spanish",
+                  "pronunciation": "/spǽniʃ/",
+                  "pos": "名",
+                  "meaning": "スペイン語"
+                }
+              ],
+              "content_blocks": []
+            },
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "dialogue_section",
+                  "header": "Kota が感じていることは (p.103)",
+                  "items": [
+                    {
+                      "id": "G3_U5_P3_S_Q1",
+                      "speaker": "Question",
+                      "en": "Q. Kota が今感じているのは、どんなことでしょうか。",
+                      "ja": "Q. コウタが今感じているのは、どんなことでしょうか。"
+                    },
+                    {
+                      "id": "G3_U5_P3_S_A1",
+                      "speaker": "Answer",
+                      "en": "A. (例) 新しい経験や考え方を受け入れ続け、興味を引くものに出会えば、将来の仕事につながるかもしれないということ。",
+                      "ja": "A. (例) 新しい経験や考え方を受け入れ続け、興味を引くものに出会えば、将来の仕事につながるかもしれないということ。"
+                    },
+                    {
+                      "id": "G3_U5_P3_S_01",
+                      "ref_num": "①",
+                      "speaker": "Hajin",
+                      "en": "Kota, how about you?",
+                      "ja": "コウタはどうなの？"
+                    },
+                    {
+                      "id": "G3_U5_P3_S_02",
+                      "ref_num": "②",
+                      "speaker": "Kota",
+                      "en": "I'm not sure about my future, but I have some ideas.",
+                      "ja": "自分の将来はまだわからないけど、いくつか考えていることがあるんだ。"
+                    },
+                    {
+                      "id": "G3_U5_P3_S_03",
+                      "ref_num": "③",
+                      "speaker": "Kota",
+                      "en": "In the past three years, I've had a lot of memorable experiences.",
+                      "ja": "この3年間、忘れられない経験をたくさんしたよ。"
+                    },
+                    {
+                      "id": "G3_U5_P3_S_04",
+                      "ref_num": "④",
+                      "speaker": "Kota",
+                      "en": "In particular, meeting and getting to know David was an eye-opener for me.",
+                      "ja": "特に、デイヴィッドと出会って知り合ったことは、ぼくにとって目を見張らせる出来事だった。"
+                    },
+                    {
+                      "id": "G3_U5_P3_S_05",
+                      "ref_num": "⑤",
+                      "speaker": "Kota",
+                      "en": "I learned about life from the viewpoint of a person in a wheelchair.",
+                      "ja": "車いすの人の視点から見た生活について学んだよ。"
+                    },
+                    {
+                      "id": "G3_U5_P3_S_06",
+                      "ref_num": "⑥",
+                      "speaker": "Hajin",
+                      "en": "I see.",
+                      "ja": "なるほどね。"
+                    },
+                    {
+                      "id": "G3_U5_P3_S_07",
+                      "ref_num": "⑦",
+                      "speaker": "Kota",
+                      "en": "Being a puppy walker was another great experience I had.",
+                      "ja": "パピーウォーカーになったことは、私がしたもう1つのすばらしい経験だったよ。"
+                    },
+                    {
+                      "id": "G3_U5_P3_S_08",
+                      "ref_num": "⑧",
+                      "speaker": "Kota",
+                      "en": "I learned both about the joy and the responsibility of caring for Ricky.",
+                      "ja": "リッキーを世話することの喜びと責任の両方を学んだよ。"
+                    },
+                    {
+                      "id": "G3_U5_P3_S_09",
+                      "ref_num": "⑨",
+                      "speaker": "Kota",
+                      "en": "Now I feel that I want to be open to new experiences and ideas.",
+                      "ja": "今は新しい経験や考え方を進んで受け入れたいと思っているよ。"
+                    },
+                    {
+                      "id": "G3_U5_P3_S_10",
+                      "ref_num": "⑩",
+                      "speaker": "Tina",
+                      "en": "So?",
+                      "ja": "つまり？"
+                    },
+                    {
+                      "id": "G3_U5_P3_S_11",
+                      "ref_num": "⑪",
+                      "speaker": "Kota",
+                      "en": "If I keep doing that, I'll come across something that will interest me.",
+                      "ja": "それをし続ければ、何かぼくの興味を引くものに出会うと思う。"
+                    },
+                    {
+                      "id": "G3_U5_P3_S_12",
+                      "ref_num": "⑫",
+                      "speaker": "Kota",
+                      "en": "That might lead to my future career.",
+                      "ja": "それがぼくの将来の仕事につながるかもしれない。"
+                    },
+                    {
+                      "id": "G3_U5_P3_S_13",
+                      "speaker": "You're the Writer!",
+                      "en": "I hope so.",
+                      "ja": "(解答例) そうだといいね。"
+                    }
+                  ]
+                },
+                {
+                  "type": "practice_section",
+                  "header": "Speak (p.104)",
+                  "label": "近い将来挑戦したいこと",
+                  "items": [
+                    {
+                      "id": "G3_U5_P3_S_14",
+                      "speaker": "[例] A",
+                      "en": "Is there anything you want to try in the near future?",
+                      "ja": "近い将来あなたが挑戦したいことはありますか。"
+                    },
+                    {
+                      "id": "G3_U5_P3_S_15",
+                      "speaker": "[例] B",
+                      "en": "I'd like to try studying Spanish. I like watching Spanish-language movies, and I want to understand the words my favorite actors speak.",
+                      "ja": "スペイン語を勉強してみたいです。私はスペイン語の映画を見るのが好きで、お気に入りの俳優が話す言葉を理解したいです。"
+                    },
+                    {
+                      "id": "G3_U5_P3_S_16",
+                      "speaker": "[解答例] A",
+                      "en": "Is there anything you want to try in the near future?",
+                      "ja": "近い将来あなたが挑戦したいことはありますか。"
+                    },
+                    {
+                      "id": "G3_U5_P3_S_17",
+                      "speaker": "[解答例] B",
+                      "en": "I'd like to try running a marathon. My favorite singer likes running, and I want to run a marathon he is going to join.",
+                      "ja": "マラソンに挑戦してみたいです。私の好きな歌手は走ることが好きで、私は彼が参加するマラソンを走りたいです。"
+                    }
+                  ]
+                }
+              ]
+            },
+            "GRAMMAR": {
+              "items": [
+                {
+                  "id": "G3_U5_P3_K_01",
+                  "en": "Being a puppy walker was another great experience ==**I had**==.",
+                  "ja": "パピーウォーカーになったことは、私がしたもう1つのすばらしい経験です。",
+                  "ref_id": "G3_U5_P3_S_07"
+                }
+              ],
+              "content_blocks": []
+            }
+          },
+          "explanations": {},
+          "page": 104
+        },
+        "P3_G": {
+          "title": "Part 3 解説",
+          "views": {
+            "GRAMMAR": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "examples",
+                  "header": "基本文",
+                  "label": "「～が…する（もの・人）」と説明を加える。",
+                  "items": [
+                    {
+                      "ref_num": "①",
+                      "en": "Being a puppy walker was another great experience ==**I had**==.",
+                      "ja": "(パピーウォーカーになったことは、私がしたもう1つのすばらしい経験です。)",
+                      "ref_id": "G3_U5_P3_S_07"
+                    }
+                  ]
+                },
+                {
+                  "type": "point",
+                  "header": "学習のポイント！",
+                  "label": "後置修飾 (主語＋動詞)",
+                  "text": "==**〈主語＋動詞〉**== の形が、「～が…する」という意味で、その前にある名詞に説明（修飾）を加えることがあります。日本語では、名詞を説明（修飾）する語句は普通その前に置かれますが、英語では、その名詞の後ろに置かれることが多いので、覚えておきましょう。",
+                  "items": [
+                    {
+                      "tag": "構成",
+                      "en": "another great experience (もう1つのすばらしい経験) ← [ ==**I had**== (私がした) ]",
+                      "note": "関係代名詞 that などの目的格が省略された形"
+                    }
+                  ]
+                },
+                {
+                  "type": "explanation_list",
+                  "header": "本文の解説",
+                  "items": [
+                    {
+                      "id": "G3_U5_P3G_E_01",
+                      "ref_num": "③",
+                      "en": "In the past three years, I've had a lot of memorable experiences.",
+                      "text": "**in the past ～ years** は「この～年で」という意味です。**I've had** は **〈have[has] ＋過去分詞〉** の形で、完了を表す現在完了形です。",
+                      "ref_id": "G3_U5_P3_S_03"
+                    },
+                    {
+                      "id": "G3_U5_P3G_E_02",
+                      "ref_num": "④",
+                      "en": "In particular, meeting and getting to know David was an eye-opener for me.",
+                      "text": "**in particular** は「特に、とりわけ」、**get to know ～** は「～と知り合いになる」という意味です。この文の主語は、動名詞で始まる **meeting and getting to know David** です。",
+                      "ref_id": "G3_U5_P3_S_04"
+                    },
+                    {
+                      "id": "G3_U5_P3G_E_03",
+                      "ref_num": "⑦",
+                      "en": "Being a puppy walker was another great experience I had.",
+                      "text": "**I had** が、その前にある名詞 **(another great experience)** に後ろから説明（修飾）を加えています。",
+                      "ref_id": "G3_U5_P3_S_07"
+                    },
+                    {
+                      "id": "G3_U5_P3G_E_04",
+                      "ref_num": "⑧",
+                      "en": "I learned both about the joy and the responsibility of caring for Ricky.",
+                      "text": "**both ～ and ...** は「～も…も」、**care for ～** は「～の世話をする」という意味です。",
+                      "ref_id": "G3_U5_P3_S_08"
+                    },
+                    {
+                      "id": "G3_U5_P3G_E_05",
+                      "ref_num": "⑪",
+                      "en": "If I keep doing that, I'll come across something that will interest me.",
+                      "text": "**〈keep ＋動詞の -ing形〉** は「～し続ける」、**come across ～** は「～をふと見つける」、**interest** は「～に興味をもたせる」という意味を指しています。**keep doing that** の **that** は、1つ前のコウタの発言にある **be open to new experiences and ideas** を指しています。**something that will interest me** の **that** は主格の関係代名詞です。",
+                      "ref_id": "G3_U5_P3_S_11"
+                    },
+                    {
+                      "id": "G3_U5_P3G_E_06",
+                      "ref_num": "⑫",
+                      "en": "That might lead to my future career.",
+                      "text": "**might** は「～かもしれない」という味の助動詞です。**lead to ～** は「～につながる」という意味です。**That** は、前の文全体を指しています。",
+                      "ref_id": "G3_U5_P3_S_12"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 107
+        },
+        "ST": {
+          "title": "Start: My Dreams for the Future",
+          "views": {
+            "TEXT": {
+              "items": [],
+              "content_blocks": [
+                {
+                  "type": "goal_section",
+                  "header": "Unit 5 の目標 (Goal)",
+                  "items": [
+                    {
+                      "tag": "Read",
+                      "text": "プレゼンテーションの原稿を読み、概要を捉えることができる。"
+                    },
+                    {
+                      "tag": "Speak",
+                      "text": "調べたことや自分の考えを、順序立てて発表することができる。"
+                    }
+                  ]
+                },
+                {
+                  "type": "intro_section",
+                  "header": "About You",
+                  "items": [
+                    {
+                      "id": "G3_U5_ST_S_01",
+                      "en": "Do you have any dreams for the future?",
+                      "ja": "将来の夢はありますか。"
+                    },
+                    {
+                      "id": "G3_U5_ST_S_02",
+                      "en": "Yes, I do. I want to be a teacher.",
+                      "ja": "(例) はい、あります。私は先生になりたいです。",
+                      "tag": "例"
+                    }
+                  ]
+                },
+                {
+                  "type": "check_section",
+                  "header": "1. 予想する",
+                  "items": [
+                    {
+                      "id": "G3_U5_ST_S_03",
+                      "en": "What's Kota's dream for the future?",
+                      "ja": "コウタの将来の夢は何ですか。"
+                    },
+                    {
+                      "id": "G3_U5_ST_S_04",
+                      "en": "I think his dream is a nurse. I think he likes to work for other people.",
+                      "ja": "(例) 私は彼の夢は看護師だと思います。彼は人のために働くことが好きだと思います。",
+                      "tag": "例"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "explanations": {},
+          "page": 98
+        }
+      },
+      "hasAppendix": true
+    }
+  },
+  "allExplanations": {
+    "G3_U5_P1_S_02": "**make a suggestion** は「提案をする」という意味です。",
+    "G3_U5_P1_S_05": "**are made of ～** と **they're mainly produced ～** は **〈be動詞＋動詞の過去分詞〉** の形で、受け身の文です。**they** は直前の **T-shirts** を指しています。",
+    "G3_U5_P1_S_08": "**one of ～** は、**〈one of ＋名詞の複数形〉** の形で、「～のうちの1つ、1人」という意味を表します。**that problem** は、2つ前の文 **In these countries, ～ cheaply.** の内容を指しています。",
+    "G3_U5_P1_S_09": "**which I found on the internet** は、関係代名詞 **which** に続く句が「私がインターネット上で見つけた」という意味で、その前にある名詞 **(this picture)** に説明を加えています。この関係代名詞 **which** は、目的語の代わりに使われています。**found** は **find** の過去形、過去分詞です。",
+    "G3_U5_P1_S_10": "**enough ～ to ...** は「…するのに十分な～」という意味です。",
+    "G3_U5_P1_S_11": "**in this way** は「このようにして」という意味で、前の発言を説明するときに使う表現です。",
+    "G3_U5_P1_S_12": "**making a choice[choices]** は「選択する」という意味です。**by** は、「～で、～によって」という意味の手段・方法を示す前置詞です。",
+    "G3_U5_P2_S_02": "この文の主語は、the presentation that you gave です。関係代名詞 **that** に続く語句が「～が…する」という意味で、その前にある名詞 **(the presentation)** に説明を加えています。関係代名詞 **that** は、目的語の働きで使われています。",
+    "G3_U5_P2_S_04": "**I was impressed.** は「感動しました。」と相手に伝えるときの表現です。",
+    "G3_U5_P2_S_05": "この文の **made** は、**〈make ＋人・もの＋形容詞〉** の形で「（人・もの）を～（の状態）にする」という意味で使われており、文全体は「何があなたをフェアトレードに興味をもたせましたか。」という意味になります。**What** が主語です。",
+    "G3_U5_P2_S_12": "**I'm sure ～.** で「きっと～だ。」という意味です。**come true** は「実現する」という意味です。",
+    "G3_U5_P2_S_14": "**want to ～** は「～したい」、**〈keep ＋動詞の -ing形〉** は「～し続ける」という意味で、**want to keep playing basketball** は「バスケットボールをし続けたい」という意味になります。",
+    "G3_U5_P3_S_03": "**in the past ～ years** は「この～年で」という意味です。**I've had** は **〈have[has] ＋過去分詞〉** の形で、完了を表す現在完了形です。",
+    "G3_U5_P3_S_04": "**in particular** は「特に、とりわけ」、**get to know ～** は「～と知り合いになる」という意味です。この文の主語は、動名詞で始まる **meeting and getting to know David** です。",
+    "G3_U5_P3_S_07": "**I had** が、その前にある名詞 **(another great experience)** に後ろから説明（修飾）を加えています。",
+    "G3_U5_P3_S_08": "**both ～ and ...** は「～も…も」、**care for ～** は「～の世話をする」という意味です。",
+    "G3_U5_P3_S_11": "**〈keep ＋動詞の -ing形〉** は「～し続ける」、**come across ～** は「～をふと見つける」、**interest** は「～に興味をもたせる」という意味を指しています。**keep doing that** の **that** は、1つ前のコウタの発言にある **be open to new experiences and ideas** を指しています。**something that will interest me** の **that** は主格の関係代名詞です。",
+    "G3_U5_P3_S_12": "**might** は「～かもしれない」という味の助動詞です。**lead to ～** は「～につながる」という意味です。**That** は、前の文全体を指しています。"
+  }
+}
